@@ -39,6 +39,14 @@ def fetch(source):
 existing = json.loads(OUT.read_text()) if OUT.exists() else {"articles":[]}
 by_id = {}
 for article in existing.get("articles", []):
+    # Remove placeholder records when a previously broken source is repaired.
+    if article.get("id", "").startswith("broken:"):
+        _, school, name = article["id"].split(":", 2)
+        repaired = any(source.get("school") == school and source["name"] == name and not source.get("broken") for source in CONFIG["sources"])
+        # The old category was labelled "音樂班招生鑑定"; keep its placeholder from resurfacing after the label is corrected.
+        repaired = repaired or (school == "敦化國小" and name == "音樂班招生鑑定" and any(source.get("school") == school and source["name"] == "音樂班招生" and not source.get("broken") for source in CONFIG["sources"]))
+        if repaired:
+            continue
     article.setdefault("schools", ["仁愛國小"])
     if article.get("source") == "教育局消息":
         article["schools"] = CONFIG["schools"]
