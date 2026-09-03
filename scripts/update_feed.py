@@ -19,6 +19,20 @@ def date_value(raw):
     try: return parsedate_to_datetime(raw).astimezone(timezone.utc).isoformat()
     except Exception: return raw or ""
 
+def fetch_items_from_broken_xml(body, source):
+    """Recover RSS items when a school's descriptions contain invalid XML."""
+    text = body.decode("utf-8", errors="replace")
+    blocks = re.findall(r"<item\b[^>]*>(.*?)</item>", text, flags=re.I | re.S)
+    result = []
+    for block in blocks:
+        def val(name):
+            match = re.search(rf"<{name}\b[^>]*>(.*?)</{name}>", block, flags=re.I | re.S)
+            return clean(match.group(1)) if match else ""
+        link = html.unescape(val("link"))
+        guid = val("guid") or link or val("title")
+        result.append({"id":source["name"]+":"+source.get("school", "共同")+":"+guid,"schools":source.get("schools", [source.get("school")]),"source":source["name"],"title":val("title") or "未命名公告","published":date_value(val("pubDate")),"url":link,"summary":val("description")[:360]})
+    return result
+
 def fetch(source):
     if source.get("broken"):
         return [{"id":"broken:" + source["school"] + ":" + source["name"],"schools":[source["school"]],"source":source["name"],"title":"RSS 發生錯誤，無法搜集資料","published":"","url":"","summary":"此分類目前 RSS 發生錯誤，暫時無法搜集資料。"}]
@@ -26,6 +40,8 @@ def fetch(source):
     with urlopen(request, timeout=30) as response: body = response.read()
     try: root = ET.fromstring(body)
     except ET.ParseError:
+        recovered = fetch_items_from_broken_xml(body, source)
+        if recovered: return recovered
         return [{"id":"page:" + source["url"],"schools":source.get("schools", [source.get("school")]),"source":source["name"],"title":source["name"],"published":"","url":source["url"],"summary":clean(body.decode("utf-8", errors="replace"))[:360]}]
     result = []
     for item in root.findall(".//item"):
