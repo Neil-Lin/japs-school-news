@@ -38,7 +38,10 @@ existing = json.loads(OUT.read_text()) if OUT.exists() else {"articles":[]}
 by_id = {}
 for article in existing.get("articles", []):
     article.setdefault("schools", ["仁愛國小"])
-    if article.get("source") == "教育局消息": article["schools"] = ["仁愛國小", "建安國小"]
+    if article.get("source") == "教育局消息":
+        article["schools"] = ["仁愛國小", "建安國小"]
+        if ":共同:" not in article["id"]:
+            article["id"] = "教育局消息:共同:" + article["id"].split(":", 1)[-1]
     by_id[article["id"]] = article
 errors = []
 for source in CONFIG["sources"]:
