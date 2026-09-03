@@ -1,6 +1,11 @@
 {
-  "updatedAt": "2026-09-03T10:44:25.151108+00:00",
-  "errors": [],
+  "updatedAt": "2026-09-03T10:46:41.603120+00:00",
+  "errors": [
+    {
+      "source": "教育局消息",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1082)>"
+    }
+  ],
   "articles": [
     {
       "id": "教師研習及活動:光復國小:6a994719a9aaade00ddcc710",
