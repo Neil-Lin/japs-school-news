@@ -20,6 +20,8 @@ def date_value(raw):
     except Exception: return raw or ""
 
 def fetch(source):
+    if source.get("broken"):
+        return [{"id":"broken:" + source["school"] + ":" + source["name"],"schools":[source["school"]],"source":source["name"],"title":"RSS 發生錯誤，無法搜集資料","published":"","url":"","summary":"此分類目前 RSS 發生錯誤，暫時無法搜集資料。"}]
     request = Request(source["url"], headers={"User-Agent":"japs-school-news/1.0"})
     with urlopen(request, timeout=30) as response: body = response.read()
     try: root = ET.fromstring(body)
@@ -39,7 +41,7 @@ by_id = {}
 for article in existing.get("articles", []):
     article.setdefault("schools", ["仁愛國小"])
     if article.get("source") == "教育局消息":
-        article["schools"] = ["仁愛國小", "建安國小"]
+        article["schools"] = CONFIG["schools"]
         if ":共同:" not in article["id"]:
             article["id"] = "教育局消息:共同:" + article["id"].split(":", 1)[-1]
     by_id[article["id"]] = article

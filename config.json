@@ -1,5 +1,5 @@
 {
-  "schools": ["仁愛國小", "建安國小"],
+  "schools": ["仁愛國小", "建安國小", "敦化國小"],
   "sources": [
     {"school":"仁愛國小","name":"校內消息","url":"https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=ZXFNybM7991&vector=private&static=false"},
     {"school":"仁愛國小","name":"一般消息","url":"https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=ZItAos61369&vector=private&static=false"},
@@ -10,12 +10,22 @@
     {"school":"仁愛國小","name":"校外競賽","url":"https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=3OcrJ5P5996&vector=private&static=false"},
     {"school":"仁愛國小","name":"鮮奶週報","url":"https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/UaBwHf51682?f=normal&%240=RGYBogT0144&vector=private&static=false"},
     {"school":"仁愛國小","name":"新生入學","url":"https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=APLjRbb4627&vector=private&static=false"},
-    {"schools":["仁愛國小","建安國小"],"name":"教育局消息","url":"https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760","page":true},
+    {"schools":["仁愛國小","建安國小","敦化國小"],"name":"教育局消息","url":"https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760","page":true},
     {"school":"建安國小","name":"活動專欄","url":"https://www.jnps.tp.edu.tw/nss/main/feeder/5ae19a832dc6744a2d2daa67/hG68Os01764?f=normal&vector=private&static=false"},
     {"school":"建安國小","name":"行政公告","url":"https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=2rEsyLS9623&vector=private&static=false"},
     {"school":"建安國小","name":"榮譽榜","url":"https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=AQoMNBw7626&vector=private&static=false"},
     {"school":"建安國小","name":"研習資訊","url":"https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=EzoytYK7010&vector=private&static=false"},
     {"school":"建安國小","name":"比賽資訊","url":"https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=hDkhWnW9267&vector=private&static=false"},
-    {"school":"建安國小","name":"行政檔案","url":"https://www.jnps.tp.edu.tw/nss/main/feeder/5a9759adef37531ea27bf1b0/ZdUJz6D3321?f=normal&vector=private&static=false"}
+    {"school":"建安國小","name":"行政檔案","url":"https://www.jnps.tp.edu.tw/nss/main/feeder/5a9759adef37531ea27bf1b0/ZdUJz6D3321?f=normal&vector=private&static=false"},
+    {"school":"敦化國小","name":"競賽活動","url":"https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=Mu7ppdp0180&vector=private&static=false"},
+    {"school":"敦化國小","name":"敦小快報","url":"https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=8nmTbwG1025&vector=private&static=false"},
+    {"school":"敦化國小","name":"性別平等","url":"https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=UGCYOSy1787&vector=private&static=false"},
+    {"school":"敦化國小","name":"一般智能資賦優異","url":"https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=RChBOdK3964&vector=private&static=false"},
+    {"school":"敦化國小","name":"多元教育","url":"https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=SrB9eUf6894&vector=private&static=false"},
+    {"school":"敦化國小","name":"教育盃桌球賽","url":"https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=98kBD6Y1744&vector=private&static=false"},
+    {"school":"敦化國小","name":"普及化運動健身操比賽","url":"https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=DQlbYvu4195&vector=private&static=false"},
+    {"school":"敦化國小","name":"校務公告","broken":true},
+    {"school":"敦化國小","name":"其他公告","broken":true},
+    {"school":"敦化國小","name":"音樂班招生鑑定","broken":true}
   ]
 }
