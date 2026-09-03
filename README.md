@@ -1,4 +1,4 @@
-# 仁愛國小消息牆
+# 仁愛、敦化、建安國小消息牆
 
 以 GitHub Pages 發布的學校消息彙整頁面，每日 15:00（Asia/Taipei）由 GitHub Actions 更新 RSS 資料。
 
