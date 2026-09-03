@@ -24,18 +24,22 @@ def fetch(source):
     with urlopen(request, timeout=30) as response: body = response.read()
     try: root = ET.fromstring(body)
     except ET.ParseError:
-        return [{"id":"page:" + source["url"],"source":source["name"],"title":source["name"],"published":"","url":source["url"],"summary":clean(body.decode("utf-8", errors="replace"))[:360]}]
+        return [{"id":"page:" + source["url"],"schools":source.get("schools", [source.get("school")]),"source":source["name"],"title":source["name"],"published":"","url":source["url"],"summary":clean(body.decode("utf-8", errors="replace"))[:360]}]
     result = []
     for item in root.findall(".//item"):
         def val(name):
             node = item.find(name)
             return node.text.strip() if node is not None and node.text else ""
         link, guid = html.unescape(val("link")), val("guid") or val("link") or val("title")
-        result.append({"id":source["name"]+":"+guid,"source":source["name"],"title":clean(val("title")) or "未命名公告","published":date_value(val("pubDate")),"url":link,"summary":clean(val("description"))[:360]})
+        result.append({"id":source["name"]+":"+source.get("school", "共同")+":"+guid,"schools":source.get("schools", [source.get("school")]),"source":source["name"],"title":clean(val("title")) or "未命名公告","published":date_value(val("pubDate")),"url":link,"summary":clean(val("description"))[:360]})
     return result
 
 existing = json.loads(OUT.read_text()) if OUT.exists() else {"articles":[]}
-by_id = {a["id"]: a for a in existing.get("articles", [])}
+by_id = {}
+for article in existing.get("articles", []):
+    article.setdefault("schools", ["仁愛國小"])
+    if article.get("source") == "教育局消息": article["schools"] = ["仁愛國小", "建安國小"]
+    by_id[article["id"]] = article
 errors = []
 for source in CONFIG["sources"]:
     try:
