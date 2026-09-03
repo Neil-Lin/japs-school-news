@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T03:49:10.830844+00:00",
+  "updatedAt": "2026-09-03T03:59:06.341020+00:00",
   "errors": [
     {
       "source": "教育局消息",
@@ -7,6 +7,17 @@
     }
   ],
   "articles": [
+    {
+      "id": "行政公告:建安國小:6a98f071f415c2cdbb3473cd",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "行政公告",
+      "title": "轉知臺北市政府消防局防震宣導素材與連結資料等相關資訊。",
+      "published": "2026-09-03T03:51:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6a98f071f415c2cdbb3473cd?vector=private&static=false",
+      "summary": "一、依據該局115年8月27日北市消減字第1153043591號函辦理。 二、為提升民眾防災意識、降低災害發生機率，強化民眾自助能力，115年9月份規劃本府各局處及其所屬機關協助運用所屬宣導管道，進行「防震」宣導。 三、檢附相關圖文素材於防災宣導雲端資料庫（https://reurl.cc/NQ2KR9）。"
+    },
     {
       "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=1A33A9ED6B6637E1",
       "schools": [
