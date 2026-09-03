@@ -1,6 +1,11 @@
 {
-  "updatedAt": "2026-09-03T02:20:36.412508+00:00",
-  "errors": [],
+  "updatedAt": "2026-09-03T02:33:57.290815+00:00",
+  "errors": [
+    {
+      "source": "教育局消息",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1082)>"
+    }
+  ],
   "articles": [
     {
       "id": "教育局消息:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=F5028A79D22F4FDF",
