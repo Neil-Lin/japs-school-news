@@ -2,6 +2,8 @@
 
 資料來源：仁愛國小、建安國小、敦化國小、博愛國小、光復國小與臺北市教育局。
 
+各校獨立網址：`/renai/`、`/jianan/`、`/dunhua/`、`/boai/`、`/guangfu/`。
+
 以 GitHub Pages 發布的學校消息彙整頁面，每日 15:00（Asia/Taipei）由 GitHub Actions 更新 RSS 資料。
 
 本機執行 `python3 scripts/update_feed.py` 可更新資料；網站會依分類顯示發布時間、標題、原文連結或內容摘要。
