@@ -32,7 +32,7 @@ def fetch_items_from_broken_xml(body, source):
         link = html.unescape(val("link"))
         guid = val("guid") or link or val("title")
         attachments=[value for value in (clean(match.group(1)) for match in re.finditer(r"<name\b[^>]*>(.*?)</name>", block, flags=re.I | re.S)) if value]
-        result.append({"id":source["name"]+":"+source.get("school", "共同")+":"+guid,"schools":source.get("schools", [source.get("school")]),"source":source["name"],"title":val("title") or "未命名公告","published":date_value(val("pubDate")),"url":link,"sourceUrl":source["url"],"attachments":attachments,"summary":val("description")[:360]})
+        result.append({"id":source["name"]+":"+source.get("school", "共同")+":"+guid,"schools":source.get("schools", [source.get("school")]),"source":source["name"],"title":val("title") or "未命名公告","published":date_value(val("pubDate")),"url":link,"sourceUrl":source["url"],"siteUrl":"https://" + source["url"].split("/")[2],"attachments":attachments,"summary":val("description")[:360]})
     return result
 
 def fetch(source):
@@ -52,7 +52,7 @@ def fetch(source):
             return node.text.strip() if node is not None and node.text else ""
         link, guid = html.unescape(val("link")), val("guid") or val("link") or val("title")
         attachments=[clean(node.text) for node in item.findall("name") if node.text]
-        result.append({"id":source["name"]+":"+source.get("school", "共同")+":"+guid,"schools":source.get("schools", [source.get("school")]),"source":source["name"],"title":clean(val("title")) or "未命名公告","published":date_value(val("pubDate")),"url":link,"sourceUrl":source["url"],"attachments":attachments,"summary":clean(val("description"))[:360]})
+        result.append({"id":source["name"]+":"+source.get("school", "共同")+":"+guid,"schools":source.get("schools", [source.get("school")]),"source":source["name"],"title":clean(val("title")) or "未命名公告","published":date_value(val("pubDate")),"url":link,"sourceUrl":source["url"],"siteUrl":"https://" + source["url"].split("/")[2],"attachments":attachments,"summary":clean(val("description"))[:360]})
     return result
 
 existing = json.loads(OUT.read_text()) if OUT.exists() else {"articles":[]}
