@@ -12,6 +12,7 @@ OUT = ROOT / "data" / "articles.json"
 
 def clean(value):
     value = html.unescape(value or "")
+    value = value.replace("<![CDATA[", "").replace("]]>", "")
     value = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", value, flags=re.I | re.S)
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", value)).strip()
 
