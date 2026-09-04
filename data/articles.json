@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T07:22:00.268813+00:00",
+  "updatedAt": "2026-09-04T12:50:48.746286+00:00",
   "errors": [
     {
       "source": "教育局消息",
@@ -7,6 +7,195 @@
     }
   ],
   "articles": [
+    {
+      "id": "榮譽榜:博愛國小:6a9aa339d7d30924ac03f19e",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "榮譽榜",
+      "title": "中華民國第57屆世界兒童畫展 總決選",
+      "published": "2026-09-04T10:52:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6a9aa339d7d30924ac03f19e?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=DdqT8yI3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [],
+      "summary": ""
+    },
+    {
+      "id": "活動資訊:光復國小:6a9a9926d5edbf2465217aa9",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "活動資訊",
+      "title": "[轉知]115年度第2次 原住民族語言能力認證測驗公告",
+      "published": "2026-09-04T10:09:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6a9a9926d5edbf2465217aa9?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=QWbvWuz8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "29419005_1151024630_ATTCH1.pdf"
+      ],
+      "summary": "115年度第2次 原住民族語言能力認證測驗通知 原住民族語言能力認證測驗報名時間又到了！ 測驗級別為初級、中級、中高級、高級及優級，報名資格不限國籍、族別、年齡及學歷。 有意報考的同學可上網（輸入：原住民族語言能力認證測驗）查詢考試相關訊息，簡章亦可上網下載。 1.校內報名時間： 115年9月3日(四)~115年9月17日(四)止 。 2.請備齊以下報名資料： (1)完整填妥報名表正反面(含報考族語、方言別及考區) (2)近6個月內，正面半身脫帽大頭相片電子檔 3.測驗日期為： 115年12月5日(六) ※ 報名表請至教務處領取或由附件下載列印。 ※ 請務必準時繳交相關文件，有任何疑問請至註冊組詢問。 ※ 在學學生一律由學校集體報名唷。 ※ 簡章詳閱附件。"
+    },
+    {
+      "id": "教師研習及活動:光復國小:6a9a984a36aa2921f533e608",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "教師研習及活動",
+      "title": "[轉知]2026年秋季「全民台語認證」、「台語白話字檢定」",
+      "published": "2026-09-04T10:06:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6a9a984a36aa2921f533e608?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=GfVDvAq0432&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "依據國立成功大學115年8月26日成大產創字第1151103536號函辦理。 台灣語文測驗中心於115年11月21日（星期六）舉辦「2026年秋季全民台語認證」： 第一階段網路報名：115年9月1日至9月30日。 第二階段通訊報名：115年10月12日至10月14日。 簡章及相關報名資訊，請查詢官網：https://ctlt.twl.ncku.edu.tw/gtpt/index.html。 「2026年秋季台語白話字檢定」，同步於115年11月21日（星期六）舉辦： 報名日期：115年9月1日至9月30日。 簡章及相關報名資訊，請查詢官網：https://ctlt.twl.ncku.edu.tw/poj/index.html。"
+    },
+    {
+      "id": "教師研習及活動:光復國小:6a9a92d52e6366202395b6cd",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "教師研習及活動",
+      "title": "[轉知]2026 SDGs 永續教育年會－玩真的教學趴",
+      "published": "2026-09-04T09:43:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6a9a92d52e6366202395b6cd?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=GfVDvAq0432&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "29418971_11500000012_ATTCH1.pdf"
+      ],
+      "summary": "一、名稱：2026 SDGs 永續教育年會－玩真的教學趴。 二、日期：115年10月31日（星期六）至11月1日（星期日）。 三、地點：臺北市立建成國民中學3樓大會議室（臺北市大同區長安西路37-1號）。 四、報名資訊：即日起至115年10月13日（星期二）止，名額150名，採審核錄取制，額滿為止。活動不收取報名費，惟報名時須繳交執課保證金新臺幣1,000元；完成指定教學實作並填寫回報表單後，全額退還。 五、其他注意事項： 參加對象為國小至高中教育工作者。 活動內容包含議題遊戲體驗、遊戲工作坊、論壇及教學交流。 S2遊戲工作坊每人限選一款，錄取後不受理更換；參加者須於寒假前完成所選遊戲之教學實作及線上回報，始得退還執課保證金。"
+    },
+    {
+      "id": "學校公告:光復國小:6a9a8cac2c2a69216cefc4f8",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "學校公告",
+      "title": "115學年度第一學期光復國小籃球隊選拔簡章",
+      "published": "2026-09-04T09:16:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6a9a8cac2c2a69216cefc4f8?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=UFKVG9l8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "115學年度第一學期光復國小籃球隊選拔簡章.pdf"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "最新消息:博愛國小:6a9a841027f0b81da5ee8391",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "轉知:「115學年度第1學期臺北酷課雲多元增能培力班」一案",
+      "published": "2026-09-04T08:39:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6a9a841027f0b81da5ee8391?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29391292_11530938061_ATTCH1.pdf",
+        "29391292_11530938061_ATTCH2.pdf"
+      ],
+      "summary": "說明： 一、依據本局115學年度第1學期臺北酷課雲多元增能培力班實 施計畫辦理。 二、為透過臺北酷課雲培育學生自主學習能力及落實數位教育 資源共享理念，本局於115學年度第1學期辦理旨揭線上直 播課程計畫，免費提供國中小學生課後安排線上學習。 三、本計畫課程資訊如下： (一)課程對象：全國公私立國民中小學學生。 (二)課程時間：自115年9月14日（星期一）起至115年12月5 日（星期六）止。 (三)課程主題：涵蓋英語、國語寫作、自然科學、AI應用及 程式語言等主題，共開設24門課程，含國小15門、國中9門。 (四)課程報名：即日起至115年9月6日（星期日）止，採線上 報名（活動網站連結：https://reurl.cc/rk3ZLN）。 (五)錄取公告：115年9月9日（星期三）公告於臺北酷課雲網 頁最新"
+    },
+    {
+      "id": "教師研習及活動:光復國小:6a9a85d608792e1cfe34c1d7",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "教師研習及活動",
+      "title": "轉知臺北市學校環境教育中心115年度「115年度101環教路線戶外教學第三梯次教師增能研習計畫」，歡迎老師報名參加。",
+      "published": "2026-09-04T08:29:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6a9a85d608792e1cfe34c1d7?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=GfVDvAq0432&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "臺北市學校環境教育中心115年度115年度101環教路線戶外教學第三梯次教師增能研習計畫.pdf"
+      ],
+      "summary": "說明： 一、透過走讀踏查本市101環境教育路線得獎作品，強化教師運 用在地場域資源設計校外教學之能力，提升環境教育教學 實踐成效。 二、活動摘要如下： (一)上午場次：115年新收錄101環教路線作品~溯源百年藍 帶:走讀坪頂三圳 １、活動時間：115年9月23日（星期三）上午9時至12時30 分。 ２、活動地點：平等國小。 ３、集合時間及地點8時20分劍潭捷運站 、8時55分平等國 小門口。 ４、課程結束後可於平等國小解散或搭接駁車回新北投站 或貴子坑園區。 (二)下午場次：113年101環教路線得獎作品~雨過天青-貴子 坑的重生 １、活動時間：115年9月23日（星期三）下午1時30分至16 時30分。 ２、活動地點：貴子坑水土保持園區。 ３、集合時間及地點：13時30分秀山路口的貴子坑水土保 持園區公車站"
+    },
+    {
+      "id": "校外競賽:光復國小:6a9a810c0041081cb1f4f42c",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "校外競賽",
+      "title": "2026年兒童認識勞動權益四格漫畫徵件競賽",
+      "published": "2026-09-04T08:25:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6a9a810c0041081cb1f4f42c?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=jOHZo998827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "本局115年度辦理「2026年兒童認識勞動權益四格漫畫徵 件競賽」，檢送活動DM及簡章，請惠予將活動資訊公告校 網、以電子郵件等方式轉知中高年級導師、美術教師及相 關教師鼓勵學生踴躍報名參賽，參賽者可獲1份參賽小禮 品， 說明： 一、為推廣校園勞動教育再向下扎根，以本市國民小學之中、 高年級學生為對象，辦理兒童認識勞動權益四格漫畫徵件 活動，期藉由競賽式活動設計，鼓勵教師將勞動教育融入 繪畫教學並指導學生參加四格漫畫創作，進而啟發學生對 勞動尊嚴及職場環境之認知與關心，以提升未來公民勞動 素養。 二、旨揭活動簡章重點資訊如下： (一)徵件期間：115年9月15日至10月15日。 (二)參賽資格：臺北市公、私立國民小學之中、高年級學生。 (三)參賽組別及件數： １、以年級分為「中年級組」（3、4年級）及「高年級 "
+    },
+    {
+      "id": "最新消息:博愛國小:6a9a7d5484b1821d126946fc",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "臺北市115年度國民小學基本學力檢測說帖（家長版）",
+      "published": "2026-09-04T08:11:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6a9a7d5484b1821d126946fc?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "臺北市115年度國民小學基本學力檢測說帖（家長版）.pdf"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "最新消息:博愛國小:6a9a7da89b7cd61e39d0ced9",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "115學年度學生創意戲劇比賽實施計畫",
+      "published": "2026-09-04T08:04:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6a9a7da89b7cd61e39d0ced9?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "115學年度學生創意戲劇比賽實施計畫.pdf",
+        "實施計畫.odt"
+      ],
+      "summary": "說明： 一、依據115學年度全國學生創意戲劇比賽實施要點辦理。 二、旨揭計畫重點摘要如下（詳如附件計畫） (一)比賽資格（每校各類別之各組別限各報名1隊；各組別不得跨校組隊或跨學段組隊） １、臺北市立案高中職以下各級學校（含外僑學校，不含特殊學校）：符合各比賽類別及組別之參賽 資格者，均得報名參加初賽，不得越區報名。 ２、參與非學校型態實驗教育之學生：依據「高級中等以下教育階段非學校型態實驗教育實施條例」 第18條規定「依本條例參與高級中等教育階段實驗教育之學生，未入學高級中等學校取得學 籍，得由辦理實驗教育之申請人造具參與實驗教育學生名冊，報請直轄市、縣（市）主管機關 發給學生身分證明者」，均得報名參加初賽。 ３、特殊學校、大陸地區臺商學校及海外臺灣學校：得依照各比賽類別及組別，逕向決賽主辦單位報 名參加決賽"
+    },
+    {
+      "id": "最新消息:博愛國小:6a9a78648bcd131af1311725",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "「天文親子營」天文館一日遊",
+      "published": "2026-09-04T07:48:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6a9a78648bcd131af1311725?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "天文親子營天文館一日遊.pdf",
+        "活動簡章.pdf"
+      ],
+      "summary": "意者請詳閱附件。"
+    },
+    {
+      "id": "最新消息:博愛國小:6a9a76893574a61a85e488b9",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "臺北市2026年STEAM跨域競賽-校內徵選結果",
+      "published": "2026-09-04T07:42:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6a9a76893574a61a85e488b9?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "臺北市2026年STEAM跨域競賽-校內徵選結果.pdf"
+      ],
+      "summary": "詳如附件。"
+    },
     {
       "id": "其他公告:敦化國小:6a9a6c085fc781193b2fabc9",
       "schools": [
