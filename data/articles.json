@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T01:01:24.138985+00:00",
+  "updatedAt": "2026-09-04T02:11:21.429142+00:00",
   "errors": [
     {
       "source": "教育局消息",
@@ -7,6 +7,67 @@
     }
   ],
   "articles": [
+    {
+      "id": "最新消息:博愛國小:6a9a22509f8b9605baeb61a4",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "你我都是珍愛生命守門人",
+      "published": "2026-09-04T01:37:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6a9a22509f8b9605baeb61a4?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [],
+      "summary": "你我都是珍愛生命(自殺防治)守門人 關懷身邊的人 協助他迎向光明"
+    },
+    {
+      "id": "研習資訊:建安國小:6a9a1e2d4cbc72093fe2b2c5",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "研習資訊",
+      "title": "轉知：龍山自造中心115學年度第1學期自造中心教師師資培訓研習",
+      "published": "2026-09-04T01:25:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6a9a1e2d4cbc72093fe2b2c5?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=EzoytYK7010&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [
+        "龍山自造中心115學年度第1學期自造中心教師師資培訓研習實施計畫.pdf"
+      ],
+      "summary": "(一)扭蛋機(課程代碼：全國教師研習網5706320號)，115 年 10月2日(星期五) 9:00~12:00，講師：新北退休教師林 耀坤老師。 (二)咕咕鐘DIY設計(課程代碼：全國教師研習網5706327 號)，115 年10月16日(星期五) 9:00~12:00，講師：本 校林進雄老師。 (三)手掃感應時鐘(課程代碼：全國教師研習網5706332號)， 115 年10月23日(星期五) 9:00~12:00，講師：基隆銘傳 國中蔡依帆老師。 (四)咕咕鐘DIY製作(課程代碼：全國教師研習網5706329 號)，115 年11月6日(星期五) 9:00~12:00，講師：本校 林進雄老師。 (五)Canva AI 運用在教學上(課程代碼：全國教師研習網 5706338號)，115 年11月20日(星期五"
+    },
+    {
+      "id": "行政公告:建安國小:6a9a1cae4cbc72093fe23574",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "行政公告",
+      "title": "轉知~115年地方公職人員選舉事項公務人員應嚴守行政中立相關規定",
+      "published": "2026-09-04T01:15:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6a9a1cae4cbc72093fe23574?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=2rEsyLS9623&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [
+        "29405921_1150140619_ATTCH1.pdf",
+        "29405921_1150140619_ATTCH2.pdf"
+      ],
+      "summary": "主旨：銓敘部書函以，中央選舉委員會及各地方選舉委員會已公 告115年地方公職人員選舉事項，各機關（構）學校（以 下簡稱各機關）公務人員應嚴守行政中立相關規定，請查照並依說明事項辦理。 說明： 一、依據銓敘部115年8月26日部法二字第1156000459號書函辦 理，並檢附原書函影本1份。 二、旨揭地方公職人員選舉公告業於115年8月20日發布，並於同年月31日至9月4日受理直轄市及縣（市）長、議員及里長候選人登記之申請，同年11月28日辦理上開人員選舉投票作業。各機關人員於選舉期間，應確依公務人員行政中 立法（以下簡稱中立法）相關規定嚴守行政中立。 三、依公務員服務法第6條及第20條規定，公務員應謹慎勤勉， 且非因職務之需要，不得動用行政資源。次依中立法相關規定，公務人員不得為支持或反對特定政黨或公職候選人，"
+    },
+    {
+      "id": "最新消息:博愛國小:6a9a20da68841b0af9d41aa4",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "《我的孩子到底怎麼了？》免費兒少講座-線上",
+      "published": "2026-09-04T00:58:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6a9a20da68841b0af9d41aa4?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [],
+      "summary": "以前擔心孩子放學後去了哪裡； 現在，擔心的是，手機另一頭的世界 。 社群媒體、Threads、AI…… 都讓孩子接觸的世界越來越大，也有越來越多我們不熟悉的風險。 6 位跨領域第一線專家 × 6 場講座 聚焦網路霸凌｜數位性暴力｜3C教養｜家庭衝突｜兒少暴力 從真實案例出發，陪你 看懂風險，找到「禁止以外」的陪伴方法。 免費線上講座｜可單堂報名｜講座時間 19:00–21:00 報名資訊： https://reurl.cc/ Z8b406"
+    },
     {
       "id": "研習資訊:建安國小:6a9a13c54bfc54083a8f23ad",
       "schools": [
