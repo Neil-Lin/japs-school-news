@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T15:43:37.427433+00:00",
+  "updatedAt": "2026-09-04T00:18:27.350526+00:00",
   "errors": [
     {
       "source": "教育局消息",
@@ -7,6 +7,22 @@
     }
   ],
   "articles": [
+    {
+      "id": "活動資訊:光復國小:6a9a0097f685110400b27e9b",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "活動資訊",
+      "title": "轉知台北市家長會長協會辦理「與愛同行・2026公益慈善 音樂會」活動贈票一案",
+      "published": "2026-09-03T23:19:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6a9a0097f685110400b27e9b?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=QWbvWuz8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "回函表及流程表.pdf"
+      ],
+      "summary": "說明： 一、依據台北市家長會長協會115年8月30日娟字第1150830號函 辦理。 二、旨揭活動業訂於115年9月20日（星期日）晚上6時至9時假 中油大樓國光廳（臺北市信義區松仁路3號）辦理，該協會 提供100名免費名額供各校學生參與（每校限額5名，額滿 為止）。 三、倘有意願參與者，請於115年9月17日（星期四）前以電子 郵件回傳回函表（如附件）至主辦單位聯絡窗口，以利主 辦單位統計，聯繫窗口：張舜勝，聯繫電話：0910-643- 028及電子郵件：hi0910643028@gmail.com。"
+    },
     {
       "id": "教師研習及活動:光復國小:6a994719a9aaade00ddcc710",
       "schools": [
@@ -43624,6 +43640,25 @@
       "siteUrl": "https://www.kfps.tp.edu.tw",
       "attachments": [],
       "summary": ""
+    },
+    {
+      "id": "校外競賽:光復國小:6525e2573dd54cc6562ccb90",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "校外競賽",
+      "title": "中華民國滑輪溜冰協會辦理「112學年度第45屆中正盃全國溜冰錦標賽」",
+      "published": "2023-10-10T23:45:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6525e2573dd54cc6562ccb90?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=jOHZo998827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "112 學年度第 45 屆中正盃全國溜冰錦標賽曲棍球競賽規程.pdf",
+        "112 學年度第 45 屆中正盃全國溜冰錦標賽自由式輪滑競賽規程.pdf",
+        "112 學年度第 45 屆中正盃全國溜冰錦標賽花式溜冰競賽規程.pdf",
+        "112 學年度第 45 屆中正盃全國溜冰錦標賽暨2024競速溜冰國手積分賽 競賽規程.pdf"
+      ],
+      "summary": "一、活動地點： (一)競速溜冰：苗栗縣立滑輪溜冰場。 (二)花式溜冰：竹北國民運動中心。 (三)自由式輪滑：竹北國民運動中心。 (四)曲棍球：南投縣草屯鎮石川曲棍球場。 二、活動時間： (一)競速溜冰：112年11月16日至11月19日。 (二)花式溜冰：112年11月9日至11月12日。 (三)自由式輪滑：112年11月22日至11月25日。 (四)曲棍球：112年11月13日至11月19日。"
     },
     {
       "id": "教師研習及活動:光復國小:6525de1ee3e663c69d791a0d",
