@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T07:03:30.872699+00:00",
+  "updatedAt": "2026-09-05T11:55:28.316564+00:00",
   "errors": [
     {
       "source": "教育局消息",
@@ -26478,6 +26478,22 @@
       "summary": "今日10/29流感疫苗注射 廠牌為：國光"
     },
     {
+      "id": "研習資訊:博愛國小:690095e26b36842b68b4fb5e",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "轉知臺北市114學年度特殊教育專業知能「認識及陪伴選擇性緘默症孩子」研習計畫，鼓勵參加。",
+      "published": "2025-10-28T10:03:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/690095e26b36842b68b4fb5e?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=tQHaHM07712&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "轉知臺北市114學年度特殊教育專業知能「認識及陪伴選擇性緘默症孩子」研習計畫，鼓勵參加。-1141028.pdf"
+      ],
+      "summary": "主旨：轉知114學年度特殊教育專業知能「認識及陪伴選擇性緘默症孩子」研習計畫。 說明： 一、依據臺北市高級中等以下學校教師及相關人員特教知能研習方案辦理。 二、本研習茲敦請宇寧身心診所李筱蓉臨床心理師擔任講座。 三、研習時間：114年11月26日(星期三)下午1時30分。 四、研習地點：臺北市中山區中山國民小學會議室(臺北市中山區民權東路一段69號)。 五、研習對象：對本研習主題有興趣之本市國民小學身心障礙 類特殊教育教師及普通班教師。 六、參加研習之教師請務必於114年11月21日（星期五）前，逕至臺北市教師在職研習網( https://insc.tp.edu.tw/)完成線上報名，並請學校完成薦派作業（未完成薦派作業者，恕不核予研習時數）。 七、參與研習之教師准予公假登記，本研習將覈實給予研習時數，請錄取之"
+    },
+    {
       "id": "防疫資訊:博愛國小:6900127e2285f6d8364cfb5a",
       "schools": [
         "博愛國小"
@@ -44321,6 +44337,20 @@
       "summary": "一、活動地點： (一)競速溜冰：苗栗縣立滑輪溜冰場。 (二)花式溜冰：竹北國民運動中心。 (三)自由式輪滑：竹北國民運動中心。 (四)曲棍球：南投縣草屯鎮石川曲棍球場。 二、活動時間： (一)競速溜冰：112年11月16日至11月19日。 (二)花式溜冰：112年11月9日至11月12日。 (三)自由式輪滑：112年11月22日至11月25日。 (四)曲棍球：112年11月13日至11月19日。"
     },
     {
+      "id": "校外競賽:光復國小:6525df065e409bc6b9568ad8",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "校外競賽",
+      "title": "中華民國民俗體育運動協會舉辦「112學年度全國中正盃民俗體育運動錦標賽」",
+      "published": "2023-10-10T23:31:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6525df065e409bc6b9568ad8?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=jOHZo998827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "(一)比賽日期：112年11月4、5、11及12日。 (二)報名期間：112年10月11日至18日。 (三)賽事競賽規程與活動訊息，請見該會網站，網址： https://www.ttsga.org.tw/。"
+    },
+    {
       "id": "教師研習及活動:光復國小:6525de1ee3e663c69d791a0d",
       "schools": [
         "光復國小"
@@ -44352,6 +44382,22 @@
         "112 年度山野教育經驗交流與成果分享會 實施計畫.pdf"
       ],
       "summary": "(一)活動日期：112年11月11日（星期六）上午9時起至下午4 時止。 (二)活動地點：國立臺灣師範大學公館校區中正堂（臺北市文山區汀州路4段88號）。 (三)報名日期：即日起至112年10月24日（星期二）截止。 (四)報名方法：教師請至全國教師在職進修綱報名，課程代碼：4016365。"
+    },
+    {
+      "id": "校外競賽:光復國小:651fce21b5bce4c66e053e5d",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "校外競賽",
+      "title": "中華民國112年第48屆中正盃全國軟式網球錦標賽",
+      "published": "2023-10-06T09:06:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/651fce21b5bce4c66e053e5d?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=jOHZo998827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "中華民國112年第48屆中正盃全國軟式網球錦標賽競賽規程.odt"
+      ],
+      "summary": "比賽日期：自112年11月9日起至12日止。 活動地點：臺中市國際網球中心"
     },
     {
       "id": "研習資訊:建安國小:651e9a89d5726ec6d256c0b9",
