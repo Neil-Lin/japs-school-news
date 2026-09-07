@@ -4,6 +4,6 @@
 
 各校獨立網址：`/renai/`、`/jianan/`、`/dunhua/`、`/boai/`、`/guangfu/`。
 
-以 GitHub Pages 發布的學校消息彙整頁面，每日 15:00（Asia/Taipei）由 GitHub Actions 更新 RSS 資料。
+以 GitHub Pages 發布的學校消息彙整頁面，每日臺灣時間 10:30、16:30 由 GitHub Actions 更新 RSS 資料。資料保留最近一年，來源錯誤會寫入 `articles.json` 並在 workflow 中顯示。
 
-本機執行 `python3 scripts/update_feed.py` 可更新資料；網站會依分類顯示發布時間、標題、原文連結或內容摘要。
+本機執行 `python3 scripts/update_feed.py` 可更新資料；網站會依學校、分類與關鍵字搜尋顯示發布時間、標題、原文連結或內容摘要。前端設定集中在 `config.json`，資料版本寫在 `data/version.json`，讓瀏覽器能快取未變動的文章資料。

@@ -1,5 +1,12 @@
 {
   "schools": ["仁愛國小", "建安國小", "敦化國小", "博愛國小", "光復國小"],
+  "schoolMeta": {
+    "仁愛國小": {"slug":"renai", "site":"https://www.japs.tp.edu.tw"},
+    "建安國小": {"slug":"jianan", "site":"https://www.jnps.tp.edu.tw"},
+    "敦化國小": {"slug":"dunhua", "site":"https://www.thps.tp.edu.tw"},
+    "博愛國小": {"slug":"boai", "site":"https://www.baps.tp.edu.tw"},
+    "光復國小": {"slug":"guangfu", "site":"https://www.kfps.tp.edu.tw"}
+  },
   "sources": [
     {"school":"仁愛國小","name":"校內消息","url":"https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=ZXFNybM7991&vector=private&static=false"},
     {"school":"仁愛國小","name":"一般消息","url":"https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=ZItAos61369&vector=private&static=false"},
