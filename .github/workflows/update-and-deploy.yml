@@ -1,10 +1,9 @@
 name: Update RSS and deploy Pages
 on:
   schedule:
-    - cron: "30 10 * * *"
-      timezone: "Asia/Taipei"
-    - cron: "30 16 * * *"
-      timezone: "Asia/Taipei"
+    # GitHub Actions uses UTC here: 02:30 UTC = 10:30 Taiwan, 08:30 UTC = 16:30 Taiwan.
+    - cron: "30 2 * * *"
+    - cron: "30 8 * * *"
   workflow_dispatch:
   push:
     branches: [main]
