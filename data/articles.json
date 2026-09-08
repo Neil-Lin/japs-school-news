@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T07:20:58.029842+00:00",
+  "updatedAt": "2026-09-08T12:59:23.820244+00:00",
   "errors": [
     {
       "source": "教育局消息",
@@ -7,6 +7,296 @@
     }
   ],
   "articles": [
+    {
+      "id": "比賽資訊:建安國小:6a9fe03994550c2f280ada19",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "比賽資訊",
+      "title": "115年「豬豬小偵探」國小學童學習單徵件競賽報競賽活動",
+      "published": "2026-09-08T10:14:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6a9fe03994550c2f280ada19?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=hDkhWnW9267&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [
+        "115年「豬豬小偵探」國小學童學習單徵件競賽報名表.pdf",
+        "115年「豬豬小偵探」國小學童學習單徵件競賽簡章.pdf"
+      ],
+      "summary": "詳見附件"
+    },
+    {
+      "id": "比賽資訊:建安國小:6a9fdc46809b0c2d2244bab5",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "比賽資訊",
+      "title": "亞太能源科學教育協會辦理「2026 KidWind風力能源亞洲聯賽」",
+      "published": "2026-09-08T09:57:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6a9fdc46809b0c2d2244bab5?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=hDkhWnW9267&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [
+        "亞太能源科學教育協會辦理「2026 KidWind風力能源亞洲聯賽」.pdf"
+      ],
+      "summary": "詳見附件"
+    },
+    {
+      "id": "校務公告:敦化國小:6a9fd15e5536f9272901fa3e",
+      "schools": [
+        "敦化國小"
+      ],
+      "source": "校務公告",
+      "title": "115學年度第一學期學校日於9/12(六)上午9:00舉行，歡迎家長參與!",
+      "published": "2026-09-08T09:10:00+00:00",
+      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/6a9fd15e5536f9272901fa3e?vector=private&static=false",
+      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=1hdeMSJ5377&vector=private&static=false",
+      "siteUrl": "https://www.thps.tp.edu.tw",
+      "attachments": [],
+      "summary": ""
+    },
+    {
+      "id": "校務公告:敦化國小:6a9fcd57f26fac2ad8f0dda5",
+      "schools": [
+        "敦化國小"
+      ],
+      "source": "校務公告",
+      "title": "115學年度第1學期學校日活動將於115年9月12日(星期六)上午召開，歡迎本校二至六年級家長踴躍參與！",
+      "published": "2026-09-08T08:47:00+00:00",
+      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/6a9fcd57f26fac2ad8f0dda5?vector=private&static=false",
+      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=1hdeMSJ5377&vector=private&static=false",
+      "siteUrl": "https://www.thps.tp.edu.tw",
+      "attachments": [],
+      "summary": "敬愛的家長，您好： 本校訂於 115 年 9 月 12 日 ( 週六 ) 上午舉行學校日活動，期待透過學校日讓您了解學校的願景與班級經營計畫，也藉此機會進行親師溝通交流，親師齊心為教育努力，為敦化的孩子打造優質的學習環境，快樂學習、健康成長。 敬邀您出席 😊 敬祝 闔家平安 校 長 劉建男 家長會長 蔡雅琪 教師會長 黃潤生 暨全體教職員工 敬 邀"
+    },
+    {
+      "id": "校園事務:光復國小:6a9fca8f461860293415252f",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "校園事務",
+      "title": "【飲水機保養檢驗紀錄】115年7~8月份保養紀錄",
+      "published": "2026-09-08T08:40:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6a9fca8f461860293415252f?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=pBSho0Y6874&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "7月飲水機保養紀錄.pdf",
+        "8月飲水機保養紀錄.pdf"
+      ],
+      "summary": "115年7~8月份本校(含幼兒園)飲水機保養紀錄如附件，均依規定按月維護保養及依機器型號更換濾心。"
+    },
+    {
+      "id": "校園事務:光復國小:6a9fc9ef9f09912b301bdc3a",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "校園事務",
+      "title": "【反針孔攝影偵測】115年8月偵測結果",
+      "published": "2026-09-08T08:39:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6a9fc9ef9f09912b301bdc3a?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=pBSho0Y6874&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "11508反針孔攝影檢測結果紀錄表.pdf"
+      ],
+      "summary": "一、依據本府教育局 114年4月18日北市教體字第1143055668號暨115年3月17日北市教體字第11530484591號函辦理。 二、115年6月份檢測結果無異常，檢測紀錄表詳如附件。 三、本月份除例行檢測外，尚包含大型活動後檢測：8/29幼兒園家長座談會、8/31國小開學活動。"
+    },
+    {
+      "id": "行政公告:建安國小:6a9fbd524c9bd428c7abd023",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "行政公告",
+      "title": "轉知~臺北市115學年度第1學期獨輪車實施計畫暨兒童專注力與SEL情緒管理訓練",
+      "published": "2026-09-08T07:45:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6a9fbd524c9bd428c7abd023?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=2rEsyLS9623&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [
+        "臺北市115學年度第1學期獨輪車實施計畫暨兒童專注力與SEL情緒管理訓練.odt"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "研習資訊:博愛國小:6a9fbc7a3f42b427e3353098",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "轉知中正高中115學年度第1學期提供植物活體教材俾便教學使 用",
+      "published": "2026-09-08T07:42:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6a9fbc7a3f42b427e3353098?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=tQHaHM07712&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29417053_1156009429_ATTCH1.pdf",
+        "29417053_1156009429_ATTCH2.ods"
+      ],
+      "summary": "一、本學期生物活體教材供應種類請參閱供應通知。 二、植物活體中心網頁，網址如下：https://sites. google.com/a/webmail.ccsh.tp.edu.tw/bio-plantsupply-center/"
+    },
+    {
+      "id": "最新消息:博愛國小:6a9fbc7a3f42b427e3353098",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "轉知中正高中115學年度第1學期提供植物活體教材俾便教學使 用",
+      "published": "2026-09-08T07:42:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6a9fbc7a3f42b427e3353098?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29417053_1156009429_ATTCH1.pdf",
+        "29417053_1156009429_ATTCH2.ods"
+      ],
+      "summary": "一、本學期生物活體教材供應種類請參閱供應通知。 二、植物活體中心網頁，網址如下：https://sites. google.com/a/webmail.ccsh.tp.edu.tw/bio-plantsupply-center/"
+    },
+    {
+      "id": "最新消息:博愛國小:6a9fbc167bd80625cf959ccc",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "轉知2026年兒童認識勞動權益四格漫畫徵 件競賽",
+      "published": "2026-09-08T07:38:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6a9fbc167bd80625cf959ccc?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29416705_1156094561_ATTCH2.odt",
+        "29416705_1156094561_ATTCH1.pdf"
+      ],
+      "summary": "詳細徵件內容請參考活動簡章，亦可至勞動局官網下載活 動簡章（勞動局官網〉業務服務〉勞動教育文化〉勞動教 育校園扎根〉兒童認識勞動權益四格漫畫徵件競賽活動， 網址：https://reurl.cc/WOdkb9下載。如有相關疑問，請 洽活動專線：（02）2720-8889/1999轉分機3346、3345。 另，為配合本校作業期程，本校收件時間至 115年10月12日星期一下午4時止 ，逾期不候。"
+    },
+    {
+      "id": "最新消息:博愛國小:6a9fba543d39f62398835bff",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "轉知「115年度第2次原住民族語言能力認證測驗」",
+      "published": "2026-09-08T07:32:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6a9fba543d39f62398835bff?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29416220_1151024630_ATTCH1.pdf"
+      ],
+      "summary": "一、報名期間自115年8月31日（星 期一）起至9月30日（星期三）止，測驗日期訂於115年12 月5日（星期六）舉行。 二、本測驗級別分為初級、中級、中高級、高級及優級，報名 資格不限國籍、族別、年齡及學歷。簡章及相關測驗資訊 可至「115年度第2次原住民族語言能力認證測驗」網站查 詢下載（https://exam.sce.ntnu.edu.tw/abst/），或洽 考生免付費服務專線：0800-699-566、(02)7749-3664，亦 可加入本認證LINE官方帳號（@107abst）掌握最新資訊。 三、學校老師協助完成考生團體線上報名業務者，將由原住民 族委員會及財團法人原住民族語言研究發展基金會補助國民中小學、高中（職）、五專及二專之代辦團體報名學校 行政費，每協助一名該校在學學生完成報名補助新臺幣"
+    },
+    {
+      "id": "最新消息:博愛國小:6a9fb9ddcec51720cbf9c5da",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "轉知2026年秋季「全民台語認證」、「台 語白話字檢定」",
+      "published": "2026-09-08T07:31:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6a9fb9ddcec51720cbf9c5da?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [],
+      "summary": "成功大學台灣語文測驗中心擬於本（2026）年11月21日 （星期六）舉辦「2026年秋季全民台語認證」，第一階段 網路報名：9月1日至9月30日；第二階段通訊報名：10月12 日至10月14日。簡章及相關報名資訊，歡迎查詢官網： https://ctlt.twl.ncku.edu.tw/gtpt/index.html。 「2026年秋季台語白話字檢定」同步於11月21日（星期 六）舉辦，報名日期：9月1日起至9月30日止。簡章及相關 報名資訊，請查詢官網：https://ctlt.twl.ncku.edu.tw /poj/index.html。"
+    },
+    {
+      "id": "研習資訊:博愛國小:6a9fb96acec51720cbf9934a",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "轉知臺北市國民教育地方輔導團語文領域國小國語文分 團 115學年度第1學期到校輔導申請",
+      "published": "2026-09-08T07:28:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6a9fb96acec51720cbf9934a?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=tQHaHM07712&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29415214_1156006587_ATTCH1.pdf"
+      ],
+      "summary": "如需該分團到校輔導與協助，請逕向該分團提出申請 (申請表如附件)。 請各校於115年9月18日(星期五)前，填寫附件申請表以聯 絡箱026交換至臺北市大安區古亭國民小學教務室鄭立群主 任收，並請於資料傳送後，以電話確認是否送達。 該分團業務聯絡人：古亭國小教務主任鄭立群，聯絡電 話：(02)2363-9795分機811。"
+    },
+    {
+      "id": "最新消息:博愛國小:6a9fb96acec51720cbf9934a",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "轉知臺北市國民教育地方輔導團語文領域國小國語文分 團 115學年度第1學期到校輔導申請",
+      "published": "2026-09-08T07:28:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6a9fb96acec51720cbf9934a?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29415214_1156006587_ATTCH1.pdf"
+      ],
+      "summary": "如需該分團到校輔導與協助，請逕向該分團提出申請 (申請表如附件)。 請各校於115年9月18日(星期五)前，填寫附件申請表以聯 絡箱026交換至臺北市大安區古亭國民小學教務室鄭立群主 任收，並請於資料傳送後，以電話確認是否送達。 該分團業務聯絡人：古亭國小教務主任鄭立群，聯絡電 話：(02)2363-9795分機811。"
+    },
+    {
+      "id": "最新消息:博愛國小:6a9fb8f26002eb267301765a",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "轉知古亭國小英語情境中心115學年度第一學期開放外校學生體驗 學習暨外籍教師到校教學實施計畫",
+      "published": "2026-09-08T07:26:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6a9fb8f26002eb267301765a?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29415191_1156006584_ATTCH1.pdf"
+      ],
+      "summary": "本學期提供實體及線上課程，課程預約即日起至116年1月6 日止，課程實施於115年9月21日至116年1月20日止，開放 外校參加。 本學年度另開放大安區學校申請週三上午時段外籍教師到 校說故事課程。 有關申請事項及課程內容請參考附件，申請表單請參考英語情境中心網站: https://reurl.cc/MM5VAk"
+    },
+    {
+      "id": "活動資訊:光復國小:6a9fbad9e6fda6286256bd2d",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "活動資訊",
+      "title": "臺北市「兒童深耕閱讀教育網」115年第9期專題任務主題為 「遇見臺北「樹」民」",
+      "published": "2026-09-08T07:26:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6a9fbad9e6fda6286256bd2d?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=QWbvWuz8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "第9期專題任務初階題.odt",
+        "第9期專題任務-遇見臺北「樹」民注音版.pdf",
+        "第9期專題任務-遇見臺北「樹」民.odt",
+        "第9期專題任務-遇見臺北「樹」民.pdf"
+      ],
+      "summary": "一、依據本市115年度深耕閱讀推動計畫辦理。 二、115年第9期專題任務主題為「遇見臺北「樹」民」，請鼓 勵學生踴躍上網參加，作答日期為115年9月1日至115年9月。三、112年起新增「進階評選」:*連續3個月均有參與專題任務 作答，且初階題及進階題必須答題全對的學生將另外抽出 10名給予進階獎勵。(*以上所稱連續3個月是指:1-3月、4- 6月、7-9月、10-12月。)四、當期紙本任務挑戰下載區:臺北市兒童深耕閱讀教育網〉推 廣活動〉每月專題任務。 五、活動網址: http://reading.tp.edu.tw/"
+    },
+    {
+      "id": "研習資訊:博愛國小:6a9fb8836002eb2673014ba3",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "轉知臺北市國民教育地方輔導團自然領域分團國小組 115 學年度第1學期到校輔導申請",
+      "published": "2026-09-08T07:24:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6a9fb8836002eb2673014ba3?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=tQHaHM07712&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29414923_1153006083_ATTCH1.pdf"
+      ],
+      "summary": "如需該分團到校輔導與協助，請逕向該分團提出申請(申請 表如附件)。 請各校於115年9月30日(星期三)前，填寫附件申請表以聯 絡箱068交換至臺北市大同區大橋國民小學教務處黃群哲主 任收，或email至odanomunaga@tjps.tp.edu.tw。並請於資 料傳送後，以電話確認是否送達。 該分團業務聯絡人：大橋國小教務主任黃群哲，聯絡電 話：(02)2594-4413分機128。"
+    },
+    {
+      "id": "最新消息:博愛國小:6a9fb8836002eb2673014ba3",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "轉知臺北市國民教育地方輔導團自然領域分團國小組 115 學年度第1學期到校輔導申請",
+      "published": "2026-09-08T07:24:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6a9fb8836002eb2673014ba3?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29414923_1153006083_ATTCH1.pdf"
+      ],
+      "summary": "如需該分團到校輔導與協助，請逕向該分團提出申請(申請 表如附件)。 請各校於115年9月30日(星期三)前，填寫附件申請表以聯 絡箱068交換至臺北市大同區大橋國民小學教務處黃群哲主 任收，或email至odanomunaga@tjps.tp.edu.tw。並請於資 料傳送後，以電話確認是否送達。 該分團業務聯絡人：大橋國小教務主任黃群哲，聯絡電 話：(02)2594-4413分機128。"
+    },
     {
       "id": "榮譽榜:建安國小:6a9fb2cdcdd4d823ca07c47f",
       "schools": [
@@ -560,6 +850,34 @@
       "summary": "校內收件日期：115年10月5日將「作品文稿」(紙本&電子檔)、「授權親簽切結書」及作品聲音檔前交至設備組 (電子檔請寄至 jwsb@mail.jnps.tp.edu.tw ) 活動對象：一~六年級學生及家庭成員 校內徵件辦法請參考附件檔案，報名作品由學校統一送出參加市賽。"
     },
     {
+      "id": "學校公告:光復國小:6a9c11e22b584572ded70f80",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "學校公告",
+      "title": "[多語文捷報]115年臺北市語文競賽首日獲得佳績",
+      "published": "2026-09-07T12:45:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6a9c11e22b584572ded70f80?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=UFKVG9l8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": ""
+    },
+    {
+      "id": "光復之光:光復國小:6a9c11e22b584572ded70f80",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "光復之光",
+      "title": "[多語文捷報]115年臺北市語文競賽首日獲得佳績",
+      "published": "2026-09-07T12:45:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6a9c11e22b584572ded70f80?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=EIWuBZr8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": ""
+    },
+    {
       "id": "研習資訊:博愛國小:6a9e9ab270fae2ee614d20fb",
       "schools": [
         "博愛國小"
@@ -1111,34 +1429,6 @@
       "siteUrl": "https://www.jnps.tp.edu.tw",
       "attachments": [],
       "summary": "楊維芳女士為本校交通導護隊的創隊元老，30年來招募最多志工加入交通導護隊，同時也是讓導護隊志工加入臺北市義交隊的重要推手。成立本校導護隊的互助基金用來關懷成員，積極協助為志工申請獎勵，鼓舞志工士氣，更重要的是不斷精進自己，透過更多元的服務方式造福更多的人。 郭南蘋女士擔任建安交通導護志工己逾30年，曾任2屆隊長，訂定本校交通導護志工組織運作辦法，奠定現今志工隊的基礎。曾主辦第1次「大安區導護志工晚會」，這是一項極具意義的任務，奠定目前的行政慣例，由大安區各校、家長會及交通導護志工隊輪流承辦這項傳統活動，核心目標在於慰勞志工辛勞與促進跨校交流。 建安圖書志工們以「Joy喜悅、Act行動、Equity公平、Support支持」的精神，成為學童溫暖的看顧者。透過「大下課說故事」、「行動書車」與「UberBook」的服"
-    },
-    {
-      "id": "學校公告:光復國小:6a9c11e22b584572ded70f80",
-      "schools": [
-        "光復國小"
-      ],
-      "source": "學校公告",
-      "title": "[多語文捷報]115年臺北市語文競賽首日獲得佳績",
-      "published": "2026-09-05T12:45:00+00:00",
-      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6a9c11e22b584572ded70f80?vector=private&static=false",
-      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=UFKVG9l8827&vector=private&static=false",
-      "siteUrl": "https://www.kfps.tp.edu.tw",
-      "attachments": [],
-      "summary": "恭喜610李O軒獲得臺灣台語 歌唱第三名佳績!感謝黃欣儀老師的指導! 恭喜610王O熙獲得臺灣客語 朗讀優等佳績!感謝張秀英老師的指導! 感謝今日代表學校出賽的所有同學!"
-    },
-    {
-      "id": "光復之光:光復國小:6a9c11e22b584572ded70f80",
-      "schools": [
-        "光復國小"
-      ],
-      "source": "光復之光",
-      "title": "[多語文捷報]115年臺北市語文競賽首日獲得佳績",
-      "published": "2026-09-05T12:45:00+00:00",
-      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6a9c11e22b584572ded70f80?vector=private&static=false",
-      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=EIWuBZr8827&vector=private&static=false",
-      "siteUrl": "https://www.kfps.tp.edu.tw",
-      "attachments": [],
-      "summary": "恭喜610李O軒獲得臺灣台語 歌唱第三名佳績!感謝黃欣儀老師的指導! 恭喜610王O熙獲得臺灣客語 朗讀優等佳績!感謝張秀英老師的指導! 感謝今日代表學校出賽的所有同學!"
     },
     {
       "id": "一般消息:仁愛國小:6a9c0702b71da370f2668fd9",
@@ -5101,6 +5391,25 @@
       "summary": "說明: 一、自115學年度起， 「全國師生鄉土歌謠比賽」更名為「全國師生本土語及新住民語歌謠比賽」 。 二、旨揭計畫報名規定： (一)本比賽採先網路登錄，再列印報名資料，經學校核章後，將核章報名表及報名清冊上傳系統，逾時不予受理。 (二)網路登錄報名及列印報名表日期：自115年8月31日（星期一）9:00至9月11日（星期五）23:59:59止，以學校為單位統一報名，於本市五項藝術比賽專屬網站登錄報名 資料。 (三)上傳報名表及報名清冊至網站系統（無需寄送紙本） (四)連續兩年（113及114學年度）獲得全國師生鄉土歌謠比 賽同類組特優者，得逕行參加決賽。逕行參加決賽者得參加本市初賽，惟不占本市決賽代表權額度。此類資格人員應依逕行參加全國賽之資格參加決賽，不以參加初 賽取得決賽代表權。（逕行參加決賽之資格，悉依"
     },
     {
+      "id": "校園事務:光復國小:6a9fccecba5d842997ab7bb1",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "校園事務",
+      "title": "【電力檢測】115年度電力檢測結果及第2季用電自我檢核表",
+      "published": "2026-08-28T08:44:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6a9fccecba5d842997ab7bb1?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=pBSho0Y6874&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "低壓電力設備定檢測試報告書1150129.pdf",
+        "低壓電力設備紅外線熱顯像溫度檢測試驗報告書.pdf",
+        "用電安全自我檢查表1150617.pdf",
+        "漏電斷路器檢核表1150617.pdf"
+      ],
+      "summary": "1.115年度電力檢測： (1)已於115年1月29日全校停電辦理「低壓電力設備定期檢驗」，經檢測電力設備無異常。 (2)已於115年7月16日辦理「低壓電力設備紅外線熱顯像溫度檢測」，檢測結果電力設備無異常。 2.115年第2季用電自我檢核：已於115年6月17日完成「用電安全自我檢查表」及「漏電斷路器檢核表」。"
+    },
+    {
       "id": "最新消息:博愛國小:6a91419223e7b742d2d02a4e",
       "schools": [
         "博愛國小"
@@ -8021,6 +8330,22 @@
       "summary": "本校 115 學年度代理教師第 4 次甄選結果（第 9 招）如下： 【中年級自然鐘點代課教師】 ( 一 ) 正取：曾○珊 ( 二 ) 本次甄選已補實，取消第 10 招至第 15 招。 經委員同意上開結果，確認並公告之。 請正取人員於 115 年 8 月 21 日（星期五）上午 8 時 30 分至 10 時，至人事室完成報到，逾期視同放棄。 中華民國一一五年八月二十日"
     },
     {
+      "id": "校園事務:光復國小:6a9fc9af39aadb2b1ecffecb",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "校園事務",
+      "title": "【反針孔攝影偵測】115年7月偵測結果",
+      "published": "2026-08-20T08:37:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6a9fc9af39aadb2b1ecffecb?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=pBSho0Y6874&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "11507反針孔攝影檢測結果紀錄表.pdf"
+      ],
+      "summary": "一、依據本府教育局 114年4月18日北市教體字第1143055668號暨115年3月17日北市教體字第11530484591號函辦理。 二、115年7月份檢測結果無異常，檢測紀錄表詳如附件。 三、本月份僅例行檢測，未辦理大型活動。"
+    },
+    {
       "id": "研習資訊:建安國小:6a86a5774007da230e49bd8e",
       "schools": [
         "建安國小"
@@ -8576,9 +8901,10 @@
         "A-2 115 家長會會員代表選票-班級OO.docx",
         "C 115(上) 一年級學校日親師懇談紀錄空白.docx",
         "C 115(上) 二~六年級學校日親師懇談紀錄空白.docx",
-        "D 115(全) 學校日家長建議事項 QRC.png"
+        "D 115(全) 學校日家長建議事項 QRC.png",
+        "E 115(上)學校日處室報告公告 0908.pdf"
       ],
-      "summary": "家代選舉也可以用舉手的方式，但如需協助印製紙本選票，請在時間內email給輔導室資料組。 相關處室報告資料會陸續更新，敬請導師在學校日前2天再下載使用。"
+      "summary": "家代選舉也可以用舉手的方式，但如需協助印製紙本選票，請在時間內email給輔導室資料組。 相關處室報告資料0908更新，敬請導師在學校日前2天再下載使用。"
     },
     {
       "id": "行政檔案:建安國小:6a84339225faf9aa6f0a902b",
