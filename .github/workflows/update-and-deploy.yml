@@ -30,8 +30,11 @@ jobs:
           python -m json.tool data/articles.json >/dev/null
           python -m json.tool data/version.json >/dev/null
           node --check app.js
+          python scripts/validate_project.py
       - name: Update RSS data
         run: python scripts/update_feed.py
+      - name: Validate updated data
+        run: python scripts/validate_project.py
       - name: Save latest data
         run: |
           git config user.name "github-actions[bot]"

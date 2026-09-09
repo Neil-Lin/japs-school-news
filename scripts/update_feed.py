@@ -86,14 +86,20 @@ for article in existing.get("articles", []):
             article["id"] = "教育局消息:共同:" + article["id"].split(":", 1)[-1]
     by_id[article["id"]] = article
 errors = []
+source_status = []
 with ThreadPoolExecutor(max_workers=6) as executor:
     futures = {executor.submit(fetch, source): source for source in CONFIG["sources"]}
     for future in as_completed(futures):
         source = futures[future]
+        status_name = source["name"] + (f"（{source['school']}）" if source.get("school") else "")
         try:
-            for article in future.result(): by_id[article["id"]] = article
+            items = future.result()
+            for article in items: by_id[article["id"]] = article
+            source_status.append({"name": status_name, "status": "ok", "itemCount": len(items)})
         except Exception as error:
-            errors.append({"source":source["name"],"error":str(error)})
+            error_text = str(error)
+            errors.append({"source":status_name,"error":error_text})
+            source_status.append({"name": status_name, "status": "error", "itemCount": 0, "error": error_text})
 
 cutoff = datetime.now(timezone.utc) - timedelta(days=RETENTION_DAYS)
 def keep_article(article):
@@ -104,7 +110,7 @@ def keep_article(article):
 
 articles = sorted((article for article in by_id.values() if keep_article(article)), key=lambda a:a.get("published", ""), reverse=True)
 updated_at = datetime.now(timezone.utc).isoformat()
-payload = {"updatedAt":updated_at,"errors":errors,"articles":articles}
+payload = {"updatedAt":updated_at,"errors":errors,"sourceStatus":sorted(source_status, key=lambda item: item["name"]),"articles":articles}
 OUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n")
 VERSION.write_text(json.dumps({"updatedAt":updated_at},ensure_ascii=False)+"\n")
 if errors:
