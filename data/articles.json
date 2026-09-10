@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T07:25:44.332133+00:00",
+  "updatedAt": "2026-09-10T13:01:19.734893+00:00",
   "errors": [
     {
       "source": "教育局消息",
@@ -20,7 +20,7 @@
     {
       "name": "人事資訊（光復國小）",
       "status": "ok",
-      "itemCount": 99
+      "itemCount": 100
     },
     {
       "name": "光復之光（光復國小）",
@@ -156,7 +156,7 @@
     {
       "name": "活動專欄（建安國小）",
       "status": "ok",
-      "itemCount": 72
+      "itemCount": 74
     },
     {
       "name": "活動資訊（光復國小）",
@@ -181,7 +181,7 @@
     {
       "name": "研習資訊（建安國小）",
       "status": "ok",
-      "itemCount": 80
+      "itemCount": 81
     },
     {
       "name": "競賽活動（敦化國小）",
@@ -225,6 +225,80 @@
     }
   ],
   "articles": [
+    {
+      "id": "學校公告:光復國小:6aa2696068eaf0aee38b716a",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "學校公告",
+      "title": "光復國小115學年度代理教師第6次甄選結果(第4招)",
+      "published": "2026-09-10T09:00:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6aa2696068eaf0aee38b716a?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=UFKVG9l8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "本校 115 學年度代理教師第 6 次甄選結果（第 4 招）如下： 【社會科任代理教師】 ( 一 ) 正取：李○育 ( 二 ) 本次甄選已補實，取消第 5 招至第 10 招 【健康生活本土表藝科任代理教師】 無人報名，賡續辦理第 5 招。 經委員同意上開結果，確認並公告之。 請正取人員於 115 年 9 月 11 日（星期五）上午 8 時至 10 時，至人事室完成報到，逾期視同放棄。 中華民國一一五年九月十日"
+    },
+    {
+      "id": "人事資訊:光復國小:6aa2696068eaf0aee38b716a",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "人事資訊",
+      "title": "光復國小115學年度代理教師第6次甄選結果(第4招)",
+      "published": "2026-09-10T09:00:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6aa2696068eaf0aee38b716a?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=MacAbVJ0472&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "本校 115 學年度代理教師第 6 次甄選結果（第 4 招）如下： 【社會科任代理教師】 ( 一 ) 正取：李○育 ( 二 ) 本次甄選已補實，取消第 5 招至第 10 招 【健康生活本土表藝科任代理教師】 無人報名，賡續辦理第 5 招。 經委員同意上開結果，確認並公告之。 請正取人員於 115 年 9 月 11 日（星期五）上午 8 時至 10 時，至人事室完成報到，逾期視同放棄。 中華民國一一五年九月十日"
+    },
+    {
+      "id": "活動資訊:光復國小:6aa26e3de088dab1e80fa6b7",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "活動資訊",
+      "title": "115年度國家防災日全國「揹上包，然後 呢？我的避難實測」短影音創作比賽活動",
+      "published": "2026-09-10T08:44:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6aa26e3de088dab1e80fa6b7?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=QWbvWuz8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "有關旨揭活動摘要如下（活動計畫詳如附件）： (一)投稿日期：115年9月1日起至115年10月15日止。 (二)網路人氣獎票選日期：115年10月23日中午12時起至11月 10日中午12時止。 (三)公布獎項：115年11月13日中午12時於FB「台南防災大特 寫」粉絲專頁公告所有得獎作品，並於11月30日前寄出 所有獎項。 (四)創作指引：拍攝自己實際從住家出發，步行前往距離最 近的地震避難收容處所、防災公園或社區演練的路線。 (五)活動方式：報名者將參賽影片上傳至Youtube，影片標題設定為：「我的避難實測-短影音徵件-（片名）」，設 定瀏覽權限為「不公開」（知道連結者可觀看），並至 google表單（https://forms.gle/qN9w9mzfnb38SHtA6） 填寫報名表。"
+    },
+    {
+      "id": "行政公告:建安國小:6aa26df24898c2b28373ab27",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "行政公告",
+      "title": "轉知臺灣師範大學和平校區115年游泳例行班招生資訊",
+      "published": "2026-09-10T08:40:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6aa26df24898c2b28373ab27?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=2rEsyLS9623&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [
+        "招生簡章.pdf"
+      ],
+      "summary": "一、課程時間：115年9月1日至115年12月31日。 二、開設班別：平日班、假日班、成人專班、幼兒班、指定班、個別班。 三、其他：課程時段、招生資格、收費及報名方式如附件或至以下網站查詢 https://www.phr.ntnu.edu.tw/zh_tw/Natatorium/place1 。"
+    },
+    {
+      "id": "研習資訊:建安國小:6aa26990e088dab1e80e6152",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "研習資訊",
+      "title": "轉知 115年度閱讀磐石典範分享暨閱讀推動專業研習",
+      "published": "2026-09-10T08:15:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6aa26990e088dab1e80e6152?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=EzoytYK7010&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [
+        "附件-115年度閱讀磐石典範分享暨閱讀推動專業研習計畫.pdf"
+      ],
+      "summary": "說明: 一、依據：教育部115年永續閱讀活動實施計畫。 二、辦理目的 (一)提升學校閱讀推動人員專業知能，深化閱讀教育實務。 (二)分享閱讀磐石學校及閱讀推手推動經驗，促進教學交流與專業成長。 (三)結合本館閱讀推廣資源，增進教育現場資源運用能力。 三、辦理單位 (一)指導單位：教育部 (二)主辦單位：國立臺灣圖書館 四、實施對象 (一)學校閱讀推動教師（含幼兒園教保服務人員）、行政人員、圖書室志工等。 (二)全程參與教師核發研習時數3.5小時。 五、辦理時間及地點 (一)日期：9月9日（星期三）、10月7日（星期三）、11月11日（星期 三）、12月9日（星期三）。 (二)時間：下午2時至5時30分。 (三)地點：本館1樓簡報室。 （新北市中和區中安街85號） 六、辦理方式 (一)專題演講：邀請閱讀教育專家及"
+    },
     {
       "id": "學校公告:光復國小:6aa251c599118facd4ed1c92",
       "schools": [
@@ -849,6 +923,34 @@
         "實施計畫.pdf"
       ],
       "summary": "說明： 一、依據國立臺南大學115年9月7日南大視訓字第1150016961號 函辦理。 二、參加對象、報名方式及上課時間等詳實施計畫，倘有相關 疑義，請逕洽該校聯絡人及電話：江孟真、陳欣妤，06- 2138354。 三、檢附國立臺南大學原函及實施計畫（含相關表件）各1 份。"
+    },
+    {
+      "id": "活動專欄:建安國小:6aa2714fb35223b200de7d5c",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "活動專欄",
+      "title": "游泳培訓隊招生",
+      "published": "2026-09-09T16:00:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5ae19a832dc6744a2d2daa67/hG68Os01764/6aa2714fb35223b200de7d5c?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5ae19a832dc6744a2d2daa67/hG68Os01764?f=normal&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [],
+      "summary": ""
+    },
+    {
+      "id": "活動專欄:建安國小:6aa271eaf27d2eb367e3ae99",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "活動專欄",
+      "title": "115學年度上學期游泳培訓隊招生",
+      "published": "2026-09-09T16:00:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5ae19a832dc6744a2d2daa67/hG68Os01764/6aa271eaf27d2eb367e3ae99?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5ae19a832dc6744a2d2daa67/hG68Os01764?f=normal&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [],
+      "summary": "一、招生內容： ( 一 ) 甄選對象：本校升二 ~ 六年級學生。 ( 二 ) 招生人數： 預計招生 10 位 。 二、報名時間及方式：自即日起至 115 年 9 月 18 日 ( 星期五 ) 中午 12 時止，掃描 QR Code ，以線上方式報名。 三、甄選時間： 115 年 9 月 21 日（一）上午 07:15 於本校 游泳池 報到， 7 ： 20 開始測驗 。 四、甄選地點：本校游泳池。 五、甄選方式：專項測驗 低年級：自 、 仰可以流暢游完至少 25m。 中年級：自 、 仰 、 蛙可以流暢游完 50m。 高年級：自 、 仰 、 蛙 、 蝶可以游完 50m。 六、錄取順序：以中低年級為優先，若達到入隊標準的選手超過預計招生數量，將以秒數較快者優先錄取。 七、放榜時間： 甄選錄取名單將於 9 月 23 日"
     },
     {
       "id": "教師研習及活動:光復國小:6aa1350bed57bc70bbd2b6cb",
@@ -1630,7 +1732,7 @@
         "29416705_1156094561_ATTCH2.odt",
         "29416705_1156094561_ATTCH1.pdf"
       ],
-      "summary": "詳細徵件內容請參考活動簡章，亦可至勞動局官網下載活 動簡章（勞動局官網〉業務服務〉勞動教育文化〉勞動教 育校園扎根〉兒童認識勞動權益四格漫畫徵件競賽活動， 網址：https://reurl.cc/WOdkb9下載。如有相關疑問，請 洽活動專線：（02）2720-8889/1999轉分機3346、3345。 另，為配合本校作業期程，本校收件時間至 115年10月12日星期一下午4時止 ，逾期不候。"
+      "summary": "詳細徵件內容請參考活動簡章，亦可至勞動局官網下載活 動簡章（勞動局官網〉業務服務〉勞動教育文化〉勞動教 育校園扎根〉兒童認識勞動權益四格漫畫徵件競賽活動， 網址：https://reurl.cc/WOdkb9下載。如有相關疑問，請 洽活動專線：（02）2720-8889/1999轉分機3346、3345。 另，為配合本校作業期程，本校收件時間至 115年10月7日星期三中午12時止 ，逾期不候。"
     },
     {
       "id": "最新消息:博愛國小:6a9fba543d39f62398835bff",
