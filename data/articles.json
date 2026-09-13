@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T12:17:13.727538+00:00",
+  "updatedAt": "2026-09-13T07:34:39.908212+00:00",
   "errors": [
     {
       "source": "教育局消息",
@@ -181,12 +181,12 @@
     {
       "name": "研習資訊（建安國小）",
       "status": "ok",
-      "itemCount": 85
+      "itemCount": 84
     },
     {
       "name": "競賽活動（敦化國小）",
       "status": "ok",
-      "itemCount": 67
+      "itemCount": 66
     },
     {
       "name": "行政公告（建安國小）",
@@ -201,7 +201,7 @@
     {
       "name": "親職資訊（仁愛國小）",
       "status": "ok",
-      "itemCount": 52
+      "itemCount": 51
     },
     {
       "name": "防疫公告（光復國小）",
@@ -225,6 +225,20 @@
     }
   ],
   "articles": [
+    {
+      "id": "光復之光:光復國小:6aa54d20601ebb63dfdf1da3",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "光復之光",
+      "title": "[多語文捷報]原住民語文競賽成績出爐",
+      "published": "2026-09-12T13:00:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6aa54d20601ebb63dfdf1da3?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=EIWuBZr8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": ""
+    },
     {
       "id": "最新消息:博愛國小:6aa540d47f18b66114777cd0",
       "schools": [
@@ -33200,38 +33214,6 @@
       "siteUrl": "https://www.jnps.tp.edu.tw",
       "attachments": [],
       "summary": "賀!本校學生參加臺北市114年度臺北市語文競賽榮獲佳績 也感謝徐幼真、陳虹伶、殷乃仁、夏佩如、施家蓉、林郇珍、闕雅薰、張雅涵老師的指導 以下為獲獎名單： 09/30更新～ 602蔡喆宇-魯凱族語歌唱-榮獲南區第一名 606林芝卉-排灣族語歌唱-榮獲南區第二名 613楊宛融-布農族語歌唱-榮獲南區第三名 601黃馨玉-阿美族語歌唱-榮獲南區優等 507余侑縈-臺灣台語朗讀-榮獲南區第二名 507吳牧軒-臺灣台語情境式演說-榮獲南區優等 09/22更新～ 614 陳品橋- 國語寫字項目-榮獲第一名 （晉級全國賽） 614 黃暄晴- 國語作文項目-榮獲優等 602 鄒幸融-英語演說（一）項目-榮獲優等 608 陳維佑-英語演說（二）項目-榮獲優等 602 顏宏燁、林棨馥、萬恩寧、陳立帆-臺灣台語讀者劇場項目-榮獲優等"
-    },
-    {
-      "id": "校務公告:敦化國小:68c4d8ff1d5efff2a32ec116",
-      "schools": [
-        "敦化國小"
-      ],
-      "source": "校務公告",
-      "title": "114學年度教科書購買資訊",
-      "published": "2025-09-13T02:35:00+00:00",
-      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/68c4d8ff1d5efff2a32ec116?vector=private&static=false",
-      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=1hdeMSJ5377&vector=private&static=false",
-      "siteUrl": "https://www.thps.tp.edu.tw",
-      "attachments": [
-        "114教科書購買資訊.pdf"
-      ],
-      "summary": ""
-    },
-    {
-      "id": "其他公告:敦化國小:68c4d8ff1d5efff2a32ec116",
-      "schools": [
-        "敦化國小"
-      ],
-      "source": "其他公告",
-      "title": "114學年度教科書購買資訊",
-      "published": "2025-09-13T02:35:00+00:00",
-      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/68c4d8ff1d5efff2a32ec116?vector=private&static=false",
-      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=H0q9lCm0232&vector=private&static=false",
-      "siteUrl": "https://www.thps.tp.edu.tw",
-      "attachments": [
-        "114教科書購買資訊.pdf"
-      ],
-      "summary": ""
     }
   ]
 }
