@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T08:00:58.027943+00:00",
+  "updatedAt": "2026-09-14T15:20:33.738411+00:00",
   "errors": [
     {
       "source": "教育局消息",
@@ -226,6 +226,42 @@
   ],
   "articles": [
     {
+      "id": "最新消息:博愛國小:6aa7f878875f09ee16a04d8b",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "轉知「臺北市115學年度國民小學一般智能資賦優異學生鑑定安置計畫」及相關表件",
+      "published": "2026-09-14T13:32:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6aa7f878875f09ee16a04d8b?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "「臺北市115學年度國民小學一般智能資賦優異學生鑑定安置計畫」-1150914.pdf",
+        "1-臺北市116學年度國民小學一般智能資賦優異學生鑑定安置計畫.pdf",
+        "2-臺北市116學年度國民小學一般智能資賦優異學生鑑定安置問題與解答（Q＆A）.pdf",
+        "3-臺北市116學年度國民小學一般智能資賦優異學生鑑定安置說明會-簡報.pdf",
+        "4-臺北市116學年度國民小學一般智能資賦優異學生鑑定安置說明會（影片檔）.mp4",
+        "5-臺北市116學年度國民小學一般智能資賦優異學生鑑定安置報名系統家長操作簡報_報名三步驟.pdf",
+        "6-臺北市116學年度國民小學一般智能資賦優異學生鑑定安置報名系統家長操作影片.mp4"
+      ],
+      "summary": "轉知「臺北市115學年度國民小學一般智能資賦優異學生鑑定安置計畫」及相關文件，請想要報名資優鑑定的二年級家長參閱文件後依內容逐步完成報名，若超過截止時限，逾期則無法參加資優鑑定。"
+    },
+    {
+      "id": "榮譽榜:建安國小:6aa7b588995e8edfa6f10ee1",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "榮譽榜",
+      "title": "本校田徑隊參加秋季盃全國田徑公開賽榮獲佳績！",
+      "published": "2026-09-14T08:44:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6aa7b588995e8edfa6f10ee1?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=AQoMNBw7626&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [],
+      "summary": "本校田徑隊參加秋季盃全國田徑公開賽榮獲佳績 611 班 黃楀晴 獲得 北市國小女子組 跳遠 第一名、200公尺 第一名 605班 陳力暘 獲得 北市國小男子組 60公尺 第一名 、跳高 第三名 604班 吳俞霏 獲得 北市國小女子組 跳高 第六名、60公尺 第六名 607班 余侑縈 獲得 北市國小女子組 鉛球 第六名 感謝陳柏蓉老師、許正龍老師協助指導及李彥廷老師專業指導 感謝導師們的支持及家長到場協助與支援"
+    },
+    {
       "id": "行政公告:建安國小:6aa7a7b51d9fd6dd25510150",
       "schools": [
         "建安國小"
@@ -274,7 +310,7 @@
         "02 臺北市大安區建安國小「116學年度資優鑑定安置報名」說明單.pdf",
         "03 116附件2、3填寫說明.pdf"
       ],
-      "summary": "請詳讀附件計畫，如有任何問題請洽臺北市資賦優異 教育資源中心） https://trcgt.tp.edu.tw 報名請至臺北市 國小 一般智能資優學生鑑定安置系統 https://www.gtide.tp.edu.tw"
+      "summary": "請詳讀附件計畫，如有任何問題請洽臺北市資賦優異 教育資源中心） https://trcgt.tp.edu.tw 報名請至臺北市 國小 一般智能資優學生鑑定安置系統 https://www.gtide.tp.edu.tw 相關宣導資料 已 放 於 雲端 硬碟（連結： https://reurl.cc/EYQLjk ， 內含說明會簡報及影片檔、系統報名操作簡報及影片檔、 常見問題Q&A、計畫等資訊）"
     },
     {
       "id": "比賽資訊:建安國小:6aa7a0912e1abfd899417b17",
@@ -33606,20 +33642,6 @@
         "科學與創新教育徵件.pdf"
       ],
       "summary": ""
-    },
-    {
-      "id": "榮譽榜:建安國小:68c6b1bc4ca8dbf2d2f99baa",
-      "schools": [
-        "建安國小"
-      ],
-      "source": "榮譽榜",
-      "title": "賀!本校學生參加臺北市114年度臺北市語文競賽榮獲佳績",
-      "published": "2025-09-14T12:07:00+00:00",
-      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/68c6b1bc4ca8dbf2d2f99baa?vector=private&static=false",
-      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=AQoMNBw7626&vector=private&static=false",
-      "siteUrl": "https://www.jnps.tp.edu.tw",
-      "attachments": [],
-      "summary": "賀!本校學生參加臺北市114年度臺北市語文競賽榮獲佳績 也感謝徐幼真、陳虹伶、殷乃仁、夏佩如、施家蓉、林郇珍、闕雅薰、張雅涵老師的指導 以下為獲獎名單： 09/30更新～ 602蔡喆宇-魯凱族語歌唱-榮獲南區第一名 606林芝卉-排灣族語歌唱-榮獲南區第二名 613楊宛融-布農族語歌唱-榮獲南區第三名 601黃馨玉-阿美族語歌唱-榮獲南區優等 507余侑縈-臺灣台語朗讀-榮獲南區第二名 507吳牧軒-臺灣台語情境式演說-榮獲南區優等 09/22更新～ 614 陳品橋- 國語寫字項目-榮獲第一名 （晉級全國賽） 614 黃暄晴- 國語作文項目-榮獲優等 602 鄒幸融-英語演說（一）項目-榮獲優等 608 陳維佑-英語演說（二）項目-榮獲優等 602 顏宏燁、林棨馥、萬恩寧、陳立帆-臺灣台語讀者劇場項目-榮獲優等"
     }
   ]
 }
