@@ -1,11 +1,6 @@
 {
-  "updatedAt": "2026-09-15T13:46:15.687153+00:00",
-  "errors": [
-    {
-      "source": "教育局消息",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1082)>"
-    }
-  ],
+  "updatedAt": "2026-09-15T15:42:48.756567+00:00",
+  "errors": [],
   "sourceStatus": [
     {
       "name": "一般智能資賦優異（敦化國小）",
@@ -69,9 +64,8 @@
     },
     {
       "name": "教育局消息",
-      "status": "error",
-      "itemCount": 0,
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1082)>"
+      "status": "ok",
+      "itemCount": 50
     },
     {
       "name": "教育盃桌球賽（敦化國小）",
@@ -317,6 +311,24 @@
       "summary": ""
     },
     {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=336870211C3A8749",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】財團法人新北市私立瑤華仙主社會福利慈善事業基金會「第七屆書藝獎-全國國中小書法比賽」",
+      "published": "2026-09-15T08:24:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=336870211C3A8749",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "財團法人新北市私立瑤華仙主社會福利慈善事業基金會辦理「第七屆書藝獎-全國國中小書法比賽」，訂於11月7日(星期六)下午1:00至下午5:30，假新北三重國小辦理。活動計畫、比賽簡章、報名表如附件。 財團法人新北市私立瑤華仙主社會福利慈善事業基金會書法比賽(附件).pdf"
+    },
+    {
       "id": "其他公告:敦化國小:6aa8f69b63f55618c96edf51",
       "schools": [
         "敦化國小"
@@ -373,6 +385,24 @@
         "假求職詐騙"
       ],
       "summary": ""
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=BD770587FC013ABF",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】高雄市立中正高級中學115學年度「探索未來，安頓內在：掌握工作世界與情緒素養」線上增能研習",
+      "published": "2026-09-15T07:10:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=BD770587FC013ABF",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "線上研習.pdf"
     },
     {
       "id": "行政公告:建安國小:6aa8f2e105e1bf22e7687435",
@@ -825,6 +855,24 @@
       "summary": "本校田徑隊參加秋季盃全國田徑公開賽榮獲佳績 611 班 黃楀晴 獲得 北市國小女子組 跳遠 第一名、200公尺 第一名 605班 陳力暘 獲得 北市國小男子組 60公尺 第一名 、跳高 第三名 604班 吳俞霏 獲得 北市國小女子組 跳高 第六名、60公尺 第六名 607班 余侑縈 獲得 北市國小女子組 鉛球 第六名 感謝陳柏蓉老師、許正龍老師協助指導及李彥廷老師專業指導 感謝導師們的支持及家長到場協助與支援"
     },
     {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=A81C0503C81EBA97",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】財團法人國語日報社2026「讓好文、好品格一起發光」徵文活動",
+      "published": "2026-09-14T08:30:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=A81C0503C81EBA97",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、依據該社115年9月11日115字第1150000045號函辦理。 二、為鼓勵國小學生主動閱讀品格教育文章，培養學生對責任、同理、誠實、關懷等價值的理解與實踐，財團法人感恩社會福利基金會與國語日報社共同辦理旨揭活動。 三、活動對象為全國國小中、高年級學生，徵文主題為「讀品格好文，寫感恩故事」，即日起至115年11月15日（星期日）止，可選擇線上投稿或紙本投稿。 四、相關參加辦法及投稿方式等請參閱活動簡章（如附件），如有任何問題，請洽活動專線：（02）2392-1133分機2112、信箱：avelinelin@mdnkids.com。 簡章.pdf"
+    },
+    {
       "id": "行政公告:建安國小:6aa7a7b51d9fd6dd25510150",
       "schools": [
         "建安國小"
@@ -925,6 +973,24 @@
       "summary": "有關本學年度國民小學基本學力檢測相關說明，請五年級家長點選附件查看"
     },
     {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=2DBAF851780EE44E",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】林口長庚紀念醫院「美妙人聲-教師嗓音保健線上講座」",
+      "published": "2026-09-14T06:02:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=2DBAF851780EE44E",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "嗓音保健課程實施計畫.pdf Webex軟體使用說明.pdf"
+    },
+    {
       "id": "行政公告:建安國小:6aa7821839dc91d41ec05048",
       "schools": [
         "建安國小"
@@ -955,6 +1021,24 @@
       "summary": "一、由財團法人感恩社會福利基金會與國語日報社共同主辦之 2026「讓好文、好品格一起發光」徵文活動，旨在鼓勵國 小學生主動閱讀品格教育文章，培養學生對責任、同理、 誠實、關懷等價值的理解與實踐，透過徵文創作，將所學 內化後轉為文字，強化品格素養。 二、本次活動對象為全國國小中、高年級學生，徵文主題為 「讓好文、好品格一起發光」。參賽作品可選擇線上投稿 或紙本投稿，截止日期為115年11月15日。 三、本活動簡章、詳如附件。惠請貴校引導學生踴躍投稿。 四、2026「讓好文、好品格一起發光」徵文活動網址： https://www.mdnkids.com/events/20260826- GreatfulEvent/或洽活動專線（02）2392-1133分機 2112。 2026「讓好文、好品格一起發光」徵文活動 主"
     },
     {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=7AB582BADB54CB9C",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】新竹市政府115學年度第1學期高中職以上清寒優秀學生獎學金相關資訊",
+      "published": "2026-09-14T04:26:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=7AB582BADB54CB9C",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "轉知新竹市政府115學年度第1學期高中職以上清寒優秀學生獎學金相關資訊，申請期間自115年10月11日至10月31日止，其餘資訊詳如附件。 新竹市政府原函.pdf 獎學金原始名冊.ods 獎學金申請及審查原則.pdf 獎學金申請表.odt"
+    },
+    {
       "id": "行政公告:建安國小:6aa776e1585e25d37fdb92e1",
       "schools": [
         "建安國小"
@@ -970,6 +1054,24 @@
         "疫苗宣導海報.jpg"
       ],
       "summary": "主旨：國內公費流感及新冠疫苗自115年10月1日起同步分2階段開打，為提升本市流感及新冠疫苗接種率，增進群體免疫力。 說明： 一、依據本局「115年度流感疫苗接種工作計畫」暨「COVID-19疫苗接種計畫」辦理。 二、有關公費流感疫苗及新冠疫苗等資訊，可至本局官網（ https://health.gov.taipei/ )/主題專區/公費流感疫苗及新冠疫苗接種專區）查詢。"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=E9F281ACC7DF675F",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】國立臺灣藝術教育館函知財團法人成長文教基金會預計於115年10月至116年6月，舉辦「藝術橋樑－臺灣故事島二部曲」經典兒童劇製作展校園推廣活動",
+      "published": "2026-09-14T03:24:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=E9F281ACC7DF675F",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、旨揭基金會為推廣國民小學校園表演藝術生根，特別規劃富涵教育意義的「藝術橋樑－臺灣故事島二部曲」活動， 結合大專院校戲劇系所共同入校推展表演藝術教育，並徵求合作之國民小學，辦理經典兒童劇道具展出、戲劇教學與推廣演出活動。 二、本活動執行期間為115年10月至116年6月，概要說明如下 （以線上最新更新資料為準）： （一）場地需求：位於2樓以下之室內空間場地。 （二）活動內容：包含旨揭基金會媒合劇團入校展出道具、提 供兒童戲劇教學與演出活動（於校園演出並需同意攝錄影）；執行期間需提供基金會辦理至少1次場勘及1次佈展作業時間，相關辦理日期與執行細節由雙方共同協商後確認。 （三）入校道具展出所結合之經典兒童劇目等資訊，請參閱線上資料：https://drive.google.com/drive/folders/1F"
     },
     {
       "id": "教師研習及活動:光復國小:6aa75d756ec4d2ce13831646",
@@ -1137,6 +1239,24 @@
         "戶外教育活動「山林冒險來雙溪」公文.pdf"
       ],
       "summary": "詳見附件"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=00F2C59A8ECF6F62",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】台灣健康聯盟辦理「Team Girls!挺女孩–教師知識培訓工作坊」",
+      "published": "2026-09-14T00:32:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=00F2C59A8ECF6F62",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、為配合教育部推廣生理教育及落實校園性平教育， 本聯盟與生理用品企業合作，共同舉辦「Team Girls!挺女孩-教師知識培訓工作坊」進修課程。旨在提供國小及國中教師協助學生面對初經及青春期即將面臨的生理、心理及人際問題等挑戰， 強化教師對月經教育的實務能力。 二、本聯盟持續透過教師研習推廣月經教育及性別平等教育，為突破地域限制，使不同縣市教師皆能便利參與，本次特別採線上方式辦理，邀請醫療及性別教育等領域專業講師，從青春期生理健康、月經與生理用品、心理變化、性別平等教育及校園實務等不同面向進行分享，協助教師將相關知識實際運用於教學現場，擴大效益。 三、本次研習以「從月經教育探討生理與性平教學的多重面向」為核心，除專業知識講授外，亦安排教育實務分享及綜合座談，透過跨領域觀點協助教師建立更完整之青春期及生理教育知"
     },
     {
       "id": "校外競賽:仁愛國小:6aa74155d7a688c7698d739b",
@@ -2009,6 +2129,24 @@
       "summary": "申請條件： (一)培訓原住民學生團隊，原住民學生須達百分之七十以上。 (二)培訓原住民學生個人。 申請原則：各校得申請團隊1案、個人1案，惟原住民族委員會僅補助1案。 (一)原住民學生團隊：每校每年以申請1案為限。 (二)原住民學生個人：每人每年以申請1案為限。（請各校自行選擇1名學生作為補助對象，切勿提供多名學生名冊） 補助類別：藝術、音樂、舞蹈、原住民族傳統運動。 檢附本計畫應備文件順序檢核表1份，請申請學校於115年9月30日（星期三）前函復本局提出申請，並依規定、順序裝訂，缺件亦不受理，無需申請則不須回復。"
     },
     {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=8E764CFE0F99157A",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】金門縣政府「金門縣政府獎學金申請規定」相關資訊",
+      "published": "2026-09-11T08:27:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=8E764CFE0F99157A",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "金門縣政府獎學金115學年度第1學期申請自115年10月1日起至10月15日止，相關資訊詳如附件。 金門縣政府原函.pdf 獎學金申請規定.pdf 切結書.odt"
+    },
+    {
       "id": "活動資訊:光復國小:6aa3bb77bffbad0c95eb18d7",
       "schools": [
         "光復國小"
@@ -2706,6 +2844,42 @@
       "summary": "🏓 115學年度敦化國小桌球校隊錄取公告 恭喜參加本次桌球校隊甄選的同學！🎉 經桌球隊教練團依據甄選過程中的 聆聽指令、徒手接球、折返跑速度等項目 進行綜合評估，核定以下同學錄取為115學年度敦化國小桌球校隊低年級預備隊員，共計22人： 🏆 錄取名單 💪 給每一位參加甄選同學的話 沒有錄取的同學也不要灰心！ 一次甄選的結果，不代表你的能力，更不代表你的未來。 這次沒有錄取，只是代表目前在甄選項目的表現還需要再累積與進步。只要願意持續練習、勇敢挑戰，相信未來還有許多機會可以展現自己的實力。 也要謝謝每一位勇敢報名、認真參與甄選的同學，你們願意踏出挑戰自己的第一步，就已經非常棒了！👏 🌟 今天的結果是起點，不是終點！ 期待大家繼續保持運動的熱情，持續練習、突破自己，未來在不同的舞台上發光發熱！ 再次恭喜錄取的同學，"
     },
     {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=5E8C8F595671DDD0",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】國立中山大學115年SIG培力系列活動",
+      "published": "2026-09-10T11:11:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=5E8C8F595671DDD0",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "說明： 一、國立中山大學辦理「115年SIG培力系列活動-『你USR了嗎？從在地擾動到永續學習的下一哩路』」 ，活動將邀請具USR與地方實踐經驗之學者及實務工作者，聚焦大學社會責任推動、地方連結及學生場域學習等議題，透過跨校、跨域交流與經驗分享，探討USR深化與永續發展之實踐方向。 二、旨揭講座謹訂於115年9月30日下午1時於本校國際研究大樓1樓1002階梯教室舉辦，意者請於115年9月24日前完成線上報名(報名網址：https://forms.gle/iizrTyu7CZUgSqCT9 ）。 詳細資訊請參閱附件。 附件_海報.pdf 附件_活動簡章.pdf"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=F724FEE3C72F9B45",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "淨零新生活「地球行動隊」MV",
+      "published": "2026-09-10T09:55:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=F724FEE3C72F9B45",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "讓大家在日常生活實踐淨零行動，從「食、衣、住、 行、育、樂、購」7大面向認識淨零新生活，透過活潑易懂、朗朗上口的音樂及表演，傳達淨零新生活理念。 淨零新生活「地球行動隊」MV QR Code.pdf"
+    },
+    {
       "id": "學校公告:光復國小:6aa2696068eaf0aee38b716a",
       "schools": [
         "光復國小"
@@ -2762,6 +2936,42 @@
         "招生簡章.pdf"
       ],
       "summary": "一、課程時間：115年9月1日至115年12月31日。 二、開設班別：平日班、假日班、成人專班、幼兒班、指定班、個別班。 三、其他：課程時段、招生資格、收費及報名方式如附件或至以下網站查詢 https://www.phr.ntnu.edu.tw/zh_tw/Natatorium/place1 。"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=431634878F4ACC9D",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】社團法人台灣公安學會「第三屆【好人不寂寞】論文競賽活動」，更正獎金金額與海報",
+      "published": "2026-09-10T08:32:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=431634878F4ACC9D",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、社團法人台灣公安學會來函，活動辦法所載獎項內容均屬正確，惟宣傳DM「第三名獎金新臺幣3萬元整」係屬誤植，應更正為「第三名獎金新臺幣1萬元整」。 二、檢附更正後之活動海報DM（如附件）。 海報更正.pdf"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=B61DFB0BB7EF4A21",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】國立中興大學訂於115年9月30日至10月1日於農業環境科學大樓1樓植物教學醫院會議室及臺中市東勢區小瓢蟲農場辦理「有機食農教育種子教師培訓課程」",
+      "published": "2026-09-10T08:21:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=B61DFB0BB7EF4A21",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、為強化食農教育師資之有機農業相關認知與實作教學，及提升有機食農教育師資之專業性，該校有機農業推動中心辦理「有機食農教育種子教師培訓課程」，敬邀中小學教師、營養師、有興趣成為有機食農教育師資者報名。 二、本課程免費參加，即日起開放報名(報名表單： https://reurl.cc/MW3mkp)。 三、檢附「有機食農教育種子教師培訓課程」活動海報1份"
     },
     {
       "id": "研習資訊:建安國小:6aa26990e088dab1e80e6152",
@@ -3143,6 +3353,24 @@
       "summary": "詳見附件"
     },
     {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=D3D9B442A0324582",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】財團法人普仁青年關懷基金會大手拉小手助學計畫開放申請相關事宜",
+      "published": "2026-09-10T01:51:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=D3D9B442A0324582",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、旨揭大手拉小手助學計畫為協助家境貧困學生穩定就學之助學獎學金，116年度將於115年10月1日至10月31日開放申請，相關資訊請至該基金會會網站（http://www.you-care.org.tw/）瀏覽公告。 二、其餘資訊詳如附件。 基金會原函.pdf 學校合作申請書.pdf 補助辦法.pdf 資料檢核表.odt"
+    },
+    {
       "id": "最新消息:博愛國小:6aa208f814f0939d255f37ea",
       "schools": [
         "博愛國小"
@@ -3433,6 +3661,42 @@
       "summary": "一、招生內容： ( 一 ) 甄選對象：本校升二 ~ 六年級學生。 ( 二 ) 招生人數： 預計招生 10 位 。 二、報名時間及方式：自即日起至 115 年 9 月 18 日 ( 星期五 ) 中午 12 時止，掃描 QR Code ，以線上方式報名。 三、甄選時間： 115 年 9 月 21 日（一）上午 07:15 於本校 游泳池 報到， 7 ： 20 開始測驗 。 四、甄選地點：本校游泳池。 五、甄選方式：專項測驗 低年級：自 、 仰可以流暢游完至少 25m。 中年級：自 、 仰 、 蛙可以流暢游完 50m。 高年級：自 、 仰 、 蛙 、 蝶可以游完 50m。 六、錄取順序：以中低年級為優先，若達到入隊標準的選手超過預計招生數量，將以秒數較快者優先錄取。 七、放榜時間： 甄選錄取名單將於 9 月 23 日"
     },
     {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=8AA7B0340372BCA3",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】屏東縣政府115學年度第1學期中等以上學校清寒及優秀學生獎學金申請相關資訊",
+      "published": "2026-09-09T11:10:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=8AA7B0340372BCA3",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "詳如附件。 屏東縣政府原函.pdf 學校證明書.odt 申請資料檢核表.odt 作業錯誤態樣.pdf 獎學金申請名冊.ods 獎學金申請書.odt 獎學金實施要點.pdf"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=580292F8120A4ED7",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】財團法人凱基社會福利慈善基金會成立宗旨關懷社會及扶助家庭經濟困難之學生-受理高中以下（含）學生暨家庭急難救助申請",
+      "published": "2026-09-09T11:07:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=580292F8120A4ED7",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "詳如附件。 基金會原函.pdf 急難救助要點.pdf 轉介單.odt"
+    },
+    {
       "id": "教師研習及活動:光復國小:6aa1350bed57bc70bbd2b6cb",
       "schools": [
         "光復國小"
@@ -3447,6 +3711,24 @@
         "29461366_1156009131_ATTCH1.pdf"
       ],
       "summary": "本培訓課程共開設4場次，相關資訊說明如下： (一)國小組 １、A111期：115年11月19日（星期四），上午9時至下午4 時，假本市劍潭國小4樓課研教室。 ２、A112期：115年11月24日（星期二），上午9時至下午4時，假本市劍潭國小4樓課研教室。 (二)國中組A211期：115年11月18日（星期三），上午9時至 下午4時，假本市長安國中4樓教師社群研討室。 (三)高中職暨特教學校組A311期：115年11月16日（星期 一），上午9時至下午4時，假本市松山高中3樓簡報 室。 報名方式：即日起至開課前5日止，於臺北市教師在職研習 網站https://insc.tp.edu.tw/辦理登錄報名，請搜尋主辦 單位：臺北市校長及教師專業發展中心。 研習注意事項 (一)本研習為掌握參加及用餐人數，採線上方式報名"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=011773E9420ACA6F",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【賽事資訊】2026全國地板滾球運動會",
+      "published": "2026-09-09T10:26:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=011773E9420ACA6F",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、比賽日期及地點： （一）115年10月17日（週六）北區初賽，地點：臺北市和平籃球館暖身球場。 （二）115年10月24日（週六）中區初賽，地點：臺中市北區國民運動中心。 （三）115年11月07日（週六）東區初賽，地點：宜蘭大學體育館。 （四）115年10月31日（週六）南區初賽，地點：高雄市苓雅運動中心。 （五）115年11月21日（週六）總決賽，地點：臺北市和平籃球館暖身球場。 二、報名日期：即日起至9月22日（週二）下午11時59分止。 三、報名方式：請參閱下方報名連接。 四、賽事活動簡章請參閱附件。 2026全國地板滾球運動會競賽章程.pdf"
     },
     {
       "id": "最新消息:博愛國小:6aa133683b829773a3ef65bb",
@@ -3495,6 +3777,24 @@
         "國立臺灣師範大學辦理「特定群體資優學生鑑定與輔導」線上研習.pdf"
       ],
       "summary": ""
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=1661ACD9527A6EB0",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【賽事資訊】115年全國國高中盃個人羽球錦標賽",
+      "published": "2026-09-09T09:21:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=1661ACD9527A6EB0",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、賽事時間：115年10月20日（週二）至115年11月1日（週日）。 二、賽事地點：高雄市亞柏會舘（高雄市小港區學府路113號）。 三、報名日期：即日起至115年9月16日(週三)下午4時止。 四、報名方式請參閱競賽規程（如附件）。 115年全國國高中盃個人羽球錦標賽競賽規程.pdf"
     },
     {
       "id": "教師研習及活動:光復國小:6aa1224353a44c6c1b7415df",
@@ -3649,6 +3949,24 @@
       "summary": "本校 115 學年度不分類身心障礙資源班支援代理教師第 2 次甄選結果（第 3 招）如下： 【不分類身心障礙資源班支援代理教師 ( 博愛國小缺 ) 】 ( 一 ) 正取：廖○如 ( 二 ) 本次甄選已補實，取消第 4 招至第 10 招 經委員同意上開結果，確認並公告之。 請正取人員等待本校通知指定日期，再至博愛國小報到。 中華民國一一五年九月九日"
     },
     {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=6CF76DA213DA3B92",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】國立臺灣藝術大學藝術管理與文化政策研究所甄試說明會報名",
+      "published": "2026-09-09T06:07:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=6CF76DA213DA3B92",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "說明： 一、該校藝術管理與文化政策研究所訂於115年9月18日（星期五）上午10時至11時30分，於教學研究大樓5樓藝政所辦理「來，我們同藝政線！」甄試說明會，活動採實體及線上方式辦理，歡迎對藝術、文化、政策及跨域學習等領域有興趣者踴躍參加。 二、說明會將介紹該所教學特色、甄試招生資訊、未來學習及職涯方向，協助有志於藝術管理、文化政策、博物館、藝文機構及文化行政等領域者，進一步認識藝政所。 三、報名至115年9月17日（星期四）止，活動詳情得至該校官網查詢，報名方式如下： (一)報名網址：www.accupass.com/go/2026welcomtoacpm。 (二)實體參與者當日憑報名券享用餐點。 附件_海報.pdf"
+    },
+    {
       "id": "校務公告:敦化國小:6aa0ed956bb04d6499c27a5d",
       "schools": [
         "敦化國小"
@@ -3792,6 +4110,78 @@
       "summary": "一、依本中心115年度研習行事曆辦理。 二、研習對象：本市公私立高級中等以下學校教師，每場次30人。 三、研習時間：115年10月2日（週五）至11月2日（週一），各場次報名分別辦理。 四、報名及薦派期間：即日起至115年10月22日（週五）止，各場次報名截止時間不同，請分別報名（詳附件實施計畫課表）。 五、研習地點：臺北市立長安國中（臺北市中山區松江路70巷11號）行政樓3樓電腦教室。 六、報名方式：採網路報名，請於報名截止日前登入臺北市教師在職研習網（https://insc.tp.edu.tw）報名，經行政程序核准後，由學校研習承辦人於報名截止日前完成薦派程序。 七、學員注意事項： (一)請學員自備載具下載課程電子講義。 (二)請於研習前確認手機已安裝及更新「酷課（雲）」App軟體，並完成註冊，以利「簽到"
     },
     {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=D0C5E52F90AEA0BE",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】臺南市政府財政稅務局舉辦「財稅超影力-AI短影音比賽」",
+      "published": "2026-09-09T02:24:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=D0C5E52F90AEA0BE",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、活動內容： 此短影音比賽設定之7個財稅主題創作，鼓勵參賽者發揮創意，將財稅常識、雲端發票優點、財政部統一發票兌獎APP、納稅者權利保護法、電子稅單、網路平臺禁止刊登販賣菸酒等主題，以活潑有趣之短影音作品，傳達給大眾，推廣財稅教育，總金額高達11萬元以上。 二、活動時程： (一)徵稿日期：即日起至115年9月30日(星期三)下午5:30止 (二)得獎公告：115年11月底以前。 (三)領獎作業：115年12月底以前。 三、參賽資格： 一般民眾(不限國籍、年齡，惟個人及團隊代表人需具中華民國國籍)。 114298271_1151750682A_ATTCH1.pdf 114298271_1151750682A_ATTCH2.pdf 114298271_1151750682A_ATTCH4.pdf 11429827"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=75A189EA4DF58DBB",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】「技職永續破風者計畫」【一場有「職」感的競賽——教案設計與教學實踐徵件】活動",
+      "published": "2026-09-09T02:15:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=75A189EA4DF58DBB",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": ""
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=CE579C207E90B584",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】國家教育研究院國際課綱系列研討會「數學自主學習與數位資源應用」",
+      "published": "2026-09-09T02:11:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=CE579C207E90B584",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "實施計畫.pdf"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=21C6FA0BCD4C5C87",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】115年度國中小英語課採英語授課教學實務分享線上英樂會",
+      "published": "2026-09-09T02:10:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=21C6FA0BCD4C5C87",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "資料.pdf"
+    },
+    {
       "id": "校內消息:仁愛國小:6aa0bf1ef1d7195acf7da79e",
       "schools": [
         "仁愛國小"
@@ -3808,6 +4198,24 @@
       "summary": ""
     },
     {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=4971E749D4D37E1B",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】2026台灣心理韌性論壇列車(四)〜失落與創傷生命教育篇",
+      "published": "2026-09-09T02:03:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=4971E749D4D37E1B",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "海報.pdf 議程.pdf"
+    },
+    {
       "id": "活動資訊:光復國小:6aa0bc8b06127959d917482e",
       "schools": [
         "光復國小"
@@ -3820,6 +4228,24 @@
       "siteUrl": "https://www.kfps.tp.edu.tw",
       "attachments": [],
       "summary": "說明： 一、國立臺灣戲曲學院藝文中心為推廣戲曲文化傳承並落實藝術教育，每年度均策劃辦理「湖光山色藝術季」系列演出。本（115）年 度秋季公演將於10月至12月於國立臺灣戲曲學院木柵校區表藝館辦理， 推出京劇、客家戲、特技及六系聯演等多元演出。 二、本次演出票務及優惠資訊說明如下： (一)京劇團《湖光山色－大師傳承・薪火相傳》及六系聯演 《斑馬波波 — 做最美麗的自己》：採售票方式入場。 (二)其餘場次採免費索票入場，演出票券將於演出前一個月於TixFun系統開放。 (三)購票及索票資訊請參閱網址： https://reurl.cc/xepR01 。"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=932E3A383FC96130",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】新北市政府稅捐稽徵處舉辦「稅務歌曲榮耀登場」網頁互動租稅宣導活動。",
+      "published": "2026-09-09T01:51:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=932E3A383FC96130",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、「稅務歌曲榮耀登場」活動訊息如下： (一)活動時間：115年8月28日起至9月22日止。 (二)活動方式：參與者須追蹤本處IG、Threads或FB，並聆聽AI稅務歌曲後挑戰租稅問答，答對3題即完成1次有效簽到，完成5次有效簽到後，系統將自動開放活動滿意度問卷，完成填寫即可取得抽獎資格。 二、抽獎獎項(全聯禮券)：頭獎5,000元1名、貳獎3,000元1名、參獎2,000元1名、普獎 800元10名，每人僅限1次得獎機會。 三、活動詳情請上IG（https://www.instagram.com/taxntpc）、Threads（ https://www.threads.com/@taxn）、Facebook「稅不著－呼叫暗光鳥」粉絲專頁或活動網站（https://ntpc-argame.com/Singi"
     },
     {
       "id": "教師研習及活動:光復國小:6aa0bad7fdf1cf5a55c4cee5",
@@ -3900,6 +4326,24 @@
         "29425819_1150904001_ATTCH3.pdf"
       ],
       "summary": "旨揭競賽活動資訊如下： （一）2027國文跨越盃－全國國語文競賽 競賽日期：116年2月21日（日） 參賽對象：國小、國中及高中職學生，依不同學習階段分組。 （二）2027英文跨越盃－全國英文單字競賽 競賽日期：116年2月28日（日） 參賽對象：國小、國中及高中職學生，依不同學習階段分組。 （三）2027生物達爾文盃－全國生物能力競賽競賽日期：116年3月7日（日） 參賽對象：國小、國中及高中職學生，依不同學習階段 分組。 三項競賽均採學生個別報名方式，學生可依所屬年級及個 人學習興趣選擇參加，學校無須統一辦理報名或彙整參賽 名單。 各項競賽均依不同學習階段規劃適齡之測驗內容及競賽方 式，鼓勵學生透過競賽檢視自身學習成果，培養自我挑戰 與持續精進之學習態度。 各項競賽之報名期間、競賽組別、測驗內容、競賽方式、"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=9554A1D2491946D8",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】922無車日雙北公車免費搭活動",
+      "published": "2026-09-09T01:03:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=9554A1D2491946D8",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "檢附活動海報、宣傳標語、社群圖文等，歡迎踴躍參與，共襄盛舉。"
     },
     {
       "id": "研習資訊:博愛國小:6aa0b05d239055556beb6739",
@@ -4087,6 +4531,24 @@
       "summary": "詳見附件"
     },
     {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=CD4C59D9BD975AAA",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【研習資訊】兒童及少年運動教學安全保障課程",
+      "published": "2026-09-08T09:12:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=CD4C59D9BD975AAA",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、研習時間： （一）第一場次：115年10月7日（週三）。 （二）第二場次：115年10月14日（週三）。 二、研習地點：臺北市內湖國民小學平靜樓演藝廳。 三、報名日期： （一）即日起至115年9月18日（週五）止。 （二）即日起至115年9月25日（週五）止。 四、報名方式請參閱報名簡章（如附件）。 115兒童及少年運動教練知能研習研習課程簡章.pdf"
+    },
+    {
       "id": "校務公告:敦化國小:6a9fd15e5536f9272901fa3e",
       "schools": [
         "敦化國小"
@@ -4146,6 +4608,42 @@
         "11508反針孔攝影檢測結果紀錄表.pdf"
       ],
       "summary": "一、依據本府教育局 114年4月18日北市教體字第1143055668號暨115年3月17日北市教體字第11530484591號函辦理。 二、115年6月份檢測結果無異常，檢測紀錄表詳如附件。 三、本月份除例行檢測外，尚包含大型活動後檢測：8/29幼兒園家長座談會、8/31國小開學活動。"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=0ECB5366B9CCCE25",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【研習資訊】115年身心障礙運動帕拉跆拳道C級教練講習會暨增能研習",
+      "published": "2026-09-08T08:39:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=0ECB5366B9CCCE25",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、活動時間：115年11月13日（週五）至115年11月15日（週日）。 二、活動地點：運動部大樓體總三樓會議室。 三、報名日期：即日起至115年11月6日(週五)下午11時55分止。 四、報名方式請參閱實施辦法（如附件）。 115年身心障礙運動帕拉跆拳道C級教練講習會暨增能研習實施辦法.pdf"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=A14115467A2B3863",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【賽事資訊】第二屆臺北市議長盃全國圍棋公開賽",
+      "published": "2026-09-08T08:23:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=A14115467A2B3863",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、賽事時間：115年9月20日（週日）。 二、賽事地點：臺北市立敦化國民中學活動中心（臺北市松山區南京東路三段300號）。 三、報名日期：即日起至115年9月14日(週日)止。 四、報名方式請參閱競賽簡章（如附件）。 第二屆臺北市議長盃全國圍棋公開賽簡章.pdf"
     },
     {
       "id": "行政公告:建安國小:6a9fbd524c9bd428c7abd023",
@@ -4312,6 +4810,24 @@
       "summary": "一、依據本市115年度深耕閱讀推動計畫辦理。 二、115年第9期專題任務主題為「遇見臺北「樹」民」，請鼓 勵學生踴躍上網參加，作答日期為115年9月1日至115年9月。三、112年起新增「進階評選」:*連續3個月均有參與專題任務 作答，且初階題及進階題必須答題全對的學生將另外抽出 10名給予進階獎勵。(*以上所稱連續3個月是指:1-3月、4- 6月、7-9月、10-12月。)四、當期紙本任務挑戰下載區:臺北市兒童深耕閱讀教育網〉推 廣活動〉每月專題任務。 五、活動網址: http://reading.tp.edu.tw/"
     },
     {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=A5898F51042001B8",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】習元國際教育有限公司辦理「2026 SDGs 永續教育年會－玩真的教學趴」活動簡章",
+      "published": "2026-09-08T07:25:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=A5898F51042001B8",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、旨揭活動訂於 115 年 10 月 31 日（星期六）至 11 月 1 日（星期日），假臺北市立建成國民中學 3 樓大會議室 （臺北市大同區長安西路 37-1 號）辦理，為期 2 日。 二、活動內容包括議題遊戲學習、遊戲帶領工作坊、議題教學經驗分享及教師交流等，參加對象為 150 名國民小學至高級中等學校之教育工作者。 三、報名及活動詳情請逕至網站查詢，活動頁面： https://pley.click/tp26 ；報名至 115 年 10 月 13 日 （星期二）截止，名額有限，額滿提前截止。 活動簡章.pdf"
+    },
+    {
       "id": "研習資訊:博愛國小:6a9fb8836002eb2673014ba3",
       "schools": [
         "博愛國小"
@@ -4390,6 +4906,24 @@
         "活動簡章"
       ],
       "summary": "徵件期間： 115 年 9 月 15 日至 10 月 15 日。 (學校團體收件至10/13(二)16:00) 參賽組別及件數 參賽組別以年級分為二組： 1. 「中年級組」（ 3 、 4 年級）。 2. 「高年級組」（ 5 、 6 年級）。 【註：報名組別以參賽學生於本活動徵件期間（ 115 年 9 月 15 日至 10 月 15 日）之學籍年身分為準，例如：某生 115 年 9 月 15 日時就讀國小 5 年級，則其應報名之參賽組別為「國小高年級組」】。 作品應以「學校」為單位送件，每位學生限報名「 1 件」作品，每校各組至多提送 5 件作品參賽。"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=5D600621E99C17EE",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】臺東縣政府115學年度第1學期「大專以上學校清寒優秀學生愛心安心就學獎學金」自115年10月1日起至115年10月30日止受理申請",
+      "published": "2026-09-08T04:11:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=5D600621E99C17EE",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "說明： 一、獎助金額： (一)大專院校(五年制專科四、五年級)40名，每名新臺幣(以下同)6千元整。 (二)研究所以上10名，每名1萬2千元整。 二、申請條件、申請表件及獎學金審查核定原則詳如附件。 三、申請表件由學籍所在學校初審及核章後，於旨揭期限內寄送至臺東縣政府教育處(950臺東縣臺東市更生路13巷8號)，信封註明大專以上學校清寒優秀學生愛心-安心就學獎學金。 詳細資訊請參閱附件。 附件_實施計畫.pdf 附件_申請書格式.odt"
     },
     {
       "id": "研習資訊:建安國小:6a9f86a987430f16d8541fd5",
@@ -4680,6 +5214,24 @@
       "summary": "一、競賽日期：115年10月4日（星期日）下午。 二、報名資格：公私立小學六年級（含）以下在學學生。 三、第二階段報名期間：即日起至115年9月18日（星期五） 止；各賽區名額有限，額滿即提前截止報名。 四、考場如下： (一)臺北區：臺北市立信義國中。 (二)臺中區：臺中市私立衛道中學。 (三)高雄區：高雄市立三民家商。 五、報名方式：網路報名，詳細報名資訊、流程請參看附件之 競賽計畫書。 六、每人新臺幣800元，每隊3人，合計每隊新臺幣2,400元。 七、每隊由3名學生組成，並得設指導老師1名；無指導老師者亦得報名。競賽項目包括個人作答之個人賽、團隊作答之 接力賽及思考賽。 八、每隊須安排試務人員1名，得由指導老師兼任，協助競賽當 日監考或閱卷工作；實際試務工作由本會統一分配。"
     },
     {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=0BE1EBF5A40FD570",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】財團法人見賢思琪教育基金會辦理115年度「畫出你的好模樣」宣傳大使徵選活動",
+      "published": "2026-09-08T01:58:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=0BE1EBF5A40FD570",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、財團法人見賢思琪教育基金會辦理「畫出你的好模樣」品德宣傳大使徵選活動，鼓勵學生發揮創意，透過創作表達對品德價值之理解與實踐，提升學生參與品德教育之意願，深化品德教育理念。 二、本次徵選作品經評選後選出得獎，將頒發獎金及獎狀，以資鼓勵，得獎者並需出席頒獎典禮。 三、檢附「畫出你的好模樣」宣傳大使徵選活動簡章及海報各1份，活動資訊：https://pse.is/9kq2rc。 四、相關活動問題請洽財團法人見賢思琪教育基金會承辦人：趙社工，聯絡電話： (02)2308-0608。 報名簡章.pdf 海報.pdf"
+    },
+    {
       "id": "研習資訊:博愛國小:6a9f6bab7ffc621691d4584c",
       "schools": [
         "博愛國小"
@@ -4710,6 +5262,24 @@
         "29399068_1153006318_ATTCH1.pdf"
       ],
       "summary": "請各校於115年9月30日(星期三)前，填寫附件申請表以聯 絡箱031交換至臺北市中山區中正國民小學輔導室郭瑋婷主 任收，並請於資料傳送後，以電話確認是否送達。 本分團業務聯絡人：中正國小輔導主任郭瑋婷，聯絡電 話：(02)2507-0932分機141。"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=AF24AF7DE95FEE95",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】2026年國際師資培育研討會「以學生為中心的基礎教育：智慧、科技、健康、幸福（StudentCentered Basic Education: Intelligence,Technology, Health, and Well-Being）」",
+      "published": "2026-09-08T01:43:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=AF24AF7DE95FEE95",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "議程.pdf"
     },
     {
       "id": "其他公告:敦化國小:6a9f66a25d7b0f160603b27c",
@@ -4908,6 +5478,42 @@
       "summary": "轉知南區特教資源中心辦理115學年度第1學期「情緒行為障礙相關醫療及教育知能研習-在象山腳下，找回學習的興趣」，鼓勵教師及學生家長踴躍報名參加。"
     },
     {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=7DE2331BDDB06E29",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】國立科學工藝博物館辦理國家科學委員會「第24屆週日閱讀科學大師」系列科普講座訊息",
+      "published": "2026-09-07T10:35:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=7DE2331BDDB06E29",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、依據該館115年9月7日館教字第1156260344號函辦理。 二、為促進學生對於科學的理解、興趣及增進其科學素養，該館於其南館演講廳辦理系列講座並提供現場直播（週日閱讀科學大師官網：http://science.nchc.org.tw/web或Facebook週日閱讀科學大師粉絲專頁，可即時收播）。 三、活動可採網路或現場報名，亦歡迎各級學校安排團體報名「科工館一日遊」，並洽詢窗口楊小姐（電話：07-380-0089轉分機8681，信箱：min@mail.nstm.gov.tw）。 四、檢附115年9月至116年6月份講座場次表及海報（含報名方式）各1份。 講座場次表.pdf 海報.pdf"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=23C559DE8CB2A406",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】國立臺灣科學教育館辦理「2026年第七屆科學與科普專業英文能力大賽」競賽活動訊息",
+      "published": "2026-09-07T09:20:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=23C559DE8CB2A406",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、配合2030雙語政策，教育部推動十二年國民基本教育課程新課綱、高教深耕計畫與大專校院學生雙語化學習計畫 (BEST)，並因應國際化及強化學生對科學與科普專業英文知能，國立臺灣科學教育館與國立臺灣師範大學及各縣市教育局等合作，推動科學與科普專業英文能力大賽，以符應新課綱外語能力與多元化素養及豐富學生學習歷程資料、雙語化學習與深耕計畫等多項需求，培養學生科學科普與英語文學習興趣，特辦理本大賽與教師增能研習會， 敬邀各校師生踴躍報名參加。 二、為鼓勵師生踴躍參與，本競賽無需收取報名與檢測費用， 採網路即測即評方式辦理，旨揭區賽共分為五區，如有變動則以本活動網站公告為主： (一)北一區：涵蓋基隆市、臺北市、新北市、連江縣、金門縣。 １、競賽地點：新北市立三重商工。 ２、競賽時間：115年11月7日（週六），10月1"
+    },
+    {
       "id": "教師研習及活動:光復國小:6a9e7f61bb31efe8af58e1f4",
       "schools": [
         "光復國小"
@@ -4934,6 +5540,24 @@
       "siteUrl": "https://www.kfps.tp.edu.tw",
       "attachments": [],
       "summary": "一、依據臺灣求知育文化協會115年8月31日求知育字第 11508310005號函辦理。 二、旨揭活動相關細節請參閱臺灣求知育文化協會官方網站 （https://lohasedu.org/2026-promotion）。本計畫所提 供之《完全比賽》防詐桌遊電子版及《防詐大聯盟》教案 資源皆為開源授權，免費提供各級學校下載與使用 （https://user333801.pse.is/96dvhk）。另提供海報下 載連結：https://reurl.cc/7Y4pW9。 三、活動教學回饋上傳期間自即日起至民國115年11月27日（星 期五）止。為獎勵積極推廣防詐教育之教師，凡於期限內 完成教案實施與回饋者（上傳連結：https://pse.is /96fvww），該會將提供相應獎勵禮券。請貴校協助轉知並 鼓勵教師於"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=1A53534AEA5DC7A1",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】國立臺灣師範大學辦理「11５年度獎勵推廣生活科技教育績優人員及團體」甄選活動",
+      "published": "2026-09-07T09:04:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=1A53534AEA5DC7A1",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、國立臺灣師範大學科技應用與人力資源發展學系長年致力於生活科技教育領域的研究、推廣及師資培育工作，為獎勵推廣生活科 技教育有功之相關人員及團體，特與中華民國工業科技教 育學會共同舉辦「獎勵推廣生活科技教育績優人員及團 體」評選活動。 二、績優人員分以下四項獎別評選： (一)研究獎：完成專題研究或出版專書，確能促進生活科技教育之發展者。 (二)教學獎：貫徹生活科技正常教學、積極改進教學措施、輔導學生適性發展，有具體優良事蹟者。 (三)行政獎：策畫或舉辦區域性生活科技教育活動（研習會、觀摩會、展覽會或競賽等），或輔導區域或學校推動生活科技教育、改進生活科技教學，績效優良有具體事蹟者。 (四)推廣獎：促進生活科技教育資源之推廣，或捐助經費、 器材，贊助學校推動生活科技教育之有特殊貢獻者。 三、請申請或推薦者填寫績優"
     },
     {
       "id": "行政公告:建安國小:6a9e6d9f2e3af3e161252eb6",
@@ -4996,6 +5620,24 @@
         "29342144_1153094433_ATTCH1.pdf"
       ],
       "summary": "一、依據臺北市115學年度國民教育地方輔導團整體團務計畫辦理。 二、旨揭研習採系列推動，為兼顧不同學習進度並深化實作效益，課程規劃重點如下： (一)分組教學：課程依學員程度區分為「初階班」與「進階班」，並由講師與助教進行分組指導，確保學習及實作成效。 (二)新增開放報名：前未參與8月份場次之輔導員，竭誠歡迎報名參加後續兩場次研習。 三、本案後續兩場次研習，原訂於115年9月12日（星期六）及9月19日（星期六）辦理，因適逢本市多所學校辦理親師座談會，為利各分團輔導員參與，研習日期調整如下：(一)時間：原115年9月12日（星期六）及9月19日（星期六）場次，延期至115年10月18日（星期日）及11月1日（星期日）辦理。 (二)地點：臺北市立中山國民中學研習教室。 (三)核定文號：北市研習字第115081100"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=AC17DAECC411E4BB",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】農業部畜產試驗所辦理食農教育專業人員共同培訓─「食農教育推動方向與實務解析」5小時實體課程",
+      "published": "2026-09-07T06:37:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=AC17DAECC411E4BB",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "詳如附件。 114274247_1150141701_ATTCH1.pdf 114274247_1150141701_ATTCH2.pdf"
     },
     {
       "id": "校外競賽:光復國小:6a9e55d742253be181b1b1fa",
@@ -5202,6 +5844,24 @@
       "summary": "活動名稱 ：115學年度臺北市STEAM教育跨界合作暨成果分享會 活動時間 ：115年9月17日（星期四）08:30 – 12:30 活動地點 ：中山女高 莊敬大樓3樓演藝廳 指派要求 ：各校請至少薦派 1 名校長或主任 代表出席（核予公假派代） 報名期限 ：115年9月15日（星期二）前 報名管道 （需完成兩處報名）： 臺北市教師在職研習網 臺北市教師在職研習網 活動表單（https://reurl.cc/VnY0r6） 活動報名表單 研習時數 ：全程參與者核予 2 小時"
     },
     {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=1E44690C7216DE8D",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】亞洲大學中亞聯大網路成癮防治中心舉辦「2026衛生福利部問題性網路使用相關議題之專 業人員教育訓練：共同核心課程工作坊」",
+      "published": "2026-09-07T02:21:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=1E44690C7216DE8D",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、活動說明 為因應數位科技普及與網路使用型態快速變遷，提升第一線專業人員對網路成癮議題之辨識、評估與介入能力，網路成癮防治中心規劃於115年10月3日至10月4日辦理「2026衛生福利部問題性網路使用相關議題之專業人員教育訓練：共同核心課程工作坊」，透過課程講授、案例討論與經驗交流，增進跨專業合作與資源轉介概念，以提升網路成癮防治之實務應用與服務整合效能。 二、活動資訊 (一)2026衛生福利部問題性網路使用相關議題之專業人員教育訓練：共同核心課程工作坊。 1、日期時間：115年10月3日 (星期六)至10月4日 (星期日)。 2、地點： (1) 實體參與：亞洲大學M001（台中市霧峰區柳豐路500號）。 (2) 線上參與：MS Teams視訊（限500名，線上不提供繼續教育積分，會議連結將於行前通知信中另行"
+    },
+    {
       "id": "教師研習及活動:光復國小:6a9e200705ed4fd545dea7ed",
       "schools": [
         "光復國小"
@@ -5248,6 +5908,42 @@
         "簡章(7月至10月).odt"
       ],
       "summary": "1.原定於115年10月23日（星期五）上午9時辦理「談青 少年的情緒困擾與失眠」實體課程，現因故調整至1 15年10 月16日（星期五）上午9時至12時辦理 2.9～10尚有7次課程，詳見附件"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=8882A2962718059D",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】經濟部智慧財產局「教師授課著作權錦 囊」宣導資料",
+      "published": "2026-09-07T01:44:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=8882A2962718059D",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、本案宣導資料提供高級中等以下各級學校參考使用，以協助教師建立正確著作權觀念，資料取得路徑為：經濟部智慧財產局網站 （http://www.tipo.gov.tw/）首頁/著作權/著作權主題網 /著作權知識+/校園著作權/教師授課著作權錦囊。 二、檢附經濟部智慧財產局函文及「著作權法第46條規定之遠距教學應採取合理技術措施之指引」各1份。 經濟部智慧財產局函文.pdf 著作權法第46條規定之遠距教學應採取合理技術措施之指引.pdf"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=CDF14B08FDEFD9F9",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】高雄市政府教育局「115學年度第1學期中等以上學校清寒優秀學生獎學金」相關資訊",
+      "published": "2026-09-07T01:44:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=CDF14B08FDEFD9F9",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "高雄市政府教育局「115學年度第1學期中等以上學校清寒優秀學生獎學金」申請日期自115年10月1日（星期四）起至115年10月31日（星期六）止，申請資訊詳如附件。 高雄市政府教育局原函.pdf 獎勵辦法.pdf 獎學金申請書.odt"
     },
     {
       "id": "研習資訊:建安國小:6a9e10f2fd2841d4ebc62c8b",
@@ -5511,6 +6207,78 @@
       "summary": "親愛的家長您好： 為配合蟯蟲檢查，請家長協助孩子依照正確方式進行蟯蟲貼片採樣，以下為使用說明： 一、採樣時間 請於採檢當天早上起床後，尚未上廁所（排便）、尚未清洗肛門進行採樣。 二、早上起床採樣 請先確認貼片上的姓名、班級等資料是否填寫完整。 撕開貼片上的保護膜，露出黏膠面。 將黏膠面對準肛門口周圍。 以手指輕輕按壓約5～6下，使黏膠充分接觸肛門周圍。 完成後依貼片原本的方式覆蓋、對折或黏妥。 ⚠️ 重要提醒 一定要在早上起床後、排便及清洗肛門前採樣。 請勿先洗澡或清潔肛門，以免影響檢體採集。 採樣完成後請確實洗手。 若孩子無法自行操作，請家長協助完成。 請依通知日期完成採樣並準時繳回。 🎥 蟯蟲貼片使用教學影片： 感謝家長的配合與協助，讓我們一起守護孩子的健康！❤️"
     },
     {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=9720D8634AA5962A",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】推廣『高爾夫進校園』開展『高爾夫運動技能 等級評定三段九級（369洞）計畫』與社區推廣",
+      "published": "2026-09-04T12:14:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=9720D8634AA5962A",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、活動時間：115年9月22日（週二）至115年9月23日（週三）。 二、活動地點：中信金學校財團法人中信科技大學 三德樓九樓國際會議中心 （台南市新市區中華路49號 ）。 三、報名日期：即日起至115年9月20日(週日)下午5時止。 四、報名方式請參閱時程預定表 （如附件）。 『高爾夫運動技能等級評定三段九級（369洞）計畫』與社區推廣活動.pdf"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=6F46E5BE3A7D3DFD",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【賽事資訊】115 年全國冬季室內划船錦標賽",
+      "published": "2026-09-04T11:45:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=6F46E5BE3A7D3DFD",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、賽事時間：115年10月17日（週六）至115年10月18日（週日）。 二、賽事地點：臺南市立安平國民中學（台南市安平區慶平路687號）。 三、報名日期：即日起至115年9月23日(週三)下午5時止。 四、報名方式請參閱競賽規程（如附件）。 115 年全國冬季室內划船錦標賽-競賽規程.pdf"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=37311BDD6AA5BD89",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【賽事資訊】115年全國橄欖球聯賽",
+      "published": "2026-09-04T11:27:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=37311BDD6AA5BD89",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、賽事時間：115年9月29日（週二）至115年10月16日（週五）。 二、賽事地點：臺北市百齡橋橄欖球場。 三、報名日期：即日起至115年９月11日(週五)中午12時止。 四、報名方式請參閱競賽規程（如附件）。 中華民國橄欖球協會115年全國橄欖球聯賽競賽規程.pdf"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=929644D87F6F71BB",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【賽事資訊】2026年全國菁英盃國武術錦標賽",
+      "published": "2026-09-04T11:18:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=929644D87F6F71BB",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、賽事時間：115年12月19日（週六）。 二、賽事地點：臺北體育館7樓（臺北市南京東路四段10號7樓）。 三、報名日期：即日起至115年10月2日(週五)止。 四、報名方式請參閱競賽規程（如附件）。 2026菁英盃大會規程.pdf 2026年菁英盃報名表格-1國術.ods 2026年菁英盃隊伍照片黏貼表.odt 2026年菁英盃報名表格-2太極.ods"
+    },
+    {
       "id": "榮譽榜:博愛國小:6a9aa339d7d30924ac03f19e",
       "schools": [
         "博愛國小"
@@ -5521,6 +6289,24 @@
       "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6a9aa339d7d30924ac03f19e?vector=private&static=false",
       "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=DdqT8yI3919&vector=private&static=false",
       "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [],
+      "summary": ""
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=38B815BE91D097B9",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "衛生局宣導口腔癌防治並建立無檳支持環境，敬請踴躍運用宣導文宣(參閱聯結)。",
+      "published": "2026-09-04T10:30:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=38B815BE91D097B9",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
       "attachments": [],
       "summary": ""
     },
@@ -5823,6 +6609,24 @@
       "siteUrl": "https://www.kfps.tp.edu.tw",
       "attachments": [],
       "summary": "本校附設幼兒園誠徵時薪制特教/教師助理員，相關簡章內容請下載 附件 。"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=130918885F16A2AE",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】財團法人台灣閱讀文化基金會辦理115學年度第1學期「愛的書庫」開放借閱時間暨「115年另類教師節－感謝藍色超人」活動",
+      "published": "2026-09-04T03:30:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=130918885F16A2AE",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、依據教育部國民及學前教育署115年9月3日臺教國署國字第1150085164號函號辦理。 二、有關該基金會致力推廣閱讀教育，並設立「愛的書庫】,提供校園有意借閱之教師加入官網會員進行借書。 三、自115年9月4日（星期五）下午8時起開放線上預借及預約書籍系統服務及託運服務。 四、另為感謝新竹物流股份有限公司熱心協助書箱託運，該基金會於即日起至115年9月30日辦理「115年另類教師節－感謝藍色超人活動」，並邀請學校利用物流士載送書箱到校時機，表達感謝，報名及詳情資訊於官網／活動訊息／另類教師節活動／活動說明，或可洽詢窗口李組長（電話：049-2566-6102轉125）。"
     },
     {
       "id": "多元教育:敦化國小:6a9a30ef98b6940cd6e83fce",
