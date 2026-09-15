@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import html, json, os, re
+import subprocess
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
@@ -28,6 +29,18 @@ def site_url(raw):
     parsed = urlsplit(raw)
     return f"{parsed.scheme}://{parsed.netloc}"
 
+def fetch_body(source):
+    """Fetch the education department feed with curl's compatible TLS stack."""
+    if source.get("page"):
+        return subprocess.run(
+            ["curl", "--fail", "--location", "--silent", "--show-error", "--max-time", "30",
+             "-A", "japs-school-news/1.0", source["url"]],
+            check=True, capture_output=True,
+        ).stdout
+    request = Request(source["url"], headers={"User-Agent":"japs-school-news/1.0"})
+    with urlopen(request, timeout=30) as response:
+        return response.read()
+
 def fetch_items_from_broken_xml(body, source):
     """Recover RSS items when a school's descriptions contain invalid XML."""
     text = body.decode("utf-8", errors="replace")
@@ -46,8 +59,7 @@ def fetch_items_from_broken_xml(body, source):
 def fetch(source):
     if source.get("broken"):
         return [{"id":"broken:" + source["school"] + ":" + source["name"],"schools":[source["school"]],"source":source["name"],"title":"RSS 發生錯誤，無法搜集資料","published":"","url":"","summary":"此分類目前 RSS 發生錯誤，暫時無法搜集資料。"}]
-    request = Request(source["url"], headers={"User-Agent":"japs-school-news/1.0"})
-    with urlopen(request, timeout=30) as response: body = response.read()
+    body = fetch_body(source)
     try: root = ET.fromstring(body)
     except ET.ParseError:
         recovered = fetch_items_from_broken_xml(body, source)

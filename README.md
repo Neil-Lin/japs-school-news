@@ -8,4 +8,4 @@
 
 本機執行 `python3 scripts/update_feed.py` 可更新資料；網站會依學校、分類與關鍵字搜尋顯示發布時間、標題、原文連結或內容摘要，並顯示各校今日新增筆數與來源更新狀態。前端設定集中在 `config.json`，資料版本寫在 `data/version.json`，讓瀏覽器能快取未變動的文章資料。
 
-部署前會執行 `scripts/validate_project.py`，檢查設定、學校頁面、公告欄位、附件格式、網址與重複 ID；RSS 更新後會再驗證一次，驗證失敗就不會部署。
+部署前會執行 `scripts/validate_project.py`，檢查設定、學校頁面、公告欄位、附件格式、網址與重複 ID；RSS 更新後會再驗證一次，驗證失敗就不會部署。臺北市教育局來源因網站憑證與 Python TLS 相容性問題，使用仍會驗證憑證的 `curl` 抓取，其餘來源維持 Python 抓取。
