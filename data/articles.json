@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T07:53:24.030861+00:00",
+  "updatedAt": "2026-09-17T13:41:23.627697+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -25,12 +25,12 @@
     {
       "name": "其他公告（敦化國小）",
       "status": "ok",
-      "itemCount": 71
+      "itemCount": 72
     },
     {
       "name": "國中入學（光復國小）",
       "status": "ok",
-      "itemCount": 2
+      "itemCount": 3
     },
     {
       "name": "場地開放（光復國小）",
@@ -115,7 +115,7 @@
     {
       "name": "校園事務（光復國小）",
       "status": "ok",
-      "itemCount": 9
+      "itemCount": 10
     },
     {
       "name": "校外競賽（仁愛國小）",
@@ -190,7 +190,7 @@
     {
       "name": "行政檔案（建安國小）",
       "status": "ok",
-      "itemCount": 49
+      "itemCount": 48
     },
     {
       "name": "親職資訊（仁愛國小）",
@@ -219,6 +219,330 @@
     }
   ],
   "articles": [
+    {
+      "id": "最新消息:博愛國小:6aabe960f318debcbbc19b48",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "115年9月24日至10月14日國立臺灣藝術教育館辦理「115年度特殊教育學生『藝植綻放』藝術聯展」，鼓勵師生觀展。",
+      "published": "2026-09-17T13:18:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6aabe960f318debcbbc19b48?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [],
+      "summary": "主旨：115年9月24日至10月14日國立臺灣藝術教育館辦理「115年度特殊教育學生『藝植綻放』藝術聯展」，鼓勵師生觀展。 說明： 一、為鼓勵特殊教育學生展現藝術才能，促進多元領域發展，特辦理旨揭聯展，本次展覽除展出各級學校114件精彩作 品，並設有集章活動等互動體驗，透過趣味任務認識作品、探索展覽空間，完成闖關即可兌換限量小禮物，每日30份，送完為止。 二、歡迎各校納入校外教學規劃，豐富學生學習經驗。展覽相關資訊摘錄如下：(一)活動地點：國立臺灣藝術教育館第一展覽廳、第二展覽廳。(二)特展期間：115年9月24日（星期四）起至115年10月14日（星期三）。"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=426C1A057CBD74AC",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【研習資訊】115年特殊奧林匹克羽球B級裁判認證講習會",
+      "published": "2026-09-17T12:17:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=426C1A057CBD74AC",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、研習時間： （一）線上課程：115年10月3日（週六）至115年10月4日（週日）。 （二）裁判實習：115年10月17日（週六）。 （三）實習課程： 115年10月18日（週日）。 二、研習地點： （一）線上課程：使用GoogleMeet採線上課程方式進行。 （二）裁判實習：永安羽球館（臺中市北屯區后庄七街259號）。 （三）實習課程：臺中市立臺中特殊教育學校（臺中市南屯區公益路二段296號）。 三、報名日期：即日起至115年9月21日(週一)止。 四、報名方式請參實施計畫（如附件）。 115年特殊奧林匹克羽球B級裁判認證講習會實施計畫.pdf"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=B3E149E45113FABC",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【研習資訊】115年特殊奧林匹克 B 級、C 級教練年度研習（第二場）",
+      "published": "2026-09-17T12:10:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=B3E149E45113FABC",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、研習時間：115年10月31日（週六）至115年11月1日（週日）。 二、賽事地點：使用 Google Meet 採線上方式辦理。 三、報名日期：即日起至115年10月26日(週一)止。 四、報名方式請參閱實施計畫（如附件）。 115年特殊奧林匹克 B 級、C 級教練年度研習（第二場）實施計畫.pdf"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=FB8AE40552AF80D3",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【賽事資訊】115年臺中市議長盃全國跆拳道錦標賽",
+      "published": "2026-09-17T11:25:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=FB8AE40552AF80D3",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、賽事時間：115年11月7日（週六）至115年11月8日（週日）。 二、賽事地點：臺中市立東勢工業高級中等學校（臺中市東勢區東關路六段1328號）。 三、報名日期：即日起至115年10月日(週六)下午6時止。 四、報名方式請參閱競賽規程（如附件）。 115 年臺中市議長盃全國跆拳道錦標賽競賽規程.pdf"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=13918D85928CC7CC",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【研習資訊】臺北市政府115年度兒童及少年運動教學安全保障課程",
+      "published": "2026-09-17T11:15:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=13918D85928CC7CC",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、研習時間： （一）第一場次：115年10月7日（週三）。 （二）第二場次：115年10月14日（週三）。 二、研習地點：臺北市內湖國民小學平靜樓演藝廳。 三、報名日期： （一）第一場次：即日起至115年9月18日（週五）。 （二）第二場次：即日起至115年9月25日（週五）。 四、報名方式請參閱報名簡章（如附件）。 臺北市政府115年度兒童及少年運動教學安全保障課程報名簡章.pdf"
+    },
+    {
+      "id": "光復之光:光復國小:6aabbade69131cb534740d21",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "光復之光",
+      "title": "【多語文捷報】原住民語文競賽成績出爐",
+      "published": "2026-09-17T09:55:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6aabbade69131cb534740d21?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=EIWuBZr8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "115學年度原住民語文競賽得獎公告.jpg"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "一般消息:仁愛國小:6aabb7634612e8b3c6f5b3d3",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "一般消息",
+      "title": "[轉知]國防部陸軍司令部辦理「民國116年陸軍形象桌曆」甄選活動",
+      "published": "2026-09-17T09:45:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6aabb7634612e8b3c6f5b3d3?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=ZItAos61369&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "甄選活動說明.pdf",
+        "甄選活動實施計畫.pdf"
+      ],
+      "summary": "說明： 一、為推廣全民國防教育，增進社會大眾對國防事務之認識， 並協助塑造全民信賴、社會支持之現代化國軍形象，陸軍 司令部特辦理旨揭活動，邀請各界共同參與創作陸軍明 （116）年形象桌曆。 二、旨揭活動採公開甄選方式辦理，收件日期自即日起至115年 10月4日（星期日）止。活動詳情及相關報名表件，請逕至 「中華民國陸軍」Facebook粉絲專頁查詢及下載運用。"
+    },
+    {
+      "id": "其他公告:敦化國小:6aabb0c77890e7b1a115e1bd",
+      "schools": [
+        "敦化國小"
+      ],
+      "source": "其他公告",
+      "title": "北政國民中學辦理學校特色課程體驗學習活動－「115年北政國中 OPEN DAY」，鼓勵學童踴躍報名參加。",
+      "published": "2026-09-17T09:13:00+00:00",
+      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/6aabb0c77890e7b1a115e1bd?vector=private&static=false",
+      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=H0q9lCm0232&vector=private&static=false",
+      "siteUrl": "https://www.thps.tp.edu.tw",
+      "attachments": [
+        "29516056_1156006313_ATTCH3.png",
+        "29516056_1156006313_ATTCH2.pdf",
+        "29516056_1156006313_ATTCH1.pdf"
+      ],
+      "summary": "說明： 一、目的：藉由Open day活動，展出特色課程。邀請鄰近國小學生與家長認識學習環境、課程與教學等相關資訊，以提供學生自我覺察與生涯探索，並及早協助其做好國中升學之準備，歡迎共襄盛舉。 二、時間：115年10月17日(星期六) 9:00～12:00 三、地點：北政國中校園（116011臺北市文山區指南路3段2巷 14號） 四、對象：鄰近國小學生及家長、社區鄰里人士 五、報名方式：請上北政國中網站→校園公告報名； 報名連 結：https://reurl.cc/Ggnk1Z 六、活動流程：詳見附件"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=2E1122F6BFC78D00",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【活動資訊】攀岩推廣教師體驗營",
+      "published": "2026-09-17T08:58:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=2E1122F6BFC78D00",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、活動時間：115年10月17日（週六）。 二、賽事地點：小岩館（臺北市士林區忠誠路二段12號１樓）。 三、報名日期：即日起至115年10月5日(週一)止。 四、報名方式請參閱活動簡章（如附件）。 活動簡章.pdf"
+    },
+    {
+      "id": "學校公告:光復國小:6aabab63507984b20c874069",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "學校公告",
+      "title": "臺北市文山區公所辦理115年地方公職人員選舉投開票所工作人員招募，請同仁踴躍115年9月30日前報名參與",
+      "published": "2026-09-17T08:52:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6aabab63507984b20c874069?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=UFKVG9l8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "臺北市文山區投開票所工作人員登記資料卡.odt",
+        "選務招募海報.pdf"
+      ],
+      "summary": "一、旨揭選舉投票日定於115年11月28日（星期六）舉行，依公職人員選舉罷免法規定，投開票所主任管理員（現任）、主任監察員（現任或曾任）及三分之一以上管理員（現任）須為公教人員，凡參與選務工作之公教人員，相關補假、工作津貼及獎勵等規定說明如下： (一)按行政院115年8月11日院授人培字第1150001660號函規定，自115年地方公職人員選舉起，參加選務工作人員同意准予補假2日。 (二)選舉工作費則依「中央選舉委員會選舉工作費支給數額基準」規定，主任管理員為新臺幣（下同） 3,900元、主任監察員3,200元、管理員2,550元、監察員2,300元、預備員2,000元（以3張選舉票及1張公投票計）。 (三)另按教育部108年9月4日臺教授國部字第1080077978號函暨本府教育局115年8月31日北市教人字"
+    },
+    {
+      "id": "人事資訊:光復國小:6aabab63507984b20c874069",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "人事資訊",
+      "title": "臺北市文山區公所辦理115年地方公職人員選舉投開票所工作人員招募，請同仁踴躍115年9月30日前報名參與",
+      "published": "2026-09-17T08:52:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6aabab63507984b20c874069?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=MacAbVJ0472&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "臺北市文山區投開票所工作人員登記資料卡.odt",
+        "選務招募海報.pdf"
+      ],
+      "summary": "一、旨揭選舉投票日定於115年11月28日（星期六）舉行，依公職人員選舉罷免法規定，投開票所主任管理員（現任）、主任監察員（現任或曾任）及三分之一以上管理員（現任）須為公教人員，凡參與選務工作之公教人員，相關補假、工作津貼及獎勵等規定說明如下： (一)按行政院115年8月11日院授人培字第1150001660號函規定，自115年地方公職人員選舉起，參加選務工作人員同意准予補假2日。 (二)選舉工作費則依「中央選舉委員會選舉工作費支給數額基準」規定，主任管理員為新臺幣（下同） 3,900元、主任監察員3,200元、管理員2,550元、監察員2,300元、預備員2,000元（以3張選舉票及1張公投票計）。 (三)另按教育部108年9月4日臺教授國部字第1080077978號函暨本府教育局115年8月31日北市教人字"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=38AC48D7E3994FAE",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【賽事資訊】中華民國大專校院115年度教職員工排球聯誼賽",
+      "published": "2026-09-17T08:49:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=38AC48D7E3994FAE",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、賽事時間：115年10月12日（週一）至115年10月14日（週三）。 二、賽事地點：臺北市立大學-天母校區詩欣管五樓排球場（臺北市士林區忠誠路二段101號）。 三、報名日期：即日起至115年9月22日(週二)上午10時止。 四、報名方式請參閱競賽規程（如附件）。 中華民國大專校院115年度教職員工排球聯誼賽.pdf"
+    },
+    {
+      "id": "人事資訊:光復國小:6aaba9a30b9e07b15ba23dd5",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "人事資訊",
+      "title": "轉知：有關選務工作補假及相關公假事宜",
+      "published": "2026-09-17T08:45:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6aaba9a30b9e07b15ba23dd5?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=MacAbVJ0472&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "1150812-中央選舉委員會函-115年度起選務工作補休2日.pdf",
+        "1150831-臺北市政府教育局函-選務相關差勤公付派代.pdf"
+      ],
+      "summary": "一、依中央選舉委員會115年8月12日中選務字第1150023938號函，自115年地方公職人員選舉起，中央及地方公職人員定期選舉之選務工作人員，業經行政院同意准予補假2日。 二、另依本府教育局115年8月31日北市教人字第1153095258號函略以，選舉前一日布置及選舉後給予補休之課務、參加選務工作講習准予公假期間所遺課務，代理費用均以公付派代。"
+    },
+    {
+      "id": "活動資訊:光復國小:6aaba98a507984b20c86d446",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "活動資訊",
+      "title": "靖娟兒童安全文教基金會115年兒少交通事故處理推廣座談",
+      "published": "2026-09-17T08:37:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6aaba98a507984b20c86d446?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=QWbvWuz8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": ""
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=18C6CC209D64E391",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【賽事資訊】中華民國大專校院115年度教職員工匹克球聯誼賽",
+      "published": "2026-09-17T08:20:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=18C6CC209D64E391",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、賽事時間：115年11月22日（週日）。 二、賽事地點：樹德科技大學體育館（高雄市燕巢區橫山路59號）。 三、報名日期：即日起至115年10月16日(週五)止。 四、報名方式請參閱競賽規程（如附件）。 中華民國大專校院115年度教職員工匹克球聯誼賽競賽規程.pdf"
+    },
+    {
+      "id": "最新消息:博愛國小:6aaba02bde2fb5aee1bebbfc",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "轉知：臺北市115年國中小學生Scratch貓咪盃創意競賽實施計畫及校內徵選",
+      "published": "2026-09-17T08:06:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6aaba02bde2fb5aee1bebbfc?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "臺北市115年國中小學生Scratch貓咪盃創意競賽實施計畫_0916 (2).pdf",
+        "報名表單"
+      ],
+      "summary": "本賽事各校報名有上限，所以將舉辦校內初賽，擇優代表學校參賽。 校內初賽時程如下： 10/7( 三 ) 中午 12:00 校內截止收件 暫訂 10/12( 一 ) 公布校內賽結果，市賽報名 請有意參加校內選手 1. 線上填寫報名表單 https://forms.gle/cwDuU1c9gV7A1tKC6 ( 包含小組隊伍名稱、數位學生證正反面 ) 及上傳參賽檔案 2. 繳交紙本實施計畫內的 ( 附件一 ) 著作聲明書至教務處資訊組；需索取紙本也可至資訊組索取填寫。 其餘比賽題目及比賽規定詳參附件。 競賽題目明日 9/18 公告於臺北市科技教育網 https://techpro.tp.edu.tw/"
+    },
+    {
+      "id": "活動資訊:光復國小:6aab9ffdb2bd5cb026ff24cf",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "活動資訊",
+      "title": "轉知:至善國中115學年度招生說明會暨國小生體驗課程活動報名，鼓勵學生家長踴躍報名參加",
+      "published": "2026-09-17T08:06:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6aab9ffdb2bd5cb026ff24cf?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=QWbvWuz8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "至善國中招生說明會暨國小生體驗課程.pdf",
+        "至善國中招生說明會海報.png"
+      ],
+      "summary": "一、依據本校115學年度輔導工作計畫辦理。 二、為協助學區內及其他地區學生及家長認識本校多元特色課 程及學習環境，本校將於115年10月24日（六）8：30-11： 00舉辦招生說明會暨國小生體驗課程活動，歡迎有興趣家 長踴躍參與。 三、活動資訊如下： (一)時間：115年10月24日（六）8:30-11:00。 (二)報到地點：本校視聽教室（科學樓2樓）。 (三)報名期限：自即日起至115年10月14日止。 (四)報名對象：對本校特色課程教學有興趣之家長及學生 （體驗課程以四至六年級較佳）。 (五)報名方式： １、網路報名：https://reurl.cc/LeQK3K ２、電話報名：請撥02-28411350分機50林主任、分機51王 組長。"
+    },
+    {
+      "id": "國中入學:光復國小:6aab9ffdb2bd5cb026ff24cf",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "國中入學",
+      "title": "轉知:至善國中115學年度招生說明會暨國小生體驗課程活動報名，鼓勵學生家長踴躍報名參加",
+      "published": "2026-09-17T08:06:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6aab9ffdb2bd5cb026ff24cf?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=6T1oIzq7179&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "至善國中招生說明會暨國小生體驗課程.pdf",
+        "至善國中招生說明會海報.png"
+      ],
+      "summary": "一、依據本校115學年度輔導工作計畫辦理。 二、為協助學區內及其他地區學生及家長認識本校多元特色課 程及學習環境，本校將於115年10月24日（六）8：30-11： 00舉辦招生說明會暨國小生體驗課程活動，歡迎有興趣家 長踴躍參與。 三、活動資訊如下： (一)時間：115年10月24日（六）8:30-11:00。 (二)報到地點：本校視聽教室（科學樓2樓）。 (三)報名期限：自即日起至115年10月14日止。 (四)報名對象：對本校特色課程教學有興趣之家長及學生 （體驗課程以四至六年級較佳）。 (五)報名方式： １、網路報名：https://reurl.cc/LeQK3K ２、電話報名：請撥02-28411350分機50林主任、分機51王 組長。"
+    },
+    {
+      "id": "榮譽榜:建安國小:6aab9d0b641232ae940efe41",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "榮譽榜",
+      "title": "臺北市大安區建安國民小學115學年度美術比賽獲獎名單 公告",
+      "published": "2026-09-17T07:45:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6aab9d0b641232ae940efe41?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=AQoMNBw7626&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [
+        "臺北市 115學年度學生美術比賽暨展覽實施計畫 (公告版).pdf",
+        "02 建安國民小學115學年度美術比賽獲獎名單公告0917.pdf"
+      ],
+      "summary": "115 學年度校內美術比賽經過評選後公告名單，如有名字誤植，請洽分機 832 特教組，相關獎狀頒發會擇期發通知。 參加臺北市市賽 : 一、獲得「特優」作品經複審後，得代表本校參加「 115 學年度臺北市學生美術比賽」，統一由學校線上報名及比賽送件。 ***** 報名表由學校列印，請學生帶回簽名並黏貼於正確位置。 **** 二、書法類比賽方式：俟取得學校決賽代表權同學，需依學校通知於 115 年 10 月 15 日 ( 四 ) 參加現場書寫，再將現場書寫作品送達國立臺灣藝術教育館進行決賽。"
+    },
     {
       "id": "一般消息:仁愛國小:6aab9a19641232ae940e235d",
       "schools": [
@@ -9505,6 +9829,23 @@
       "siteUrl": "https://www.doe.gov.taipei",
       "attachments": [],
       "summary": ""
+    },
+    {
+      "id": "校園事務:光復國小:6aabae039f0222b3ae63c84d",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "校園事務",
+      "title": "【水塔清洗報告】115學年度第1學期水塔清洗報告",
+      "published": "2026-09-01T09:06:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6aabae039f0222b3ae63c84d?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=pBSho0Y6874&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "水塔清洗照片-光復國小.pdf",
+        "水質報告-光復國小.pdf"
+      ],
+      "summary": "本校115學年度第1學期全校水塔已於115年8月22日委外清洗完畢，檢附清洗報告及水質檢驗結果如附件。"
     },
     {
       "id": "學校公告:光復國小:6a968ac49d3a954f8e1c135e",
