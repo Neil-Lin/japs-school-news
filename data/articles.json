@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T07:31:51.372431+00:00",
+  "updatedAt": "2026-09-18T13:04:31.411054+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -40,7 +40,7 @@
     {
       "name": "多元教育（敦化國小）",
       "status": "ok",
-      "itemCount": 23
+      "itemCount": 22
     },
     {
       "name": "學校公告（光復國小）",
@@ -105,7 +105,7 @@
     {
       "name": "校內競賽（光復國小）",
       "status": "ok",
-      "itemCount": 46
+      "itemCount": 47
     },
     {
       "name": "校務公告（敦化國小）",
@@ -175,7 +175,7 @@
     {
       "name": "研習資訊（建安國小）",
       "status": "ok",
-      "itemCount": 98
+      "itemCount": 97
     },
     {
       "name": "競賽活動（敦化國小）",
@@ -219,6 +219,221 @@
     }
   ],
   "articles": [
+    {
+      "id": "活動資訊:光復國小:6aad13f208d371fa56f700a8",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "活動資訊",
+      "title": "教育部提供之115年中小學《教師數位與AI教學指引》、《校長數位與AI學習領導指引》、《家長數位與AI學習知能指引》及學生可自學之《AI之學習應用手冊》",
+      "published": "2026-09-18T10:34:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6aad13f208d371fa56f700a8?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=QWbvWuz8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "一、教育部「AI人才方舟計畫」以「打造中小學AI智慧教育新生態」為核心目標，以數位教學指引搭橋樑，培育具備AI素養、創新能力與人文關懷的未來人才。 二、教育部提供旨揭3份指引（對象分為教師、校長及家長）及3份學生手冊（內容依學習階段規劃為國小、國中及高中）配合政策方向同步增修，作為支持學校、教師、家長與學生共同航向AI時代的教育支持系統，各本內容說明如下： (一)教師數位與AI教學指引：對準AI素養框架與AI人才圖像，強調以人為中心的思維；導入AI Agent，AI從工具轉化為學習設計協作夥伴，提升AI賦能教學，以AI促進教師專業發展。 (二)校長數位與AI學習領導指引：建立校長AI素養、推動校園數位行政轉型、引導校園內應用數位與AI形成領導決策，協助全國校長將數位與AI科技納入校園促進個人化學習，建構安全且永"
+    },
+    {
+      "id": "教師研習及活動:光復國小:6aad13f208d371fa56f700a8",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "教師研習及活動",
+      "title": "教育部提供之115年中小學《教師數位與AI教學指引》、《校長數位與AI學習領導指引》、《家長數位與AI學習知能指引》及學生可自學之《AI之學習應用手冊》",
+      "published": "2026-09-18T10:34:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6aad13f208d371fa56f700a8?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=GfVDvAq0432&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "一、教育部「AI人才方舟計畫」以「打造中小學AI智慧教育新生態」為核心目標，以數位教學指引搭橋樑，培育具備AI素養、創新能力與人文關懷的未來人才。 二、教育部提供旨揭3份指引（對象分為教師、校長及家長）及3份學生手冊（內容依學習階段規劃為國小、國中及高中）配合政策方向同步增修，作為支持學校、教師、家長與學生共同航向AI時代的教育支持系統，各本內容說明如下： (一)教師數位與AI教學指引：對準AI素養框架與AI人才圖像，強調以人為中心的思維；導入AI Agent，AI從工具轉化為學習設計協作夥伴，提升AI賦能教學，以AI促進教師專業發展。 (二)校長數位與AI學習領導指引：建立校長AI素養、推動校園數位行政轉型、引導校園內應用數位與AI形成領導決策，協助全國校長將數位與AI科技納入校園促進個人化學習，建構安全且永"
+    },
+    {
+      "id": "政策法規:光復國小:6aad13f208d371fa56f700a8",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "政策法規",
+      "title": "教育部提供之115年中小學《教師數位與AI教學指引》、《校長數位與AI學習領導指引》、《家長數位與AI學習知能指引》及學生可自學之《AI之學習應用手冊》",
+      "published": "2026-09-18T10:34:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6aad13f208d371fa56f700a8?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=gVIA7Pi7760&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "一、教育部「AI人才方舟計畫」以「打造中小學AI智慧教育新生態」為核心目標，以數位教學指引搭橋樑，培育具備AI素養、創新能力與人文關懷的未來人才。 二、教育部提供旨揭3份指引（對象分為教師、校長及家長）及3份學生手冊（內容依學習階段規劃為國小、國中及高中）配合政策方向同步增修，作為支持學校、教師、家長與學生共同航向AI時代的教育支持系統，各本內容說明如下： (一)教師數位與AI教學指引：對準AI素養框架與AI人才圖像，強調以人為中心的思維；導入AI Agent，AI從工具轉化為學習設計協作夥伴，提升AI賦能教學，以AI促進教師專業發展。 (二)校長數位與AI學習領導指引：建立校長AI素養、推動校園數位行政轉型、引導校園內應用數位與AI形成領導決策，協助全國校長將數位與AI科技納入校園促進個人化學習，建構安全且永"
+    },
+    {
+      "id": "校外競賽:光復國小:6aad12dcdb0e5efa933d3aed",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "校外競賽",
+      "title": "「2026第38屆AERC亞洲機器人運動競技大賽－崑山科技大學賽場」競賽辦法",
+      "published": "2026-09-18T10:28:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6aad12dcdb0e5efa933d3aed?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=jOHZo998827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "依據崑山科技大學115年9月18日崑科大工院字第1150012028號函辦理。 有關崑山科技大學「2026第38屆AERC亞洲機器人運動競技大賽－崑山科技大學賽場」競賽辦法，敬請師生踴躍組隊報名參加，相關資訊如下述及附件： 一、有關「2026第38屆AERC亞洲機器人運動競技大賽」為鼓勵各級學校推動創客創新及技能教學，提升學生機器人實作，以及電機、電子、資訊、控制等跨領域技術整合能力，並引導學生適切運用人工智慧工具於競賽準備過程中的知識建構、技能學習、程式設計及問題分析，以培養創造思考、實務應用、問題解決、團隊合作及溝通協調能力，促進各級學校師生於教學與學習上的相互交流與觀摩。 二、活動訂於115年12月12日(星期六)假該校體育館舉行，敬請師生組隊報名參加，相關競賽辦法、項目規則、報名表等檔案，請於本競賽活動"
+    },
+    {
+      "id": "校內競賽:光復國小:6aad096266d56cf51fe51303",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "校內競賽",
+      "title": "光復國民小學115學年度學生美術比賽成績公告",
+      "published": "2026-09-18T09:43:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6aad096266d56cf51fe51303?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=yEymbKs3017&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "115美術比賽得獎名單-繪畫類.pdf",
+        "115美術比賽得獎名單-非繪畫類.pdf"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "校外競賽:光復國小:6aad05b3690e82f8749faeba",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "校外競賽",
+      "title": "校園菸檳危害防制教育「影爆倡議」短片競賽",
+      "published": "2026-09-18T09:25:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6aad05b3690e82f8749faeba?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=jOHZo998827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "教育部國民及學前教育署115 學年度校園菸檳危害防制教育「影爆倡議」短片競賽實施計畫 壹、 依據：教育部國民及學前教育署校園菸檳危害防制教育介入輔導計畫 貳、 目的： 提供學生舞台，以學生為主角，鼓勵藉由活潑創新短片，自主倡議無菸拒檳知識、態度， 推廣至校園，進而內化成為拒菸檳的行為與生活技能。 參、 辦理單位： 一、主辦單位：教育部國民及學前教育署 二、承辦單位：國立陽明交通大學校園菸檳危害防制教育介入輔導計畫 聯絡人：陽明交大電子信箱nosmoking.edu@gmail.com 或02-28267000#65065 或加入LINE 官方帳號好友 http://nav.cx/hVfpcH4 肆、 參加對象： 一、 創作學生：各縣市轄屬國小、國中、高中及教育部國民及學前教育署轄屬高級中等 以下學校學生，依創作"
+    },
+    {
+      "id": "教師研習及活動:光復國小:6aacfc86650e07ef7aea6964",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "教師研習及活動",
+      "title": "轉知：台北市攀岩協會辦理「攀岩推廣教師體驗營」",
+      "published": "2026-09-18T08:54:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6aacfc86650e07ef7aea6964?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=GfVDvAq0432&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "攀岩推廣教師體驗營簡章.pdf"
+      ],
+      "summary": "賽事訂於115年10月17日假小岩館（臺北市士林區忠誠 路二段12號1樓）辦理，敬請鼓勵所屬踴躍報名參加。 報名日期自即日起至115年10月5日（額滿為止），活動辦 法請參閱附件。 如有任何疑問，請逕洽聯絡人：鄧小姐， 連絡電話：0921-832-273。"
+    },
+    {
+      "id": "榮譽榜:建安國小:6aacfa774b2c19f4efe364a4",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "榮譽榜",
+      "title": "本校學生參加115年臺北市青年盃國武術錦標賽榮獲佳績！",
+      "published": "2026-09-18T08:43:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6aacfa774b2c19f4efe364a4?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=AQoMNBw7626&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [],
+      "summary": "本校學生參加115年臺北市青年盃國武術錦標賽榮獲佳績！ 508班 鄭少傭 參加 南拳9~10歲 男子組 獲得 國術項目 第二名"
+    },
+    {
+      "id": "活動資訊:光復國小:6aacf6974ba0bbf5011546bc",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "活動資訊",
+      "title": "檢送文化部辦理「115年度馬祖語語言能力認證考試」簡章1份",
+      "published": "2026-09-18T08:29:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6aacf6974ba0bbf5011546bc?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=QWbvWuz8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "29544950_1153100085_ATTCH1.pdf"
+      ],
+      "summary": "一、依據文化部115年9月11日文版字第1153023879號函辦理。 二、為鼓勵全民學習馬祖語，並提升社會大眾對馬祖語言之認 識與學習意願，文化部訂於115年12月13日辦理「115年度 馬祖語語言能力認證考試（初級、中級）」，並預定於連 江縣及桃園市兩考區同步辦理，報名日期至115年10月19日 止，詳細資訊請參閱本認證網站（網址： https://matsutest.moc.gov.tw/）及旨揭簡章。 三、有意報名者請於115年10月19日（一）前，將報名資料以掛 號郵寄至「國立臺南大學本土語文資源中心，馬祖語語言 能力認證考試試務中心」。"
+    },
+    {
+      "id": "校外競賽:光復國小:6aacf55b78bbf8f3c3485de5",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "校外競賽",
+      "title": "轉知：115學年度東區國民小學運動會",
+      "published": "2026-09-18T08:23:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6aacf55b78bbf8f3c3485de5?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=jOHZo998827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "臺北市115 學年度國民小學東區運動會競賽規程.pdf"
+      ],
+      "summary": "一、游泳: 115 年11月17日（星期二）。地點:臺北市玉成國小游泳池(臺北市南港區向陽路31號) 。 二、田徑: 115 年11月26日（星期四）、11月27日（星期五）。地點:臺北田徑場(臺北市松山區敦化北路3號)。 有意參與者，請於115年9月29日(星期二)下午4點前洽體育組(分機824)。"
+    },
+    {
+      "id": "學校公告:光復國小:6aacf55b78bbf8f3c3485de5",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "學校公告",
+      "title": "轉知：115學年度東區國民小學運動會",
+      "published": "2026-09-18T08:23:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6aacf55b78bbf8f3c3485de5?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=UFKVG9l8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "臺北市115 學年度國民小學東區運動會競賽規程.pdf"
+      ],
+      "summary": "一、游泳: 115 年11月17日（星期二）。地點:臺北市玉成國小游泳池(臺北市南港區向陽路31號) 。 二、田徑: 115 年11月26日（星期四）、11月27日（星期五）。地點:臺北田徑場(臺北市松山區敦化北路3號)。 有意參與者，請於115年9月29日(星期二)下午4點前洽體育組(分機824)。"
+    },
+    {
+      "id": "學校公告:光復國小:6aacf4aba368e9f4cea10ea6",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "學校公告",
+      "title": "檢送本市「臺北市教育政策白皮書2.0—培育全球公民， 與世界共學」電子檔1份",
+      "published": "2026-09-18T08:21:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6aacf4aba368e9f4cea10ea6?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=UFKVG9l8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "一、依據臺北市市政願景白皮書，秉持「向世界學習，開創教 育新格局」的使命，本局前於112年12月20日發布臺北市教 育政策白皮書（以下簡稱白皮書），逐步推動及落實各項 政策目標。為開啟臺北教育新未來，從「前瞻、創新、卓 越、永續」4大教育核心願景出發，於近年累積「十大好 學」豐碩成果上，進一步升級為「培育全球公民、與世界 共學」的使命，發展出未來臺北市教育的3大學習藍圖： 「公平共融」、「全球導向」及「城市學校」，透過教育 的力量，形塑臺北市成為「學習之都（Learning Taipei）」，為孩子開創美好未來。 二、電子檔可至本局網站首頁/機關介紹/臺北市教育政策白皮 書下載。"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=47171FF401E81A5F",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】衛生福利部疾病管制署辦理「抗生素聰明用，防疫一體齊行動」插畫徵件活動",
+      "published": "2026-09-18T08:13:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=47171FF401E81A5F",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、依據衛生福利部疾病管制署115年7月29日疾管感字第1150500183號函辦理。 二、因應世界衛生組織(WHO)於 2019年將抗生素抗藥性列為全球十大健康威脅之一，為增進高中、國中小學生及其家庭對抗生素抗藥性議題之認識，爰辦理旨揭徵件活動。 三、活動摘述如下： (一)徵件主題：抗生素聰明用，防疫一體齊行動。 (二)參賽資格：國小1-3年級組、國小4-6年級組、國中組及高中組，共4組。 (三)參賽方式：至活動網址(https://2026cdcpainting.com) 下載圖稿，並列印成B4尺寸。 (四)徵稿時間：本(115)年8月3日至同年 10月20日 (郵戳為憑)。 (五)投稿方式： １、實體投稿：填寫報名表單，並將正本作品郵寄至指定地址。 ２、線上投稿：將創作完成之插畫，掃描存成電子檔，填寫報名"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=954A5F7887F05178",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】財團法人天下雜誌教育基金會辦理「2026國際閱讀教育論壇」",
+      "published": "2026-09-18T07:43:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=954A5F7887F05178",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、 依據該會115年9月17日天教字第1150000116號函辦理。 二、該會自民國96年起每年辦理旨揭論壇，邀請國際閱讀教育專家分享全球閱讀教育的趨勢與經驗。 三、本次論壇資訊如下： （一）時間：115年10月29日（四）上午9時30分至下午4時。 （二）地點：國立臺灣圖書館B1演藝廳（新北市中和區中安街85號） （三）活動議程及報名連結詳於如附件。 議程.pdf"
+    },
     {
       "id": "教師研習及活動:光復國小:6aace313eff728f0a9edd710",
       "schools": [
