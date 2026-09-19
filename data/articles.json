@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T13:04:31.411054+00:00",
+  "updatedAt": "2026-09-19T12:37:06.597927+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -15,7 +15,7 @@
     {
       "name": "人事資訊（光復國小）",
       "status": "ok",
-      "itemCount": 100
+      "itemCount": 98
     },
     {
       "name": "光復之光（光復國小）",
@@ -80,7 +80,7 @@
     {
       "name": "新生入學（仁愛國小）",
       "status": "ok",
-      "itemCount": 19
+      "itemCount": 18
     },
     {
       "name": "普及化運動健身操比賽（敦化國小）",
@@ -95,7 +95,7 @@
     {
       "name": "校內消息（仁愛國小）",
       "status": "ok",
-      "itemCount": 49
+      "itemCount": 50
     },
     {
       "name": "校內競賽（仁愛國小）",
@@ -175,7 +175,7 @@
     {
       "name": "研習資訊（建安國小）",
       "status": "ok",
-      "itemCount": 97
+      "itemCount": 96
     },
     {
       "name": "競賽活動（敦化國小）",
@@ -219,6 +219,55 @@
     }
   ],
   "articles": [
+    {
+      "id": "最新消息:博愛國小:6aae2e5036257d2ff873fb52",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "2027-2028科普閱讀力大賽",
+      "published": "2026-09-19T06:30:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6aae2e5036257d2ff873fb52?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "科普閱讀力大賽.pdf",
+        "parti_contest.html"
+      ],
+      "summary": "國立臺灣師範大學辦理「2027-2028科普閱讀力賽」 一、報名時間：即日起至115年11月27日（星期五）中午12時。 二、對象：國小三年級至國中八年級、高中十年級學生。 三、時程： １、前測：115年12月期間，以實體或線上方式進行。 ２、閱讀任務：116年1月至4月期間，依據各年級參賽組別規定，閱讀書籍及文章，並填寫讀後評量。 ３、後測：預計於116年4月底至5月辦理。 四、檢附競賽活動辦法1份，並可於官網詳見競賽資訊，若有問題亦可逕洽窗口人員蔡先生（電話：02-2351-7160；service@contest.smartreading.net ）。"
+    },
+    {
+      "id": "一般消息:仁愛國小:6aadf2150d79912031bc830b",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "一般消息",
+      "title": "「網路不沉迷，成癮遠離你」",
+      "published": "2026-09-19T02:22:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6aadf2150d79912031bc830b?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=ZItAos61369&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "電子文宣.pdf"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "校內消息:仁愛國小:6aadf2150d79912031bc830b",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "校內消息",
+      "title": "「網路不沉迷，成癮遠離你」",
+      "published": "2026-09-19T02:22:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6aadf2150d79912031bc830b?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=ZXFNybM7991&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "電子文宣.pdf"
+      ],
+      "summary": ""
+    },
     {
       "id": "活動資訊:光復國小:6aad13f208d371fa56f700a8",
       "schools": [
@@ -36925,66 +36974,6 @@
         "得獎名單.pdf"
       ],
       "summary": "詳見附件"
-    },
-    {
-      "id": "敦小快報:敦化國小:68cd171bbd4c20bd877bf3c7",
-      "schools": [
-        "敦化國小"
-      ],
-      "source": "敦小快報",
-      "title": "114_1第04週敦小快報",
-      "published": "2025-09-19T08:40:00+00:00",
-      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/68cd171bbd4c20bd877bf3c7?vector=private&static=false",
-      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=8nmTbwG1025&vector=private&static=false",
-      "siteUrl": "https://www.thps.tp.edu.tw",
-      "attachments": [
-        "114_1第04週敦小快報.pdf"
-      ],
-      "summary": ""
-    },
-    {
-      "id": "研習資訊:68ccd44e1ba44f9e6fd18939",
-      "source": "研習資訊",
-      "title": "轉知「將CRC原則融入家庭暴力目睹兒少輔導資源工作坊」",
-      "published": "2025-09-19T03:53:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/68ccd44e1ba44f9e6fd18939?vector=private&static=false",
-      "summary": "一、依據「臺北市教育人員兒少保護、家庭暴力、性侵害暨性騷擾通報率提升及防治工作實施計畫」辦理。 二、臺北市長期致力於推動兒童保護工作，本計畫旨在透過工作坊形式，邀集具有協助目睹家庭暴力兒少輔導經驗之實務工作者，介紹CRC原則及其在目睹家庭暴力兒少輔導工作中的應用，並彙整相關資源，以供教師進行課程及輔導時參考運用。 三、旨揭計畫辦理資訊如下: (一)研習日期 １、第1日：10月8日(三) 上午8時30分至下午6時。 ２、第2日：10月9日(四) 上午8時30分至下午6時。 (二)研習地點:臺北市立敦化國民中學三樓校史室 (三)研習對象:本市公私立高中、國中、國小教師，請擇一日報名參加。 (四)報名方式:請於9月30日(星期二)中午12時前逕上「臺北市教師在職研習網」(網址https://insc.tp.edu.t",
-      "schools": [
-        "仁愛國小"
-      ]
-    },
-    {
-      "id": "研習資訊:仁愛國小:68ccd44e1ba44f9e6fd18939",
-      "schools": [
-        "仁愛國小"
-      ],
-      "source": "研習資訊",
-      "title": "轉知「將CRC原則融入家庭暴力目睹兒少輔導資源工作坊」",
-      "published": "2025-09-19T03:53:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/68ccd44e1ba44f9e6fd18939?vector=private&static=false",
-      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=BLvblfR5996&vector=private&static=false",
-      "siteUrl": "https://www.japs.tp.edu.tw",
-      "attachments": [
-        "27041681_1146007772_ATTCH1.pdf"
-      ],
-      "summary": "一、依據「臺北市教育人員兒少保護、家庭暴力、性侵害暨性騷擾通報率提升及防治工作實施計畫」辦理。 二、臺北市長期致力於推動兒童保護工作，本計畫旨在透過工作坊形式，邀集具有協助目睹家庭暴力兒少輔導經驗之實務工作者，介紹CRC原則及其在目睹家庭暴力兒少輔導工作中的應用，並彙整相關資源，以供教師進行課程及輔導時參考運用。 三、旨揭計畫辦理資訊如下: (一)研習日期 １、第1日：10月8日(三) 上午8時30分至下午6時。 ２、第2日：10月9日(四) 上午8時30分至下午6時。 (二)研習地點:臺北市立敦化國民中學三樓校史室 (三)研習對象:本市公私立高中、國中、國小教師，請擇一日報名參加。 (四)報名方式:請於9月30日(星期二)中午12時前逕上「臺北市教師在職研習網」(網址https://insc.tp.edu.t"
-    },
-    {
-      "id": "榮譽榜:建安國小:68ccc76dfdb4899a9ad94064",
-      "schools": [
-        "建安國小"
-      ],
-      "source": "榮譽榜",
-      "title": "建安國民小學114學年度美術比賽獲獎名單公告",
-      "published": "2025-09-19T02:53:00+00:00",
-      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/68ccc76dfdb4899a9ad94064?vector=private&static=false",
-      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=AQoMNBw7626&vector=private&static=false",
-      "siteUrl": "https://www.jnps.tp.edu.tw",
-      "attachments": [
-        "114學年度臺北市學生美術比賽暨展覽實施計畫.pdf",
-        "建安國民小學114學年度美術比賽獲獎名單(公告版)0930修.pdf"
-      ],
-      "summary": "114學年度校內美術比賽經過評選後公告名單，如有名字誤植，請洽分機832特教組，相關獎狀頒發會擇期發通知。 參加臺北市市賽: 一、獲得「特優」作品經複審後，得代表本校參加「114學年度臺北市學生美術比賽」，統一由學校線上報名及比賽送件。 *****報名表由學校列印，請學生帶回簽名並黏貼於正確位置。**** 二、書法類比賽方式：俟取得學校決賽代表權同學，需依學校通知於114年10月16日(四)參加現場書寫，再將現場書寫作品送達國立臺灣藝術教育館進行決賽。"
     }
   ]
 }
