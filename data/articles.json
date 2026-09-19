@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T07:27:43.879653+00:00",
+  "updatedAt": "2026-09-19T12:37:06.597927+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -15,7 +15,7 @@
     {
       "name": "人事資訊（光復國小）",
       "status": "ok",
-      "itemCount": 100
+      "itemCount": 98
     },
     {
       "name": "光復之光（光復國小）",
@@ -36974,22 +36974,6 @@
         "得獎名單.pdf"
       ],
       "summary": "詳見附件"
-    },
-    {
-      "id": "敦小快報:敦化國小:68cd171bbd4c20bd877bf3c7",
-      "schools": [
-        "敦化國小"
-      ],
-      "source": "敦小快報",
-      "title": "114_1第04週敦小快報",
-      "published": "2025-09-19T08:40:00+00:00",
-      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/68cd171bbd4c20bd877bf3c7?vector=private&static=false",
-      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=8nmTbwG1025&vector=private&static=false",
-      "siteUrl": "https://www.thps.tp.edu.tw",
-      "attachments": [
-        "114_1第04週敦小快報.pdf"
-      ],
-      "summary": ""
     }
   ]
 }
