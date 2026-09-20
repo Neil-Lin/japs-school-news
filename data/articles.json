@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T07:51:08.659669+00:00",
+  "updatedAt": "2026-09-20T13:09:36.782791+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -15,7 +15,7 @@
     {
       "name": "人事資訊（光復國小）",
       "status": "ok",
-      "itemCount": 98
+      "itemCount": 96
     },
     {
       "name": "光復之光（光復國小）",
@@ -219,6 +219,20 @@
     }
   ],
   "articles": [
+    {
+      "id": "光復之光:光復國小:6aafbbd5d56f627d8d1c8721",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "光復之光",
+      "title": "[多語文捷報]寫字、字音字形競賽成績出爐",
+      "published": "2026-09-20T10:54:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6aafbbd5d56f627d8d1c8721?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=EIWuBZr8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": ""
+    },
     {
       "id": "最新消息:博愛國小:6aae2e5036257d2ff873fb52",
       "schools": [
