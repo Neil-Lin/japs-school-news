@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T08:06:08.883257+00:00",
+  "updatedAt": "2026-09-21T15:15:17.991768+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -219,6 +219,109 @@
     }
   ],
   "articles": [
+    {
+      "id": "研習資訊:博愛國小:6ab114505e0418c0f821a258",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "轉知國立臺南大學視障教育與重建中心承辦教育部「115年度全國教師及相關人員視障10學分班」實施計畫，鼓勵踴躍報名參加。",
+      "published": "2026-09-21T11:25:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ab114505e0418c0f821a258?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=tQHaHM07712&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "轉知國立臺南大學視障教育與重建中心承辦教育部「115年度全國教師及相關人員視障10學分班」實施計畫，鼓勵踴躍報名參加。-1150921.pdf",
+        "轉知國立臺南大學視障教育與重建中心承辦教育部「115年度全國教師及相關人員視障10學分班」實施計畫，鼓勵踴躍報名參加。--1150921.pdf"
+      ],
+      "summary": "轉知國立臺南大學視障教育與重建中心承辦教育部「115年度全國教師及相關人員視障10學分班」實施計畫，鼓勵踴躍報名參加。"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=569C66F2D6CDE725",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】國立臺北教育大學課程與教學傳播科技研究所「AI浪潮下課程與教學傳播科技之反思與前瞻學術研討會」",
+      "published": "2026-09-21T10:17:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=569C66F2D6CDE725",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": ""
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=06DE05F639AB4C64",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【賽事資訊】115年全國協會盃拔河運動錦標賽",
+      "published": "2026-09-21T10:12:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=06DE05F639AB4C64",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、賽事時間：115年11月13日（週四）至115年 1月15日（週六）。 二、賽事地點：國立南投高中體育館 。 三、報名日期：即日起至115年10月31日(週五)止。 四、報名方式請參閱競賽規程（如附件）。 115年全國協會盃拔河運動錦標賽競賽規程.pdf"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=6A6FB87F473F0857",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】中畢民國更生少年關懷協會「青少年工班職業培訓」課程",
+      "published": "2026-09-21T10:08:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=6A6FB87F473F0857",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "培力園秋季水電課程.pdf 培力園秋季油漆課程.pdf"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=4B0DA77EB5282029",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【賽事資訊】115年臺東沙城盃全國中小學田徑對抗賽",
+      "published": "2026-09-21T09:51:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=4B0DA77EB5282029",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、賽事時間：115年11月12日（週四）至115年11月14日（週六）。 二、賽事地點：臺東縣立體育場（臺東市桂林北路52巷120號）。 三、報名日期：自115年10月12日（週一）上午8時起至115年10月16日(週五)下午6時止。 四、報名方式請參閱競賽規程（如附件）。 115年臺東沙城盃全國中小學田徑對抗賽競賽規程.pdf"
+    },
+    {
+      "id": "學校公告:光復國小:6ab0f1285da1d3ba486573fe",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "學校公告",
+      "title": "公告:本校預計10/27(二)施打流感疫苗，如師生有意願施打，請於9/30(三)16:00前完成線上簽署。",
+      "published": "2026-09-21T08:48:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6ab0f1285da1d3ba486573fe?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=UFKVG9l8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "說明: 1.填寫連結:https://reurl.cc/Vn7v8R 2.填寫截止日: 9/30(三) 16:00 ，16:00後將會關閉無法填寫。"
+    },
     {
       "id": "行政公告:建安國小:6ab0e1d85531d9b7d26d481c",
       "schools": [
@@ -13970,6 +14073,20 @@
         "29302774_1153092603_ATTCH3.pdf"
       ],
       "summary": "臺灣手語已定為國家語言，依「國家語言發展法」規定， 十二年國民基本教育課程綱要總綱自111學年度起由國民小 學、國民中學及高級中等學校一年級開始實施。為賡續培 育臺灣手語師資，國教署委請國立嘉義大學辦理旨案計 畫。 請各校依計畫薦派編制內「具教師證書之現職正式教師」 參訓，其薦派方式如下 (一)各校以薦派1人為原則（若薦派2名以上須排薦派順 序）；請有意願且符合參訓資格之教師，填具報名表並經服務學校完成核章，並同步至線上表單填寫報名基本 資料（https://forms.gle/GsXDXCcdbXvgmvYU7）。 (二)因本案計畫報名尚須經本局彙整並送出縣市薦派總名 單，請學校於115年8月31日（星期一）前，提供資料如 下，逾時不受理。 １、將「薦派總表和報名表（共同掃描進同一PDF檔）」及 「薦派總表（"
+    },
+    {
+      "id": "行政公告:建安國小:6ab10a59e57c0ec06c38622a",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "行政公告",
+      "title": "115學年第1學期友善校園週",
+      "published": "2026-08-26T10:35:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6ab10a59e57c0ec06c38622a?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=2rEsyLS9623&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [],
+      "summary": ""
     },
     {
       "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=0DE05A13E2047E48",
