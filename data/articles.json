@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T13:34:43.661754+00:00",
+  "updatedAt": "2026-09-23T07:53:11.234382+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -15,7 +15,7 @@
     {
       "name": "人事資訊（光復國小）",
       "status": "ok",
-      "itemCount": 94
+      "itemCount": 95
     },
     {
       "name": "光復之光（光復國小）",
@@ -180,7 +180,7 @@
     {
       "name": "競賽活動（敦化國小）",
       "status": "ok",
-      "itemCount": 70
+      "itemCount": 71
     },
     {
       "name": "行政公告（建安國小）",
@@ -195,7 +195,7 @@
     {
       "name": "親職資訊（仁愛國小）",
       "status": "ok",
-      "itemCount": 52
+      "itemCount": 54
     },
     {
       "name": "防疫公告（光復國小）",
@@ -219,6 +219,522 @@
     }
   ],
   "articles": [
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=A4AB0BA7123FBACD",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【賽事資訊】115年臺北市大同區3X3籃球賽",
+      "published": "2026-09-23T07:21:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=A4AB0BA7123FBACD",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、賽事時間：115年10月11日（週日）。 二、賽事地點：臺北市大同運動中心2樓多功能綜合球場（臺北市大同區大龍街51號）。 三、報名日期：即日起至115年10月4日(週日)下午5時止。 四、報名方式請參閱競賽規程（如附件）。 115年臺北市大同區3X3籃球競賽規程.pdf 115年臺北市大同區3X3籃球海報.pdf"
+    },
+    {
+      "id": "研習資訊:仁愛國小:6ab37cf92178a6169a0f5556",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "[轉知]全國高級中等以下學校教師及行政人員融合教育相關專業知能研習計畫-線上研習課程",
+      "published": "2026-09-23T07:15:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6ab37cf92178a6169a0f5556?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=BLvblfR5996&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "全國高級中等以下學校教師及行政人員融合教育相關專業知能研習計畫-線上研習課程.pdf"
+      ],
+      "summary": "一、旨揭課程依「融合教育知能」、「課程與教學」、「學校行政」及「支持服務」四大面向進行規劃設計，課程適用對象為： (一)學校行政人員：全國高級中等以下學校校長、主任、組長、業務承辦人。 (二)普通教育教師：全國高級中等以下學校未兼任行政業務之專任教師、導師。"
+    },
+    {
+      "id": "一般消息:仁愛國小:6ab37bff76262f16bae8f090",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "一般消息",
+      "title": "[轉知]臺北市政府衛生局及社會局身心障礙者相關照顧服務宣導資料",
+      "published": "2026-09-23T07:11:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6ab37bff76262f16bae8f090?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=ZItAos61369&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "身心障礙者相關照顧服務宣導資料1.pdf",
+        "身心障礙者相關照顧服務宣導資料2.pdf"
+      ],
+      "summary": "為提供本市身心障礙學生家庭於課後、寒暑假或其他非在校時段之需求支持，適切連結照顧資源，本局彙整本府跨局處相關服務資訊，透過學校及相關教育支持體系宣導，包含長期照顧服務及身心障礙者臨時及短期照顧服務相關資訊及宣導資料如附件。"
+    },
+    {
+      "id": "一般消息:仁愛國小:6ab37b739263c9357709b1a3",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "一般消息",
+      "title": "[轉知]臺北市115學年度高級中等以下學校特殊教育推行委員會運作知能研習",
+      "published": "2026-09-23T07:09:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6ab37b739263c9357709b1a3?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=ZItAos61369&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "臺北市115學年度高級中等以下學校特殊教育推行委員會運作知能研習.pdf"
+      ],
+      "summary": "詳細研習資訊請參閱附件。"
+    },
+    {
+      "id": "校務公告:敦化國小:6ab35e7649264b16fcd77fa5",
+      "schools": [
+        "敦化國小"
+      ],
+      "source": "校務公告",
+      "title": "臺北市115學年度東、西、南、北四區國民小學運動會 競賽規程",
+      "published": "2026-09-23T05:04:00+00:00",
+      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/6ab35e7649264b16fcd77fa5?vector=private&static=false",
+      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=1hdeMSJ5377&vector=private&static=false",
+      "siteUrl": "https://www.thps.tp.edu.tw",
+      "attachments": [
+        "臺北市115學年度國民小學東區運動會競賽規程1150917.pdf"
+      ],
+      "summary": "說明： 一、為倡導學校運動風氣，選拔績優選手代表各區參加本市小 學運動會，並鍛鍊學生體能，提高運動水準，奠定全民體 育根基，以達成健康城市目標，特辦理旨揭賽會。 二、旨案網路登錄期限為自115年9月21日（星期一）0時起至10 月2日（星期五）24時止，報名截止後一概不得增刪及修改 報名資料。 三、東區比賽日期及地點如下： (一)東區運動會： １、游泳：115年11月17日（星期二），地點為臺北市南港 區玉成國小游泳池。２、田徑：115年11月26日（星期四）、11月27日（星期 五），地點為臺北田徑場。"
+    },
+    {
+      "id": "競賽活動:敦化國小:6ab35e7649264b16fcd77fa5",
+      "schools": [
+        "敦化國小"
+      ],
+      "source": "競賽活動",
+      "title": "臺北市115學年度東、西、南、北四區國民小學運動會 競賽規程",
+      "published": "2026-09-23T05:04:00+00:00",
+      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/6ab35e7649264b16fcd77fa5?vector=private&static=false",
+      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=Mu7ppdp0180&vector=private&static=false",
+      "siteUrl": "https://www.thps.tp.edu.tw",
+      "attachments": [
+        "臺北市115學年度國民小學東區運動會競賽規程1150917.pdf"
+      ],
+      "summary": "說明： 一、為倡導學校運動風氣，選拔績優選手代表各區參加本市小 學運動會，並鍛鍊學生體能，提高運動水準，奠定全民體 育根基，以達成健康城市目標，特辦理旨揭賽會。 二、旨案網路登錄期限為自115年9月21日（星期一）0時起至10 月2日（星期五）24時止，報名截止後一概不得增刪及修改 報名資料。 三、東區比賽日期及地點如下： (一)東區運動會： １、游泳：115年11月17日（星期二），地點為臺北市南港 區玉成國小游泳池。２、田徑：115年11月26日（星期四）、11月27日（星期 五），地點為臺北田徑場。"
+    },
+    {
+      "id": "一般消息:仁愛國小:6ab0ec00afcf45b9484b62d6",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "一般消息",
+      "title": "本校115年11月-12月羽球場租借線上登記抽籤及申請公告",
+      "published": "2026-09-23T04:00:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6ab0ec00afcf45b9484b62d6?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=ZItAos61369&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "115年11-12月羽球場租借線上登記抽籤公告.pdf",
+        "115年11-12月羽球場租借時間表(暫定).pdf"
+      ],
+      "summary": "本季(115年11月-12月)羽球場租借登記抽籤採Google表單進行線上登記，每人登記限填1個時段。請有意願申請者依公告辦法提出申請抽籤。 一、線上登記時間： 9 月 29 日 ( 二 )08:00 起至 9 月 30 日 ( 三 )16:00 止 。 二、對象： 年滿 18 歲以上個人、法人或團體。 三、線上登記抽籤注意事項： ( 一 ) 線上登記抽籤網址： https://forms.gle/JLNRC8JP6bjREd1Z8 。 ( 二 ) 以系統紀錄時間戳記為準，倘申請人重複登記同時段，以有效登記期間內第 1 筆資料為準。 ( 三 ) 每人限登記 1 個時段 ( 同身分證字號視為相同 ) ，不得重複申請 2 個以上時段；若申請者為個人同時為法人 / 團體之代表人，僅能擇一身分申請。倘經本校發現同一人申"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=335EDBE8C2E983F4",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【賽事資訊】2026全國電子飛鏢錦標賽",
+      "published": "2026-09-23T03:55:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=335EDBE8C2E983F4",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、賽事時間：115年10月22日（週四）至115年10月24日（週六）。 二、賽事地點：臺北捷運大安森林公園站陽光大廳（臺北市大安區信義路三段100 號）。 三、報名日期：即日起至115年10月10日（週六）止。 四、報名方式請參閱競賽規程（如附件）。 2026全國電子飛鏢錦標賽競賽規程.pdf"
+    },
+    {
+      "id": "最新消息:博愛國小:6ab34adf5228ea16afd5014a",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "《中秋節廉政倫理宣導》",
+      "published": "2026-09-23T03:40:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ab34adf5228ea16afd5014a?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [],
+      "summary": "春節將屆，餽贈、邀宴行為較為頻繁，請長官同仁恪遵「臺北市政府公務員廉政倫理規範」規定，對與職務有利害關係者之受贈財物、飲宴應酬、請託關說及其他廉政倫理事件，應依規定確實報備登錄，並避免酒駕、出入不正當場所之違法違紀行為。 為深化同仁對廉政倫理法令之認知，請多加運用本府「 臺北e大 」教學資源，選讀廉政倫理法令相關課程。"
+    },
+    {
+      "id": "行政公告:建安國小:6ab3472b5228ea16afd41ce2",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "行政公告",
+      "title": "115年中秋節廉政倫理宣導",
+      "published": "2026-09-23T03:25:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6ab3472b5228ea16afd41ce2?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=2rEsyLS9623&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [
+        "115年中秋節宣導海報1.jpg"
+      ],
+      "summary": "春節將屆，餽贈、邀宴行為較為頻繁，請長官同仁恪遵「臺北市政府公務員廉政倫理規範」規定，對與職務有利害關係者之受贈財物、飲宴應酬、請託關說及其他廉政倫理事件，應依規定確實報備登錄，並避免酒駕、出入不正當場所之違法違紀行為。 為深化同仁對廉政倫理法令之認知，請多加運用本府「臺北e大」（ https://elearning.taipei/mpage/ ）教學資源，選讀廉政倫理法令相關課程。"
+    },
+    {
+      "id": "學校公告:光復國小:6ab343f4eb291f3620203e55",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "學校公告",
+      "title": "臺北市士林區公所檢送本市第9屆市長、第15屆議員及第15屆里長選舉投開所工作人員登記資料卡1份",
+      "published": "2026-09-23T03:12:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6ab343f4eb291f3620203e55?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=UFKVG9l8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "士林區選舉投開票所工作人員登記資料卡.pdf",
+        "行政院函.pdf",
+        "臺北市政府教育局函.pdf",
+        "臺北市選舉委員會函.pdf"
+      ],
+      "summary": "一、115年地方公職人員選舉訂於115年11月28日（星期六）舉行投票。有關投開票所工作人員之補假日數，依行政院115年8月11日院授人培字第1150001660號函意旨，參加選務工作人員給予補假2天。請於115年10月2日前將資料卡免備文擲回或傳真本所（傳真電話：8861-5506），以利辦理後續遴 選作業事宜。 二、凡擔任本區投開票所工作人員者，嗣後若參加工作人員講習、點領選舉票或佈置投票所等工作時，建請貴機關（校）核予公假及得以課務排代，以利選務工作遂行。 三、另依臺北市政府教育局115年8月31日北市教人字第1153095258號函，查現行本府教育局所屬市立各級學校教師參加選務工作公假及課務排代措施中，除選務工作講習係核予公假並請教師選擇無課務時段前往或課務自理外，選舉前一日布置及選舉後給予補休之課務，"
+    },
+    {
+      "id": "人事資訊:光復國小:6ab343f4eb291f3620203e55",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "人事資訊",
+      "title": "臺北市士林區公所檢送本市第9屆市長、第15屆議員及第15屆里長選舉投開所工作人員登記資料卡1份",
+      "published": "2026-09-23T03:12:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6ab343f4eb291f3620203e55?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=MacAbVJ0472&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "士林區選舉投開票所工作人員登記資料卡.pdf",
+        "行政院函.pdf",
+        "臺北市政府教育局函.pdf",
+        "臺北市選舉委員會函.pdf"
+      ],
+      "summary": "一、115年地方公職人員選舉訂於115年11月28日（星期六）舉行投票。有關投開票所工作人員之補假日數，依行政院115年8月11日院授人培字第1150001660號函意旨，參加選務工作人員給予補假2天。請於115年10月2日前將資料卡免備文擲回或傳真本所（傳真電話：8861-5506），以利辦理後續遴 選作業事宜。 二、凡擔任本區投開票所工作人員者，嗣後若參加工作人員講習、點領選舉票或佈置投票所等工作時，建請貴機關（校）核予公假及得以課務排代，以利選務工作遂行。 三、另依臺北市政府教育局115年8月31日北市教人字第1153095258號函，查現行本府教育局所屬市立各級學校教師參加選務工作公假及課務排代措施中，除選務工作講習係核予公假並請教師選擇無課務時段前往或課務自理外，選舉前一日布置及選舉後給予補休之課務，"
+    },
+    {
+      "id": "親職資訊:仁愛國小:6ab340392178a6169a008efc",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "親職資訊",
+      "title": "轉知-臺北市家庭教育中心115年第4季「樂活家庭講座」",
+      "published": "2026-09-23T02:56:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6ab340392178a6169a008efc?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=mUepRUN5084&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [],
+      "summary": "臺北市家庭教育中心10月17日「i動人生」、11月 21日「家有煩人的孩子怎麼辦」、12月19日「心靈調色 盤」歡迎報名。活動訊息可於本中心網站（ https://family.gov.taipei/）瀏覽、下載。"
+    },
+    {
+      "id": "校外競賽:仁愛國小:6ab343a6ceaa911712222704",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "校外競賽",
+      "title": "財團法人國語日報社主旨：檢送2026「讓好文、好品格一起發光徵文活動」活動簡章，敬請鼓勵學生參加，詳如說明，惠請查照。",
+      "published": "2026-09-23T02:41:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6ab343a6ceaa911712222704?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=3OcrJ5P5996&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "29493993_1150000046.pdf",
+        "29493993_1150000046_ATTCH1.pdf"
+      ],
+      "summary": "一、由財團法人感恩社會福利基金會與國語日報社共同主辦之2026「讓好文、好品格一起發光」徵文活動，旨在鼓勵國小學生主動閱讀品格教育文章，培養學生對責任、同理、誠實、關懷等價值的理解與實踐，透過徵文創作，將所學內化後轉為文字，強化品格素養。 二、本次活動對象為全國國小中、高年級學生，徵文主題為「讓好文、好品格一起發光」。參賽作品可選擇線上投稿或紙本投稿，截止日期為115年11月15日。 三、本活動簡章、詳如附件。惠請貴校引導學生踴躍投稿。 四、2026「讓好文、好品格一起發光」 徵文活動網址：https://www.mdnkids.com/events/20260826-GreatfulEvent/ 或洽活動專線（02）2392-1133分機2112。"
+    },
+    {
+      "id": "最新消息:博愛國小:6ab33c767f4cf416a18c55e9",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "轉知國立臺灣海洋大學應用英語研究所116學年度碩士班甄試入學受理報名",
+      "published": "2026-09-23T02:40:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ab33c767f4cf416a18c55e9?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29545854_1150022843_ATTCH1.pdf"
+      ],
+      "summary": "一、因應2030雙語政策，英語能力將成為就業必備條件之一。校應用英語研究所（以下簡稱應英所）以英語教學訓練 為主，專業英語為輔，適合對英語教學有興趣或未來職業 欲使用英語者就讀。 本校應英所116學年度碩士班(甄試入學3名及考試入學4名) 共招收一般生7名。 考生報考請選擇「人文領域碩士班聯合招生」為報名單 位，並選擇「應用英語研究所」為第1志願。 甄試入學報名日期：115年10月1日(星期四)上午8時至115 年10月22日下午5時(星期四)。 甄試入學面試日期：115年11月07日(星期六)上午10時。 參考網址：https://langiae.ntou.edu.tw/"
+    },
+    {
+      "id": "最新消息:博愛國小:6ab33bf49263c93577f99b8d",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "轉知文化部辦理「115年度馬祖語語言能力認證考試」",
+      "published": "2026-09-23T02:38:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ab33bf49263c93577f99b8d?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29544886_1153100085_ATTCH1.pdf"
+      ],
+      "summary": "為鼓勵全民學習馬祖語，並提升社會大眾對馬祖語言之認 識與學習意願，文化部訂於115年12月13日辦理「115年度 馬祖語語言能力認證考試（初級、中級）」，並預定於連 江縣及桃園市兩考區同步辦理，報名日期至115年10月19日 止，詳細資訊請參閱本認證網站（網址： https://matsutest.moc.gov.tw/）及旨揭簡章。 有意報名者請於115年10月19日（一）前，將報名資料以掛 號郵寄至「國立臺南大學本土語文資源中心，馬祖語語言 能力認證考試試務中心」。"
+    },
+    {
+      "id": "研習資訊:博愛國小:6ab339f02178a6169afe13f4",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "轉知原住民族教育資源中心115學年度辦理「書海尋 『原』─原住民族文學、影像暨多元文化推廣計畫」",
+      "published": "2026-09-23T02:29:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ab339f02178a6169afe13f4?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=tQHaHM07712&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29544190_1153100701_ATTCH1.pdf"
+      ],
+      "summary": "本計畫旨在推廣原住民族文學，提升學生閱讀能力，並促 進跨文化理解，落實全民原教之精神。各校可於校內辦理 原住民族文學閱讀推廣活動，主要包含下列4種活動： (一)閱讀推廣活動：原住民族文學講座、作家分享、圖書導 讀、共讀活動、故事劇場、故事接龍、與作家有約等。 (二)影像推廣活動：購置符合教學使用之原住民族相關公播 版影片，辦理觀影活動及映後座談、結合原住民族歷 史、文化、族群議題或生命經驗之影像欣賞與討論活動 等。 (三)課程融入教學：教師課堂融入原住民族繪本、小說、散 文、傳記、口述歷史等文本素材辦理教學、發展跨領域 閱讀與教學活動、設計閱讀理解與主題探究課程等。 (四)教師專業發展等：辦理原住民族歷史正義、轉型正義、 微歧視、族群友善及多元文化教育等相關增能活動、以 教師社群、跨校共備、工作坊等形式，發展可"
+    },
+    {
+      "id": "親職資訊:仁愛國小:6ab3306379c6f516a8cbb491",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "親職資訊",
+      "title": "[轉知]臺北市115年度校園性別事件調查初階課程之家長增能研習班",
+      "published": "2026-09-23T01:49:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6ab3306379c6f516a8cbb491?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=mUepRUN5084&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [],
+      "summary": "說明： 一、依臺北市政府教育局委託教師研習中心(以下簡稱本中心)115年度研習行事曆辦理。 二、研習對象：本市高級中等以下學校學生家長及學校性平會 家長代表，報名上限120人。 三、研習時間：為利家長出席參與分為兩個半日課程 (一)實體課程：115年10月15日（星期四）下午1時30分至下 午4時10分。 (二)線上課程：115年10月19日（星期一）下午1時30分至下 午4時10分。 四、報名期限：即日起至115年10月13日（星期二）止，額滿則提前截止報名。 五、研習地點： (一)實體課程：臺北市立士林國民中學4樓視聽教室(臺北市士林區福德里中正路345號)，研習地點不提供汽機車停車位請多搭乘大眾運輸工具。 (二)線上課程：Google Meet線上研習。 六、報名方式 (一)請於報名截止日前至下列網址報名"
+    },
+    {
+      "id": "研習資訊:博愛國小:6ab3254d6d249a171dbc1559",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "轉知教育部委請臺北市立大學辦理「睿師（RAS）社群協 作家成果發表」之實施計畫",
+      "published": "2026-09-23T01:01:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ab3254d6d249a171dbc1559?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=tQHaHM07712&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29541733_1153101665_ATTCH1.pdf"
+      ],
+      "summary": "為支持中小學教師專業學習成長，教育部委請臺北市立大 學辦理旨揭計畫，以推動教師專業學習社群，並藉由省 思、實踐及分享之運作與學習歷程，培育睿師社群協作 家，為提供睿師社群協作家分享社群運作與成效，並促發 中小學教師相互交流與學習，爰辦理旨揭成果發表活動。 旨揭活動資訊如下： (一)辦理時間：115年10月30日（星期五）上午9時至中午12 時30分。 (二)辦理地點：臺北市立大學博愛校區（臺北市中正區愛國 西路1號）公誠樓二樓第三會議室。 (三)報名方式：請於115年10月2日（星期五）中午12點前至GOOGLE表單（連結：https://forms.gle /tiKzqMm8Lfx2DHGr7）進行報名。 若有相關疑問，請逕洽臺北市立大學評鑑所王思涵助理或 陳姵如助理，聯絡電話（02）2311-3040轉83"
+    },
+    {
+      "id": "最新消息:博愛國小:6ab324d15228ea16afc8ac09",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "轉知客家委員會「115年度全國中小學客家藝文競賽戲劇 類指導教師培訓課程」簡章及課程表",
+      "published": "2026-09-23T00:59:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ab324d15228ea16afc8ac09?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29538048_1150143229_ATTCH2.pdf",
+        "29538048_1150143229_ATTCH1.pdf"
+      ],
+      "summary": "為提升全國中小學客家藝文競賽戲劇類指導教師之專業知 能與實務能力，客家委員會辦理旨揭培訓課程，委託春河 劇團團長郎祖筠等專業講師授課，課程涵蓋競賽評分重 點、戲劇教學、劇本診斷與分析、角色塑造、導演調度、 分組排練及作品呈現等。 請報名參加「115年度全國中小學客家藝文競賽」客語戲劇 類之參賽學校每隊原則指派2名指導老師參加培訓。本課程 採3天2夜培訓方式，預訂錄取30人，北區辦理日期及地點 如下：115年10月5日至10月7日，國立政治大學公共行政及 企業管理教育中心。 報名資格依序為115年度本競賽客語戲劇類指導老師、114 年度本競賽客語戲劇類指導老師，以及對客語戲劇教學及 指導有興趣之老師；各區報名截止日期、錄取方式及相關 注意事項詳如附件簡章。課程報名網址：https://forms. gle/a9N"
+    },
+    {
+      "id": "研習資訊:博愛國小:6ab3245676262f16bad0f9c9",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "轉知臺北市115學年度第1學期國民小學特殊教育教師「十 二年國民基本教育課程綱要-數學領域課程調整」研習實 施計畫",
+      "published": "2026-09-23T00:57:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ab3245676262f16bad0f9c9?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=tQHaHM07712&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29536545_11530078861_ATTCH1.pdf"
+      ],
+      "summary": "本研習茲敦聘臺北市國民教育輔導團國小數學領域輔導小 組曾婉菁教師擔任講座。 研習時間：115年10月7日（星期三）下午1時30分至4時30 分。 研習地點：臺北市萬華區雙園國民小學創新樓3樓演講廳 （臺北市萬華區莒光路315號）。 研習對象： (一)115學年度本市國小教師聯合甄選特殊教育身心障礙類之 新進分散式資源班教師務必參加，並請完成線上報名作 業。 (二)本市國小特教教師，依報名順序審核，優先錄取本市國小分散式資源班教師包含正式及代理教師，倘有餘額將 依報名順序錄取國小普通班教師。 參加研習之教師請務必115年10月2日（星期五）前，逕至 臺北市教師在職研習網( https://insc.tp.edu.tw/)完成 線上報名，並請學校完成薦派作業（未完成薦派作業者， 恕不核予研習時數）。 倘有研習相關問"
+    },
+    {
+      "id": "最新消息:博愛國小:6ab323cc2027af16e6d9e8e8",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "轉知東新國小英語情境中心自即日起開放115學年度第一學期來校 體驗及EV-Delivery英語旅行箱（到校服務）課程申請",
+      "published": "2026-09-23T00:55:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ab323cc2027af16e6d9e8e8?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29526714_1156006545_ATTCH2.pdf",
+        "29526714_1156006545_ATTCH1.pdf"
+      ],
+      "summary": "即日起開放旨揭課程申請，申請日期為115年10月1 日 (星期四)至116年1月19日 (星期二)。 本學期提供「來校體驗」及「EV-Delivery英語旅行箱」2 種課程模式，開放申請時段為星期一、星期二、星期四及 星期五下午，申請學校得擇一時段提出申請。來校體驗課 程每次實施時間約130分鐘；EV-Delivery英語旅行箱課程 每次以連續兩節課為原則，實際授課時間得配合申請學校 作息彈性調整。 有關申請事項及課程內容請參考附件實施計畫及介紹簡 報，亦可參考英語情境中心網站: https://boisterous-lebkuchen-e9d6be.netlify.app/。 本案如有洽詢事宜，請洽英情中心杜老師、吳老師， 2783-7577分機1108。"
+    },
+    {
+      "id": "研習資訊:博愛國小:6ab3219c2178a6169af682a6",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "轉知教育部國民及學前教育署委託國立嘉義大學辦理「全 國高級中等以下學校教師及行政人員融合教育相關專業知 能研習計畫」線上研習課程",
+      "published": "2026-09-23T00:45:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ab3219c2178a6169af682a6?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=tQHaHM07712&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29522244_1150143548_ATTCH1.pdf"
+      ],
+      "summary": "旨揭課程依「融合教育知能」、「課程與教學」、「學校 行政」及「支持服務」四大面向進行規劃設計，課程適用 對象為： (一)學校行政人員：全國高級中等以下學校校長、主任、組 長、業務承辦人。 (二)普通教育教師：全國高級中等以下學校未兼任行政業務 之專任教師、導師。 本次課程為系列課程之部分課程， 後續課程將陸續公告。相關問題請洽國立嘉義大學特殊教 育教學研究中心專任助理沈小姐或邱小姐，聯絡電話：05- 2068100、05-2068103。"
+    },
+    {
+      "id": "研習資訊:博愛國小:6ab3211579c6f516a8c6f482",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "轉知信義國小辦理雙語與國際教育增能研習活動「國際教育的微光 與遠方」",
+      "published": "2026-09-23T00:43:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ab3211579c6f516a8c6f482?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=tQHaHM07712&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [],
+      "summary": "一、為提升教師國際教育視野與雙語教學專業知能，本研習特 邀專家學者與海外進修實踐教師進行經驗分享，藉由跨域 對話、城市永續生活美學及多元海外探索實踐案例，激發 教育創新思維，深化校園雙語與國際教育之落實，爰辦理 本次研習活動。 二、旨揭研習辦理時間、方式及參加對象： (一)日期：115年10月07日(三) 13:30~16:00 (二)地點：信義國小演藝廳 (三)講題：國際教育的微光與遠方 １、城市的溫柔力量～ 安全衛生之生活小錦囊 ２、藝想不到的阿德雷德之旅 ３、走讀加州 「夢，你來做台，國家來搭」 (四)講座： １、蔡建生／元利建設公司董事長、大安森林公園之友基 金會常務董事 ２、黎嘉雯／信義國小藝術老師（雙語教育之澳洲視覺藝 術海外進修分享) ３、彭宇薇／信義國小英文老師（青年百億海外圓夢基金 計畫－海外"
+    },
+    {
+      "id": "研習資訊:博愛國小:6ab320838d23c316db622b44",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "轉知臺北市立大學數據科學與數學系辦理「數學素養導向與AI應用之教 師專業發展學術研討會」",
+      "published": "2026-09-23T00:39:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ab320838d23c316db622b44?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=tQHaHM07712&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29512665_1156027795_ATTCH1.pdf"
+      ],
+      "summary": "一、為探討AI時代下數學素養導向之教學發展，並提升教師於 數學教育之專業知能與實踐能力，特辦理旨揭學術研討 會。 二、研討會相關資訊如下： (一)辦理時間：115年10月17日（星期六）上午8時30分至下 午5時15分。 (二)辦理地點：博愛校區公誠樓二樓第一會議室 （100234臺北市中正區愛國西路1號）。 (三)報名方式：即日起至報名額滿為止，請逕行填寫線上報 名表單，網址：https://forms.gle /yMSnyUh8JREc8FUp6。 (四)研習時數：全程參與本活動之教師，全國教師在職進修 資訊網將核發6.5小時研習時數（課程代碼5710695）。"
+    },
+    {
+      "id": "研習資訊:博愛國小:6ab31fa02178a6169af5febd",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "轉知「臺北市現職教師自主揪團雙語研習實施計畫」自115學 年度第2學期起不再辦理",
+      "published": "2026-09-23T00:38:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ab31fa02178a6169af5febd?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=tQHaHM07712&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [],
+      "summary": "旨案計畫作為雙語教育之輔助計畫，業完成協助各校導入 雙語教育之功能，自115學年度第2學期起，有關雙語議題 之研習請各校併入各領域社群或其他雙語教育專案之規 劃。"
+    },
+    {
+      "id": "最新消息:博愛國小:6ab31f4ca14ee516c58e91bf",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "轉知國立臺灣師範大學華語文與科技研究中心辦理「2026-2027第八屆 科普閱讀力大賽」",
+      "published": "2026-09-23T00:35:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ab31f4ca14ee516c58e91bf?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29511196_1151026224_ATTCH1.pdf",
+        "29511196_1151026224_ATTCH2.pdf"
+      ],
+      "summary": "活動相關資訊如下： (一)線上報名時間：2026年9月14日中午12時至2026年11月27 日中午12時。 (二)參賽對象：國小三年級至國中八年級、高中十年級學 生。 (三)報名方式： １、學校團體報名：各校教師可至競賽網站報名資訊中 的學校團報方案進行報名，連結：https://contest. smartreading.net/contest2026/tw/info_signUp_4. aspx。 ２、一般報名：請至競賽網站報名資訊中的「個人報 名」或「一般團報」進行報名，連結： https://contest.smartreading.net/contest2026/tw /parti_contest.html。 ３、一般團報/團體報名若達指定門檻人數，可參與揪團團 報抽博客來禮券活動。 (四)競賽流程"
+    },
+    {
+      "id": "研習資訊:博愛國小:6ab31e8576262f16bacf4648",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "轉知「社會領域初任及代理代課教師素養導向教學 與評量增能研習計畫」",
+      "published": "2026-09-23T00:33:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ab31e8576262f16bacf4648?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=tQHaHM07712&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29504872_1153099578_ATTCH1.pdf"
+      ],
+      "summary": "旨揭研習對象係針對本市國小社會領域初任及代理代課教 師教師及本團輔導員辦理，辦理時間為115年10月1日 （四）13：30—16：30，辦理地點為臺北市北投區明德國 小。 請參與研習之教師至臺北市教師在職研習網報名。 本案聯繫人為泉源實小謝一韡組長，連絡電話：02— 28951258分機123，電子信箱：simon@cyps.tp.edu.tw。"
+    },
+    {
+      "id": "最新消息:博愛國小:6ab31e1f2027af16e6d838eb",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "轉知中國文化大學推廣教育部終身學習中心辦理「臺灣台語語言能 力認證【考試輔導班】【實體/遠距】」研習訊息",
+      "published": "2026-09-23T00:30:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ab31e1f2027af16e6d838eb?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [],
+      "summary": "課程資訊： (一)臺灣台語語言能力認證【考試輔導班】 １、第一梯次： (１)上課日期與時間：115年10月07日至115年12月23日 (星期三)18時30分至21時30分；總時數36小時，分 12次上課。 (２)上課方式：遠距教學(Google meet)。 ２、第二梯次： (１)上課日期與時間:115年10月18日至115年11月29日 (星期日)09時至16時；總時數36小時，分6次上 課。 (２)上課方式：(此課程實體與遠距同步進行，學員擇 一方式參加即可。) 甲、實體-臺北市大安區建國南路二段231號(本校推 廣教育部建國本部) 乙、遠距教學-Google meet (二)課程費用：新臺幣7,600元，開課前四週報名可享9折優 惠。 (三)更多課程資訊與報名方式，請參考連結網頁： １、第一梯次：htt"
+    },
+    {
+      "id": "最新消息:博愛國小:6ab31d572d7b5e1707049070",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "轉知「第十八屆信誼兒童動畫獎—台灣兒童創作組」",
+      "published": "2026-09-23T00:28:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ab31d572d7b5e1707049070?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29501073_1150914001_ATTCH1.pdf"
+      ],
+      "summary": "一、信誼基金會自2019年第十一屆「信誼兒童動畫獎」起增設 「台灣兒童創作組」，鼓勵兒童透過動畫進行創作與表 達，從中培養媒體素養，並提升觀察、想像、表達、分享 及團隊合作等多元能力。 二、「第十八屆信誼兒童動畫獎—台灣兒童創作組」徵件已進 入最後階段，收件截止日期為中華民國115年9月30日。參 加對象為年滿7歲至12歲之臺灣學童（含應屆畢業生），把握時間投 稿。 三、本競賽設有特優獎、優選獎及佳作獎數名，得獎者將獲頒 獎牌及獎金；另設入選獎數名，頒發獎狀乙紙。詳細參賽 方式、作品規格及相關注意事項，請參閱附件徵獎辦法。 四、信誼兒童動畫獎網站 https://animationaward.hsin-yi.org.tw/ 五、觀摩「信誼兒童動畫獎─台灣兒童創作組」第十七屆得獎 作品，以及動畫創作教學影片，請至"
+    },
+    {
+      "id": "最新消息:博愛國小:6ab31cd56d249a171db98390",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "轉知「教育部國民及學前教育署補助辦理國民教育課程及 教學事項要點」第5點、第8點、第9點修 正",
+      "published": "2026-09-23T00:25:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ab31cd56d249a171db98390?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29499278_1153097906_ATTCH2.pdf",
+        "29499278_1153097906_ATTCH1.pdf",
+        "29499278_1153097906_ATTCH3.odt"
+      ],
+      "summary": "本案電子檔得於教育部主管法規查詢系統（https://edu. law.moe.gov.tw）下載。 若對本行政規則修正有任何疑問，請逕洽教育部國民及學 前教育署國中小組林小姐，電話：（02）7736-7449。"
+    },
+    {
+      "id": "光復之光:光復國小:6ab319f22d7b5e17070388be",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "光復之光",
+      "title": "賀!本校265童軍團，榮獲臺北市政府教育局頒發「年度績優童軍團」",
+      "published": "2026-09-23T00:11:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6ab319f22d7b5e17070388be?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=EIWuBZr8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "恭喜本校265童軍團，榮獲臺北市政府教育局頒發「年度績優童軍團」！ 本校的稚齡童軍與幼童軍們，平時除了參與各項童軍活動，更把童軍「服務」的精神帶進生活中。每年積極參與幼(女)童軍大會、SDGs永續發展推廣活動及社區童軍大會，用實際行動服務他人、回饋社區。 在交通禮讓月期間，稚齡與幼童軍們還走到捷運站出入口，勇敢地拿著宣導牌，向民眾宣導交通安全與禮讓精神。 因為長期的努力與付出，光復童軍團再次獲得「績優童軍團」的肯定。 感謝指導老師、導師、家長平時的支持與指導!!!"
+    },
     {
       "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=CF4837E82F9BF7B6",
       "schools": [
@@ -1345,7 +1861,7 @@
       "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
       "siteUrl": "https://www.doe.gov.taipei",
       "attachments": [],
-      "summary": "一、賽事時間：115年11月13日（週四）至115年 1月15日（週六）。 二、賽事地點：國立南投高中體育館 。 三、報名日期：即日起至115年10月31日(週五)止。 四、報名方式請參閱競賽規程（如附件）。 115年全國協會盃拔河運動錦標賽競賽規程.pdf"
+      "summary": "一、賽事時間：115年11月13日（週四）至115年11月15日（週六）。 二、賽事地點：國立南投高中體育館 。 三、報名日期：即日起至115年10月31日(週五)止。 四、報名方式請參閱競賽規程（如附件）。 115年全國協會盃拔河運動錦標賽競賽規程.pdf"
     },
     {
       "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=6A6FB87F473F0857",
@@ -1712,6 +2228,22 @@
       "published": "2026-09-21T02:49:00+00:00",
       "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ab09c1d734f22a422cca0ab?vector=private&static=false",
       "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=DdqT8yI3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "115學年度五項藝術比賽-美術比賽校內獲獎名單.pdf"
+      ],
+      "summary": "博愛國小115學年校內美術比賽得獎名單"
+    },
+    {
+      "id": "最新消息:博愛國小:6ab09c1d734f22a422cca0ab",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "博愛國小115學年校內美術比賽得獎名單",
+      "published": "2026-09-21T02:49:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ab09c1d734f22a422cca0ab?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
       "siteUrl": "https://www.baps.tp.edu.tw",
       "attachments": [
         "115學年度五項藝術比賽-美術比賽校內獲獎名單.pdf"
@@ -38551,53 +39083,6 @@
         "附件5-114北市音比各賽務學校召開領隊會議時間與方式(0923修).pdf"
       ],
       "summary": "一、依114年8月26日北市敦小輔字第1149006670號函續辦。 二、敬請各參賽學校領隊依照時程參與領隊會議。 三、敬請所屬機關核予公假及課務派代以俾人員出席會議。 四、各場領隊會議相關資料將由各賽務學校提供，請至「臺北市五項藝術比賽網站」（ https://www.tpcityart.tp.edu.tw ）最新消息查閱。 五、領隊會議時間表詳如附件。"
-    },
-    {
-      "id": "榮譽榜:建安國小:68d239d7a40294e35284a2d9",
-      "schools": [
-        "建安國小"
-      ],
-      "source": "榮譽榜",
-      "title": "狂賀~本校田徑隊參加114年臺北市秋季全國田徑公開賽榮獲佳績",
-      "published": "2025-09-23T06:04:00+00:00",
-      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/68d239d7a40294e35284a2d9?vector=private&static=false",
-      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=AQoMNBw7626&vector=private&static=false",
-      "siteUrl": "https://www.jnps.tp.edu.tw",
-      "attachments": [],
-      "summary": "恭喜本校田徑隊參加114年臺北市秋季全國田徑公開賽榮獲佳績 北市國小女子組壘球擲遠 604吳淳暄獲得第一名🥇 北市國小男子組跳高 608陳思翰獲得第七名 感謝田徑隊陳柏蓉老師 、許正龍老師、蔡弦倫老師、棒球隊陳九民老師的指導!!"
-    },
-    {
-      "id": "競賽活動:敦化國小:68d20b30e1cbebe2f6b342ac",
-      "schools": [
-        "敦化國小"
-      ],
-      "source": "競賽活動",
-      "title": "臺北市114年國中小學生Scratch貓咪盃創意競賽(校內甄選辦法)",
-      "published": "2025-09-23T01:12:00+00:00",
-      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/68d20b30e1cbebe2f6b342ac?vector=private&static=false",
-      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=Mu7ppdp0180&vector=private&static=false",
-      "siteUrl": "https://www.thps.tp.edu.tw",
-      "attachments": [
-        "114國小動畫短片組.pdf",
-        "114國小互動遊戲組.pdf"
-      ],
-      "summary": "依據「臺北市114年國中小學生Scratch貓咪盃創意競賽實施計畫」辦理校內初賽選拔 一、比賽項目： \"國小動畫短片競賽\" 、 \"國小互動遊戲競賽\" ，共 2 種競賽組 初賽題目公告於：臺北市科技教育網 ( 網址： https://techpro.tp.edu.tw ) 亦可參考附件。 二、報名資格：每年級學生皆可，但需至少有一名指導老師。 三、報名截止日： 114 年 10 月20日 (一)16:30 截止，需繳交作品及相關資料 ( 著作權聲明書、指導教師聲明書、創作歷程書 ) 四、報名隊伍：競賽皆採小組合作模式，每隊皆須 2 人參加。 ( 一 ) 「動畫短片」競賽國小組，隊伍不得跨學層。 ( 二 ) 「互動遊戲」競賽國小組，組隊規定與「動畫短片」競賽相同。 ( 三 ) 本競賽各組別中，學生不得重複組隊，及每"
-    },
-    {
-      "id": "校務公告:敦化國小:68d1ed22953cbbbea7d20c4c",
-      "schools": [
-        "敦化國小"
-      ],
-      "source": "校務公告",
-      "title": "成績證明暨在學證明申請",
-      "published": "2025-09-23T00:38:00+00:00",
-      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/68d1ed22953cbbbea7d20c4c?vector=private&static=false",
-      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=1hdeMSJ5377&vector=private&static=false",
-      "siteUrl": "https://www.thps.tp.edu.tw",
-      "attachments": [
-        "中英文在學／成績證明申請書.pdf"
-      ],
-      "summary": "成績證明暨在學證明申請 發布單位： 教務處 | 發布人： 註冊組長 親愛的家長您好： 如有申請成績證明或在學證明之需求，煩請下載附件並詳細填寫後交至教務處註冊組， 為保護學生個資問題，本資料絕不做其他用途，敬請放心！ ＊提醒您： 1.申請證明文件目前不須任何費用，但請儘量預留 2 個工作天，以免作業不及。 2.申請英文證明文件者請務必填寫正式之英文姓名(與護照相同)，並備註於用途說明中。 3.依教育局規定，成績證明僅提供等第的呈現，如有特殊需求須印出分數，請 檢附該用途申請 辦法以便配合辦理。"
     }
   ]
 }
