@@ -1,33 +1,36 @@
 {
-  "updatedAt": "2026-09-26T07:55:26.532988+00:00",
+  "updatedAt": "2026-09-26T13:18:43.028312+00:00",
   "errors": [
     {
-      "source": "行政檔案（建安國小）",
+      "source": "教育局消息",
+      "error": "Command '['curl', '--fail', '--location', '--silent', '--show-error', '--max-time', '30', '-A', 'japs-school-news/1.0', 'https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760']' returned non-zero exit status 52."
+    },
+    {
+      "source": "親職資訊（仁愛國小）",
       "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
     },
     {
-      "source": "一般智能資賦優異（敦化國小）",
+      "source": "榮譽榜（建安國小）",
       "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
     },
     {
-      "source": "活動專欄（建安國小）",
-      "error": "The read operation timed out"
+      "source": "多元教育（敦化國小）",
+      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
     },
     {
-      "source": "校內消息（仁愛國小）",
-      "error": "The read operation timed out"
+      "source": "普及化運動健身操比賽（敦化國小）",
+      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
     },
     {
-      "source": "研習資訊（建安國小）",
-      "error": "The read operation timed out"
+      "source": "防疫資訊（博愛國小）",
+      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
     }
   ],
   "sourceStatus": [
     {
       "name": "一般智能資賦優異（敦化國小）",
-      "status": "error",
-      "itemCount": 0,
-      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
+      "status": "ok",
+      "itemCount": 6
     },
     {
       "name": "一般消息（仁愛國小）",
@@ -61,8 +64,9 @@
     },
     {
       "name": "多元教育（敦化國小）",
-      "status": "ok",
-      "itemCount": 20
+      "status": "error",
+      "itemCount": 0,
+      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
     },
     {
       "name": "學校公告（光復國小）",
@@ -86,8 +90,9 @@
     },
     {
       "name": "教育局消息",
-      "status": "ok",
-      "itemCount": 50
+      "status": "error",
+      "itemCount": 0,
+      "error": "Command '['curl', '--fail', '--location', '--silent', '--show-error', '--max-time', '30', '-A', 'japs-school-news/1.0', 'https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760']' returned non-zero exit status 52."
     },
     {
       "name": "教育盃桌球賽（敦化國小）",
@@ -106,8 +111,9 @@
     },
     {
       "name": "普及化運動健身操比賽（敦化國小）",
-      "status": "ok",
-      "itemCount": 6
+      "status": "error",
+      "itemCount": 0,
+      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
     },
     {
       "name": "最新消息（博愛國小）",
@@ -116,9 +122,8 @@
     },
     {
       "name": "校內消息（仁愛國小）",
-      "status": "error",
-      "itemCount": 0,
-      "error": "The read operation timed out"
+      "status": "ok",
+      "itemCount": 52
     },
     {
       "name": "校內競賽（仁愛國小）",
@@ -162,8 +167,9 @@
     },
     {
       "name": "榮譽榜（建安國小）",
-      "status": "ok",
-      "itemCount": 100
+      "status": "error",
+      "itemCount": 0,
+      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
     },
     {
       "name": "比賽資訊（建安國小）",
@@ -172,9 +178,8 @@
     },
     {
       "name": "活動專欄（建安國小）",
-      "status": "error",
-      "itemCount": 0,
-      "error": "The read operation timed out"
+      "status": "ok",
+      "itemCount": 78
     },
     {
       "name": "活動資訊（光復國小）",
@@ -198,9 +203,8 @@
     },
     {
       "name": "研習資訊（建安國小）",
-      "status": "error",
-      "itemCount": 0,
-      "error": "The read operation timed out"
+      "status": "ok",
+      "itemCount": 100
     },
     {
       "name": "競賽活動（敦化國小）",
@@ -214,14 +218,14 @@
     },
     {
       "name": "行政檔案（建安國小）",
-      "status": "error",
-      "itemCount": 0,
-      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
+      "status": "ok",
+      "itemCount": 48
     },
     {
       "name": "親職資訊（仁愛國小）",
-      "status": "ok",
-      "itemCount": 54
+      "status": "error",
+      "itemCount": 0,
+      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
     },
     {
       "name": "防疫公告（光復國小）",
@@ -230,8 +234,9 @@
     },
     {
       "name": "防疫資訊（博愛國小）",
-      "status": "ok",
-      "itemCount": 23
+      "status": "error",
+      "itemCount": 0,
+      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
     },
     {
       "name": "音樂班招生（敦化國小）",
@@ -39625,50 +39630,6 @@
       "siteUrl": "https://www.jnps.tp.edu.tw",
       "attachments": [],
       "summary": "「低碳上學」邀請建安的孩子與家長共同響應，透過淨零綠生活的行動，一起守護地球，為環境永續齊心努力~ 【低碳上學行動與獎勵】 走路上學：1次獎勵3點（每走1公里減碳0.11公斤） 搭乘大眾運輸或低碳運具（電動汽機車、油電混合車、腳踏車)）或與他戶學生共乘上學：1次獎勵2點 (每搭乘1公里減碳0.07公斤) *每月：每累計10點，獲得1個榮譽章。 【響應SDGs】 目標13：氣候行動(SDG 13)--透過減少通勤時的碳足跡，減緩氣候變遷的影響。 目標4：優質教育(SDG 4)--透過教育「低碳上學」的方式，培養學生對永續發展的認知，提高個人社會責任感，促進社會進步。 【學生宣導PPT】( 網址 ) 【家長宣導DM】( 網址 )"
-    },
-    {
-      "id": "政策法規:光復國小:68d658406be24be2d8b201a2",
-      "schools": [
-        "光復國小"
-      ],
-      "source": "政策法規",
-      "title": "轉知：「『臺北市中華電信仁愛職場互助教保服務中心』周邊戶外區域及前方人行道，自114年10月1日 起為全面禁止吸菸場所」",
-      "published": "2025-09-26T09:08:00+00:00",
-      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/68d658406be24be2d8b201a2?vector=private&static=false",
-      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=gVIA7Pi7760&vector=private&static=false",
-      "siteUrl": "https://www.kfps.tp.edu.tw",
-      "attachments": [],
-      "summary": "「『臺北市中華電信仁愛職場互助教保服 務 中心』周邊戶外區域及前方人行道，自114年10月1日 起為全面禁止吸菸場所」 為維護民眾不吸二手菸之健康權益，建構戶外無菸環境 ， 本局依據菸害防制法第19條第1項第4款規定，公告「 中華 電信仁愛職場互助教保服務中心」(中正區仁愛路1段42號) 周邊戶外區域及前方人行道，自114年10月1日起為 全面禁 止吸菸場所。 屆時違反規定於上開禁菸場所吸菸者，將依菸害防制法第 40條第2項規定，處新臺幣2,000元以上1萬元以下罰鍰。"
-    },
-    {
-      "id": "政策法規:光復國小:68d657e56be24be2d8b1f0ce",
-      "schools": [
-        "光復國小"
-      ],
-      "source": "政策法規",
-      "title": "轉知：「臺北市『廣慈園區』及2處社宅所屬之戶 外公共區域，自114年10月1日起為除吸菸區外，不得吸 菸 ；未設吸菸區者，全面禁止吸菸場所」",
-      "published": "2025-09-26T09:06:00+00:00",
-      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/68d657e56be24be2d8b1f0ce?vector=private&static=false",
-      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=gVIA7Pi7760&vector=private&static=false",
-      "siteUrl": "https://www.kfps.tp.edu.tw",
-      "attachments": [],
-      "summary": "「臺北市『廣慈園區』及2處社宅所屬之戶 外公共區域，自114年10月1日起為除吸菸區外，不得吸 菸 ；未設吸菸區者，全面禁止吸菸場所」 為維護民眾不吸二手菸之健康權益，建構戶外無菸環境， 本局依據菸害防制法第19條第1項第4款規定，公告臺北市 「廣慈園區」及2處社宅所屬之戶外公共區域，自114年10 月1日起為除吸菸區外，不得吸菸；未設吸菸區者，全面禁 止吸菸場所： (一)信義區: １、廣慈園區: (１)A基地：信義行政中心(地址：福德街86號)。(２)B基地：衛福大樓(地址：大道路116號)。 (３)C基地：廣慈社會住宅3區(地址：福德街84巷30、 38號)。 (４)D基地：廣慈社會住宅2區(地址：福德街84巷50、 56號)。 (５)E基地：廣慈社會住宅1區(地址：大道路108、110 號)。 ２、六張犁"
-    },
-    {
-      "id": "敦小快報:敦化國小:68d64e90b6812a272cdfc022",
-      "schools": [
-        "敦化國小"
-      ],
-      "source": "敦小快報",
-      "title": "114_1第05週敦小快報",
-      "published": "2025-09-26T08:27:00+00:00",
-      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/68d64e90b6812a272cdfc022?vector=private&static=false",
-      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=8nmTbwG1025&vector=private&static=false",
-      "siteUrl": "https://www.thps.tp.edu.tw",
-      "attachments": [
-        "114_1第05週敦小快報.pdf"
-      ],
-      "summary": ""
     }
   ]
 }
