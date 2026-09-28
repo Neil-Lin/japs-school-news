@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-09-28T08:51:32.116566+00:00",
+  "updatedAt": "2026-09-28T16:54:04.075643+00:00",
   "errors": [
     {
-      "source": "親職資訊（仁愛國小）",
+      "source": "獎助學金（仁愛國小）",
       "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
     },
     {
@@ -10,12 +10,16 @@
       "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
     },
     {
-      "source": "新生入學（仁愛國小）",
+      "source": "親職資訊（仁愛國小）",
       "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
     },
     {
-      "source": "其他公告（敦化國小）",
+      "source": "榮譽榜（建安國小）",
       "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
+    },
+    {
+      "source": "敦小快報（敦化國小）",
+      "error": "The read operation timed out"
     }
   ],
   "sourceStatus": [
@@ -41,9 +45,8 @@
     },
     {
       "name": "其他公告（敦化國小）",
-      "status": "error",
-      "itemCount": 0,
-      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
+      "status": "ok",
+      "itemCount": 81
     },
     {
       "name": "國中入學（光復國小）",
@@ -92,14 +95,14 @@
     },
     {
       "name": "敦小快報（敦化國小）",
-      "status": "ok",
-      "itemCount": 23
+      "status": "error",
+      "itemCount": 0,
+      "error": "The read operation timed out"
     },
     {
       "name": "新生入學（仁愛國小）",
-      "status": "error",
-      "itemCount": 0,
-      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
+      "status": "ok",
+      "itemCount": 18
     },
     {
       "name": "普及化運動健身操比賽（敦化國小）",
@@ -159,8 +162,9 @@
     },
     {
       "name": "榮譽榜（建安國小）",
-      "status": "ok",
-      "itemCount": 100
+      "status": "error",
+      "itemCount": 0,
+      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
     },
     {
       "name": "比賽資訊（建安國小）",
@@ -179,8 +183,9 @@
     },
     {
       "name": "獎助學金（仁愛國小）",
-      "status": "ok",
-      "itemCount": 16
+      "status": "error",
+      "itemCount": 0,
+      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
     },
     {
       "name": "研習資訊（仁愛國小）",
