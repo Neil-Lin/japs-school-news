@@ -1,40 +1,20 @@
 {
-  "updatedAt": "2026-09-27T14:12:50.371329+00:00",
+  "updatedAt": "2026-09-28T08:51:32.116566+00:00",
   "errors": [
+    {
+      "source": "親職資訊（仁愛國小）",
+      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
+    },
     {
       "source": "校內消息（仁愛國小）",
       "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
     },
     {
-      "source": "研習資訊（仁愛國小）",
+      "source": "新生入學（仁愛國小）",
       "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
     },
     {
-      "source": "活動專欄（建安國小）",
-      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
-    },
-    {
-      "source": "行政公告（建安國小）",
-      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
-    },
-    {
-      "source": "研習資訊（建安國小）",
-      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
-    },
-    {
-      "source": "比賽資訊（建安國小）",
-      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
-    },
-    {
-      "source": "防疫資訊（博愛國小）",
-      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
-    },
-    {
-      "source": "最新消息（博愛國小）",
-      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
-    },
-    {
-      "source": "防疫公告（光復國小）",
+      "source": "其他公告（敦化國小）",
       "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
     }
   ],
@@ -61,8 +41,9 @@
     },
     {
       "name": "其他公告（敦化國小）",
-      "status": "ok",
-      "itemCount": 81
+      "status": "error",
+      "itemCount": 0,
+      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
     },
     {
       "name": "國中入學（光復國小）",
@@ -77,7 +58,7 @@
     {
       "name": "多元教育（敦化國小）",
       "status": "ok",
-      "itemCount": 19
+      "itemCount": 18
     },
     {
       "name": "學校公告（光復國小）",
@@ -116,8 +97,9 @@
     },
     {
       "name": "新生入學（仁愛國小）",
-      "status": "ok",
-      "itemCount": 18
+      "status": "error",
+      "itemCount": 0,
+      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
     },
     {
       "name": "普及化運動健身操比賽（敦化國小）",
@@ -126,9 +108,8 @@
     },
     {
       "name": "最新消息（博愛國小）",
-      "status": "error",
-      "itemCount": 0,
-      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
+      "status": "ok",
+      "itemCount": 100
     },
     {
       "name": "校內消息（仁愛國小）",
@@ -183,15 +164,13 @@
     },
     {
       "name": "比賽資訊（建安國小）",
-      "status": "error",
-      "itemCount": 0,
-      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
+      "status": "ok",
+      "itemCount": 100
     },
     {
       "name": "活動專欄（建安國小）",
-      "status": "error",
-      "itemCount": 0,
-      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
+      "status": "ok",
+      "itemCount": 78
     },
     {
       "name": "活動資訊（光復國小）",
@@ -205,9 +184,8 @@
     },
     {
       "name": "研習資訊（仁愛國小）",
-      "status": "error",
-      "itemCount": 0,
-      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
+      "status": "ok",
+      "itemCount": 100
     },
     {
       "name": "研習資訊（博愛國小）",
@@ -216,9 +194,8 @@
     },
     {
       "name": "研習資訊（建安國小）",
-      "status": "error",
-      "itemCount": 0,
-      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
+      "status": "ok",
+      "itemCount": 98
     },
     {
       "name": "競賽活動（敦化國小）",
@@ -227,9 +204,8 @@
     },
     {
       "name": "行政公告（建安國小）",
-      "status": "error",
-      "itemCount": 0,
-      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
+      "status": "ok",
+      "itemCount": 100
     },
     {
       "name": "行政檔案（建安國小）",
@@ -238,20 +214,19 @@
     },
     {
       "name": "親職資訊（仁愛國小）",
-      "status": "ok",
-      "itemCount": 54
+      "status": "error",
+      "itemCount": 0,
+      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
     },
     {
       "name": "防疫公告（光復國小）",
-      "status": "error",
-      "itemCount": 0,
-      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
+      "status": "ok",
+      "itemCount": 1
     },
     {
       "name": "防疫資訊（博愛國小）",
-      "status": "error",
-      "itemCount": 0,
-      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
+      "status": "ok",
+      "itemCount": 23
     },
     {
       "name": "音樂班招生（敦化國小）",
