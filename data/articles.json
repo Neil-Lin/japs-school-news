@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T08:49:06.083993+00:00",
+  "updatedAt": "2026-09-29T14:57:19.675883+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -219,6 +219,154 @@
     }
   ],
   "articles": [
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=BDC4C45BA22E1F9F",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "臺北市校園行政中立及場地開放管理常見問題Q&A",
+      "published": "2026-09-29T11:01:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=BDC4C45BA22E1F9F",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "Q1：公立學校教職員工未兼任行政職者，是否仍應遵守行政中立？ A：是。依「臺北市政府教育局所屬各級學校及幼兒園落實校園行政中立注意事項」，學校及幼兒園教職員工皆應遵守《公務人員行政中立法》、《教育基本法》等規定，嚴守校園行政中立，不因是否兼任行政職有所差別。 Q2 ：學校得否為政治團體辦理宣傳活動？ A：不行。依「臺北市政府教育局所屬各級學校及幼兒園落實校園行政中立注意事項」第1點及《公務人員行政中立法》第9條規定，學校不得為特定政治團體辦理宣傳活動，例如： 動用行政資源印製、散發或張貼文書、圖畫及其他宣傳品，為特定政治團體或公職候選人宣傳。 在辦公場所懸掛、張貼特定政黨、政治團體或公職候選人的旗幟、徽章或其他宣傳物品(如氣球等)，或穿戴具有特定標示之服飾配件。 主持集會、發起遊行或領導連署活動。 Q3 ：學校"
+    },
+    {
+      "id": "校外競賽:仁愛國小:6abb93501ecf03ece343e299",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "校外競賽",
+      "title": "2026第三屆臺灣教育科技盃無人機足球全國公開賽",
+      "published": "2026-09-29T10:28:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6abb93501ecf03ece343e299?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=3OcrJ5P5996&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "實施計畫.pdf"
+      ],
+      "summary": "一、依據台北市電腦商業同業公會115年9月21日電會字第1150009203號函辦理。 二、為推廣教育科技及無人機足球運動，鼓勵學生透過科技實作、無人機操控及團隊競技培養跨域學習能力，台北市電腦商業同業公會辦理「2026 第三屆臺灣教育科技盃無人機足球全國公開賽」，訂於115年11月12日（星期四）至11月15日（星期日）假臺北世貿一館舉行。 三、為鼓勵各縣市優秀隊伍參與全國賽事，本賽事規劃縣市推薦種子隊伍機制，故本局訂於115年10月4日辦理「115年度臺灣教育科技盃無人機足球臺北地區公開賽」，並將於臺北地區公開賽後推薦優秀隊伍至全國公開賽，經本局推薦並通過主辦單位資格審查隊伍，即取得全國公開賽參賽資格。 四、承上，未獲本局推薦隊伍可自行報名全國公開賽，報名期間自即日起至10月19日（星期一）下午5時止，於賽"
+    },
+    {
+      "id": "一般消息:仁愛國小:6abb926ad4b020e33cc88983",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "一般消息",
+      "title": "「2026台北101國慶煙火暨無人機展演」禁止遙控無人機飛航活動公告、時間及範圍",
+      "published": "2026-09-29T10:25:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6abb926ad4b020e33cc88983?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=ZItAos61369&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "2026臺北101國慶展演禁止遙控無人機飛航活動區域.pdf"
+      ],
+      "summary": "禁止區域為臺北市政府中心點半徑2公里，禁止時間自115 年10月10日下午5時至晚間12時止。"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=B30B997203138F6D",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【賽事資訊】115年總統盃全國中等學校分齡拳擊錦標賽",
+      "published": "2026-09-29T10:14:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=B30B997203138F6D",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、賽事時間：115年10月20日（週二）至115年10月25日（週日）。 二、賽事地點：國立臺灣體育運動大學 （臺中市北區雙十路一段16號）。 三、報名日期：即日起至115年10月11日（週日）下午6時止。 四、報名方式請參閱競賽規程（如附件）。 115 年總統盃全國中等學校分齡拳擊錦標賽競賽規程.pdf"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=7A5C32725ABC75A6",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【賽事資訊】115年臺北市全國學校盃西洋棋團體錦標賽",
+      "published": "2026-09-29T10:03:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=7A5C32725ABC75A6",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、賽事時間：115年10月18日（週日）。 二、賽事地點：國立臺北教育大學至善樓教室G101/G102（臺北市大安區和平東路2段134號）。 三、報名日期：即日起至115年10月14日(週三)止。 四、報名方式請參閱競賽規程（如附件）。 2025 臺北市全國學校盃西洋棋團體錦標賽競賽規程.pdf"
+    },
+    {
+      "id": "一般消息:仁愛國小:6abb8a5ab6ab915c3ca40a26",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "一般消息",
+      "title": "【轉知】轉知2026《Super Teacher：Power版》敬師歌曲，歡迎師生欣賞",
+      "published": "2026-09-29T09:51:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6abb8a5ab6ab915c3ca40a26?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=ZItAos61369&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [],
+      "summary": "財團法人台北市關懷台灣文教基金會推出2026《Super Teacher：Power版》敬師歌曲，透過音樂傳遞對教師的尊重與感謝，歡迎師生欣賞。 歌曲連結： https://youtu.be/gCr6B2xPka8"
+    },
+    {
+      "id": "行政公告:建安國小:6abb88d34df4467d90f737a9",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "行政公告",
+      "title": "轉知~南門國民中學辦理「115學年度國小特殊生進路參訪活動」",
+      "published": "2026-09-29T09:33:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6abb88d34df4467d90f737a9?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=2rEsyLS9623&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [
+        "南門國民中學「115學年度國小特殊生進路參訪活動」.pdf"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "行政公告:建安國小:6abb8146b6ab915c3ca23d59",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "行政公告",
+      "title": "轉知~啟明學校115學年度親師生體驗營活動實施計畫",
+      "published": "2026-09-29T09:12:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6abb8146b6ab915c3ca23d59?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=2rEsyLS9623&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [
+        "啟明學校115學年度親師生體驗營活動實施計畫.odt"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "活動資訊:光復國小:6abb7e8d4df4467d90f50977",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "活動資訊",
+      "title": "轉知:國立政治大學辦理2026秋冬藝術計畫「癮」活動",
+      "published": "2026-09-29T09:00:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6abb7e8d4df4467d90f50977?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=QWbvWuz8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "國立政治大學辦理2026秋冬藝術計畫「癮」活動.jpg"
+      ],
+      "summary": "一、旨揭藝術計畫以「癮」為主題，轉型為主題式策展，結合 展覽、表演、電影及生態永續木雕計畫等多元藝術形式， 帶領觀眾反思當代生活議題。活動展期自115年9月23日 （星期三）至12月23日（星期三）止，舉辦地點位於國立 政治大學山上校區藝文中心。 二、本案活動除木雕創作工作坊需事先繳費報名外，展覽、表 演及電影系列皆為免費參與。 三、本活動各場次時間、地點及報名方式，請逕至該校活動官 網及活動報名網站查詢。"
+    },
     {
       "id": "比賽資訊:建安國小:6abb7b35912fd93551e084af",
       "schools": [
