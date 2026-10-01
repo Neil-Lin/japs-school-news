@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T09:12:54.375229+00:00",
+  "updatedAt": "2026-10-01T15:34:42.436206+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -195,7 +195,7 @@
     {
       "name": "親職資訊（仁愛國小）",
       "status": "ok",
-      "itemCount": 54
+      "itemCount": 56
     },
     {
       "name": "防疫公告（光復國小）",
@@ -219,6 +219,135 @@
     }
   ],
   "articles": [
+    {
+      "id": "一般消息:仁愛國小:6abe74141770a4653beaa5e3",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "一般消息",
+      "title": "【轉知】2026守護幸福分享愛募款活動",
+      "published": "2026-10-01T14:50:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6abe74141770a4653beaa5e3?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=ZItAos61369&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "29606203_1150100055_ATTCH1.pdf"
+      ],
+      "summary": "財團法人現代婦女教育基金會辦理「2026守護幸福分享愛」募款活動，募集經費支持受暴家庭扶助計畫，提供受暴家庭與孩童安全協助、危難救助、身心療癒、關係輔導及家暴預防教育等服務，歡迎有意願之教職員參考。 一、活動期間：即日起至115年11月20日止。 二、捐款方式：每筆捐款800元，可致贈阿默經典乳酪蛋糕或醇黑巧克力蛋糕一盒。 三、捐款方式： （一）線上捐款：請至「2026守護幸福分享愛」活動網站辦理。 （二）紙本捐款：填寫紙本捐款單後傳真回覆，詳見附件。 四、相關資訊：詳見附件及活動網站。 本活動為自由參與，歡迎有意願者自行參考。"
+    },
+    {
+      "id": "親職資訊:仁愛國小:6abe53d59f2c55005ec6aa67",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "親職資訊",
+      "title": "11510【親職教養文章】孩子愈催愈不動、愈講愈頂嘴？心理師：換一種問法，讓孩子從抗拒轉向主動",
+      "published": "2026-10-01T12:35:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6abe53d59f2c55005ec6aa67?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=mUepRUN5084&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "11510【親職教養文章】孩子愈催愈不動、愈講愈頂嘴？心理師：換一種問法，讓孩子從抗拒轉向主動.pdf"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "一般消息:仁愛國小:6abe2ecf38b3c79ab5369d1b",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "一般消息",
+      "title": "【轉知】關懷家庭照顧者推廣活動",
+      "published": "2026-10-01T09:57:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6abe2ecf38b3c79ab5369d1b?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=ZItAos61369&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "29598562_11531645963_ATTCH1.png"
+      ],
+      "summary": "臺北市政府社會局辦理「把溫柔留給家人時，讓臺北陪你留一杯回甘—《從『我』到『我們』：給照顧者的療癒劇場》」活動，歡迎家庭照顧者、助人工作者及關心照顧議題之民眾參與。 一、活動時間：115年10月22日（星期四）下午2時 二、活動地點：西門紅樓（臺北市萬華區成都路10號） 三、活動內容：透過互動式網站、實境戲劇及跨領域專家短講，推廣家庭照顧者議題及社區友善互助理念。 四、活動資訊：詳見附件海報及宣傳素材。 歡迎有興趣之教師及同仁踴躍參與。"
+    },
+    {
+      "id": "校外競賽:光復國小:6abe2fc15c9ddc19b163e7e7",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "校外競賽",
+      "title": "轉知：115學年度教育盃國民小學擊劍錦標賽競賽規程",
+      "published": "2026-10-01T09:56:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6abe2fc15c9ddc19b163e7e7?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=jOHZo998827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "教育盃國民小學擊劍錦標賽報名表.ods",
+        "臺北市115學年度教育盃國民小學擊劍錦標賽競賽規程.pdf"
+      ],
+      "summary": "為提升本市國小擊劍競技實力，本局委請立農國小承辦旨 揭賽事，相關資訊摘要如下： (一)比賽日期：115年12月12日（星期六）至12月14日（星期 一）。 (二)報名日期：即日起至115年10月23日（星期五）下午5時 截止，請參賽學校務必於報名期限內完成報名，報名截 止後一概不得增刪、修改報名資料。報名表正本另請於 115年10月27日（星期二）前寄送至南港區胡適國民小學 體育組劉組長收，郵寄地址為臺北市南港區舊莊街一段1 號，聯絡電話（02）2782-4949轉922。 (三)比賽地點：臺北市南港區玉成國民小學四維樓3樓活動中 心（臺北市南港區向陽路31號） 。 (四)領隊會議日期（不另函通知）：115年11月11日（星期 三）下午2時於臺北市立南港區玉成國民小學忠孝樓1樓 會議室舉行，請參賽學校務必派員參"
+    },
+    {
+      "id": "校外競賽:光復國小:6abe2bb47fad89f7136e06fc",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "校外競賽",
+      "title": "轉知：臺北市體育總會網球協會辦理「115年臺北市中正盃 網球錦標賽」",
+      "published": "2026-10-01T09:44:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6abe2bb47fad89f7136e06fc?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=jOHZo998827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "115 年臺北市中正盃網球錦標賽競賽規程.pdf"
+      ],
+      "summary": "為推廣網球運動，提升競技水準，旨揭賽事訂於115年（下 同）10月31日至11月1日假天母運動公園網球場辦理。 報名 日期自即日起至10月14日止，參賽辦法及資格請參閱附 件。 如有任何疑問，請逕洽聯絡人：吳小姐，連絡電話： 0975-188-252。"
+    },
+    {
+      "id": "親職資訊:仁愛國小:6abe2bb418be2c4cde33eb38",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "親職資訊",
+      "title": "[轉知]靖娟基金會辦理兒童不當對待事件處理推廣座談—家長場",
+      "published": "2026-10-01T09:43:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6abe2bb418be2c4cde33eb38?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=mUepRUN5084&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [],
+      "summary": ""
+    },
+    {
+      "id": "校外競賽:光復國小:6abe2af80617292358494bc0",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "校外競賽",
+      "title": "轉知：臺北市115學年度教育盃中小學角力錦標賽競賽規程 修訂會議",
+      "published": "2026-10-01T09:38:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6abe2af80617292358494bc0?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=jOHZo998827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "臺北市 115 學年度教育盃中小學角力錦標賽競賽規程.pdf"
+      ],
+      "summary": "中華民國115年10月12日(星期一)上午10時30分 開會地點：本校勵學樓三樓教專教室 主持人： 謝校長丞韋 聯絡人及電話：連婉珍體育組長02-23394567轉124"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=AD1C93894C3CD818",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "捷運市政府站2號、3號出入口周邊區域，自115 年 11 月 1 日起為除吸菸區外，全面禁止吸菸場所，吸菸請至指定吸菸區。",
+      "published": "2026-10-01T09:18:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=AD1C93894C3CD818",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": ""
+    },
     {
       "id": "教師研習及活動:光復國小:6abe1dab7fad89f7136ab58e",
       "schools": [
@@ -846,11 +975,11 @@
       "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=Mu7ppdp0180&vector=private&static=false",
       "siteUrl": "https://www.thps.tp.edu.tw",
       "attachments": [
-        "敦化國小美術創作比賽115校內辦法.docx",
         "附件二三.docx",
+        "敦化國小美術創作比賽115校內辦法.pdf",
         "敦化國小美術創作比賽115校內辦法.pdf"
       ],
-      "summary": "臺北市「 小小美術家 」 115 學年度兒童美術創作展作品校內評選徵件(此活動為自由參加，欲參加者請詳閱附件) 壹、參加對象：本校1至6年級學生 一、 低 年級各班學生請於 10/6 (二)至 10/19 ( 一 ) 放學前每人繳交三件作品(最多六件)給導師，後續依校內審核流程處理。 二、 中高 年級各班學生請於 10/6 (二)至 10/19 ( 一 ) 放學前每人繳交三件作品(最多六件)給導師，請導師彙整後將名冊及作品裝入透明袋再轉視覺藝術指導老師，後續依校內審核流程處理。 貳、作品須知 一、學生個人創作，主題及材料不拘（含水彩、版畫、水墨畫、設計、電腦繪圖 …… 等） 以平面創作為主 ，立體作品請以作品前、後、左、右四個方向拍攝之照片送件。 二、規格以八開或 四開為原則 ，八開作品請貼於四開底紙上，水墨作"
+      "summary": "臺北市「 小小美術家 」 115 學年度兒童美術創作展作品校內評選徵件(此活動為自由參加，欲參加者請詳閱附件) 壹、參加對象：本校1至6年級學生 一、 低 年級各班學生請於 10/6 (二)至 10/19 ( 一 ) 放學前每人繳交三件作品(最多六件)給導師，後續依校內審核流程處理。 二、 中高 年級各班學生請於 10/6 (二)至 10/19 ( 一 ) 放學前每人繳交三件作品(最多六件)給導師檢視作品及報名資料是否完整，之後由學生親自將作品交給美勞老師，後續依校內審核流程處理。 貳、作品須知(請家長自行列印報名表，或請學生至教務處索取報名表) 一、學生個人創作，主題及材料不拘（含水彩、版畫、水墨畫、設計、電腦繪圖 …… 等） 以平面創作為主 ，立體作品請以作品前、後、左、右四個方向拍攝之照片送件。 二、規格"
     },
     {
       "id": "校務公告:敦化國小:6abcd676f7a17ca0aae52224",
@@ -864,11 +993,11 @@
       "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=1hdeMSJ5377&vector=private&static=false",
       "siteUrl": "https://www.thps.tp.edu.tw",
       "attachments": [
-        "敦化國小美術創作比賽115校內辦法.docx",
         "附件二三.docx",
+        "敦化國小美術創作比賽115校內辦法.pdf",
         "敦化國小美術創作比賽115校內辦法.pdf"
       ],
-      "summary": "臺北市「 小小美術家 」 115 學年度兒童美術創作展作品校內評選徵件(此活動為自由參加，欲參加者請詳閱附件) 壹、參加對象：本校1至6年級學生 一、 低 年級各班學生請於 10/6 (二)至 10/19 ( 一 ) 放學前每人繳交三件作品(最多六件)給導師，後續依校內審核流程處理。 二、 中高 年級各班學生請於 10/6 (二)至 10/19 ( 一 ) 放學前每人繳交三件作品(最多六件)給導師，請導師彙整後將名冊及作品裝入透明袋再轉視覺藝術指導老師，後續依校內審核流程處理。 貳、作品須知 一、學生個人創作，主題及材料不拘（含水彩、版畫、水墨畫、設計、電腦繪圖 …… 等） 以平面創作為主 ，立體作品請以作品前、後、左、右四個方向拍攝之照片送件。 二、規格以八開或 四開為原則 ，八開作品請貼於四開底紙上，水墨作"
+      "summary": "臺北市「 小小美術家 」 115 學年度兒童美術創作展作品校內評選徵件(此活動為自由參加，欲參加者請詳閱附件) 壹、參加對象：本校1至6年級學生 一、 低 年級各班學生請於 10/6 (二)至 10/19 ( 一 ) 放學前每人繳交三件作品(最多六件)給導師，後續依校內審核流程處理。 二、 中高 年級各班學生請於 10/6 (二)至 10/19 ( 一 ) 放學前每人繳交三件作品(最多六件)給導師檢視作品及報名資料是否完整，之後由學生親自將作品交給美勞老師，後續依校內審核流程處理。 貳、作品須知(請家長自行列印報名表，或請學生至教務處索取報名表) 一、學生個人創作，主題及材料不拘（含水彩、版畫、水墨畫、設計、電腦繪圖 …… 等） 以平面創作為主 ，立體作品請以作品前、後、左、右四個方向拍攝之照片送件。 二、規格"
     },
     {
       "id": "教師研習及活動:光復國小:6abcc2812407b29689c7a378",
