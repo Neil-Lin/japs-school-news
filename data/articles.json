@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T08:45:55.796454+00:00",
+  "updatedAt": "2026-10-02T14:53:22.214921+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -15,7 +15,7 @@
     {
       "name": "人事資訊（光復國小）",
       "status": "ok",
-      "itemCount": 88
+      "itemCount": 87
     },
     {
       "name": "光復之光（光復國小）",
@@ -95,12 +95,12 @@
     {
       "name": "校內消息（仁愛國小）",
       "status": "ok",
-      "itemCount": 52
+      "itemCount": 53
     },
     {
       "name": "校內競賽（仁愛國小）",
       "status": "ok",
-      "itemCount": 36
+      "itemCount": 37
     },
     {
       "name": "校內競賽（光復國小）",
@@ -219,6 +219,52 @@
     }
   ],
   "articles": [
+    {
+      "id": "教師研習及活動:光復國小:6abf8165531783ec12dbd661",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "教師研習及活動",
+      "title": "[研習]全國代理暨代課教師產業工會舉辦3場線上研習",
+      "published": "2026-10-02T10:02:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6abf8165531783ec12dbd661?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=GfVDvAq0432&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "一、第1場： (一)時間：115年10月10日星期六19:30-20:30。 (二)主題：濫訴知多少。 (三)講師：陳民峰老師。 二、第2場： (一)時間：115年10月31日星期六19:30-20:30。 (二)主題：教師不可不知的法律常識（一）。 (三)講師：孫靖婷老師。 三、第3場： (一)時間：115年11月21日星期六19:30-20:30。 (二)主題：教師不可不知的法律常識（二）。 (三)講師：孫靖婷老師。 四、報名網址：https://nstu.oen.tw/。"
+    },
+    {
+      "id": "校內競賽:仁愛國小:6abf7e1b427555cb95bd9ad1",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "校內競賽",
+      "title": "臺北市仁愛國小115年度推動兒童深耕閱讀自編故事劇本徵件校內初賽比賽成績",
+      "published": "2026-10-02T09:43:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6abf7e1b427555cb95bd9ad1?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=Oebafow5996&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "臺北市仁愛國小115年度推動兒童深耕閱讀自編故事劇本徵件校內初賽比賽成績.pdf"
+      ],
+      "summary": "恭喜以上得獎的學生～ 以上各組作品將代表本校參加臺北市比賽。"
+    },
+    {
+      "id": "校內消息:仁愛國小:6abf7e1b427555cb95bd9ad1",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "校內消息",
+      "title": "臺北市仁愛國小115年度推動兒童深耕閱讀自編故事劇本徵件校內初賽比賽成績",
+      "published": "2026-10-02T09:43:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6abf7e1b427555cb95bd9ad1?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=ZXFNybM7991&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "臺北市仁愛國小115年度推動兒童深耕閱讀自編故事劇本徵件校內初賽比賽成績.pdf"
+      ],
+      "summary": "恭喜以上得獎的學生～ 以上各組作品將代表本校參加臺北市比賽。"
+    },
     {
       "id": "行政公告:建安國小:6abf65cb0f772bffd50809c7",
       "schools": [
@@ -1817,6 +1863,38 @@
       "summary": "一、配合108課綱自然科學領域課程，辦理3小時研習活動，內 容包含主題課程「太空望遠鏡」教學，及劇場影片欣賞， 課程規劃詳如附件。報名方式採本館官網登記，相關訊息 請至本館網頁「活動訊息」專區查詢（網址： https://tam.gov.taipei/）。 二、參加研習之教師請准予公假；全程參與者，每梯次核與研 習時數3小時，並於課程結束後統一登錄於『全國教師在職 進修資訊網』。"
     },
     {
+      "id": "競賽活動:敦化國小:6abf8e27331e84c98cf45292",
+      "schools": [
+        "敦化國小"
+      ],
+      "source": "競賽活動",
+      "title": "臺北市115年度我是小主播比賽初審通過(30隊)作品名單",
+      "published": "2026-09-30T07:59:00+00:00",
+      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/6abf8e27331e84c98cf45292?vector=private&static=false",
+      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=Mu7ppdp0180&vector=private&static=false",
+      "siteUrl": "https://www.thps.tp.edu.tw",
+      "attachments": [
+        "臺北市115年度我是小主播比賽初審通過30隊作品名單(公告).pdf"
+      ],
+      "summary": "1. 本次共計 37 隊報名作品，其中 3 隊棄權，依實施計畫取 30 隊 進入複審。 2. 領隊會議 訂於 115 年 10 月 7 日 ( 三 ) 下午 2:00-4:00 於麗湖國小「 B1 視聽中心」召開，抽籤比賽順序，請各隊推派代表與會。如不克出席，則由承辦單位代為抽籤。 3. 抽籤結果及賽程於 115 年 10 月 8 日 ( 四 ) 中午 12:00 前公告於麗湖國小網站 重大消息 處。"
+    },
+    {
+      "id": "校務公告:敦化國小:6abf8e27331e84c98cf45292",
+      "schools": [
+        "敦化國小"
+      ],
+      "source": "校務公告",
+      "title": "臺北市115年度我是小主播比賽初審通過(30隊)作品名單",
+      "published": "2026-09-30T07:59:00+00:00",
+      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/6abf8e27331e84c98cf45292?vector=private&static=false",
+      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=1hdeMSJ5377&vector=private&static=false",
+      "siteUrl": "https://www.thps.tp.edu.tw",
+      "attachments": [
+        "臺北市115年度我是小主播比賽初審通過30隊作品名單(公告).pdf"
+      ],
+      "summary": "1. 本次共計 37 隊報名作品，其中 3 隊棄權，依實施計畫取 30 隊 進入複審。 2. 領隊會議 訂於 115 年 10 月 7 日 ( 三 ) 下午 2:00-4:00 於麗湖國小「 B1 視聽中心」召開，抽籤比賽順序，請各隊推派代表與會。如不克出席，則由承辦單位代為抽籤。 3. 抽籤結果及賽程於 115 年 10 月 8 日 ( 四 ) 中午 12:00 前公告於麗湖國小網站 重大消息 處。"
+    },
+    {
       "id": "行政公告:建安國小:6abcbe47f8ca7a262440fe03",
       "schools": [
         "建安國小"
@@ -3274,7 +3352,7 @@
         "家長需求表.odt",
         "高級中等以下教育階段非學校型態實驗教育實施條例.pdf"
       ],
-      "summary": "【 115 學年度第 2 學期 國小個人實驗教育申請辦理注意事項】 1.115 學年度第 2 學期申請時間為 115 年 10 月 1 日 ~115 年 10 月 31 日。申請人需於 115 年 10 月 31 日晚上 12:00 前，完成線上註冊與申請 ， 並上傳所需相關文件（ PDF 檔）， 逾時系統將關閉不再受理申請 。 ( 申請網址 https://tpnee.tp.edu.tw/) 2. 申請人需於 115 年 11 月 2 日 ( 星期一 )16:00 前 將【申請書】及【家長需求表】親簽紙本正本文件繳交至光復國小教務處註冊組。 3. 請申請人於系統開放期間，在系統上填寫完申請資料後，直接列印「申請書」並簽名， 計畫書、申請表（系統列印）、家長需求表需使用最新版本 。 4. 系統中一共有 ５ 處需"
+      "summary": "【 115 學年度第 2 學期 國小個人實驗教育申請辦理注意事項】 1.115 學年度第 2 學期申請時間為 115 年 10 月 1 日 ~115 年 10 月 31 日。申請人需於 115 年 10 月 31 日晚上 12:00 前，完成線上註冊與申請 ， 並上傳所需相關文件（ PDF 檔）， 逾時系統將關閉不再受理申請 。 ( 申請網址 https://tpnee.tp.edu.tw/ ) 2. 申請人需於 115 年 11 月 2 日 ( 星期一 )16:00 前 將【申請書】及【家長需求表】親簽紙本正本文件繳交至光復國小教務處註冊組。 3. 請申請人於系統開放期間，在系統上填寫完申請資料後，直接列印「申請書」並簽名， 計畫書、申請表（系統列印）、家長需求表需使用最新版本 。 4. 系統中一共有 ５ 處"
     },
     {
       "id": "活動資訊:光復國小:6ab4effb4a544f353a9a57a0",
@@ -42381,20 +42459,6 @@
       "siteUrl": "https://www.baps.tp.edu.tw",
       "attachments": [],
       "summary": "親愛的家長您好： ※本校預計於 10 月 28 、 29 日 辦理全校學生流感疫苗接種作業，採 線上填寫 流感疫苗施打意願書，下列事項請家長注意及配合。 1 、請家長於 10 月 20 日下午 5 點 前完成意願書線上填寫 （同意及不同意皆要填寫） 2 、若 逾期未填 ，則視為 不同意施打 ，不再開放表單填寫意願。 3 、表單關閉後， 「僅」 接受原本填寫 同意者改不同意 ，不再開放原不同意者改同意。 4 、線上流感疫苗意願書填寫方式，可參考影片說明 : 影片： https://youtu.be/OaIgiqcj4v8?si=UEB9ab6XxTdXLnAu ※關於流感疫苗廠牌相關事宜如下： 1 、學校於 疫苗接種當天上午 9 點前 ，公告流感疫苗廠牌於學校官網首頁。 2 、如流感疫苗意願 「原本為同意施打」，"
-    },
-    {
-      "id": "政策法規:光復國小:68de4c84f75c33e2fc305785",
-      "schools": [
-        "光復國小"
-      ],
-      "source": "政策法規",
-      "title": "轉知：衛生福利部國民健康署製作菸害防制相關宣導",
-      "published": "2025-10-02T09:52:00+00:00",
-      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/68de4c84f75c33e2fc305785?vector=private&static=false",
-      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=gVIA7Pi7760&vector=private&static=false",
-      "siteUrl": "https://www.kfps.tp.edu.tw",
-      "attachments": [],
-      "summary": "菸害防制法於112年3月22日修正施行，依該法第15條規 定，全面禁止電子煙等類菸品，並嚴格管制符合菸品定義 之新型態菸草產品(包含加熱菸)。所有菸草產品皆有害， 不論是使用紙菸或加熱菸，都會產生相似的有毒化學物 質。"
     }
   ]
 }
