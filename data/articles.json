@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T09:11:20.465522+00:00",
+  "updatedAt": "2026-10-06T15:22:18.599127+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -224,6 +224,71 @@
     }
   ],
   "articles": [
+    {
+      "id": "學校公告:光復國小:6ac4d795fcd5a530fd7e241b",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "學校公告",
+      "title": "臺北市信義區光復國民小學115學年度第1學期期中評量時間一覽表",
+      "published": "2026-10-06T11:11:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6ac4d795fcd5a530fd7e241b?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=UFKVG9l8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "115-1期中評量.pdf"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "學校公告:光復國小:6ac4d2c283b8912f4743c9f8",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "學校公告",
+      "title": "「2026台灣傑出永續教育人物獎」評選活動簡章",
+      "published": "2026-10-06T10:50:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6ac4d2c283b8912f4743c9f8?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=UFKVG9l8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "29655068_1150145606_ATTCH1.pdf",
+        "29655068_1150145606_ATTCH2.pdf"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "一般消息:仁愛國小:6ac4d103889f732e79c78a0d",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "一般消息",
+      "title": "【轉知】116年度寒假國中小生職業輔導研習營報名資訊",
+      "published": "2026-10-06T10:40:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6ac4d103889f732e79c78a0d?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=ZItAos61369&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "29636686_1153105155_ATTCH1.pdf",
+        "29636686_1153105155_ATTCH2.pdf",
+        "29636686_1153105155_ATTCH3.jpg"
+      ],
+      "summary": "為提供學生多元職涯探索機會，臺北市辦理「116年度寒假國中、小生職業輔導研習營」，歡迎本校五、六年級學生踴躍報名參加。 一、參加對象 臺北市公私立國民小學五、六年級學生。 二、報名方式 一律透過「酷課APP」或「酷課雲」報名。 可由學生自行報名或由家長代為報名，家長代報須完成親子綁定。 請事先備妥「臺北市單一身分驗證帳號」。 三、報名時間 第1次報名：10月16日～10月22日 第2次報名：10月24日～10月27日 第3次報名：11月21日～11月24日 錄取結果由系統推播通知。 四、費用說明 每人每日150元，研習期間供應午餐。 低收入戶、中低收入戶及突遭變故者，經校務行政系統註記後得免繳費用。 五、注意事項 每人可報名營隊數量原則上無限制；如遇抽籤，至多參加2場需抽籤營隊。 錄取後不論是否參加，活動費用均"
+    },
+    {
+      "id": "研習資訊:仁愛國小:6ac4cab0863eec2c0ec7c198",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "【轉知】「藝起聊心：創造性藝術治療於兒童青少年的應用」專業培訓工作坊",
+      "published": "2026-10-06T10:15:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6ac4cab0863eec2c0ec7c198?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=BLvblfR5996&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [],
+      "summary": "國立臺北教育大學心理諮商暨健康促進研究中心辦理專業培訓工作坊，歡迎有興趣之教師參加。 一、工作坊名稱： 「藝起聊心：創造性藝術治療於兒童青少年的應用」 二、活動時間：115年10月31日（星期六）至11月1日（星期日），上午9時至下午4時。 三、課程簡介：以視覺藝術媒材為主，結合塗鴉、繪畫、拼貼創作等方式，學習創造性藝術媒材應用於兒童與青少年的助人工作。 四、報名方式：請至下列連結報名： https://reurl.cc/k9vaQ9 有興趣參加之教師請自行報名，詳細課程內容請參閱報名資訊。"
+    },
     {
       "id": "教師研習及活動:光復國小:6ac4ba41769f78293c79f1ea",
       "schools": [
