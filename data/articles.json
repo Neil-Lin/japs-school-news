@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-10-05T17:17:32.479719+00:00",
+  "updatedAt": "2026-10-06T01:40:42.244884+00:00",
   "errors": [],
   "sourceStatus": [
     {
       "name": "一般智能資賦優異（敦化國小）",
       "status": "ok",
-      "itemCount": 7
+      "itemCount": 8
     },
     {
       "name": "一般消息（仁愛國小）",
@@ -25,7 +25,7 @@
     {
       "name": "其他公告（敦化國小）",
       "status": "ok",
-      "itemCount": 79
+      "itemCount": 80
     },
     {
       "name": "國中入學（光復國小）",
@@ -40,7 +40,7 @@
     {
       "name": "多元教育（敦化國小）",
       "status": "ok",
-      "itemCount": 20
+      "itemCount": 24
     },
     {
       "name": "學校公告（光復國小）",
@@ -198,6 +198,11 @@
       "itemCount": 58
     },
     {
+      "name": "重要公告（仁愛國小）",
+      "status": "ok",
+      "itemCount": 100
+    },
+    {
       "name": "防疫公告（光復國小）",
       "status": "ok",
       "itemCount": 1
@@ -219,6 +224,231 @@
     }
   ],
   "articles": [
+    {
+      "id": "研習資訊:博愛國小:6ac44e51233ef7133e227cb1",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "轉知古亭國小辦理115學年度雙語教學公開課",
+      "published": "2026-10-06T01:25:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ac44e51233ef7133e227cb1?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=tQHaHM07712&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [],
+      "summary": "本次雙語教學公開授課說明如下: (一)授課教師: Noah Clark與游舒媄老師 (二)授課時間: 115年10月8日(四)上午10時25分至11時05分 (三)授課主題: 二年級雙語健康-Food Groups and Portions (四)授課及議課地點: 至善樓創新教室 (五)議課時間: 11時10分至12時整 無法提供車位，敬請搭乘大眾運輸工具。"
+    },
+    {
+      "id": "最新消息:博愛國小:6ac44d47f00ce512adb30c8f",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "轉知國立臺灣師範大學理工公費專班招生資訊",
+      "published": "2026-10-06T01:20:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ac44d47f00ce512adb30c8f?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29616192_1153103767_ATTCH1.pdf"
+      ],
+      "summary": "為配合教育部師資培育政策需求，國立臺灣師範大學特規劃理工公費專班，以協助具備STEM領域背 景之現職（或曾任）代理（代課）教師精進教育專業並穩 定職涯。 相關報名資 訊如下： (一)該專班網頁：https://tecs.otecs.ntnu.edu.tw/page. aspx?t=news&id=648；招生諮詢問專線：（02）7749- 1240或（02）7749-1232。 (二)線上說明會報名連結：https://forms.gle /JeCZFqoXErmtCJe47。 (三)三分鐘資格檢核（瞭解學分認抵與仍須修習之學分）： https://sesp-orcin.vercel.app/。 (四)招生簡章及資訊，詳參該校教務處官網「招生資訊」項 下「碩士班招生」之「碩士班甄試入學」；網路報名期 間：115"
+    },
+    {
+      "id": "研習資訊:博愛國小:6ac44c8fa8044a0d540aee7e",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "轉知臺北市數位實中辦理「解鎖 AI 解謎遊戲創新設計工作坊-數位前 導區域系列分享」",
+      "published": "2026-10-06T01:15:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ac44c8fa8044a0d540aee7e?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=tQHaHM07712&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [],
+      "summary": "活動目標： (一)建立 AI 遊戲化設計基礎能力 (二)培養數位與 AI 融合的創新設計思維 (三)強化 AI 解謎專案開發與實作能力 (四)認識智慧機關與 AI 模組應用 (五)促進跨域教學創新與成果轉化 課程對象：課程名額共計100位，依高優前導學校教師及報 名順序優先錄取。 (一)高優及前導學校北二區(陽明山、山附山、湖中盟(含離 島)。 (二)全國高中職教師。 課程地點： GOOGLE MEET 線上會議室。 課程時間： (一)AI 裡的遊戲化設計新思維(全國教研代碼5720827) 115 年11月5日(星期四) 14:00~16:30。 (二)解鎖 AI Agent-打造互動式遊戲任務(全國教研代碼 5720806) 115年11月12日(星期四) 14:00~16:30。報名 請留意，本課程需自行"
+    },
+    {
+      "id": "研習資訊:博愛國小:6ac44b97d0ea411085832b33",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "轉知「北北基雙語科技教育推動聯盟」辦理115學年度第 一學期雙語科技推動工作坊",
+      "published": "2026-10-06T01:13:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ac44b97d0ea411085832b33?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=tQHaHM07712&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29613003_1153007047_ATTCH1.pdf"
+      ],
+      "summary": "為推動雙語科技教育，北北基三所科技中心共同組成雙語 科技教育推動聯盟，透過雙語科技教學示範、教學經驗分 享及實作活動，讓參與教師在雙語學習環境中，實際操作 並完成實體作品，增進雙語教學知能與課程設計能力，並 將研習經驗延伸應用於教學現場。 本學期工作坊共辦理3場次，各場次均安排雙語科技教學示 範及實作活動，透過創意課程主題，引導參與教師從教學 觀摩、實際操作到完成實體作品，體驗雙語科技課程的教 學流程與應用方式。各場次時間如下： (一)第一場：【教育部赴外學習經驗分享+創意課程:不出軌的搖滾遙控火車】，全國研習字第5755750號，115年10 月16日（星期五）上午9時至12時30分。 (二)第二場：【外師的科技與雙語時光(I)+創意課程:AI馬克 杯】，全國研習字第5755758號，115年11月20日（星"
+    },
+    {
+      "id": "研習資訊:博愛國小:6ac44afcd0ea411085830393",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "轉知臺北市立天文科學教育館「115學年度上學期教師天文研習實施計畫」",
+      "published": "2026-10-06T01:11:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ac44afcd0ea411085830393?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=tQHaHM07712&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29609031_1156002700_ATTCH1.pdf"
+      ],
+      "summary": "一、配合108課綱自然科學領域課程，辦理3小時研習活動，內 容包含主題課程「太空望遠鏡」教學，及劇場影片欣賞， 課程規劃詳如附件。報名方式採本館官網登記，相關訊息 請至網頁「活動訊息」專區查詢（網址： https://tam.gov.taipei/）。 二、全程參與者，每梯次核與研 習時數3小時，並於課程結束後統一登錄於『全國教師在職 進修資訊網』。"
+    },
+    {
+      "id": "最新消息:博愛國小:6ac44a0408fe8711431b43b2",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "轉知國立故宮博物院辦理「2026故宮亞洲藝術節－喜瑪拉 雅月」活動",
+      "published": "2026-10-06T01:07:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ac44a0408fe8711431b43b2?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29607826_1153103847_ATTCH2.jpg",
+        "29607826_1153103847_ATTCH3.jpg",
+        "29607826_1153103847_ATTCH1.pdf"
+      ],
+      "summary": "旨揭活動自115年10月8日至11月8日舉行，另有「穿越喜瑪 拉雅：從恆河到雪域的藝術行旅」特展，可深入淺出認識 喜瑪拉雅的歷史文化、生活風俗及宗教信仰，具有教育意 涵，詳參活動官網https://south.npm.gov.tw/。"
+    },
+    {
+      "id": "學校公告:光復國小:6ac4484664fa760fff1d80c0",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "學校公告",
+      "title": "均一平台教育基金會推出之「均一平台教育基金會115—1數學教材資源包」",
+      "published": "2026-10-06T00:59:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6ac4484664fa760fff1d80c0?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=UFKVG9l8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "(一)數學教材資源包專屬頁面與說明：https://link. junyiacademy.org/9n8mhk 。 (二)適用對象：國民小學及國民中學學校數學科教師及本市 國民教育地方輔導團數學領域分團教師。 (三)使用方式：教師點擊網址，依分區選取所需資源;紙本講 義可直接下載列印使用，教學影片及線上練習則可於均 一教育平台指派學習任務。 (四)其他相關資訊：本資源包所有資源均免費提供，無使用 期限或身分限制；另平台新手操作手冊及差異化教學操 作手冊亦置於前開網址，供教師參閱運用。"
+    },
+    {
+      "id": "多元教育:敦化國小:6ac4442d0810ec0f7539e2ab",
+      "schools": [
+        "敦化國小"
+      ],
+      "source": "多元教育",
+      "title": "轉知：116學年度身心障礙學生入小學家長說明會簡章",
+      "published": "2026-10-06T00:41:00+00:00",
+      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/6ac4442d0810ec0f7539e2ab?vector=private&static=false",
+      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=SrB9eUf6894&vector=private&static=false",
+      "siteUrl": "https://www.thps.tp.edu.tw",
+      "attachments": [
+        "116學年度身心障礙學生入小學家長說明會簡章_ATTCH1.odt"
+      ],
+      "summary": "一、依據「臺北市116學年度身心障礙學生入學國民小學鑑定及安置工作計畫」辦理。 二、本案預訂於115年10月18日（星期日）上午9時辦理線上說明會，直播網址將於115年10月15日（星期四）公告於本市雙園國小西區特教中心網站最新消息專區（網址：https://www.syrc.tp.edu.tw/） 三、請轉知幼兒園階段有意報名之家長於115年10月12日（星期一）前完成線上報名（報名網址請見簡章）。 ◎ 報名注意事項： 1. 本說明會採線上直播方式進行，視訊連結於 115 年 10 月 15 日 ( 星期四 ) 公告於「西區特教資源中心首頁 / 最新消息」；您若於 10 月 12 日前完成報名，亦會收到視訊連結 E-mail 通知。 2. 請參加說明會家長自備電腦 / 手機，依連結網址參加說明會。 3. 本說"
+    },
+    {
+      "id": "多元教育:敦化國小:6ac441de4b3018105e1d4c2a",
+      "schools": [
+        "敦化國小"
+      ],
+      "source": "多元教育",
+      "title": "轉知：臺北市115學年度聽覺障礙學生生涯轉銜與輔導研討(一)實施計畫",
+      "published": "2026-10-06T00:32:00+00:00",
+      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/6ac441de4b3018105e1d4c2a?vector=private&static=false",
+      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=SrB9eUf6894&vector=private&static=false",
+      "siteUrl": "https://www.thps.tp.edu.tw",
+      "attachments": [
+        "臺北市115學年度聽覺障礙學生生涯轉銜與輔導研討(一)實施計畫_ATTCH2.pdf",
+        "臺北市115學年度聽覺障礙學生生涯轉銜與輔導研討(一)邀請函_ATTCH1.pdf"
+      ],
+      "summary": "一、目的：協助家長及教師了解轉銜資訊，選擇適性安置方式及跨階段入學準備。 二、研習日期：115年10月24日(星期六)。 三、研習時間：上午10點至12點40分。 四、研習地點：臺北市立啟聰學校(臺北市大同區重慶北路三段320號)。 五、研習對象：學齡前至國小階段聽障學生、家長及教師。 六、報名資訊： (一)截止日期：即日起至115年10月19日(星期一)止。 (二)家長及教師皆採線上報名，恕不受理現場報名，報名連結請詳見附件。 七、參加本研習教師敬請學校同意公假登記，全程參與研習者，核予2小時研習時數。 八、注意事項： (一)本研習備有餐盒，請於報名時註明葷素。 (二)本校無法提供停車位，請搭乘大眾交通工具前往。 (三)如欲申請特殊需求服務(如手譯、聽打或無障礙設施)，請於報名時聯繫承辦人，以利會場安排。 九"
+    },
+    {
+      "id": "一般智能資賦優異:敦化國小:6ac4407f5f0ea20aef9b558b",
+      "schools": [
+        "敦化國小"
+      ],
+      "source": "一般智能資賦優異",
+      "title": "轉知：115學年度「國中與國小資優生對談」活動實施計畫",
+      "published": "2026-10-06T00:25:00+00:00",
+      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/6ac4407f5f0ea20aef9b558b?vector=private&static=false",
+      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=RChBOdK3964&vector=private&static=false",
+      "siteUrl": "https://www.thps.tp.edu.tw",
+      "attachments": [
+        "115學年度國中與國小資優生對談活動實施 計畫_ATTCH1.odt"
+      ],
+      "summary": "一、依據臺北市立忠孝國民中學115年10月1日北市忠孝輔字第1153006503號函辦理。 二、為增進國小資優學生對資優教育概念的了解，培養學習適應能力，並透過國中資優學生生涯歷程分享，提升國小資優學生自我期許，及提供國中、小資優學生校際同儕及資優班特色交流機會，拓展學生視野。本局委請忠孝國中辦理本市115學年度「國中與國小資優生對談」活動。 三、旨揭活動相關資訊摘要如下： (一)活動時間：115年11月25日（星期三）下午1時至4時。 (二)活動地點：本市忠孝國中活動中心（臺北市大同區西寧北路32號）。 (三)活動內容：各校分別設置攤位，可自經驗分享或互動體驗兩類方式中擇一進行，講員由國中設有資優班學校薦派學生擔任。國小端則以跑關方式依序體驗。 (四)參加對象： １、國中：講員由設置資優班學校薦派學生擔任，每"
+    },
+    {
+      "id": "多元教育:敦化國小:6ac439603401e60e4ef7e608",
+      "schools": [
+        "敦化國小"
+      ],
+      "source": "多元教育",
+      "title": "轉知：臺北特殊教育學校115學年度升國小參訪實施計畫",
+      "published": "2026-10-05T23:55:00+00:00",
+      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/6ac439603401e60e4ef7e608?vector=private&static=false",
+      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=SrB9eUf6894&vector=private&static=false",
+      "siteUrl": "https://www.thps.tp.edu.tw",
+      "attachments": [
+        "臺北特殊教育學校115學年度升國小參訪實施計畫_ATTCH1.pdf"
+      ],
+      "summary": "一、本校115學年度升國小參訪實施計畫，請參見附件。 二、活動日期：115年11月10日（星期二）上午9時30分至11時30分。 三、參加對象：臺北市幼兒園及早療中心之家長、學生及特教教師（或承辦人），請惠允出席教師、學生公假。 四、報名方式：請各校／單位特教組長或業務承辦人於10月8日（星期四）前統一填寫Google表單，並協助欲報名之家長、學生及特教教師完成線上報名程序，詳如實施計畫。 五、本校將於10月23日（星期五）以電子郵件方式與貴單位確認參訪日期及相關注意事項。"
+    },
+    {
+      "id": "多元教育:敦化國小:6ac437f07f50460eaf427d48",
+      "schools": [
+        "敦化國小"
+      ],
+      "source": "多元教育",
+      "title": "轉知：臺北特殊教育學校115學年度升國中參訪實施計畫",
+      "published": "2026-10-05T23:49:00+00:00",
+      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/6ac437f07f50460eaf427d48?vector=private&static=false",
+      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=SrB9eUf6894&vector=private&static=false",
+      "siteUrl": "https://www.thps.tp.edu.tw",
+      "attachments": [
+        "臺北特殊教育學校115學年度升國中參訪實施計畫_ATTCH1.pdf"
+      ],
+      "summary": "一、本校115學年度升國中參訪實施計畫，請參見附件。 二、活動日期：115年11月4日（三）下午1時30分至3時30分。 三、參加對象：臺北市國民小學之家長、學生及特教教師(或承辦人)，請惠允出席教師、學生公假。 四、報名方式：請各校特教組長或業務承辦人於10月8日（星期四）前統一填寫Google表單，並協助欲報名之家長、學生及特教教師完成線上報名程序，詳如實施計畫。 五、本校將於10月23日（星期五）以電子郵件方式與貴校確認參訪日期及相關注意事項。"
+    },
+    {
+      "id": "其他公告:敦化國小:6ac438b37f50460eaf42a5b7",
+      "schools": [
+        "敦化國小"
+      ],
+      "source": "其他公告",
+      "title": "轉知臺北市116年度寒假國中、小生職業輔導研習營實施計畫",
+      "published": "2026-10-05T23:45:00+00:00",
+      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/6ac438b37f50460eaf42a5b7?vector=private&static=false",
+      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=H0q9lCm0232&vector=private&static=false",
+      "siteUrl": "https://www.thps.tp.edu.tw",
+      "attachments": [
+        "29635296_1153105155_ATTCH1.pdf",
+        "29635296_1153105155_ATTCH2.pdf",
+        "29635296_1153105155_ATTCH3.jpg"
+      ],
+      "summary": "一、依據臺北市116年度寒假國中、小生職業輔導研習營實施計畫辦理。 二、本案委請大安高工擔任召集學校，並請本市各公私立普通型及技術型高中、職探中心及台北海洋科技大學承辦。 三、本案報名事宜如下（詳如附件）： (一)報名資格：本市公私立國民中學7至9年級學生及國民小 學5、6年級學生。 (二)報名方式： １、本營隊活動一律採本市「酷課 APP」或「酷課雲」 （網址：https://cooc.tp.edu.tw/）報名，公立學校 營隊可以透過「酷課 APP」繳費（繳費方式限用信用卡、ATM 及線上支付方式）；私立學校營隊繳費方式請參考「私立學校收費方式彙整表」。 ２、活動可由家長代報或學生自行報名（家長代報須完成 親子綁定，才可幫綁定之子女進行報名），請預先備妥「單一身分驗證服務」（網址：https://ldap."
+    },
+    {
+      "id": "校務公告:敦化國小:6ac438b37f50460eaf42a5b7",
+      "schools": [
+        "敦化國小"
+      ],
+      "source": "校務公告",
+      "title": "轉知臺北市116年度寒假國中、小生職業輔導研習營實施計畫",
+      "published": "2026-10-05T23:45:00+00:00",
+      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/6ac438b37f50460eaf42a5b7?vector=private&static=false",
+      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=1hdeMSJ5377&vector=private&static=false",
+      "siteUrl": "https://www.thps.tp.edu.tw",
+      "attachments": [
+        "29635296_1153105155_ATTCH1.pdf",
+        "29635296_1153105155_ATTCH2.pdf",
+        "29635296_1153105155_ATTCH3.jpg"
+      ],
+      "summary": "一、依據臺北市116年度寒假國中、小生職業輔導研習營實施計畫辦理。 二、本案委請大安高工擔任召集學校，並請本市各公私立普通型及技術型高中、職探中心及台北海洋科技大學承辦。 三、本案報名事宜如下（詳如附件）： (一)報名資格：本市公私立國民中學7至9年級學生及國民小 學5、6年級學生。 (二)報名方式： １、本營隊活動一律採本市「酷課 APP」或「酷課雲」 （網址：https://cooc.tp.edu.tw/）報名，公立學校 營隊可以透過「酷課 APP」繳費（繳費方式限用信用卡、ATM 及線上支付方式）；私立學校營隊繳費方式請參考「私立學校收費方式彙整表」。 ２、活動可由家長代報或學生自行報名（家長代報須完成 親子綁定，才可幫綁定之子女進行報名），請預先備妥「單一身分驗證服務」（網址：https://ldap."
+    },
     {
       "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=71919E4A45BBA9A4",
       "schools": [
@@ -340,6 +570,20 @@
         "臺北市115學年度「國中與國小資優生對談」活動實施計畫.odt"
       ],
       "summary": "參加對象 （一）國中：講員由設置資優班學校薦派學生擔任，每校學生 1-3 名，帶隊教師 1 名（每校學生加教師人數以 4 名為上限）。 （二）國小：臺北市國小 5 、 6 年級一般智能資優學生（含資優資源班、資優方案），每校薦派 1-3 名參加，以 60 名為限，報名超過規定人數時，依各校名額和報名順序由承辦學校安排錄取順位。 *** 如欲報名此活動，請盡速交齊報名表送至輔導室特教組。"
+    },
+    {
+      "id": "重要公告:仁愛國小:6ac3690c03022fe5d3b5acd2",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "衛生福利部疾病管制署於115年9月18日修訂「學校 ／幼兒園／補習班／兒童課後照顧服務班與中心流感群聚 防治指引」",
+      "published": "2026-10-05T09:04:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6ac3690c03022fe5d3b5acd2?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [],
+      "summary": "主旨：為轉知衛生福利部疾病管制署於115年9月18日修訂「學校／幼兒園／補習班／兒童課後照顧服務班與中心流感群聚防治指引」，請貴校落實流感防治工作一案，請查照。 說明： 一、依據本府衛生局115年9月30日北市衛疾字第1153141678號函辦理。 二、旨揭防治指引修訂重點說明如下，請落實校園流感防治工作： (一)平時防疫作為： １、落實生病教職員工／學（幼）生應在家休養，新增說明應於 「未使用退燒藥物下」，直至退燒後至少24小時才能返回上課。 ２、新增應加強室內空氣流通，如加強開窗、使用機械通風／空氣清淨設備、必要時監測二氧化碳濃度作為通 風指標。 (二)疑似群聚事件發生時防疫作為： １、補充說明類流感症狀及群聚事件定義。 ２、停課措施建議採取「 生病不上課、不上班 」與自主健康管理為主要防疫措施，提醒生病學"
     },
     {
       "id": "研習資訊:建安國小:6ac3615ef6371be3a6d44972",
@@ -1019,6 +1263,26 @@
       "summary": "115學年度第2學期高級中等以下教育階段非學校型態實驗教育計畫申請自即日起至115年10月31日止 一、為響應環保減碳計畫採線上方式申請，申請方式可參閱「臺北市實驗教育創新發展中心官網」網址：https://teecid.tp.edu.tw/與「臺北市政府教育局高級中等以下教育階段非學校型態實驗教育申請暨審議作業系統，網址：https://tpnee.tp.edu.tw/。 二、學生之法定代理人申請辦理個人非學校型態實驗教育計畫，應於115年10月1日（星期四）至115年10月31日（星期六）前完成線上註冊與申請，並將相關資料上傳至系統，並於115年11月2日（星期一）下午4時前，將「申請表」、「家長需求表」兩份親簽紙本文件，送至戶籍所在地學區學校（公立小學），逾時將不再受理申請。 三、各校應於受理個人申請辦理"
     },
     {
+      "id": "重要公告:仁愛國小:6ac2f94d1291f4ce95701f03",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "115學年度第2學期高級中等以下教育階段非學校型態實驗教育計畫申請自即日起至115年10月31日止",
+      "published": "2026-10-05T00:59:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6ac2f94d1291f4ce95701f03?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "【附件1】教育局通知事項.pdf",
+        "【附件2】高級中等以下教育階段非學校型態實驗教育實施條例.pdf",
+        "【附件3】高級中等以下教育階段非學校型態實驗教育實施條例.pdf",
+        "【附件4】個人申請計畫書格式含附件(115新版).odt",
+        "【附件5】家長需求表(115版).odt"
+      ],
+      "summary": "115學年度第2學期高級中等以下教育階段非學校型態實驗教育計畫申請自即日起至115年10月31日止 一、為響應環保減碳計畫採線上方式申請，申請方式可參閱「臺北市實驗教育創新發展中心官網」網址：https://teecid.tp.edu.tw/與「臺北市政府教育局高級中等以下教育階段非學校型態實驗教育申請暨審議作業系統，網址：https://tpnee.tp.edu.tw/。 二、學生之法定代理人申請辦理個人非學校型態實驗教育計畫，應於115年10月1日（星期四）至115年10月31日（星期六）前完成線上註冊與申請，並將相關資料上傳至系統，並於115年11月2日（星期一）下午4時前，將「申請表」、「家長需求表」兩份親簽紙本文件，送至戶籍所在地學區學校（公立小學），逾時將不再受理申請。 三、各校應於受理個人申請辦理"
+    },
+    {
       "id": "榮譽榜:建安國小:6ac2f749d17d0fce1b5ecdc4",
       "schools": [
         "建安國小"
@@ -1221,6 +1485,22 @@
       "published": "2026-10-02T09:43:00+00:00",
       "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6abf7e1b427555cb95bd9ad1?vector=private&static=false",
       "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=ZXFNybM7991&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "臺北市仁愛國小115年度推動兒童深耕閱讀自編故事劇本徵件校內初賽比賽成績.pdf"
+      ],
+      "summary": "恭喜以上得獎的學生～ 以上各組作品將代表本校參加臺北市比賽。"
+    },
+    {
+      "id": "重要公告:仁愛國小:6abf7e1bdd447956a532b92c",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "臺北市仁愛國小115年度推動兒童深耕閱讀自編故事劇本徵件校內初賽比賽成績",
+      "published": "2026-10-02T09:43:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6abf7e1bdd447956a532b92c?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
       "siteUrl": "https://www.japs.tp.edu.tw",
       "attachments": [
         "臺北市仁愛國小115年度推動兒童深耕閱讀自編故事劇本徵件校內初賽比賽成績.pdf"
@@ -3816,6 +4096,22 @@
       "summary": "1966 長照服務專線，提供便利 長期照顧服務諮詢及申請的單一窗口！ 5 分鐘內通話免 付費 ！一通電話 ，留下資訊 ，讓長照服務就近到 您家。"
     },
     {
+      "id": "重要公告:仁愛國小:6abb2e1cbab47408a025fec0",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "115年度人事室約僱身障書記甄選",
+      "published": "2026-09-29T03:16:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6abb2e1cbab47408a025fec0?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "人事室約僱書記簡章(1150929).pdf"
+      ],
+      "summary": "詳細如簡章。"
+    },
+    {
       "id": "學校公告:光復國小:6abb1fe18dee8f0510d08721",
       "schools": [
         "光復國小"
@@ -4171,6 +4467,20 @@
       "siteUrl": "https://www.baps.tp.edu.tw",
       "attachments": [],
       "summary": "旨揭考試定於115年10月6日起至10月15日下午5時止受理網路報名，請有意報考之民眾至考選部全球資訊網站查詢相關資訊。"
+    },
+    {
+      "id": "重要公告:仁愛國小:6abb019d6869cbcbd4d134e6",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "本校115學年度家長會會長、副會長當選名單",
+      "published": "2026-09-29T00:05:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6abb019d6869cbcbd4d134e6?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [],
+      "summary": "恭賀當選 家長會會長─ 謝英哲會長 家長會副會長─郭家嘉女士、林孜俞先生、王宣涵女士 同時也感謝114學年度王宣涵會長帶領的家長會幹部與志工們的奉獻與服務!!"
     },
     {
       "id": "教師研習及活動:光復國小:6abaf8be0e9ba0898a62c2a9",
@@ -5723,6 +6033,20 @@
       "siteUrl": "https://www.kfps.tp.edu.tw",
       "attachments": [],
       "summary": "恭喜本校265童軍團，榮獲臺北市政府教育局頒發「年度績優童軍團」！ 本校的稚齡童軍與幼童軍們，平時除了參與各項童軍活動，更把童軍「服務」的精神帶進生活中。每年積極參與幼(女)童軍大會、SDGs永續發展推廣活動及社區童軍大會，用實際行動服務他人、回饋社區。 在交通禮讓月期間，稚齡與幼童軍們還走到捷運站出入口，勇敢地拿著宣導牌，向民眾宣導交通安全與禮讓精神。 因為長期的努力與付出，光復童軍團再次獲得「績優童軍團」的肯定。 感謝指導老師、導師、家長平時的支持與指導!!!"
+    },
+    {
+      "id": "重要公告:仁愛國小:6aace11c650e07ef7ae35e78",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "115學年度校園流感疫苗接種線上意願簽署公告",
+      "published": "2026-09-23T00:00:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6aace11c650e07ef7ae35e78?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [],
+      "summary": "親愛的家長您好： 因應臺北市政府推行「校園流感疫苗電子化系統(NIAS)」，本校115學年度校園流感疫苗接種以提供簽署網頁連結網址及QR code的方式，進行線上意願簽署 （僅限家長或監護人簽屬） ，煩請家長使用❗❗ 正楷全名 ❗❗（ 無法辨識或非全名則屬 無效 的意願書 ） ★無論同意或不同意都請家長填寫 ，感謝！ (1) 接種日期： 115年10月22日(星期四)、10月23日(星期五) (2) 承辦醫院：臺北市立聯合醫院仁愛院區 (3) 線上簽署截止日：115年10月8日(星期四)23:59前，截止日前皆可更改接種意願，只需掃描相同QR code後填寫，即可覆蓋先前的意願。 (4) 若家長有紙本意願書之需求，可請學童另至健康中心領取 (5)線上簽署截止後，若同意在校接種，但當天因故無法接種(公、事假)，將"
     },
     {
       "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=CF4837E82F9BF7B6",
@@ -9462,6 +9786,22 @@
       "summary": "詳見附件"
     },
     {
+      "id": "重要公告:仁愛國小:6aaa0ad6b8752c5aab09166d",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "115年度人事室約僱身障書記甄選",
+      "published": "2026-09-16T03:19:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6aaa0ad6b8752c5aab09166d?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "人事室約僱書記簡章 .pdf"
+      ],
+      "summary": "詳如簡章。"
+    },
+    {
       "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=E8E245384FE13EF9",
       "schools": [
         "仁愛國小",
@@ -9881,6 +10221,20 @@
       "siteUrl": "https://www.doe.gov.taipei",
       "attachments": [],
       "summary": "財團法人新北市私立瑤華仙主社會福利慈善事業基金會辦理「第七屆書藝獎-全國國中小書法比賽」，訂於11月7日(星期六)下午1:00至下午5:30，假新北三重國小辦理。活動計畫、比賽簡章、報名表如附件。 財團法人新北市私立瑤華仙主社會福利慈善事業基金會書法比賽(附件).pdf"
+    },
+    {
+      "id": "重要公告:仁愛國小:6aa900467fba202574dadba9",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "臺北市政府教育局 115 學年度國小清寒學童早餐補助計畫",
+      "published": "2026-09-15T08:20:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6aa900467fba202574dadba9?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [],
+      "summary": "壹、 計畫目標： 提供清寒學童衛生安全之早餐，並藉此養成吃早餐的習慣，進而提升經濟弱勢學童體力及學習能力、促進健康並儲備未來的競爭力。 貳、主辦單位：臺北市政府教育局（以下簡稱本局） 。 參、承辦單位：本局所屬公立國民小學。 肆、辦理期程：自開學日起至學年度上課日結束（依學校實際供餐日）。 伍、供應對象：校內符合下列條件且 實有需求 、有意願參加本計畫之學生： 一、具臺北市政府社會局核發低收入戶卡。 二、具臺北市政府社會局核發中低收入戶卡。 三、家庭突遭變故（含失業、被裁員、給予無薪假者及其他不可抗力因素）， 經班級導師及學校評估認定 實有需要者。 陸、申請方式：第一學期請於115年9月17日前，向學務處衛生組提出申請，以利後續造冊送局。"
     },
     {
       "id": "其他公告:敦化國小:6aa8f69b63f55618c96edf51",
@@ -10753,6 +11107,26 @@
         "29455259_1156006432_ATTCH1.pdf"
       ],
       "summary": "旨揭計畫內容簡述如下： (一)研習日期：115年9月22日（星期二）上午9時至下午4時整。 (二)研習地點：臺北市立東湖國民中學（場地待報名人數確定後，另行公告於東湖國中校網）。 (三)研習對象：有意參加、已經在準備參加臺北市中小學科展之指導教師，或本市中小學對指導科展有興趣之數學與自然科學教師： １、國小、國中各校請薦派數學科教師1至2名、自然科教師1至4名、科技領域教師1至4名參加。２、高中請各校自行評估，數學科教師以1至2名為限、自然科教師以1至4名為限。 (四)報名方式： １、高中教師請於115月9月15日（星期二）下午5時前逕上臺北市教師在職研習網 （https://insc.tp.edu.tw）報名，並敬請各校予出席人員公假及課務派代。（核准文號：北市研習字第1150818029號） ２、國中小教師"
+    },
+    {
+      "id": "重要公告:仁愛國小:6aa73a02d7a688c7698b0ed2",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "臺北市116學年度國民小學一般智能資賦優異學生鑑定安置計畫",
+      "published": "2026-09-14T01:00:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6aa73a02d7a688c7698b0ed2?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "1-臺北市116學年度國民小學一般智能資賦優異學生鑑定安置計畫.pdf",
+        "2-臺北市116學年度國民小學一般智能資賦優異學生鑑定安置問題與解答（Q＆A）.pdf",
+        "3-臺北市116學年度國民小學一般智能資賦優異學生鑑定安置說明會-簡報.pdf",
+        "4-臺北市116學年度國民小學一般智能資賦優異學生鑑定安置報名系統家長操作簡報_報名三步驟.pdf",
+        "5-臺北市116學年度國民小學一般智能資賦優異學生鑑定安置宣導相關資料(雲端連結).pdf"
+      ],
+      "summary": "敬愛的家長您好： 116資優鑑定計畫及重要日程表，請參閱附件資料。 １、一律採 【網路報名】 ，請學生及家長於 115年10月6日（星期二）凌晨12：00起至10月12日（星期一）中午12時止 ，至「臺北市國民小學一般智能資優學生鑑定安置系統」( https://www.gtide.tp.edu.tw ）完成線上報名資料填寫， 逾時不予受理 。 相關操作方式及流程，請詳見系統裡「報名操作影片」說明 。 ２、 報名時請使用「臺北市單一身分驗證」（學生個人帳號，非親子綁定帳號）登入系統 ： 請家長先行測試單一身分驗證是否能順利登入 （例如：以酷課雲測試 ， 請勿以鑑定系統測試，鑑定系統需待報名日才開啟登入功能。) 若有帳號相關問題可電話洽詢下列分機： 特教組陳老師 27095010#504 或資訊組陳老師 2709"
     },
     {
       "id": "一般消息:仁愛國小:6aa7481260044dc9777a8f2e",
@@ -11831,6 +12205,22 @@
       "published": "2026-09-11T06:48:00+00:00",
       "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6aa3a480d718d80ea345f08b?vector=private&static=false",
       "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=Oebafow5996&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "臺北市115年學生美術比賽校內初選得獎名單.pdf"
+      ],
+      "summary": "臺北市115年學生美術比賽校內初選比賽 得獎名單 請參閱附件檔案 黃色欄位為獲選代表學校參加臺北市學生美術比賽之作品 恭喜所有得獎小朋友!! 除獲選代表學校參賽之作品外，其餘作品10/8(四)前退還學生，感謝大家熱情參與比賽!!"
+    },
+    {
+      "id": "重要公告:仁愛國小:6aa3a480c1ad7f0ba40abd39",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "臺北市115年學生美術比賽校內初選比賽 得獎名單",
+      "published": "2026-09-11T06:48:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6aa3a480c1ad7f0ba40abd39?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
       "siteUrl": "https://www.japs.tp.edu.tw",
       "attachments": [
         "臺北市115年學生美術比賽校內初選得獎名單.pdf"
@@ -18641,6 +19031,20 @@
       "summary": "依據臺北市政府教育局115年8月31日北市教國字第1153093408號函 本校115學年度三、六年級平均人數已達每班人數之上限，公告額滿並協助學童改分發至鄰近國小。 115學年度三、六年級學生額滿之改分發學校如下： (一)三年級：大安區建安國小及信義區光復國小、三興國小。 (二)六年級：信義區三興國小、博愛國小。 若學區學童有改發之需求，請洽2709-5010分機203註冊組陳老師。"
     },
     {
+      "id": "重要公告:仁愛國小:6ac316a3094bcbd487c60855",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "【公告】本校115學年度三、六年級學生人數額滿",
+      "published": "2026-09-01T01:05:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6ac316a3094bcbd487c60855?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [],
+      "summary": "依據臺北市政府教育局115年8月31日北市教國字第1153093408號函 本校115學年度三、六年級平均人數已達每班人數之上限，公告額滿並協助學童改分發至鄰近國小。 115學年度三、六年級學生額滿之改分發學校如下： (一)三年級：大安區建安國小及信義區光復國小、三興國小。 (二)六年級：信義區三興國小、博愛國小。 若學區學童有改發之需求，請洽2709-5010分機203註冊組陳老師。"
+    },
+    {
       "id": "親職資訊:6a9624ac71391d3910d1b6d4",
       "source": "親職資訊",
       "title": "11509【親職教養文章】開學前晚睡、拖拖拉拉？輔大教授：收心不只靠意志力，3方法啟動「大腦執行功能」",
@@ -19423,6 +19827,23 @@
       "summary": ""
     },
     {
+      "id": "重要公告:仁愛國小:6a939b86ee4903b0abde5bf5",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "115學年度學校工程說明信",
+      "published": "2026-08-30T02:34:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6a939b86ee4903b0abde5bf5?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "給家長的一封信1150824.jpg",
+        "115學年度校園平面圖1150827(自強廁所)_1.jpg"
+      ],
+      "summary": ""
+    },
+    {
       "id": "活動專欄:建安國小:6a9138616d22f13c65c11ccb",
       "schools": [
         "建安國小"
@@ -19829,6 +20250,22 @@
       "siteUrl": "https://www.doe.gov.taipei",
       "attachments": [],
       "summary": "活動相關資訊摘要如下： ( 一 ) 對象：已參與並完成地方輔導團辦理之「探究教學能力 ─ 初階課程培訓」之國中、國小自然科學領域教師（含 國民教育地方輔導團自然科學分團輔導員）。 ( 二 ) 日期： 115 年 9 月 19 日（星期六）上午 9 時 30 分至下午 4 時 40 分。 ( 三 ) 地點：國立彰化師範大學（進德校區） ─ 王金平活動中 心三樓 A304 、 A305 會議室。 ( 四 ) 報名網址： https://reurl.cc/Vn8NVY 。 如有相關疑義，請洽國立彰化師範大學科學教育研究所 陳小姐，電話： 04-723-2105 轉 3020 ， E-mail ： chytlee@cc.ncue.edu.tw ；或施小姐，電話： 04-723-2105 轉 3122 ， E-mail "
+    },
+    {
+      "id": "重要公告:仁愛國小:6a913facbab317410e8c0d9a",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "《補填寫》臺北市大安區仁愛國民小學115學年度第1學期【學生】學校營養午餐暨放學路隊調查表",
+      "published": "2026-08-28T07:46:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6a913facbab317410e8c0d9a?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "填寫表單"
+      ],
+      "summary": "為落實源頭減量，減少資源浪費，同時教導並養成學生珍惜食物的實踐，煩請未填寫表單的家長，盡速協助填寫表單，以利用餐人數統計，感謝大家的幫忙！"
     },
     {
       "id": "校務公告:敦化國小:6a9130376d22f13c65bde677",
@@ -20897,6 +21334,20 @@
       "published": "2026-08-26T09:18:00+00:00",
       "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6a8eb52c7e48f6b20c5011a1?vector=private&static=false",
       "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=APLjRbb4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [],
+      "summary": "敬愛的新生家長好，歡迎孩子進入仁愛國小大家庭，開學日為8月31日(一)，上午7：30-7：50請孩子穿著制服直接至各班教室報到，若您計畫陪伴孩子入校，當日各項活動流程如下: 7：30-7：50 準時到校、入班 (大門穿堂處布置有迎新手板及敲響智慧鑼活動，歡迎為孩子照拍留念) 7：50-9：20 親師生相見歡、導師級務提醒 9：20-9：30 請依循指標至圖書館四樓活動中心參加座談會 9：30-12：00 新生家長座談會 (校務簡報、親職講座) 12：00-12：25 志工招募說明 12：25-12：35 返回教室 12：40 陪同孩子放學 提醒事項 考量校園安全，陪同新生入校家長以2人為原則，並除一年級教室及座談會會場外，請勿進入其它教學區域。 9：20孩子留在教室交給導師，請家長移步至活動中心參加座談會。 配"
+    },
+    {
+      "id": "重要公告:仁愛國小:6a8eb52c7e48f6b20c5011a1",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "【新生開學日】115學年度開學日 新生家長入校及座談會活動",
+      "published": "2026-08-26T09:18:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6a8eb52c7e48f6b20c5011a1?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
       "siteUrl": "https://www.japs.tp.edu.tw",
       "attachments": [],
       "summary": "敬愛的新生家長好，歡迎孩子進入仁愛國小大家庭，開學日為8月31日(一)，上午7：30-7：50請孩子穿著制服直接至各班教室報到，若您計畫陪伴孩子入校，當日各項活動流程如下: 7：30-7：50 準時到校、入班 (大門穿堂處布置有迎新手板及敲響智慧鑼活動，歡迎為孩子照拍留念) 7：50-9：20 親師生相見歡、導師級務提醒 9：20-9：30 請依循指標至圖書館四樓活動中心參加座談會 9：30-12：00 新生家長座談會 (校務簡報、親職講座) 12：00-12：25 志工招募說明 12：25-12：35 返回教室 12：40 陪同孩子放學 提醒事項 考量校園安全，陪同新生入校家長以2人為原則，並除一年級教室及座談會會場外，請勿進入其它教學區域。 9：20孩子留在教室交給導師，請家長移步至活動中心參加座談會。 配"
@@ -22423,6 +22874,22 @@
       "summary": "臺北市大安區仁愛國小「 115 學年度臺北市學生美術比賽」校內初選辦法 * 收件日期： 8/31( 一 ) 起 至 9/4(五) 下午 16 時止 （交予導師，以班級為單位送至教務處） * 同一類組每人限送作品 1 件，每人至多參加兩類。 * 請自行下載報名表格，填寫完成後黏貼於作品背面左下角。 * 指導老師限本校教師，其他詳細辦法請參閱附件。"
     },
     {
+      "id": "重要公告:仁愛國小:6a87ae74542c5f59a81f3ac2",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "臺北市大安區仁愛國小「115學年度臺北市學生美術比賽」校內初選辦法",
+      "published": "2026-08-21T01:45:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6a87ae74542c5f59a81f3ac2?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "115臺北市學生美術比賽校內初選辦法.pdf"
+      ],
+      "summary": "臺北市大安區仁愛國小「 115 學年度臺北市學生美術比賽」校內初選辦法 * 收件日期： 8/31( 一 ) 起 至 9/4(五) 下午 16 時止 （交予導師，以班級為單位送至教務處） * 同一類組每人限送作品 1 件，每人至多參加兩類。 * 請自行下載報名表格，填寫完成後黏貼於作品背面左下角。 * 指導老師限本校教師，其他詳細辦法請參閱附件。"
+    },
+    {
       "id": "學校公告:光復國小:6a87ab7504469758bfa58b7e",
       "schools": [
         "光復國小"
@@ -22650,6 +23117,23 @@
       "published": "2026-08-21T00:00:00+00:00",
       "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6a87183ba186e03a01a506b5?vector=private&static=false",
       "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=ZXFNybM7991&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "115-1課外社團上課教室一覽表.pdf",
+        "115-1課後活動上課場地一覽表.pdf"
+      ],
+      "summary": "115 學年度第 1 學期「課外社團活動」及「課後照顧班」上課地點及注意事項： 開課時間： 開學日 8 月 31 日 ( 一 ) 同步開課 ，請家長留意上課時間及上課地點（請參閱附件）。 課外社團 第一次上課8/31-9/4 請學 生於操場集合，再由任課教師帶至上課地點。 線上申請退費： https://www.japs.tp.edu.tw/nss/s/main/p/73 若要辦理課外社團活動或課後照顧班退費，請先線上申請填寫「臺北市大安區仁愛國民小學課外社團活動或課後照顧班退費申請」，承辦人將在收到您的申請後，列印申請表並填妥退費金額，交由學生帶回於申請表下方「申請人」欄位簽名，並檢附相關資料，由學生交回學校。 「課外社團活動」及「課後照顧班」請假：歡迎善用 LINE@ 線上請假，敬請加入 @ra270950"
+    },
+    {
+      "id": "重要公告:仁愛國小:6a87183bff03613ca50a5b01",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "115學年度第1學期「課外社團活動」及「課後照顧班」上課地點及注意事項",
+      "published": "2026-08-21T00:00:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6a87183bff03613ca50a5b01?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
       "siteUrl": "https://www.japs.tp.edu.tw",
       "attachments": [
         "115-1課外社團上課教室一覽表.pdf",
@@ -24538,6 +25022,20 @@
       "summary": "專案代理教師：蔡○軒。 請蔡○軒 1 人於 115 年 8 月 13 日 ( 四 ) 上午 11 時前，攜帶【報名文件檢附之正本及各項得以提敘薪之職前年資證明正本】至本校人事辦理報到，未報到者視同棄權，遺缺將改列後續各階段名額。"
     },
     {
+      "id": "重要公告:仁愛國小:6a7c22e92959a31e22fbad7b",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "115學年度代理教師兼訓育組長甄試第3招 甄試結果公告",
+      "published": "2026-08-12T09:30:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6a7c22e92959a31e22fbad7b?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [],
+      "summary": "1.一般類科兼訓育組長 正取:黃O銘 備取:無 請以上正取人員於115年8月13日(週四)上午9時至11時攜帶全部學經歷證件、1吋照片1張、合作金庫銀行帳戶影本至本校人事室辦理報到事宜。"
+    },
+    {
       "id": "一般消息:6a7c34faa0b0b71a840fa625",
       "source": "一般消息",
       "title": "國立海洋科技博物館-「2026未來哥倫布」補助計畫",
@@ -25013,6 +25511,25 @@
       "summary": "一、依本府115年8月6日府授消減字第1153040245號函辦理。 二、旨揭活動訂於115年9月19日（星期六）13時30分至16時 30 分，假國立國父紀念館（地址：本市信義區仁愛路四段505 號）舉辦。 三、活動內容及獎品豐富，包含舞臺節目表演、宣導攤位闖關 活動及防災互動體驗等項目，歡迎教職員工生及家長踴躍參與。"
     },
     {
+      "id": "重要公告:仁愛國小:6a7ab2e54b6a0dd45670f76e",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "「中聯油脂事件」團體訴訟申請案",
+      "published": "2026-08-11T01:24:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6a7ab2e54b6a0dd45670f76e?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "申請表1_115年致癌沙拉油校園團體訴訟請求人基本資料表.pdf",
+        "申請表2_請求權讓與同意書.pdf",
+        "申請表3_無與業者達成和解切結書及提供個人資料使用同意書.pdf",
+        "115年致癌沙拉油校園團體訴訟作業說明.pdf"
+      ],
+      "summary": "親愛的家長、師生們： 經與本校午餐團膳供應廠商「新北食品股份有限公司」與「上將食品有限公司」再次進行查證，確認於中華民國115年4月16日至6月30日期間，曾使用到此次受影響益康大豆沙拉油18公升、福壽好味香油3公升、福壽大豆沙拉油18公升之油品。 此次事件源於上游油品供應問題，影響師生食安健康。 社團法人台灣消費者保護協會（下稱消保協會）受託辦理「中聯油脂事件」團體訴訟申請案， 學校將於開學後協助曾於4月至6月用餐之2~6年級在校生及老師辦理後續團體訴訟。 有意提起團體訴訟之教職員工生表件將由本校學務處彙整全校提出申請之資料後逕送消保協會提出申請， 114學年度應屆畢業生、轉校生，請於 10/2 前至下方附件下載申請團體訴訟資料填寫共3張、連同 身分證明文件 送(親送/郵寄)至 學務處衛生組 。 說明： 一、"
+    },
+    {
       "id": "校外競賽:6a7a79b170d221c60f39e3a6",
       "source": "校外競賽",
       "title": "轉知：臺北市體育總會舞龍舞獅協會辦理「2026全國聖母盃舞龍舞獅錦標賽」一案",
@@ -25068,6 +25585,25 @@
         "29180241_1153086833_ATTCH2.pdf"
       ],
       "summary": "一、依據中華民國卡巴迪運動協會115年7月28日臺卡榮字第 1150000199號函辦理。 二、旨揭賽事涉及本局體育獎勵金核發，請鼓勵所屬人員踴躍 參賽，相關資訊如下： (一)比賽日期：115年11月24日（星期二）至115年11月27日 （星期五）。 (二)比賽地點：玄奘大學元亨堂（新竹市香山區玄奘路48 號）。 (三)報名日期：即日起至115年11月3日截止（以郵戳為 憑）。 三、檢附中華民國115學年度總統盃全國卡巴迪錦標賽報名表及 115學年度總統盃全國卡巴迪錦標賽競賽規程各1份供參。"
+    },
+    {
+      "id": "重要公告:仁愛國小:6a7ab2b821759cd3e79aa820",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "有關本校校園營養午餐食用油說明",
+      "published": "2026-08-11T01:12:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6a7ab2b821759cd3e79aa820?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "新北_聲明書 0703.pdf",
+        "上將-沙拉油聲明書0715.pdf",
+        "天仁_聲明書0707.pdf",
+        "給家長們的一封信.pdf"
+      ],
+      "summary": "經調查，本校兩家營養午餐供應廠商說明如下： 新北食品股份有限公司( 相關說明請參閱附件)、 士福食品有限公司( 相關說明請參閱附件) 另附上 校長給家長的一封信 ，供家長參閱。 本次事件仍持續調查中，如有最新調查結果或相關資訊更新，本校將立即更新並公告周知。 115年8月21日更新： 一、依據本局115年7月2日北市教體字第1153079587號函、115年7月6日北市教體字第1153080330號函及115年7月7日北市教體字第1153080643號函續辦。 二、為確保校園午餐安全，消弭家長對中聯油脂苯駢芘超標事件疑慮，本局重申以下因應作為： (一)完成油品封存與停用：本局自115年7月2日起已陸續會同衛生局完成21場次專案實地稽查，針對受影響團膳業者亦全數完成問題油品清點與封存作業，並通令全面預防性停用涉案"
     },
     {
       "id": "一般消息:6a7a77a1fe0a01c65fb8041a",
@@ -25772,6 +26308,22 @@
       "summary": "一、依本局2026年國際身心障礙者日活動實施計畫辦理。 二、每年12月3日為聯合國訂定之「國際身心障礙者日」，本局為促進社會大眾對身心障礙者權益的瞭解與重視，本（115）年度以「共擁故事，共融臺北」為主題，辦理系列攝影徵件活動，透過鏡頭記錄並呈現身心障礙者生活中剪影，真實展現日常生活不同情境樣貌。 三、本案徵件相關資訊摘要如下： (一)徵件主題：以身心障礙者為主角，捕捉生活中的每一個真實感動瞬間。 (二)參加組別： １、專業攝影組：參賽資格符合攝影相關從業人員、曾擔任攝影講師、評審、攝影工作室經營者，或以攝影為主要收入來源者。 ２、一般創作組：包含身心障礙者、家屬、照顧者及一般民眾。 (三)報名及收件方式：即日起至115年9月23日（星期三）止，採網路收件，請參賽者至個人雲端空間上傳作品，並完成Google表單"
     },
     {
+      "id": "重要公告:仁愛國小:6a72d7d87a617755ecddee5d",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "115學年度代理教師(營養午餐專案教師)甄聘",
+      "published": "2026-08-07T00:00:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6a72d7d87a617755ecddee5d?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "115-1國小代理教師甄選簡章(專案教師)第五招.pdf"
+      ],
+      "summary": ""
+    },
+    {
       "id": "校外競賽:光復國小:6a751ff4128f07c6b497a3b6",
       "schools": [
         "光復國小"
@@ -25896,6 +26448,22 @@
       "published": "2026-08-06T01:33:00+00:00",
       "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6a73e71767eea9896f3d2b4e?vector=private&static=false",
       "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=Oebafow5996&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "臺北市仁愛國小115學年度兒童美術創作展校內實施計畫.pdf"
+      ],
+      "summary": "臺北市仁愛國小115年度「小小美術家」兒童美術創作展校內實施計畫 歡迎小朋友挑選自己創作的 3 件或 6 件作品， 填妥作品標籤 + 報名表 ， 低年級送交各班導師、中高年級送交美勞老師進行班級初審，初審無名額限制，歡迎並鼓勵所有學生參加。 *** 學生初審作品收件日期為 10/19( 一 ) 至 10/21(三) 美術護照 2-6 年級學生若遺失，可至教務處申請補發 (10/14 起 ) ； 一年級新生則於 活動結束後 統一發下。"
+    },
+    {
+      "id": "重要公告:仁愛國小:6a73e7178012a88b0b7c4004",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "臺北市仁愛國小115學年度「小小美術家」兒童美術創作展校內實施計畫",
+      "published": "2026-08-06T01:33:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6a73e7178012a88b0b7c4004?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
       "siteUrl": "https://www.japs.tp.edu.tw",
       "attachments": [
         "臺北市仁愛國小115學年度兒童美術創作展校內實施計畫.pdf"
@@ -26404,6 +26972,22 @@
       "summary": "第三階段熱烈報名中 歡迎家長與學生上社團報名網站查看報名!! 8/10 第三階段的名額請上系統觀看，我們準時開搶唷~~ 有不成班名單歡迎到下方下載pdf查詢。 7/30 10:10 更新第二階段繳費狀況，可登入系統查看。 預計8/13前會公告第三階段名額，以下幾點特別說明。 1.第三階段名額會根據提出退社申請之人數增減，最後名額請以系統上為主。 2.第三階段報名時間8/17 (一)12:30~8/18(二) 23:59 網站上報名，8/19 (三) 08:30~16:00至 8/24(一)08:30~16:00 至學務處現場繳費 3.第三階段只開放有 且有剩餘名額之報名。 4.不成班名單如附件，可下載觀看。 ____________________________________________________"
     },
     {
+      "id": "重要公告:仁愛國小:6a6ae173d7017ed2be12f16e",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "115學年度第1學期第3次代理教師甄選簡章(一般類科 兼訓育組長)",
+      "published": "2026-07-31T00:00:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6a6ae173d7017ed2be12f16e?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "115-1國小代理教師第三招甄選簡章(行政)1150805.pdf"
+      ],
+      "summary": ""
+    },
+    {
       "id": "一般消息:6a6b6c81e784cbef8aa9ca08",
       "source": "一般消息",
       "title": "轉知文化部文化資產局辦理「2026全國古蹟日活動」，請踴躍參加。",
@@ -26823,6 +27407,22 @@
       "summary": "一、依據本局115年度校園心理健康促進工作實施計畫辦理。 二、為增進校園認輔志工及家長對兒少心理健康議題之認識， 爰辦理兩場次線上課程，資訊如下： (一)115年8月25日(二)晚上6時30分至8時30分，講座主題： 「想陪伴卻不知如何靠近？認識憂鬱與陪伴技巧」，講 師為社團法人Over Blue 陪伴憂鬱者協會林品君執行 長。 (二)115年9月9日(三)晚上6時30分至8時30分，講座主題： 「談ADHD的就診與用藥迷思：用正確的知識，陪伴孩子 安穩成長」，講師為昀樂身心診所李宛臻醫師。 三、課程內容詳如宣傳海報，報名相關事項如下： (一)授課對象：各級學校認輔志工與學生家長。 (二)課程費用：免費。 (三)辦理方式：線上講座，使用webex系統，課程連結待報名 完成後，另以電子郵件寄送。 (四)研習時數："
     },
     {
+      "id": "重要公告:仁愛國小:6a66ee97ab735f107f1c0947",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "115學年度第1學期第11次代理教師甄選簡章(健體)",
+      "published": "2026-07-27T05:34:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6a66ee97ab735f107f1c0947?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "115-1國小代理教師甄選簡章(健體)1150724.pdf"
+      ],
+      "summary": ""
+    },
+    {
       "id": "學校公告:光復國小:6a66ec7a06151415ba7ac4ce",
       "schools": [
         "光復國小"
@@ -27215,6 +27815,24 @@
       "published": "2026-07-21T06:50:00+00:00",
       "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6a5f18095163c798322e4446?vector=private&static=false",
       "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=ZXFNybM7991&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "115學年度五年級編班結果(遮罩版).pdf",
+        "115學年度三年級編班結果(遮罩版).pdf",
+        "115學年度一年級編班結果(遮罩版).pdf"
+      ],
+      "summary": "一、本校 115 學年度一、三、五年級編班作業於 115 年 7 月 21 日 ( 二 ) 上午辦理完畢，附件為學生編班結果名冊，敬請家長參閱。 二、依臺北市政府教育局指示，公告學童姓名等個資須進行遮蔽，若因姓名遮蔽無法確認，請於平日上午 9 點至 16 點電洽教務處註冊組 2709-5010 分機 203 陳老師。 三、115學年度轉入生不參與本次編班，後續訂於115年8月21日(五)上午進行轉入生編班，以抽籤方式編訂班級。 四、目前尚有多數小一新生家長未完成新生報到系統之資料填寫，請重新登入報到系統，確認資料填寫狀況，並確認已成功上傳學生照片，以利後續數位學生證製卡流程。新生報到網址： https://newstd.tp.edu.tw/Login.action"
+    },
+    {
+      "id": "重要公告:仁愛國小:6a5f18091bceca9682d5a3f2",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "【公告】115學年度一、三、五年級學生編班名冊",
+      "published": "2026-07-21T06:50:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6a5f18091bceca9682d5a3f2?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
       "siteUrl": "https://www.japs.tp.edu.tw",
       "attachments": [
         "115學年度五年級編班結果(遮罩版).pdf",
@@ -29778,6 +30396,26 @@
       "summary": "115 學年度第 1 學期【課外社團暨課後照顧班】報名系統於 6/23 上線，請把握【第一階段】報名及繳費時程。 說明事項： 請家長務必事先登入系統後至 「個人資料設定」 填寫聯絡電話（請參閱附件「報名系統說明」 ) 。 上課日期：上課日期： 115/8/31 （一）～ 116/1/19 （二）。期中考、期末考不停課，若不克參加請事先請假。 停課日期： 115/9/25 （五）中秋節、 115/9/28 （一）孔子誕辰紀念日 / 教師節、 115/10/9 （五）國慶日補假、 115/10/26 （一）臺灣光復暨金門古寧頭大捷紀念日補假、 115/11/23 （一）校慶補假、 115/12/25 （五）行憲紀念日、 116/1/1 （五）中華民國開國紀念日。補課日期：無。 ​ 報名及繳費期程 課外社團 第一階段"
     },
     {
+      "id": "重要公告:仁愛國小:6a0d79685b7da00a5d9716e7",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "115學年度第1學期課後報名6/23（二）開始。（一律線上報名繳費，敬請留意報名繳費期程，逾期不再受理報名）",
+      "published": "2026-06-16T00:00:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6a0d79685b7da00a5d9716e7?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "報名系統說明.pdf",
+        "115-1課外社團暨課後照顧班招生簡章.pdf",
+        "115-1課後活動班簡介.pdf",
+        "115-1課外社團活動簡介0615更新版.pdf",
+        "115-1課後活動班簡介(無午餐).pdf"
+      ],
+      "summary": "115 學年度第 1 學期【課外社團暨課後照顧班】報名系統於 6/23 上線，請把握【第一階段】報名及繳費時程。 說明事項： 請家長務必事先登入系統後至 「個人資料設定」 填寫聯絡電話（請參閱附件「報名系統說明」 ) 。 上課日期：上課日期： 115/8/31 （一）～ 116/1/19 （二）。期中考、期末考不停課，若不克參加請事先請假。 停課日期： 115/9/25 （五）中秋節、 115/9/28 （一）孔子誕辰紀念日 / 教師節、 115/10/9 （五）國慶日補假、 115/10/26 （一）臺灣光復暨金門古寧頭大捷紀念日補假、 115/11/23 （一）校慶補假、 115/12/25 （五）行憲紀念日、 116/1/1 （五）中華民國開國紀念日。補課日期：無。 ​ 報名及繳費期程 課外社團 第一階段"
+    },
+    {
       "id": "行政公告:建安國小:6a300c85af87e49bfff3fb1f",
       "schools": [
         "建安國小"
@@ -31054,6 +31692,20 @@
       "summary": "臺北市國小 新生報到系統 報到時間： 115.5.30( 一 )0 時起至 115.6.8( 一 )17 ： 00 請家長務必於期限內完成學生基本資料填寫，內含臺北市政府教育局數位學生證整合服務個資同意書、臺北市國小學生選修本土語文 / 新住民語文意願調查表、雙胞胎就讀同班或不同班等資料，請家長逐一填寫，以確保學生入學資料之完整性及學生就學權益。 【重要行事】詳細請參閱 115小一新生專區 1 、開學日為 115 年 8 月 31 日 ( 一 ) ， 7 ： 30~7 ： 50 請穿著制服直接至各班教室報到，中午 12 ： 00 放學；暑假期間本校無安排返校日。 2 、 課後活動 報名：登入之帳號、密碼為學生身分證字號 ( 英文字大寫 ) 簡章及簡介將於 115/6/16( 二 ) 上線，系統開放測試： 115"
     },
     {
+      "id": "重要公告:仁愛國小:6a196acc0ddf975ed6245b65",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "【115小一新生入學】小一新生報到自115/5/30(六)0時起至115/6/8(一)17:00止",
+      "published": "2026-05-29T09:03:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6a196acc0ddf975ed6245b65?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [],
+      "summary": "臺北市國小 新生報到系統 報到時間： 115.5.30( 一 )0 時起至 115.6.8( 一 )17 ： 00 請家長務必於期限內完成學生基本資料填寫，內含臺北市政府教育局數位學生證整合服務個資同意書、臺北市國小學生選修本土語文 / 新住民語文意願調查表、雙胞胎就讀同班或不同班等資料，請家長逐一填寫，以確保學生入學資料之完整性及學生就學權益。 【重要行事】詳細請參閱 115小一新生專區 1 、開學日為 115 年 8 月 31 日 ( 一 ) ， 7 ： 30~7 ： 50 請穿著制服直接至各班教室報到，中午 12 ： 00 放學；暑假期間本校無安排返校日。 2 、 課後活動 報名：登入之帳號、密碼為學生身分證字號 ( 英文字大寫 ) 簡章及簡介將於 115/6/16( 二 ) 上線，系統開放測試： 115"
+    },
+    {
       "id": "學校公告:光復國小:6a19450e385fda4886196a18",
       "schools": [
         "光復國小"
@@ -31422,6 +32074,22 @@
       "summary": "轉知臺北市立大學特殊教育中心辦理特教實務進階研習實施計畫，鼓勵教師踴躍報名。 一、依各研習所訂報名日期至全國特殊教育資訊網 （https://special.moe.gov.tw/）報名，請點選「研習報 名/縣市特教研習」。 二、檢附臺北市立大學原函1份及研習計畫5份，參加對象、研 習時間及地點等資訊，請詳研習計畫。"
     },
     {
+      "id": "重要公告:仁愛國小:6a169b38bbc9afd42c92ee9f",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "115學年度幼兒園招生【5.27正備取錄取名冊】",
+      "published": "2026-05-27T07:20:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6a169b38bbc9afd42c92ee9f?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "115學年度幼兒園招生【5.27正備取錄取名冊】.pdf"
+      ],
+      "summary": ""
+    },
+    {
       "id": "校務公告:敦化國小:6a16992a7440c2d642828925",
       "schools": [
         "敦化國小"
@@ -31436,6 +32104,20 @@
         "115學年度幼兒園招生正取暨備取名單.pdf"
       ],
       "summary": ""
+    },
+    {
+      "id": "重要公告:仁愛國小:6a169d6be5f9d3d6c1a2d062",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "11５學年度幼兒園招生【新生報到注意事項】",
+      "published": "2026-05-27T07:00:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6a169d6be5f9d3d6c1a2d062?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [],
+      "summary": "親愛的家長您好： 請先至【招生Ｅ點通網頁】完成線上報到，再協助填寫註冊相關資料喔！ 11５仁愛附幼-新生基本資料▼ https://forms.gle/E8gvas8j7MZJBVr68"
     },
     {
       "id": "親職資訊:6a1671459f4953cd5e259666",
@@ -32757,6 +33439,22 @@
       "summary": "新生報到注意事項 報到方式(下列方式二擇一) 1. 線上報到(報到時間：115/5/30上午00:00～115/6/8下午05:00止) 請家長點選網址： https://newstd.tp.edu.tw/Login.action 或掃描通知單上的QR碼 進入 新生分發入學作業平臺 完成報到手續。 2. 到校現場報到(預約報到時間：115/5/30上午09:00～12:00) 未收到入學通知單或無法以線上報到系統報到者，得事先致電本校教務處註冊組預約5/30上午報到時間。 辦理報到時，需持 戶口名簿 或 戶籍謄本正本 辦理報到。 權利須知 1.新生報到至遲應於 115年6月8日下午5:00前 完成報到， 因本校為額滿學校， 逾期未報到則視同放棄，將逕行改分發至鄰近學校 ，缺額則由候補名冊依順序遞補。 2. 開學"
     },
     {
+      "id": "重要公告:仁愛國小:69fc68e097b942e02c5be0bc",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "【115新生入學】115學年度新生入學名單暨報到注意事項",
+      "published": "2026-05-08T01:00:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/69fc68e097b942e02c5be0bc?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "仁愛國小115學年度新生入學名單.pdf"
+      ],
+      "summary": "【 115 新生入學】 115 學年度新生入學名單暨報到注意事項 依據臺北市公立國民小學新生分發及入學辦法，本校 115 學年度小一新生入學名單如附件，請家長自行下載查閱。臺北市教育局預計將於 5 月中寄發正式入學通知單，請家長留意掛號信函收件；若已註冊臺北市政府教育局 【新生分發入學作業平臺】 之家長，將可同步收到簡訊通知，並於系統下載入學通知單。新生報到相關說明，請參閱以下說明： 一、 報到： ( 一 ) 新生報到採線上報到方式，請於 5 月 30 日（六） 9 ： 00 至 6 月 8 日（一） 17 ： 00 前至臺北市政府教育局 【新生分發入學作業平臺】 完成報到及學生基本資料填寫；內含臺北市政府教育局數位學生證整合服務個資同意書、臺北市國小學生選修本土語文 / 新住民語 / 臺灣手語意願調查表、雙胞"
+    },
+    {
       "id": "校務公告:敦化國小:69fc2e6e0fbd8ce0565653c9",
       "schools": [
         "敦化國小"
@@ -33271,6 +33969,23 @@
       "summary": "學生及家長可至「臺北市國民小學一般智能資優學生鑑定安置系統」（https://www.gtide.tp.edu.tw）查詢成績，相關操作方式及流程，詳見【成績查詢三步驟（複選二）】（如附件）"
     },
     {
+      "id": "重要公告:仁愛國小:69f2a67c344e4be05e5095d7",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "[公告]臺北市115學年度國民小學一般智能資賦優異學生鑑定安置通過名單",
+      "published": "2026-04-30T04:00:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/69f2a67c344e4be05e5095d7?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "115學年度複選(二)鑑定安置通過名單.pdf",
+        "成績查詢三步驟（複選二）.pdf"
+      ],
+      "summary": "1.通過名單如附件。家長及學生可至「臺北市國民小學一般智能資優學生鑑定安置系統」（https://www.gtide.tp.edu.tw）查詢成績，相關操作方式及流程，詳見 【成績查詢三步驟】（如附件）。 2.鑑定安置通過結果通知書及同意書，近期將另行發送至學生就讀學校，請就讀學校協助轉發。 3. 經臺北市鑑輔會鑑定通過，安置於分散式資優資源班、特殊教育方案（校本資優方案或區域衛星資優方案）之學生，須於115年5月15日（星期五）前確認安置並繳交安置同意書至就讀學校特教組；逾時或未完成繳交者，視同放棄，事後不得要求再行安置。 4.經臺北市鑑輔會鑑定通過且安置於一般智能分散式資優資源班之學生，無需遷移戶籍可逕轉學至安置學校就讀，須於115年7月2日（星期四）前至各校完成轉學手續；逾時或未完成轉學手續者，視同放棄，"
+    },
+    {
       "id": "研習資訊:69f2a21c344e4be05e4f647c",
       "source": "研習資訊",
       "title": "教育部辦理「115年推動教育AI及數位學習績優徵選計畫」",
@@ -33748,6 +34463,22 @@
       "siteUrl": "https://www.baps.tp.edu.tw",
       "attachments": [],
       "summary": "主旨：延平國小辦理114學年第2學期特教專業知能研習，鼓勵教師踴躍參加。 說明： 一、研習主題：「從普特融合到UDL」。 二、研習時間：115年4月29日（星期三）13:30~16:30。 三、研習地點：延平國小視聽教室。 四、研習講座：延平國小陳清義校長。 五、報名方式：參加研習人員請於115年4月28日（星期二）前 至臺北市教師在職研習網辦理線上報名。 六、參加研習教師予公假。 七、注意事項: (一)為響應環保，請自備環保杯。(二)無提供停車位，請多利用大眾運輸工具蒞校，並且 配戴識別證，以利進行門禁管理。(三)當天研習以酷課APP簽到，請務必攜帶手機並先下載酷課 APP及完成帳號設定以利簽到。"
+    },
+    {
+      "id": "重要公告:仁愛國小:69e9ef8c66d4b4e050fd945f",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "[處室回覆] 114學年度第二學期學校日建議事項",
+      "published": "2026-04-23T10:06:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/69e9ef8c66d4b4e050fd945f?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "臺北市大安區仁愛國民小學114學年度第二學期學校日建議事項 處室回覆.pdf"
+      ],
+      "summary": "感謝各位家長於學校日透過班親會會議或酷課APP提供寶貴的意見與回饋。相關建議已由各處室審慎研議並進行討論，回覆內容詳如附件。 仁愛國小行政與教師團隊將持續秉持穩健踏實的態度，與您攜手合作，共同為孩子打造豐富而優質的學習生活。感謝您的支持與配合。"
     },
     {
       "id": "一般消息:69e97dbc940801e073416982",
@@ -34573,6 +35304,23 @@
       "summary": "為維護本校良好及安全的學習環境，還請同學與家長協助配合！ 1.手機使用需要事先填寫申請表（提供放學後的聯繫使用），入校需關機， 離開學校才開機。 凡本校學生欲攜帶行動電話暨行動載具到校者，請至學務處領取「行動電話暨行動載具攜帶到校申請暨使用規範同意書」(如附件)，經家長及導師雙方親筆簽名同意後，繳回學務處留存。 於校園內一律關機並放入書包 ，離校後即可使用行動電話暨行動載具與家長聯絡，非必要請儘量不要攜帶行動電話暨行動載具到校。 2.放學離開學校（12:00/ 16:00/ 18:00社團或課後照顧班），請儘速回家或到家長安排的地點 ，不要再返回學校（取物、逗留或遊玩……）。 3.參加社團或課後照顧班不可在16:00 /18:00跑出學校買東西零食再回學校，有需要的請前一天或上學前就買好備用。 4.社團或課後照"
     },
     {
+      "id": "重要公告:仁愛國小:69d4579376c673d8af5d5efe",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "[公告]臺北市115學年度未足齡兒童申請提早入國民小學鑑定通過名單公告",
+      "published": "2026-04-07T04:00:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/69d4579376c673d8af5d5efe?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "臺北市115學年度未足齡兒童申請提早入國民小學鑑定通過名單公告.pdf",
+        "115學前提早入學-複選成績查詢操作說明.pdf"
+      ],
+      "summary": "家長可至「臺北市未足齡兒童申請提早入國民小學鑑定安置系統」（ https://early.tp.edu.tw/）查詢成績，相關操作方式及流程，詳見 【學前提早入學複選成績查詢操作說明】（如附件）。"
+    },
+    {
       "id": "榮譽榜:博愛國小:69d46c4b76c673d8af634621",
       "schools": [
         "博愛國小"
@@ -34799,6 +35547,22 @@
       "summary": "【公告】114學年度校內多語文競賽得獎名單 請參閱附件檔案 恭喜得獎學生 並感謝老師辛苦的指導與家長的協助與配合!! *英語RT成績待5/4比賽結束後公布"
     },
     {
+      "id": "重要公告:仁愛國小:69cdacb17d432f7bcb40c0c7",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "【公告】114學年度校內多語文競賽得獎名單",
+      "published": "2026-04-01T10:17:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/69cdacb17d432f7bcb40c0c7?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "114學年度校內多語文競賽成績(公告).pdf"
+      ],
+      "summary": "【公告】114學年度校內多語文競賽得獎名單 請參閱附件檔案 恭喜得獎學生 並感謝老師辛苦的指導與家長的協助與配合!! *英語RT成績待5/4比賽結束後公布"
+    },
+    {
       "id": "一般消息:69e745f2967925e07ff63089",
       "source": "一般消息",
       "title": "115學年度第1學期高級中等以下教育階段非學校型態實驗教育計畫申請自即日起至115年4月30日止",
@@ -34850,6 +35614,26 @@
       "published": "2026-04-01T09:36:00+00:00",
       "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/69e745f20fbd8ce056c88cf8?vector=private&static=false",
       "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=APLjRbb4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "【附件1】高級中等以下教育階段非學校型態實驗教育實施條例.pdf",
+        "【附件2】臺北市高級中等以下教育階段非學校型態實驗教育補充規定.pdf",
+        "【附件3】教育局通知事項.pdf",
+        "【附件4】個人申請計畫書格式(最新版含附件).odt",
+        "【附件5】國小家長需求表(114最新版).odt"
+      ],
+      "summary": "115 學年度第 1 學期高級中等以下教育階段非學校型態實驗教育計畫申請自即日起至 115 年 4 月 30 日止。 一、為響應環保減碳計畫採線上方式申請，申請方式可參閱「臺北市實驗教育創新發展中心官網」網址： https://teecid.tp.edu.tw/ 與「臺北市政府教育局高級中等以下教育階段非學校型態實驗教育申請暨審議作業系統，網址： https://tpnee.tp.edu.tw/ 。 二、學生之法定代理人申請辦理個人非學校型態實驗教育計畫，應於 115 年 4 月 1 日（星期三）至 115 年 4 月 30 日（星期四）前完成線上註冊與申請，並將相關資料上傳至系統，並於 115 年 4 月 30 日（星期四）下午 4 時前，將「申請表」、「家長需求表」兩份親簽紙本文件，送至戶籍所在地學區學校（"
+    },
+    {
+      "id": "重要公告:仁愛國小:69e745f20fbd8ce056c88cf8",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "115學年度第1學期高級中等以下教育階段非學校型態實驗教育計畫申請自即日起至115年4月30日止",
+      "published": "2026-04-01T09:36:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/69e745f20fbd8ce056c88cf8?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
       "siteUrl": "https://www.japs.tp.edu.tw",
       "attachments": [
         "【附件1】高級中等以下教育階段非學校型態實驗教育實施條例.pdf",
@@ -35157,6 +35941,22 @@
         "轉知國立師範大學特殊教育學系於115年4月17日辦理「特殊群體資優學生發掘與輔導知能線上研習」，鼓勵所屬踴躍參與02-1150324.pdf"
       ],
       "summary": "轉知國立師範大學特殊教育學系於115年4月17日辦理「特殊群體資優學生發掘與輔導知能線上研習」，鼓勵所屬踴躍參與。"
+    },
+    {
+      "id": "重要公告:仁愛國小:69c60061e654dd30218b354e",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "[公告]臺北市115學年度未足齡兒童申請提早入國民小學鑑定複選評量時間、地點及注意事項（大安區)",
+      "published": "2026-03-26T04:00:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/69c60061e654dd30218b354e?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "臺北市115學年度未足齡兒童申請提早入國民小學鑑定複選評量時間、地點及注意事項（大安區).pdf"
+      ],
+      "summary": "複選評量時間、地點及注意事項請參閱附件。"
     },
     {
       "id": "一般消息:69c48327c12e48cde8249114",
@@ -35697,6 +36497,22 @@
       "summary": "說明 1.中正區2026歷史復活節，系列豐富藝文活動3/14- 10/31登場！歡迎免費報名參加！ 2.內容：「2026歷史復活節～中正．拾光之境」系列藝文 活動，於115年3月14日至10月31日登場！豐富精采的系 列活動，邀您一起在中正拾起美好時光，品味獨特的中 正區地方文化！詳情請上臺北市中正區公所網站基層藝 文專區（https://reurl.cc/xpmNqe）或歷史復活節FB粉 絲團(https://www.facebook.com/papagozhongzheng)查 詢，活動簡介如下： (1) 5月至10月「食」－市場夜市．美食帶路｜設攤活動× 達人帶路。 (2)3月14日、5月9日「衣」－漢衣相逢．榮町漫遊、返校 相遇．舞動青春｜單身聯誼活動。 (3)4月23日「住」－微光中的聚落記憶｜寶藏巖"
     },
     {
+      "id": "重要公告:仁愛國小:69c5d87aaed0bf2fd91b1af8",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "114學年度代理教師甄選簡章(級任)(一次公告分次招考)",
+      "published": "2026-03-17T16:00:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/69c5d87aaed0bf2fd91b1af8?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "114-2-2國小代理教師甄選簡章(級任)第6次招考.pdf"
+      ],
+      "summary": "詳如簡章"
+    },
+    {
       "id": "研習資訊:博愛國小:69b905a832c083d1d7fd0488",
       "schools": [
         "博愛國小"
@@ -35835,6 +36651,23 @@
       "siteUrl": "https://www.jnps.tp.edu.tw",
       "attachments": [],
       "summary": "打詐臺北隊： 115年 3 月反詐宣導素材，敬請協助推播，積極推動識詐宣導觀念： 反詐四格漫畫內容： 115 年 3 月份素材下載連結 https://drive.google.com/drive/folders/1ZeZGWvx4SKX5TjvcsuGoC0b91J_lAEgN"
+    },
+    {
+      "id": "重要公告:仁愛國小:69b351b9bc9f64c0fd214f15",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "[公告]臺北市115學年度未足齡兒童申請提早入國民小學鑑定初選評量通過名單公告",
+      "published": "2026-03-13T04:00:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/69b351b9bc9f64c0fd214f15?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "臺北市115學年度未足齡兒童申請提早入國民小學鑑定初選評量通過名單公告.pdf",
+        "學前提早入學-初選成績查詢操作說明.pdf"
+      ],
+      "summary": "家長可至「 臺北市未足齡兒童申請提早入國民小學鑑定安置系統」（ https ://early.tp.edu.tw/ ）查詢成績， 相關操作方式及流程，詳見【學前提早入學 - 初選成績查詢操作說明 】（如附件）。"
     },
     {
       "id": "競賽活動:敦化國小:69b38b347df0f05be5f3abea",
@@ -36497,6 +37330,22 @@
       "summary": "說明： 一、依據教育部國民及學前教育署115年2月26日臺教國署原字 第1155700292B號函辦理。 二、本案電子檔得於教育部主管法規查詢系統（https://edu. law.moe.gov.tw）下載。 三、若對本行政規則修正有任何疑問，請逕洽該署原民特教組 陳科員，電話：（04）3706-1252。 四、檢附國教署來函影本、發布令影本、修正規定及修正規定 附表各1份。"
     },
     {
+      "id": "重要公告:仁愛國小:69a8cb83a86b185bc352cc34",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "[公告]臺北市115學年度未足齡兒童申請提早入國民小學鑑定初選評量時間、地點及注意事項（大安區)",
+      "published": "2026-03-05T04:00:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/69a8cb83a86b185bc352cc34?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "臺北市115學年度未足齡兒童申請提早入國民小學鑑定初選評量時間、地點及注意事項（大安區).pdf"
+      ],
+      "summary": "初選評量時間、地點及注意事項請參閱附件。"
+    },
+    {
       "id": "行政公告:建安國小:69a8e54ce8fbc15ba138fc25",
       "schools": [
         "建安國小"
@@ -37055,6 +37904,22 @@
         "臺北市萬華區東園國民小學「115學年度國民小學藝術才能美術班招生鑑定說明會」.png"
       ],
       "summary": "一、招生鑑定說明會資訊如下： (一)時間：115年3月4日（星期三）上午10: 00。 (二)地點：東園國小竹夢樓1樓演藝廳。（臺北市萬華區東園 街195號） (三)活動內容：簡介本次國小藝術才能美術班招生鑑定考試 期程及術科測驗相關內容，並說明各校美術班教學環境 與學校特色。 (四)相關招生訊息，可致電本校特教組張組長（02）2303- 4803分機1603。"
+    },
+    {
+      "id": "重要公告:仁愛國小:699e5b4566897491dc50ec23",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "114學年度國際交流互訪活動學員甄選錄取名單",
+      "published": "2026-02-25T04:00:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/699e5b4566897491dc50ec23?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "錄取名單.pdf"
+      ],
+      "summary": "本活動依甄選計畫預計甄選交流人數取女生 6 名，男生 7 名，共13名學生。 114學年度國際交流互訪活動學員甄選錄取名單，請參閱附件。 活動相關事宜，請待教務處另行通知~"
     },
     {
       "id": "政策法規:光復國小:699e6c7133cb8e7f27303a55",
@@ -37773,6 +38638,20 @@
       "summary": "一、依教育部115年2月9日臺教師（一）字第1150014253A號函辦理。 二、為使新住民及其子女發揮其語言及多元文化優勢，進而提升國人對新住民母國文化了解，教育部自105年起辦理旨揭舞蹈比賽，希冀藉由前開舞蹈比賽推動多元文化交流，並成為嶄新藝文平臺。 三、旨揭比賽相關訊息如下： (一)報名時間：115年2月23日（星期一）起至115年3月31日（星期二）止。 (二)參賽資格 １、持有中華民國身分證或合法居留證之新住民。 ２、報名團隊中新住民身分者須至少達3分之1，報名團隊僅1人者，須為新住民；2人者須至少1名為新住民身分。 (三)比賽日期 １、北區初賽：115年4月26日（星期日）。 ２、南區初賽：115年5月24日（星期日）。 ３、中區初賽：115年6月7日（星期日）。 ４、全區決賽：115年6月14日（"
     },
     {
+      "id": "重要公告:仁愛國小:698bf79ec1a3599a17044114",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "本校114學年度第2學期學校日活動時間",
+      "published": "2026-02-11T03:16:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/698bf79ec1a3599a17044114?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [],
+      "summary": "貴家長新年好 馬到成功 闔家平安 本校114學年度第二學期學校日活動，一至六年級皆採線上視訊會議方式辦理，各班會議進行方式及視訊會議網址，將由班級導師公告。 學校日活動時間 ： 115年3月6日(五)18:30線上會議。 學校日專區 (連結) 校長的話 (連結) 學校日行政宣導事項 (連結)"
+    },
+    {
       "id": "行政檔案:建安國小:698be2ae3141338c259fd509",
       "schools": [
         "建安國小"
@@ -37905,6 +38784,46 @@
         "【附件8】臺北市大安區仁愛國民小學畢業典禮畢業生受獎辦法1120220修正版.pdf"
       ],
       "summary": "114學年度畢業生表現傑出市長獎申請表及詳細說明請自行下載附件參閱，依類別填妥【附件3】或【附件4】二擇一，並附上相關獎狀、證明文件之【正本】，請勿繳交影本，先交各班導師舉薦後簽名，於115/05/20(三)前交件至教務處註冊組。 補充說明： 1、由各班導師初審該班候選人相關證件，各班各類項以推薦1名參加選拔為原則，如無得從缺。 2、學生得跨類別推薦，惟積分採計仍以所推薦類別表現為主，每生並以申請2項類別為限 。 3、除傑出市長獎之申請外，畢業生可參考【附件8】，另申請校內【多元才藝特殊表現獎】；相關說明請參考該項公告。 收件截止時間為115年5月20日(三)16點前 相關附件如下： 【附件1】臺北市仁愛國小畢業生市長獎評選辦法 【附件2】傑出表現市長獎積點對照表 【附件3】傑出表現市長獎申請表 【附件4】傑出"
+    },
+    {
+      "id": "重要公告:仁愛國小:699b57a84fe91951fcfc1ca2",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "本校114學年度畢業生市長獎評選辦法及臺北市公私立國民小學畢業生市長獎頒獎典禮實施計畫",
+      "published": "2026-02-10T08:20:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/699b57a84fe91951fcfc1ca2?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "【附件1】傑出市長獎評選辦法1140106修正版.pdf",
+        "【附件2】傑出表現市長獎積點對照表.pdf",
+        "【附件3】傑出表現市長獎申請表.odt",
+        "【附件4】傑出表現市長獎勵志類推薦表.odt",
+        "【附件5】臺北巿各級學校體育獎勵金發給辦法.pdf",
+        "【附件6】109-114學年度全國性錦標賽及全國性國小單項運動競賽項目表.pdf",
+        "【附件7】臺北市各級學校114學年度畢業生市長獎頒獎典禮實施計畫.pdf",
+        "【附件8】臺北市大安區仁愛國民小學畢業典禮畢業生受獎辦法1120220修正版.pdf"
+      ],
+      "summary": "114學年度畢業生表現傑出市長獎申請表及詳細說明請自行下載附件參閱，依類別填妥【附件3】或【附件4】二擇一，並附上相關獎狀、證明文件之【正本】，請勿繳交影本，先交各班導師舉薦後簽名，於115/05/20(三)前交件至教務處註冊組。 補充說明： 1、由各班導師初審該班候選人相關證件，各班各類項以推薦1名參加選拔為原則，如無得從缺。 2、學生得跨類別推薦，惟積分採計仍以所推薦類別表現為主，每生並以申請2項類別為限 。 3、除傑出市長獎之申請外，畢業生可參考【附件8】，另申請校內【多元才藝特殊表現獎】；相關說明請參考該項公告。 收件截止時間為115年5月20日(三)16點前 相關附件如下： 【附件1】臺北市仁愛國小畢業生市長獎評選辦法 【附件2】傑出表現市長獎積點對照表 【附件3】傑出表現市長獎申請表 【附件4】傑出"
+    },
+    {
+      "id": "重要公告:仁愛國小:698a84043141338c257fb03f",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "114學年度第2學期「課外社團活動」及「課後照顧班」上課地點及注意事項：",
+      "published": "2026-02-10T00:53:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/698a84043141338c257fb03f?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "114-2課外社團上課地點公告（0210）.pdf",
+        "114-2課後照顧上課場地大表（0210）.pdf"
+      ],
+      "summary": "114學 年度第 2學期 「課外社團活動」及「課後照顧班」上課地點及注意事項： 開課時間： 開學日 2 月 23 日 ( 一 ) 同步開課 ，請家長留意上課時間及上課地點（請參閱附件）。課外社團 第一次上課 2/23-2/27 請學 生於操場集合，再由任課教師帶至上課地點。 線上申請退費： https://www.japs.tp.edu.tw/nss/s/main/p/73 若要辦理課外社團活動或課後照顧班退費，請先線上申請填寫「臺北市大安區仁愛國民小學課外社團活動或課後照顧班退費申請」，承辦人將在收到您的申請後，列印申請表並填妥退費金額，交由學生帶回於申請表下方「申請人」欄位簽名，並檢附相關資料，由學生交回學校。 「課外社團活動」及「課後照顧班」請假：歡迎善用 LINE@ 線上請假，敬請加入 @ra27095"
     },
     {
       "id": "親職資訊:69892b930a5e828c2c568143",
@@ -38366,6 +39285,20 @@
         "27878281_1153033181_ATTCH1.pdf"
       ],
       "summary": "為提供清寒及表現優秀之新住民及其子女適當關懷與獎勵，鼓勵取得專業證照、發展個人專長，特辦理本計畫。透過獎助（勵）學金，協助減輕家庭負擔，並鼓勵學生持續努力向學。 📌 詳細計畫內容及申請表件，請參閱附件。 📌 申請方式說明： 【新住民證照獎勵金】可自行依計畫規定提出申請。 其餘【總統教育獎勵金／特殊才能獎勵金／優秀獎學金／清寒助學金】，請備妥相關申請文件， 於115年3月9日（星期一）前繳交至輔導室 ，由學校依計畫規定辦理初審及後續送件事宜。 如有相關問題，請洽輔導組羅老師，電話：2709-5010 分機 502。"
+    },
+    {
+      "id": "重要公告:仁愛國小:698c296ec1a3599a170a65e1",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "【公告】本校114學年度五、六年級額滿",
+      "published": "2026-01-22T01:00:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/698c296ec1a3599a170a65e1?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [],
+      "summary": "依據臺北市政府教育局115年1月20日北市教國字第1153033582號函 本校114學年度五、六年級平均人數已達每班人數之上限，公告額滿並協助學童改分發至鄰近國小。 114學年度五、六年級學生額滿之改分發學校如下： (一)五年級：信義區三興國小及大安區大安國小 (二)六年級：信義區三興國小及大安區建安國小。 若學區學童有改發之需求，請洽2709-5010分機203註冊組陳老師。"
     },
     {
       "id": "榮譽榜:博愛國小:69faf0ba967925e07f52db83",
@@ -39054,6 +39987,20 @@
       "summary": "親愛的家長您好： 114 學年度第二學期課外社團【第一階段】報名繳費已沖帳完畢，家長可上網登入系統查詢。 課外社團 第二階段及 課後照顧班 線上 報名 時間： 115/1/19 （一） 08:00 起至 115/1/21 （三） 23:59 止。 課外社團 第二階段及 課後照顧班 繳費 時間： 115/1/22 （四） 08:00 起至 115/1/26 （一） 23:59 止。 課外社團候補線上 報名 時間： 115/2/4 （三） 08:00 起至 115/2/5 （四） 23:59 止。 課外社團候補公開 抽籤 時間： 115/2/6 （五）。 課外社團候補 人工 繳費 時間： 115/2/9 （一） 09:00 起至 115/2/10 （二） 16:00 止，請於學務處領取繳費單後，至總務處進行現金繳費"
     },
     {
+      "id": "重要公告:仁愛國小:696887bd726f3f144c2c49bd",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "114學年度第二學期課外社團【第一階段】報名繳費已沖帳完畢，家長可上網登入系統查詢",
+      "published": "2026-01-15T07:00:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/696887bd726f3f144c2c49bd?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [],
+      "summary": "親愛的家長您好： 114 學年度第二學期課外社團【第一階段】報名繳費已沖帳完畢，家長可上網登入系統查詢。 課外社團 第二階段及 課後照顧班 線上 報名 時間： 115/1/19 （一） 08:00 起至 115/1/21 （三） 23:59 止。 課外社團 第二階段及 課後照顧班 繳費 時間： 115/1/22 （四） 08:00 起至 115/1/26 （一） 23:59 止。 課外社團候補線上 報名 時間： 115/2/4 （三） 08:00 起至 115/2/5 （四） 23:59 止。 課外社團候補公開 抽籤 時間： 115/2/6 （五）。 課外社團候補 人工 繳費 時間： 115/2/9 （一） 09:00 起至 115/2/10 （二） 16:00 止，請於學務處領取繳費單後，至總務處進行現金繳費"
+    },
+    {
       "id": "研習資訊:博愛國小:69672fcdcbcd8f11b6f27225",
       "schools": [
         "博愛國小"
@@ -39412,6 +40359,22 @@
       "summary": "一、依行政院114年9月22日院授人培字第1140002559號函辦理，並檢附原函（含附件）影本1份。 二、查「臺灣地區與大陸地區人民關係條例」（以下簡稱兩岸人民關係條例）、「臺灣地區公務員及特定身分人員進入大陸地區許可辦法」及「簡任第10職等及警監4階以下未涉及國家安全利益或機密之公務員及警察人員赴大陸地區作業要點」規定，公務員及特定身分人員申請進入大陸地區，應填具進入大陸地區申請表及檢附必要佐證資料，並詳閱注意事項後簽章，依下列規定辦理（本府113年12月26日府授人考字第1130159208號函計達）： (一)兩岸人民關係條例第9條第4項規定人員：應於預定進入大陸地區當日之7個工作日（不含申請日、出發日及國定、例假日，以下同）前，由（原）服務機關（構）、委託、補助或出資之機關（構）以網際網路向內政部申請，"
     },
     {
+      "id": "重要公告:仁愛國小:695f25a73efd4bd2dc08a891",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "[公告]臺北市大安區115學年度未足齡兒童申請提早入國民小學鑑定簡章購買說明與建議",
+      "published": "2026-01-08T03:16:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/695f25a73efd4bd2dc08a891?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "115報名流程及相關注意事項(校網公告).pdf"
+      ],
+      "summary": "【販售說明】 1. 販售時間： 115.01.12( 一 )-115.02.24( 二 ) 上班日每日上午 8 時至下午 4 時，逾時不予受理。 2.購買地點：仁愛國小警衛室 ( 若本校簡章售罄，可跨區購買 ) 3. 鑑定計畫、報名表及檢核表件，每份工本費 20 元整。 (請自備零錢) 【建議事項】 1.欲前來購買簡章之家長，請自備零錢。 2.因本校未提供車位停放，建議搭乘大眾交通工具前來。 3.隨附本組依據簡章統整後，相關報名流程及注意事項，可逕自下載對照。 ※報名前如有任何疑慮，歡迎致電仁愛國小輔導室 特教組 陳老師 02-27095010#504"
+    },
+    {
       "id": "行政公告:建安國小:695e5f76421953d2a5b96ada",
       "schools": [
         "建安國小"
@@ -39468,6 +40431,23 @@
       "siteUrl": "https://www.thps.tp.edu.tw",
       "attachments": [],
       "summary": "依本市公立國民小學學生轉學注意事項規定，額滿學校小一新生經完成新生分發額滿後不再接受登記，出現缺額時應俟寒假始接受登記，遞補先後順序則依第九條規定辦理。 寒假一年級候補登記時間： 1/26(一)～2/3(二) https://laws.gov.taipei/Law/LawSearch/LawArticleContent/FL096220 臺北市法規查詢系統"
+    },
+    {
+      "id": "重要公告:仁愛國小:695da6281472ab62cb64edbf",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "[公告]臺北市115學年度國民小學一般智能資賦優異學生鑑定安置複選(一)評量通過名單",
+      "published": "2026-01-07T04:00:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/695da6281472ab62cb64edbf?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "115學年度複選(一)鑑定安置通過名單.pdf",
+        "成績查詢三步驟（複選一）.pdf"
+      ],
+      "summary": "1.通過名單如附件。 家長及學生可至「臺北市國民小學一般智能資優學生鑑定安置系統」（https://www.gtide.tp.edu.tw）查詢成績，相關操作方式及流程，詳見 【成績查詢三步驟(複選一)】（如附件）。 2.複選【一】評量通過者，得參加複選【二】評量。 3. 本 校預計於115年3月5日至3月25日辦理複選評量【二】，進行六次觀察評量，評量時間、場次，近期將另行發送通知單至學生就讀學校，請就讀學校協助轉發。"
     },
     {
       "id": "榮譽榜:博愛國小:695dc4d46f72436fb38ae901",
@@ -39571,6 +40551,20 @@
       "summary": "一、 兒童(12Y以下)施放爆竹煙火安全 *兒童施放一般爆竹煙火應由父母、監護人或其他實際照顧兒童之人陪同，違反者，處新臺幣3,000元以上1萬5,000元以下罰鍰。 *嚴禁兒童施放升空類（例如小高空、空中美人）、飛行類（例如沖天炮、笛聲炮）、摔炮類一般爆竹煙火，亦不得販售予兒童。 https://www.tfdp.com.tw/cht/index.php?code=list&flag=detail&ids=61&article_id=193 (一)施放前「五要」須知： 1. 要重安全環保少施放：使用爆竹音效（如附檔）來替代真正鞭炮的燃放，如此既能兼顧環保與安全，又能維持喜慶熱鬧的氣氛。 2. 要有合格標示再施放：購買時應確認產品具有使用說明、廠商資料、主要成分、認可標示 3. 要依使用說明來施放。 4. 要選"
     },
     {
+      "id": "重要公告:仁愛國小:695b222c185423d4a8b5243d",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "115年春節期間擴大防火宣導",
+      "published": "2026-01-05T02:28:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/695b222c185423d4a8b5243d?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [],
+      "summary": "一、 兒童(12Y以下)施放爆竹煙火安全 *兒童施放一般爆竹煙火應由父母、監護人或其他實際照顧兒童之人陪同，違反者，處新臺幣3,000元以上1萬5,000元以下罰鍰。 *嚴禁兒童施放升空類（例如小高空、空中美人）、飛行類（例如沖天炮、笛聲炮）、摔炮類一般爆竹煙火，亦不得販售予兒童。 https://www.tfdp.com.tw/cht/index.php?code=list&flag=detail&ids=61&article_id=193 (一)施放前「五要」須知： 1. 要重安全環保少施放：使用爆竹音效（如附檔）來替代真正鞭炮的燃放，如此既能兼顧環保與安全，又能維持喜慶熱鬧的氣氛。 2. 要有合格標示再施放：購買時應確認產品具有使用說明、廠商資料、主要成分、認可標示 3. 要依使用說明來施放。 4. 要選"
+    },
+    {
       "id": "親職資訊:695b1e94ea3b3bd455a105ce",
       "source": "親職資訊",
       "title": "【轉知】法務部反毒宣導影片",
@@ -39619,6 +40613,22 @@
       "siteUrl": "https://www.japs.tp.edu.tw",
       "attachments": [],
       "summary": "一、依據《臺北市政府教育局強化校園安全防護機制實施計畫》辦理，並配合教育部校園安全相關規定，學校應透過教育、宣導及輔導方式，協助學生建立正確安全觀念與基本應變能力，以維護學生人身安全。 二、請落實校園安全教育常態性宣導，以提升學生面對突發危險情境時之自我保護能力；宣導時應避免渲染暴力情節，著重行為指引與心理支持，並依學生年齡層妥適調整宣導方式。 三、學生安全守則宣導重點如下： (一)提醒學生於校內外活動時，避免低頭使用3C產品或耳機，提高警覺注意周遭環境變化，如發現周遭出現行為異常、情緒明顯失控或其他不尋常狀況，無需判斷原因，應以自身安全為優先，立即遠離現場。 (二)謹記安全行動口訣「跑、躲、護」 １、跑（優先撤離）：遇到突發危險時，應迅速遠離危險來源，不圍觀、不拍攝、不停留，以自身安全為第一考量，持續撤離至安"
+    },
+    {
+      "id": "重要公告:仁愛國小:6964bcf081c30c75b3fc7721",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "【轉知】各級學校115年寒假期間學生活動安全注意事項",
+      "published": "2026-01-05T02:08:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6964bcf081c30c75b3fc7721?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "寒假學生注意事項.pdf"
+      ],
+      "summary": "【轉知】各級學校115年寒假期間學生活動安全注意事項--詳情請見附件。"
     },
     {
       "id": "敦小快報:敦化國小:695779e27b048bd3cb31b4bf",
@@ -39895,6 +40905,20 @@
       "summary": "恭喜本校學生獲參展臺北市114學年度「小小美術家」兒童美術創作展 恭喜以下得獎同學，感謝老師辛勞指導! 一年3班 陳泱穎 「快樂的小猴子」 指導老師：林欣穎 *今年獲獎參展作品擬於115年4月初以線上展覽方式展出。 *獲參展學生獎狀將於115年6月兒童朝會時公開表揚頒獎，請等候領獎通知。(當日會發回獲展作品)"
     },
     {
+      "id": "重要公告:仁愛國小:6954a90fa42f4b05b8e74a0a",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "114學年度「臺北市大安區仁愛國民小學」與「美國加州Mark Day School」兩校師生國際交流互訪活動學員甄選計畫",
+      "published": "2025-12-30T08:00:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6954a90fa42f4b05b8e74a0a?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [],
+      "summary": "臺北市大安區仁愛國民小學114學年度臺美國際交流 報名相關時程： 報名截止時間：115年1月13日（三）16：00前 請上填寫網址： https://forms.gle/Zpd2cZrUu6JWTpH28 導師簽名欄位待報名後，統一由教務處套印後通知 簡章下載： /uploads/1767316113881fJBIMWTe.pdf 壹、依據：臺北市政府教育局「 臺北市市政白皮書－開創教育－打造無邊界教室政策」辦理 。 貳、交流目的 : 一、透過校際交流與合作，促進兩校師生相互瞭解及校際情感。 二、加強學生交流與學習，提昇學生相互認同與外語運用能力。 三、藉由有意義之交流互訪活動，拓展學生國際視野，學習合作的胸襟與態度，尊重包容彼此文化的差異，培養成為積極關注人類生命共同體的世界公民。 參、交流內容： 一、國際合"
+    },
+    {
       "id": "政策法規:光復國小:69524909ea3b3bd455a39ac4",
       "schools": [
         "光復國小"
@@ -39984,6 +41008,25 @@
       "published": "2025-12-29T00:00:00+00:00",
       "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6941f7dadc83ab25929b8a4f?vector=private&static=false",
       "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=ZXFNybM7991&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "報名系統說明.pdf",
+        "114-2課外社團活動簡介1141222.pdf",
+        "114-2課外社團暨課後照顧班招生簡章.pdf",
+        "114-2課後照顧班簡介.pdf"
+      ],
+      "summary": "114 學年度第 2 學期【課外社團暨課後照顧班】報名系統於 1/2 上線，請把握【第一階段】報名及繳費時程。 說明事項： 請家長務必事先登入系統後至 「個人資料設定」 填寫聯絡電話（請參閱附件「報名系統說明」 ) 。 上課日期： 115/2/23 （一）～ 115/6/29 （一）。期中考、期末考不停課，六年級學生畢業後請憑學生證入校參加課外社團，若不克參加請事先請假。 停課日期： 115/2/27 （四）～ 115/3/1 （日）和平紀念日連假、 115/4/3 （五）～ 115/4/6 （日）兒童節及民族掃墓節連假、 115/5/1 （五）～ 115/5/3 （日）勞動節連假、 115/6/19 （五）～ 115/6/21 （日）端午節連假。 補課日期：無。 ​ 報名及繳費期程 課外社團 第一階段線上 報"
+    },
+    {
+      "id": "重要公告:仁愛國小:6941f7dab3c84d24c6769cb8",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "114學年度第2學期課後報名1/19（一）開始。（一律線上報名繳費，敬請留意報名繳費期程，逾期不再受理報名）",
+      "published": "2025-12-29T00:00:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6941f7dab3c84d24c6769cb8?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
       "siteUrl": "https://www.japs.tp.edu.tw",
       "attachments": [
         "報名系統說明.pdf",
@@ -40092,6 +41135,25 @@
       "summary": "一、依教育部114年12月8日臺教資（六）字第1142703948號函辦理。 二、為依循「氣候變遷因應法」推動以永續發展為導向之氣候變遷教育，並參照國際綠色課程指南與全球氣候行動倡議，提升教師氣候變遷課程設計與教學實踐能力，教育部特辦理旨揭線上研習。 三、有關報名相關資訊，說明如下： (一)報名對象： １、115年申請「補助地方政府辦理環境教育輔導小組計畫」之淨零綠校園項下「氣候友善與減碳行動」子計畫，以及「青少年及未來世代投入氣候行動主題系列活動」子計畫之縣市環境教育輔導小組（團）成員優先報名參與。 ２、其他有興趣之地方教育局（處）環境教育業務主管或承辦人、學校環境教育人員或一般教師，亦鼓勵報名參與。 (二)線上研習時間：115年1月7日（星期三）下午1時30分至下午4時30分，報名請點選以下連結：https"
     },
     {
+      "id": "重要公告:仁愛國小:694ba044dcdfa9b9de3bcc37",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "[公告]臺北市115學年度未足齡兒童申請提早入國民小學鑑定計畫",
+      "published": "2025-12-26T01:00:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/694ba044dcdfa9b9de3bcc37?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "臺北市115學年度提早入學鑑定宣導相關資料.pdf",
+        "臺北市115學年度未足齡兒童申請提早入國民小學鑑定計畫.pdf",
+        "臺北市115學年度提早入學鑑定安置說明會-簡報.pdf",
+        "臺北市115學年度提早入學鑑定QA（含日程表）.pdf"
+      ],
+      "summary": "一、鑑定計畫及相關宣導資料如附件，請參閱。 二、相關宣導資料亦可點選雲端連結：https://reurl.cc/DbO8M6，宣導資料含：鑑定計畫、常見問題Ｑ＆Ａ、說明會簡報及影片檔等資訊。"
+    },
+    {
       "id": "研習資訊:博愛國小:694cea02b3c84d24c6dabf61",
       "schools": [
         "博愛國小"
@@ -40194,6 +41256,28 @@
       "published": "2025-12-22T10:10:00+00:00",
       "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6937f7d078c32eab08390456?vector=private&static=false",
       "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=Oebafow5996&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "114硬筆書法比賽用紙（2-5年級）.pdf",
+        "臺灣台語字音字形100題版(校內).pdf",
+        "臺灣客語字音字形-四縣腔85題(校內).pdf",
+        "四、五年級臺灣客語朗讀篇目.pdf",
+        "114四五年級臺灣台語朗讀篇目.pdf",
+        "114本土語文（閩客語）情境式演說三題.pdf",
+        "114學年度校內多語文競賽實施要點（公告版1215）.pdf"
+      ],
+      "summary": "114 學年度校內多語文競賽實施要點，如附件。 詳細比賽篇目請參閱實施要點。 參加對象： ( （各年級可報名參加的項目不同，請留意!) 1.硬筆書法:本校二至五學生 2.英語RT選手甄選:僅限5年級學生 3.英語戲劇: 本校4至5年級學生，每班1隊，每隊最多不得超過5人（含伴奏、擺設道具、播放音樂等）。 4.其他項目:4、5年級學生(臺灣客語、原住民語組若報名人數不足2人則開放2、3年級學生報名)"
+    },
+    {
+      "id": "重要公告:仁愛國小:6937f7d086d8eb464efcea89",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "臺北市仁愛國民小學114學年度多語文競賽實施要點",
+      "published": "2025-12-22T10:10:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6937f7d086d8eb464efcea89?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
       "siteUrl": "https://www.japs.tp.edu.tw",
       "attachments": [
         "114硬筆書法比賽用紙（2-5年級）.pdf",
@@ -41282,6 +42366,23 @@
       "summary": "一、依行政院114年9月10日院臺法字第1141019811號函及行政院人事行政總處（以下簡稱人事總處）114年9月18日總處培字第1143027028號函辦理，並檢附上開2函（均含附件）影本各1份。 二、鑒於近年中共對港澳之政治控制與對臺統戰滲透持續加劇，我國政府人員赴港澳可能之潛在風險升高，行政院於114年9月10日修正旨揭注意事項第3點及第4點規定；茲為維護本府各機關公務機密及人員安全，完備其赴港澳之風險管控機制，本府適用服務法之人員赴港澳，自即日起應參照旨揭注意事項辦理，其中有關赴港澳前之通報作業，修正重點如下： (一) 不分平、假日及事由 ，行前均 應 至人事 差勤系統 及 「國人赴陸港澳動態登錄系統」（網址：https://www.mac.gov.tw/cp.aspx?n=015A70099E11C"
     },
     {
+      "id": "重要公告:仁愛國小:69251bda1c8f7546bbd33323",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "[公告]臺北市115學年度國民小學一般智能資賦優異學生鑑定安置初選評量通過名單",
+      "published": "2025-11-25T04:00:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/69251bda1c8f7546bbd33323?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "臺北市115學年度國民小學一般智能資賦優異學生鑑定安置初選評量通過名單.pdf",
+        "國小一般智能資優鑑定成績查詢三步驟.pdf"
+      ],
+      "summary": "1.通過名單如附件。 家長及學生可至「臺北市國民小學一般智能資優學生鑑定安置系統」（ https://www.gtide.tp.edu.tw ）查詢成績，相關操作方式及流程，詳見【成績查詢三步驟】（如附件）。 2.初選評量通過者，得參加複選評量【一】。 本校預計於 114 年 12 月 1 日至 12 月 5 日辦理複選評量【一】，評量時間、場次，近期將另行發送通知單至學生就讀學校，請就讀學校協助轉發。"
+    },
+    {
       "id": "榮譽榜:博愛國小:692521490cace94692f2b818",
       "schools": [
         "博愛國小"
@@ -41690,6 +42791,45 @@
       "siteUrl": "https://www.kfps.tp.edu.tw",
       "attachments": [],
       "summary": "「自115年1月1日起禁止微型電動二輪車行駛於本市 人行道及自行車道」 依據臺北市政府114年10月30日府授交管字第11430485391 號函辦理。 本府111年11月30日府交管字第1113047438號令公布， 本市 人行道、設置有「行人及自行車專用標誌」人行道、自行 車道（包含河濱自行車道），全日禁止微型電動二輪車行 駛； 未依規定行駛者，依道路交通管理處罰例第73條第1項 第2款規定處罰。"
+    },
+    {
+      "id": "重要公告:仁愛國小:691557559ec7432283d534a1",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "臺北市115學年度身心障礙學生入學國民小學鑑定及安置工作計畫",
+      "published": "2025-11-13T03:41:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/691557559ec7432283d534a1?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "1.臺北市115學年度身心障礙學生入學國民小學鑑定及安置工作計畫.pdf",
+        "2.臺北市115學年度身心障礙學生入學國民小學鑑定及安置報名基本資料檢核表.pdf",
+        "3.臺北市115學年度申請身心障礙學生入學國民小學鑑定及安置報名表.pdf",
+        "4.臺北市115學年度身心障礙學生入學國民小學鑑定及安置報名委託書.pdf",
+        "5_1臺北市115學年度身心障礙學生入國小鑑定及安置實際居住切結書(資源班).pdf",
+        "5_2臺北市115學年度身心障礙學生入國小鑑定及安置實際居住切結書(特教班).pdf",
+        "6.臺北市115學年度身心障礙學生入國小鑑定及安置實際照顧者聲明書.pdf",
+        "7.臺北市身心障礙學生入學國民小學安置原則.pdf"
+      ],
+      "summary": "旨揭計畫相關作業期程如下 (一)報名：114年12月1日至12月12日（週一至週五上午8時至下午4時，假日不受理報名）。 (二)教育評估：114年12月2日至115年1月5日。 (三)鑑定及安置會議：115年2月23日至3月18日。 (四)鑑定結果通知：115年4月8日前。 相關報名資料可於本局特殊教育科網頁「鑑定與安置」項次下載（網址：https://www.doe.gov.taipei/） 詳細期程與相關表格，請見附件。"
+    },
+    {
+      "id": "重要公告:仁愛國小:6915333dd3d73a27d227ca77",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "[處室回覆] 114學年度第一學期學校日建議事項",
+      "published": "2025-11-13T01:18:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6915333dd3d73a27d227ca77?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "臺北市大安區仁愛國民小學114學年度第一學期學校日建議事項 處室回覆.pdf"
+      ],
+      "summary": "感謝家長針對學校日透過班親會會議或酷課APP進行線上回饋，相關建議經處室研擬討論，回覆如附件。 仁愛國小行政及教師團隊將持續以穩健的步伐，與您攜手共同為孩子擘劃精彩的學習生活，謝謝您。"
     },
     {
       "id": "其他公告:敦化國小:691402392c4d8b46f03a8f2b",
@@ -42689,6 +43829,22 @@
       "siteUrl": "https://www.baps.tp.edu.tw",
       "attachments": [],
       "summary": "主旨：轉知臺北市萬華區東園國民小學辦理114學年度第1學期教師特教知能研習，鼓勵教師踴躍報名參加。 說明： 一、講題：雙殊學生的班級經營及輔導策略 二、講座：新北市中和國小資優班 王翔暉教師 三、時間：114年11月19日（星期三）下午1時30分至4時30分 四、地點：臺北市萬華區東園國民小學三樓樂育堂 五、報名方式：請於114年11月14日（星期五）前至臺北市教師 在職進修網報名，並予參加教師公假，全程參與者給予3小時研習時數。 六、其他：(一)無提供車位，請多利用大眾運輸工具蒞臨。(二)為響應環保，請參與人員自備環保杯具。(三)配合門禁管理，請佩戴識別證。"
+    },
+    {
+      "id": "重要公告:仁愛國小:68f896b5cf3e8b7b911aa399",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "轉知本市6歲以上未滿12歲兒童自114年10月16日上午6時起每趟車資可享全票票價之4折搭乘雙北捷運（含輕軌）優惠措施",
+      "published": "2025-10-22T08:08:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/68f896b5cf3e8b7b911aa399?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "法規名稱：臺北市優惠六歲以上未滿十二歲之兒童搭乘捷運補助計畫.pdf"
+      ],
+      "summary": "一、依據本府社會局114年10月13日北市社兒少字第1143168645 號函辦理。 二、為打造本市願生樂養的環境，本府社會局前訂定「臺北市優惠六歲以上未滿十二歲之兒童搭乘捷運補助計畫」（下稱本計畫）提供旨揭兒童搭乘大眾交通運輸之福利，謹先敘明。 三、為減輕旨揭兒童通勤成本與便捷使用大眾運輸工具之權利，本府社會局業修正本計畫，並自114年10月16日起本市6歲以上未滿12歲兒童使用本市國小數位學生證或兒童優惠卡，每趟車資可享全票票價之4折搭乘臺北大眾捷運股份有限公司及新北大眾捷運股份有限公司營運之大眾捷運系統（含輕軌）。 四、另倘設籍本市且未持有本市國小數位學生證之6歲以上未滿12歲兒童，可由法定代理人親自或以書面委託代理人檢具申請書、戶口名簿、身分證明文件及兒童之2吋彩色照片1張至本市各區公所辦理兒童優惠卡，"
     },
     {
       "id": "政策法規:光復國小:68f88005f5607309a6140077",
