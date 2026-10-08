@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T09:15:52.534618+00:00",
+  "updatedAt": "2026-10-08T15:46:43.583149+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -105,7 +105,7 @@
     {
       "name": "校內競賽（光復國小）",
       "status": "ok",
-      "itemCount": 45
+      "itemCount": 46
     },
     {
       "name": "校務公告（敦化國小）",
@@ -224,6 +224,168 @@
     }
   ],
   "articles": [
+    {
+      "id": "校內競賽:光復國小:6ac776928e5389b79872cfb6",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "校內競賽",
+      "title": "115年度自編故事劇本校內初賽成績",
+      "published": "2026-10-08T10:54:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6ac776928e5389b79872cfb6?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=yEymbKs3017&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "115年度自編故事劇本校內初賽成績.pdf"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "光復之光:光復國小:6ac770ac23cd38b78c1617e4",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "光復之光",
+      "title": "115學年度臺北市五項藝術比賽東區美術比賽得獎名單",
+      "published": "2026-10-08T10:28:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6ac770ac23cd38b78c1617e4?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=EIWuBZr8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "115五項藝術比賽東區美術比賽得獎名單.pdf"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=9BD0E4B66CA14CC1",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】臺北醫學大學大數據科技及管理研究所116學年度碩士班甄試招生",
+      "published": "2026-10-08T09:59:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=9BD0E4B66CA14CC1",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "說明： 一、該校大數據科技及管理研究所116學年度碩士班甄試入學自115年10月19日（星期一）上午9時起至115年10月28日（星期三）下午3時止受理網路報名。 二、該系所致力於培育具備人工智慧、大數據分析及醫療跨域應用能力之專業人才，學生可申請赴美國伊利諾大學香檳分校（UIUC）修讀雙聯課程，並有機會與醫師及護理師共同參與臨床第一線研究，推動研究成果落地應用。 詳細資訊請參閱附件。 附件_海報.pdf"
+    },
+    {
+      "id": "研習資訊:仁愛國小:6ac767dd57f717b5950e69a5",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "「111年國小智慧未來教室採購案」115年度教育訓練",
+      "published": "2026-10-08T09:50:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6ac767dd57f717b5950e69a5?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=BLvblfR5996&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "教育訓練計畫.odt"
+      ],
+      "summary": "一、為協助各校教師熟悉智慧未來教室觸控式液晶顯示器、行動載具等設備，規劃辦理旨揭教育訓練，相關資訊說明如下： (一)地點：Teams線上同步直播 １、第一場次連結：https://reurl.cc/gNrrbp ２、第二場次連結：https://reurl.cc/mzppjY (二)時間： １、第一場次：115年10月21日（星期三）上午9時至12時。 ２、第二場次：115年10月21日（星期三）下午1時30分至4時30分。 (三)報名方式：自即日起至115年10月16日（星期五）下班前至教師在職研習網（網址：https://insc.tp.edu.tw）報名。 (四)簽到方式：以「酷課」APP簽到，請參訓人員於上課前下載安裝酷課APP（至Google Play商店或App Store 搜尋下載「酷課」APP）"
+    },
+    {
+      "id": "研習資訊:仁愛國小:6ac7670358cb8ab740aa903a",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "臺北市教師研習中心原訂115年12月4日下午辦理「臺北市115年度科技領導研習班第3期研習班」，因故調整至同年12月9日辦理",
+      "published": "2026-10-08T09:47:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6ac7670358cb8ab740aa903a?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=BLvblfR5996&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "實施計畫.pdf"
+      ],
+      "summary": "一、依據本中心115年10月2日北市師教字第1156002916號函（諒達）續辦。 二、前揭研習班更正後時間為115年12月9日（週三）下午1時30分至4時10分，地點不變。"
+    },
+    {
+      "id": "研習資訊:仁愛國小:6ac766a15a2ee9b6b3c9bdcb",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "臺北市教師研習中心辦理臺北市115年度教師人工智慧（AI）增能系列研習班",
+      "published": "2026-10-08T09:44:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6ac766a15a2ee9b6b3c9bdcb?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=BLvblfR5996&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "實施計畫.pdf"
+      ],
+      "summary": "一、依據本中心115年度研習行事曆辦理。 二、研習對象：本市公私立高級中等以下學校教師，實體課程每場次30人，線上課程每場次100人。 三、研習時間：115年11月14日（週六）至12月26日（週六）。 四、報名及薦派期間：各期報名截止日不同，請於期限內分別報名，詳附件實施計畫課表。 五、研習地點： (一)實體課程：臺北市立長安國中(臺北市中山區松江路70巷11號)。第14期在行政樓4樓教師社群研討室，其他實體 課程在信義樓3樓電腦教室。 (二)線上課程：相關連結將於課程前以各研習員於教師在職研習網中登錄之 e-mail 信箱通知，請確認收件信箱。 六、報名方式：採網路報名，請於報名截止日前登入臺北市教師在職研習網（https://insc.tp.edu.tw）報名，經行政程序核准後，由學校研習承辦人於報名截止"
+    },
+    {
+      "id": "研習資訊:仁愛國小:6ac7652ff65671b39514d085",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "115年度STEAM教育師資培訓三階研習-參訪STEAM社群基地園及備課交流",
+      "published": "2026-10-08T09:38:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6ac7652ff65671b39514d085?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=BLvblfR5996&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "實施計畫.pdf"
+      ],
+      "summary": "一、續中華民國115年7月1日北市新生字第1153004702號函辦理。 二、為提供對 STEAM 教育有興趣之教保服務人員，提升專業知能辦理旨揭研習，研習資訊如下： (一)研習文號：北市研習字第1151002004號。 (二)研習對象：本年度申請STEAM進階研習錄取之班級教保服務人員(見名單附件)及STEAM社群基地園夥伴。 (三)研習內容：STEAM社群基地園實地參觀、討論與交流 (四)研習地點：臺北市立大學附設實驗國民小學附設幼兒園(地址：臺北市中正區建國里公園路29號。) (五)錄取名額：30位。 (六)報名方式：臺北市教師在職研習系統報名薦派報名。報名事宜若有疑問，請電洽臺北市幼兒STEAM 創思中心，研習承辦人蔡組長，電話：02-23913122分機199。 三、注意事項：全程參與者且完成簽到退者"
+    },
+    {
+      "id": "重要公告:仁愛國小:6ac764409b7b1dafd44c6754",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "115年度 人事室 約僱書記(身障)甄選公告",
+      "published": "2026-10-08T09:36:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6ac764409b7b1dafd44c6754?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [],
+      "summary": "115年度 人事室 約僱書記(身障)甄選公告 正取:從缺"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=E5E58317E10B4662",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【研習資訊】高雄市115年度匹克球丙級裁判講習會",
+      "published": "2026-10-08T09:21:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=E5E58317E10B4662",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、研習時間：115年11月6日（週五）至115年11月7日（週六）。 二、研習地點：高雄市楠梓高中南區匹克球訓練基地（楠梓區高雄市楠梓區清豐路19號）。 三、報名日期：即日起至115年11月1日（週日）止。 四、報名方式請參閱實施計畫（如附件）。 高雄市115年匹克球丙級裁判講習會實施計畫.pdf"
+    },
+    {
+      "id": "校外競賽:光復國小:6ac760e899409cb517c318ee",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "校外競賽",
+      "title": "轉知：臺北市體育總會民俗體育運動協會辦理「115年臺北 市中正盃民俗體育運動錦標賽」",
+      "published": "2026-10-08T09:21:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6ac760e899409cb517c318ee?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=jOHZo998827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "115年臺北 市中正盃民俗體育運動錦標賽.pdf"
+      ],
+      "summary": "臺北市體育總會民俗體育運動協會辦理「115年臺北 市中正盃民俗體育運動錦標賽」 賽事訂於115年（下同）11月12日假臺北市立弘道國民 中學（扯鈴、踢毽）及臺北市立大學附設實驗國民小學 （跳繩）辦理，敬請鼓勵所屬踴躍報名參加。 報名日期於10月1日至10月16日止，參賽辦法及資格請參閱 附件。 如有任何疑問，請逕洽聯絡人：夏組長、陳輔導 員，連絡電話：23715520#370、#350。"
+    },
     {
       "id": "光復之光:光復國小:6ac75e15f47d91b27ce0edd8",
       "schools": [
