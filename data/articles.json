@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T15:46:43.583149+00:00",
+  "updatedAt": "2026-10-09T09:23:56.853932+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -15,7 +15,7 @@
     {
       "name": "人事資訊（光復國小）",
       "status": "ok",
-      "itemCount": 87
+      "itemCount": 86
     },
     {
       "name": "光復之光（光復國小）",
@@ -95,12 +95,12 @@
     {
       "name": "校內消息（仁愛國小）",
       "status": "ok",
-      "itemCount": 53
+      "itemCount": 52
     },
     {
       "name": "校內競賽（仁愛國小）",
       "status": "ok",
-      "itemCount": 37
+      "itemCount": 36
     },
     {
       "name": "校內競賽（光復國小）",
@@ -180,7 +180,7 @@
     {
       "name": "競賽活動（敦化國小）",
       "status": "ok",
-      "itemCount": 64
+      "itemCount": 63
     },
     {
       "name": "行政公告（建安國小）",
