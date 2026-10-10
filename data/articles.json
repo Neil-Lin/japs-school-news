@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-10-09T15:28:36.867912+00:00",
+  "updatedAt": "2026-10-10T08:45:15.817767+00:00",
   "errors": [],
   "sourceStatus": [
     {
       "name": "一般智能資賦優異（敦化國小）",
       "status": "ok",
-      "itemCount": 8
+      "itemCount": 7
     },
     {
       "name": "一般消息（仁愛國小）",
@@ -15,7 +15,7 @@
     {
       "name": "人事資訊（光復國小）",
       "status": "ok",
-      "itemCount": 86
+      "itemCount": 85
     },
     {
       "name": "光復之光（光復國小）",
@@ -145,7 +145,7 @@
     {
       "name": "比賽資訊（建安國小）",
       "status": "ok",
-      "itemCount": 100
+      "itemCount": 99
     },
     {
       "name": "活動專欄（建安國小）",
@@ -195,7 +195,7 @@
     {
       "name": "親職資訊（仁愛國小）",
       "status": "ok",
-      "itemCount": 58
+      "itemCount": 57
     },
     {
       "name": "重要公告（仁愛國小）",
