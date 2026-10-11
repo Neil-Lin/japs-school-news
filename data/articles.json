@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T14:35:37.265047+00:00",
+  "updatedAt": "2026-10-11T09:07:55.183626+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -15,7 +15,7 @@
     {
       "name": "人事資訊（光復國小）",
       "status": "ok",
-      "itemCount": 85
+      "itemCount": 84
     },
     {
       "name": "光復之光（光復國小）",
@@ -25,7 +25,7 @@
     {
       "name": "其他公告（敦化國小）",
       "status": "ok",
-      "itemCount": 81
+      "itemCount": 79
     },
     {
       "name": "國中入學（光復國小）",
@@ -100,7 +100,7 @@
     {
       "name": "校內競賽（仁愛國小）",
       "status": "ok",
-      "itemCount": 36
+      "itemCount": 35
     },
     {
       "name": "校內競賽（光復國小）",
@@ -145,7 +145,7 @@
     {
       "name": "比賽資訊（建安國小）",
       "status": "ok",
-      "itemCount": 99
+      "itemCount": 98
     },
     {
       "name": "活動專欄（建安國小）",
@@ -180,7 +180,7 @@
     {
       "name": "競賽活動（敦化國小）",
       "status": "ok",
-      "itemCount": 63
+      "itemCount": 61
     },
     {
       "name": "行政公告（建安國小）",
@@ -34943,6 +34943,22 @@
       "published": "2026-05-21T08:24:00+00:00",
       "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6a0ec1b9362c8f457f1a5db2?vector=private&static=false",
       "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=pBSho0Y6874&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "光復國小11501~11504反針孔攝影巡查紀錄表.pdf"
+      ],
+      "summary": "一、依據本府教育局 115年5月21日北市教體字第1153066533號函辦理。 二、115年1~4月份檢測結果無異常，檢測紀錄表詳如附件。"
+    },
+    {
+      "id": "學校公告:光復國小:6a0ec1b9362c8f457f1a5db2",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "學校公告",
+      "title": "【反針孔攝影偵測】115年1~4月偵測結果",
+      "published": "2026-05-21T08:24:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6a0ec1b9362c8f457f1a5db2?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=UFKVG9l8827&vector=private&static=false",
       "siteUrl": "https://www.kfps.tp.edu.tw",
       "attachments": [
         "光復國小11501~11504反針孔攝影巡查紀錄表.pdf"
