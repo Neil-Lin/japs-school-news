@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T09:31:49.488199+00:00",
+  "updatedAt": "2026-10-12T18:07:05.536579+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -224,6 +224,126 @@
     }
   ],
   "articles": [
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=170B7F2049BAC380",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】國立科學工藝博物館與農業部農村發展及水土保持署合作農村人才培育工作坊",
+      "published": "2026-10-12T12:40:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=170B7F2049BAC380",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、配合《食農教育法》頒布，為鼓勵大眾及農村人才推動食 農教育，規劃辦理以下2項農村人才培訓工作坊(詳如以下 報名連結)： (一)本(115)年10月16日「『從卡牌到農場』青農食農教育創 意落地一日工作坊」(線上報名連結：https://reurl.cc /RRg1QZ) (二)本年10月29-30日「玩中學─農村食農教育創意教具開發 工作坊」(線上報名連結：https://reurl.cc/vG214e)"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=F069EF75FF3D9C97",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】社團法人大享食育協會辦理「2026食之有WAY之尋找天菜 養成學校午餐與食農教育博覽會」活動",
+      "published": "2026-10-12T12:20:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=F069EF75FF3D9C97",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、該會於2026年10月17、18日（星期六、日）假臺北市松山文創園區五號倉庫，舉辦「2026食之有WAY之尋找天菜 養成學校午餐與食農教育博覽會」活動，以「國產食材、食農教育與學校午餐」為主題，規劃30個單位參與的食農市集，以及共20場以上的人氣講座、手作體驗活動，邀請民眾參與學校午餐與食農教育的年度盛會。 二、活動資訊： （一）時間： 2026年10月17日（六）10:00～18:00 2026年10月18日（日）10:00～17:00 （二）地點：臺北市松山文創園區五號倉庫（臺北市信義區光復南路133號） 三、活動報名及更多資訊請參考官方網站：https://www.foodedu.org/project/3138 四、本活動相關事宜，請洽本會朱小姐或洪先生，02-27088812／schoollunc"
+    },
+    {
+      "id": "教師研習及活動:光復國小:6accb907b10b24bea93a5e21",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "教師研習及活動",
+      "title": "「高級中等學校教師本土語文認 證培訓實施計畫—第二十三梯次本土語文認證輔導班」",
+      "published": "2026-10-12T10:37:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6accb907b10b24bea93a5e21?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=GfVDvAq0432&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "說明： 一、依據國教署115年10月2日臺教國署原字第1150097613B號函 辦理。 二、依據十二年國民基本教育課程綱要，高級中等學校於111學 年度起開設本土語文部定課程2學分。在職教師擔任閩南語 文或客語文師資應取得中高級以上語言能力證明。 三、國教署委託國立臺南大學自111年1月起陸續辦理旨揭培訓 課程，請貴校積極薦派教師參訓（第二十三梯次），相關 資訊如下： (一)課程日期：115年11月29日（星期日）、12月5日（星期 六）、12月6日（星期日）、12月19日（星期六）、12月 20日（星期日），每日上午9時至下午4時20分，共計5 日，30小時。 (二)授課方式：Google Meet線上課程（課程網址將於課前通 知內說明。） (三)課程班別： １、臺灣台語班（1班、每班200人）。 ２、客語"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=8C2A4FD0C4AA2F56",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【賽事資訊】115年全國冬季短水道游泳錦標賽",
+      "published": "2026-10-12T10:33:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=8C2A4FD0C4AA2F56",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、賽事時間：115年11月19日（週四）至115年11月23日（週一）。 二、賽事地點：高雄市立國際游泳池(高雄市苓雅區中正一路94巷1號)。 三、報名日期：即日起至 115年11月4日（週三） 止。 四、報名方式請參閱競賽規程（如附件）。 115年全國冬季短水道游泳錦標賽競賽規程.pdf"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=6057F50954C4CD73",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】國立政治大學教育行政與政策研究所116學年度碩士班招生",
+      "published": "2026-10-12T10:12:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=6057F50954C4CD73",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "說明： 一、碩士班甄試招生考試報名相關事項如下： (一)網路報名日期：115年9月29日（星期二）至10月13日（星期二）中午12時止 (二)招生名額：共計8名。 (三)考試項目： １、書面審查（佔比50%）：請至該所網頁下載表件並於上述報名時間前上傳。 ２、面試（佔比50%）：全體報名考生進入面試階段。 (四)面試日期：115年11月13日（星期五）。 (五)考試相關訊息詳見該校招生簡章或至「該校首頁/學術單位/ 教育行政與政策研究所/ 最新消息查詢。 二、碩士班招生考試報名相關事項如下： (一)網路報名日期：115年11月24日（星期二）至12月8日（星期二）中午12時止。 (二)招生名額：共計5名。 (三)考試項目： １、資料審查（佔比40%）：請至該所網頁下載表件後於上述報名時間前上傳。 ２、面試（佔比"
+    },
+    {
+      "id": "教師研習及活動:光復國小:6accb2c88ec075be0bc27e79",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "教師研習及活動",
+      "title": "[研習]臺北市 115 學年度「原」力扎根‧探究無 界—原住民族議題融入媒體素養「簡易包」工作坊」",
+      "published": "2026-10-12T10:12:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6accb2c88ec075be0bc27e79?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=GfVDvAq0432&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "29689366_1156007768_ATTCH1.pdf"
+      ],
+      "summary": "一、依臺北市 115 學年度國教地方團原住民族教育議題分團精 進教師教學專業與課程品質推動計畫辦理。 二、旨揭研習課程主軸為深化全民原教，建構「模組化教案」 於課程中融入推廣原民教育。 三、本工作坊辦理資訊如下： (一)參加對象：臺北市國民中小學教師、原住民族教育議題 分團輔導員。 (二)本工作坊辦理期程如下： １、115年10月16日(星期五)09：00-12：30 ２、115年10月23日(星期五)09：00-12：30 ３、115年10月30日(星期五)09：00-12：30 ４、115年11月 6 日(星期五)09：00-12：30 (三)研習字號：北市研習字第1151007037號 (四)講座：陳香吟主任(新北市新莊區光華國民小學) 四、為維護研習品質及參加研習人員權益，請務必於研習報名 截止前完成報"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=88248F2F28A8CD23",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】監察院國家人權委員會入校宣講相關申請資訊",
+      "published": "2026-10-12T09:44:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=88248F2F28A8CD23",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "為增進高中職以下各級學校學生之人權意識及瞭解國家人權委員會職權及運作，監察院國家人權委員會可結合相關活動、課程，派員前往學校（公私立各級學校均可）宣講；詳細資訊詳如附件。 監察院國家人權委員會原函.pdf"
+    },
     {
       "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=A85EB8093CF5DCEA",
       "schools": [
@@ -47315,22 +47435,6 @@
       "siteUrl": "https://www.thps.tp.edu.tw",
       "attachments": [],
       "summary": "處理學生申訴案件的實施辦法主要分為 向學校申訴 和 向主管機關再申訴 兩級。學生需在收到學校的處分通知次日起20日內，以書面形式向學校學生申訴評議委員會提出申訴，若不服學校的評議結果，則可於評議決定書送達次日起30日內，向學校所在地的主管機關提起再申訴。 第一階段：向學校申訴 申訴對象 ：學校為處理學生申訴案件所設的「學生申訴評議委員會」（簡稱學生申評會）。 申訴主體 ：學生本人、學生的法定代理人或實際照顧者。 申訴內容 ：學生對學校的懲處、其他措施或決議不服，認為違法或不當致損害其權益者。 申訴時機 ：需在收到處分書送達的次日起20日內以書面方式提出。 申訴流程 ： 在申訴書中載明申訴人姓名、事由及具體理由，並附上相關文件及證據。 學校申評會應於收到申訴書的次日起20日內開會作成評議決定書。 申訴人得在評議決"
-    },
-    {
-      "id": "榮譽榜:建安國小:68ebb8c2955b0d52350c7a69",
-      "schools": [
-        "建安國小"
-      ],
-      "source": "榮譽榜",
-      "title": "賀! 本校參加「114學年度臺北市學生美術比賽」成績優異",
-      "published": "2025-10-12T14:11:00+00:00",
-      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/68ebb8c2955b0d52350c7a69?vector=private&static=false",
-      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=AQoMNBw7626&vector=private&static=false",
-      "siteUrl": "https://www.jnps.tp.edu.tw",
-      "attachments": [
-        "114學年度臺北市學生美術比賽建安國小獲獎學生名單公告(1012).pdf"
-      ],
-      "summary": "**本校參加 114學年度臺北市學生美術比賽榮獲佳績 ，恭喜得獎學生，感謝指導老師的辛勞。 **本次各類組錄取之前 6 名（第 1 名壹件，第 2 名貳件，第 3 名叁件）代表臺北市參加全國學生美術比賽。"
     }
   ]
 }
