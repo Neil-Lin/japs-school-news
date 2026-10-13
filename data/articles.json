@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T09:37:41.613630+00:00",
+  "updatedAt": "2026-10-13T16:14:43.443358+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -105,7 +105,7 @@
     {
       "name": "校內競賽（光復國小）",
       "status": "ok",
-      "itemCount": 46
+      "itemCount": 47
     },
     {
       "name": "校務公告（敦化國小）",
@@ -224,6 +224,171 @@
     }
   ],
   "articles": [
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=A034A99111C9CB08",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】國立屏科實驗高級中等學校辦理115年度教育部中小學新興科技輔助PBL跨域課程實施計畫校外公開觀議課",
+      "published": "2026-10-13T11:00:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=A034A99111C9CB08",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、課程名稱 ： 智慧農園2.0版－雷切設計 ： 運用MakerCase參數化設計與Inkscape開孔繪製智慧農園外觀。 二、時間 ： 115年10月13日(星期二)上午10時10分至12時30分。 三、地點 ： 本校B207資訊教室、D202機器人教室。 四、公開觀議課流程 ： (一)10：00～10：10 報到(B207資訊教室)。 (二)10：10～10：25 說課(B207資訊教室)。 (三)10：25～10：30 教學準備及學生進場(B207資訊教 室)。 (四)10：30～11：10 觀課(B207資訊教室)。 (五)11：10～11：20 休息(D202機器人教室)。 (六)11：20～12：30 議課(D202機器人教室)。 五、受限空間校外開放20名，請欲參加者至報名表單填寫報名資料，表單連"
+    },
+    {
+      "id": "研習資訊:博愛國小:6ace09c02676c6fd20408dbb",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "轉知臺北市115學年度第1學期國民小學特殊教育教師社會情緒學習(SEL)增能研習實施計畫，鼓勵參加。",
+      "published": "2026-10-13T10:36:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ace09c02676c6fd20408dbb?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=tQHaHM07712&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "檢送臺北市115學年度第1學期國民小學特殊教育教師社會情緒學習(SEL)增能研習實施計畫一份，請查照。.pdf"
+      ],
+      "summary": "轉知臺北市115學年度第1學期國民小學特殊教育教師社會情緒學習(SEL)增能研習實施計畫，鼓勵參加。"
+    },
+    {
+      "id": "校內競賽:光復國小:6ace09a46cf6a400e5717eae",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "校內競賽",
+      "title": "115年度兒童美術創作展校內比賽實施計畫",
+      "published": "2026-10-13T10:31:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6ace09a46cf6a400e5717eae?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=yEymbKs3017&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "115年度兒童美術創作展校內比賽實施計畫.pdf"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "最新消息:博愛國小:6acdf2cd9834acf686b786b7",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "臺北市信義區博愛國民小學115學年度幼兒園代理教師(一招)錄取公告",
+      "published": "2026-10-13T10:00:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6acdf2cd9834acf686b786b7?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [],
+      "summary": "幼兒園(普通班)代理教師：周○芳。 請周○芳 1 人於 115 年 10 月 14 日 ( 三 ) 上午 11 時前，攜帶【報名文件檢附之正本及各項得以提敘薪之職前年資證明正本】至本校人事辦理報到，未報到者視同棄權，遺缺將改列後續各階段名額。"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=2BEA554EC9AA6159",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【賽事資訊】116年度中華桌球排名資格賽",
+      "published": "2026-10-13T09:53:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=2BEA554EC9AA6159",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、賽事時間：115年11月13日（週五）至115年11月18日（週三） 二、賽事地點：中信金學校財團法人中信科技大學體育館 （臺南市新市區永就里中華路49號）。 三、報名日期：115年10月16日（週五）下午5時止。 四、報名方式請參閱競賽規程（如附件）。 116年度中華桌球排名資格賽競賽規程.odt"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=D1AB0A8FBE3FB3E5",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】社團法人大享食育協會辦理「遊農食－食農教育教具教材交流會暨工作坊」 活動",
+      "published": "2026-10-13T09:52:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=D1AB0A8FBE3FB3E5",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、為促進食農教育教具開發者與第一線教學人員之互動與交流，透過實際操作體驗，讓教學人員認識並熟悉桌遊、布偶、多媒體等多元教具之操作方式與應用情境，該會辦理 「遊農食－食農教育教具教材交流會暨工作坊」，邀請食農教育教學及推動人員參與。 二、活動簡介： （一）各場次時間地點： 1、北部場： 時間：2026年11月11日（三）交流會9:00-12:00、工作坊13: 00-17:00 地點：臺北市農會大禮堂（臺北市大安區復興南路一段390 號） 2、中部場 時間：2026年11月14日（六）交流會9:00-12:00、工作坊13: 00-17:00 地點：國立中興大學興藝廳（臺中市南區興大路145號） 3、南部場： 時間：2026年11月15日（日）交流會9:00-12:00、工作坊13: 00-17:00 地點：臺"
+    },
+    {
+      "id": "教師研習及活動:光復國小:6acdffda485d29feb8466ea7",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "教師研習及活動",
+      "title": "116年「華語文能力測驗」",
+      "published": "2026-10-13T09:51:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6acdffda485d29feb8466ea7?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=GfVDvAq0432&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "29693363_1153106504_ATTCH1.pdf",
+        "29693363_1153106504_ATTCH2.pdf",
+        "29693363_1153106504_ATTCH3.pdf"
+      ],
+      "summary": "一、依據國家華語測驗推動工作委員會115年10月5日華測字第 1152000052號函辦理。 二、該會116年共辦理7次正式考試，每次均於星期六、日連續 舉行2天；另於4月及10月辦理2次大型預試，供考生熟悉題 型與測驗流程。 三、測驗報名方式： (一)個人報名：請考生於報名期間至華語文能力測驗線上報 名系統報名（https://tocfl.edu.tw/TW/）。建議學校 關懷學生報名情形或協助報名，避免委託不明人士代 辦，致資料外洩或受騙。 (二)團體報名：學校可於開放報名前一週向該會申請，以校為單位，報名人數須達30人並於期限內完成繳費。團報 考生將由該會指定考試中心與考試時間，請校方提早彙 整上傳考生個資與照片並確認資料齊全正確，若有誤將 影響考生應試資格且不得申請退費。 四、策略聯盟單位所屬考生享有報"
+    },
+    {
+      "id": "教師研習及活動:光復國小:6acdfef1472026fa4b5d213f",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "教師研習及活動",
+      "title": "115年原住民族語（布農 族語）認證加強班（11月）",
+      "published": "2026-10-13T09:49:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6acdfef1472026fa4b5d213f?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=GfVDvAq0432&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "一、依據教育部國民及學前教育署115年10月2日臺教國署原字 第1150098703B號函辦理。 二、旨揭課程資訊如下： (一)日期：115年11月21日（星期六）、11月22日（星期 日），每日上午9時至下午4時20分，共計2日，12小 時。 (二)班別與人數：布農族語（1班，每班15人）。 (三)授課方式：Google Meet線上研習（課程網址將於課前通 知中說明）。 (四)報名資格： １、第一順位：參加過本中心原住民族語認證輔導班之教 師。 ２、第二順位：高級中等學校及國民中小學有意願教授原 住民族語之學校教師。 (五)報名方式： １、115年10月12日（星期一）起至11月8日（星期日）， 至全國教師在職進修資訊網（https://www4. inservice.edu.tw/）完成線上報名。 ２、課"
+    },
+    {
+      "id": "教師研習及活動:光復國小:6acdfe72af6059fc8c06a725",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "教師研習及活動",
+      "title": "親子天下2026 校園領導力工作坊",
+      "published": "2026-10-13T09:48:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6acdfe72af6059fc8c06a725?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=GfVDvAq0432&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "一、親子天下2026 校園領導力工作坊將於11/14（六）下午13: 30~16:30於親子天下Club（臺北市中山區長安東路2段101 號10樓）實體舉辦，以「校園衝突與關係經營的領導行 動」為主題，旨在協助校園領導者有效應對衝突管理與親 師溝通兩大實務難題，幫助校園領導者透過「誠信溝通」 與「共好領導」來化解對立。 二、2026 校園領導力工作坊關鍵議題包括：全台教師議題調查 分享、從對立到對話，破解校園危機的溝通僵局、校園組 織領導與親師溝通等面向多元探討，透過溝通技巧，建立 互信與合作關係，並透過多位校長的實務案例分享，提供 具體可行的衝突應對策略與組織運作方法。 三、本場實體工作坊為免費報名，並提供參與教師3小時教師研 習時數。 四、報名官網： https://flipedu.parenting.co"
+    },
+    {
+      "id": "研習資訊:仁愛國小:6acdfd864e04bdfc1b80f522",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "臺北市政府教育局主旨：轉知國家華語測驗推動工作委員會116年「華語文能力測 驗」一案，請公告周知並鼓勵相關人員踴躍參加，請查 照。",
+      "published": "2026-10-13T09:41:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6acdfd864e04bdfc1b80f522?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=BLvblfR5996&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "29691512_1153106504.pdf",
+        "29691512_1153106504_ATTCH1.pdf",
+        "29691512_1153106504_ATTCH2.pdf",
+        "29691512_1153106504_ATTCH3.pdf"
+      ],
+      "summary": "二、該會116年共辦理7次正式考試，每次均於星期六、日連續舉行2天；另於4月及10月辦理2次大型預試，供考生熟悉題型與測驗流程。 三、測驗報名方式： (一)個人報名：請考生於報名期間至華語文能力測驗線上報名系統報名（https://tocfl.edu.tw/TW/）。建議學校關懷學生報名情形或協助報名，避免委託不明人士代辦，致資料外洩或受騙。 (二)團體報名：學校可於開放報名前一週向該會申請，以校為單位，報名人數須達30人並於期限內完成繳費。團報考生將由該會指定考試中心與考試時間，請校方提早彙整上傳考生個資與照片並確認資料齊全正確，若有誤將影響考生應試資格且不得申請退費。 四、策略聯盟單位所屬考生享有報名優惠；單位窗口可查詢所屬考生的報考資料及成績，可簡化證書查核流程，並降低偽造證書的風險。欲加入策略聯盟、了解"
+    },
     {
       "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=2CADB752799C22EC",
       "schools": [
