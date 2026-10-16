@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T07:24:26.608962+00:00",
+  "updatedAt": "2026-10-16T13:25:28.161877+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -175,7 +175,7 @@
     {
       "name": "研習資訊（建安國小）",
       "status": "ok",
-      "itemCount": 98
+      "itemCount": 95
     },
     {
       "name": "競賽活動（敦化國小）",
@@ -224,6 +224,204 @@
     }
   ],
   "articles": [
+    {
+      "id": "行政公告:建安國小:6ad2083bfd4e2bcdc04c18e1",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "行政公告",
+      "title": "免費親職講座資訊轉知：1151108 王意中心理師，不吼不叫的溝通心法：化解對立反抗，讀懂孩子的行為語言",
+      "published": "2026-10-16T11:16:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6ad2083bfd4e2bcdc04c18e1?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=2rEsyLS9623&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [
+        "1151108 不吼不叫的溝通心法(王意中心理師).jpg"
+      ],
+      "summary": "信誼基金會將於 115 年 11 月 8 日（日）下午 2 ： 00-4 ： 00 舉辦【不吼不叫的溝通心法：化解對立反抗，讀懂孩子的行為語言】講座，邀請家長及教職員免費報名參加。 「我不要」「你管我！」甩門、頂嘴、躺平耍賴 … 孩子的行為語言，往往藏著說不出口的情緒與求助訊號。大人若急著制止、講理或下達命令，可能會加劇衝突，甚至消耗彼此的信任與親密感。 大人在衝突當下的回應，決定孩子接下來的反應與態度，邀請兒童心理暨親職教養專家 王意中心理師 主講，深入剖析「對立反抗」真相，練習同理溝通、正確應對，終止教養日常的硬碰硬。 本講座採線上 LIVE 與實體同步課程，即日起，開放免費報名。 相關資訊如下： 1. 演講時間： 115 年 11 月 8 日（星期日）下午 2:00 至 4:00 2. 報名網址： htt"
+    },
+    {
+      "id": "研習資訊:博愛國小:6ad200d2bcb55fcb0fba74dc",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "轉知教育部國民及學前教育署委託國立清華大學特殊教育中心辦理115年度「有愛無礙融合教育支持計畫」成果發表暨推廣研習會，鼓勵踴躍報名參加。",
+      "published": "2026-10-16T10:46:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ad200d2bcb55fcb0fba74dc?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=tQHaHM07712&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "轉知教育部國民及學前教育署委託國立清華大學特殊教育中心辦理115年度「有愛無礙融合教育支持計畫」成果發表暨推廣研習會，鼓勵踴躍報名參加。-1151016.pdf"
+      ],
+      "summary": "轉知教育部國民及學前教育署委託國立清華大學特殊教育中心辦理115年度「有愛無礙融合教育支持計畫」成果發表暨推廣研習會，鼓勵踴躍報名參加。"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=7D75F166FDD51ECC",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【賽事資訊】115年全國中山盃武術錦標賽",
+      "published": "2026-10-16T10:29:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=7D75F166FDD51ECC",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、賽事時間：115年12月12日（週六）至115年12月13日（週日）。 二、賽事地點：臺中市瑞穗國小體育館（臺中市豐原區西安街72-1號）。 三、報名日期：即日起至115年11月20日（週五）下午12時止。 四、報名方式請參閱競賽規程（如附件）。 競賽規程.pdf"
+    },
+    {
+      "id": "榮譽榜:建安國小:6ad1fc8f0f7fc7ca9ec122c8",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "榮譽榜",
+      "title": "賀~~115學年度臺北市學生美術比賽建安國小獲獎學生名單公告",
+      "published": "2026-10-16T10:28:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6ad1fc8f0f7fc7ca9ec122c8?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=AQoMNBw7626&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [
+        "115學年度臺北市學生美術比賽建安國小獲獎學生名單公告.pdf"
+      ],
+      "summary": "恭喜獲獎同學，感謝老師用心的指導。"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=EED40049AD37068B",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】財團法人忠泰建築文化藝術基金會辦理新富町文化市場十週年展活動資訊",
+      "published": "2026-10-16T08:42:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=EED40049AD37068B",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、忠泰建築文化藝術基金會在萬華深耕十年，特於新富町文化市場辦理新富町文化市場十週年展《市場製造》新富展區之《市場是一個()的地方》。展覽以「市場製造 Made in Market」為題，探討市場之生產、交換與流通本質，並透過四組創作者與攤商的共創作品，帶領大眾重新探索市場與地方共處的多重可能，呈現忠泰基金會進駐新富町文化市場的理念與營運實踐的過程、市場攤商個人生命史與當代轉譯。 二、為鼓勵學校參與，臺北市公私立學校(含國中及高中職)預約團體導覽服務均享免費優惠，非常適合各校作為户外教育與本土文化延伸學習之場域。 三、展覽與團體導覽預約相關規範如下： (一)展覽名稱：新富町文化市場十週年展《市場製造》 新富展區《市場是一個()的地方》 (二)展覽地點：新富町文化市場(臺北市萬華區三水街70號) (三)展覽日期："
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=CE1C408A7BA6B0EA",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】經濟部智慧財產局115年11月19日（星期四）舉辦「AI與著作權實務講座」",
+      "published": "2026-10-16T08:41:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=CE1C408A7BA6B0EA",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、為協助社會大眾了解人工智慧對著作權帶來的衝擊與實務應用，經濟部智慧財產局將於115年11月19日舉辦「AI與著作權實務講座」，說明如下，歡迎踴躍報名。 (一)主題：AI與著作權實務講座 (二)主講人：益思科技法律事務所所長賴文智律師 (三)時間：115年11月19日(星期四)下午2:00~4:00 (四)地點：臺北市孔廟劇院(臺北市大同區大龍街275號，近捷運圓山站) 二、檢附經濟部智財局公函及活動EDM（如附件），歡迎掃描活動EDM中之報名連結QRCode進行報名，凡參加本項活動具公務員身分者，可登錄終身學習時數2小時。 三、本案執行單位為泛學優股份有限公司，聯絡電話：（02）3393-1663轉251殷小姐。 經濟部智慧財產局公函.pdf 經濟部智慧財產局_「AI與著作權實務講座」EDM.pdf"
+    },
+    {
+      "id": "活動資訊:光復國小:6ad1e31aadfd5dc54d627fda",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "活動資訊",
+      "title": "台灣展翅協會辦理《藏在對話裡的黑影》防制網路誘拐特展，歡迎班級或親子參觀",
+      "published": "2026-10-16T08:36:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6ad1e31aadfd5dc54d627fda?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=QWbvWuz8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "一、隨著兒少生活高度數位化，網路誘拐已成為性剝削與性勒 索的重要起點。為提升兒童、青少年及陪伴者對網路誘拐樣貌與數位安全議題之認識，本會於十一月辦理《藏在對 話裡的黑影》防制網路誘拐特展。 二、本次特展透過生活化情境展示及互動體驗，帶領參觀者從常見的網路對話與使用情境中辨識可能的網路誘拐風險訊號，並認識遭遇危險情境時可採取之安全措施及求助方 式。 三、展覽資訊如下： (一)展覽名稱：《藏在對話裡的黑影》防制網路誘拐特展。 (二)展覽日期：115年11月3日至11月22日，逢週一休館。 (三)展覽地點：國立臺灣圖書館 (新北市中和區中安街85號) 一樓大廳。 (四)建議參觀時間：約40分鐘。 (五)參觀對象：兒童、青少年、家長、教師及一般民眾。 四、展覽期間自11月5日起，每週二、四、五安排專人導覽，導 覽服務時"
+    },
+    {
+      "id": "校外競賽:光復國小:6ad1e18e42c420c52fa0f27f",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "校外競賽",
+      "title": "衛生福利部委託國立成功大學營運「心快活」心理健康資源和學習平台—心理健康知識PK賽競賽活動，歡迎教師與學生踴躍報名參賽",
+      "published": "2026-10-16T08:31:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6ad1e18e42c420c52fa0f27f?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=jOHZo998827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "115心理健康知識PK賽競賽辦法.pdf"
+      ],
+      "summary": "一、本競賽訂於115年11月9日（星期一）至115年11月18日（星期三）舉辦，即日起報名至115年11月2日（星期一）止。 二、如有聯絡事宜，請洽國立成功大學心快活平台承辦工作小 組，電話：（06）2353535轉5115。 三、競賽辦法請參閱附件。"
+    },
+    {
+      "id": "教師研習及活動:光復國小:6ad1e0513f2abec5086052a9",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "教師研習及活動",
+      "title": "臺北市教師研習中心115年度教師支持陪伴計畫（第24-25期）",
+      "published": "2026-10-16T08:26:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6ad1e0513f2abec5086052a9?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=GfVDvAq0432&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "教研中心教師支持陪伴團體實施計畫(24-25期).pdf"
+      ],
+      "summary": "一、活動主題、日期、人數及地點如下： (一)第24期：「讓心情有形狀—表達性藝術與團體共創」 １、活動日期：115年11月11日、18日、25日及12月2日、9 日、16日，每星期三下午1時30分至4時10分。 ２、聘任講座：聘任講座：丁橚先生（毛蟲藝術心理諮商所專任心理師）。 ３、參加對象：臺北市所屬各級學校（含幼兒園）教師。 ４、參與人數：12至16人。 ５、活動地點：臺北市北投區文林國小多功能教室。 (二)第25期：「關係裡的我—看懂互動腳本，重寫教師關係」 １、活動日期：11/11、11/18、11/25、12/2、12/9及12/16，星期三下午1時30分至4時10分。 ２、聘任講座：林漢瑜女士（法務部矯正署薩提爾溝通工 作坊講師）。 ３、參加對象：臺北市所屬各級學校（含幼兒園）教師。 ４、參與人數："
+    },
+    {
+      "id": "行政公告:建安國小:6ad1d761dccbe7bffc03645b",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "行政公告",
+      "title": "115學年度第2學期社團酷課雲報名步驟",
+      "published": "2026-10-16T07:46:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6ad1d761dccbe7bffc03645b?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=2rEsyLS9623&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [
+        "使用酷課雲社團報名步驟.pdf"
+      ],
+      "summary": "115學年度第2學期社團酷課雲報名步驟如附件 模擬報名時間： 10/19（一）12：30～10/23（五）23：59 請在練習報名後，也練習一下取消~ 讓後面要練習的家長才可以也練習到唷~"
+    },
+    {
+      "id": "活動資訊:光復國小:6ac4a70db79c9f24e73e737c",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "活動資訊",
+      "title": "轉知:116年度寒假國中、小生職業輔導研習營實施計畫",
+      "published": "2026-10-16T07:43:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6ac4a70db79c9f24e73e737c?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=QWbvWuz8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "臺北市116年度寒假國中、國小學生職業輔導研習營工作行事曆.pdf",
+        "臺北市116年度寒假國中、國小學生職業輔導研習營海報.jpg",
+        "臺北市116年度寒假國中、小生職業輔導研習營實施計畫調整版1016.pdf"
+      ],
+      "summary": "說明： 一、依據臺北市116年度寒假國中、小生職業輔導研習營實施計 畫辦理。 二、本案委請大安高工擔任召集學校，並請本市各公私立普通 型及技術型高中、職探中心及台北海洋科技大學承辦。 三、本案報名事宜如下（詳如附件）： (一)報名資格：本市公私立國民中學7至9年級學生及國民小 學5、6年級學生。 (二)報名方式： １、本營隊活動一律採本市「酷課 APP」或「酷課雲」 （網址：https://cooc.tp.edu.tw/）報名，公立學校 營隊可以透過「酷課 APP」繳費（繳費方式限用信用卡、ATM 及線上支付方式）；私立學校營隊繳費方式 請參考「私立學校收費方式彙整表」。 ２、活動可由家長代報或學生自行報名（家長代報須完成 親子綁定，才可幫綁定之子女進行報名），請預先備 妥「單一身分驗證服務」（網址：https"
+    },
+    {
+      "id": "校務公告:敦化國小:6ad1d4db942bd2c13b89a9fb",
+      "schools": [
+        "敦化國小"
+      ],
+      "source": "校務公告",
+      "title": "轉知大安國民小學親職講座",
+      "published": "2026-10-16T07:36:00+00:00",
+      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/6ad1d4db942bd2c13b89a9fb?vector=private&static=false",
+      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=1hdeMSJ5377&vector=private&static=false",
+      "siteUrl": "https://www.thps.tp.edu.tw",
+      "attachments": [
+        "29704017_1156007744_ATTCH1.png"
+      ],
+      "summary": "說明： 一、為提升家長親職教育知能，本校特規劃辦理旨揭2場講座， 相關資訊如下： (一)第一場講座： １、主題：過曝世代：情緒、學習與溝通。 ２、時間：115年10月31日(六) 09：30-11：30。 ３、講師：陳品皓臨床心理師。 (二)第二場講座： １、主題：陪伴孩子高效學習-能自主、有策略、好習 慣。 ２、時間：115年11月7日(六) 09：30-11：30。 ３、講師：陳志恆諮商心理師。 二、講座地點：本校忠孝樓2樓綜合教室。 三、報名連結：https://forms.gle/RnvdKdRgwttmSeXg8。 四、倘有疑問請逕洽大安國小輔導室資料組長張心宇老師，聯絡電話：02- 27322332轉分機843。"
+    },
     {
       "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=C2D72F0EFC81DB08",
       "schools": [
@@ -5689,24 +5887,6 @@
         "臺北市115學年度聽覺障礙學生生涯轉銜與輔導研討-家長邀請函.pdf"
       ],
       "summary": "報名 資訊 一、 截止 日期 ：即日起至 115年 10月 19日 （星期 一 ）止 。 二、 報名 方式： (一) 家長：採線上報名， 於截止日前都可修改報名資料， 網址為： https://forms.gle/t5btPChdcWu9PVEKA (二) 教師：逕至「臺北市教師在職研習網」 (https://insc.tp.edu.tw/)完成線上報名。"
-    },
-    {
-      "id": "活動資訊:光復國小:6ac4a70db79c9f24e73e737c",
-      "schools": [
-        "光復國小"
-      ],
-      "source": "活動資訊",
-      "title": "轉知:116年度寒假國中、小生職業輔導研習營實施計畫",
-      "published": "2026-10-06T07:43:00+00:00",
-      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6ac4a70db79c9f24e73e737c?vector=private&static=false",
-      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=QWbvWuz8827&vector=private&static=false",
-      "siteUrl": "https://www.kfps.tp.edu.tw",
-      "attachments": [
-        "臺北市116年度寒假國中、小生職業輔導研習營實施計畫.pdf",
-        "臺北市116年度寒假國中、國小學生職業輔導研習營工作行事曆.pdf",
-        "臺北市116年度寒假國中、國小學生職業輔導研習營海報.jpg"
-      ],
-      "summary": "說明： 一、依據臺北市116年度寒假國中、小生職業輔導研習營實施計 畫辦理。 二、本案委請大安高工擔任召集學校，並請本市各公私立普通 型及技術型高中、職探中心及台北海洋科技大學承辦。 三、本案報名事宜如下（詳如附件）： (一)報名資格：本市公私立國民中學7至9年級學生及國民小 學5、6年級學生。 (二)報名方式： １、本營隊活動一律採本市「酷課 APP」或「酷課雲」 （網址：https://cooc.tp.edu.tw/）報名，公立學校 營隊可以透過「酷課 APP」繳費（繳費方式限用信用卡、ATM 及線上支付方式）；私立學校營隊繳費方式 請參考「私立學校收費方式彙整表」。 ２、活動可由家長代報或學生自行報名（家長代報須完成 親子綁定，才可幫綁定之子女進行報名），請預先備 妥「單一身分驗證服務」（網址：https"
     },
     {
       "id": "一般消息:仁愛國小:6ac4a5b7376917249c2fb4c0",
@@ -49893,50 +50073,6 @@
         "27225980_1143104869_ATTCH1.png"
       ],
       "summary": "期能透過辦理「兒少經歷交通或意外事故後的心理復原力工作坊」協助孩子紓緩過去目睹或親身經歷意外事故的感受，重新建立安全感與心理韌性，以及學習如何因應與調適事件所帶來的衝擊影響。"
-    },
-    {
-      "id": "人事資訊:光復國小:68f0af1d5a741609f19b398e",
-      "schools": [
-        "光復國小"
-      ],
-      "source": "人事資訊",
-      "title": "公告：「行政院與所屬中央及地方各機關聘僱人員給假辦法」，業經行政院於114年10月9日以院授人培字第11400212791號令修正發布",
-      "published": "2025-10-16T08:37:00+00:00",
-      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/68f0af1d5a741609f19b398e?vector=private&static=false",
-      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=MacAbVJ0472&vector=private&static=false",
-      "siteUrl": "https://www.kfps.tp.edu.tw",
-      "attachments": [
-        "來文：臺北市政府函.pdf",
-        "附件1：行政院函.pdf",
-        "附件2：行政院令.pdf",
-        "附件3：修正條文.pdf",
-        "附件4：修正總說明.pdf",
-        "附件5：條文對照表.pdf",
-        "附件6：圖卡.pdf"
-      ],
-      "summary": "依行政院114年10月9日院授人培字第11400212793號函辦理，並檢附原函（含附件）影本及本府人事處製作之「身心調適假」圖卡各1份。"
-    },
-    {
-      "id": "政策法規:光復國小:68f0af1d5a741609f19b398e",
-      "schools": [
-        "光復國小"
-      ],
-      "source": "政策法規",
-      "title": "公告：「行政院與所屬中央及地方各機關聘僱人員給假辦法」，業經行政院於114年10月9日以院授人培字第11400212791號令修正發布",
-      "published": "2025-10-16T08:37:00+00:00",
-      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/68f0af1d5a741609f19b398e?vector=private&static=false",
-      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=gVIA7Pi7760&vector=private&static=false",
-      "siteUrl": "https://www.kfps.tp.edu.tw",
-      "attachments": [
-        "來文：臺北市政府函.pdf",
-        "附件1：行政院函.pdf",
-        "附件2：行政院令.pdf",
-        "附件3：修正條文.pdf",
-        "附件4：修正總說明.pdf",
-        "附件5：條文對照表.pdf",
-        "附件6：圖卡.pdf"
-      ],
-      "summary": "依行政院114年10月9日院授人培字第11400212793號函辦理，並檢附原函（含附件）影本及本府人事處製作之「身心調適假」圖卡各1份。"
     }
   ]
 }
