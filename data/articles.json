@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T13:25:28.161877+00:00",
+  "updatedAt": "2026-10-17T07:05:53.874861+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -145,7 +145,7 @@
     {
       "name": "比賽資訊（建安國小）",
       "status": "ok",
-      "itemCount": 98
+      "itemCount": 96
     },
     {
       "name": "活動專欄（建安國小）",
@@ -175,7 +175,7 @@
     {
       "name": "研習資訊（建安國小）",
       "status": "ok",
-      "itemCount": 95
+      "itemCount": 93
     },
     {
       "name": "競賽活動（敦化國小）",
@@ -224,6 +224,36 @@
     }
   ],
   "articles": [
+    {
+      "id": "榮譽榜:博愛國小:6ad31974355a2b0141ca4115",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "榮譽榜",
+      "title": "臺北市115學年度智慧城市中的科技與人文：跨域創新素養競賽",
+      "published": "2026-10-17T06:41:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ad31974355a2b0141ca4115?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=DdqT8yI3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [],
+      "summary": "恭喜 507 劉〇蓁、 507 蔡〇恩、 507 陳〇聿、 508 蕭〇馨 獲得 國小 - 科技助力與社會創新組 優等 指導老師：闕慧蓉老師"
+    },
+    {
+      "id": "最新消息:博愛國小:6ad3181c7f72180254e5bac9",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "轉知:國立臺南大學辦理「《中小學AI之學習應用手冊》競賽」小學生競賽簡章各1份",
+      "published": "2026-10-17T06:38:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ad3181c7f72180254e5bac9?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29703061_1153106788_ATTCH2.pdf"
+      ],
+      "summary": "說明： 一、依教育部115年10月6日臺教資（三）字第1150102196號函 辦理。 二、教育部已完成學生自學之《AI之學習應用手冊》（國小、 國中及高中版），相關電子檔登載於教育部AI人才方舟計 畫入口網資料下載區（https://pads.moe.edu.tw /download.php）。 三、為推廣旨揭手冊於教學現場之實際運用，教育部委請國立 臺南大學辦理《中小學AI之學習應用手冊》競賽活動（包 含「115年度小學生教育型AI學習夥伴應用競賽」及「115 年度中學生AI學習應用競賽」）。參賽對象為小學及中學 學生，競賽詳細訊息請至活動網站（https://sites. google.com/view/gailearn/）查詢。 四、旨揭競賽相關事宜，請逕洽國立臺南大學數位學習科技學 系承辦人何小姐，聯"
+    },
     {
       "id": "行政公告:建安國小:6ad2083bfd4e2bcdc04c18e1",
       "schools": [
@@ -50018,61 +50048,6 @@
         "114_1第08-09週敦小快報.pdf"
       ],
       "summary": ""
-    },
-    {
-      "id": "榮譽榜:建安國小:68f1d5a05a741609f1c0e70d",
-      "schools": [
-        "建安國小"
-      ],
-      "source": "榮譽榜",
-      "title": "賀~本校籃球隊參加第一屆永建盃籃球邀請賽榮獲亞軍",
-      "published": "2025-10-17T05:30:00+00:00",
-      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/68f1d5a05a741609f1c0e70d?vector=private&static=false",
-      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=AQoMNBw7626&vector=private&static=false",
-      "siteUrl": "https://www.jnps.tp.edu.tw",
-      "attachments": [],
-      "summary": "恭喜本校籃球隊參加第一屆永建盃籃球邀請賽 榮獲亞軍！！！ 感謝蕭倍元老師、許正龍老師指導~"
-    },
-    {
-      "id": "政策法規:光復國小:68f1c56a5a741609f1bd7b9f",
-      "schools": [
-        "光復國小"
-      ],
-      "source": "政策法規",
-      "title": "轉知：衛生福利部國民健康署製作「加熱菸危害海報」",
-      "published": "2025-10-17T03:53:00+00:00",
-      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/68f1c56a5a741609f1bd7b9f?vector=private&static=false",
-      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=gVIA7Pi7760&vector=private&static=false",
-      "siteUrl": "https://www.kfps.tp.edu.tw",
-      "attachments": [],
-      "summary": "「未滿20歲不得吸菸」，共同守護下一代健康"
-    },
-    {
-      "id": "研習資訊:68f0f70020895909d48cf2b2",
-      "source": "研習資訊",
-      "title": "轉知財團法人靖娟兒童安全文教基金會OK繃兒童服務中心 辦理114年度「心理的小太陽-兒少經歷交通或意外事故後的『心理復原力工作坊』」",
-      "published": "2025-10-16T13:44:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/68f0f70020895909d48cf2b2?vector=private&static=false",
-      "summary": "期能透過辦理「兒少經歷交通或意外事故後的心理復原力工作坊」協助孩子紓緩過去目睹或親身經歷意外事故的感受，重新建立安全感與心理韌性，以及學習如何因應與調適事件所帶來的衝擊影響。",
-      "schools": [
-        "仁愛國小"
-      ]
-    },
-    {
-      "id": "研習資訊:仁愛國小:68f0f70020895909d48cf2b2",
-      "schools": [
-        "仁愛國小"
-      ],
-      "source": "研習資訊",
-      "title": "轉知財團法人靖娟兒童安全文教基金會OK繃兒童服務中心 辦理114年度「心理的小太陽-兒少經歷交通或意外事故後的『心理復原力工作坊』」",
-      "published": "2025-10-16T13:44:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/68f0f70020895909d48cf2b2?vector=private&static=false",
-      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=BLvblfR5996&vector=private&static=false",
-      "siteUrl": "https://www.japs.tp.edu.tw",
-      "attachments": [
-        "27225980_1143104869_ATTCH1.png"
-      ],
-      "summary": "期能透過辦理「兒少經歷交通或意外事故後的心理復原力工作坊」協助孩子紓緩過去目睹或親身經歷意外事故的感受，重新建立安全感與心理韌性，以及學習如何因應與調適事件所帶來的衝擊影響。"
     }
   ]
 }
