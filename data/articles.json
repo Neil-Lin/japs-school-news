@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T07:05:53.874861+00:00",
+  "updatedAt": "2026-10-17T12:19:03.025337+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -25,7 +25,7 @@
     {
       "name": "其他公告（敦化國小）",
       "status": "ok",
-      "itemCount": 83
+      "itemCount": 82
     },
     {
       "name": "國中入學（光復國小）",
@@ -50032,22 +50032,6 @@
       "siteUrl": "https://www.jnps.tp.edu.tw",
       "attachments": [],
       "summary": "狂賀！！本校管弦樂團榮獲臺北市學生音樂比賽南區優等 感謝指導老師的帶領及家長後援的支持 榮耀歸於每一位全力以赴的孩子們"
-    },
-    {
-      "id": "敦小快報:敦化國小:68f20a12f4d112095564ecb4",
-      "schools": [
-        "敦化國小"
-      ],
-      "source": "敦小快報",
-      "title": "114_1第08-09週敦小快報",
-      "published": "2025-10-17T09:18:00+00:00",
-      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/68f20a12f4d112095564ecb4?vector=private&static=false",
-      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=8nmTbwG1025&vector=private&static=false",
-      "siteUrl": "https://www.thps.tp.edu.tw",
-      "attachments": [
-        "114_1第08-09週敦小快報.pdf"
-      ],
-      "summary": ""
     }
   ]
 }
