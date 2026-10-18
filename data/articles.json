@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T12:19:03.025337+00:00",
+  "updatedAt": "2026-10-18T07:20:28.047139+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -25,7 +25,7 @@
     {
       "name": "其他公告（敦化國小）",
       "status": "ok",
-      "itemCount": 82
+      "itemCount": 81
     },
     {
       "name": "國中入學（光復國小）",
@@ -145,7 +145,7 @@
     {
       "name": "比賽資訊（建安國小）",
       "status": "ok",
-      "itemCount": 96
+      "itemCount": 95
     },
     {
       "name": "活動專欄（建安國小）",
@@ -175,7 +175,7 @@
     {
       "name": "研習資訊（建安國小）",
       "status": "ok",
-      "itemCount": 93
+      "itemCount": 92
     },
     {
       "name": "競賽活動（敦化國小）",
@@ -224,6 +224,20 @@
     }
   ],
   "articles": [
+    {
+      "id": "研習資訊:博愛國小:6ad4509256e24a3a9b105e6c",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "臺北市「無人機教師研習」一案",
+      "published": "2026-10-18T04:51:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ad4509256e24a3a9b105e6c?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=tQHaHM07712&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [],
+      "summary": "說明： 一、依據本市教育局115年3月27日教職字第1153050858號函 「115年度臺北市高級中等以下學校無人機教育領航實施計 畫」辦理。 二、研習講師：臺北市信義區三興國民小學游真銘老師 三、研習對象：本市所屬各公立國小、國中及高中職教師 四、研習主題、時間及地點如下： (一)程控無人機(CoDrone)實務應用，時間：115年10月28日 (三)13:30-15:30，地點：臺北市內湖區新湖國民小學2F 電腦教室。 (二)Mini足球無人機(小飛球)教學應用，時間：115年11月25 日(三)13:30-15:30，地點：臺北市內湖區新湖國民小學 3F視聽教室。(三)餘相關活動內容請參閱附件計畫。 五、報名方式：即日起至臺北市教師研習網，報名截止日為各 場次上課前3日。 六、注意事項：因本校車位有限，"
+    },
     {
       "id": "榮譽榜:博愛國小:6ad31974355a2b0141ca4115",
       "schools": [
@@ -319,6 +333,24 @@
         "115學年度臺北市學生美術比賽建安國小獲獎學生名單公告.pdf"
       ],
       "summary": "恭喜獲獎同學，感謝老師用心的指導。"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=890F6188E44201C8",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】「國際博物館協會博物館人員培訓委員會（ICOMICTOP）2026臺灣年會」報名資訊",
+      "published": "2026-10-16T09:34:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=890F6188E44201C8",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "該會議由國際博物館協會博物館人員培訓委員會（ICOMICTOP）、國立故宮博物院、國立歷史博物館、國家人權博物館、台灣創價學會創價美術館、中華民國博物館學會及國立臺灣藝術大學藝術管理與文化政策研究所與本館共同主辦，文化部、教育部合辦。 本次主題為「培力未來：博物館教育與人才培育的永續實踐」(Empowering the Future：Sustainable Practices in Museum Education and Professional Development），邀集國內外博物館專家學者、教育人員及實務工作者，透過專題演講、論文發表與專業交流，探討博物館教育、專業人才培育、課程創新及跨領域合作等議題，分享國際發展趨勢與實務經驗，促進博物館實務與學術研究之交流對話，拓展國內相關領域之專業視野與國際連結"
     },
     {
       "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=EED40049AD37068B",
@@ -50018,20 +50050,6 @@
         "27289538_1143107851_ATTCH2.png"
       ],
       "summary": "一、依教育部社會情緒學習中長程計畫第一期五年計畫（114—118年）及本市114年度友善校園學生事務與輔導工作計畫。 二、為提升本市家長對社會情緒學習之認識與重視，掌握五大核心概念與親職教養策略，將情緒管理、壓力調適與衝突處理等方法落實於日常教養；同時強化家庭中的安全、信任與尊重，促進有效溝通與高品質互動，形塑正向親子關係。 三、旨案講座內容資訊如下： (一)東區場： １、時間：114年11月15日上午9時至12時。 ２、地點：信義區信義國民小學—教學大樓4樓演藝廳。 ３、講題：家庭裡的SEL教養指南～以SEL（社會情緒學習）培育未來大能力。 ４、報名方式：請於114年11月7日前填寫線上報名表單完成報名（ https://reurl.cc/9nl0yn ）。 (二)西區場： １、時間：114年12月6日下午1"
-    },
-    {
-      "id": "榮譽榜:建安國小:68f25c92a21f390995b30b8b",
-      "schools": [
-        "建安國小"
-      ],
-      "source": "榮譽榜",
-      "title": "狂賀！！本校管弦樂團榮獲臺北市學生音樂比賽南區優等",
-      "published": "2025-10-17T14:56:00+00:00",
-      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/68f25c92a21f390995b30b8b?vector=private&static=false",
-      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=AQoMNBw7626&vector=private&static=false",
-      "siteUrl": "https://www.jnps.tp.edu.tw",
-      "attachments": [],
-      "summary": "狂賀！！本校管弦樂團榮獲臺北市學生音樂比賽南區優等 感謝指導老師的帶領及家長後援的支持 榮耀歸於每一位全力以赴的孩子們"
     }
   ]
 }
