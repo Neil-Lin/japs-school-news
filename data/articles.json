@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T07:20:28.047139+00:00",
+  "updatedAt": "2026-10-18T12:42:58.530034+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -105,7 +105,7 @@
     {
       "name": "校內競賽（光復國小）",
       "status": "ok",
-      "itemCount": 46
+      "itemCount": 45
     },
     {
       "name": "校務公告（敦化國小）",
@@ -244,7 +244,7 @@
         "博愛國小"
       ],
       "source": "榮譽榜",
-      "title": "臺北市115學年度智慧城市中的科技與人文：跨域創新素養競賽",
+      "title": "臺北市市政府教育局辦理115學年度智慧城市中的科技與人文：跨域創新素養競賽",
       "published": "2026-10-17T06:41:00+00:00",
       "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ad31974355a2b0141ca4115?vector=private&static=false",
       "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=DdqT8yI3919&vector=private&static=false",
@@ -38806,6 +38806,20 @@
       "summary": "一、依據本府教育局 115年5月21日北市教體字第1153066533號函辦理。 二、115年1~4月份檢測結果無異常，檢測紀錄表詳如附件。"
     },
     {
+      "id": "學校公告:光復國小:6a0e5660c71d4b32aa48a240",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "學校公告",
+      "title": "轉知臺北市115學年度學生音樂比賽時程，請參閱。",
+      "published": "2026-05-21T00:46:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6a0e5660c71d4b32aa48a240?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=UFKVG9l8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "說明： 一、旨揭比賽時程，說明如下： (一)團體項目：自115年10月12日（星期一）起至10月27日 （星期二），「行進管樂」訂於10月30日舉行，「兒童 樂隊」及「管弦樂合奏」訂於10月12日舉行，「管樂合 奏（國小組）」訂於10月14日舉行；其餘團體項目之詳 細賽程，將俟報名截止後，由教育局另行公告施行。 (二)個人項目：自115年10月14日（星期三）起至11月3日 （星期二）。"
+    },
+    {
       "id": "最新消息:博愛國小:6a0e52abca28412ab3f9cfac",
       "schools": [
         "博愛國小"
@@ -39028,6 +39042,20 @@
         "臺北市特殊教育地方輔導團資賦優異類分團114學年度第2學期公開觀課.pdf"
       ],
       "summary": "一、觀課時間：115年06月03日（三）14：00-15：00觀課， 15：00議課 二、觀課地點：南門國中仁愛樓音樂教室2 三、授課教師：高瑀婕主任 四、課程主題：音樂跨域課程～看得見的泛音 五、研習對象：以臺北市所屬學校資優班教師、藝才班教師及資賦優異類分團成員為主，參與人數以15人為限。 六、注意事項： (一)請於當天準時到場，並完成簽到。 (二)為響應節能減碳環保理念，煩請參加研習教師自備環保"
+    },
+    {
+      "id": "學校公告:光復國小:6a06c28546a50ec2ce434dea",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "學校公告",
+      "title": "轉知：教育部「堅持三不遠離毒品—防制依托咪酯電子煙」",
+      "published": "2026-05-15T06:50:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6a06c28546a50ec2ce434dea?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=UFKVG9l8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "【情境】 同學 A ： 嘿！這支電子煙很頂，要不要試試？ 同學 B ： 欸！電子煙在台灣是不合法的。煙油還可能混入依托咪酯，會造成抽搐、呼吸困難，甚至危及生命。千萬別嘗試！ 新興毒品依托咪酯，可能透過電子煙流入校園。 請堅守不嘗試、不收受、不購買，拒絕誘惑，才能守護自己的健康與未來。"
     },
     {
       "id": "行政公告:建安國小:6a05e76acf1200951f960c3b",
