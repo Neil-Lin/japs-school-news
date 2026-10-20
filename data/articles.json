@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T07:48:48.176114+00:00",
+  "updatedAt": "2026-10-20T13:45:30.789617+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -15,7 +15,7 @@
     {
       "name": "人事資訊（光復國小）",
       "status": "ok",
-      "itemCount": 85
+      "itemCount": 86
     },
     {
       "name": "光復之光（光復國小）",
@@ -100,7 +100,7 @@
     {
       "name": "校內競賽（仁愛國小）",
       "status": "ok",
-      "itemCount": 36
+      "itemCount": 35
     },
     {
       "name": "校內競賽（光復國小）",
@@ -224,6 +224,224 @@
     }
   ],
   "articles": [
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=6723666E27F8873B",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【賽事資訊】中華民國大專校院115年度教職員工網球聯誼賽",
+      "published": "2026-10-20T11:29:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=6723666E27F8873B",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、賽事時間：115年12月11日（週五）至115年12月13日（週日）。 二、賽事地點：花蓮縣立政府網球場（花蓮縣花蓮市府前路17 號旁）。 三、報名日期：即日起至115年11月10日 （週二）。 四、報名方式請參閱競賽規程（如附件）。 中華民國大專校院115年度教職員工網球聯誼賽競賽規程.pdf"
+    },
+    {
+      "id": "一般消息:仁愛國小:6ad74bf0e11d6fd5800bb514",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "一般消息",
+      "title": "[轉知]115年10月份打詐臺北隊",
+      "published": "2026-10-20T11:02:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6ad74bf0e11d6fd5800bb514?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=ZItAos61369&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [],
+      "summary": "小心釣魚簡訊！收到帳戶異常、包裹未領等訊息，別點連結、別填帳密及驗證碼；有疑問請循官方管道查證，或撥打 165 反詐騙諮詢專線。"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=343E807D32FB73AE",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【研習資訊】台東縣115 年度匹克球丙級教練講習會",
+      "published": "2026-10-20T10:26:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=343E807D32FB73AE",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、活動時間：115年12月11日（週五）至115年12月13日（週日）。 二、活動地點：台東縣議會。 三、報名日期：即日起至115年11月25日(週三)止。 四、報名方式請參閱實施計畫（如附件）。 台東縣115 年度匹克球丙級教練講習會實施計畫.pdf"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=A860B587F2E75293",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【研習資訊】台東縣115年匹克球丙級裁判講習會",
+      "published": "2026-10-20T10:16:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=A860B587F2E75293",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、活動時間：115年12月4日（週五）至115年12月6日（週日）。 二、活動地點：台東縣議會。 三、報名日期：即日起至115年11月25日(週三)止。 四、報名方式請參閱實施計畫（如附件）。 台東縣115年匹克球丙級裁判講習會實施計畫.pdf"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=903841D6CECD2E7C",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【賽事資訊】2027世界室內錦標賽國手選拔賽",
+      "published": "2026-10-20T09:46:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=903841D6CECD2E7C",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、賽事時間：115年12月11日（週五）至115年12月13日（週日）。 二、賽事地點：屏東縣三地門鄉體育館。 三、報名日期：即日起至115年11月23日(週一)止。 四、報名方式請參閱競賽規程（如附件）。 2027世界室內錦標賽國手選拔賽競賽規程.pdf 選手參加自費選拔及未成年選手家長同意書.odt 選手參加自費選拔及未成年選手家長同意書.odt"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=48837E076FE6B9ED",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【研習資訊】115年身心障礙運動田徑C級教練講習會",
+      "published": "2026-10-20T09:19:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=48837E076FE6B9ED",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、活動時間：115年11月14日（週六）至115年11月15日（週日）及115年11月21日（週 六）。 二、活動地點：臺中市立啟明學校行政大樓地下室多媒體教室（臺中市后里區三豐路三段 936號）。 三、報名日期：即日起至115年11月3日（週四）下午11時55分止。 四、報名方式請參閱實施辦法（如附件）。 115年身心障礙運動田徑C級教練講習會實施辦法.pdf"
+    },
+    {
+      "id": "教師研習及活動:光復國小:6ad730dadf4c37d3e684c655",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "教師研習及活動",
+      "title": "「115年度選送中小學 教師出國入班觀課計畫」成果發表會",
+      "published": "2026-10-20T09:12:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6ad730dadf4c37d3e684c655?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=GfVDvAq0432&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "29750374_1153109899_ATTCH1.pdf"
+      ],
+      "summary": "一、依據國教署115年10月16日臺教國署原字第1155703438號函 辦理。 二、旨揭計畫延續中小學國際教育推動精神，以「跨境國際化 （Internationalization Abroad）」與「在地國際化 （Internationalization at Home）」為策略主軸，選送 全國中小學教師赴新加坡及馬來西亞進行入班觀課、教學 共備、教育交流與文化學習，並於返國後進行反思共備與 課程轉化。為擴大海外培力成果之教育影響力，國教署特 辦理全國性成果發表會，邀請各教育階段教師參與交流， 促進國際教育經驗由個人學習轉化為學校與課堂實踐。 三、相關資訊如下： (一)辦理時間：115年10月30日（星期五）上午9時至下午4時 10分。 (二)辦理方式：採實體與線上同步之混成方式辦理；線上會 議連結於報名確認"
+    },
+    {
+      "id": "研習資訊:仁愛國小:6ad72a34110576d282890b49",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "臺北市教師研習中心原訂115年12月26日上午辦理「臺北市115年度教師人工智慧（AI）增能研習班第15期」，因故調整至同年12月5日辦理",
+      "published": "2026-10-20T08:44:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6ad72a34110576d282890b49?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=BLvblfR5996&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "實施計畫.pdf"
+      ],
+      "summary": "一、依據本中心115年10月7日北市師教字第1156002991號函（諒達）續辦。 二、旨揭研習班調整後辦理時間為115年12月5日（週六）上午8時50分至12時15分，地點不變。"
+    },
+    {
+      "id": "研習資訊:仁愛國小:6ad729d34c8a79d2f535a7b0",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "臺北市115學年度國中小學科學與創新教育「運用AI數位科技融入科學教育及AIED應用於自然科學教 學引領學生自主學習—酷AI科學備課坊」",
+      "published": "2026-10-20T08:39:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6ad729d34c8a79d2f535a7b0?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=BLvblfR5996&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "研習計畫.pdf"
+      ],
+      "summary": "一、依據臺北市115學年度國中小學科學與創新教育實施計畫辦理。 二、旨接計畫為深化教師 AI 融入科學教學素養，熟練運用「臺北酷課雲」酷 AI系統進行適性教材設計、素養導向評量與專屬教學助理研發，特規劃辦理旨揭工作坊。 三、旨揭研習相關資訊摘述如下： (一)研習期程：115年11月份辦理，共計4場次，第1 、2場次內容相近，請擇一報名；第3場次未限定任教領域；第4場次係以自然領域主題為例。 １、第一場：115年11月4日（星期三），地點於蓬萊國小，主題「AI 教學應用：創造自然領域老師的小幫手」。 ２、115年11月13日（星期五），地點於蓬萊國小，主題「AI 教學應用：創造自然領域老師的小幫手」。 ３、115年11月18日（星期三），地點於武功國小，主題「A2數位學習工作坊（二）－酷課雲應用」。 ４、115年"
+    },
+    {
+      "id": "教師研習及活動:光復國小:6ad72138ec79efcff17eef89",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "教師研習及活動",
+      "title": "臺北市教師研習中心115年雲端耘心工作坊「美好人生-冬之章」實施計畫，歡迎老師報名參加",
+      "published": "2026-10-20T08:03:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6ad72138ec79efcff17eef89?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=GfVDvAq0432&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "115美好人生-冬之章研習計畫.pdf"
+      ],
+      "summary": "一、為透過不同議題探討，辦理紓壓多元實務知能及演練課程，提供教師諮商輔導支持資源，以達到紓解教師工作壓力及增進心理健康之目的，特辦理本工作坊。 二、本課程規劃摘要如下： (一)課程辦理時間與內容： １、115年11月25日（星期三）18:30至20:00：〈調頻你的聲音能量〉（講師：朱家綺廣播主持人）。 ２、115年12月2日（星期三）18:30至20:00：〈聲心紓壓〉（講師：朱家綺廣播主持人）。 ３、115年12月23日（星期三）18:30至20:00：〈音樂紓壓處方箋-音樂聽見你的心〉（講師：李明蒨音樂教育家）。 ４、115年12月30日（星期三）18:30至20:00：〈音樂舒眠 處方箋-音樂裡的瞌睡蟲〉（講師：李明蒨音樂教育家）。 (二)參加對象： 本市所屬各級學校（含幼兒園）教師。 (三)授課平臺："
+    },
+    {
+      "id": "人事資訊:光復國小:6ad71dfc4bd137d16d24dffe",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "人事資訊",
+      "title": "轉知：本市選舉委員會115年本市地方公職人員選舉及全國 性公民投票宣導活動訊息",
+      "published": "2026-10-20T07:50:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6ad71dfc4bd137d16d24dffe?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=MacAbVJ0472&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "115年臺北市地方公職人員選舉及全國性公民投票宣導工作實施計畫.pdf"
+      ],
+      "summary": "一、依據本市選舉委員會115年10月15日北市選三字第1153350026號函辦理。 二、旨揭選舉投票活動訂於115年11月28日（星期六）舉行，請同仁踴躍投票及遵守選舉相關規定。 三、檢附115年臺北市地方公職人員選舉及全國性公民投票宣導工作實施計畫1份。"
+    },
+    {
+      "id": "政策法規:光復國小:6ad71dfc4bd137d16d24dffe",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "政策法規",
+      "title": "轉知：本市選舉委員會115年本市地方公職人員選舉及全國 性公民投票宣導活動訊息",
+      "published": "2026-10-20T07:50:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6ad71dfc4bd137d16d24dffe?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=gVIA7Pi7760&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "115年臺北市地方公職人員選舉及全國性公民投票宣導工作實施計畫.pdf"
+      ],
+      "summary": "一、依據本市選舉委員會115年10月15日北市選三字第1153350026號函辦理。 二、旨揭選舉投票活動訂於115年11月28日（星期六）舉行，請同仁踴躍投票及遵守選舉相關規定。 三、檢附115年臺北市地方公職人員選舉及全國性公民投票宣導工作實施計畫1份。"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=DCFB52FB40C4F26D",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】本市國民小學申請由綠色和平製作之《豆豆的氣候冒險》繪本主題教學資源包事宜",
+      "published": "2026-10-20T07:39:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=DCFB52FB40C4F26D",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "為推動氣候與環境教育，該會透過「Green Future Academy 氣候與環境教育平台」，提供教育工作者與學生系統化、難度適中且兼具趣味的學習資源。本次推出《豆豆的氣候冒險》繪本主題教學資源，取材自《我家不見了》、《我家有塑嗎?》、《救救體育課》三本繪本，由該會提供予學校及圖書館申請使用。 旨揭活動相關說明如下: (一) 活動對象適用對象:國小低、中、高年級學生(國中校園及公共圖書館亦適用)。 (二)申請期間:即日起至115年12月31日止。 (三)申請內容:十張主題海報、三本原著繪本、學習單及教師手冊,初步開放名額為限量 20套。 旨揭活動名額有限，如有疑問，歡迎洽該會承辦人窗口。"
+    },
     {
       "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=35DFD771032BDFCB",
       "schools": [
