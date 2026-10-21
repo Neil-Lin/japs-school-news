@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T07:52:41.875072+00:00",
+  "updatedAt": "2026-10-21T14:01:24.158966+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -224,6 +224,178 @@
     }
   ],
   "articles": [
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=B6439E3A96361098",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】高雄市政府教育局辦理「115年中學生線上程式解題暨Python研習」",
+      "published": "2026-10-21T10:37:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=B6439E3A96361098",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、旨揭計畫為加強輔導中等學校程式教育發展，提高中學生 對資訊問題研究興趣，激發其思考與創造能力，強化運算思維及程式邏輯能力，藉以鼓勵學生間與校際間互相觀摩，擴大學習領域及數位科技環境視野。 二、本活動採線上競賽方式辦理，利用程式語言解題，同時在 學習平台上以非同步線上研習課程合計14個單元、18小時，培養解題能力。 三、計畫相關訊息詳如附件，倘有相關問，請逕洽本市中正高工吳東儒主任： (一)電話：07-723-2301分機683。 (二)電子信箱：computer@mail2.ccvs.kh.edu.tw。 高雄市115年中學生線上程式解題暨Python研習實施計畫.pdf"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=1EBB2D54837CD3D6",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】高雄市政府教育局辦理「115年國中小Scratch解題觀摩賽」",
+      "published": "2026-10-21T10:28:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=1EBB2D54837CD3D6",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、旨揭計畫為強化本市國中小學生對資訊問題研究興趣，提 升運算思維及程式邏輯能力，藉由線上學習平臺及Scratch 自動評閱系統互相觀摩，擴大學習領域及數位科技環境視野。 二、本活動採線上競賽方式辦理，以國中小數理學科課程習作 為題目，利用Scratch程式語言解題，透過自動評閱 Scratch解題系統進行評分，同時在學習平台上以非同步線 上研習課程，培養解題能力。 三、計畫相關訊息詳如附件，倘有相關問題，請逕洽本市中正高工吳主任： (一)電話：07-723-2301分機683。 (二)電子信箱： computer@mail2.ccvs.kh.edu.tw。 高雄市115年國中小Scratch解題觀摩賽實施計畫.pdf"
+    },
+    {
+      "id": "校務公告:敦化國小:6ad8945484abfa1a7d2a8f31",
+      "schools": [
+        "敦化國小"
+      ],
+      "source": "校務公告",
+      "title": "轉知財團法人信誼基金會辦理親職講座",
+      "published": "2026-10-21T10:27:00+00:00",
+      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/6ad8945484abfa1a7d2a8f31?vector=private&static=false",
+      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=1hdeMSJ5377&vector=private&static=false",
+      "siteUrl": "https://www.thps.tp.edu.tw",
+      "attachments": [],
+      "summary": "一、信誼將於115年11月8日（日）下午 2：00-4：00舉辦【不吼不叫的溝通心法：化解對立反抗， 讀懂孩子的行為語言】講座，邀請家長及教職員免費報名 參加。 二、大人衝突當下的回應，決定孩子接下來的反應與態度。本 講座邀請【兒童心理暨親職教養專家 王意中心理師】主 講，深入剖析「對立反抗」真相，練習同理溝通、正確應 對，終止教養日常的硬碰硬。 三、講座大綱如下： 1.看懂「對立反抗」真相：孩子是故意、叛逆或求助… 2.終止硬碰硬，大人先練習：情緒如何不被孩子拉著走？ 3.換句話說，結果大不同！從制止、命令轉向合作的溝通 4.從家庭到學校：2-10歲常見情境的應對與關係修復 四、本講座採線上LIVE與實體同步課程，即日起，開放免費報 名。相關資訊如下： 1.演講時間：115年11月8日（星期日）下午2:00至"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=0D8446BA12FD5802",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】國家表演藝術中心國家兩廳院鼓勵免費申辦「國家兩廳院青年會員—廳院青」相關資訊",
+      "published": "2026-10-21T10:07:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=0D8446BA12FD5802",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "為鼓勵青年世代接觸表演藝術，深耕藝文欣賞人口，國家表演藝術中心國家兩廳院推行「廳院青」會員制度，凡21歲（含）以下青年均可免費於線上申請「廳院青」會員，經審核通過後，可享國家兩廳院主辦節目購票75折優惠；會員於年滿22歲會籍到期時，可免費獲得一年「廳院人」會籍，延續藝文參與歷程；詳細資訊詳如附件。 國家表演藝術中心國家兩廳院原函.pdf 宣傳圖卡3.pdf"
+    },
+    {
+      "id": "一般消息:仁愛國小:6ad87f5dea20cb173aee1327",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "一般消息",
+      "title": "【轉知】教育部「115年度臺灣女孩日策展」免費展覽，歡迎親師生踴躍參加",
+      "published": "2026-10-21T08:59:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6ad87f5dea20cb173aee1327?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=ZItAos61369&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "29758254_1153109644_ATTCH1.pdf",
+        "29758254_1153109644_ATTCH2.jpg",
+        "29758254_1153109644_ATTCH3.jpg",
+        "29758254_1153109644_ATTCH4.jpg",
+        "29758254_1153109644_ATTCH5.jpg"
+      ],
+      "summary": "一、活動名稱：「女孩日密室逃脫，解鎖未來的我」。 二、活動時間：即日起至115年10月25日（星期日），每日上午9時至下午6時。 三、活動地點：國立中正紀念堂2展廳（臺北市中正區中山南路21號）。 四、活動內容：結合性別平等教育、女性歷史、科學成就、文化意象及互動遊戲，透過探索、解謎與體驗，認識女性多元貢獻，深化性別平等意識。 五、參加費用：免費。 六、活動詳情請參閱教育部性別平等教育全球資訊網： https://reurl.cc/VnlAp5"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=5BC40FA1E10F81F1",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】中華民國學校衛生護理學會辦理115年度會員大會暨學術研討會",
+      "published": "2026-10-21T08:45:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=5BC40FA1E10F81F1",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、依據中華民國學校衛生護理學會 115年10月21日 115學護字第007號字第1151021028號 函辦理。 二、該學會於民國116年1月25日（星期一）上午八時二十分假 JR澔享會議中心（臺北市中山區復興北路164號7樓），舉行115年會員大會暨學術研討會，報名人數上限為100人。 計畫書詳見附件。 三、檢附研討會計畫書及護理學會原函各1份。 115年會員大會暨學術研討會計畫書.pdf 中華民國學校衛生護理學會原函.pdf"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=51FC34E354ABD491",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【活動資訊】116年師大寒假運動育樂營",
+      "published": "2026-10-21T08:44:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=51FC34E354ABD491",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "旨揭育樂營於115年1月26日至2月13日開設，共三梯次，計有10種運動項目，共24個班別。 招生對象為幼兒園大班至國民中學一年級。 一、營隊日期： 第一梯次：115年1月21日（週四）至115年1月22日（週五）。 第二梯次： 115年1月25日（週一）至115年1月29日（週五）。 第三梯次： 115年2月1日（週一）至115年2月3日（週三）。 二 、 活動地點:師大校本部體育館。 三、報名日期：即日起至115年1月17日（週日）止。 四、報名方式請參閱簡章 （如附件）。 116年師大寒假運動育樂營_招生簡章.pdf 116年師大寒假運動育樂營_招生海報.pdf"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=9AB40353810CF1D2",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】115學年度數位學習教師增能工作坊-第二梯次研習",
+      "published": "2026-10-21T08:35:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=9AB40353810CF1D2",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、為持續深化本市教師數位教學應用及酷AI學習平臺之實作能力，第二梯次工作坊規劃辦理「B3 數位教學指引培 力工作坊」及「C酷課雲講師培訓（酷AI 學習系統課堂實踐示例）」等增能課程，以強化教師課堂實踐效益。 二、請各校持續盤點校內教師研習進度，並積極鼓勵薦派相關領域及未完成增能之教師踴躍報名參與。研習課程辦理期間，若涉課務進行時段，請依權責核予參與研習人員公 （差）假及課務派代。 三、檢附臺北市115學年度數位學習教師增能工作坊實施計畫1份及第二梯次研習期程1份。 114892261_1158007841_ATTCH1.pdf 114892261_1158007841_ATTCH2.pdf"
+    },
+    {
+      "id": "研習資訊:博愛國小:6ad87221d902061438519852",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "轉知臺北市115學年度第1學期國民小學特殊教育教師「十二年國民基本教育課程綱要－特需領域學習策略（識字策略）」研習實施計畫，鼓勵參加。",
+      "published": "2026-10-21T08:03:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ad87221d902061438519852?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=tQHaHM07712&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "轉知臺北市115學年度第1學期國民小學特殊教育教師「十二年國民基本教育課程綱要－特需領域學習策略（識字策略）」研習實施計畫-1151021.pdf"
+      ],
+      "summary": "轉知臺北市115學年度第1學期國民小學特殊教育教師「十二年國民基本教育課程綱要－特需領域學習策略（識字策略）」研習實施計畫，鼓勵參加。"
+    },
+    {
+      "id": "學校公告:光復國小:6ad872d0e21f5c1493dfe8fd",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "學校公告",
+      "title": "公告10/27(二)校園流感疫苗廠牌暨接種注意事項。",
+      "published": "2026-10-21T08:00:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6ad872d0e21f5c1493dfe8fd?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=UFKVG9l8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "115 年度校園流感疫苗廠牌公告 1 、 10/27 校園流感疫苗接種廠牌為 國光疫苗 。 2 、接種當天穿著運動服或寬鬆衣服， 不須攜帶健保卡。 3 、如有身體不適或臨時更改為不施打，請務必於當日早自習前告知老師。 4 、當日因故未施打疫苗 ,10/28( 三 ) 起將由健康中心發下補接種單。"
+    },
     {
       "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=5B4A06651D61987B",
       "schools": [
