@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T07:47:53.725631+00:00",
+  "updatedAt": "2026-10-23T13:42:03.263240+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -145,7 +145,7 @@
     {
       "name": "比賽資訊（建安國小）",
       "status": "ok",
-      "itemCount": 95
+      "itemCount": 94
     },
     {
       "name": "活動專欄（建安國小）",
@@ -180,7 +180,7 @@
     {
       "name": "競賽活動（敦化國小）",
       "status": "ok",
-      "itemCount": 56
+      "itemCount": 55
     },
     {
       "name": "行政公告（建安國小）",
