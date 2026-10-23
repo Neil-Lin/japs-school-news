@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T14:00:04.300879+00:00",
+  "updatedAt": "2026-10-23T07:47:53.725631+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -40,7 +40,7 @@
     {
       "name": "多元教育（敦化國小）",
       "status": "ok",
-      "itemCount": 25
+      "itemCount": 24
     },
     {
       "name": "學校公告（光復國小）",
@@ -180,7 +180,7 @@
     {
       "name": "競賽活動（敦化國小）",
       "status": "ok",
-      "itemCount": 57
+      "itemCount": 56
     },
     {
       "name": "行政公告（建安國小）",
@@ -195,7 +195,7 @@
     {
       "name": "親職資訊（仁愛國小）",
       "status": "ok",
-      "itemCount": 60
+      "itemCount": 59
     },
     {
       "name": "重要公告（仁愛國小）",
@@ -52272,225 +52272,6 @@
       "siteUrl": "https://www.baps.tp.edu.tw",
       "attachments": [],
       "summary": "今日（10/28）流感疫苗注射廠牌公告： 本日疫苗廠牌為：國光"
-    },
-    {
-      "id": "人事資訊:光復國小:68f9d96251b5b89b40d80cd6",
-      "schools": [
-        "光復國小"
-      ],
-      "source": "人事資訊",
-      "title": "公告：大陸委員會業於該會全球資訊網建置「常態化制度化查核軍公教人員不得在中國大陸設籍、領用中共相關身分證件」專區，及修正「常態化、制度化查核人員範圍表」一案，自115年1月1日起實施。",
-      "published": "2025-10-23T06:56:00+00:00",
-      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/68f9d96251b5b89b40d80cd6?vector=private&static=false",
-      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=MacAbVJ0472&vector=private&static=false",
-      "siteUrl": "https://www.kfps.tp.edu.tw",
-      "attachments": [
-        "附件1：1141009行政院人事行政總處函.pdf",
-        "附件2：1141002大陸委員會函.pdf",
-        "附件3：114年專案查核期間（114年6月30日前）無意願配合查核人員列管表（範例）.pdf",
-        "附件4：常態化、制度化查核期間（115年1月1日起）未完成查核人員列管表（範例）.pdf",
-        "附件5：擬任(現職)人員在中國設有證照情形具結書-1150101實施.pdf",
-        "附件6：常態化、制度化查核人員範圍表-1150101實施.pdf"
-      ],
-      "summary": "一、依奉交下人事總處114年10月9日總處培字第1140022248號函辦理，並檢附原函（含附件）影本1份。 二、大陸委員會已修正「常態化、制度化查核人員範圍表」及「擬任（現職）人員在中國大陸設有戶籍、領用中國大陸護照、身分證、定居證或居住證情形具結書」，自115年1月1日軍公教人員常態化、制度化查核機制正式施行後，請依上開修正後之範圍表及具結書辦理查核。 三、查本校符合修正後「常態化、制度化查核人員範圍表」人員類型如下： （ 一）公： 1 、職員(即公務人員、護理師)。 2 、聘用人員(即專任專業輔導人員)。 3 、約僱人員：現職人員為約僱出納幹事、約僱護理師、約僱人事書記。 4 、技工、工友。 （ 二）教育： 1 、校長。 2 、專任教師。 3 、代理教師(3個月以上及3個月以下)。 4 、專職原住民族語老"
-    },
-    {
-      "id": "政策法規:光復國小:68f9d96251b5b89b40d80cd6",
-      "schools": [
-        "光復國小"
-      ],
-      "source": "政策法規",
-      "title": "公告：大陸委員會業於該會全球資訊網建置「常態化制度化查核軍公教人員不得在中國大陸設籍、領用中共相關身分證件」專區，及修正「常態化、制度化查核人員範圍表」一案，自115年1月1日起實施。",
-      "published": "2025-10-23T06:56:00+00:00",
-      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/68f9d96251b5b89b40d80cd6?vector=private&static=false",
-      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=gVIA7Pi7760&vector=private&static=false",
-      "siteUrl": "https://www.kfps.tp.edu.tw",
-      "attachments": [
-        "附件1：1141009行政院人事行政總處函.pdf",
-        "附件2：1141002大陸委員會函.pdf",
-        "附件3：114年專案查核期間（114年6月30日前）無意願配合查核人員列管表（範例）.pdf",
-        "附件4：常態化、制度化查核期間（115年1月1日起）未完成查核人員列管表（範例）.pdf",
-        "附件5：擬任(現職)人員在中國設有證照情形具結書-1150101實施.pdf",
-        "附件6：常態化、制度化查核人員範圍表-1150101實施.pdf"
-      ],
-      "summary": "一、依奉交下人事總處114年10月9日總處培字第1140022248號函辦理，並檢附原函（含附件）影本1份。 二、大陸委員會已修正「常態化、制度化查核人員範圍表」及「擬任（現職）人員在中國大陸設有戶籍、領用中國大陸護照、身分證、定居證或居住證情形具結書」，自115年1月1日軍公教人員常態化、制度化查核機制正式施行後，請依上開修正後之範圍表及具結書辦理查核。 三、查本校符合修正後「常態化、制度化查核人員範圍表」人員類型如下： （ 一）公： 1 、職員(即公務人員、護理師)。 2 、聘用人員(即專任專業輔導人員)。 3 、約僱人員：現職人員為約僱出納幹事、約僱護理師、約僱人事書記。 4 、技工、工友。 （ 二）教育： 1 、校長。 2 、專任教師。 3 、代理教師(3個月以上及3個月以下)。 4 、專職原住民族語老"
-    },
-    {
-      "id": "榮譽榜:建安國小:68f9c280cf3e8b7b9155c087",
-      "schools": [
-        "建安國小"
-      ],
-      "source": "榮譽榜",
-      "title": "狂賀~本校合唱團榮獲臺北市音樂比賽南區同聲合唱 優等!!",
-      "published": "2025-10-23T05:36:00+00:00",
-      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/68f9c280cf3e8b7b9155c087?vector=private&static=false",
-      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=AQoMNBw7626&vector=private&static=false",
-      "siteUrl": "https://www.jnps.tp.edu.tw",
-      "attachments": [],
-      "summary": "狂賀！！本校合唱團榮獲臺北市學生音樂比賽同聲合唱南區優等 感謝指導老師陳虹伶老師、謝明麗老師的帶領及家長後援的支持 優美歌聲，唱出團隊的力量；堅定步伐，譜出榮耀的樂章。 謝謝每一位用心付出的師生與家長，讓音樂成為最動聽的故事！"
-    },
-    {
-      "id": "光復之光:光復國小:68f9bb83e7492609c34e8317",
-      "schools": [
-        "光復國小"
-      ],
-      "source": "光復之光",
-      "title": "賀!本校弦樂團參加臺北市114學年度學生音樂團體組比賽，榮獲弦樂合奏特優第三名。",
-      "published": "2025-10-23T05:20:00+00:00",
-      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/68f9bb83e7492609c34e8317?vector=private&static=false",
-      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=EIWuBZr8827&vector=private&static=false",
-      "siteUrl": "https://www.kfps.tp.edu.tw",
-      "attachments": [],
-      "summary": "感謝小朋友為校爭光，感謝指導老師辛勤指導及後援會家長大力支援!"
-    },
-    {
-      "id": "光復之光:光復國小:68f9bae6ee30979c4483be26",
-      "schools": [
-        "光復國小"
-      ],
-      "source": "光復之光",
-      "title": "賀!本校管樂團參加臺北市114學年度學生音樂團體組比賽，榮獲管樂合奏優等!",
-      "published": "2025-10-23T05:16:00+00:00",
-      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/68f9bae6ee30979c4483be26?vector=private&static=false",
-      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=EIWuBZr8827&vector=private&static=false",
-      "siteUrl": "https://www.kfps.tp.edu.tw",
-      "attachments": [],
-      "summary": "感謝小朋友為校爭光，也感謝指導老師辛勤指導、後援會家長大力支持!"
-    },
-    {
-      "id": "研習資訊:698d4b799b82928c5f7e4588",
-      "source": "研習資訊",
-      "title": "轉知：臺北市學校環境教育中心114年度「永續農業與資源循環教師研習計畫」，歡迎教師踴躍報名參加",
-      "published": "2025-10-23T03:37:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/698d4b799b82928c5f7e4588?vector=private&static=false",
-      "summary": "一、為使師生從氣候變遷與碳排放的全球挑戰開始，教師應理解農業不只是糧食供應者，更是氣候治理的關鍵行動者，特辦理旨揭活動。 二、活動摘要如下： (一)活動時間：114年10月29日（星期三）下午1時30分至4時30分。 (二)活動地點：臺北市文山區永建國民小學，環教中心二樓馬明潭展場教室。 (三)參加對象：臺北市各級學校公私立教師，共15人，以薦派順序為錄取依據，經錄取後以電子信箱通知，始得參加研習。 (四)報名方式：臺北市在職教師研習網，研習字號為1141007048號。 (五)報名時間：10月9日(星期四)起額滿為止，備取3人。 (六)內容詳參計畫，全程參與教師將核予教師研習時數及環境教育時數（環教認證展延時數）3小時，歡迎鼓勵教師踴躍參加。",
-      "schools": [
-        "仁愛國小"
-      ]
-    },
-    {
-      "id": "研習資訊:仁愛國小:698d4b799b82928c5f7e4588",
-      "schools": [
-        "仁愛國小"
-      ],
-      "source": "研習資訊",
-      "title": "轉知：臺北市學校環境教育中心114年度「永續農業與資源循環教師研習計畫」，歡迎教師踴躍報名參加",
-      "published": "2025-10-23T03:37:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/698d4b799b82928c5f7e4588?vector=private&static=false",
-      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=BLvblfR5996&vector=private&static=false",
-      "siteUrl": "https://www.japs.tp.edu.tw",
-      "attachments": [
-        "1141029_永續農業與資源循環教師研習實施計畫.pdf"
-      ],
-      "summary": "一、為使師生從氣候變遷與碳排放的全球挑戰開始，教師應理解農業不只是糧食供應者，更是氣候治理的關鍵行動者，特辦理旨揭活動。 二、活動摘要如下： (一)活動時間：114年10月29日（星期三）下午1時30分至4時30分。 (二)活動地點：臺北市文山區永建國民小學，環教中心二樓馬明潭展場教室。 (三)參加對象：臺北市各級學校公私立教師，共15人，以薦派順序為錄取依據，經錄取後以電子信箱通知，始得參加研習。 (四)報名方式：臺北市在職教師研習網，研習字號為1141007048號。 (五)報名時間：10月9日(星期四)起額滿為止，備取3人。 (六)內容詳參計畫，全程參與教師將核予教師研習時數及環境教育時數（環教認證展延時數）3小時，歡迎鼓勵教師踴躍參加。"
-    },
-    {
-      "id": "研習資訊:68f97ac2c84c5109b7347d88",
-      "source": "研習資訊",
-      "title": "[轉知]114 年度「建構特殊教育行政系統之融合教育支援網站-有愛無礙網站計畫」成果發表暨推廣研習會",
-      "published": "2025-10-23T00:45:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/68f97ac2c84c5109b7347d88?vector=private&static=false",
-      "summary": "詳細內容請參閱附件。",
-      "schools": [
-        "仁愛國小"
-      ]
-    },
-    {
-      "id": "研習資訊:仁愛國小:68f97ac2c84c5109b7347d88",
-      "schools": [
-        "仁愛國小"
-      ],
-      "source": "研習資訊",
-      "title": "[轉知]114 年度「建構特殊教育行政系統之融合教育支援網站-有愛無礙網站計畫」成果發表暨推廣研習會",
-      "published": "2025-10-23T00:45:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/68f97ac2c84c5109b7347d88?vector=private&static=false",
-      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=BLvblfR5996&vector=private&static=false",
-      "siteUrl": "https://www.japs.tp.edu.tw",
-      "attachments": [
-        "114 年度「建構特殊教育行政系統之融合教育支援網站-有愛無礙網站計畫」成果發表暨推廣研習會.pdf"
-      ],
-      "summary": "詳細內容請參閱附件。"
-    },
-    {
-      "id": "研習資訊:68f979700b4dfa7b5c3e9c37",
-      "source": "研習資訊",
-      "title": "[轉知]「2025視障學生閱讀素養與精進國際學術研討會」",
-      "published": "2025-10-23T00:39:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/68f979700b4dfa7b5c3e9c37?vector=private&static=false",
-      "summary": "詳細內容請參閱附件。",
-      "schools": [
-        "仁愛國小"
-      ]
-    },
-    {
-      "id": "研習資訊:仁愛國小:68f979700b4dfa7b5c3e9c37",
-      "schools": [
-        "仁愛國小"
-      ],
-      "source": "研習資訊",
-      "title": "[轉知]「2025視障學生閱讀素養與精進國際學術研討會」",
-      "published": "2025-10-23T00:39:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/68f979700b4dfa7b5c3e9c37?vector=private&static=false",
-      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=BLvblfR5996&vector=private&static=false",
-      "siteUrl": "https://www.japs.tp.edu.tw",
-      "attachments": [
-        "「2025視障學生閱讀素養與精進國際學術研討會」.pdf"
-      ],
-      "summary": "詳細內容請參閱附件。"
-    },
-    {
-      "id": "研習資訊:68f977d8cf3e8b7b914176cc",
-      "source": "研習資訊",
-      "title": "[轉知]臺北市南區特教資源中心114學年度第1學期「情緒行為障礙相關醫療及教育知能研習-滑不停的危機：短影音與網路沉迷的挑戰」",
-      "published": "2025-10-23T00:31:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/68f977d8cf3e8b7b914176cc?vector=private&static=false",
-      "summary": "一、研習相關訊息略述如下 (一)時間：114年11月11日（星期二）9時至16時。 (二)地點：臺北榮民總醫院 CiC醫療創新中心9樓創意沙龍 (臺北市北投區石牌路二段201號) (三)對象：(將依不同對象報名情形錄取) １、臺北市公私立國民中學及高中職教師。 ２、臺北市學前、國小教育階段教師。 ３、對青少年心理衛生有興趣之醫護人員、從事相關工作 之各職類醫事人員。 ４、學生家長。",
-      "schools": [
-        "仁愛國小"
-      ]
-    },
-    {
-      "id": "研習資訊:仁愛國小:68f977d8cf3e8b7b914176cc",
-      "schools": [
-        "仁愛國小"
-      ],
-      "source": "研習資訊",
-      "title": "[轉知]臺北市南區特教資源中心114學年度第1學期「情緒行為障礙相關醫療及教育知能研習-滑不停的危機：短影音與網路沉迷的挑戰」",
-      "published": "2025-10-23T00:31:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/68f977d8cf3e8b7b914176cc?vector=private&static=false",
-      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=BLvblfR5996&vector=private&static=false",
-      "siteUrl": "https://www.japs.tp.edu.tw",
-      "attachments": [
-        "臺北市南區特教資源中心114學年度第1學期「情緒行為障礙相關醫療及教育知能研習-滑不停的危機：短影音與網路沉迷的挑戰」.pdf"
-      ],
-      "summary": "一、研習相關訊息略述如下 (一)時間：114年11月11日（星期二）9時至16時。 (二)地點：臺北榮民總醫院 CiC醫療創新中心9樓創意沙龍 (臺北市北投區石牌路二段201號) (三)對象：(將依不同對象報名情形錄取) １、臺北市公私立國民中學及高中職教師。 ２、臺北市學前、國小教育階段教師。 ３、對青少年心理衛生有興趣之醫護人員、從事相關工作 之各職類醫事人員。 ４、學生家長。"
-    },
-    {
-      "id": "研習資訊:68f97681e45c287b6cde273e",
-      "source": "研習資訊",
-      "title": "[轉知]臺北市114學年度特殊教育專業知能「認識及陪伴選擇性緘默症孩子」研習",
-      "published": "2025-10-23T00:26:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/68f97681e45c287b6cde273e?vector=private&static=false",
-      "summary": "一、本研習茲敦請宇寧身心診所李筱蓉臨床心理師擔任講座。 二、研習時間：114年11月26日(星期三)下午1時30分。 三、研習地點：臺北市中山區中山國民小學會議室(臺北市中山 區民權東路一段69號)。 四、研習對象：對本研習主題有興趣之本市國民小學身心障礙類特殊教育教師及普通班教師。 五、參加研習之教師請務必於114年11月21日（星期五）前，逕 至臺北市教師在職研習網( https://insc.tp.edu.tw/)完成線上報名，並請學校完成薦派作業（未完成薦派作業者，恕不核予研習時數）。",
-      "schools": [
-        "仁愛國小"
-      ]
-    },
-    {
-      "id": "研習資訊:仁愛國小:68f97681e45c287b6cde273e",
-      "schools": [
-        "仁愛國小"
-      ],
-      "source": "研習資訊",
-      "title": "[轉知]臺北市114學年度特殊教育專業知能「認識及陪伴選擇性緘默症孩子」研習",
-      "published": "2025-10-23T00:26:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/68f97681e45c287b6cde273e?vector=private&static=false",
-      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=BLvblfR5996&vector=private&static=false",
-      "siteUrl": "https://www.japs.tp.edu.tw",
-      "attachments": [
-        "臺北市114學年度特殊教育專業知能「認識及陪伴選擇性緘默症孩子」研習.pdf"
-      ],
-      "summary": "一、本研習茲敦請宇寧身心診所李筱蓉臨床心理師擔任講座。 二、研習時間：114年11月26日(星期三)下午1時30分。 三、研習地點：臺北市中山區中山國民小學會議室(臺北市中山 區民權東路一段69號)。 四、研習對象：對本研習主題有興趣之本市國民小學身心障礙類特殊教育教師及普通班教師。 五、參加研習之教師請務必於114年11月21日（星期五）前，逕 至臺北市教師在職研習網( https://insc.tp.edu.tw/)完成線上報名，並請學校完成薦派作業（未完成薦派作業者，恕不核予研習時數）。"
     }
   ]
 }
