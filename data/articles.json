@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T12:51:02.769540+00:00",
+  "updatedAt": "2026-10-25T07:43:16.783026+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -224,6 +224,20 @@
     }
   ],
   "articles": [
+    {
+      "id": "活動資訊:光復國小:6addae5420251ab9728a30a2",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "活動資訊",
+      "title": "消防局防災科學教育館訂於115年11月3日起進行場館試營運",
+      "published": "2026-10-25T07:22:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6addae5420251ab9728a30a2?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=QWbvWuz8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "一、依據本府消防局115年10月21日北市消減字第1153050804號 函辦理。 二、該局防災科學教育館辦理「115年度展區設備更新中程計 畫」，相關展區設備更新工程已完成，將於115年11月3日 至115年11月22日進行試營運並對外開放參觀，為維護參觀 品質及場館安全，每日上午及下午預約參觀人數上限各為 150人次。 三、試營運期間採網路預約方式辦理，請參訪民眾至該局防災 科學教育館官方網站（https://fsm.119.gov.taipei/w /fsm119/index）進行預約報名，相關預約方式及參觀資訊 請依網站公告辦理。"
+    },
     {
       "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=D08433887D068854",
       "schools": [
