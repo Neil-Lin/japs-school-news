@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T08:48:22.271612+00:00",
+  "updatedAt": "2026-10-28T15:19:05.317077+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -224,6 +224,110 @@
     }
   ],
   "articles": [
+    {
+      "id": "教師研習及活動:光復國小:6ae1c8547eb0d48b0b0b3ea4",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "教師研習及活動",
+      "title": "臺北市115學年度國小現職教師臺灣台語語言能力認證密集增能計畫",
+      "published": "2026-10-28T10:01:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6ae1c8547eb0d48b0b0b3ea4?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=GfVDvAq0432&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "29786517_1153111496_ATTCH1.odt"
+      ],
+      "summary": "一、依據本市115學年度國民中小學本土教育暨整體推動方案計 畫辦理。 二、旨揭研習由本局主辦、本市南港區南港國民小學承辦，對 象為本市公立國小正式員額之現職教師，須已取得教育部 或國立成功大學臺灣台語B1證書，且尚未取得B2以上證 書。 三、請有意參加之教師於115年11月20日（星期五）下午4時 前，至報名表單（https://forms.gle /Me327sqcSCLLxzvx6）填報，並將在職證明及B1證書上傳 於表單。 四、研習期間自115年11月25日至116年7月28日，參加人員請各 校核予公假，課務自理。參訓教師須配合承辦學校統一辦理認證考試報名，相關課程及參訓規範詳如附件計畫。 五、本案聯絡人：南港國小教務處蕭老師，電話：（02）2783- 4678分機2106，電子信箱：00445@nkps"
+    },
+    {
+      "id": "活動資訊:光復國小:6ae1c2a0170cab8c7d774afb",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "活動資訊",
+      "title": "115學年度高級中等以下學校財務智商活動實施計",
+      "published": "2026-10-28T09:37:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6ae1c2a0170cab8c7d774afb?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=QWbvWuz8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "29789398_1153111990_ATTCH1.pdf"
+      ],
+      "summary": "一、依教育部115年度高級中等以下學校金融基礎教育融入教學 精進推廣計畫辦理。 二、為提升本市國小至高中職學生金融基礎教育知能，於酷課 OnO線上教室開設「115學年度財務智商課程」。學生依所 屬學層加入課程，完成10題測驗並達通過標準，即可優先 獲得抽獎資格。 (一)國小課程邀請碼：CHCZZE2EU0H1 (二)國中課程邀請碼：CHD1R719UH6L (三)高中課程邀請碼：CHD3J0005U22 三、活動時間： (一)第一階段：115年11月2日至11月13日 (二)第二階段：115年11月16日至11月30日 四、活動規則： (一)連續4週，每兩週舉行抽獎。 (二)完成答題者(可重複作答)，可參加抽獎活動；每階段抽 出國小、國中、高中各學層20位學生獲200元商品卡，共 計120個獲獎名額。 (三)得"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=55ADC7D952BE11BD",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】國立陽明交大辦理辦理「115年中小學數位素養教育基地學校期中成果交流會暨A3數位素養講師回流」研習",
+      "published": "2026-10-28T09:07:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=55ADC7D952BE11BD",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、研習目的： 促進中小學數位素養教育基地學校推動經驗交流及資源共享，增進各校經驗傳承與相互學習。強化A3數位素養講師專業知能，協助講師即時掌握最新教學資源與政策動向，精進授課內容之正確性與實效性。並建構講師專業對話與回流反饋機制，透過實務經驗之共學與交流，凝聚師資團隊向心力，發揮數位素養推廣之延續性影響力。全天參與者或下午場全程出席者，核予3小時研習時數。 二、講座資訊摘要如下： (一)研習時間：115年12月16日（三），上午9時至16時30分。 (二)研習地點：集思臺中新烏日會議中心 富蘭克林廳（臺中市烏日區高鐵東一路26號）。 (三)參加對象：中小學數位素養教育基地學校教師或具A3數位素養講師資格者，上限70名（額滿為止）。可選擇參加上午場、下午場或全天活動。 (四)報名方式：即日起至115年12月2日"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=B77639E11419DD4C",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【賽事資訊】115年薪傳盃全國象棋公開賽暨第十二屆第二次會員大會",
+      "published": "2026-10-28T09:02:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=B77639E11419DD4C",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、賽事時間：115年11月22日（週日）。 二、賽事地點：高雄市三民區澄清路與褒揚東街口寶業里滯洪池生態教室。 三、報名日期：即日起至115年11月14日(週六)止。 四、報名方式請參閱競賽規程（如附件）。 115年薪傳盃全國象棋公開賽競賽規程.pdf"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=B7466114D2D301C9",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "社團法人中華民國更生少年關懷協會「616少年夢工廠」11月份辦理職業探索相關課程事宜",
+      "published": "2026-10-28T08:49:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=B7466114D2D301C9",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、活動報名詳如附件，檢送活動海報及報名資訊連結：https://reurl.cc/Wzm7nO ，惠請貴會推介青少年參與，無任感荷。 二、少年職業探索相關業務聯繫窗口：睢雁婷 就服員，電話： （02）2567-6761轉13。 海報.pdf"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=A2DFE4036D49C11E",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【研習資訊】中華民國籃球協會最新國際籃球規則暨小學籃球規則增能研習",
+      "published": "2026-10-28T08:43:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=A2DFE4036D49C11E",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、研習時間： （一）臺中場：115年11月15日（週日）。 （二）臺北場： 115年12月5日（週六 ）。 二、研習地點： （一）臺中場：僑光科技大學國際會議廳(台中市僑光路100號)。 （二）臺北場：運動部3樓會議室(台北市朱崙街20號) 。 三、報名日期：即日起制額滿為止。 四、報名方式請參閱實施計畫（如附件）。 中華民國籃球協會最新國際籃球規則暨小學籃球規則增能研習實施計畫.pdf"
+    },
     {
       "id": "最新消息:博愛國小:6ae1b3162a253f8a49e0de42",
       "schools": [
@@ -53041,22 +53145,6 @@
       "siteUrl": "https://www.baps.tp.edu.tw",
       "attachments": [],
       "summary": "今日10/29流感疫苗注射 廠牌為：國光"
-    },
-    {
-      "id": "研習資訊:博愛國小:690095e26b36842b68b4fb5e",
-      "schools": [
-        "博愛國小"
-      ],
-      "source": "研習資訊",
-      "title": "轉知臺北市114學年度特殊教育專業知能「認識及陪伴選擇性緘默症孩子」研習計畫，鼓勵參加。",
-      "published": "2025-10-28T10:03:00+00:00",
-      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/690095e26b36842b68b4fb5e?vector=private&static=false",
-      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=tQHaHM07712&vector=private&static=false",
-      "siteUrl": "https://www.baps.tp.edu.tw",
-      "attachments": [
-        "轉知臺北市114學年度特殊教育專業知能「認識及陪伴選擇性緘默症孩子」研習計畫，鼓勵參加。-1141028.pdf"
-      ],
-      "summary": "主旨：轉知114學年度特殊教育專業知能「認識及陪伴選擇性緘默症孩子」研習計畫。 說明： 一、依據臺北市高級中等以下學校教師及相關人員特教知能研習方案辦理。 二、本研習茲敦請宇寧身心診所李筱蓉臨床心理師擔任講座。 三、研習時間：114年11月26日(星期三)下午1時30分。 四、研習地點：臺北市中山區中山國民小學會議室(臺北市中山區民權東路一段69號)。 五、研習對象：對本研習主題有興趣之本市國民小學身心障礙 類特殊教育教師及普通班教師。 六、參加研習之教師請務必於114年11月21日（星期五）前，逕至臺北市教師在職研習網( https://insc.tp.edu.tw/)完成線上報名，並請學校完成薦派作業（未完成薦派作業者，恕不核予研習時數）。 七、參與研習之教師准予公假登記，本研習將覈實給予研習時數，請錄取之"
     }
   ]
 }
