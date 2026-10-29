@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T08:43:21.076064+00:00",
+  "updatedAt": "2026-10-29T15:24:09.921034+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -145,7 +145,7 @@
     {
       "name": "比賽資訊（建安國小）",
       "status": "ok",
-      "itemCount": 93
+      "itemCount": 92
     },
     {
       "name": "活動專欄（建安國小）",
@@ -224,6 +224,74 @@
     }
   ],
   "articles": [
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=EBD9316B516371B9",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】國立臺灣師範大學116學年度教育學系碩士在職專班招生資訊",
+      "published": "2026-10-29T10:55:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=EBD9316B516371B9",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、該校教育學系116學年度碩士在職專班招收「教育領導與政策碩士在職專班」暨「課程領導與教學實踐碩士在職專 班」兩班次 。 二、本次考試採網路報名，並需於期限前依規定上傳審查資料，資料上傳截止至115年11月21日（星期五）下午5時止，有 意報考者務必留意時間。 三、重要日程公告如下： (一)簡章公告：115年10月20日（星期二）。 (二)網路報名：115年11月10日（星期二）上午9時至115年11 月20日（星期五）下午5時止。 (三)複試名單公告：116年2月16日（星期二）公告於本校教 育學系官網，考生請自行上網查詢。 (四)複試日期：116年2月20日（星期六）。 116學年度碩士在職專班招生簡章.pdf 116學年度教師在職進修碩士學位班招生簡章.pdf"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=C95C8B5CC9518BC8",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【賽事資訊】第一屆台灣智力運動九路圍棋大賽",
+      "published": "2026-10-29T10:29:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=C95C8B5CC9518BC8",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、賽事時間：115年11月8日（週日）。 二、賽事地點：亞洲運動競技館（臺北市中山區建國北路80號B1）。 三、報名日期：即日起至115年11月1日(週日)止。 四、報名方式請參閱競賽規程（如附件）。 第一屆台灣智力運動九路圍棋大賽競賽規程.pdf"
+    },
+    {
+      "id": "教師研習及活動:光復國小:6ae310ab9a00dfd0a724c2b9",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "教師研習及活動",
+      "title": "115 學年度「部落智慧．世界舞臺：AI協作WOLF論文撰寫、 AISES國際研討會發表與阿美族搗麻糬互助共享文化智慧」及「吉娃斯愛科學動畫應用與跨文化科教視野分享」",
+      "published": "2026-10-29T09:22:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6ae310ab9a00dfd0a724c2b9?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=GfVDvAq0432&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "29800004_1153110216_ATTCH3.pdf",
+        "29800004_1153110216_ATTCH2.pdf",
+        "29800004_1153110216_ATTCH1.pdf"
+      ],
+      "summary": "一、依據教育部國民及學前教育署（以下簡稱國教署）115年10 月19日臺教國署原字第1155703505A號函辦理。 二、為符應「原住民族教育法」第43條第1款（略以）「各級教 育主管機關推動教育政策，應促進全體國民認識與尊重原 住民族，並得鼓勵、補助非營利之機構、法人或團體，對 社會大眾進行原住民族及多元文化教育」之規定；因應教 師專業發展與強化教師多元文化知能，培養現職教師與師 資生以多元文化發展教材教法設計能力，委請國立清華大 學辦理旨揭研習班活動。 三、參加對象：高級中等以下學校現職教師、代理教師與實習 教師、各大學在學師資生、原住民族教育相關教師、族語 教師等。 四、活動時間、地點、報名網址、報名注意事項詳如附件。 五、請貴校鼓勵相關教師報名參加，並請依活動時間核給參加 教師公假登記： (一)本研習係"
+    },
+    {
+      "id": "重要公告:仁愛國小:6ae2ea7fe783fcc64a7a484d",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "115年度 人事室 約僱書記(身障)甄選公告",
+      "published": "2026-10-29T09:00:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6ae2ea7fe783fcc64a7a484d?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [],
+      "summary": "115年度 人事室 約僱書記(身障)甄選公告 正取:從缺"
+    },
     {
       "id": "一般消息:仁愛國小:6ae2ff6b6e29a2c6bf1c5089",
       "schools": [
@@ -53465,20 +53533,6 @@
       "siteUrl": "https://www.kfps.tp.edu.tw",
       "attachments": [],
       "summary": "恭喜小朋友辛苦練習有美好成果!感謝指導老師辛勤指導，後援會家長大力支持!"
-    },
-    {
-      "id": "榮譽榜:建安國小:6901d9c59c34fe2b6e37c50f",
-      "schools": [
-        "建安國小"
-      ],
-      "source": "榮譽榜",
-      "title": "狂賀～建安扯鈴隊參加2025高雄市港都盃扯鈴運動錦標賽成績優異",
-      "published": "2025-10-29T09:05:00+00:00",
-      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6901d9c59c34fe2b6e37c50f?vector=private&static=false",
-      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=AQoMNBw7626&vector=private&static=false",
-      "siteUrl": "https://www.jnps.tp.edu.tw",
-      "attachments": [],
-      "summary": "狂賀～建安國小扯鈴隊參加2025高雄市港都盃民俗體育扯鈴運動錦標賽成績優異,榮獲: 🎖️競速賽-女子單鈴繞腳競速賽 🥇高年級組:第1名 603吳姈橞 🎖️競速賽-女子單鈴一拋一跳競速賽 高年級組: 🥇第1名 614許晴晴 🥈第2名 603吳姈橞 🎖️女子技術單鈴賽_高年級組🎖️ 🥈第2名 614許晴晴 🥉第3名 603吳姈橞 🎖️女子技術雙鈴賽_高年級組🎖️ 🥇第1名 614許晴晴 感謝駱宗義老師、楊心怡教練、鄭湧蒼教練及黃士融教練的指導"
     }
   ]
 }
