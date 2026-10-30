@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T08:50:10.839379+00:00",
+  "updatedAt": "2026-10-30T15:10:38.581612+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -145,7 +145,7 @@
     {
       "name": "比賽資訊（建安國小）",
       "status": "ok",
-      "itemCount": 90
+      "itemCount": 89
     },
     {
       "name": "活動專欄（建安國小）",
@@ -224,6 +224,91 @@
     }
   ],
   "articles": [
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=A5EFE7A840A2003F",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】宜蘭縣政府辦理「115年宜蘭縣休閒農業區食農教案分享會」",
+      "published": "2026-10-30T11:10:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=A5EFE7A840A2003F",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "活動流程詳如附件。 115049100_1150189929_ATTCH1 (2).pdf"
+    },
+    {
+      "id": "榮譽榜:建安國小:6ae45e59b04ea019389b3f3a",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "榮譽榜",
+      "title": "國中職業試探",
+      "published": "2026-10-30T09:06:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6ae45e59b04ea019389b3f3a?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=AQoMNBw7626&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [
+        "活動計畫書.pdf"
+      ],
+      "summary": "詳見附件"
+    },
+    {
+      "id": "學校公告:光復國小:6ae45ea2b04ea019389b5103",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "學校公告",
+      "title": "國家太空中心辦理「2027 ATZ-G 零重力實驗提案競賽」",
+      "published": "2026-10-30T09:06:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6ae45ea2b04ea019389b5103?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=UFKVG9l8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "2027國際太空站(ISS)零重力實驗提案比賽.pdf",
+        "電子活動海報.pdf"
+      ],
+      "summary": "一、旨揭「2027 ATZ-G 零重力實驗提案競賽」（Asian Try Zero-G 2027）旨在鼓勵學生發揮科學創意，組隊設計微重 力實驗，探索地球上難以觀察之物理現象，培養科學探究 與創新實作能力。 二、獲選實驗提案將有機會由日本太空人於國際太空站（ISS） 之日本實驗艙（Kibo）內執行，提供學生參與太空實驗之 機會，並促進太空科學教育及國際交流。 三、本競賽報名期限至2026年11月30日止，敬請貴校協助公告 活動資訊，並鼓勵有興趣之學生踴躍組隊參與。相關資訊 請參閱本中心官網，報名及競賽相關資訊請參閱活動網 頁：https://atzg2027.ncku.edu.tw/ 四、檢附「2027 ATZ-G 零重力實驗提案競賽」活動簡章1份（附件一）、電子活動海報1份（附件二）。"
+    },
+    {
+      "id": "行政公告:建安國小:6ae45bf0b04ea019389ac4cc",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "行政公告",
+      "title": "兒童不當對待事件處理推廣",
+      "published": "2026-10-30T08:56:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6ae45bf0b04ea019389ac4cc?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=2rEsyLS9623&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [
+        "座談會DM.png"
+      ],
+      "summary": "詳見附件"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=ECD28AE46577CB0B",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【賽事資訊】115年總統盃全國菁英拳擊錦標賽暨2028洛杉磯奧運培訓隊選拔",
+      "published": "2026-10-30T08:49:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=ECD28AE46577CB0B",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、賽事時間：115年11月10日（週二）至115年11月14日（週六）。 二、賽事地點：中國文化大學（臺北市陽明山華岡路55號）。 三、報名日期：即日起至115年11月5日(週六)下午5時止。 四、報名方式請參閱競賽規程（如附件）。 115總統盃全國菁英拳擊錦標賽暨2028洛杉磯奧運培訓隊選拔競賽規程.pdf"
+    },
     {
       "id": "學校公告:光復國小:6ae4550c6f285213452a5480",
       "schools": [
