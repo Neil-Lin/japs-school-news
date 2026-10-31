@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T15:10:38.581612+00:00",
+  "updatedAt": "2026-10-31T08:37:41.116219+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -25,7 +25,7 @@
     {
       "name": "其他公告（敦化國小）",
       "status": "ok",
-      "itemCount": 81
+      "itemCount": 79
     },
     {
       "name": "國中入學（光復國小）",
@@ -40,7 +40,7 @@
     {
       "name": "多元教育（敦化國小）",
       "status": "ok",
-      "itemCount": 24
+      "itemCount": 23
     },
     {
       "name": "學校公告（光復國小）",
@@ -145,7 +145,7 @@
     {
       "name": "比賽資訊（建安國小）",
       "status": "ok",
-      "itemCount": 89
+      "itemCount": 84
     },
     {
       "name": "活動專欄（建安國小）",
@@ -224,6 +224,20 @@
     }
   ],
   "articles": [
+    {
+      "id": "榮譽榜:博愛國小:6ae53c68491685402c402f69",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "榮譽榜",
+      "title": "2026全國VR跨域盃競賽",
+      "published": "2026-10-31T00:57:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ae53c68491685402c402f69?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=DdqT8yI3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [],
+      "summary": "恭喜 605 鄭○萲、 612 黃○淩 獲得國小組 佳作 校友 謝○希、鄭○熙 獲得國中組 第三名 指導老師：闕慧蓉老師"
+    },
     {
       "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=A5EFE7A840A2003F",
       "schools": [
@@ -44418,6 +44432,23 @@
       "siteUrl": "https://www.kfps.tp.edu.tw",
       "attachments": [],
       "summary": "一、依據：臺北市政府教育局115年4月29日北市教安字第1153060042號函暨臺北市政府消防局115年4月27日北市消減字第1153025212號函。 二、宣導內容： (一)115年5月份防汛宣導：汛期即將來臨，請民眾提前做好清淤排水，注意氣象與災害資訊，提高警覺。若前往山區或河邊等地區，應隨時注意環境變化，如發現任何異常，應馬上撤離，以維生命安全。 (二)影片連結： 經濟部水利署-馬克防汛篇-30秒"
+    },
+    {
+      "id": "學校公告:光復國小:69f2d5e36c1a0be065e5c00b",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "學校公告",
+      "title": "[公告]臺北市115學年度國民小學一般智能資賦優異學生鑑定安置通過名單",
+      "published": "2026-04-30T04:07:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/69f2d5e36c1a0be065e5c00b?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=UFKVG9l8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "臺北市115學年度國民小學一般智能資賦優異學生鑑定安置通過名單公告-光復.pdf",
+        "成績查詢三步驟（複選二） (3).pdf"
+      ],
+      "summary": "1.通過名單如附件。家長及學生可至「臺北市國民小學一般智能資優學生鑑定安置系統」（https://www.gtide.tp.edu.tw）查詢成績，相關操作方式及流程，詳見 【成績查詢三步驟】（如附件）。 2.鑑定安置通過結果通知書及同意書，近期將另行發送至學生就讀學校，請就讀學校協助轉發。 3. 經臺北市鑑輔會鑑定通過，安置於分散式資優資源班、特殊教育方案（校本資優方案或區域衛星資優方案）之學生，須於115年5月15日（星期五）前確認安置並繳交安置同意書至就讀學校特教組；逾時或未完成繳交者，視同放棄，事後不得要求再行安置。 4.經臺北市鑑輔會鑑定通過且安置於一般智能分散式資優資源班之學生，無需遷移戶籍可逕轉學至安置學校就讀，須於115年7月2日（星期四）前至各校完成轉學手續；逾時或未完成轉學手續者，視同放棄，"
     },
     {
       "id": "一般消息:69f2aa91602a3ae042f8746a",
