@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T08:37:41.116219+00:00",
+  "updatedAt": "2026-10-31T14:39:42.281597+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -15,7 +15,7 @@
     {
       "name": "人事資訊（光復國小）",
       "status": "ok",
-      "itemCount": 87
+      "itemCount": 86
     },
     {
       "name": "光復之光（光復國小）",
@@ -145,7 +145,7 @@
     {
       "name": "比賽資訊（建安國小）",
       "status": "ok",
-      "itemCount": 84
+      "itemCount": 82
     },
     {
       "name": "活動專欄（建安國小）",
@@ -195,7 +195,7 @@
     {
       "name": "親職資訊（仁愛國小）",
       "status": "ok",
-      "itemCount": 59
+      "itemCount": 58
     },
     {
       "name": "重要公告（仁愛國小）",
@@ -44758,6 +44758,20 @@
       "summary": "臺北市『西門町商圈』，自115年6月1日 起為除吸菸區外，不得吸菸；未設吸菸區者，全面禁止吸 菸場所 為維護民眾不吸二手菸之健康權益，建構戶外無菸環境， 本局依據菸害防制法第19條第1項第4款規定，預告「臺北 市『西門町商圈』，自115年6月1日起為除吸菸區外，不得 吸菸；未設吸菸區者，全面禁止吸菸場所」。實施禁菸措 施範圍:東至中華路1段、西至西寧南路、南至成都路、北 至漢口街2段所圍之平面區域(含邊界之騎樓及人行道。 屆時違反規定於上開禁菸場所吸菸者，將依菸害防制法第 40條第2項規定，處新臺幣2,000元以上1萬元以下罰鍰。"
     },
     {
+      "id": "學校公告:光復國小:69f0116897b942e02cc49e4e",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "學校公告",
+      "title": "轉知：臺北市『西門町商圈』，自115年6月1日 起為除吸菸區外，不得吸菸；未設吸菸區者，全面禁止吸 菸場所",
+      "published": "2026-04-28T01:45:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/69f0116897b942e02cc49e4e?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=UFKVG9l8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "臺北市『西門町商圈』，自115年6月1日 起為除吸菸區外，不得吸菸；未設吸菸區者，全面禁止吸 菸場所 為維護民眾不吸二手菸之健康權益，建構戶外無菸環境， 本局依據菸害防制法第19條第1項第4款規定，預告「臺北 市『西門町商圈』，自115年6月1日起為除吸菸區外，不得 吸菸；未設吸菸區者，全面禁止吸菸場所」。實施禁菸措 施範圍:東至中華路1段、西至西寧南路、南至成都路、北 至漢口街2段所圍之平面區域(含邊界之騎樓及人行道。 屆時違反規定於上開禁菸場所吸菸者，將依菸害防制法第 40條第2項規定，處新臺幣2,000元以上1萬元以下罰鍰。"
+    },
+    {
       "id": "一般消息:69ef11daf31fc2e02d977420",
       "source": "一般消息",
       "title": "[轉知]家庭暴力暨性侵害防治中心辦理「孩子的守護 星—家長×補教×社區攜手共築兒童防暴安全網絡」工作坊活動簡",
@@ -44901,6 +44915,22 @@
       "published": "2026-04-24T07:44:00+00:00",
       "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6a30e6afd3e45ec82e426de8?vector=private&static=false",
       "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=GC5zJf94554&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "1150502場地停止開放公告.pdf"
+      ],
+      "summary": "一、依據：臺北市政府教育局115年2月24日北市教體字第1153040749號函。 二、暫停開放期間： 115年5月2日(星期六)全日。 三、暫停開放範圍：樹木修剪及外牆整修。 四、暫停開放事由：本校辦理防汛前高空樹木修剪及局部外牆整修，修剪範圍為水袖前庭、兒童遊戲場及大操場。 五、請有戶外活動需求之民眾另洽其他運動場地(館)，造成不便，祈請見諒。"
+    },
+    {
+      "id": "學校公告:光復國小:6a30e6afd3e45ec82e426de8",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "學校公告",
+      "title": "【校園場地暫停開放公告】115年5月2日(星期六)全校停止開放一般民眾戶外運動",
+      "published": "2026-04-24T07:44:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6a30e6afd3e45ec82e426de8?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=UFKVG9l8827&vector=private&static=false",
       "siteUrl": "https://www.kfps.tp.edu.tw",
       "attachments": [
         "1150502場地停止開放公告.pdf"
