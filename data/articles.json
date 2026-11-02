@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T09:44:37.436240+00:00",
+  "updatedAt": "2026-11-02T18:40:31.687290+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -95,7 +95,7 @@
     {
       "name": "校內消息（仁愛國小）",
       "status": "ok",
-      "itemCount": 51
+      "itemCount": 52
     },
     {
       "name": "校內競賽（仁愛國小）",
@@ -224,6 +224,20 @@
     }
   ],
   "articles": [
+    {
+      "id": "校內消息:仁愛國小:6ae8628ee241ece992ab0e16",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "校內消息",
+      "title": "115學年度第一學期學生才藝發表會「仁愛星光秀」活動簡章",
+      "published": "2026-11-02T10:08:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6ae8628ee241ece992ab0e16?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=ZXFNybM7991&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [],
+      "summary": "115 學年度第一學期學生才藝發表會 「仁愛星光秀」活動簡章 你有特殊才藝想秀卻找不到舞台嗎？ 你想讓全校看到你精彩的表演嗎？ 仁愛星光秀將是一個讓你展現自信、秀出個人魅力的大舞臺。這裡聚集了仁愛最厲害的表演高手，少了你就不夠精彩，歡迎報名－「仁愛星光秀」。 活動辦法： 每項表演以 3 ～ 5 分鐘為原則，請在時間內盡情的展現自己的才藝及表演，爭取觀眾對你的喜愛，請勿超過 5 分鐘。 只要是本校學生，可跨班、跨學年組隊報名， 每人限報名一項 。 表演類別：樂器演奏、歌唱、舞蹈、說唱藝術、其他。 甄選方式： 第一階段（初選）：以影片募集方式進行，請自行錄製表演影片，於表單報名系統將影片上傳，由評審進行初選，擇優選出 15 組參加決選。 第二階段（決賽）：由評審進行決選，入選決賽者將於 11 月27日 ( 五 ) "
+    },
     {
       "id": "一般消息:仁愛國小:6ae8546290fd5de78d4558dc",
       "schools": [
@@ -2492,6 +2506,20 @@
       "siteUrl": "https://www.kfps.tp.edu.tw",
       "attachments": [],
       "summary": "一、依據本府消防局115年10月21日北市消減字第1153050804號 函辦理。 二、該局防災科學教育館辦理「115年度展區設備更新中程計 畫」，相關展區設備更新工程已完成，將於115年11月3日 至115年11月22日進行試營運並對外開放參觀，為維護參觀 品質及場館安全，每日上午及下午預約參觀人數上限各為 150人次。 三、試營運期間採網路預約方式辦理，請參訪民眾至該局防災 科學教育館官方網站（https://fsm.119.gov.taipei/w /fsm119/index）進行預約報名，相關預約方式及參觀資訊 請依網站公告辦理。"
+    },
+    {
+      "id": "榮譽榜:博愛國小:6ad31974355a2b0141ca4115",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "榮譽榜",
+      "title": "臺北市市政府教育局辦理115學年度智慧城市中的科技與人文：跨域創新素養競賽",
+      "published": "2026-10-23T06:41:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ad31974355a2b0141ca4115?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=DdqT8yI3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [],
+      "summary": "恭喜 507 劉〇蓁、 507 蔡〇恩、 507 陳〇聿、 508 蕭〇馨 獲得 國小 - 科技助力與社會創新組 優等 指導老師：闕慧蓉老師"
     },
     {
       "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=D08433887D068854",
@@ -5138,20 +5166,6 @@
       "siteUrl": "https://www.baps.tp.edu.tw",
       "attachments": [],
       "summary": "說明： 一、依據本市教育局115年3月27日教職字第1153050858號函 「115年度臺北市高級中等以下學校無人機教育領航實施計 畫」辦理。 二、研習講師：臺北市信義區三興國民小學游真銘老師 三、研習對象：本市所屬各公立國小、國中及高中職教師 四、研習主題、時間及地點如下： (一)程控無人機(CoDrone)實務應用，時間：115年10月28日 (三)13:30-15:30，地點：臺北市內湖區新湖國民小學2F 電腦教室。 (二)Mini足球無人機(小飛球)教學應用，時間：115年11月25 日(三)13:30-15:30，地點：臺北市內湖區新湖國民小學 3F視聽教室。(三)餘相關活動內容請參閱附件計畫。 五、報名方式：即日起至臺北市教師研習網，報名截止日為各 場次上課前3日。 六、注意事項：因本校車位有限，"
-    },
-    {
-      "id": "榮譽榜:博愛國小:6ad31974355a2b0141ca4115",
-      "schools": [
-        "博愛國小"
-      ],
-      "source": "榮譽榜",
-      "title": "臺北市市政府教育局辦理115學年度智慧城市中的科技與人文：跨域創新素養競賽",
-      "published": "2026-10-17T06:41:00+00:00",
-      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ad31974355a2b0141ca4115?vector=private&static=false",
-      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=DdqT8yI3919&vector=private&static=false",
-      "siteUrl": "https://www.baps.tp.edu.tw",
-      "attachments": [],
-      "summary": "恭喜 507 劉〇蓁、 507 蔡〇恩、 507 陳〇聿、 508 蕭〇馨 獲得 國小 - 科技助力與社會創新組 優等 指導老師：闕慧蓉老師"
     },
     {
       "id": "最新消息:博愛國小:6ad3181c7f72180254e5bac9",
