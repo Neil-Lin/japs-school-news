@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T09:48:05.727571+00:00",
+  "updatedAt": "2026-11-03T16:25:42.538041+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -224,6 +224,38 @@
     }
   ],
   "articles": [
+    {
+      "id": "榮譽榜:博愛國小:6ae9d230f5793143fdeb1753",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "榮譽榜",
+      "title": "臺北市2026年STEAM跨域競賽",
+      "published": "2026-11-03T12:21:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6ae9d230f5793143fdeb1753?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=DdqT8yI3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [],
+      "summary": "臺北市 2026 年 STEAM 跨域競賽 1. 積木機關類 - 基礎組， 513 張○瑄、 512 潘○伊、 304 張○勛獲得國小組佳作。 2. 積木機關類 - 科學小創客， 404 周○筠、 407 湯○靚獲得國小組第二名，晉級全國賽。 3. 積木機關類 - 科學小創客， 306 王○軒、 303 王○綸獲得國小組佳作。 4. 智慧小車類， 607 張○勳、 505 施○霆、 502 施○鈞獲得國小組第三名，晉級全國賽。 5. 智慧小車類， 505 張○睿、 512 尤○崴獲得國小組佳作。 感謝邱怡寧老師、楊妃婷老師、闕慧蓉老師共同指導。"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=4A8D3FB50589B242",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】法鼓學校財團法人法鼓文理學院「2027寒假教師禪悅營」",
+      "published": "2026-11-03T11:31:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=4A8D3FB50589B242",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "法鼓文理學院寒假教師禪悅營簡章.pdf"
+    },
     {
       "id": "校務公告:敦化國小:6ae9a3c8410f223096b828f2",
       "schools": [
