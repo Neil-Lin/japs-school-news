@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T09:35:36.666515+00:00",
+  "updatedAt": "2026-11-04T16:36:56.774578+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -224,6 +224,22 @@
     }
   ],
   "articles": [
+    {
+      "id": "一般消息:仁愛國小:6aeb43a1981f128b838ca576",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "一般消息",
+      "title": "轉知內政部移民署辦理「第13屆新住民及子女築夢計畫」",
+      "published": "2026-11-04T14:37:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6aeb43a1981f128b838ca576?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=ZItAos61369&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "29837381_1153114096_ATTCH2.pdf"
+      ],
+      "summary": "一、依據內政部移民署115年11月3日移署移字第1150137715號函辦理。 二、為協助新住民及子女完成夢想，推展多元文化並透過專業師資輔導及拍攝築夢過程，與各界分享築夢成果，以增進社會大眾對於尊重多元文化之理解，爰該署辦理旨揭計畫。 三、報名期間自即日起至115年12月15日止，詳細內容請參考內政部全球資訊網（ https://www.moi.gov.tw/ ）、該署全球資訊網（ https://www.immigration.gov.tw/ ）及新住民培力發展資訊網（ https://ifi.immigration.gov.tw/wSite/mp?mp=1 ）「最新消息」專區資訊，如有相關疑問，請撥打專線（02-23889393分機2528）洽詢。 四、本案採線上及紙本報名作業，請於填報線上表單後，再將紙"
+    },
     {
       "id": "榮譽榜:建安國小:6aeaec3f1f7f977d69ddbb88",
       "schools": [
@@ -54302,6 +54318,22 @@
       "siteUrl": "https://www.jnps.tp.edu.tw",
       "attachments": [],
       "summary": "0212~~萬眾矚目的社團地點公告來了 1.請搭配學校地圖查看，有戶外場地的社團會連同雨天場地一起公告。 2. 2/23(一)~3/6(五)前兩周會由社團老師帶往社團教室。 3.教室為學校財產，請務必珍惜、愛惜使用。不留下垃圾並保持乾淨清潔!!! p.s.因開學前兩周有許多不確定狀況，還是有可能會更換地點，但是一定會先行通知。"
+    },
+    {
+      "id": "榮譽榜:博愛國小:6aeb3126722eab8e08881a3b",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "榮譽榜",
+      "title": "博愛國小114學年度校內兒童美術創作展得獎名單",
+      "published": "2025-12-02T07:54:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6aeb3126722eab8e08881a3b?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=DdqT8yI3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "博愛國小114學年度校內兒童美術創作展得獎名單.pdf"
+      ],
+      "summary": "博愛國小114學年度校內兒童美術創作展得獎名單"
     },
     {
       "id": "研習資訊:博愛國小:692e3a5aa59aed629ab0b3b3",
