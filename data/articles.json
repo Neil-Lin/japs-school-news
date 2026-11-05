@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T09:42:37.827461+00:00",
+  "updatedAt": "2026-11-05T16:39:25.332169+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -224,6 +224,37 @@
     }
   ],
   "articles": [
+    {
+      "id": "榮譽榜:建安國小:6aec5c3dfe6237d200aec887",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "榮譽榜",
+      "title": "恭喜本校許鴻文老師參加115學年度教育盃網球賽榮獲佳績！",
+      "published": "2026-11-05T10:30:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6aec5c3dfe6237d200aec887?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=AQoMNBw7626&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [],
+      "summary": "恭喜本校許鴻文老師參加115學年度教育盃網球賽榮獲佳績！ 獲得 硬式網球 教男組 個人雙打賽 亞軍 軟式網球 教男組 個人雙打賽 季軍"
+    },
+    {
+      "id": "學校公告:光復國小:6aec592ff9acbccfd532172a",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "學校公告",
+      "title": "國家圖書館115年臺灣閱讀節形象海報及活動海報電子檔",
+      "published": "2026-11-05T10:21:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6aec592ff9acbccfd532172a?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=UFKVG9l8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "2026臺灣閱讀節.pdf",
+        "閱見新視界.pdf"
+      ],
+      "summary": "一、依據國家圖書館115年10月30日國圖事字第11501001783號 函辦理。 二、本（115）年度臺灣閱讀節將於12月5日（星期六）至12月6 日（星期日）辦理，相關活動訊息請至活動網址查詢： https://trf2026.ncl.taipei/。"
+    },
     {
       "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=D39C8CFBC50098D0",
       "schools": [
