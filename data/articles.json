@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T09:36:59.262052+00:00",
+  "updatedAt": "2026-11-06T16:06:49.898470+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -347,6 +347,24 @@
         "高年級(4-6年級)招生簡章.pdf"
       ],
       "summary": "詳見附件"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=3496A2D0C8082BDA",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【賽事資訊】115年全國手球錦標賽",
+      "published": "2026-11-06T05:59:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=3496A2D0C8082BDA",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、報名日期：自即日起至 115 年 11 月6日(星期五)止。 二、比賽日期、組別及時間： (一)第一階段：民國115年12月2日(星期三)至12月6日(星期日)。 1. U11男、女子組 (15x2 中間休息 5分鐘) 2. U12男、女子組 (20x2 中間休息10分鐘) 3. 大專甲男、女子組 (30x2 中間休息10分鐘) 4. 公開男、女甲組 (25x2 中間休息10分鐘) 5. 公開男、女乙組 (20x2 中間休息10分鐘) 6. 大專一般男、女組 (30x2 中間休息10分鐘) (二)第二階段：民國115年12月6日(星期日)至12月10日(星期四)。 1. U13、15男、女子組 (25x2 中間休息10分鐘) 2. U16、18男、女子組 (30x2 中間休息10分鐘) 3. 50+壯年男子"
     },
     {
       "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=A5832DD7A1815DEE",
