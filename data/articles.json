@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T09:00:25.275745+00:00",
+  "updatedAt": "2026-11-07T14:59:51.314240+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -105,7 +105,7 @@
     {
       "name": "校內競賽（光復國小）",
       "status": "ok",
-      "itemCount": 45
+      "itemCount": 44
     },
     {
       "name": "校務公告（敦化國小）",
@@ -56007,22 +56007,6 @@
         "調查權責歸屬研析表.pdf"
       ],
       "summary": "高級中等學校以下校長或教師「知悉服務學校發生疑 似校園性侵害事件，未依性別平等教育法規定通報，致再 度發生校園性侵害事件；或偽造、變造、湮滅或隱匿他人 所犯校園性侵害事件之證據，經學校或有關機關查證屬 實」之調查權責歸屬研析表。 函轉教育部第11屆性別平等教育委員會第6次委員大會 為統一事權，避免割裂高級中等以下學校及大專校院、校 園性侵害及性騷擾事件之不同作法，教育部刻正研議修正 高級中等以下學校教師解聘不續聘停聘或資遣辦法規定， 修正前請依現行規定及研析表辦理（如附件）"
-    },
-    {
-      "id": "敦小快報:敦化國小:690dc703ea32d427ccd6db3c",
-      "schools": [
-        "敦化國小"
-      ],
-      "source": "敦小快報",
-      "title": "114_1第11週敦小快報",
-      "published": "2025-11-07T10:13:00+00:00",
-      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/690dc703ea32d427ccd6db3c?vector=private&static=false",
-      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=8nmTbwG1025&vector=private&static=false",
-      "siteUrl": "https://www.thps.tp.edu.tw",
-      "attachments": [
-        "114_1第11週敦小快報.pdf"
-      ],
-      "summary": ""
     }
   ]
 }
