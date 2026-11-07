@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T16:06:49.898470+00:00",
+  "updatedAt": "2026-11-07T09:00:25.275745+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -25,12 +25,12 @@
     {
       "name": "其他公告（敦化國小）",
       "status": "ok",
-      "itemCount": 78
+      "itemCount": 76
     },
     {
       "name": "國中入學（光復國小）",
       "status": "ok",
-      "itemCount": 8
+      "itemCount": 7
     },
     {
       "name": "場地開放（光復國小）",
@@ -40,7 +40,7 @@
     {
       "name": "多元教育（敦化國小）",
       "status": "ok",
-      "itemCount": 21
+      "itemCount": 20
     },
     {
       "name": "學校公告（光復國小）",
@@ -175,7 +175,7 @@
     {
       "name": "研習資訊（建安國小）",
       "status": "ok",
-      "itemCount": 100
+      "itemCount": 99
     },
     {
       "name": "競賽活動（敦化國小）",
@@ -224,6 +224,34 @@
     }
   ],
   "articles": [
+    {
+      "id": "教師研習及活動:光復國小:6aeebb776f18a36104e3e45a",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "教師研習及活動",
+      "title": "臺灣師範大學「教育家講座系列活動—杏壇講堂」",
+      "published": "2026-11-07T05:46:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6aeebb776f18a36104e3e45a?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=GfVDvAq0432&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "一、依據教育部補助師資培育之大學社會責任實踐計畫辦理。 二、本活動邀請教育實務專家，以專題演講方式傳承經驗增進 教育專業內涵，以建構教育專業交流平台，增強師資培育 專業內涵及教育相關人員教育視野，進而深化教育理念並 涵養師道精神。 三、旨揭活動場次如下： (一)第一場次「Al在教育上的應用與發展」已辦理完畢。 (二)第二場次「素養導向課程教學與評量」： １、時間：115年11月11日（星期三）下午1時20分至下午3 時10分。 ２、講座：邱昌其董事長（臺灣知識庫股份有限公司創人 暨董事長）。 (三)第三場次「我的教育人生路」： １、時間：115年12月9日（星期三）下午1時20分至下午3 時10分。 ２、講座：陳春男校長（新北市立中和國民中學校長、99 年師鐸獎）。 (四)各場次辦理地點皆訂於本校和平校區I禮堂"
+    },
+    {
+      "id": "教師研習及活動:光復國小:6aeebaba5052dc60ed1e6774",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "教師研習及活動",
+      "title": "[轉知]教育部116年3月臺灣台語語言能力認證考試",
+      "published": "2026-11-07T05:42:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6aeebaba5052dc60ed1e6774?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=GfVDvAq0432&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "一、依教育部115年10月29日臺教社(四)字第1152403159號函辦理。 二、教育部為鼓勵全民學習臺灣台語，並加強教師專業素養及學生本土語言能力，特舉辦旨揭認證考試。有關本次考試重要日程表詳見考試官網（https://ttg.moe.edu.tw）。 三、116年3月考試採「分卷分天」舉行，A卷訂於116年3月6日（星期六）測驗；B、C卷訂於116年3月7日（星期日）舉辦，一人限報考一種卷別。報名時間自115年10月27日（星期二）上午9時起至115年11月23日（星期一）下午5時止。報名費為新臺幣250元，19歲以下（含）免報名費。歡迎至考試官網線上報名。 四、本考試採電腦化測驗，若學齡前幼兒（6歲以下）或高齡者（65歲以上）評估於測驗期間全程操作電腦有困難，可申請「特殊需求服務」，詳見考試官網之簡章內"
+    },
     {
       "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=21CFA16DA20BBA28",
       "schools": [
@@ -47899,6 +47927,22 @@
       "summary": "一、依據：臺北市政府教育局115年2月24日北市教體字第1153040749號函。 二、暫停開放期間：115年5月9日(星期六) 全日 三、暫停開放範圍：全校空間。 四、暫停開放事由：本校辦理「114學年度慶祝母親節學習成果體驗日。 五、本活動僅開放校內師生家長參與，請有戶外活動需求之民眾另洽其他運動場地(館)，造成不便，祈請見諒。"
     },
     {
+      "id": "學校公告:光復國小:69e046bb59484dce337efb64",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "學校公告",
+      "title": "【校園場地暫停開放公告】115年5月9日(星期六全日)全校停止開放一般民眾運動",
+      "published": "2026-04-16T02:15:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/69e046bb59484dce337efb64?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=UFKVG9l8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "1150509場地停止開放公告.pdf"
+      ],
+      "summary": "一、依據：臺北市政府教育局115年2月24日北市教體字第1153040749號函。 二、暫停開放期間：115年5月9日(星期六) 全日 三、暫停開放範圍：全校空間。 四、暫停開放事由：本校辦理「114學年度慶祝母親節學習成果體驗日。 五、本活動僅開放校內師生家長參與，請有戶外活動需求之民眾另洽其他運動場地(館)，造成不便，祈請見諒。"
+    },
+    {
       "id": "性別平等:敦化國小:69df0608b85953017ecc3145",
       "schools": [
         "敦化國小"
@@ -55979,321 +56023,6 @@
         "114_1第11週敦小快報.pdf"
       ],
       "summary": ""
-    },
-    {
-      "id": "親職資訊:690dad85619404045f15c194",
-      "source": "親職資訊",
-      "title": "[轉知]衛生福利部委託社團法人中華心理衛生協會辦理114—115年度兒童及青少年心理健康計畫補助「兒少心理韌性共學行動計畫」",
-      "published": "2025-11-07T08:25:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/690dad85619404045f15c194?vector=private&static=false",
-      "summary": "一、依據社團法人中華心理衛生協會114年11月3日心衛協字第1140000059號函辦理。 二、旨揭計畫目的為提升國小新生面對逆境與挫折的適應性，培養正向觀點與問題解決能力，屬初級預防性心理健康推廣措施。本活動由中華心理衛生協會（心閱讀團隊）主辦，透過遊戲與正向教養，引導學生與家長共同學習面對挫折與情緒管理，協助孩子順利適應入學轉銜階段，促進心理韌性與健康發展。 三、活動資訊： (一)參與對象：國小一年級學生及其家長。 (二)活動內容： １、學生營隊：挫折管理：跌倒了，該怎麼辦？（每場小一生限28名） ２、親職講座：用正向教養讓孩子長出耐挫力（每場家長限40名） (三)活動日期與地點： １、場次一：114年11月15日（星期六）上午9時至中午12時，地點於臺北市文山區萬興國小。 ２、場次二：114年11月22日",
-      "schools": [
-        "仁愛國小"
-      ]
-    },
-    {
-      "id": "研習資訊:690dad85619404045f15c194",
-      "source": "研習資訊",
-      "title": "[轉知]衛生福利部委託社團法人中華心理衛生協會辦理114—115年度兒童及青少年心理健康計畫補助「兒少心理韌性共學行動計畫」",
-      "published": "2025-11-07T08:25:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/690dad85619404045f15c194?vector=private&static=false",
-      "summary": "一、依據社團法人中華心理衛生協會114年11月3日心衛協字第1140000059號函辦理。 二、旨揭計畫目的為提升國小新生面對逆境與挫折的適應性，培養正向觀點與問題解決能力，屬初級預防性心理健康推廣措施。本活動由中華心理衛生協會（心閱讀團隊）主辦，透過遊戲與正向教養，引導學生與家長共同學習面對挫折與情緒管理，協助孩子順利適應入學轉銜階段，促進心理韌性與健康發展。 三、活動資訊： (一)參與對象：國小一年級學生及其家長。 (二)活動內容： １、學生營隊：挫折管理：跌倒了，該怎麼辦？（每場小一生限28名） ２、親職講座：用正向教養讓孩子長出耐挫力（每場家長限40名） (三)活動日期與地點： １、場次一：114年11月15日（星期六）上午9時至中午12時，地點於臺北市文山區萬興國小。 ２、場次二：114年11月22日",
-      "schools": [
-        "仁愛國小"
-      ]
-    },
-    {
-      "id": "親職資訊:仁愛國小:690dad85619404045f15c194",
-      "schools": [
-        "仁愛國小"
-      ],
-      "source": "親職資訊",
-      "title": "[轉知]衛生福利部委託社團法人中華心理衛生協會辦理114—115年度兒童及青少年心理健康計畫補助「兒少心理韌性共學行動計畫」",
-      "published": "2025-11-07T08:25:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/690dad85619404045f15c194?vector=private&static=false",
-      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=mUepRUN5084&vector=private&static=false",
-      "siteUrl": "https://www.japs.tp.edu.tw",
-      "attachments": [
-        "27395642_1143110906_ATTCH1.pdf"
-      ],
-      "summary": "一、依據社團法人中華心理衛生協會114年11月3日心衛協字第1140000059號函辦理。 二、旨揭計畫目的為提升國小新生面對逆境與挫折的適應性，培養正向觀點與問題解決能力，屬初級預防性心理健康推廣措施。本活動由中華心理衛生協會（心閱讀團隊）主辦，透過遊戲與正向教養，引導學生與家長共同學習面對挫折與情緒管理，協助孩子順利適應入學轉銜階段，促進心理韌性與健康發展。 三、活動資訊： (一)參與對象：國小一年級學生及其家長。 (二)活動內容： １、學生營隊：挫折管理：跌倒了，該怎麼辦？（每場小一生限28名） ２、親職講座：用正向教養讓孩子長出耐挫力（每場家長限40名） (三)活動日期與地點： １、場次一：114年11月15日（星期六）上午9時至中午12時，地點於臺北市文山區萬興國小。 ２、場次二：114年11月22日"
-    },
-    {
-      "id": "研習資訊:仁愛國小:690dad85619404045f15c194",
-      "schools": [
-        "仁愛國小"
-      ],
-      "source": "研習資訊",
-      "title": "[轉知]衛生福利部委託社團法人中華心理衛生協會辦理114—115年度兒童及青少年心理健康計畫補助「兒少心理韌性共學行動計畫」",
-      "published": "2025-11-07T08:25:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/690dad85619404045f15c194?vector=private&static=false",
-      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=BLvblfR5996&vector=private&static=false",
-      "siteUrl": "https://www.japs.tp.edu.tw",
-      "attachments": [
-        "27395642_1143110906_ATTCH1.pdf"
-      ],
-      "summary": "一、依據社團法人中華心理衛生協會114年11月3日心衛協字第1140000059號函辦理。 二、旨揭計畫目的為提升國小新生面對逆境與挫折的適應性，培養正向觀點與問題解決能力，屬初級預防性心理健康推廣措施。本活動由中華心理衛生協會（心閱讀團隊）主辦，透過遊戲與正向教養，引導學生與家長共同學習面對挫折與情緒管理，協助孩子順利適應入學轉銜階段，促進心理韌性與健康發展。 三、活動資訊： (一)參與對象：國小一年級學生及其家長。 (二)活動內容： １、學生營隊：挫折管理：跌倒了，該怎麼辦？（每場小一生限28名） ２、親職講座：用正向教養讓孩子長出耐挫力（每場家長限40名） (三)活動日期與地點： １、場次一：114年11月15日（星期六）上午9時至中午12時，地點於臺北市文山區萬興國小。 ２、場次二：114年11月22日"
-    },
-    {
-      "id": "榮譽榜:建安國小:690d8e5bf635f2219ff0f8e6",
-      "schools": [
-        "建安國小"
-      ],
-      "source": "榮譽榜",
-      "title": "狂賀~本校田徑隊參加永建盃田徑邀請賽榮獲佳績",
-      "published": "2025-11-07T06:00:00+00:00",
-      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/690d8e5bf635f2219ff0f8e6?vector=private&static=false",
-      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=AQoMNBw7626&vector=private&static=false",
-      "siteUrl": "https://www.jnps.tp.edu.tw",
-      "attachments": [],
-      "summary": "恭喜本校田徑隊參加永建盃田徑邀請賽榮獲佳績： 200公尺男生組第一名 609朱宥安 200公尺男生組第八名 609張望品 200公尺女生組第二名 609林庭儀 200公尺女生組第七名 507余侑縈 60公尺男生組第二名 608陳思翰 60公尺男生組第八名 603鄭力誠 60公尺女生組第二名 511黃楀晴 推鉛球女生組第七名 610馬郁甯 跳遠男生組第一名 608陳思翰 跳遠男生組第六名 609朱宥安 跳遠男生組第七名 510鄭碩典 跳遠女生組第二名 511黃楀晴 跳遠女生組第三名 609林庭儀 ★4*150公尺接力男子組第二名： 609張望品、608陳思翰、603鄭力誠、609朱宥安 ☆4*150公尺接力女子組第三名： 508左葵、609林庭儀、507余侑縈、511黃楀晴 恭喜獲獎的同學，也感謝田徑隊許正龍老師"
-    },
-    {
-      "id": "榮譽榜:建安國小:690d89ac263197d57f9d5272",
-      "schools": [
-        "建安國小"
-      ],
-      "source": "榮譽榜",
-      "title": "狂賀~本校許鴻文老師參加臺北市114學年度教育盃網球錦標賽榮獲佳績",
-      "published": "2025-11-07T05:52:00+00:00",
-      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/690d89ac263197d57f9d5272?vector=private&static=false",
-      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=AQoMNBw7626&vector=private&static=false",
-      "siteUrl": "https://www.jnps.tp.edu.tw",
-      "attachments": [],
-      "summary": "本校許鴻文老師參加臺北市114學年度教育盃網球錦標賽 榮獲 硬網小學教男組 雙打賽 第五名！！！ 全校師生同賀~"
-    },
-    {
-      "id": "榮譽榜:建安國小:690d892fea32d427cccb9302",
-      "schools": [
-        "建安國小"
-      ],
-      "source": "榮譽榜",
-      "title": "狂賀~本校網球隊參加臺北市114學年度教育盃網球錦標賽榮獲佳績",
-      "published": "2025-11-07T05:43:00+00:00",
-      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/690d892fea32d427cccb9302?vector=private&static=false",
-      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=AQoMNBw7626&vector=private&static=false",
-      "siteUrl": "https://www.jnps.tp.edu.tw",
-      "attachments": [],
-      "summary": "恭喜本校網球隊參加臺北市114學年度教育盃網球錦標賽 榮獲硬網男童乙A組團體賽第五名！！獲獎隊員： 605 劉冠佑 605李歐 606宮昕慶 609陳思齊 612周伯羲 感謝許鴻文老師用心的指導~"
-    },
-    {
-      "id": "研習資訊:698d530c2c51878c132274b2",
-      "source": "研習資訊",
-      "title": "臺北市立木柵高級工業職業學校辦理「114年度臺北市能源教育系列工作坊」",
-      "published": "2025-11-07T04:11:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/698d530c2c51878c132274b2?vector=private&static=false",
-      "summary": "一、依據臺北市高中職環境教育輔導團工作計畫辦理。 二、旨揭研習資訊如下： (一)參加對象：臺北市高中職以下教職員工。 (二)時間：114年11月1日（星期六）。 (三)地點：臺北市立木柵高級工業職業學校、蘭陽水力發電廠、清水地熱教育館。 三、報名方式自即日起至114年10月30日(四)至臺北市教師在職研習網(https://insc.tp.edu.tw/ )報名。 四、惠請准予參與教師公假出席。",
-      "schools": [
-        "仁愛國小"
-      ]
-    },
-    {
-      "id": "研習資訊:仁愛國小:698d530c2c51878c132274b2",
-      "schools": [
-        "仁愛國小"
-      ],
-      "source": "研習資訊",
-      "title": "臺北市立木柵高級工業職業學校辦理「114年度臺北市能源教育系列工作坊」",
-      "published": "2025-11-07T04:11:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/698d530c2c51878c132274b2?vector=private&static=false",
-      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=BLvblfR5996&vector=private&static=false",
-      "siteUrl": "https://www.japs.tp.edu.tw",
-      "attachments": [
-        "實施計畫.pdf"
-      ],
-      "summary": "一、依據臺北市高中職環境教育輔導團工作計畫辦理。 二、旨揭研習資訊如下： (一)參加對象：臺北市高中職以下教職員工。 (二)時間：114年11月1日（星期六）。 (三)地點：臺北市立木柵高級工業職業學校、蘭陽水力發電廠、清水地熱教育館。 三、報名方式自即日起至114年10月30日(四)至臺北市教師在職研習網(https://insc.tp.edu.tw/ )報名。 四、惠請准予參與教師公假出席。"
-    },
-    {
-      "id": "榮譽榜:博愛國小:690d72ad263197d57f9847ec",
-      "schools": [
-        "博愛國小"
-      ],
-      "source": "榮譽榜",
-      "title": "114年臺北市中正盃分齡游泳賽",
-      "published": "2025-11-07T04:11:00+00:00",
-      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/690d72ad263197d57f9847ec?vector=private&static=false",
-      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=DdqT8yI3919&vector=private&static=false",
-      "siteUrl": "https://www.baps.tp.edu.tw",
-      "attachments": [],
-      "summary": "恭喜 404 施O霆 獲得 50公尺仰式 第2名 50公尺蛙式 第2名 407 彭O畾 獲得 100公尺蝶式 第4名 407 彭O羽 獲得 100公尺自由式 第4名 407 彭O畾 獲得 100公尺蝶式 第5名 407 彭O畾 獲得 100公尺蛙式 第7名 301 郭O妗 獲得 50公尺蛙式 第7名 507 張O勳 獲得 50公尺蛙式 第8名"
-    },
-    {
-      "id": "研習資訊:698d52c86d191a8bf78c2684",
-      "source": "研習資訊",
-      "title": "臺北市立木柵高級工業職業學校辦理「114年度臺北市校園樹木環境維護工作坊」",
-      "published": "2025-11-07T04:10:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/698d52c86d191a8bf78c2684?vector=private&static=false",
-      "summary": "一、依據臺北市高中職環境教育輔導團工作計畫辦理。 二、旨揭研習資訊如下： (一)參加對象：臺北市高中職以下教職員工。 (二)時間：114年11月3日（星期一）。 (三)地點：臺北市立木柵高級工業職業學校行政大樓三樓蘇格拉底教室。 三、報名方式自即日起至114年10月30日(四)至臺北市教師在職研習網(https://insc.tp.edu.tw/ )報名。 四、惠請准予參與教師公假（課務派代）出席。",
-      "schools": [
-        "仁愛國小"
-      ]
-    },
-    {
-      "id": "研習資訊:仁愛國小:698d52c86d191a8bf78c2684",
-      "schools": [
-        "仁愛國小"
-      ],
-      "source": "研習資訊",
-      "title": "臺北市立木柵高級工業職業學校辦理「114年度臺北市校園樹木環境維護工作坊」",
-      "published": "2025-11-07T04:10:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/698d52c86d191a8bf78c2684?vector=private&static=false",
-      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=BLvblfR5996&vector=private&static=false",
-      "siteUrl": "https://www.japs.tp.edu.tw",
-      "attachments": [
-        "實施計畫.pdf"
-      ],
-      "summary": "一、依據臺北市高中職環境教育輔導團工作計畫辦理。 二、旨揭研習資訊如下： (一)參加對象：臺北市高中職以下教職員工。 (二)時間：114年11月3日（星期一）。 (三)地點：臺北市立木柵高級工業職業學校行政大樓三樓蘇格拉底教室。 三、報名方式自即日起至114年10月30日(四)至臺北市教師在職研習網(https://insc.tp.edu.tw/ )報名。 四、惠請准予參與教師公假（課務派代）出席。"
-    },
-    {
-      "id": "研習資訊:698d527cbc49c38c53a8e815",
-      "source": "研習資訊",
-      "title": "國立臺灣海洋大學臺灣海洋教育中心辦理「海洋十年-國際海洋學校趨勢與未來發展教師增能研習」，歡迎教師踴躍報名參與",
-      "published": "2025-11-07T04:08:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/698d527cbc49c38c53a8e815?vector=private&static=false",
-      "summary": "一、依據教育部114年8月1日臺教國署高字第1140072023號函「高級中等學校海洋教育議題融入課程及教學推動計畫」辦理。 二、辦理時間及資訊如下： (一)時間：114年10月30日(星期四)下午1時20分至5時20分。 (二)線上會議連結：Asia/TaipeiGoogle Meet 會議參加資訊視訊通話連結：https://meet.google.com/erg-qszrtay或撥打以下電話號碼： (US) +1 336-850-0786 PIN碼： 839 921 593 #更多電話號碼：https://tel.meet/erg-qszr-tay?pin=9774070040315 (三)「全國教師在職進修網」網址：https://reurl.cc/QarKKZ課程代碼5293608，可申請4小時教師研",
-      "schools": [
-        "仁愛國小"
-      ]
-    },
-    {
-      "id": "研習資訊:仁愛國小:698d527cbc49c38c53a8e815",
-      "schools": [
-        "仁愛國小"
-      ],
-      "source": "研習資訊",
-      "title": "國立臺灣海洋大學臺灣海洋教育中心辦理「海洋十年-國際海洋學校趨勢與未來發展教師增能研習」，歡迎教師踴躍報名參與",
-      "published": "2025-11-07T04:08:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/698d527cbc49c38c53a8e815?vector=private&static=false",
-      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=BLvblfR5996&vector=private&static=false",
-      "siteUrl": "https://www.japs.tp.edu.tw",
-      "attachments": [
-        "宣傳海報.jpg"
-      ],
-      "summary": "一、依據教育部114年8月1日臺教國署高字第1140072023號函「高級中等學校海洋教育議題融入課程及教學推動計畫」辦理。 二、辦理時間及資訊如下： (一)時間：114年10月30日(星期四)下午1時20分至5時20分。 (二)線上會議連結：Asia/TaipeiGoogle Meet 會議參加資訊視訊通話連結：https://meet.google.com/erg-qszrtay或撥打以下電話號碼： (US) +1 336-850-0786 PIN碼： 839 921 593 #更多電話號碼：https://tel.meet/erg-qszr-tay?pin=9774070040315 (三)「全國教師在職進修網」網址：https://reurl.cc/QarKKZ課程代碼5293608，可申請4小時教師研"
-    },
-    {
-      "id": "研習資訊:698d51f9f368a58c4d682718",
-      "source": "研習資訊",
-      "title": "轉知：臺北市114年度各級學校環境教育推廣人員專修研習班-第二期",
-      "published": "2025-11-07T04:05:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/698d51f9f368a58c4d682718?vector=private&static=false",
-      "summary": "一、依據環境教育法、學校人員申請環境教育人員認證之研習時數認定原則，及教育部臺教資(六)字第1140110666號辦理。 二、研習對象：本市所屬公私立各級學校，各校指派未參訓之環境教育推廣人員（若貴校尚無指定環境教育人員，請務必派員參加）。 三、研習人數：35人。 四、研習時間：114年11月24日（星期一）至11月27日（星期四），共4天。 五、報名期間：即日起至114年11月13日（星期四）止，額滿則提前截止報名。 六、研習地點：本中心（臺北市北投區建國街2號）。 七、報名方式：本研習採網路報名，參加研習人員請於報名截止日前逕行登入臺北市教師在職研習網（https://insc.tp.edu.tw/Home/News）報名，經行政程序核准後，由學校研習承辦人於報名截止日前進入系統辦理薦派報名。 八、簽到方式",
-      "schools": [
-        "仁愛國小"
-      ]
-    },
-    {
-      "id": "研習資訊:仁愛國小:698d51f9f368a58c4d682718",
-      "schools": [
-        "仁愛國小"
-      ],
-      "source": "研習資訊",
-      "title": "轉知：臺北市114年度各級學校環境教育推廣人員專修研習班-第二期",
-      "published": "2025-11-07T04:05:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/698d51f9f368a58c4d682718?vector=private&static=false",
-      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=BLvblfR5996&vector=private&static=false",
-      "siteUrl": "https://www.japs.tp.edu.tw",
-      "attachments": [
-        "實施計畫.pdf"
-      ],
-      "summary": "一、依據環境教育法、學校人員申請環境教育人員認證之研習時數認定原則，及教育部臺教資(六)字第1140110666號辦理。 二、研習對象：本市所屬公私立各級學校，各校指派未參訓之環境教育推廣人員（若貴校尚無指定環境教育人員，請務必派員參加）。 三、研習人數：35人。 四、研習時間：114年11月24日（星期一）至11月27日（星期四），共4天。 五、報名期間：即日起至114年11月13日（星期四）止，額滿則提前截止報名。 六、研習地點：本中心（臺北市北投區建國街2號）。 七、報名方式：本研習採網路報名，參加研習人員請於報名截止日前逕行登入臺北市教師在職研習網（https://insc.tp.edu.tw/Home/News）報名，經行政程序核准後，由學校研習承辦人於報名截止日前進入系統辦理薦派報名。 八、簽到方式"
-    },
-    {
-      "id": "研習資訊:698e965aa4a44651d52d5581",
-      "source": "研習資訊",
-      "title": "轉知：臺北市立三民國民中學辦理「臺北市114學年度精進國民中小學教學專業與課程品質整體推動計畫—環境教育探究實作工作坊暨推廣研習」",
-      "published": "2025-11-07T03:09:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/698e965aa4a44651d52d5581?vector=private&static=false",
-      "summary": "一、依據「教育部114年度補助地方政府辦理環境教育輔導小組計畫」、「臺北市學校永續發展環境教育中程計畫(114-117年)」及「教育部新世代環境教育發展NEED政策中長程計畫（111-114年）」辦理。 二、本計畫旨在結合SDGs與環境教育核心素養，培養教師探究實作與行動教學能力，推動環境教育融入課程，提升師生永續行動力。 三、旨揭研習相關事項如下： (一)研習對象：臺北市政府教育局國民中學輔導團環境教育輔導小組輔導團員、臺北市政府教育局所屬公私立國中、小學對「教育部環境教育探究實作競賽」相關領域有興趣之教師，每場限額50人，依報名先後錄取，額滿為止。 (二)研習日期：114年11月21日(五)、11月28日(五)，共計兩天課程。 (三)研習地點：臺北市立三民國民中學4樓會議室(臺北市內湖區民權東路6段45號)",
-      "schools": [
-        "仁愛國小"
-      ]
-    },
-    {
-      "id": "研習資訊:仁愛國小:698e965aa4a44651d52d5581",
-      "schools": [
-        "仁愛國小"
-      ],
-      "source": "研習資訊",
-      "title": "轉知：臺北市立三民國民中學辦理「臺北市114學年度精進國民中小學教學專業與課程品質整體推動計畫—環境教育探究實作工作坊暨推廣研習」",
-      "published": "2025-11-07T03:09:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/698e965aa4a44651d52d5581?vector=private&static=false",
-      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=BLvblfR5996&vector=private&static=false",
-      "siteUrl": "https://www.japs.tp.edu.tw",
-      "attachments": [
-        "臺北市環境教育探究實作工作坊暨推廣研習.pdf"
-      ],
-      "summary": "一、依據「教育部114年度補助地方政府辦理環境教育輔導小組計畫」、「臺北市學校永續發展環境教育中程計畫(114-117年)」及「教育部新世代環境教育發展NEED政策中長程計畫（111-114年）」辦理。 二、本計畫旨在結合SDGs與環境教育核心素養，培養教師探究實作與行動教學能力，推動環境教育融入課程，提升師生永續行動力。 三、旨揭研習相關事項如下： (一)研習對象：臺北市政府教育局國民中學輔導團環境教育輔導小組輔導團員、臺北市政府教育局所屬公私立國中、小學對「教育部環境教育探究實作競賽」相關領域有興趣之教師，每場限額50人，依報名先後錄取，額滿為止。 (二)研習日期：114年11月21日(五)、11月28日(五)，共計兩天課程。 (三)研習地點：臺北市立三民國民中學4樓會議室(臺北市內湖區民權東路6段45號)"
-    },
-    {
-      "id": "研習資訊:博愛國小:690d62cd9c34fe2b6ed46f0a",
-      "schools": [
-        "博愛國小"
-      ],
-      "source": "研習資訊",
-      "title": "轉知「臺北市114學年度藝術才能（資優）班教師『美感教育與性別藝術專題探究課程設計實務』系列研習」，鼓勵參加。",
-      "published": "2025-11-07T03:07:00+00:00",
-      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/690d62cd9c34fe2b6ed46f0a?vector=private&static=false",
-      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=tQHaHM07712&vector=private&static=false",
-      "siteUrl": "https://www.baps.tp.edu.tw",
-      "attachments": [
-        "轉知「臺北市114學年度藝術才能（資優）班教師『美感教育與性別藝術專題探究課程設計實務』系列研習」，鼓勵參加。-1141107.pdf"
-      ],
-      "summary": "轉知「臺北市114學年度藝術才能（資優）班教師『美感教育與性別藝術專題探究課程設計實務』系列研習」實施計畫，鼓勵參加。"
-    },
-    {
-      "id": "研習資訊:690d4128456e81cdfa3e2707",
-      "source": "研習資訊",
-      "title": "[轉知]「114年度特教學生性別平等教育教材開發成果發表會」",
-      "published": "2025-11-07T00:43:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/690d4128456e81cdfa3e2707?vector=private&static=false",
-      "summary": "旨揭研習相關資訊如下： (一)研習日期：114年11月14日(星期五)上午9時至12時。 (二)研習地點：臺北市立臺北特殊教育學校行政大樓3樓會議 室。 (三)參加對象：本市特殊教育學校及公、私立對於性別平等教育教材開發有興趣之教師。 (四)報名方式：參加人員請於11月13日（星期三）報名截止日前逕行登入「臺北市教師在職研習網」報名，並由所屬學校於報名截止日前完成薦派報名作業。",
-      "schools": [
-        "仁愛國小"
-      ]
-    },
-    {
-      "id": "研習資訊:仁愛國小:690d4128456e81cdfa3e2707",
-      "schools": [
-        "仁愛國小"
-      ],
-      "source": "研習資訊",
-      "title": "[轉知]「114年度特教學生性別平等教育教材開發成果發表會」",
-      "published": "2025-11-07T00:43:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/690d4128456e81cdfa3e2707?vector=private&static=false",
-      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=BLvblfR5996&vector=private&static=false",
-      "siteUrl": "https://www.japs.tp.edu.tw",
-      "attachments": [
-        "研習計畫.pdf"
-      ],
-      "summary": "旨揭研習相關資訊如下： (一)研習日期：114年11月14日(星期五)上午9時至12時。 (二)研習地點：臺北市立臺北特殊教育學校行政大樓3樓會議 室。 (三)參加對象：本市特殊教育學校及公、私立對於性別平等教育教材開發有興趣之教師。 (四)報名方式：參加人員請於11月13日（星期三）報名截止日前逕行登入「臺北市教師在職研習網」報名，並由所屬學校於報名截止日前完成薦派報名作業。"
-    },
-    {
-      "id": "研習資訊:698e7bfe6608f48c33832e78",
-      "source": "研習資訊",
-      "title": "轉知：「臺北市114學年度精進國民中小學教學專業與課程品質整體推動計畫—氣候變遷教育結合永續發展教育」推廣計劃研習",
-      "published": "2025-11-07T00:28:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/698e7bfe6608f48c33832e78?vector=private&static=false",
-      "summary": "一、依據「教育部114年度補助地方政府辦理環境教育輔導小組計畫」及「臺北市學校永續發展環境教育中程計畫(114-117年)」辦理。 二、為培養教師將氣候變遷與永續發展教育相結合，融入淨零綠生活理念，進而發展具特色的永續教學模組。 三、旨揭研習相關事項如下： (一)研習對象：臺北市政府教育局環境教育輔導小組輔導團員及臺北市政府教育局所屬公私立各級學校（含附設國立中小學）對環境教育有興趣之教師，每場限額50人，依報名先後錄取，額滿為止。 (二)研習日期：訂於114年11月7日(五)、11月14日(五)，共計兩天課程。 (三)授課講師：何昕家教授、林建棕校長。 (四)研習地點：臺北市立三民國民中學4樓會議室(臺北市內湖區民權東路6段45號)。 (五)報名方式：請於11月5日(三)前，參加研習人員請於報名截止日前逕行登",
-      "schools": [
-        "仁愛國小"
-      ]
-    },
-    {
-      "id": "研習資訊:仁愛國小:698e7bfe6608f48c33832e78",
-      "schools": [
-        "仁愛國小"
-      ],
-      "source": "研習資訊",
-      "title": "轉知：「臺北市114學年度精進國民中小學教學專業與課程品質整體推動計畫—氣候變遷教育結合永續發展教育」推廣計劃研習",
-      "published": "2025-11-07T00:28:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/698e7bfe6608f48c33832e78?vector=private&static=false",
-      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=BLvblfR5996&vector=private&static=false",
-      "siteUrl": "https://www.japs.tp.edu.tw",
-      "attachments": [
-        "氣候變遷教育結合永續發展教育實施計畫.odt"
-      ],
-      "summary": "一、依據「教育部114年度補助地方政府辦理環境教育輔導小組計畫」及「臺北市學校永續發展環境教育中程計畫(114-117年)」辦理。 二、為培養教師將氣候變遷與永續發展教育相結合，融入淨零綠生活理念，進而發展具特色的永續教學模組。 三、旨揭研習相關事項如下： (一)研習對象：臺北市政府教育局環境教育輔導小組輔導團員及臺北市政府教育局所屬公私立各級學校（含附設國立中小學）對環境教育有興趣之教師，每場限額50人，依報名先後錄取，額滿為止。 (二)研習日期：訂於114年11月7日(五)、11月14日(五)，共計兩天課程。 (三)授課講師：何昕家教授、林建棕校長。 (四)研習地點：臺北市立三民國民中學4樓會議室(臺北市內湖區民權東路6段45號)。 (五)報名方式：請於11月5日(三)前，參加研習人員請於報名截止日前逕行登"
     }
   ]
 }
