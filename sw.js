@@ -1,9 +1,9 @@
-const CACHE_NAME = 'school-news-shell-v1';
+const CACHE_NAME = 'school-news-shell-v2';
 const DATA_CACHE = 'school-news-data-v1';
 const SHELL = [
   './',
-  './styles.css?v=5',
-  './app.js?v=4',
+  './styles.css?v=6',
+  './app.js?v=5',
   './manifest.json',
   './assets/icon-192.png',
   './assets/icon-512.png',
@@ -35,6 +35,14 @@ self.addEventListener('fetch', event => {
         return response;
       }).catch(() => caches.match(request).then(response => response || Response.error())),
     );
+    return;
+  }
+
+  if (request.mode === 'navigate') {
+    event.respondWith(fetch(request).then(response => {
+      if (response.ok) caches.open(CACHE_NAME).then(cache => cache.put(request, response.clone()));
+      return response;
+    }).catch(() => caches.match(request)));
     return;
   }
 
