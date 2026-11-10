@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T19:00:20.616653+00:00",
+  "updatedAt": "2026-11-10T02:01:58.590950+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -145,7 +145,7 @@
     {
       "name": "比賽資訊（建安國小）",
       "status": "ok",
-      "itemCount": 81
+      "itemCount": 82
     },
     {
       "name": "活動專欄（建安國小）",
@@ -224,6 +224,83 @@
     }
   ],
   "articles": [
+    {
+      "id": "比賽資訊:建安國小:6af26f949a99a9343deba3ca",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "比賽資訊",
+      "title": "轉知：財團法人廣達文教基金會辦理「第八屆『廣達游智盃』創意程式競賽」，歡迎師生踴躍報名參加",
+      "published": "2026-11-10T01:11:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6af26f949a99a9343deba3ca?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=hDkhWnW9267&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [],
+      "summary": "【轉知】財團法人廣達文教基金會辦理「第八屆『廣達游智盃』創意程式競賽」，歡迎師生踴躍報名參加 一、 競賽宗旨 為鼓勵學生運用程式語言解決問題，提升運算思維及邏輯思考能力，廣達文教基金會特辦理「第八屆『廣達游智盃』創意程式競賽」。本屆競賽主題為「 與我『河』關？ 」，初賽凡繳交符合規範之 Scratch 作品即可獲得參賽證明；決賽採現場黑客松形式進行創意實作。 二、 競賽日程 初賽報名及繳件時間 ：115年12月1日（二）至 116年1月24日（日） 決賽名單公告 ：116年2月26日（五） 決賽時間 ：116年4月17日（六） 三、 詳細資訊與報名方式 詳細競賽資訊及報名辦法請參閱競賽簡章或至廣達文教基金會官網查詢： http://www.quanta-edu.org 四、 聯絡窗口 單位：財團法人廣達文教基金"
+    },
+    {
+      "id": "研習資訊:建安國小:6af26ed0d41cc536a4552b4f",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "研習資訊",
+      "title": "轉知：財團法人富邦文教基金會辦理「2026【Media Stamped】國際大師講座｜看懂媒體─打開教學新視野」",
+      "published": "2026-11-10T01:09:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6af26ed0d41cc536a4552b4f?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=EzoytYK7010&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [
+        "看懂媒體─打開教學新視野.png"
+      ],
+      "summary": "【轉知】財團法人富邦文教基金會辦理「2026【Media Stamped】國際大師講座｜看懂媒體─打開教學新視野」，歡迎教師踴躍報名參加 一、 活動簡介 富邦文教基金會特邀加拿大製作人 Nicole Stamp 擔任主講，以兒少電視影集《Media Stamped》為例，分享如何將節目融入課堂教學，並探討兒少媒體與社群使用之研究成果，提供貼近學童生活經驗的教學靈感與資源，協助教師培育學生的媒體識讀能力。 二、 活動資訊 時間 ：115年12月5日（星期六）上午 09:30 至 12:30（共3小時） 地點 ：臺北文創大樓6樓（臺北市信義區菸廠路88號） 對象 ：全國國中小教師、各級教育主管機關人員及關心影像教育之兒少工作者 活動流程 ： 講者分享：100分鐘 對談及交流：50分鐘 現場 Q&A：30分鐘 研習時"
+    },
+    {
+      "id": "教師研習及活動:光復國小:6af267f47a989b34c1efa20d",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "教師研習及活動",
+      "title": "「走讀人權景點(AI導入戶外教育)工作坊」研習活動",
+      "published": "2026-11-10T00:38:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6af267f47a989b34c1efa20d?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=GfVDvAq0432&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "一、依據臺北市國民教育地方輔導團115 學年度人權教育議題 分團年度工作計畫辦理，活動計畫如附件。 二、本工作坊共7個場次，採分次報名，請依活動計畫時程至臺 北市教師在職研習網報名，並完成各場次校內薦派程序。 本學期開放第1至3場次報名，報名期限為即日起至115年11 月17日(二)止，第4至7場次於下學期確認辦理時間後，另 行開放報名。 三、研習時間：115年11月20日(五)、11月27日(五)及12月11日 (五)下午13時30分至16時30分。 四、研習地點：臺北市文山區萬福國民小學2樓永樂齋(臺北市 文山區萬年里羅斯福路五段170巷32號)。 五、報名如有疑問，請洽詢萬福國小林江臺主任，電話（02） 2935-3123分機111。"
+    },
+    {
+      "id": "活動資訊:光復國小:6af267510eafb7349705beba",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "活動資訊",
+      "title": "轉知:國立台北教育大學進修推廣處推廣教育中心辦理「2027冬令營」",
+      "published": "2026-11-10T00:37:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6af267510eafb7349705beba?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=QWbvWuz8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "國立台北教育大學修推廣處推廣教育中心辦理「2027冬令營」海報.pdf",
+        "國立台北教育大學修推廣處推廣教育中心辦理「2027冬令營」.pdf"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "校務公告:敦化國小:6af264d20099d1346a4005b0",
+      "schools": [
+        "敦化國小"
+      ],
+      "source": "校務公告",
+      "title": "第13屆新住民及子女築夢計畫",
+      "published": "2026-11-10T00:21:00+00:00",
+      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/6af264d20099d1346a4005b0?vector=private&static=false",
+      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=1hdeMSJ5377&vector=private&static=false",
+      "siteUrl": "https://www.thps.tp.edu.tw",
+      "attachments": [
+        "29837173_1153114096_ATTCH2.pdf"
+      ],
+      "summary": "說明 一、依據內政部移民署115年11月3日移署移字第1150137715號 函辦理。 二、為協助新住民及子女完成夢想，推展多元文化並透過專業 師資輔導及拍攝築夢過程，與各界分享築夢成果，以增進 社會大眾對於尊重多元文化之理解，爰該署辦理旨揭計 畫。 三、報名期間自即日起至115年12月15日止，詳細內容請參考內 政部全球資訊網（https://www.moi.gov.tw/）、該署全球 資訊網（https://www.immigration.gov.tw/）及新住民培 力發展資訊網（https://ifi.immigration.gov.tw/wSite /mp?mp=1）「最新消息」專區資訊，如有相關疑問，請撥 打專線（02-23889393分機2528）洽詢。 四、本案採線上及紙本報名作業，請於填報線上表"
+    },
     {
       "id": "教師研習及活動:光復國小:6af1972a3f247106df7814d9",
       "schools": [
@@ -56610,22 +56687,6 @@
       "siteUrl": "https://www.japs.tp.edu.tw",
       "attachments": [],
       "summary": "一、實施目的：協助畢業生家長瞭解國中辦學情形，為孩子選擇適性學習環境。 二、活動日期：114年12月6日(六)上午九時至十二時。 三、活動地點：本校圖書館地下室演藝廳 四、參加學校： 宜蘭縣私立中道高級中學 臺北市私立華興中學 臺北市立仁愛國民中學 康橋國際學校 臺北市靜修中學 南投縣立普台高中(國中部) 臺北市私立泰北國際雙語學校 臺北市私立衛理女子高級中學 臺北市景文高級中學 宜蘭縣私立慧燈高級中學 臺北市私立再興中學 臺北市私立東山高級中學 臺北市私立復興實驗中學 臺北市私立延平高級中學 臺北市達人高級中學 五、活動內容： 參加學校每校簡報說明8分鐘，並另設置資料展示攤位。 全部簡報結束後，請家長自由前往各校資料展示位置深入訪談了解。 六、實施對象 ：本校六年級畢業生家長，其他年級有興趣亦可報名參加。 七"
-    },
-    {
-      "id": "性別平等:敦化國小:69114145456e81cdfaa7694a",
-      "schools": [
-        "敦化國小"
-      ],
-      "source": "性別平等",
-      "title": "調查權責歸屬研析表",
-      "published": "2025-11-10T01:33:00+00:00",
-      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/69114145456e81cdfaa7694a?vector=private&static=false",
-      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=UGCYOSy1787&vector=private&static=false",
-      "siteUrl": "https://www.thps.tp.edu.tw",
-      "attachments": [
-        "調查權責歸屬研析表.pdf"
-      ],
-      "summary": "高級中等學校以下校長或教師「知悉服務學校發生疑 似校園性侵害事件，未依性別平等教育法規定通報，致再 度發生校園性侵害事件；或偽造、變造、湮滅或隱匿他人 所犯校園性侵害事件之證據，經學校或有關機關查證屬 實」之調查權責歸屬研析表。 函轉教育部第11屆性別平等教育委員會第6次委員大會 為統一事權，避免割裂高級中等以下學校及大專校院、校 園性侵害及性騷擾事件之不同作法，教育部刻正研議修正 高級中等以下學校教師解聘不續聘停聘或資遣辦法規定， 修正前請依現行規定及研析表辦理（如附件）"
     }
   ]
 }
