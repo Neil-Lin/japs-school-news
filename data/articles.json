@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T10:10:54.484287+00:00",
+  "updatedAt": "2026-11-10T16:31:56.154091+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -224,6 +224,70 @@
     }
   ],
   "articles": [
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=C0AED9CAEBE4D0F3",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】國立中興大學訂於115年11月19日於農業環境科學大樓7樓及食品暨生技實習工廠辦理「有機食農教育種子教師培訓課程」",
+      "published": "2026-11-10T12:58:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=C0AED9CAEBE4D0F3",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、為強化食農教育師資之有機農業相關認知與實作教學，及提升有機食農教育師資之專業性，該校有機農業推動中心辦理「有機食農教育種子教師培訓課程」，敬邀中小學教師、營養師、有興趣成為有機食農教育師資者報名。 二、本課程免費參加，即日起開放報名(報名表單： https://forms.gle/PDCn9JCABMsz8AvG9)"
+    },
+    {
+      "id": "研習資訊:博愛國小:6af3046987dc405aa1dfccae",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "東園國民小學辦理115學年度第1學期教師特教知能研習，鼓勵教師踴躍報名參加。",
+      "published": "2026-11-10T11:45:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6af3046987dc405aa1dfccae?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=tQHaHM07712&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [],
+      "summary": "主旨：東園國民小學辦理115學年度第1學期教師特教知能研習，鼓勵教師踴躍報名參加。 說明： 一、講題：如何避免孩子炸鍋？談情緒行為問題的因應策略 二、講座：宋祖駿 臨床心理師 三、時間：115年11月11日（星期三）下午1時30分至4時30分 四、地點：東園國民小學竹夢樓1樓演藝廳 五、報名方式：請於115年11月9日（星期一）前至臺北市教師在職進修網報名，並予參加教師公假，全程參與者給予3小時研習時數。 六、其他：(一)未提供停車位，敬請多加利用大眾運輸工具。(二)為響應環保及落實減塑，請與會人員自備環保杯具。(三)配合校園門禁管理，請全程佩戴識別證，並配合相關管理措施。"
+    },
+    {
+      "id": "研習資訊:博愛國小:6af2fa3dc60e6657709f3864",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "「臺北市115年度課程教學組活動」成果發表—「兒少性剝削與隱形的情感教育」，鼓勵踴躍報名參加，並予參加人員公（差）假登記。",
+      "published": "2026-11-10T11:03:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6af2fa3dc60e6657709f3864?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=tQHaHM07712&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "「臺北市115年度課程教學組活動」成果發表—「兒少性剝削與隱形的情感教育」，鼓勵踴躍報名參加，並予參加人員公（差）假登記。-1151110.pdf"
+      ],
+      "summary": "「臺北市115年度課程教學組活動」成果發表—「兒少性剝削與隱形的情感教育」，鼓勵踴躍報名參加，並予參加人員公（差）假登記。"
+    },
+    {
+      "id": "研習資訊:博愛國小:6af2f8b54d5c945726a84a52",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "轉知臺北市115學年度第1學期國民小學特殊教育教師充實校園法律知能專業成長研習",
+      "published": "2026-11-10T10:55:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6af2f8b54d5c945726a84a52?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=tQHaHM07712&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "轉知臺北市115學年度第1學期國民小學特殊教育教師充實校園法律知能專業成長研習。-1151110.pdf"
+      ],
+      "summary": "主旨：轉知臺北市115學年度第1學期國民小學特殊教育教師充實校園法律知能專業成長研習。 說明： 一、依據臺北市高級中等以下學校教師及相關人員特教知能研習方案辦理。 二、本研習茲敦聘國立陽明交通大學附屬竹北高級中等學校吳明潔教師擔任講座。 三、相關研習資訊如下： (一)研習主題：|校園、法律、生活事|教學的溫度與法律的尺度：特教教師教學現場法律知能。 (二)研習時間：115年11月25日（星期三）下午1時30分至4時30分。 (三)研習地點：臺北市萬華區雙園國民小學創新樓3樓演講廳（臺北市萬華區莒光路315號）。 (四)研習對象：本市國民小學身心障礙類特殊教育教師，倘有餘額，將依報名順序錄取國小普通班教師。 四、參加研習之教師請務必115年11月20日（星期五）前，逕至臺北市教師在職研習網( https://in"
+    },
     {
       "id": "研習資訊:仁愛國小:6af2d8dbc9319a4b3ddd1804",
       "schools": [
