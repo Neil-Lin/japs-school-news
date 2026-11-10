@@ -18,9 +18,20 @@ def load_json(relative):
 config = load_json("config.json")
 data = load_json("data/articles.json")
 version = load_json("data/version.json")
+manifest = load_json("manifest.json")
 schools = config.get("schools", [])
 meta = config.get("schoolMeta", {})
 sources = config.get("sources", [])
+
+for required in ("id", "name", "short_name", "start_url", "scope", "display", "icons"):
+    if not manifest.get(required):
+        errors.append(f"manifest.json: 缺少 {required}")
+if not (ROOT / "sw.js").exists():
+    errors.append("缺少 sw.js")
+for icon in manifest.get("icons", []):
+    icon_path = icon.get("src", "").split("/japs-school-news/", 1)[-1]
+    if icon_path and not (ROOT / icon_path).exists():
+        errors.append(f"manifest.json: 找不到 icon {icon.get('src')}")
 
 if set(schools) != set(meta):
     errors.append("config.json: schools 與 schoolMeta 不一致")

@@ -1,5 +1,7 @@
 const PAGE_SIZE=24;
+if('serviceWorker' in navigator && (location.protocol==='https:' || location.hostname==='localhost')){window.addEventListener('load',()=>navigator.serviceWorker.register(new URL('sw.js',document.baseURI),{scope:new URL('./',document.baseURI).pathname}).catch(error=>console.warn('PWA service worker registration failed',error)))}
 if(!document.querySelector('#sourceStatus')){const node=document.createElement('p');node.id='sourceStatus';node.className='source-status';node.setAttribute('aria-live','polite');document.querySelector('.hero .wrap')?.append(node)}
+if(!document.querySelector('#updateInfo')){const details=document.createElement('details');details.id='updateInfo';details.className='update-info';details.innerHTML='<summary>更新資訊</summary><div class="update-info-body"><p>資料會在每天 10:30、16:30（臺灣時間）由系統更新，頁面開啟時會載入最新資料。</p><p>如果剛好遇到部署或快取延遲，請先重新整理；也可以使用無痕視窗確認。</p><a href="https://github.com/Neil-Lin/japs-school-news/actions" target="_blank" rel="noopener">查看更新紀錄 ↗</a></div>';document.querySelector('#updated')?.after(details)}
 const esc=value=>(value||'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const fmt=value=>value?new Intl.DateTimeFormat('zh-TW',{dateStyle:'medium',timeStyle:'short',timeZone:'Asia/Taipei'}).format(new Date(value)):'時間未提供';
 const articleHasBody=article=>(article.summary||'').trim().length>0;

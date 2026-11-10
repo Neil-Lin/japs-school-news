@@ -1,0 +1,23 @@
+{
+  "id": "/japs-school-news/",
+  "name": "國小消息牆",
+  "short_name": "國小消息牆",
+  "description": "仁愛、建安、敦化、博愛與光復國小消息彙整",
+  "lang": "zh-Hant",
+  "dir": "ltr",
+  "start_url": "/japs-school-news/",
+  "scope": "/japs-school-news/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#18332f",
+  "theme_color": "#18332f",
+  "categories": ["education", "news"],
+  "icons": [
+    {"src":"/japs-school-news/assets/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"/japs-school-news/assets/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},
+    {"src":"/japs-school-news/assets/icon-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+  ],
+  "screenshots": [
+    {"src":"/japs-school-news/assets/splash-1170x2532.png","sizes":"1170x2532","type":"image/png","form_factor":"narrow","label":"國小消息牆"}
+  ]
+}
