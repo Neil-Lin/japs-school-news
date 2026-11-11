@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T09:40:57.252506+00:00",
+  "updatedAt": "2026-11-11T16:27:23.828503+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -224,6 +224,140 @@
     }
   ],
   "articles": [
+    {
+      "id": "校外競賽:光復國小:6af44d0e8a2ad5adf8d0dd7e",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "校外競賽",
+      "title": "轉知：115學年度教育盃國民小學跆拳道錦標賽競賽規程",
+      "published": "2026-11-11T11:08:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6af44d0e8a2ad5adf8d0dd7e?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=jOHZo998827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "臺北市 115 學年度教育盃國民小學跆拳道錦標賽競賽規程.pdf"
+      ],
+      "summary": "為提升本市國小跆拳道競技實力，本局委請武功國小承辦 旨揭賽事，相關資訊摘要如下： (一)比賽日期：116年2月20日（星期六）至2月22日（星期 一）。 (二)報名日期：即日起至115年12月14日（星期一）下午4時 截止，請參賽學校務必於報名期限內完成報名，報名截 止後一概不得增刪、修改報名資料。 (三)比賽地點：臺北體育館4樓（臺北市松山區南京東路四段 10號）。"
+    },
+    {
+      "id": "校外競賽:光復國小:6af44a6b8f2f0aae797a7dcb",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "校外競賽",
+      "title": "轉知：115學年度教育盃中小學空手道錦標賽競賽規程",
+      "published": "2026-11-11T10:57:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6af44a6b8f2f0aae797a7dcb?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=jOHZo998827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "臺北市115學年度教育盃中小學空手道錦標賽競賽規程.pdf"
+      ],
+      "summary": "為提升本市中小學空手道競技實力，本局委請內湖高中承 辦旨揭賽事，相關資訊摘要如下： (一)比賽日期：115年12月11日（星期五）至12月13日（星期 日）。 (二)報名日期：即日起至115年11月24日（星期二）截止，請 參賽學校務必於報名期限內完成報名，報名截止後一概 不得增刪、修改報名資料。 (三)比賽地點：臺北市立內湖高級中學活動中心4樓（臺北市 內湖區文德路218號）。"
+    },
+    {
+      "id": "校外競賽:光復國小:6af449ede3c3cbac3e3b758c",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "校外競賽",
+      "title": "轉知：115學年度教育盃中小學柔道錦標賽競賽規程",
+      "published": "2026-11-11T10:54:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6af449ede3c3cbac3e3b758c?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=jOHZo998827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "臺北市115學年度教育盃中小學柔道錦標賽競賽規程.pdf"
+      ],
+      "summary": "(一)比賽日期：115年12月16日（星期三）及12月17日（星期 四）。 (二)報名日期：即日起至115年11月20日（星期五）截止，請 參賽學校務必於報名期限內完成報名，報名截止後一概 不得增刪、修改報名資料。 (三)比賽地點：臺北市立新民國中活動中心（臺北市北投區 新民路10號）。"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=1613376E9EEB6AC5",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【賽事資訊】115學年度智力運動—高雄市青少年橋藝錦標賽",
+      "published": "2026-11-11T10:48:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=1613376E9EEB6AC5",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、報名資格：分國中迷你、高中迷你、學生合約、國小公開組、國小女子組、國小混合、國小入門、成人合約、成人迷你，共計9組。 二、比賽日期：115年12月12日（星期六）。 三 、比賽時間：上午7時30分至下午6時30分。 四 、比賽地點：光榮國小活動中心。 五 、報名日期： 115年 11月29日（星期日）17：00止。 六 、報名方式： (一)線上報名時間： 115年 11月29日（星期日）17:00前至高雄市光榮國小首頁/115年高雄市青少年橋藝錦標賽網站（https://twbridge.infinityfreeapp.com/kbridge/kbridge2026c）報名。 (二)本案聯絡人光榮國小學務王淑芬主任（07-5514549-111）。 115學年度智力運動—高雄市青少年橋藝錦標賽競賽規程.pd"
+    },
+    {
+      "id": "校外競賽:光復國小:6af4479a8f2f0aae797a0109",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "校外競賽",
+      "title": "轉知：115年度推動重點運動項目活動「第16屆至 善盃網球邀請賽」",
+      "published": "2026-11-11T10:45:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6af4479a8f2f0aae797a0109?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=jOHZo998827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "第16屆至善盃網球邀請賽競賽規程.odt"
+      ],
+      "summary": "至善國民中學辦理「第16屆至善盃網球邀請賽」相關內容如下： (一)時間：115年12月7日(星期一)至12月9日(星期三)。 (二)對象組別：國小男、女生團體組。 (三)活動地點：臺北市立至善國中網球場。 (四)報名方式：e-mail報名。 (五)報名時間：即日起至11月16日(星期一)止，以網路郵件 收件時間為準。"
+    },
+    {
+      "id": "校外競賽:光復國小:6af44618054275ae8fb10c8f",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "校外競賽",
+      "title": "轉知：115學年度教育盃中小學角力錦標賽競賽規程",
+      "published": "2026-11-11T10:39:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6af44618054275ae8fb10c8f?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=jOHZo998827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "臺北市115學年度教育盃中小學角力錦標賽競賽規程.pdf"
+      ],
+      "summary": "為提升本市中小學角力競技實力，本局委請萬華國中承辦 旨揭賽事，相關資訊摘要如下：. (一)比賽日期：115年12月10日（星期四）及12月11日（星期 五）。 (二)報名日期：即日起至115年11月16日（星期一）截止，請 參賽學校務必於報名期限內完成報名，報名截止後一概 不得增刪、修改報名資料。 (三)比賽地點：臺北市萬華區萬華國民中學活動中心1樓（臺 北市萬華區西藏路201號）。"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=CB6AAD3833B63C41",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "轉知國立臺灣圖書館「115年臺灣閱讀節—永續多元閱讀市集」永續發展專題講座資訊，歡迎踴躍報名。",
+      "published": "2026-11-11T09:59:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=CB6AAD3833B63C41",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、為推廣永續閱讀，國立臺灣圖書館訂於 115 年 12 月 5 日（星期六）辦理「 115 年臺灣閱讀節—永續多元閱讀市集」永續發展專題講座。 二、講座資訊如下： ( 一 ) 時間： 115 年 12 月 5 日（星期六）上午 11 時至 12 時 30 分。 ( 二 ) 地點：國立臺灣圖書館 1 樓簡報室（新北市中和區中安街 85 號）。 ( 三 ) 講題及講者：「閱讀，讓永續發生：從繪本、濕地到碳足跡的多元視角」，國立臺灣師範大學方偉達副教務長主講。 ( 四 ) 報名方式：即日起至 115 年 12 月 1 日（星期二）止，歡迎線上報名（網址： https://forms.gle/eXgPM5fV8jcCzEj98 ）。 三、全程參與本講座者，核給教師研習時數或公務人員終身學習時數 1.5 小時，並同步登"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=747289CDCC97A848",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "本市為提升115年11月起敬老愛心計程車駕駛完成敬老愛心卡趟次，趟趟獎勵5元。",
+      "published": "2026-11-11T09:56:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=747289CDCC97A848",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": ""
+    },
     {
       "id": "親職資訊:仁愛國小:6af430de901daca751e9b79a",
       "schools": [
