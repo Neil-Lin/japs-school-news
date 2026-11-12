@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T10:01:14.147635+00:00",
+  "updatedAt": "2026-11-12T16:58:51.200505+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -105,7 +105,7 @@
     {
       "name": "校內競賽（光復國小）",
       "status": "ok",
-      "itemCount": 44
+      "itemCount": 43
     },
     {
       "name": "校務公告（敦化國小）",
@@ -224,6 +224,48 @@
     }
   ],
   "articles": [
+    {
+      "id": "行政公告:建安國小:6af5a7aa862c17026585cb91",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "行政公告",
+      "title": "【打擊詐騙】臺北隊115年11月反詐宣導素材宣導",
+      "published": "2026-11-12T11:45:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6af5a7aa862c17026585cb91?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=2rEsyLS9623&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [],
+      "summary": "115 年 10 月反詐宣導素材，敬請協助推播，積極推動識詐宣導觀念： ( 一 )115 年10月打詐儀表板數據 ( 二 ) 【 QR Code 】詐騙內容："
+    },
+    {
+      "id": "榮譽榜:建安國小:6af59ce6b0f3080291ffdf20",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "榮譽榜",
+      "title": "本校扯鈴隊參加115年臺北市中正盃民俗體育運動錦標賽榮獲佳績！",
+      "published": "2026-11-12T10:50:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6af59ce6b0f3080291ffdf20?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=AQoMNBw7626&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [],
+      "summary": "本校扯鈴隊參加115年臺北市中正盃民俗體育運動錦標賽榮獲佳績！ 504班 潭宇成、509班 張晟詠、510班 游悅劭、601班 藍思承、604班 邱柏仁、607班 張子晉 參加 甲類國小男生組 獲得 扯鈴團體賽 亞軍 509班 張晟詠 參加 甲類國小男生組 獲得 扯鈴個人賽 季軍 604班 邱柏仁、607班 張子晉 參加 甲類國小男生組 獲得 扯鈴雙人賽 第五名 402班 吳允安、黃浩勛、403班 曾泓善、邱子芸、廖心婕、406班 陳芃妤、410班 高宇承、508班 陳羿寧、511班 陳柏諺、603班 王妍臻、606班 許庭睿、613班 駱柏元 參加 乙類國小組 扯鈴計次賽 獲得 特優 感謝駱宗義老師、張駿煌、鄭湧蒼、黃士瑋、楊心怡教練的辛勤指導及導師、家長們給予的支持"
+    },
+    {
+      "id": "榮譽榜:建安國小:6af598e5519559fd7cb6cbe3",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "榮譽榜",
+      "title": "115學年度南區運動會游泳比賽榮獲佳績！",
+      "published": "2026-11-12T10:45:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6af598e5519559fd7cb6cbe3?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=AQoMNBw7626&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [],
+      "summary": "115學年度南區運動會游泳比賽榮獲佳績！ 603班 葉心寧 獲得 100公尺蝶式 第三名、50公尺蝶式 第七名 513班 李奇恩 獲得 50公尺仰式 第四名 503班 徐唯甯 獲得 50公尺自由式 第六名 505班 李奇澤 獲得 50公尺蝶式 第六名 513班 李奇恩、503班 徐唯甯、505班 李奇澤、603班 葉心寧 獲得 4x50公尺男女混合自由式接力 第五名 513班 李奇恩、403班 楊文愷、505班 李奇澤、403班 吳沐恩 獲得4x50公尺自由式接力 第八名 感謝游詠、高子翔、李宜芳、高子惟教練的辛勤指導及導師、家長們給予的支持"
+    },
     {
       "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=87FCC34D6A04795E",
       "schools": [
