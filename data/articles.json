@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T16:39:59.855142+00:00",
+  "updatedAt": "2026-11-14T09:13:00.032896+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -25,7 +25,7 @@
     {
       "name": "其他公告（敦化國小）",
       "status": "ok",
-      "itemCount": 81
+      "itemCount": 80
     },
     {
       "name": "國中入學（光復國小）",
@@ -95,7 +95,7 @@
     {
       "name": "校內消息（仁愛國小）",
       "status": "ok",
-      "itemCount": 54
+      "itemCount": 53
     },
     {
       "name": "校內競賽（仁愛國小）",
@@ -145,7 +145,7 @@
     {
       "name": "比賽資訊（建安國小）",
       "status": "ok",
-      "itemCount": 79
+      "itemCount": 78
     },
     {
       "name": "活動專欄（建安國小）",
@@ -51306,6 +51306,23 @@
       "summary": "為維護本校良好及安全的學習環境，還請同學與家長協助配合！ 1.手機使用需要事先填寫申請表（提供放學後的聯繫使用），入校需關機， 離開學校才開機。 凡本校學生欲攜帶行動電話暨行動載具到校者，請至學務處領取「行動電話暨行動載具攜帶到校申請暨使用規範同意書」(如附件)，經家長及導師雙方親筆簽名同意後，繳回學務處留存。 於校園內一律關機並放入書包 ，離校後即可使用行動電話暨行動載具與家長聯絡，非必要請儘量不要攜帶行動電話暨行動載具到校。 2.放學離開學校（12:00/ 16:00/ 18:00社團或課後照顧班），請儘速回家或到家長安排的地點 ，不要再返回學校（取物、逗留或遊玩……）。 3.參加社團或課後照顧班不可在16:00 /18:00跑出學校買東西零食再回學校，有需要的請前一天或上學前就買好備用。 4.社團或課後照"
     },
     {
+      "id": "學校公告:光復國小:69d483164d48edeba3b695c6",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "學校公告",
+      "title": "[公告]臺北市115學年度未足齡兒童申請提早入國民小學鑑定通過名單公告",
+      "published": "2026-04-07T04:05:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/69d483164d48edeba3b695c6?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=UFKVG9l8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "臺北市115學年度未足齡兒童申請提早入國民小學鑑定通過名單公告.pdf",
+        "115學前提早入學-複選成績查詢操作說明.pdf"
+      ],
+      "summary": "家長可至「臺北市未足齡兒童申請提早入國民小學鑑定安置系統」（ https://early.tp.edu.tw/）查詢成績，相關操作方式及流程，詳見 【學前提早入學複選成績查詢操作說明】（如附件）。"
+    },
+    {
       "id": "重要公告:仁愛國小:69d4579376c673d8af5d5efe",
       "schools": [
         "仁愛國小"
@@ -58737,64 +58754,6 @@
         "114_1第12週敦小快報.pdf"
       ],
       "summary": ""
-    },
-    {
-      "id": "研習資訊:博愛國小:6916eaa2a24d242377e62e82",
-      "schools": [
-        "博愛國小"
-      ],
-      "source": "研習資訊",
-      "title": "轉知「臺北市114學年度特殊教育專業知能—特殊教育學生正向行為支持與行為功能介入策略」研習實施計畫，鼓勵參加。",
-      "published": "2025-11-14T08:37:00+00:00",
-      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6916eaa2a24d242377e62e82?vector=private&static=false",
-      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=tQHaHM07712&vector=private&static=false",
-      "siteUrl": "https://www.baps.tp.edu.tw",
-      "attachments": [
-        "轉知「臺北市114學年度特殊教育專業知能—特殊教育學生正向行為支持與行為功能介入策略」研習實施計畫，鼓勵參加。-1141114.pdf"
-      ],
-      "summary": "轉知「臺北市114學年度特殊教育專業知能—特殊教育學生正向行為支持與行為功能介入策略」研習實施計畫，鼓勵參加。"
-    },
-    {
-      "id": "榮譽榜:建安國小:6916aa67456e81cdfa7d700c",
-      "schools": [
-        "建安國小"
-      ],
-      "source": "榮譽榜",
-      "title": "狂賀！本校扯鈴隊114年臺北市中正盃民俗體育運動錦標賽榮獲佳績",
-      "published": "2025-11-14T03:59:00+00:00",
-      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6916aa67456e81cdfa7d700c?vector=private&static=false",
-      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=AQoMNBw7626&vector=private&static=false",
-      "siteUrl": "https://www.jnps.tp.edu.tw",
-      "attachments": [],
-      "summary": "恭喜建安國小扯鈴隊114年臺北市中正盃民俗體育運動錦標賽榮獲佳績 🪀扯鈴項目 🏅乙類團體競速賽：⭐️特優第一名⭐️ 611陳芯寬、501藍思承、503王妍臻、504邱柏仁、 506吳懷青、506許庭睿、513駱柏元、401譚宇成、 402陳羿寧、408游悅劭、303邱子芸 🥉甲類女生個人賽：614林孟瑾 第三名 🥉甲類女子雙人賽：614許晴晴、603吳姈橞 第三名 💪甲類男子雙人賽：606盧祺升、604周竣泓 第六名 🤸‍♀️跳繩項目 🥇女生個人賽：607許善善 第一名 👏感謝辛苦指導的駱宗義老師、楊心怡教練、鄭湧蒼教練、高裕凱教練以及各班導師們的支持💖"
-    },
-    {
-      "id": "榮譽榜:建安國小:6916a904a89301a79ed08f3d",
-      "schools": [
-        "建安國小"
-      ],
-      "source": "榮譽榜",
-      "title": "狂賀~本校田徑隊南區運動會榮獲佳績",
-      "published": "2025-11-14T02:47:00+00:00",
-      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6916a904a89301a79ed08f3d?vector=private&static=false",
-      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=AQoMNBw7626&vector=private&static=false",
-      "siteUrl": "https://www.jnps.tp.edu.tw",
-      "attachments": [],
-      "summary": "恭喜本校田徑隊南區運動會榮獲佳績： 女生甲組 壘球擲遠第一名 604吳淳暄 第三名 610馬郁甯 推鉛球 第三名 610馬郁甯 跳遠 第五名 511黃楀晴 60公尺 第三名 604吳淳暄 第六名 504吳俞霏 100公尺 第三名 511黃楀晴 4*100大隊接力 第三名 610馬郁甯、604吳淳暄、507余侑縈、511黃楀晴 田賽錦標第二名、徑賽錦標第五名、田徑總錦標第二名 男生甲組 200公尺 第一名 609朱宥安 100公尺 第三名 608陳思翰 60公尺 第五名 611黃則翰 3000公尺競走第四名 608陳思翰 第五名 603鄭力誠 壘球擲遠第五名 602陳品希 4*100大隊接力 第二名 611黃則翰、608陳思翰、609張望品、609朱宥安 徑賽錦標第三名、田徑總錦標第四名 恭喜獲獎的同學，也感謝田"
-    },
-    {
-      "id": "榮譽榜:博愛國小:69167b232c4d8b46f0995423",
-      "schools": [
-        "博愛國小"
-      ],
-      "source": "榮譽榜",
-      "title": "臺北市114年中正盃溜冰錦標賽",
-      "published": "2025-11-14T00:39:00+00:00",
-      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/69167b232c4d8b46f0995423?vector=private&static=false",
-      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=DdqT8yI3919&vector=private&static=false",
-      "siteUrl": "https://www.baps.tp.edu.tw",
-      "attachments": [],
-      "summary": "恭喜 305 彭O顥 獲得 前溜雙足S形 第一名 308 陸O昀 獲得 前溜雙足S形 第四名"
     }
   ]
 }
