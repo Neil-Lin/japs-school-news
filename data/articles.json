@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T15:16:01.877625+00:00",
+  "updatedAt": "2026-11-15T09:41:58.129142+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -25,7 +25,7 @@
     {
       "name": "其他公告（敦化國小）",
       "status": "ok",
-      "itemCount": 78
+      "itemCount": 77
     },
     {
       "name": "國中入學（光復國小）",
@@ -145,7 +145,7 @@
     {
       "name": "比賽資訊（建安國小）",
       "status": "ok",
-      "itemCount": 77
+      "itemCount": 76
     },
     {
       "name": "活動專欄（建安國小）",
@@ -195,7 +195,7 @@
     {
       "name": "親職資訊（仁愛國小）",
       "status": "ok",
-      "itemCount": 59
+      "itemCount": 58
     },
     {
       "name": "重要公告（仁愛國小）",
