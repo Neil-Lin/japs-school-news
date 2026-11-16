@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T15:46:25.492537+00:00",
+  "updatedAt": "2026-11-16T02:49:13.826926+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -224,6 +224,251 @@
     }
   ],
   "articles": [
+    {
+      "id": "最新消息:博愛國小:6afa6ae5fad9472168a6738d",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "賀扯鈴隊榮獲佳績",
+      "published": "2026-11-16T02:29:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6afa6ae5fad9472168a6738d?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [],
+      "summary": "恭喜本校扯鈴隊參加中正盃民俗運動錦標賽 榮獲扯鈴乙類計次賽 特優"
+    },
+    {
+      "id": "榮譽榜:博愛國小:6afa6a70545eaa21480cc064",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "榮譽榜",
+      "title": "115年臺北市全民盃暨全國跆拳道錦標賽",
+      "published": "2026-11-16T02:28:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6afa6a70545eaa21480cc064?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=DdqT8yI3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [],
+      "summary": "恭喜 609 曾o睿 獲得 高年級女子黑帶 第三名"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=4EC511C7F390A2AD",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【賽事資訊】115年臺北市中正盃舉重錦標賽",
+      "published": "2026-11-16T01:10:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=4EC511C7F390A2AD",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、賽事時間：115年12月5日（週六）至115年12月6日（週日）。 二、賽事地點：臺北市陽明高級中學舉重場。 三、報名日期：即日起至115年11月24日（週二）下午6時止。 四、報名方式請參閱競賽規程（如附件）。 115年臺北市中正盃舉重錦標賽競賽規程.pdf"
+    },
+    {
+      "id": "光復之光:光復國小:6afa4caa0a1c961aa7f57d66",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "光復之光",
+      "title": "賀！羽球隊參加2026第九屆生麗羽你同行國小暨親子分齡賽 榮獲佳績!!!",
+      "published": "2026-11-16T00:20:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6afa4caa0a1c961aa7f57d66?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=EIWuBZr8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "光復國小羽球校隊征戰「生麗羽你同行」再創佳績！🏸🏆 ​好消息傳來！光復國小羽球校隊的小將們（11/15）參加「2026第九屆生麗羽你同行國小暨親子分齡賽」，在激烈的賽程中展現平日紮實訓練的成果，揮出亮眼成績！ ​👏 恭喜以下獲獎同學為校爭光： 🥇 三年級組 男子單打 冠軍 — 李O宸 同學 🏅 四年級組 男子單打 第五名 — 劉O佇 同學"
+    },
+    {
+      "id": "光復之光:光復國小:6afa4c4019975917f6a10bc6",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "光復之光",
+      "title": "賀！籃球隊參加115年利德麗山盃籃球邀請賽 榮獲佳績!!!",
+      "published": "2026-11-16T00:18:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6afa4c4019975917f6a10bc6?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=EIWuBZr8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "光復籃球校隊參加115年利德麗山盃籃球邀請賽 115/11/13～11/15 六年級組：榮獲季軍 115/11/11～11/15 五年級組：榮獲殿軍"
+    },
+    {
+      "id": "活動資訊:光復國小:6afa4b14242d69199be01472",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "活動資訊",
+      "title": "轉知:臺北市立弘道國中116年度寒假【國小組】科學實驗探索營",
+      "published": "2026-11-16T00:14:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6afa4b14242d69199be01472?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=QWbvWuz8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "臺北市弘道國中116年度寒假【國小組】科學實驗探索營實施計畫.pdf"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "光復之光:光復國小:6afa4bbdaba3831959637697",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "光復之光",
+      "title": "賀！本校桌球隊參加清水紫雲巖 第二十九屆「觀音盃」全國桌球錦標賽 榮獲第四名",
+      "published": "2026-11-16T00:13:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6afa4bbdaba3831959637697?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=EIWuBZr8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "🏆🏓【光復桌球隊捷報！六位女將勇奪全國賽第四名！】🎉🎉 🎊 清水紫雲巖 第二十九屆「觀音盃」全國桌球錦標賽 🏅 國小女生甲組｜第四名 👩‍🏫 指導教練：李岱霓、陳宥睿 🎉 恭喜光復國小六位優秀的小女將～ 這次賽程適逢期中考，孩子們考完最後一科立刻整裝南下台中，ㄧ到賽場就投入訓練，緊接著上場拼搏，六位女將中只有兩位是六年級，另外四位都是五年級的學妹，一起挑戰高年級的甲組賽事～ 仍攜手為光復爭取到前四強的好成績！👏👏👏"
+    },
+    {
+      "id": "活動資訊:光復國小:6afa49db69fbdd1a68cafed9",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "活動資訊",
+      "title": "轉知:金車文教基金會舉辦【文化任意門—邁向遠方，走向自己：西班牙聖雅各之路 × 日本熊野古道】線上講座",
+      "published": "2026-11-16T00:08:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6afa49db69fbdd1a68cafed9?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=QWbvWuz8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "一、一條「路」也能成為世界文化遺產嗎？當朝聖不只是信 仰，人們為何願意不遠千里走向遠方？本次文化任意門系 列講座以「西班牙聖雅各之路」與「日本熊野古道」為主 題，邀請旅義文化工作者楊馥如，帶領大家走訪UNESCO世 界遺產的雙朝聖之路。從西班牙教堂、貝殼標誌，到日本 熊野神社、八咫鳥傳說，認識朝聖之路串連的自然景觀、 歷史遺產與在地生活。 二、活動辦法與報名資格 (一)活動日期：2026年12月20日 (日) (二)活動時間：13:20-16:00 (三)活動地點：Webex 線上分享 (四)活動對象：對在地及世界文化、旅遊有興趣之社會大眾 (五)活動報名：https://kingcar.org.tw/project/600487， 或至本會官網，點選「活動報名」，進入「2026文化任 意門線上講座」報名。 ("
+    },
+    {
+      "id": "活動資訊:光復國小:6afa49097b199718ce65f51c",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "活動資訊",
+      "title": "轉知:中國文化大學推廣教育部辦理【2027中國文化大學推廣部兒童冬令營】",
+      "published": "2026-11-16T00:05:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6afa49097b199718ce65f51c?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=QWbvWuz8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "中國文化大學【2027中國文化大學推廣部兒童冬令營】.pdf"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "一般消息:仁愛國小:6af3c0e83b0a4788b88bc830",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "一般消息",
+      "title": "【校園暫停開放】115年11月20日(五)至11月23日(一)共4天",
+      "published": "2026-11-16T00:00:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6af3c0e83b0a4788b88bc830?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=ZItAos61369&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [],
+      "summary": ""
+    },
+    {
+      "id": "研習資訊:建安國小:6afa464a773acf1624e9ff6b",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "研習資訊",
+      "title": "轉知~教育部辦理「115年臺灣客語寫作培訓營（南部場）」一案",
+      "published": "2026-11-15T23:53:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6afa464a773acf1624e9ff6b?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=EzoytYK7010&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [
+        "客語寫作培訓營南部場簡章.pdf",
+        "教育部轉知客語寫作培訓營南部場原函.pdf"
+      ],
+      "summary": "說明： 一、依教育部115年11月6日臺教社（四）字第1150112873A號函辦理。 二、為加強推行臺灣客語語文教育，擴大參與對象及培養臺灣客語文章寫作人才，特辦理「臺灣客語寫作培訓營」。將邀請學者專家針對寫作技巧、題材選擇、創意思維等相關主題進行講習，透過課程講授及實際寫作指導，培養臺灣客語的基礎寫作人才，拓展創作題材與表現形式的多樣性。 三、請鼓勵對臺灣客語寫作有興趣的教師、本土語言教學支援工作人員（支援教師），以及其他有意學習本土語言寫作者踴躍報名。旨揭培訓營相關資訊如下： (一)研習日期：115年12月19日（星期六）至12月20日（星期日），共2天。 (二)研習地點：TCCC台灣文創訓練中心高雄信義館K134教室（高雄市苓雅區中正二路175號13樓之3）。 (三)報名日期：採網路報名，自115年11"
+    },
+    {
+      "id": "研習資訊:仁愛國小:6afa45baee6e38193682babd",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "[轉知]正向預防與支持進階研習－預防和化解校園衝突的對策",
+      "published": "2026-11-15T23:51:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6afa45baee6e38193682babd?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=BLvblfR5996&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "正向預防與支持進階研習－預防和化解校園衝突的對策.pdf"
+      ],
+      "summary": "詳細研習資訊請參閱附件。"
+    },
+    {
+      "id": "研習資訊:建安國小:6afa45917e7ed9172ed9d7a4",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "研習資訊",
+      "title": "轉知~臺灣師範大學辦理「115學年度國民小學生涯 發展教育教材手冊（課程模組）推廣研習（場次一）」一 案",
+      "published": "2026-11-15T23:49:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6afa45917e7ed9172ed9d7a4?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=EzoytYK7010&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [
+        "生涯發展教材手冊推廣研習海報.png",
+        "生涯發展教材手冊推廣研習實施計畫.pdf"
+      ],
+      "summary": "說明： 一、依據國立臺灣師範大學115年11月6日師大心輔字第1151031788號函辦理。 二、為協助國小教師更加掌握生涯發展教育相關知能，俾引導學生進行生涯探索與規劃，教育部國民及學前教育署委請國立臺灣師範大學發展旨揭手冊以提供教師跨領域教學教材及相關教學資源；另為協助教師瞭解本手冊研發意旨進而提升其使用意願，爰國立臺灣師範大學訂於115年12月9日（星期三）假線上方式辦理旨揭推廣研習。 三、請轉知欲參與研習之教師於115年12月1日（星期二）前，至「全國教師在職進修資訊網（https://reurl.cc/lN45a9）」（課程代碼：5767293）完成報名，並請貴校惠予參與研習人員公假並准予課務派代。 四、倘有相關疑義，請逕洽國立臺灣師範大學涂助理、陳助理（電話：02-7749-7172）。 五、檢附「"
+    },
+    {
+      "id": "研習資訊:建安國小:6afa44e3ee424d17cb67ecbf",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "研習資訊",
+      "title": "轉知~國立臺灣師範大學辦理「開箱獅城教室！一線雙語教師的新加坡教育觀察」分享講座",
+      "published": "2026-11-15T23:46:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6afa44e3ee424d17cb67ecbf?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=EzoytYK7010&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [
+        "新加坡教育觀察分享講座流程.pdf"
+      ],
+      "summary": "說明： 一、依據國立臺灣師範大學115年11月2日師大教育字第1151031270號函辦理。 二、為拓展教師雙語教育專業視野，促進雙語課程設計、教學策略及創新教學之實務交流，該校教育學系林子斌特聘教授規劃辦理旨揭分享講座，邀請曾赴新加坡進行雙語教育參訪之第一線種子雙語教師，分享參訪所見、課堂觀察、課程實例及教學反思。 三、旨揭講座預計分享新加坡雙語教育之課程規劃、語言融合教學、跨領域協同教學、學生學習支持、教師專業社群運作，以及參訪經驗轉化提供臺灣課堂可行做法之具體建議，並安排綜合座談，供與會教師交流提問。 四、講座相關資訊如下： (一)活動名稱：「開箱獅城教室！一線雙語教師的新加坡教育觀察」。 (二)活動時間：115年12月7日（星期一）上午9時至下午4時。 (三)活動地點：國立臺北教育大學附設實驗國民小學階"
+    },
+    {
+      "id": "行政公告:建安國小:6afa43b97b199718ce64ae59",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "行政公告",
+      "title": "轉知~臺北市學校教育產業工會辦理創會十週年暨115年度歲末感恩抽獎活動",
+      "published": "2026-11-15T23:40:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6afa43b97b199718ce64ae59?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=2rEsyLS9623&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [
+        "29899463_1150000040_ATTCH1.pdf",
+        "29899463_1150000040_ATTCH2.png"
+      ],
+      "summary": "主旨： 本會辦理創會十週年暨115年度「感謝有您，工會更有力量！」歲末感恩抽獎活動，訂於115年11月30日及12月30日上午11時在本會Facebook社團直播抽獎，敬請轉知所屬教職員工，請查照。 說明： 一、參加對象： 1.繳交116年度會費之續會會員。 2.完成繳費入會之新會員。兩波合計每人限中獎一次。 二、新會員免收入會費1,000元，僅須繳交116年度會費600 元。 三、會員須於抽獎前完成指定社群任務，並於領獎時核驗；其他規定詳附件。 四、檢附115歲末抽獎活動計畫一份及活動海報一份。"
+    },
+    {
+      "id": "重要公告:仁愛國小:6af173ac9fe3f9fc80243f0e",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "一、四年級尿液檢體採檢注意事項",
+      "published": "2026-11-15T16:00:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6af173ac9fe3f9fc80243f0e?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [],
+      "summary": "★請家長提醒及協助學生依照下列採集時間，進行留檢體★ 尿液檢查：11/18(三)早上起床後第一次尿液。 ※尿液採檢方式： 收到尿管，請先確認尿管上之學生基本資料是否正確。 為避免影響檢查結果， 留尿檢查的前一天禁止服用含有維他命C的藥品、或喝含糖飲料及汽水。 留尿的前一天晚上，睡前請先將膀胱內的尿液排放乾淨。 取早晨起床後的第一次尿液為佳（若不小心沒留到尿液，請先大量喝溫熱的開水，並於第一節下課前儘速補留尿液檢體送來學校） 。先解掉一些尿液，留取中段尿液於尿杯，再將剩下尿液排掉。 再將尿杯內的尿液裝入試管約八分滿即可，請家長協助子女採取樣本。 請將試管蓋子壓緊，並倒過來測試是否會滲漏，蓋妥後裝入夾鏈袋內，於8:30前帶至學校交給老師。 相關檢查影片請參考 ※尿液初檢結果異常者，將會再另行通知擇日進行尿液複檢。若"
+    },
     {
       "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=C516DBBE38563770",
       "schools": [
