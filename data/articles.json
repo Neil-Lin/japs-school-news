@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T09:59:10.513288+00:00",
+  "updatedAt": "2026-11-16T18:46:22.207195+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -224,6 +224,40 @@
     }
   ],
   "articles": [
+    {
+      "id": "研習資訊:博愛國小:6afae50865d84b3e26bc84e8",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "啟明學校辦理「115年度特教生性別平等教育教材開發及教學成果發表」，鼓勵踴躍報名參加，予參加人員公（差）假登記。",
+      "published": "2026-11-16T11:11:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6afae50865d84b3e26bc84e8?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=tQHaHM07712&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "啟明學校辦理「115年度特教生性別平等教育教材開發及教學成果發表」，鼓勵踴躍報名參加，予參加人員公（差）假登記。-1151116.pdf"
+      ],
+      "summary": "啟明學校辦理「115年度特教生性別平等教育教材開發及教學成果發表」，鼓勵踴躍報名參加，予參加人員公（差）假登記。"
+    },
+    {
+      "id": "教育局消息:共同:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=8E0ADC66625CC75A",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【賽事資訊】中華民國115年全國室外拔河菁英賽",
+      "published": "2026-11-16T09:54:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=8E0ADC66625CC75A",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、賽事時間：115年12月21日（週一）至115年12月23日（週三）。 二、賽事地點：臺東縣關山鎮親水公園。 三、報名日期：即日起至115年12月10日（週四）止。 四、報名方式請參閱競賽規程（如附件）。 115年全國室外拔河菁英賽競賽規程.pdf"
+    },
     {
       "id": "研習資訊:仁愛國小:6aface590fe3ea38e59f1cdd",
       "schools": [
