@@ -1,16 +1,17 @@
 {
   "schemaVersion": 1,
   "assets": {
-    "app.js": "static/app.b96683f22ef3.js",
+    "app.js": "static/app.656e621de59b.js",
     "data-client.mjs": "static/data-client.9e1df027a2d6.mjs",
     "lunch-client.mjs": "static/lunch-client.d47d51283b89.mjs",
     "lunch-live.mjs": "static/lunch-live.2435ad528b79.mjs",
     "lunch-ui.mjs": "static/lunch-ui.c1573f3ec6b3.mjs",
     "news-core.mjs": "static/news-core.b00d881528b9.mjs",
     "school-data.mjs": "static/school-data.7bea4d54d8f6.mjs",
-    "styles.css": "static/styles.22ad45c88a64.css"
+    "school-info-ui.mjs": "static/school-info-ui.91d6a954fdd3.mjs",
+    "styles.css": "static/styles.b052b1ce7df5.css"
   },
-  "shellVersion": "1539c5bbf2fe3080",
+  "shellVersion": "5aefdfc80416ee46",
   "pages": [
     "index.html",
     "renai/index.html",
@@ -23,8 +24,10 @@
     ".nojekyll",
     "app.js",
     "assets-manifest.json",
+    "assets/LICENSE-lucide.txt",
     "assets/icon-192.png",
     "assets/icon-512.png",
+    "assets/info.svg",
     "assets/splash-1170x2532.png",
     "assets/splash-750x1334.png",
     "boai/index.html",
@@ -54,14 +57,16 @@
     "news-core.mjs",
     "renai/index.html",
     "school-data.mjs",
-    "static/app.b96683f22ef3.js",
+    "school-info-ui.mjs",
+    "static/app.656e621de59b.js",
     "static/data-client.9e1df027a2d6.mjs",
     "static/lunch-client.d47d51283b89.mjs",
     "static/lunch-live.2435ad528b79.mjs",
     "static/lunch-ui.c1573f3ec6b3.mjs",
     "static/news-core.b00d881528b9.mjs",
     "static/school-data.7bea4d54d8f6.mjs",
-    "static/styles.22ad45c88a64.css",
+    "static/school-info-ui.91d6a954fdd3.mjs",
+    "static/styles.b052b1ce7df5.css",
     "styles.css",
     "sw.js"
   ]
