@@ -12,7 +12,7 @@
 
 網站支援 PWA 安裝，設定集中在 `manifest.json` 與 `templates/sw.js`，後者會產生 `sw.js`。公告資料採網路優先策略，離線時才使用上次快取的資料；`scripts/generate_pwa_assets.py` 可重新產生 icon 與 iOS 啟動畫面。
 
-分類支援 checkbox 多選，預設勾選各校分類、不勾選「教育局消息」；「全部」可全選／取消全選，部分選取時顯示半選。分類之間取聯集，再與搜尋條件取交集；未選任何分類時不顯示公告。網址以穩定的分類 ID 記錄 `categories`、`q`、`page`，可分享並還原篩選狀態；`categories=` 代表明確全不選，沒有該參數則使用預設。分類 ID 集中於 `config.json` 的 `categoryIds`，修改分類顯示名稱時應保留 ID。
+分類支援 checkbox 多選，預設不勾選「教育局消息」「研習資訊」「教師研習及活動」，其餘分類預設勾選；使用者仍可手動選取或按「全部」全選／取消全選，部分選取時顯示半選。預設排除以穩定分類 ID 定義，分類改名仍維持原設定；不依公告標題猜測受眾。分類之間取聯集，因此同篇若也出現在已選的親職資訊等分類，仍會顯示。搜尋條件再取交集；未選任何分類時不顯示公告。網址以分類 ID 記錄 `categories`、`q`、`page`，可分享並還原明確選擇；`categories=` 代表全不選，沒有該參數才使用預設。分類 ID 集中於 `config.json` 的 `categoryIds`，修改顯示名稱時應保留 ID。
 
 首次取得專案後，先執行 `python3 scripts/build_site.py` 產生本機資產，再執行 `python3 -m http.server 8000`，開啟 `http://localhost:8000/`。前端使用原生 ES modules，需透過 HTTP 預覽。完整回歸檢查統一使用 `python3 scripts/check_project.py`，不連線抓取 RSS、不提交或部署。它會檢查產生檔是否最新、重建資產、檢查 JavaScript 語法、執行 Node／Python 測試及資料驗證。工作流程 YAML 契約測試使用系統 Ruby/Psych；未安裝 Ruby 時會明確跳過該組測試，其餘檢查照常執行。
 
