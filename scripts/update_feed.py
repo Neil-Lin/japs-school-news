@@ -116,11 +116,39 @@ def recover_items(body, source):
     return {"items": items, "warnings": ["來源 XML 格式異常，已復原完整公告；請檢查來源格式。"]}
 
 
+def repair_description_controls(body):
+    """Replace XML 1.0-forbidden controls only in description CDATA text."""
+    text = body.decode("utf-8", errors="strict")
+    controls = []
+
+    def description(match):
+        def whitespace(control):
+            controls.append(ord(control[0]))
+            return " "
+        content = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", whitespace, match[2])
+        return match[1] + content + match[3]
+
+    repaired = re.sub(r"(<description\b[^>]*>\s*<!\[CDATA\[)(.*?)(\]\]>\s*</description\s*>)",
+                      description, text, flags=re.I | re.S)
+    if not controls:
+        return body, []
+    codes = "、".join(f"U+{code:04X}" for code in sorted(set(controls)))
+    warning = f"來源內文含 {len(controls)} 個 XML 不允許的控制字元（{codes}），已轉為空白並通過完整 XML 驗證。"
+    return repaired.encode("utf-8"), [warning]
+
+
 def parse_feed(body, source):
+    warnings = []
     try:
         root = ET.fromstring(body)
     except ET.ParseError:
-        return recover_items(body, source)
+        repaired, warnings = repair_description_controls(body)
+        if not warnings:
+            return recover_items(body, source)
+        try:
+            root = ET.fromstring(repaired)
+        except ET.ParseError as error:
+            raise FeedError("來源內文控制字元轉換後，RSS XML 仍無法完整解析，保留上次成功資料") from error
     local = lambda tag: tag.rsplit("}", 1)[-1].lower()
     if local(root.tag) not in ("rss", "rdf") or not any(local(node.tag) == "channel" for node in root):
         raise FeedError("回應不是有效 RSS（可能為 HTML 錯誤頁）")
@@ -133,7 +161,7 @@ def parse_feed(body, source):
             return node.text.strip() if node is not None and node.text else ""
         attachments = [clean(node.text) for node in item if local(node.tag) == "name" and clean(node.text)]
         result.append(make_article(source, clean(val("title")), val("pubDate"), val("link"), val("guid"), clean(val("description")), attachments))
-    return {"items": result, "warnings": []}
+    return {"items": result, "warnings": warnings}
 
 
 def fetch(source, fetcher=fetch_body, sleep=time.sleep):

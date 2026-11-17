@@ -46,6 +46,42 @@ class ParsingTests(unittest.TestCase):
         self.assertTrue(result['warnings'])
         self.assertEqual(result['items'][0]['summary'], 'A & B')
 
+    def test_description_controls_use_full_xml_parse_and_preserve_all_article_fields(self):
+        body = rss('<![CDATA[<p>輔導室\x0b報到</p><p>攜帶資料\x0b辦理</p>]]>')
+        expected = feed.parse_feed(body.replace(b'\x0b', b' '), S1)['items']
+        with patch.object(feed, 'recover_items', side_effect=AssertionError('must use full XML validation')):
+            actual = feed.parse_feed(body, S1)
+        self.assertEqual(actual['items'], expected)
+        self.assertEqual(actual['items'][0]['summary'], '輔導室 報到 攜帶資料 辦理')
+        self.assertIn('2 個', actual['warnings'][0])
+        self.assertIn('U+000B', actual['warnings'][0])
+
+    def test_description_repair_preserves_allowed_whitespace_and_scopes_other_controls(self):
+        body = rss('<![CDATA[A\tB\nC\rD\x0bE\x00F]]>').replace(b'<guid>doc-1', b'<guid>doc-\x0b1')
+        repaired, warnings = feed.repair_description_controls(body)
+        self.assertIn(b'A\tB\nC\rD E F', repaired)
+        self.assertIn(b'<guid>doc-\x0b1', repaired)
+        self.assertIn('2 個', warnings[0])
+        self.assertIn('U+0000、U+000B', warnings[0])
+        with self.assertRaises(feed.FeedError):
+            feed.parse_feed(body, S1)
+
+    def test_description_repair_does_not_accept_truncated_or_other_invalid_xml(self):
+        body = rss('<![CDATA[A\x0bB]]>')
+        for malformed in [body.replace(b'</channel></rss>', b''), body.replace('<name>計畫.pdf</name>'.encode(), b'<name>A & B</name>')]:
+            with self.subTest(body=malformed), self.assertRaises(feed.FeedError):
+                feed.parse_feed(malformed, S1)
+
+    def test_multiple_description_blocks_recover_without_altering_links_or_attachments(self):
+        body = rss('<![CDATA[A\x0bB]]>')
+        item = body[body.index(b'<item>'):body.index(b'</item>') + len(b'</item>')]
+        body = body.replace(b'</channel>', item.replace(b'doc-1', b'doc-2') + b'</channel>')
+        result = feed.parse_feed(body, S1)
+        expected = feed.parse_feed(body.replace(b'\x0b', b' '), S1)['items']
+        self.assertEqual(result['items'], expected)
+        self.assertEqual(len(result['items']), 2)
+        self.assertIn('2 個', result['warnings'][0])
+
     def test_truncated_broken_xml_is_not_silently_partially_recovered(self):
         with self.assertRaises(feed.FeedError):
             feed.parse_feed(rss('A & B').replace(b'</channel>', b'<item><title>truncated</channel>'), S1)
