@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "assets": {
+    "app.js": "static/app.5abeb110f27b.js",
+    "data-client.mjs": "static/data-client.c87a19507a3e.mjs",
+    "news-core.mjs": "static/news-core.70ec861ddc6e.mjs",
+    "school-data.mjs": "static/school-data.98d75975d0d2.mjs",
+    "styles.css": "static/styles.ad9c959afb15.css"
+  },
+  "shellVersion": "4b483a3a73d817d3",
+  "pages": [
+    "index.html",
+    "renai/index.html",
+    "jianan/index.html",
+    "dunhua/index.html",
+    "boai/index.html",
+    "guangfu/index.html"
+  ],
+  "publicFiles": [
+    ".nojekyll",
+    "app.js",
+    "assets-manifest.json",
+    "assets/icon-192.png",
+    "assets/icon-512.png",
+    "assets/splash-1170x2532.png",
+    "assets/splash-750x1334.png",
+    "boai/index.html",
+    "config.json",
+    "data-client.mjs",
+    "data/articles.json",
+    "data/schools/boai.json",
+    "data/schools/dunhua.json",
+    "data/schools/guangfu.json",
+    "data/schools/jianan.json",
+    "data/schools/renai.json",
+    "data/version.json",
+    "dunhua/index.html",
+    "guangfu/index.html",
+    "index.html",
+    "jianan/index.html",
+    "manifest.json",
+    "news-core.mjs",
+    "renai/index.html",
+    "school-data.mjs",
+    "static/app.5abeb110f27b.js",
+    "static/data-client.c87a19507a3e.mjs",
+    "static/news-core.70ec861ddc6e.mjs",
+    "static/school-data.98d75975d0d2.mjs",
+    "static/styles.ad9c959afb15.css",
+    "styles.css",
+    "sw.js"
+  ]
+}

@@ -2,7 +2,7 @@
   "id": "/japs-school-news/",
   "name": "國小消息牆",
   "short_name": "國小消息牆",
-  "description": "仁愛、建安、敦化、博愛與光復國小消息彙整",
+  "description": "國小校內公告、家長資訊與教育消息彙整，支援分類多選與關鍵字搜尋",
   "lang": "zh-Hant",
   "dir": "ltr",
   "start_url": "/japs-school-news/",
