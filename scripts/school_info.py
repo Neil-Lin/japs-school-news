@@ -70,25 +70,29 @@ def render_info(data, slug):
         return ''
     item = data['schools'][slug]
     esc = lambda value: html.escape(str(value), quote=True)
-    def link(url, label):
-        return f'<a href="{esc(url)}" target="_blank" rel="noopener">{esc(label)}<span class="sr-only">（另開分頁）</span></a>'
+    def link(url, label, class_name=''):
+        attributes = f' class="{esc(class_name)}"' if class_name else ''
+        return f'<a{attributes} href="{esc(url)}" target="_blank" rel="noopener">{esc(label)}<span class="sr-only">（另開分頁）</span></a>'
     opening = item['opening']
     navigation = 'https://www.google.com/maps/search/?' + urlencode({'api': '1', 'query': item['name'] + ' ' + item['address']})
     hours = '<dl class="school-hours">' + ''.join(f'<div><dt>{esc(row["label"])}</dt><dd>{esc(row["hours"])}</dd></div>' for row in opening['rows']) + '</dl>' if opening['rows'] else ''
     return f'''<section class="school-info-section" aria-labelledby="schoolContactTitle">
       <h3 id="schoolContactTitle">聯絡資訊</h3>
       <dl class="school-contact">
-        <div><dt>地址</dt><dd>{esc(item['address'])}<br>{link(navigation, '查看地圖與導航')}</dd></div>
+        <div><dt>地址</dt><dd class="school-address"><span class="school-contact-value">{esc(item['address'])}</span>{link(navigation, '地圖導航', 'school-contact-action')}</dd></div>
         <div><dt>電話</dt><dd><a href="tel:{item['phone'].replace('-', '')}">{esc(item['phone'])}</a></dd></div>
-        <div><dt>官網</dt><dd>{link(item['website'], '前往學校官方網站')}</dd></div>
+        <div><dt>官網</dt><dd>{link(item['website'], '學校官方網站')}</dd></div>
       </dl>
-      <p class="school-info-source">基本資料：{link(item['basicSource']['url'], item['basicSource']['label'])}，並核對{link(item['contactSource'], '學校官網')}。</p>
     </section>
     <section class="school-info-section" aria-labelledby="schoolHoursTitle">
       <div class="school-info-section-heading"><h3 id="schoolHoursTitle">校園場地開放時間</h3><span>{esc(opening['basis'])}</span></div>
       {hours}<p class="school-opening-note">{esc(opening['note'])}</p>
-      <p class="school-info-source">來源：{'、'.join(link(source['url'], source['label']) for source in opening['sources'])}</p>
       <p class="school-info-source">此處為一般開放資訊，並非即時開放狀態。國定假日、寒暑假或特殊活動未列明的時段，請洽學校確認。</p>
       <div id="schoolOpeningNotices" class="school-opening-notices" hidden></div>
     </section>
-    <p class="school-info-reviewed">本站資料查核：<time datetime="{esc(data['checkedOn'])}">{esc(data['checkedOn'].replace('-', '/'))}</time>。與頁面公告的「最近檢查」分開計算。</p>'''
+    <details class="school-info-provenance">
+      <summary>資料來源・查核 <time datetime="{esc(data['checkedOn'])}">{esc(data['checkedOn'].replace('-', '/'))}</time></summary>
+      <p class="school-info-source">基本資料：{link(item['basicSource']['url'], item['basicSource']['label'])}，並核對{link(item['contactSource'], '學校官網')}。</p>
+      <p class="school-info-source">開放資訊：{'、'.join(link(source['url'], source['label']) for source in opening['sources'])}</p>
+      <p class="school-info-source">查核日期與頁面公告的「最近檢查」分開計算。</p>
+    </details>'''
