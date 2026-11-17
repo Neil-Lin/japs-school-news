@@ -268,18 +268,19 @@ footer a { display: inline-flex; align-items: center; min-height: 44px; }
 .lunch-provider-heading { margin: 0 0 12px; }
 .lunch-provider h4 { margin: 0; font-size: 18px; line-height: 1.5; }
 .lunch-provider-heading p { margin: 4px 0 0; color: var(--muted); font-size: 12px; }
-.lunch-dishes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin: 0; padding: 0; list-style: none; align-items: start; }
+.lunch-dishes { display: grid; grid-template-columns: minmax(0, 1fr); gap: 8px; margin: 0; padding: 0; list-style: none; }
 .lunch-dishes > li { min-width: 0; }
-.lunch-dishes > li:has(> .lunch-dish[open]) { grid-column: 1 / -1; }
 .lunch-dish { border: 1px solid var(--line); border-radius: 10px; background: white; }
-.lunch-dish > summary { display: flex; flex-direction: column; gap: 12px; min-height: 102px; padding: 14px 16px; list-style: none; }
+.lunch-dish > summary { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 72px; padding: 14px 16px; list-style: none; }
 .lunch-dish > summary::-webkit-details-marker { display: none; }
-.lunch-dish-title { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; }
+.lunch-dish-title { display: flex; align-items: center; gap: 10px; min-width: 0; }
 .lunch-dish-title strong { font-size: 17px; line-height: 1.5; }
-.lunch-type { display: inline-block; padding: 2px 7px; border-radius: 4px; background: #fff0e9; color: #98482f; font-size: 12px; }
-.lunch-disclosure { display: flex; justify-content: space-between; align-items: center; gap: 12px; color: var(--muted); font-size: 12px; }
-.lunch-disclosure > span { color: var(--ink); font-size: 18px; line-height: 1; }
-.lunch-dish[open] .lunch-disclosure > span { transform: rotate(45deg); }
+.lunch-type { display: inline-block; flex-shrink: 0; padding: 2px 7px; border-radius: 4px; background: #fff0e9; color: #98482f; font-size: 12px; }
+.lunch-disclosure { display: inline-flex; align-items: center; gap: 10px; flex-shrink: 0; color: var(--muted); font-size: 12px; }
+.lunch-disclosure .lunch-chevron { display: block; width: 8px; height: 8px; border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor; transform: translateY(-2px) rotate(45deg); }
+.lunch-detail-open, .lunch-dish[open] .lunch-detail-closed { display: none; }
+.lunch-dish[open] .lunch-detail-open { display: inline; }
+.lunch-dish[open] .lunch-chevron { transform: translateY(2px) rotate(225deg); }
 .lunch-dish[open] > summary { border-bottom: 1px solid var(--line); }
 .lunch-dish-body { padding: 0 16px; }
 .lunch-ingredients { margin: 0; padding: 0; list-style: none; }
@@ -312,10 +313,8 @@ footer a { display: inline-flex; align-items: center; min-height: 44px; }
   .lunch-header h2 { font-size: 24px; }
   .lunch-scroll { padding: 16px 16px calc(24px + env(safe-area-inset-bottom)); }
   .lunch-overview h3 { font-size: 21px; }
-  .lunch-dishes { grid-template-columns: minmax(0, 1fr); }
-  .lunch-dish > summary { gap: 8px; min-height: 88px; }
-  .lunch-dish-title { flex-direction: row; align-items: baseline; gap: 8px; }
-  .lunch-type { flex-shrink: 0; }
+  .lunch-dish > summary { gap: 12px; min-height: 68px; padding: 14px 12px; }
+  .lunch-dish-title { gap: 8px; }
   .lunch-dish-title strong { font-size: 16px; }
   .lunch-seasoning > summary { min-height: 44px; }
 }

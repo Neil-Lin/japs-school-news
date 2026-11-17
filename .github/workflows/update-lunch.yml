@@ -1,6 +1,6 @@
 name: Update lunch data
 "on":
-  # Manual first. Enable the Taiwan weekday schedule after a successful hosted run.
+  # Manual maintenance only: hosted requests returned 403; the app uses public browser queries.
   workflow_dispatch:
 permissions:
   contents: write
