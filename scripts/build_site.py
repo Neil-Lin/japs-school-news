@@ -9,19 +9,21 @@ import re
 import tempfile
 from pathlib import Path, PurePosixPath
 from string import Template
+from lunch_contract import public_files as lunch_public_files, load_settings as lunch_settings
 
 ROOT = Path(__file__).resolve().parents[1]
-MODULES = ("news-core.mjs", "school-data.mjs", "data-client.mjs", "app.js")
+MODULES = ("news-core.mjs", "school-data.mjs", "data-client.mjs", "lunch-client.mjs", "lunch-ui.mjs", "app.js")
 IMAGES = ("icon-192.png", "icon-512.png", "splash-750x1334.png", "splash-1170x2532.png")
 IMPORT = re.compile(r"(?P<lead>\b(?:from|import)\s*['\"])(?P<path>\./[^'\"]+\.(?:mjs|js))(?:\?[^'\"]*)?(?P<quote>['\"])")
-STATIC = re.compile(r"static/(?:app|news-core|data-client|school-data|styles)\.[a-f0-9]{12}\.(?:mjs|js|css)")
+STATIC = re.compile(r"static/(?:app|news-core|data-client|school-data|lunch-client|lunch-ui|styles)\.[a-f0-9]{12}\.(?:mjs|js|css)")
 
 
 def public_path(path):
     fixed = {"index.html", "sw.js", "assets-manifest.json", "config.json", "manifest.json", "styles.css", ".nojekyll", "data/articles.json", "data/version.json", *MODULES, *["assets/" + name for name in IMAGES]}
     return isinstance(path, str) and (path in fixed or bool(STATIC.fullmatch(path))
         or bool(re.fullmatch(r"[a-z][a-z0-9-]*/index\.html", path))
-        or bool(re.fullmatch(r"data/schools/[a-z][a-z0-9-]*\.json", path)))
+        or bool(re.fullmatch(r"data/schools/[a-z][a-z0-9-]*\.json", path))
+        or bool(re.fullmatch(r"data/lunch/[a-z][a-z0-9-]*\.json", path)))
 
 
 class BuildError(ValueError):
@@ -50,6 +52,7 @@ def plan_site(root=ROOT):
     if not schools or set(schools) != set(config["schoolMeta"]):
         raise BuildError("學校與 metadata 不一致")
     slugs = [config["schoolMeta"][name]["slug"] for name in schools]
+    lunch_schools = lunch_settings(root) if (root / 'lunch-schools.json').exists() else {}
     if len(set(slugs)) != len(slugs) or any(not re.fullmatch(r"[a-z][a-z0-9-]*", slug) for slug in slugs):
         raise BuildError("學校 slug 必須唯一且只能包含小寫英文字母、數字與連字號")
     generated = {}
@@ -95,6 +98,8 @@ def plan_site(root=ROOT):
             "description": school + "校內公告、家長資訊與教育消息，支援分類多選與關鍵字搜尋。" if school else "、".join(schools) + "公告彙整，支援分類多選與關鍵字搜尋。",
             "style_asset": assets["styles.css"], "app_asset": assets["app.js"],
             "school_slug": meta["slug"], "school_name": name,
+            "lunch_school_id": lunch_schools.get(meta['slug'], {}).get('schoolId', ''),
+            "lunch_hidden": '' if meta['slug'] in lunch_schools else 'hidden',
             "official_site": meta["site"], "skip_href": f"{meta['slug']}/#main" if school else "#main",
             "source_labels": "、".join(schools + ["臺北市教育局"]),
         }
@@ -115,6 +120,10 @@ def plan_site(root=ROOT):
     public.update(MODULES)
     public.update("assets/" + name for name in IMAGES)
     public.update(f"data/schools/{slug}.json" for slug in slugs)
+    try:
+        public.update(lunch_public_files(root))
+    except (ValueError, OSError, TypeError, KeyError) as error:
+        raise BuildError(f"午餐快照驗證失敗：{error}") from error
     metadata = {"schemaVersion": 1, "assets": dict(sorted(assets.items())), "shellVersion": shell_version, "pages": pages, "publicFiles": sorted(public)}
     generated["assets-manifest.json"] = json_bytes(metadata)
     return {"generated": generated, "metadata": metadata, "tracked": pages + ["sw.js", "assets-manifest.json"]}

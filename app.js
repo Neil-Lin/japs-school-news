@@ -4,6 +4,7 @@ import {
   sourcesOf, stateURL, originalLinks,
 } from './news-core.mjs';
 import {loadSnapshot} from './data-client.mjs';
+import {setupLunchDialog} from './lunch-ui.mjs';
 
 const esc = value => String(value ?? '').replace(/[&<>"']/g, char => (
   {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[char]
@@ -297,4 +298,5 @@ function showError(error) {
   document.querySelector('#retryLoad').onclick = () => location.reload();
 }
 
+setupLunchDialog();
 loadData().then(start).catch(showError);

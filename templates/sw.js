@@ -3,13 +3,14 @@ const CACHE_PREFIX = 'school-news:' + new URL(self.registration.scope).pathname 
 const CACHE_NAME = CACHE_PREFIX + 'shell-__SHELL_VERSION__';
 const SNAPSHOT_CACHE = CACHE_PREFIX + 'snapshot-v3';
 const LEGACY_SNAPSHOT_CACHE = CACHE_PREFIX + 'snapshot-v2';
+const LUNCH_CACHE = CACHE_PREFIX + 'lunch-v1';
 const SHELL = __SHELL__;
 const scope = new URL(self.registration.scope);
 const shellURLs = new Set(SHELL.map(path => new URL(path, scope).href));
 
 async function cleanup() {
   for (const name of await caches.keys()) {
-    if (name.startsWith(CACHE_PREFIX) && ![CACHE_NAME, SNAPSHOT_CACHE, LEGACY_SNAPSHOT_CACHE].includes(name)) {
+    if (name.startsWith(CACHE_PREFIX) && ![CACHE_NAME, SNAPSHOT_CACHE, LEGACY_SNAPSHOT_CACHE, LUNCH_CACHE].includes(name)) {
       await caches.delete(name);
     } else if (/^school-news-(shell-v\d+|data-v1)$/.test(name)) {
       // Legacy caches had no scope in their names. Delete only this project's entries.

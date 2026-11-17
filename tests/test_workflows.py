@@ -45,7 +45,7 @@ class WorkflowContractTests(unittest.TestCase):
         deploy = self.workflows['deploy.yml']
         self.assertEqual(deploy['on']['push']['branches'], ['main'])
         trigger = deploy['on']['workflow_run']
-        self.assertEqual(trigger['workflows'], [self.workflows['update-feed.yml']['name']])
+        self.assertEqual(trigger['workflows'], [self.workflows['update-feed.yml']['name'], self.workflows['update-lunch.yml']['name']])
         self.assertEqual(trigger['types'], ['completed'])
         self.assertEqual(trigger['branches'], ['main'])
         build = deploy['jobs']['build']
@@ -62,12 +62,30 @@ class WorkflowContractTests(unittest.TestCase):
         self.assertNotIn('pages', deploy['permissions'])
 
     def test_every_workflow_uses_shared_runtimes_and_explicit_timeouts(self):
-        self.assertEqual(set(self.workflows), {'ci.yml', 'deploy.yml', 'update-feed.yml'})
+        self.assertEqual(set(self.workflows), {'ci.yml', 'deploy.yml', 'update-feed.yml', 'update-lunch.yml'})
         for workflow in self.workflows.values():
             for job in workflow['jobs'].values():
                 self.assertLessEqual(job['timeout-minutes'], 20)
                 if any('checkout' in step.get('uses', '') for step in job['steps']):
                     self.assertTrue(any(step.get('uses') == './.github/actions/setup' for step in job['steps']))
+
+    def test_lunch_starts_manual_only_and_cannot_publish_rss_or_force_push(self):
+        workflow = self.workflows['update-lunch.yml']
+        self.assertEqual(set(workflow['on']), {'workflow_dispatch'})
+        self.assertEqual(workflow['permissions'], {'contents': 'write'})
+        self.assertEqual(workflow['jobs']['update']['if'], "github.ref == 'refs/heads/main'")
+        steps = workflow['jobs']['update']['steps']
+        self.assertEqual(steps[0]['with']['ref'], 'main')
+        commands = '\n'.join(step.get('run', '') for step in steps)
+        self.assertIn('python scripts/update_lunch.py', commands)
+        self.assertIn('git add data/lunch assets-manifest.json', commands)
+        self.assertIn('git push origin HEAD:main', commands)
+        self.assertNotIn('--force', commands)
+        self.assertNotIn('update_feed.py', commands)
+        self.assertNotIn('data/articles.json', commands)
+        self.assertFalse(any('pages' in step.get('uses', '') for step in steps))
+        diagnostics = next(step for step in steps if 'upload-artifact' in step.get('uses', ''))
+        self.assertEqual(diagnostics['if'], 'always()')
 
 
 if __name__ == '__main__':

@@ -1,0 +1,45 @@
+name: Update lunch data
+"on":
+  # Manual first. Enable the Taiwan weekday schedule after a successful hosted run.
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: lunch-update-main
+  cancel-in-progress: false
+jobs:
+  update:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+      - uses: ./.github/actions/setup
+      - name: Check code and existing snapshots without fetching sources
+        run: python scripts/check_project.py
+      - name: Fetch lunch and publish complete school snapshots
+        run: python scripts/update_lunch.py --report "${{ runner.temp }}/lunch-attempt.json"
+      - name: Validate new lunch snapshots and public package
+        run: |
+          python scripts/build_site.py
+          python scripts/validate_project.py
+          python scripts/build_site.py --output dist
+      - name: Save only lunch snapshots and their public file list
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/lunch assets-manifest.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update school lunch"
+            git push origin HEAD:main
+          fi
+      - name: Keep attempt diagnostics even if all sources failed
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lunch-attempt
+          path: ${{ runner.temp }}/lunch-attempt.json
+          if-no-files-found: ignore
+          retention-days: 7

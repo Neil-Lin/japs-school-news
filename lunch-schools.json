@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "schools": {
+    "renai": {"schoolId": "333605", "schoolName": "臺北市大安區仁愛國小"},
+    "jianan": {"schoolId": "333604", "schoolName": "臺北市大安區建安國小"},
+    "dunhua": {"schoolId": "313604", "schoolName": "臺北市松山區敦化國小"},
+    "boai": {"schoolId": "323609", "schoolName": "臺北市信義區博愛國小"},
+    "guangfu": {"schoolId": "323603", "schoolName": "臺北市信義區光復國小"}
+  }
+}

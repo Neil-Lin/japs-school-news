@@ -83,6 +83,9 @@ a, button, input, summary { -webkit-tap-highlight-color: transparent; }
 .hero h1 { margin: 0; font-size: clamp(28px, 4vw, 44px); line-height: 1.25; letter-spacing: -.04em; }
 .hero h1 em { color: var(--peach); font-style: normal; }
 .official-site { flex-shrink: 0; padding: 10px 0; color: var(--peach); font-size: 14px; text-underline-offset: 4px; }
+.hero-actions { display: flex; align-items: center; gap: 14px; flex-shrink: 0; }
+.lunch-open { min-height: 44px; padding: 8px 16px; border: 1px solid var(--peach); border-radius: 999px; background: var(--peach); color: var(--ink); font-size: 14px; font-weight: 700; white-space: nowrap; }
+.lunch-open:hover { background: #ffbe99; border-color: #ffbe99; }
 .intro { margin: 10px 0 12px; color: #d1ded6; font-size: 15px; }
 .update-info { font-size: 12px; color: #b7cbc1; }
 .update-info > summary { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; width: fit-content; min-height: 44px; }
@@ -239,3 +242,84 @@ footer a { display: inline-flex; align-items: center; min-height: 44px; }
 .source-records li p { margin: 4px 0; }
 .original-links { margin-top: 4px; color: var(--muted); font-size: 13px; }
 .original-links > summary { width: fit-content; text-decoration: underline; text-underline-offset: 3px; }
+
+.lunch-dialog { overflow: hidden; position: fixed; inset: 0; width: min(840px, calc(100% - 40px)); max-width: none; height: min(82vh, 860px); height: min(82dvh, 860px); max-height: calc(100% - 40px); margin: auto; padding: 0; border: 0; border-radius: 18px; background: var(--cream); color: var(--ink); box-shadow: 0 24px 80px #07191555; }
+.lunch-dialog[open] { display: flex; flex-direction: column; }
+.lunch-dialog::backdrop { background: #0b211dcc; }
+.lunch-header { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-shrink: 0; padding: 20px 28px; border-bottom: 1px solid var(--line); background: var(--ink); color: var(--cream); }
+.lunch-header p { margin: 0 0 2px; color: #c0d5c9; font-size: 13px; }
+.lunch-header h2 { margin: 0; font-size: 26px; }
+.lunch-close { min-height: 44px; min-width: 72px; flex-shrink: 0; padding: 8px 12px; border: 1px solid #789b8c; border-radius: 999px; background: transparent; color: var(--cream); font-size: 14px; }
+.lunch-close:hover { border-color: var(--peach); color: var(--peach); }
+.lunch-scroll { min-height: 0; overflow-y: auto; overscroll-behavior: contain; padding: 20px 28px 28px; scrollbar-gutter: stable; }
+.lunch-status { margin: 0 0 12px; color: var(--muted); font-size: 13px; }
+.lunch-overview { padding-bottom: 18px; border-bottom: 1px solid var(--line); }
+.lunch-label { margin: 0 0 4px; color: var(--muted); font-size: 12px; letter-spacing: .08em; }
+.lunch-overview h3 { margin: 0; font-size: 24px; line-height: 1.4; }
+.lunch-count { margin: 8px 0 4px; font-size: 14px; font-weight: 700; }
+.lunch-timestamp { margin: 0; color: var(--muted); font-size: 12px; }
+.lunch-notices { margin: 16px 0; padding: 12px 16px; border: 1px solid #dfb99b; border-radius: 8px; background: #fff0df; color: #704222; font-size: 14px; }
+.lunch-notices p { margin: 0; }
+.lunch-notices p + p { margin-top: 6px; }
+.lunch-issues summary { min-height: 44px; padding-top: 10px; }
+.lunch-issues ul { margin: 0 0 4px; padding-left: 20px; }
+.lunch-guide { margin: 18px 0; color: var(--muted); font-size: 13px; }
+.lunch-provider + .lunch-provider { margin-top: 28px; }
+.lunch-provider-heading { margin: 0 0 12px; }
+.lunch-provider h4 { margin: 0; font-size: 18px; line-height: 1.5; }
+.lunch-provider-heading p { margin: 4px 0 0; color: var(--muted); font-size: 12px; }
+.lunch-dishes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin: 0; padding: 0; list-style: none; align-items: start; }
+.lunch-dishes > li { min-width: 0; }
+.lunch-dishes > li:has(> .lunch-dish[open]) { grid-column: 1 / -1; }
+.lunch-dish { border: 1px solid var(--line); border-radius: 10px; background: white; }
+.lunch-dish > summary { display: flex; flex-direction: column; gap: 12px; min-height: 102px; padding: 14px 16px; list-style: none; }
+.lunch-dish > summary::-webkit-details-marker { display: none; }
+.lunch-dish-title { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; }
+.lunch-dish-title strong { font-size: 17px; line-height: 1.5; }
+.lunch-type { display: inline-block; padding: 2px 7px; border-radius: 4px; background: #fff0e9; color: #98482f; font-size: 12px; }
+.lunch-disclosure { display: flex; justify-content: space-between; align-items: center; gap: 12px; color: var(--muted); font-size: 12px; }
+.lunch-disclosure > span { color: var(--ink); font-size: 18px; line-height: 1; }
+.lunch-dish[open] .lunch-disclosure > span { transform: rotate(45deg); }
+.lunch-dish[open] > summary { border-bottom: 1px solid var(--line); }
+.lunch-dish-body { padding: 0 16px; }
+.lunch-ingredients { margin: 0; padding: 0; list-style: none; }
+.lunch-ingredient { padding: 14px 0; font-size: 13px; }
+.lunch-ingredient + .lunch-ingredient { border-top: 1px solid var(--line); }
+.lunch-ingredient > strong { font-size: 15px; }
+.lunch-ingredient dl { margin: 8px 0 0; }
+.lunch-ingredient dl > div { display: grid; grid-template-columns: 3.4em minmax(0, 1fr); gap: 8px; margin-top: 4px; }
+.lunch-ingredient dt { color: var(--muted); }
+.lunch-ingredient dd { margin: 0; }
+.lunch-certification { margin: 8px 0 0; color: var(--muted); font-size: 12px; }
+.lunch-registration { margin: 10px 0; color: #87482c; font-size: 13px; }
+.lunch-empty-detail { margin: 14px 0; color: var(--muted); font-size: 14px; }
+.lunch-seasonings { margin-top: 10px; }
+.lunch-seasoning { background: transparent; }
+.lunch-seasoning > summary { min-height: 44px; }
+.lunch-empty { padding: 24px 0; color: var(--muted); font-size: 14px; }
+.lunch-empty p { margin: 0 0 8px; }
+.lunch-retry { min-height: 44px; padding: 8px 18px; border: 1px solid var(--ink); border-radius: 999px; background: var(--ink); color: white; }
+.lunch-source { margin-top: 24px; padding-top: 16px; border-top: 1px solid var(--line); }
+.lunch-source a { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; font-size: 14px; font-weight: 700; text-underline-offset: 4px; }
+.lunch-source p { margin: 4px 0 0; color: var(--muted); font-size: 12px; }
+.lunch-scroll, .lunch-header { overflow-wrap: anywhere; }
+
+@media (max-width: 600px) {
+  .hero-actions { gap: 10px; }
+  .lunch-open { padding: 8px 10px; font-size: 13px; }
+  .lunch-dialog { width: 100%; height: 100vh; height: 100dvh; max-height: none; margin: 0; border-radius: 0; }
+  .lunch-header { padding: calc(12px + env(safe-area-inset-top)) 16px 12px; }
+  .lunch-header h2 { font-size: 24px; }
+  .lunch-scroll { padding: 16px 16px calc(24px + env(safe-area-inset-bottom)); }
+  .lunch-overview h3 { font-size: 21px; }
+  .lunch-dishes { grid-template-columns: minmax(0, 1fr); }
+  .lunch-dish > summary { gap: 8px; min-height: 88px; }
+  .lunch-dish-title { flex-direction: row; align-items: baseline; gap: 8px; }
+  .lunch-type { flex-shrink: 0; }
+  .lunch-dish-title strong { font-size: 16px; }
+  .lunch-seasoning > summary { min-height: 44px; }
+}
+
+@media (max-width: 359px) {
+  .hero-actions { width: 100%; justify-content: space-between; margin-top: 6px; }
+}
