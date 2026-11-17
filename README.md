@@ -52,7 +52,7 @@ python3 -m http.server 8000 --directory dist
 
 ## 午餐資料
 
-已完成資料層與「今日午餐」閱讀視窗；尚未上線或啟用午餐排程。五校官方代碼集中在 `lunch-schools.json`，與公告設定、RSS 更新分開。更新器使用公開查詢服務，免登入、不需 API key；不下載照片，也不推算素食完整性或過敏原。
+已完成資料層與「今日午餐」閱讀視窗。五校官方代碼集中在 `lunch-schools.json`，與公告設定、RSS 更新分開。更新器使用公開查詢服務，免登入、不需 API key；不下載照片，也不推算素食完整性或過敏原。
 
 ```sh
 python3 scripts/update_lunch.py --report /tmp/lunch-attempt.json

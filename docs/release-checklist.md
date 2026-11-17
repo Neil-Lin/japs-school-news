@@ -34,7 +34,7 @@ git diff --check
 ## 午餐資料層驗收
 
 - 本機執行 `python3 scripts/update_lunch.py --report /tmp/lunch-attempt.json`，確認五校學校代碼、餐日、供餐商、菜色及食材正確，再執行完整離線檢查與打包。午餐設定檔、更新器及診斷 report 不應出現在 `dist/`。
-- 在新版 main 手動執行 **Update lunch data**，驗證 GitHub runner 能公開讀取官方介面、提交僅涉及 `data/lunch/` 與必要的公開檔案清單，並確認成功事件接續 **Deploy Pages**。目前尚未完成這項雲端驗收，不啟用排程。
+- 在新版 main 手動執行 **Update lunch data**，驗證 GitHub runner 能公開讀取官方介面、提交僅涉及 `data/lunch/` 與必要的公開檔案清單，並確認成功事件接續 **Deploy Pages**。這項雲端驗收通過前，不啟用排程。
 - 部分失敗保留該校原快照與成功時間；全校皆失敗或不完整時不改寫任何公開檔案，工作流程失敗並留下 `lunch-attempt` artifact。同日菜單已存在時的空回應也不可清掉菜單。
 - 午餐資料更新不得改動 RSS 檔案或 shell 版本。午餐視窗已完成本機驗收；正式版仍需核對快照雜湊、跨日舊資料提示、午餐失敗時公告可正常閱讀，以及 iPhone／iPad Safari 的關閉與返回操作。
 
