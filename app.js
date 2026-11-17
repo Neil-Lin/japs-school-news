@@ -1,5 +1,5 @@
 import {
-  EXCLUDED_CATEGORY, articleLabel, articleTarget, defaultSelection, filterArticles,
+  articleLabel, articleTarget, defaultSelection, filterArticles, isDefaultExcluded,
   mergeArticles, normalize, pageOf, readState, safeURL, searchExcerpt, searchText,
   sourcesOf, stateURL, originalLinks,
 } from './news-core.mjs';
@@ -168,9 +168,9 @@ function start(bundle) {
       input.closest('.filter').classList.toggle('active', input.checked);
     }
     allCheckbox.indeterminate = state.selected.size > 0 && state.selected.size < categories.length;
-    const education = categories.find(category => category.name === EXCLUDED_CATEGORY);
+    const omitted = categories.filter(category => isDefaultExcluded(category) && !state.selected.has(category.id));
     filterSummary.textContent = state.selected.size === categories.length ? '已選全部分類'
-      : `已選 ${state.selected.size}/${categories.length} 類${education && !state.selected.has(education.id) ? '・未含教育局消息' : ''}`;
+      : `已選 ${state.selected.size}/${categories.length} 類${omitted.length ? '・未含' + omitted.map(category => category.name).join('、') : ''}`;
     const message = !state.selected.size ? '請至少選擇一個分類。' : '目前沒有符合條件的消息。';
     feed.innerHTML = items.length ? items.map(renderArticle).join('')
       : `<div class="empty"><p>${message}</p><button type="button" class="text-button" data-reset>清除搜尋並恢復預設</button></div>`;

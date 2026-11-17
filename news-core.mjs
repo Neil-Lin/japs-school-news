@@ -1,10 +1,13 @@
 export const PAGE_SIZE = 24;
 export const EXCLUDED_CATEGORY = '教育局消息';
+const DEFAULT_EXCLUDED_CATEGORY_IDS = new Set(['education-department', 'training', 'teacher-activities']);
+export const isDefaultExcluded = category => DEFAULT_EXCLUDED_CATEGORY_IDS.has(category.id)
+  || category.name === EXCLUDED_CATEGORY;
 
 export const sourcesOf = article => (article.sources || [article.source]).filter(Boolean);
 export const normalize = value => String(value || '').normalize('NFKC').toLocaleLowerCase('zh-TW').trim();
 export const defaultSelection = categories => new Set(
-  categories.filter(category => category.name !== EXCLUDED_CATEGORY).map(category => category.id),
+  categories.filter(category => !isDefaultExcluded(category)).map(category => category.id),
 );
 
 export function readState(search, categories) {

@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {
-  articleLabel, articleTarget, defaultSelection, filterArticles, mergeArticles,
+  articleLabel, articleTarget, defaultSelection, filterArticles, isDefaultExcluded, mergeArticles,
   pageOf, readState, searchExcerpt, stateURL,
 } from '../news-core.mjs';
 
@@ -23,6 +23,27 @@ test('default excludes education-only articles, retaining selected cross-categor
   const state = readState('', categories);
   assert.deepEqual([...state.selected], ['general', 'parents']);
   assert.deepEqual(filterArticles(articles, state, categories).map(item => item.title), ['入學', '講座', '跨分類', '附件']);
+});
+
+test('teacher training defaults off while parent categories and cross-category articles remain visible', () => {
+  const groups = [...categories, {id: 'training', name: '研習資訊'},
+    {id: 'teacher-activities', name: '教師研習及活動'}, {id: 'activities', name: '活動資訊'}];
+  const records = [...articles, {title: '教師研習', source: '研習資訊'},
+    {title: '教師活動', source: '教師研習及活動'}, {title: '親職研習', sources: ['研習資訊', '親職資訊']},
+    {title: '親子活動', source: '活動資訊'}];
+  const state = readState('', groups);
+  assert.deepEqual([...state.selected], ['general', 'parents', 'activities']);
+  const titles = filterArticles(records, state, groups).map(article => article.title);
+  assert.ok(titles.includes('親職研習'));
+  assert.ok(titles.includes('親子活動'));
+  assert.ok(!titles.includes('教師研習'));
+  assert.ok(!titles.includes('教師活動'));
+  const explicit = readState('?categories=training,teacher-activities', groups);
+  assert.deepEqual(filterArticles(records, explicit, groups).map(article => article.title), ['教師研習', '教師活動', '親職研習']);
+  assert.deepEqual(readState(stateURL('https://school.test/', explicit, groups).search, groups).selected, explicit.selected);
+  assert.equal(stateURL('https://school.test/', state, groups).search, '');
+  assert.deepEqual(defaultSelection([{id: 'training', name: '教師增能課程'},
+    {id: 'teacher-activities', name: '教師活動改名'}]), new Set());
 });
 
 test('multiple categories use union, then intersect with summary and attachment search', () => {
@@ -92,7 +113,7 @@ test('summary excerpt exposes why a hidden-body match appears, including fullwid
   assert.ok(searchExcerpt('ＡＩ新生課程', 'AI').includes('AI'));
 });
 
-test('real data: every school has default results and education remains opt-in', async () => {
+test('real data: every school has default results and education/teacher training remain opt-in', async () => {
   const config = JSON.parse(await readFile(new URL('../config.json', import.meta.url)));
   const data = JSON.parse(await readFile(new URL('../data/articles.json', import.meta.url)));
   const ids = Object.values(config.categoryIds);
@@ -102,9 +123,12 @@ test('real data: every school has default results and education remains opt-in',
   for (const school of config.schools) {
     const visible = merged.filter(article => article.schools.includes(school));
     const groups = [...new Set(visible.flatMap(article => article.sources))].map(name => ({id: config.categoryIds[name], name}));
-    const results = filterArticles(visible, readState('', groups), groups);
+    const state = readState('', groups);
+    const results = filterArticles(visible, state, groups);
+    for (const group of groups) if (isDefaultExcluded(group)) assert.equal(state.selected.has(group.id), false, school + ': ' + group.name);
     assert.ok(results.length > 0, school);
-    assert.ok(results.every(article => article.sources.some(name => name !== '教育局消息')), school);
+    const selectedNames = new Set(groups.filter(group => state.selected.has(group.id)).map(group => group.name));
+    assert.ok(results.every(article => article.sources.some(name => selectedNames.has(name))), school);
     assert.ok(results.length < visible.length, school);
   }
 });
