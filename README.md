@@ -48,19 +48,41 @@ python3 -m http.server 8000 --directory dist
 
 建置器依內容產生帶雜湊的 JS／CSS 檔名，並同步改寫模組 import、HTML、service worker 預快取與 `assets-manifest.json`。底層模組變動會更新相依模組版本，無須手動修改 `?v=`。只有資料快照變動時不會更換頁面資源快取版本。
 
-`--output dist` 只打包明確列出的公開檔案，目前為 32 個；不包含 Git、工作流程、腳本、測試或模板。根目錄舊版 JS／CSS 仍保留供部署切換期間的既有客戶端使用。發布資料通過驗證且完整產生後才替換既有產物；輸出含未知檔案、符號連結或指向原始碼目錄時會拒絕覆寫。
+`--output dist` 只打包明確列出的公開檔案，目前為 42 個（含 6 個午餐資料檔）；不包含 Git、工作流程、腳本、測試或模板。根目錄舊版 JS／CSS 仍保留供部署切換期間的既有客戶端使用。發布資料通過驗證且完整產生後才替換既有產物；輸出含未知檔案、符號連結或指向原始碼目錄時會拒絕覆寫。
+
+## 午餐資料
+
+已完成資料層與「今日午餐」閱讀視窗；尚未上線或啟用午餐排程。五校官方代碼集中在 `lunch-schools.json`，與公告設定、RSS 更新分開。更新器使用公開查詢服務，免登入、不需 API key；不下載照片，也不推算素食完整性或過敏原。
+
+```sh
+python3 scripts/update_lunch.py --report /tmp/lunch-attempt.json
+python3 scripts/build_site.py
+python3 scripts/check_project.py
+python3 scripts/build_site.py --output dist
+```
+
+預設查詢臺灣當天；`--date YYYY-MM-DD --output /tmp/lunch-preview` 可在獨立目錄驗證指定日期，不允許用較舊日期覆蓋已有較新查詢的目錄。請求循序發送、最少間隔 0.25 秒、15 秒逾時，暫時連線錯誤／429／部分 5xx 最多重試一次；每輪上限 200 次 HTTP 請求，每個 JSON 回應最多 2 MB。403、非 JSON、格式或學校／日期／批次不符都不當作空菜單。
+
+`data/lunch/<slug>.json` 僅保存該校最後一次完整驗證的資料，按供餐單位分開，菜色與調味料分開；每道菜保存食材名稱、製造商、產地、供應商及進貨登錄狀態。`data/lunch/status.json` 記錄本輪餐日、檢查時間、各校更新狀態、缺少項目、最近完整成功時間與快照 SHA-256。前端會核對原始 UTF-8 bytes 的雜湊後使用資料，不以更新狀態的查詢日取代快照原有餐日。
+
+部分學校失敗時保留其快照原始 bytes，更新狀態為 `error` 或 `partial`；不發布不完整菜單。有效空回應為 `no-record`，代表尚無資料，同一天已取得菜單後出現空回應則保留原菜單並記錄異常。全校皆失敗或不完整時回傳非零、不更改任何公開檔案，細節留在 `--report` 與 Actions artifact。資料先驗證及暫存，快照先替換、狀態清單最後替換，寫檔失敗回復已替換檔案。
+
+Hero 的「今日午餐」開啟桌機視窗／手機全螢幕視窗，依供餐商分組，點開菜色可查看食材、製造商、產地與供應商。只有開啟時才下載午餐狀態與本校資料；內容雜湊未變時重用既有資料。每校只保存一份完整快照於按網站路徑隔離的 `lunch-v1` 快取，不與公告快取混用；逾時或離線使用驗證過的本校快照並提示，尚無儲存資料時提供重試與官方入口。關閉／Escape／返回保留公告網址、搜尋、分類、頁碼與捲動位置，焦點回到午餐按鈕。舊餐日、超過 24 小時未檢查與更新失敗分開提示；首版照片透過官方完整資料連結查閱。
+
+目前只有手動更新工作流程；雲端讀取驗收後再啟用工作日 08:00／10:30／12:30 排程。完整欄位、官方來源及畫面規格見 [午餐介接規格](docs/lunch-integration.md)。
 
 ## GitHub Actions
 
-三條工作流程共用 `.github/actions/setup/action.yml` 的 Node.js 22／Python 3.12，無須安裝專案套件：
+四條工作流程共用 `.github/actions/setup/action.yml` 的 Node.js 22／Python 3.12，無須安裝專案套件：
 
 | 工作流程 | 觸發與責任 |
 | --- | --- |
 | `ci.yml`／Project checks | PR 或手動觸發，以唯讀權限執行完整離線檢查及發布打包。 |
 | `update-feed.yml`／Update RSS data | 每日臺灣時間 10:30、16:30 或手動觸發，只抓取、驗證並提交 `data/` 的產生資料。若遠端 main 已前進，正常 push 會失敗並留待重新執行，不強制覆寫。 |
-| `deploy.yml`／Deploy Pages | main push、手動觸發，或同儲存庫 main 的 RSS 工作流程成功完成時，檢查目前 main 並上傳 `dist/`，再以獨立 job 部署 Pages。此流程不抓取 RSS。 |
+| `update-lunch.yml`／Update lunch data | 目前只手動觸發，驗證並提交 `data/lunch/` 與必要的公開檔案清單，不修改 RSS。全校失敗不提交，保留診斷 artifact。 |
+| `deploy.yml`／Deploy Pages | main push、手動觸發，或同儲存庫 main 的 RSS／午餐工作流程成功完成時，檢查目前 main 並上傳 `dist/`，再以獨立 job 部署 Pages。此流程不抓取外部資料。 |
 
-RSS bot 使用的 `GITHUB_TOKEN` 提交不會再觸發 push 工作流程，因此資料更新透過成功的 `workflow_run` 接續部署。部署重新 checkout 可信的目前 main，不使用上游工作流程提供的程式碼或產物。Pages 與 OIDC 寫入權限只授予部署 job，RSS 工作流程沒有 Pages 權限。
+資料 bot 使用的 `GITHUB_TOKEN` 提交不會再觸發 push 工作流程，因此資料更新透過成功的 `workflow_run` 接續部署。部署重新 checkout 可信的目前 main，不使用上游工作流程提供的程式碼或產物。Pages 與 OIDC 寫入權限只授予部署 job，RSS／午餐工作流程沒有 Pages 權限。兩種資料更新各自提交限定路徑；遠端 main 前進造成 push 失敗時需重跑，不強制推送或覆蓋其他更新。
 
 正式儲存庫須將 Pages 的建置來源設為 GitHub Actions，並允許 RSS bot 寫入 main（受分支保護規則約束）。本機測試涵蓋 YAML 結構與工作流程契約；實際權限、事件串接及 Pages 發布仍須在 GitHub 上驗收。
 

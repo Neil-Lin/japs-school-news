@@ -1,13 +1,15 @@
 {
   "schemaVersion": 1,
   "assets": {
-    "app.js": "static/app.5abeb110f27b.js",
+    "app.js": "static/app.2efe8ecb8f44.js",
     "data-client.mjs": "static/data-client.c87a19507a3e.mjs",
+    "lunch-client.mjs": "static/lunch-client.d47d51283b89.mjs",
+    "lunch-ui.mjs": "static/lunch-ui.dc1fa20bc587.mjs",
     "news-core.mjs": "static/news-core.70ec861ddc6e.mjs",
     "school-data.mjs": "static/school-data.98d75975d0d2.mjs",
-    "styles.css": "static/styles.ad9c959afb15.css"
+    "styles.css": "static/styles.23f40a8bf9b6.css"
   },
-  "shellVersion": "4b483a3a73d817d3",
+  "shellVersion": "f9b01f72d9c6a22f",
   "pages": [
     "index.html",
     "renai/index.html",
@@ -28,6 +30,12 @@
     "config.json",
     "data-client.mjs",
     "data/articles.json",
+    "data/lunch/boai.json",
+    "data/lunch/dunhua.json",
+    "data/lunch/guangfu.json",
+    "data/lunch/jianan.json",
+    "data/lunch/renai.json",
+    "data/lunch/status.json",
     "data/schools/boai.json",
     "data/schools/dunhua.json",
     "data/schools/guangfu.json",
@@ -38,15 +46,19 @@
     "guangfu/index.html",
     "index.html",
     "jianan/index.html",
+    "lunch-client.mjs",
+    "lunch-ui.mjs",
     "manifest.json",
     "news-core.mjs",
     "renai/index.html",
     "school-data.mjs",
-    "static/app.5abeb110f27b.js",
+    "static/app.2efe8ecb8f44.js",
     "static/data-client.c87a19507a3e.mjs",
+    "static/lunch-client.d47d51283b89.mjs",
+    "static/lunch-ui.dc1fa20bc587.mjs",
     "static/news-core.70ec861ddc6e.mjs",
     "static/school-data.98d75975d0d2.mjs",
-    "static/styles.ad9c959afb15.css",
+    "static/styles.23f40a8bf9b6.css",
     "styles.css",
     "sw.js"
   ]

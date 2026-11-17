@@ -8,6 +8,7 @@ from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 import build_site as site
+import lunch_contract as lunch
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -30,6 +31,10 @@ class SiteBuildTests(unittest.TestCase):
             target = self.root / relative
             target.parent.mkdir(parents=True, exist_ok=True)
             shutil.copyfile(ROOT / relative, target)
+
+    def with_lunch(self):
+        shutil.copyfile(ROOT / 'lunch-schools.json', self.root / 'lunch-schools.json')
+        shutil.copytree(ROOT / 'data/lunch', self.root / 'data/lunch')
 
     def test_template_build_is_deterministic_and_check_is_read_only(self):
         first = site.build_workspace(self.root)
@@ -54,7 +59,19 @@ class SiteBuildTests(unittest.TestCase):
         self.assertIn('新學校&lt;&amp;&gt;', page)
         self.assertIn('a=1&amp;b=2', page)
         self.assertIn('"./new-school/"', (self.root / 'sw.js').read_text())
+        self.assertIn('data-lunch-school-id=""', page)
+        self.assertIn('aria-expanded="false" hidden', page)
         self.assertEqual(len(plan['metadata']['pages']), 7)
+
+    def test_lunch_entries_on_every_school_page_use_their_own_official_school_id(self):
+        self.with_lunch()
+        site.build_workspace(self.root)
+        for slug, school in lunch.load_settings(self.root).items():
+            page = (self.root / slug / 'index.html').read_text()
+            self.assertIn('data-lunch-school-id="' + school['schoolId'] + '"', page)
+            self.assertIn('aria-controls="lunchDialog"', page)
+            self.assertIn('aria-modal="true"', page)
+        self.assertIn('data-lunch-school-id="333605"', (self.root / 'index.html').read_text())
 
     def test_dependency_change_updates_all_dependent_asset_names_and_shell(self):
         before = site.build_workspace(self.root)
@@ -62,8 +79,10 @@ class SiteBuildTests(unittest.TestCase):
         path.write_text(path.read_text() + '\n// changed leaf module\n')
         self.assertTrue(site.check_workspace(self.root))
         after = site.build_workspace(self.root)
-        for name in site.MODULES:
+        for name in ('news-core.mjs', 'school-data.mjs', 'data-client.mjs', 'app.js'):
             self.assertNotEqual(before['metadata']['assets'][name], after['metadata']['assets'][name])
+        for name in ('lunch-client.mjs', 'lunch-ui.mjs'):
+            self.assertEqual(before['metadata']['assets'][name], after['metadata']['assets'][name])
         self.assertNotEqual(before['metadata']['shellVersion'], after['metadata']['shellVersion'])
         self.assertEqual(site.check_workspace(self.root), [])
         for name, old in before['metadata']['assets'].items():
@@ -116,6 +135,38 @@ class SiteBuildTests(unittest.TestCase):
         before = {path: (output / path).read_bytes() for path in files}
         site.package_site(output, self.root)
         self.assertEqual({path: (output / path).read_bytes() for path in files}, before)
+
+    def test_lunch_package_includes_only_validated_public_snapshots(self):
+        self.with_data()
+        self.with_lunch()
+        output = Path(self.temp.name) / 'dist'
+        site.package_site(output, self.root)
+        paths = {p.relative_to(output).as_posix() for p in output.rglob('*') if p.is_file()}
+        self.assertNotIn('lunch-schools.json', paths)
+        self.assertEqual({p for p in paths if p.startswith('data/lunch/')},
+                         {'data/lunch/status.json', *['data/lunch/' + slug + '.json'
+                          for slug in lunch.load_settings(self.root)]})
+        before = {p: (output / p).read_bytes() for p in paths}
+        (self.root / 'data/lunch/renai.json').write_text('{}')
+        with self.assertRaisesRegex(site.BuildError, '午餐快照驗證失敗'):
+            site.package_site(output, self.root)
+        self.assertEqual({p: (output / p).read_bytes() for p in paths}, before)
+
+    def test_lunch_check_metadata_updates_do_not_change_shell_or_public_file_list(self):
+        self.with_lunch()
+        before = site.build_workspace(self.root)
+        path = self.root / 'data/lunch/status.json'
+        manifest = json.loads(path.read_bytes())
+        # A failed attempt keeps all content hashes and dates while updating diagnostics.
+        manifest['checkedAt'] = '2099-01-01T00:00:00+00:00'
+        for entry in manifest['schools'].values():
+            entry['status'] = 'error'
+            entry['errors'] = [{'scope': 'meal', 'code': 'connection-error', 'message': 'timeout'}]
+        path.write_bytes(lunch.encode(manifest))
+        after = site.plan_site(self.root)
+        self.assertEqual(before['metadata'], after['metadata'])
+        self.assertEqual(before['generated'], after['generated'])
+        self.assertEqual(site.check_workspace(self.root), [])
 
     def test_invalid_school_data_does_not_replace_a_good_package(self):
         self.with_data()

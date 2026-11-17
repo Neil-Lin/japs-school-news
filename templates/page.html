@@ -16,7 +16,7 @@ $base_tag  <title>$page_title</title>
   <link rel="apple-touch-startup-image" href="assets/splash-750x1334.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)">
   <link rel="apple-touch-startup-image" href="assets/splash-1170x2532.png" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3)">
 </head>
-<body data-school="$school_slug">
+<body data-school="$school_slug" data-lunch-school-id="$lunch_school_id">
   <a class="skip-link" href="$skip_href">跳至公告內容</a>
   <header class="hero">
     <div class="wrap">
@@ -24,7 +24,10 @@ $base_tag  <title>$page_title</title>
       <nav id="schoolSwitch" class="school-switch" aria-label="選擇學校"></nav>
       <div class="heading-row">
         <h1 id="schoolTitle">$school_name <em>消息牆</em></h1>
-        <a id="officialSite" class="official-site" href="$official_site" target="_blank" rel="noopener">官方網站</a>
+        <div class="hero-actions">
+          <button id="lunchOpen" class="lunch-open" type="button" aria-haspopup="dialog" aria-controls="lunchDialog" aria-expanded="false" $lunch_hidden>今日午餐</button>
+          <a id="officialSite" class="official-site" href="$official_site" target="_blank" rel="noopener">官方網站</a>
+        </div>
       </div>
       <p class="intro">校內公告、家長資訊與教育消息，集中在這裡快速查看。</p>
       <details class="update-info">
@@ -69,6 +72,17 @@ $base_tag  <title>$page_title</title>
     <span>固定更新：每日 10:30、16:30（臺灣時間）</span>
     <a href="https://github.com/Neil-Lin/japs-school-news">GitHub</a>
   </footer>
+  <dialog id="lunchDialog" class="lunch-dialog" aria-modal="true" aria-labelledby="lunchTitle" aria-describedby="lunchSchool">
+    <div class="lunch-header">
+      <div><p id="lunchSchool">$school_name</p><h2 id="lunchTitle">今日午餐</h2></div>
+      <button id="lunchClose" class="lunch-close" type="button" autofocus>關閉<span aria-hidden="true"> ×</span></button>
+    </div>
+    <div class="lunch-scroll">
+      <p id="lunchStatus" class="lunch-status" role="status" aria-live="polite" aria-atomic="true"></p>
+      <div id="lunchContent"></div>
+      <div class="lunch-source"><a id="lunchSource" href="https://fatraceschool.k12ea.gov.tw/frontend/search.html" target="_blank" rel="noopener">查看官方完整資料 <span aria-hidden="true">↗</span><span class="sr-only">（另開分頁）</span></a><p>資料來源：教育部校園食材登錄平臺。菜色、食材與照片可至官方查閱。</p></div>
+    </div>
+  </dialog>
   <script type="module" src="$app_asset"></script>
 </body>
 </html>

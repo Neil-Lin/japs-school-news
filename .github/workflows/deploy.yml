@@ -5,7 +5,7 @@ name: Deploy Pages
   workflow_dispatch:
   # GITHUB_TOKEN commits do not trigger push workflows; completion does.
   workflow_run:
-    workflows: [Update RSS data]
+    workflows: [Update RSS data, Update lunch data]
     types: [completed]
     branches: [main]
 permissions:

@@ -45,6 +45,7 @@ test('activation removes only scoped/owned legacy entries, preserving another ap
   await app.storage.open(own + 'shell-old');
   await app.storage.open(own + 'snapshot-v2');
   await app.storage.open(own + 'snapshot-v3');
+  await app.storage.open(own + 'lunch-v1');
   await app.storage.open('unrelated-app-cache');
   await app.storage.open('school-news:/other-site/:shell-v1');
   const legacy = await app.storage.open('school-news-data-v1');
@@ -55,6 +56,7 @@ test('activation removes only scoped/owned legacy entries, preserving another ap
   assert.equal(app.cacheMaps.has(own + 'shell-old'), false);
   assert.equal(app.cacheMaps.has(own + 'snapshot-v2'), true);
   assert.equal(app.cacheMaps.has(own + 'snapshot-v3'), true);
+  assert.equal(app.cacheMaps.has(own + 'lunch-v1'), true);
   assert.equal(app.cacheMaps.has('unrelated-app-cache'), true);
   assert.equal(app.cacheMaps.has('school-news:/other-site/:shell-v1'), true);
   assert.equal((await legacy.keys()).length, 1);
@@ -76,6 +78,8 @@ test('data/config and unrelated same-origin requests are delegated to the verifi
   const app = runtime();
   assert.equal(request(app, './data/version.json', 'cors'), undefined);
   assert.equal(request(app, './data/articles.json?v=test', 'cors'), undefined);
+  assert.equal(request(app, './data/lunch/status.json', 'cors'), undefined);
+  assert.equal(request(app, './data/lunch/renai.json?v=test', 'cors'), undefined);
   assert.equal(request(app, './config.json?v=test', 'cors'), undefined);
   assert.equal(request(app, 'https://example.test/other-site/app.js', 'cors'), undefined);
 });
