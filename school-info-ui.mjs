@@ -88,7 +88,10 @@ export function setupSchoolInfoDialog() {
   dialog.addEventListener('cancel', event => { event.preventDefault(); requestClose(); });
   dialog.addEventListener('keydown', event => {
     if (event.key !== 'Tab') return;
-    const targets = [...dialog.querySelectorAll('button:not([disabled]), a[href]')].filter(node => node.getClientRects().length);
+    const targets = [...dialog.querySelectorAll('button:not([disabled]), a[href], summary')].filter(node => {
+      const collapsed = node.closest('details:not([open])');
+      return node.getClientRects().length && (!collapsed || node === collapsed.querySelector('summary'));
+    });
     const first = targets[0], last = targets.at(-1);
     if (event.shiftKey && (document.activeElement === first || !dialog.contains(document.activeElement))) {
       event.preventDefault();
