@@ -1,0 +1,37 @@
+name: Update RSS data
+"on":
+  schedule:
+    # UTC 02:30/08:30 = Taiwan 10:30/16:30.
+    - cron: '30 2 * * *'
+    - cron: '30 8 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: rss-update-main
+  cancel-in-progress: false
+jobs:
+  update:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+      - uses: ./.github/actions/setup
+      - name: Check code and the current snapshot without fetching sources
+        run: python scripts/check_project.py
+      - name: Fetch RSS and publish a validated snapshot
+        run: python scripts/update_feed.py
+      - name: Validate the new snapshot and school artifacts
+        run: python scripts/validate_project.py
+      - name: Save only generated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/articles.json data/version.json data/schools
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update school news"
+            git push origin HEAD:main
+          fi

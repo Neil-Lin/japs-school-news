@@ -1,31 +1,300 @@
-const PAGE_SIZE=24;
-if('serviceWorker' in navigator && (location.protocol==='https:' || location.hostname==='localhost')){window.addEventListener('load',()=>navigator.serviceWorker.register(new URL('sw.js',document.baseURI),{scope:new URL('./',document.baseURI).pathname}).catch(error=>console.warn('PWA service worker registration failed',error)))}
-if(!document.querySelector('#sourceStatus')){const node=document.createElement('p');node.id='sourceStatus';node.className='source-status';node.setAttribute('aria-live','polite');document.querySelector('.hero .wrap')?.append(node)}
-if(!document.querySelector('#refreshData')){const button=document.createElement('button');button.id='refreshData';button.className='refresh-data';button.type='button';button.textContent='更新資料';button.setAttribute('aria-label','重新載入最新公告資料');button.onclick=()=>{button.disabled=true;button.textContent='更新中…';location.reload()};document.querySelector('#updated')?.after(button)}
-const esc=value=>(value||'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
-const fmt=value=>value?new Intl.DateTimeFormat('zh-TW',{dateStyle:'medium',timeStyle:'short',timeZone:'Asia/Taipei'}).format(new Date(value)):'時間未提供';
-const articleHasBody=article=>(article.summary||'').trim().length>0;
-const articleTarget=article=>articleHasBody(article)&&article.url?article.url:(article.siteUrl||article.sourceUrl||article.url);
-const articleLabel=article=>articleHasBody(article)?'閱讀公告':'此篇只有附檔 請前往官網查看';
-const articleSummary=article=>(article.summary||'').trim()||((article.attachments||[]).length?'':'附件名稱未由來源提供，請前往官網查看。');
-const articleAttachments=article=>(article.attachments||[]).filter(Boolean).map(item=>{const name=typeof item==='string'?item:item.name;return item.url?`<a class="attachment" href="${esc(item.url)}" target="_blank" rel="noopener">附件：${esc(name)}</a>`:`<span class="attachment">附件：${esc(name)}</span>`}).join('');
-const taiwanDate=value=>value?new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Taipei',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(value)):'';
+import {
+  EXCLUDED_CATEGORY, articleLabel, articleTarget, defaultSelection, filterArticles,
+  mergeArticles, normalize, pageOf, readState, safeURL, searchExcerpt, searchText,
+  sourcesOf, stateURL, originalLinks,
+} from './news-core.mjs';
+import {loadSnapshot} from './data-client.mjs';
 
-const mergeArticles=articles=>{const merged=new Map();articles.forEach(article=>{const schools=article.schools||['仁愛國小'];const normalizedTitle=(article.title||'').replace(/^(轉知[:：]\s*)+/,'');const key=normalizedTitle+'::'+schools.slice().sort().join('|');const current=merged.get(key);if(!current){merged.set(key,{...article,schools:[...schools],sources:[...(article.sources||[article.source]).filter(Boolean)]});return}current.schools=[...new Set([...current.schools,...schools])];current.sources=[...new Set([...current.sources,...(article.sources||[article.source]).filter(Boolean)])];if((article.summary||'').length>(current.summary||'').length)current.summary=article.summary;if(article.published>current.published)current.published=article.published;if((article.attachments||[]).length>(current.attachments||[]).length)current.attachments=article.attachments});return [...merged.values()]};
+const esc = value => String(value ?? '').replace(/[&<>"']/g, char => (
+  {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[char]
+));
+const dateFormatter = new Intl.DateTimeFormat('zh-TW', {
+  dateStyle: 'medium', timeStyle: 'short', timeZone: 'Asia/Taipei',
+});
+const shortFormatter = new Intl.DateTimeFormat('zh-TW', {
+  month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false, timeZone: 'Asia/Taipei',
+});
+const dayFormatter = new Intl.DateTimeFormat('en-CA', {
+  timeZone: 'Asia/Taipei', year: 'numeric', month: '2-digit', day: '2-digit',
+});
+const fmt = (value, formatter = dateFormatter) => {
+  const date = new Date(value);
+  return value && !Number.isNaN(date.getTime()) ? formatter.format(date) : '時間未提供';
+};
+const highlight = (text, query) => {
+  const value = String(text || '');
+  const term = normalize(query);
+  const index = term ? value.toLocaleLowerCase('zh-TW').indexOf(term) : -1;
+  if (index < 0) return esc(value);
+  return esc(value.slice(0, index)) + '<mark>' + esc(value.slice(index, index + term.length))
+    + '</mark>' + esc(value.slice(index + term.length));
+};
 
-const rootPath=schoolMeta=>location.pathname.replace(new RegExp('('+Object.values(schoolMeta).map(meta=>meta.slug).join('|')+')\\/?$'),'');
-const loadData=async()=>{const versionResponse=await fetch('data/version.json?refresh='+Date.now(),{cache:'no-store'});if(!versionResponse.ok)throw new Error('版本資料無法載入');const version=await versionResponse.json();const configResponse=await fetch('config.json?refresh='+Date.now(),{cache:'no-store'});const dataResponse=await fetch('data/articles.json?v='+encodeURIComponent(version.updatedAt||''));if(!configResponse.ok||!dataResponse.ok)throw new Error('設定或文章資料無法載入');return {config:await configResponse.json(),data:await dataResponse.json()}};
+if ('serviceWorker' in navigator && (location.protocol === 'https:'
+  || ['localhost', '127.0.0.1'].includes(location.hostname))) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register(new URL('sw.js', document.baseURI), {
+      scope: new URL('./', document.baseURI).pathname,
+    }).catch(error => console.warn('PWA service worker registration failed', error));
+  });
+}
 
-loadData().then(({config,data})=>{const schoolMeta=config.schoolMeta||{};const schools=config.schools||Object.keys(schoolMeta);const activeSchool=schools.find(s=>new RegExp('/'+schoolMeta[s]?.slug+'(?:/|$)').test(location.pathname))||schools[0];const articles=mergeArticles(data.articles||[]);const updated=document.querySelector('#updated');const status=document.querySelector('#sourceStatus');const switcher=document.querySelector('#schoolSwitch');const title=document.querySelector('#schoolTitle');const filters=document.querySelector('#filters');const feed=document.querySelector('#feed');const pagination=document.querySelector('#pagination');const search=document.querySelector('#search');const today=taiwanDate(new Date());const visibleForSchool=articles.filter(article=>(article.schools||['仁愛國小']).includes(activeSchool));const todayCount=visibleForSchool.filter(article=>taiwanDate(article.published)===today).length;updated.textContent=data.updatedAt?'資料更新｜'+fmt(data.updatedAt)+'｜今日新增 '+todayCount+' 筆':'尚未更新';if(status){const errors=(data.sourceStatus||[]).filter(item=>item.status==='error');status.textContent=errors.length?'部分來源暫時無法更新：'+errors.map(item=>item.name).join('、'):'所有來源更新正常';status.classList.toggle('warning',errors.length>0)}let active='全部';let page=1;let query='';
-  switcher.innerHTML=schools.map(s=>`<button type="button" class="school-tab ${s===activeSchool?'active':''}" aria-pressed="${s===activeSchool}" data-school="${esc(s)}">${esc(s)}</button>`).join('');
-  switcher.querySelectorAll('.school-tab').forEach(button=>button.onclick=()=>{location.href=rootPath(schoolMeta)+schoolMeta[button.dataset.school].slug+'/'});
-  title.innerHTML=esc(activeSchool)+'<br><em>消息牆</em><a class="official-site" href="'+esc(schoolMeta[activeSchool].site)+'" target="_blank" rel="noopener">官方網站</a>';
-  const visible=visibleForSchool;
-  const groups=[...new Set(visible.flatMap(article=>article.sources||[article.source]).filter(Boolean))];
-  filters.innerHTML=['全部',...groups].map(group=>`<button type="button" class="filter ${group===active?'active':''}" data-source="${esc(group)}">${esc(group)}</button>`).join('');
-  const matches=article=>{const text=[article.title,article.summary,article.source,...(article.sources||[]),...(article.attachments||[]).map(item=>typeof item==='string'?item:item.name)].filter(Boolean).join(' ').toLocaleLowerCase('zh-TW');return !query||text.includes(query.toLocaleLowerCase('zh-TW'))};
-  const paint=()=>{const list=visible.filter(article=>(active==='全部'||(article.sources||[article.source]).includes(active))&&matches(article));const totalPages=Math.max(1,Math.ceil(list.length/PAGE_SIZE));page=Math.min(page,totalPages);const pageItems=list.slice((page-1)*PAGE_SIZE,page*PAGE_SIZE);feed.innerHTML=pageItems.length?pageItems.map(article=>`<article class="card"><div class="meta"><span class="badges">${(article.sources||[article.source]).map(source=>`<span class="tag">${esc(source)}</span>`).join('')}</span><time>${esc(fmt(article.published))}</time></div><h2>${esc(article.title)}</h2>${articleTarget(article)?`<a class="read" href="${esc(articleTarget(article))}" target="_blank" rel="noopener">${articleLabel(article)} <span>↗</span></a>`:`<p class="summary">${esc(articleSummary(article))}</p>`}${articleAttachments(article)}</article>`).join(''):'<p class="empty">目前沒有符合條件的消息。</p>';const start=Math.min(Math.max(1,page-2),Math.max(1,totalPages-4));const end=Math.min(totalPages,start+4);pagination.innerHTML=`<span class="pagination-total">共 ${totalPages} 頁 ${list.length} 筆</span><button type="button" class="page-nav" data-page="${page-1}" ${page===1?'disabled':''}>上一頁</button>${Array.from({length:end-start+1},(_,index)=>start+index).map(number=>`<button type="button" class="page-number ${number===page?'active':''}" data-page="${number}" aria-current="${number===page?'page':'false'}">${number}</button>`).join('')}<button type="button" class="page-nav" data-page="${page+1}" ${page===totalPages?'disabled':''}>下一頁</button>`;pagination.querySelectorAll('button:not([disabled])').forEach(button=>button.onclick=()=>{page=Number(button.dataset.page);paint();feed.scrollIntoView({behavior:'smooth',block:'start'})})};
-  filters.querySelectorAll('.filter').forEach(button=>{button.setAttribute('aria-pressed',String(button.dataset.source===active));button.onclick=()=>{active=button.dataset.source;filters.querySelectorAll('.filter').forEach(filter=>{const selected=filter.dataset.source===active;filter.classList.toggle('active',selected);filter.setAttribute('aria-pressed',String(selected))});page=1;paint()}});
-  if(search)search.oninput=()=>{query=search.value.trim();page=1;paint()};
-  paint();
-}).catch(error=>{console.error(error);document.querySelector('#feed').innerHTML='<p class="empty">暫時無法載入消息資料，請稍後再試。</p>'});
+const loadData = () => loadSnapshot({baseURL: document.baseURI, schoolSlug: document.body.dataset.school});
+let uiController;
+
+function showDataState({data, mode, cacheAvailable}) {
+  const node = document.querySelector('#cacheStatus');
+  const stale = Date.now() - Date.parse(data.updatedAt) > 24 * 60 * 60 * 1000;
+  const notes = [];
+  if (mode === 'cached') notes.push('無法取得最新資料，目前顯示上次成功的公告。');
+  if (stale) notes.push('來源超過 24 小時未檢查，公告可能尚未更新。');
+  if (mode !== 'cached' && !cacheAvailable) notes.push('這次資料無法儲存供離線閱讀，請保持網路連線。');
+  node.textContent = notes.join(' ');
+  node.hidden = !notes.length;
+  return {stale};
+}
+
+function setSchoolHeader(config, activeSchool) {
+  const {schools, schoolMeta} = config;
+  const root = new URL('./', document.baseURI);
+  document.querySelector('#schoolSwitch').innerHTML = schools.map(school => (
+    `<a class="school-tab ${school === activeSchool ? 'active' : ''}" href="${esc(new URL(schoolMeta[school].slug + '/', root).href)}" ${school === activeSchool ? 'aria-current="page"' : ''}>${esc(school)}</a>`
+  )).join('');
+  document.querySelector('#schoolTitle').innerHTML = esc(activeSchool) + ' <em>消息牆</em>';
+  const official = document.querySelector('#officialSite');
+  official.href = safeURL(schoolMeta[activeSchool].site);
+  official.setAttribute('aria-label', activeSchool + '官方網站（另開分頁）');
+}
+
+function start(bundle) {
+  const {config, data, mode} = bundle;
+  uiController?.abort();
+  uiController = new AbortController();
+  const on = (target, name, handler) => target.addEventListener(name, handler, {signal: uiController.signal});
+  const schoolMeta = config.schoolMeta || {};
+  const schools = config.schools || Object.keys(schoolMeta);
+  const activeSchool = schools.find(school => location.pathname.split('/').includes(schoolMeta[school]?.slug)) || schools[0];
+  const articles = (data.premerged ? data.articles : mergeArticles(data.articles || []))
+    .filter(article => (article.schools || ['仁愛國小']).includes(activeSchool))
+    .map(article => ({...article, searchText: searchText(article)}));
+  const groups = [...new Set([
+    ...config.sources.filter(source => source.school === activeSchool || source.schools?.includes(activeSchool)).map(source => source.name),
+    ...articles.flatMap(sourcesOf),
+  ])];
+  const categories = groups.map(name => ({name, id: config.categoryIds[name]}));
+  if (categories.some(category => !category.id)) throw new Error('缺少分類識別碼');
+
+  const search = document.querySelector('#search');
+  const filters = document.querySelector('#filters');
+  const feed = document.querySelector('#feed');
+  const pagination = document.querySelector('#pagination');
+  const resultHeading = document.querySelector('#resultHeading');
+  const resultStatus = document.querySelector('#resultStatus');
+  const filterSummary = document.querySelector('#filterSummary');
+  const clearSearch = document.querySelector('#clearSearch');
+  const refresh = document.querySelector('#refreshData');
+  const today = dayFormatter.format(new Date());
+  const todayCount = articles.filter(article => article.published && !Number.isNaN(Date.parse(article.published))
+    && dayFormatter.format(new Date(article.published)) === today).length;
+  document.querySelector('#updated').textContent = data.updatedAt
+    ? '最近檢查 ' + fmt(data.updatedAt, shortFormatter) + '・今日新增 ' + todayCount + ' 筆' : '尚未更新';
+  const statuses = (data.sourceStatus || []).filter(item => !item.schools || item.schools.includes(activeSchool));
+  const issues = statuses.filter(item => item.status !== 'ok');
+  document.querySelector('#sourceStatus').textContent = issues.length
+    ? '部分來源需要注意：' + issues.map(item => item.name).join('、') : '本校所有來源最近更新正常';
+  document.querySelector('#sourceDetails').innerHTML = statuses.map(item => (
+    `<li><strong>${esc(item.name)}</strong>・${item.status === 'error' ? '更新失敗' : item.status === 'warning' ? '有警告' : '正常'}<br>
+      最近成功：${item.lastSuccessfulAt ? esc(fmt(item.lastSuccessfulAt)) : '尚無成功紀錄'}
+      ${item.error ? `<p>${esc(item.error)}</p>` : ''}
+      ${(item.warnings || []).map(warning => `<p>${esc(warning)}</p>`).join('')}</li>`
+  )).join('');
+  const {stale} = showDataState(bundle);
+  const hint = document.querySelector('#statusHint');
+  hint.textContent = mode === 'cached' ? '使用上次資料' : stale ? '資料待更新' : issues.length ? '部分來源異常' : '更新詳情';
+  hint.classList.toggle('warning', mode === 'cached' || stale || issues.length > 0);
+
+  setSchoolHeader(config, activeSchool);
+
+  filters.innerHTML = [{id: '__all', name: '全部'}, ...categories].map(category => (
+    `<label class="filter"><input type="checkbox" value="${esc(category.id)}"><span>${esc(category.name)}</span></label>`
+  )).join('');
+  const allCheckbox = filters.querySelector('input[value="__all"]');
+  let state = readState(location.search, categories);
+  let editingSearch = false;
+  search.value = state.query;
+
+  function renderAttachments(article) {
+    const items = (article.attachments || []).filter(Boolean).map(item => {
+      const name = typeof item === 'string' ? item : item.name;
+      const url = typeof item === 'object' && safeURL(item.url);
+      return url
+        ? `<a class="attachment" href="${esc(url)}" target="_blank" rel="noopener">附件：${highlight(name, state.query)}<span class="sr-only">（另開分頁）</span></a>`
+        : `<span class="attachment">附件：${highlight(name, state.query)}</span>`;
+    });
+    if (!items.length) return '';
+    return '<div class="attachments">' + items.slice(0, 2).join('') + (items.length > 2
+      ? `<details class="more-attachments"><summary>還有 ${items.length - 2} 個附件</summary>${items.slice(2).join('')}</details>` : '') + '</div>';
+  }
+
+  function renderOriginalLinks(article) {
+    const links = originalLinks(article);
+    if (links.length < 2) return '';
+    return `<details class="original-links"><summary>各來源原文（${links.length}）</summary>${links.map(link => (
+      `<a class="attachment" href="${esc(link.url)}" target="_blank" rel="noopener">${esc(link.sources.join('、') || '原文')}<span class="sr-only">（另開分頁）</span></a>`
+    )).join('')}</details>`;
+  }
+
+  function renderArticle(article) {
+    const target = articleTarget(article);
+    const title = highlight(article.title, state.query);
+    const excerpt = searchExcerpt(article.summary, state.query);
+    return `<article class="card">
+      <div class="meta"><span class="badges">${sourcesOf(article).map(source => `<span class="tag">${highlight(source, state.query)}</span>`).join('')}</span><time ${article.published ? `datetime="${esc(article.published)}"` : ''}>${esc(fmt(article.published))}</time></div>
+      <h3>${target ? `<a href="${esc(target)}" target="_blank" rel="noopener">${title}<span class="sr-only">（另開分頁）</span></a>` : title}</h3>
+      ${excerpt ? `<p class="summary match-excerpt">${highlight(excerpt, state.query)}</p>` : ''}
+      ${target ? `<a class="read" href="${esc(target)}" target="_blank" rel="noopener" aria-label="${esc(articleLabel(article) + '：' + article.title + '（另開分頁）')}">${articleLabel(article)} <span aria-hidden="true">↗</span></a>` : '<p class="summary">來源未提供原文連結。</p>'}
+      ${renderAttachments(article)}
+      ${renderOriginalLinks(article)}
+    </article>`;
+  }
+
+  function paint() {
+    const list = filterArticles(articles, state, categories);
+    const {page, totalPages, items} = pageOf(list, state.page);
+    state.page = page;
+    for (const input of filters.querySelectorAll('input')) {
+      input.checked = input === allCheckbox ? state.selected.size === categories.length : state.selected.has(input.value);
+      input.closest('.filter').classList.toggle('active', input.checked);
+    }
+    allCheckbox.indeterminate = state.selected.size > 0 && state.selected.size < categories.length;
+    const education = categories.find(category => category.name === EXCLUDED_CATEGORY);
+    filterSummary.textContent = state.selected.size === categories.length ? '已選全部分類'
+      : `已選 ${state.selected.size}/${categories.length} 類${education && !state.selected.has(education.id) ? '・未含教育局消息' : ''}`;
+    const message = !state.selected.size ? '請至少選擇一個分類。' : '目前沒有符合條件的消息。';
+    feed.innerHTML = items.length ? items.map(renderArticle).join('')
+      : `<div class="empty"><p>${message}</p><button type="button" class="text-button" data-reset>清除搜尋並恢復預設</button></div>`;
+    resultStatus.textContent = `${state.query ? `「${state.query}」・` : ''}共 ${list.length} 筆${list.length ? `・第 ${page}/${totalPages} 頁` : ''}`;
+    clearSearch.hidden = !search.value;
+    const start = Math.min(Math.max(1, page - 2), Math.max(1, totalPages - 4));
+    const end = Math.min(totalPages, start + 4);
+    pagination.innerHTML = list.length ? `<span class="pagination-total">共 ${totalPages} 頁 ${list.length} 筆</span>
+      <button type="button" class="page-nav" data-page="${page - 1}" ${page === 1 ? 'disabled' : ''}>上一頁</button>
+      ${Array.from({length: end - start + 1}, (_, index) => start + index).map(number => `<button type="button" class="page-number ${number === page ? 'active' : ''}" data-page="${number}" aria-label="第 ${number} 頁" ${number === page ? 'aria-current="page"' : ''}>${number}</button>`).join('')}
+      <button type="button" class="page-nav" data-page="${page + 1}" ${page === totalPages ? 'disabled' : ''}>下一頁</button>` : '';
+  }
+
+  function saveURL(mode = 'push') {
+    const url = stateURL(location.href, state, categories);
+    if (url.href !== location.href) history[mode === 'replace' ? 'replaceState' : 'pushState'](null, '', url);
+    const skipURL = new URL(location.href);
+    skipURL.hash = 'main';
+    document.querySelector('.skip-link').href = skipURL.href;
+  }
+
+  function change(mode = 'push') {
+    paint();
+    saveURL(mode);
+  }
+
+  function reset() {
+    state = {selected: defaultSelection(categories), query: '', page: 1};
+    search.value = '';
+    editingSearch = false;
+    change();
+  }
+
+  on(filters, 'change', event => {
+    const input = event.target;
+    if (input === allCheckbox) state.selected = input.checked ? new Set(categories.map(category => category.id)) : new Set();
+    else if (input.checked) state.selected.add(input.value);
+    else state.selected.delete(input.value);
+    state.page = 1;
+    editingSearch = false;
+    change();
+  });
+  const updateSearch = () => {
+    const query = search.value.trim();
+    if (query === state.query) {
+      clearSearch.hidden = !search.value;
+      return;
+    }
+    state.query = query;
+    state.page = 1;
+    change(editingSearch ? 'replace' : 'push');
+    editingSearch = true;
+  };
+  on(search, 'input', event => {
+    if (!event.isComposing) updateSearch();
+  });
+  on(search, 'compositionend', updateSearch);
+  on(search, 'blur', () => { editingSearch = false; });
+  on(clearSearch, 'click', () => {
+    search.value = '';
+    editingSearch = false;
+    updateSearch();
+    search.focus();
+  });
+  on(document.querySelector('#resetFilters'), 'click', reset);
+  on(feed, 'click', event => {
+    if (event.target.closest('[data-reset]')) {
+      reset();
+      search.focus();
+    }
+  });
+  on(pagination, 'click', event => {
+    const button = event.target.closest('button[data-page]');
+    if (!button || button.disabled) return;
+    state.page = Number(button.dataset.page);
+    editingSearch = false;
+    change();
+    resultHeading.focus({preventScroll: true});
+    document.querySelector('#results').scrollIntoView({
+      behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start',
+    });
+  });
+  on(window, 'popstate', () => {
+    state = readState(location.search, categories);
+    search.value = state.query;
+    editingSearch = false;
+    change('replace');
+  });
+  on(refresh, 'click', async () => {
+    saveURL('replace');
+    refresh.disabled = true;
+    refresh.textContent = '檢查中…';
+    try {
+      const next = await loadData();
+      if (next.mode === 'network') start(next);
+      else {
+        showDataState({...bundle, mode: 'cached'});
+        hint.textContent = '使用上次資料';
+      }
+    } catch {
+      showDataState({...bundle, mode: 'cached'});
+      hint.textContent = '使用上次資料';
+    } finally {
+      refresh.disabled = false;
+      refresh.textContent = '檢查最新資料';
+    }
+  });
+  change('replace');
+}
+
+function showError(error) {
+  console.error(error);
+  if (error.config && error.schoolSlug) {
+    const school = error.config.schools.find(name => error.config.schoolMeta?.[name]?.slug === error.schoolSlug);
+    if (school) setSchoolHeader(error.config, school);
+  }
+  document.querySelector('#search').disabled = true;
+  document.querySelector('#resetFilters').disabled = true;
+  document.querySelector('#updated').textContent = '暫時無法取得更新資料';
+  document.querySelector('#statusHint').textContent = '載入失敗';
+  document.querySelector('#sourceStatus').textContent = '請確認網路連線後重試。';
+  document.querySelector('#resultStatus').textContent = '公告載入失敗';
+  const message = error.code === 'school-data-unavailable' ? error.message : '暫時無法載入消息資料，請稍後再試。';
+  document.querySelector('#feed').innerHTML = '<div class="empty"><p>' + esc(message) + '</p><button type="button" id="retryLoad" class="text-button">重新載入</button></div>';
+  document.querySelector('#retryLoad').onclick = () => location.reload();
+}
+
+loadData().then(start).catch(showError);

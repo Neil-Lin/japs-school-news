@@ -1,0 +1,22 @@
+name: Project checks
+"on":
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: checks-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: ./.github/actions/setup
+      - name: Check generated pages, code and data
+        run: python scripts/check_project.py
+      - name: Verify the public deployment package
+        run: python scripts/build_site.py --output dist

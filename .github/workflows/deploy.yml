@@ -1,0 +1,59 @@
+name: Deploy Pages
+"on":
+  push:
+    branches: [main]
+  workflow_dispatch:
+  # GITHUB_TOKEN commits do not trigger push workflows; completion does.
+  workflow_run:
+    workflows: [Update RSS data]
+    types: [completed]
+    branches: [main]
+permissions:
+  contents: read
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    if: >-
+      github.ref == 'refs/heads/main' &&
+      (github.event_name != 'workflow_run' ||
+       (github.event.workflow_run.conclusion == 'success' &&
+        github.event.workflow_run.head_repository.full_name == github.repository))
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      # Always use trusted, current main. Do not consume an upstream build artifact.
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: ./.github/actions/setup
+      - name: Validate the committed snapshot without fetching RSS
+        run: python scripts/check_project.py
+      - name: Build an explicit public package
+        run: python scripts/build_site.py --output dist
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url || steps.retry.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - name: Deploy the validated public artifact
+        id: deployment
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+      - name: Retry Pages deployment once
+        id: retry
+        if: steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@v4
