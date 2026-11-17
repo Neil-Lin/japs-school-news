@@ -1,0 +1,159 @@
+{
+  "meals": {
+    "result": 1,
+    "message": "Get Offering Meal successful",
+    "data": [
+      {
+        "BatchDataId": "1794873420077243",
+        "KitchenId": 35491,
+        "KitchenName": "統鮮美食股份有限公司(三興國小)",
+        "SchoolId": 323609,
+        "SchoolCode": "323609",
+        "SchoolName": "臺北市信義區博愛國小",
+        "MenuDate": "2026/11/17",
+        "MenuType": 1,
+        "MenuTypeName": "午餐",
+        "UploadDateTime": "2026-11-16T23:57:01.000Z",
+        "TypeGrains": "4.33",
+        "TypeOil": "0.5",
+        "TypeVegetable": "1.07",
+        "TypeMilk": "0",
+        "TypeFruit": "0.37",
+        "TypeMeatBeans": "2.26",
+        "Calorie": "537"
+      }
+    ]
+  },
+  "dishes": {
+    "result": 1,
+    "message": "Get Dish successful",
+    "data": [
+      {
+        "DishBatchDataId": "1794873420077245",
+        "BatchDataId": "1794873420077243",
+        "DishName": "糙米飯",
+        "DishType": "主食",
+        "DishId": "1567347568178959",
+        "UpdateDateTime": "2026-11-16T23:57:01.000Z",
+        "DishOrder": 10,
+        "KitchenId": 35491,
+        "PicturePath": "/mnt/hdb/cateringservice/dish/35491//35491_1567347568178959."
+      },
+      {
+        "DishBatchDataId": "1794873420077250",
+        "BatchDataId": "1794873420077243",
+        "DishName": "咖哩雞丁",
+        "DishType": "主菜",
+        "DishId": "1604880269307727",
+        "UpdateDateTime": "2026-11-16T23:57:01.000Z",
+        "DishOrder": 12,
+        "KitchenId": 35491,
+        "PicturePath": "/mnt/hdb/cateringservice/dish/35491//35491_1604880269307727."
+      },
+      {
+        "DishBatchDataId": "1794873420077248",
+        "BatchDataId": "1794873420077243",
+        "DishName": "腰果炒雜菜",
+        "DishType": "副菜",
+        "DishId": "1794873420072366",
+        "UpdateDateTime": "2026-11-16T23:57:01.000Z",
+        "DishOrder": 16,
+        "KitchenId": 35491,
+        "PicturePath": "/mnt/hdb/cateringservice/dish/35491//35491_1794873420072366."
+      },
+      {
+        "DishBatchDataId": "1794873420077244",
+        "BatchDataId": "1794873420077243",
+        "DishName": "有機青松菜",
+        "DishType": "蔬菜",
+        "DishId": "1569194098106584",
+        "UpdateDateTime": "2026-11-16T23:57:01.000Z",
+        "DishOrder": 22,
+        "KitchenId": 35491,
+        "PicturePath": "/mnt/hdb/cateringservice/dish/35491//35491_1569194098106584."
+      },
+      {
+        "DishBatchDataId": "1794873420077246",
+        "BatchDataId": "1794873420077243",
+        "DishName": "白菜三絲湯",
+        "DishType": "湯品",
+        "DishId": "1718669208088113",
+        "UpdateDateTime": "2026-11-16T23:57:01.000Z",
+        "DishOrder": 23,
+        "KitchenId": 35491,
+        "PicturePath": "/mnt/hdb/cateringservice/dish/35491//35491_1718669208088113."
+      },
+      {
+        "DishBatchDataId": "1794873420077249",
+        "BatchDataId": "1794873420077243",
+        "DishName": "楊桃",
+        "DishType": "附餐",
+        "DishId": "1570233596330200",
+        "UpdateDateTime": "2026-11-16T23:57:01.000Z",
+        "DishOrder": 24,
+        "KitchenId": 35491,
+        "PicturePath": "/mnt/hdb/cateringservice/dish/35491//35491_1570233596330200."
+      },
+      {
+        "DishBatchDataId": "1794873420077247",
+        "BatchDataId": "1794873420077243",
+        "DishName": "調味料",
+        "DishId": "1567136166122573",
+        "UpdateDateTime": "2026-11-16T23:57:01.000Z",
+        "DishOrder": 26,
+        "KitchenId": 35491,
+        "PicturePath": ""
+      }
+    ]
+  },
+  "ingredients": {
+    "result": 1,
+    "message": "Get Ingredient successful",
+    "data": [
+      {
+        "IngredientBatchId": "1794874065080782",
+        "BatchDataId": "1794873420077243",
+        "DishId": "1567347568178959",
+        "IngredientName": "白米",
+        "StockDate": "2026-11-11T16:00:00.000Z",
+        "SupplierName": "聯友糧食行",
+        "Manufacturer": "太保市農會",
+        "IngredientSource": {
+          "id": 0,
+          "countryId": 1,
+          "name": "臺灣"
+        },
+        "IngredientSourceNameList": "臺灣",
+        "Certification": [
+          {
+            "SourceCertification": "臺灣有機農產品",
+            "CertificationId": "1-009-110001"
+          }
+        ]
+      },
+      {
+        "IngredientBatchId": "1794874065080781",
+        "BatchDataId": "1794873420077243",
+        "DishId": "1567347568178959",
+        "IngredientName": "糙米",
+        "StockDate": "2026-11-12T16:00:00.000Z",
+        "SupplierName": "安食達食材通路股份有限公司",
+        "Manufacturer": "宏元",
+        "IngredientSource": [
+          {
+            "id": "988711661",
+            "countryId": "1",
+            "name": "臺灣"
+          }
+        ],
+        "IngredientSourceNameList": "臺灣",
+        "Certification": [
+          {
+            "SourceCertification": "",
+            "CertificationId": ""
+          }
+        ]
+      }
+    ]
+  }
+}

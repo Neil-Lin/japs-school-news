@@ -1,4 +1,5 @@
-import {loadLunch, lunchSourceURL, taipeiDay} from './lunch-client.mjs';
+import {lunchSourceURL, taipeiDay} from './lunch-client.mjs';
+import {loadCurrentLunch} from './lunch-live.mjs';
 
 const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[char]));
 const timeFormat = new Intl.DateTimeFormat('zh-TW', {month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false, timeZone: 'Asia/Taipei'});
@@ -10,7 +11,8 @@ export function lunchPresentation(bundle, now = new Date()) {
   const {snapshot, entry, manifest, mode} = bundle;
   const today = taipeiDay(now);
   const notices = [];
-  if (mode === 'cached') notices.push('目前無法取得最新資料，顯示此裝置上次儲存的菜單。');
+  if (bundle.officialUnavailable) notices.push('目前無法取得官方最新資料，顯示最近一次完整資料。');
+  else if (mode === 'cached') notices.push('目前無法取得最新資料，顯示此裝置上次儲存的菜單。');
   if (snapshot && snapshot.mealDate !== today) notices.push(`目前顯示 ${fmtDay(snapshot.mealDate)} 的資料，請留意供餐日期。`);
   if (now.getTime() - Date.parse(manifest.checkedAt) > 24 * 60 * 60 * 1000) notices.push('午餐資料已超過 24 小時未檢查，最新內容請至官方確認。');
   if (entry.status === 'partial') notices.push(snapshot ? '本次更新不完整，目前保留上次完整菜單。' : '本次午餐資料尚未完整取得。');
@@ -33,7 +35,7 @@ function renderIngredient(item) {
 
 function renderDish(dish, seasoning = false) {
   return `<li><details class="lunch-dish${seasoning ? ' lunch-seasoning' : ''}">
-    <summary><span class="lunch-dish-title">${dish.type ? `<span class="lunch-type">${esc(dish.type)}</span>` : ''}<strong>${esc(dish.name)}</strong></span><span class="lunch-disclosure">${seasoning ? '調味料明細' : '食材明細'}<span aria-hidden="true">＋</span></span></summary>
+    <summary><span class="lunch-dish-title">${dish.type ? `<span class="lunch-type">${esc(dish.type)}</span>` : ''}<strong>${esc(dish.name)}</strong></span><span class="lunch-disclosure"><span class="lunch-detail-closed">${seasoning ? '調味料明細' : '食材明細'}</span><span class="lunch-detail-open">收合明細</span><span class="lunch-chevron" aria-hidden="true"></span></span></summary>
     <div class="lunch-dish-body">
       ${dish.ingredientStatus === 'partial' ? '<p class="lunch-registration">部分食材尚未登錄進貨資訊。</p>' : ''}
       ${dish.ingredients.length ? `<ul class="lunch-ingredients">${dish.ingredients.map(renderIngredient).join('')}</ul>` : '<p class="lunch-empty-detail">此菜色尚無食材登錄資料，可至官方確認。</p>'}
@@ -46,7 +48,7 @@ export function renderLunch(bundle, now = new Date()) {
   const issues = entry.errors.map(error => `${error.providerName || '供餐資料'}${error.dishName ? '・' + error.dishName : ''}：${error.scope === 'ingredient' ? '食材明細未取得' : error.scope === 'dish' ? '菜色資料未取得' : '供餐資料未取得'}`);
   return `<div class="lunch-overview"><p class="lunch-label">供餐日期</p><h3>${esc(fmtDay(view.date))}</h3>
       <p class="lunch-count">${esc(view.summary)}</p>
-      <p class="lunch-timestamp">最近檢查 <time datetime="${esc(manifest.checkedAt)}">${esc(fmtTime(manifest.checkedAt))}</time>${snapshot ? `・本站資料更新 <time datetime="${esc(snapshot.fetchedAt)}">${esc(fmtTime(snapshot.fetchedAt))}</time>` : ''}</p></div>
+      <p class="lunch-timestamp">${bundle.origin === 'official' ? '官方資料讀取' : '最近檢查'} <time datetime="${esc(manifest.checkedAt)}">${esc(fmtTime(manifest.checkedAt))}</time>${snapshot && bundle.origin !== 'official' ? `・本站資料更新 <time datetime="${esc(snapshot.fetchedAt)}">${esc(fmtTime(snapshot.fetchedAt))}</time>` : ''}</p></div>
     ${view.notices.length ? `<aside class="lunch-notices" aria-label="午餐資料提醒">${view.notices.map(note => `<p>${esc(note)}</p>`).join('')}
       ${issues.length ? `<details class="lunch-issues"><summary>查看缺少的資料（${issues.length}）</summary><ul>${issues.map(issue => `<li>${esc(issue)}</li>`).join('')}</ul></details>` : ''}</aside>` : ''}
     ${snapshot?.status === 'available' ? `<p class="lunch-guide">依供餐單位分組，點開菜色查看食材、產地與供應商。</p>
@@ -62,6 +64,7 @@ export function setupLunchDialog() {
   const dialog = document.querySelector('#lunchDialog');
   const schoolSlug = document.body.dataset.school;
   const schoolId = document.body.dataset.lunchSchoolId;
+  const schoolName = document.body.dataset.lunchSchoolName;
   if (!trigger || !dialog || !schoolId) return;
   const content = dialog.querySelector('#lunchContent');
   const status = dialog.querySelector('#lunchStatus');
@@ -122,7 +125,7 @@ export function setupLunchDialog() {
     source.href = lunchSourceURL(schoolId, taipeiDay());
     dialog.querySelector('.lunch-scroll').scrollTop = 0;
     try {
-      const bundle = await loadLunch({baseURL: document.baseURI, schoolSlug, schoolId, signal: controller.signal});
+      const bundle = await loadCurrentLunch({baseURL: document.baseURI, schoolSlug, schoolId, schoolName, signal: controller.signal});
       if (!dialog.open || current !== serial) return;
       content.innerHTML = renderLunch(bundle);
       source.href = bundle.snapshot?.sourceUrl || lunchSourceURL(schoolId, bundle.manifest.requestedDate);

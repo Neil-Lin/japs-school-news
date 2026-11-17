@@ -12,10 +12,10 @@ from string import Template
 from lunch_contract import public_files as lunch_public_files, load_settings as lunch_settings
 
 ROOT = Path(__file__).resolve().parents[1]
-MODULES = ("news-core.mjs", "school-data.mjs", "data-client.mjs", "lunch-client.mjs", "lunch-ui.mjs", "app.js")
+MODULES = ("news-core.mjs", "school-data.mjs", "data-client.mjs", "lunch-client.mjs", "lunch-live.mjs", "lunch-ui.mjs", "app.js")
 IMAGES = ("icon-192.png", "icon-512.png", "splash-750x1334.png", "splash-1170x2532.png")
 IMPORT = re.compile(r"(?P<lead>\b(?:from|import)\s*['\"])(?P<path>\./[^'\"]+\.(?:mjs|js))(?:\?[^'\"]*)?(?P<quote>['\"])")
-STATIC = re.compile(r"static/(?:app|news-core|data-client|school-data|lunch-client|lunch-ui|styles)\.[a-f0-9]{12}\.(?:mjs|js|css)")
+STATIC = re.compile(r"static/(?:app|news-core|data-client|school-data|lunch-client|lunch-live|lunch-ui|styles)\.[a-f0-9]{12}\.(?:mjs|js|css)")
 
 
 def public_path(path):
@@ -99,6 +99,7 @@ def plan_site(root=ROOT):
             "style_asset": assets["styles.css"], "app_asset": assets["app.js"],
             "school_slug": meta["slug"], "school_name": name,
             "lunch_school_id": lunch_schools.get(meta['slug'], {}).get('schoolId', ''),
+            "lunch_school_name": lunch_schools.get(meta['slug'], {}).get('schoolName', ''),
             "lunch_hidden": '' if meta['slug'] in lunch_schools else 'hidden',
             "official_site": meta["site"], "skip_href": f"{meta['slug']}/#main" if school else "#main",
             "source_labels": "、".join(schools + ["臺北市教育局"]),
