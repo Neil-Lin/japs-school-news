@@ -8,9 +8,9 @@
     "lunch-ui.mjs": "static/lunch-ui.c1573f3ec6b3.mjs",
     "news-core.mjs": "static/news-core.b00d881528b9.mjs",
     "school-data.mjs": "static/school-data.7bea4d54d8f6.mjs",
-    "styles.css": "static/styles.1c28e06a9cb1.css"
+    "styles.css": "static/styles.22ad45c88a64.css"
   },
-  "shellVersion": "bd0155e7733b211a",
+  "shellVersion": "1539c5bbf2fe3080",
   "pages": [
     "index.html",
     "renai/index.html",
@@ -61,7 +61,7 @@
     "static/lunch-ui.c1573f3ec6b3.mjs",
     "static/news-core.b00d881528b9.mjs",
     "static/school-data.7bea4d54d8f6.mjs",
-    "static/styles.1c28e06a9cb1.css",
+    "static/styles.22ad45c88a64.css",
     "styles.css",
     "sw.js"
   ]
