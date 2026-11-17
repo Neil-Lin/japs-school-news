@@ -10,16 +10,18 @@ import tempfile
 from pathlib import Path, PurePosixPath
 from string import Template
 from lunch_contract import public_files as lunch_public_files, load_settings as lunch_settings
+from school_info import load_info, render_info
 
 ROOT = Path(__file__).resolve().parents[1]
-MODULES = ("news-core.mjs", "school-data.mjs", "data-client.mjs", "lunch-client.mjs", "lunch-live.mjs", "lunch-ui.mjs", "app.js")
+MODULES = ("news-core.mjs", "school-data.mjs", "data-client.mjs", "lunch-client.mjs", "lunch-live.mjs", "lunch-ui.mjs", "school-info-ui.mjs", "app.js")
 IMAGES = ("icon-192.png", "icon-512.png", "splash-750x1334.png", "splash-1170x2532.png")
+ASSETS = (*IMAGES, "info.svg", "LICENSE-lucide.txt")
 IMPORT = re.compile(r"(?P<lead>\b(?:from|import)\s*['\"])(?P<path>\./[^'\"]+\.(?:mjs|js))(?:\?[^'\"]*)?(?P<quote>['\"])")
-STATIC = re.compile(r"static/(?:app|news-core|data-client|school-data|lunch-client|lunch-live|lunch-ui|styles)\.[a-f0-9]{12}\.(?:mjs|js|css)")
+STATIC = re.compile(r"static/(?:app|news-core|data-client|school-data|lunch-client|lunch-live|lunch-ui|school-info-ui|styles)\.[a-f0-9]{12}\.(?:mjs|js|css)")
 
 
 def public_path(path):
-    fixed = {"index.html", "sw.js", "assets-manifest.json", "config.json", "manifest.json", "styles.css", ".nojekyll", "data/articles.json", "data/version.json", *MODULES, *["assets/" + name for name in IMAGES]}
+    fixed = {"index.html", "sw.js", "assets-manifest.json", "config.json", "manifest.json", "styles.css", ".nojekyll", "data/articles.json", "data/version.json", *MODULES, *["assets/" + name for name in ASSETS]}
     return isinstance(path, str) and (path in fixed or bool(STATIC.fullmatch(path))
         or bool(re.fullmatch(r"[a-z][a-z0-9-]*/index\.html", path))
         or bool(re.fullmatch(r"data/schools/[a-z][a-z0-9-]*\.json", path))
@@ -47,6 +49,7 @@ def json_bytes(value):
 def plan_site(root=ROOT):
     root = Path(root)
     config = json.loads(read_source(root, "config.json"))
+    school_info = load_info(root, config)
     manifest = json.loads(read_source(root, "manifest.json"))
     schools = config["schools"]
     if not schools or set(schools) != set(config["schoolMeta"]):
@@ -101,17 +104,19 @@ def plan_site(root=ROOT):
             "lunch_school_id": lunch_schools.get(meta['slug'], {}).get('schoolId', ''),
             "lunch_school_name": lunch_schools.get(meta['slug'], {}).get('schoolName', ''),
             "lunch_hidden": '' if meta['slug'] in lunch_schools else 'hidden',
+            "info_hidden": '' if school_info and meta['slug'] in school_info['schools'] else 'hidden',
             "official_site": meta["site"], "skip_href": f"{meta['slug']}/#main" if school else "#main",
             "source_labels": "、".join(schools + ["臺北市教育局"]),
         }
         values = {key: value if key == "base_tag" else html.escape(value, quote=True) for key, value in values.items()}
+        values['school_info_content'] = render_info(school_info, meta['slug'])
         generated[relative] = template.substitute(values).encode("utf-8")
         pages.append(relative)
     shell = ["./"] + [f"./{slug}/" for slug in slugs] + ["./" + path for path in sorted(assets.values())]
-    shell += ["./manifest.json"] + ["./assets/" + name for name in IMAGES]
+    shell += ["./manifest.json"] + ["./assets/" + name for name in ASSETS]
     shell_inputs = {path: generated[path] for path in generated}
     shell_inputs.update({"manifest.json": read_source(root, "manifest.json"), "templates/sw.js": read_source(root, "templates/sw.js")})
-    shell_inputs.update({"assets/" + name: read_source(root, "assets/" + name) for name in IMAGES})
+    shell_inputs.update({"assets/" + name: read_source(root, "assets/" + name) for name in ASSETS})
     digest = hashlib.sha256()
     for path, content in sorted(shell_inputs.items()):
         digest.update(path.encode("utf-8") + b"\0" + content + b"\0")
@@ -119,7 +124,7 @@ def plan_site(root=ROOT):
     generated["sw.js"] = read_source(root, "templates/sw.js").decode("utf-8").replace("__SHELL_VERSION__", shell_version).replace("__SHELL__", json.dumps(shell, ensure_ascii=False, indent=2)).encode("utf-8")
     public = set(generated) | {"assets-manifest.json", "config.json", "manifest.json", "styles.css", ".nojekyll", "data/articles.json", "data/version.json"}
     public.update(MODULES)
-    public.update("assets/" + name for name in IMAGES)
+    public.update("assets/" + name for name in ASSETS)
     public.update(f"data/schools/{slug}.json" for slug in slugs)
     try:
         public.update(lunch_public_files(root))

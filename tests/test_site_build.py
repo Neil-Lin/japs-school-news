@@ -18,7 +18,7 @@ class SiteBuildTests(unittest.TestCase):
         self.temp = tempfile.TemporaryDirectory()
         self.root = Path(self.temp.name) / 'source'
         self.root.mkdir()
-        for name in [*site.MODULES, 'styles.css', 'config.json', 'manifest.json', 'templates/page.html', 'templates/sw.js', *['assets/' + name for name in site.IMAGES]]:
+        for name in [*site.MODULES, 'school-info.json', 'styles.css', 'config.json', 'manifest.json', 'templates/page.html', 'templates/sw.js', *['assets/' + name for name in site.ASSETS]]:
             target = self.root / name
             target.parent.mkdir(parents=True, exist_ok=True)
             shutil.copyfile(ROOT / name, target)

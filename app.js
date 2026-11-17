@@ -5,6 +5,7 @@ import {
 } from './news-core.mjs';
 import {loadSnapshot} from './data-client.mjs';
 import {setupLunchDialog} from './lunch-ui.mjs';
+import {setupSchoolInfoDialog, showOpeningAnnouncements} from './school-info-ui.mjs';
 
 const esc = value => String(value ?? '').replace(/[&<>"']/g, char => (
   {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[char]
@@ -115,6 +116,7 @@ function start(bundle) {
   hint.classList.toggle('warning', mode === 'cached' || stale || issues.length > 0);
 
   setSchoolHeader(config, activeSchool);
+  showOpeningAnnouncements(articles, schoolMeta[activeSchool].site);
 
   filters.innerHTML = [{id: '__all', name: '全部'}, ...categories].map(category => (
     `<label class="filter"><input type="checkbox" value="${esc(category.id)}"><span>${esc(category.name)}</span></label>`
@@ -299,4 +301,5 @@ function showError(error) {
 }
 
 setupLunchDialog();
+setupSchoolInfoDialog();
 loadData().then(start).catch(showError);

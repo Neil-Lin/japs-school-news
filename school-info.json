@@ -1,0 +1,284 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-11-18",
+  "directoryYear": "115",
+  "sources": {
+    "directory": {
+      "url": "https://data.gov.tw/dataset/6087",
+      "downloadURL": "https://stats.moe.gov.tw/files/school/115/e1_new.csv",
+      "sha256": "3c261c4485feecce0ca281ebf7fb581611b8968876fb5f6b52d19bfa877ad350"
+    },
+    "campus": {
+      "url": "https://data.taipei/dataset/detail?id=82c0badd-efbe-4e96-8153-885494c72cd1",
+      "downloadURL": "https://data.taipei/api/frontstage/tpeod/dataset/resource.download?rid=f37de02a-623d-4f72-bca9-7c7aad2f0e10",
+      "listedUpdatedOn": "2026-10-19",
+      "sha256": "7c4b4515bd803711201800b13146fb0d2efb76112cc6f9b0883b2712e040402e"
+    }
+  },
+  "schools": {
+    "renai": {
+      "schoolId": "333605",
+      "name": "臺北市大安區仁愛國民小學",
+      "address": "臺北市大安區敦安里安和路1段60號",
+      "phone": "02-27095010",
+      "website": "https://www.japs.tp.edu.tw",
+      "basicSource": {
+        "label": "教育部115學年度國小名錄",
+        "url": "https://data.gov.tw/dataset/6087"
+      },
+      "contactSource": "https://www.japs.tp.edu.tw",
+      "opening": {
+        "basis": "校方公告",
+        "rows": [
+          {
+            "label": "週一至週五",
+            "hours": "05:00–07:00、18:30–21:30"
+          },
+          {
+            "label": "週六",
+            "hours": "05:00–07:00、13:00–21:00"
+          },
+          {
+            "label": "週日",
+            "hours": "05:00–20:00"
+          },
+          {
+            "label": "寒暑假週一至週五",
+            "hours": "05:00–07:00、17:00–21:30"
+          }
+        ],
+        "note": "運動場一般開放時段；工程、活動與臨時調整另依校方公告。市府登錄的平日晚間時段不同，此處依校方門禁文件整理。",
+        "sources": [
+          {
+            "label": "校方門禁與運動場開放時間（PDF）",
+            "url": "https://www.japs.tp.edu.tw/uploads/1747617457894HRzwuvSv.pdf"
+          }
+        ]
+      },
+      "sourceRecords": {
+        "directory": {
+          "學年度": "115",
+          "代碼": "333605",
+          "學校名稱": "市立仁愛國小",
+          "公/私立": "公立",
+          "縣市名稱": "[33]臺北市",
+          "地址": "[106]臺北市大安區敦安里安和路1段60號",
+          "電話": "(02)27095010",
+          "網址": "https://www.japs.tp.edu.tw"
+        },
+        "campus": {
+          "序號": "41",
+          "校名": "臺北市大安區仁愛國民小學",
+          "行政區": "大安區",
+          "郵遞區號": "106",
+          "機關代碼": "379071800Y",
+          "縣市別代碼": "63000",
+          "校園場地開放時間": "周一~周五0500-0700，1750-2130。周六0500-0700，1300-2100。周日0500-2000"
+        }
+      }
+    },
+    "jianan": {
+      "schoolId": "333604",
+      "name": "臺北市大安區建安國民小學",
+      "address": "臺北市大安區龍雲里大安路2段99號",
+      "phone": "02-27077119",
+      "website": "https://www.jnps.tp.edu.tw",
+      "basicSource": {
+        "label": "教育部115學年度國小名錄",
+        "url": "https://data.gov.tw/dataset/6087"
+      },
+      "contactSource": "https://www.jnps.tp.edu.tw",
+      "opening": {
+        "basis": "校方公告",
+        "rows": [
+          {
+            "label": "夜間",
+            "hours": "19:00–21:00"
+          },
+          {
+            "label": "週末",
+            "hours": "09:00–17:00"
+          }
+        ],
+        "note": "依114學年度第2學期學校日宣導資料整理，僅列文件明示的社區使用時段；週末時段與市府登錄不同，請出發前向學校確認。",
+        "sources": [
+          {
+            "label": "校方學校日宣導資料（PDF）",
+            "url": "https://class.jnps.tp.edu.tw/new_class/419/up_files/news/114下學校日處室報告公告0306再新增.pdf"
+          }
+        ]
+      },
+      "sourceRecords": {
+        "directory": {
+          "學年度": "115",
+          "代碼": "333604",
+          "學校名稱": "市立建安國小",
+          "公/私立": "公立",
+          "縣市名稱": "[33]臺北市",
+          "地址": "[106]臺北市大安區龍雲里大安路2段99號",
+          "電話": "(02)27077119",
+          "網址": "https://www.jnps.tp.edu.tw"
+        },
+        "campus": {
+          "序號": "40",
+          "校名": "臺北市大安區建安國民小學",
+          "行政區": "大安區",
+          "郵遞區號": "106",
+          "機關代碼": "379071700Y",
+          "縣市別代碼": "63000",
+          "校園場地開放時間": "周一~周五06:00~07:00，19:00~21:00 周六日06:00~17:30"
+        }
+      }
+    },
+    "dunhua": {
+      "schoolId": "313604",
+      "name": "臺北市松山區敦化國民小學",
+      "address": "臺北市松山區中正里敦化北路2號",
+      "phone": "02-27414065",
+      "website": "https://www.thps.tp.edu.tw",
+      "basicSource": {
+        "label": "教育部115學年度國小名錄",
+        "url": "https://data.gov.tw/dataset/6087"
+      },
+      "contactSource": "https://www.thps.tp.edu.tw",
+      "opening": {
+        "basis": "市府登錄",
+        "rows": [],
+        "note": "市府資料登錄「因施工未開放」，未列恢復日期；此為登錄資訊，出發前請先洽學校確認。",
+        "sources": [
+          {
+            "label": "市府校園開放資料",
+            "url": "https://data.taipei/dataset/detail?id=82c0badd-efbe-4e96-8153-885494c72cd1"
+          }
+        ]
+      },
+      "sourceRecords": {
+        "directory": {
+          "學年度": "115",
+          "代碼": "313604",
+          "學校名稱": "市立敦化國小",
+          "公/私立": "公立",
+          "縣市名稱": "[31]臺北市",
+          "地址": "[105]臺北市松山區中正里敦化北路2號",
+          "電話": "(02)27414065",
+          "網址": "https://www.thps.tp.edu.tw"
+        },
+        "campus": {
+          "序號": "9",
+          "校名": "臺北市松山區敦化國民小學",
+          "行政區": "松山區",
+          "郵遞區號": "105",
+          "機關代碼": "379070800Y",
+          "縣市別代碼": "63000",
+          "校園場地開放時間": "因施工未開放"
+        }
+      }
+    },
+    "boai": {
+      "schoolId": "323609",
+      "name": "臺北市信義區博愛國民小學",
+      "address": "臺北市信義區松仁路95巷20號",
+      "phone": "02-23450616",
+      "website": "https://www.baps.tp.edu.tw",
+      "basicSource": {
+        "label": "教育部115學年度國小名錄",
+        "url": "https://data.gov.tw/dataset/6087"
+      },
+      "contactSource": "https://www.baps.tp.edu.tw",
+      "opening": {
+        "basis": "市府登錄",
+        "rows": [
+          {
+            "label": "週一至週五",
+            "hours": "05:00–07:00、17:30–21:30"
+          },
+          {
+            "label": "週六、週日",
+            "hours": "05:00–21:30"
+          }
+        ],
+        "note": "市府登錄的一般開放資訊，實際開放範圍與臨時調整請以學校公告為準。",
+        "sources": [
+          {
+            "label": "市府校園開放資料",
+            "url": "https://data.taipei/dataset/detail?id=82c0badd-efbe-4e96-8153-885494c72cd1"
+          }
+        ]
+      },
+      "sourceRecords": {
+        "directory": {
+          "學年度": "115",
+          "代碼": "323609",
+          "學校名稱": "市立博愛國小",
+          "公/私立": "公立",
+          "縣市名稱": "[32]臺北市",
+          "地址": "[110]臺北市信義區松仁路22鄰95巷20號",
+          "電話": "(02)23450616",
+          "網址": "https://www.baps.tp.edu.tw"
+        },
+        "campus": {
+          "序號": "28",
+          "校名": "臺北市信義區博愛國民小學",
+          "行政區": "信義區",
+          "郵遞區號": "110",
+          "機關代碼": "379089400Y",
+          "縣市別代碼": "63000",
+          "校園場地開放時間": "周一-周五5:00-7:00，17:30-21:30 六日5:00-21:30"
+        }
+      }
+    },
+    "guangfu": {
+      "schoolId": "323603",
+      "name": "臺北市信義區光復國民小學",
+      "address": "臺北市信義區光復南路271號",
+      "phone": "02-27585076",
+      "website": "https://www.kfps.tp.edu.tw",
+      "basicSource": {
+        "label": "教育部115學年度國小名錄",
+        "url": "https://data.gov.tw/dataset/6087"
+      },
+      "contactSource": "https://www.kfps.tp.edu.tw",
+      "opening": {
+        "basis": "市府登錄",
+        "rows": [
+          {
+            "label": "週一至週五",
+            "hours": "18:00–21:30"
+          },
+          {
+            "label": "週六、週日",
+            "hours": "08:00–18:00"
+          }
+        ],
+        "note": "市府登錄時段與校方較早的管理原則不同，此處列市府資料供參考；出發前請洽學校確認。",
+        "sources": [
+          {
+            "label": "市府校園開放資料",
+            "url": "https://data.taipei/dataset/detail?id=82c0badd-efbe-4e96-8153-885494c72cd1"
+          }
+        ]
+      },
+      "sourceRecords": {
+        "directory": {
+          "學年度": "115",
+          "代碼": "323603",
+          "學校名稱": "市立光復國小",
+          "公/私立": "公立",
+          "縣市名稱": "[32]臺北市",
+          "地址": "[110]臺北市信義區光復南路271號",
+          "電話": "(02)27585076",
+          "網址": "https://www.kfps.tp.edu.tw"
+        },
+        "campus": {
+          "序號": "22",
+          "校名": "臺北市信義區光復國民小學",
+          "行政區": "信義區",
+          "郵遞區號": "110",
+          "機關代碼": "379084200Y",
+          "縣市別代碼": "63000",
+          "校園場地開放時間": "周一-周五18:00-21:30 六日8:00-18:00"
+        }
+      }
+    }
+  }
+}

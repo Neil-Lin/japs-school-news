@@ -7,7 +7,7 @@
   <base href="../">
   <title>敦化國小消息牆</title>
   <meta name="description" content="敦化國小校內公告、家長資訊與教育消息，支援分類多選與關鍵字搜尋。">
-  <link rel="stylesheet" href="static/styles.22ad45c88a64.css">
+  <link rel="stylesheet" href="static/styles.b052b1ce7df5.css">
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#18332f">
   <meta name="mobile-web-app-capable" content="yes">
@@ -40,6 +40,7 @@
           <button id="refreshData" class="refresh-data" type="button">檢查最新資料</button>
         </div>
       </details>
+      <button id="schoolInfoOpen" class="school-info-open" type="button" aria-haspopup="dialog" aria-controls="schoolInfoDialog" aria-expanded="false" ><img class="school-info-icon" src="assets/info.svg" width="16" height="16" alt=""><span>基本資訊</span></button>
       <p id="cacheStatus" class="data-state" role="status" aria-live="polite" hidden></p>
     </div>
   </header>
@@ -84,6 +85,29 @@
       <div class="lunch-source"><a id="lunchSource" href="https://fatraceschool.k12ea.gov.tw/frontend/search.html" target="_blank" rel="noopener">查看官方完整資料 <span aria-hidden="true">↗</span><span class="sr-only">（另開分頁）</span></a><p>資料來源：教育部校園食材登錄平臺。菜色、食材與照片可至官方查閱。</p></div>
     </div>
   </dialog>
-  <script type="module" src="static/app.b96683f22ef3.js"></script>
+  <dialog id="schoolInfoDialog" class="lunch-dialog school-info-dialog" aria-modal="true" aria-labelledby="schoolInfoTitle" aria-describedby="schoolInfoName">
+    <div class="lunch-header">
+      <div><p id="schoolInfoName">敦化國小</p><h2 id="schoolInfoTitle">基本資訊</h2></div>
+      <button id="schoolInfoClose" class="lunch-close" type="button" autofocus>關閉<span aria-hidden="true"> ×</span></button>
+    </div>
+    <div class="lunch-scroll school-info-scroll"><section class="school-info-section" aria-labelledby="schoolContactTitle">
+      <h3 id="schoolContactTitle">聯絡資訊</h3>
+      <dl class="school-contact">
+        <div><dt>地址</dt><dd>臺北市松山區中正里敦化北路2號<br><a href="https://www.google.com/maps/search/?api=1&amp;query=%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%E6%95%A6%E5%8C%96%E5%9C%8B%E6%B0%91%E5%B0%8F%E5%AD%B8+%E8%87%BA%E5%8C%97%E5%B8%82%E6%9D%BE%E5%B1%B1%E5%8D%80%E4%B8%AD%E6%AD%A3%E9%87%8C%E6%95%A6%E5%8C%96%E5%8C%97%E8%B7%AF2%E8%99%9F" target="_blank" rel="noopener">查看地圖與導航<span class="sr-only">（另開分頁）</span></a></dd></div>
+        <div><dt>電話</dt><dd><a href="tel:0227414065">02-27414065</a></dd></div>
+        <div><dt>官網</dt><dd><a href="https://www.thps.tp.edu.tw" target="_blank" rel="noopener">前往學校官方網站<span class="sr-only">（另開分頁）</span></a></dd></div>
+      </dl>
+      <p class="school-info-source">基本資料：<a href="https://data.gov.tw/dataset/6087" target="_blank" rel="noopener">教育部115學年度國小名錄<span class="sr-only">（另開分頁）</span></a>，並核對<a href="https://www.thps.tp.edu.tw" target="_blank" rel="noopener">學校官網<span class="sr-only">（另開分頁）</span></a>。</p>
+    </section>
+    <section class="school-info-section" aria-labelledby="schoolHoursTitle">
+      <div class="school-info-section-heading"><h3 id="schoolHoursTitle">校園場地開放時間</h3><span>市府登錄</span></div>
+      <p class="school-opening-note">市府資料登錄「因施工未開放」，未列恢復日期；此為登錄資訊，出發前請先洽學校確認。</p>
+      <p class="school-info-source">來源：<a href="https://data.taipei/dataset/detail?id=82c0badd-efbe-4e96-8153-885494c72cd1" target="_blank" rel="noopener">市府校園開放資料<span class="sr-only">（另開分頁）</span></a></p>
+      <p class="school-info-source">此處為一般開放資訊，並非即時開放狀態。國定假日、寒暑假或特殊活動未列明的時段，請洽學校確認。</p>
+      <div id="schoolOpeningNotices" class="school-opening-notices" hidden></div>
+    </section>
+    <p class="school-info-reviewed">本站資料查核：<time datetime="2026-11-18">2026/11/18</time>。與頁面公告的「最近檢查」分開計算。</p></div>
+  </dialog>
+  <script type="module" src="static/app.656e621de59b.js"></script>
 </body>
 </html>
