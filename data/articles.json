@@ -1,571 +1,620 @@
 {
-  "updatedAt": "2026-11-16T18:46:22.207195+00:00",
+  "schemaVersion": 2,
+  "updatedAt": "2026-11-17T01:02:30.241363+00:00",
+  "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
   "errors": [],
   "sourceStatus": [
     {
-      "name": "防疫資訊（博愛國小）",
-      "status": "ok",
-      "itemCount": 26,
       "id": "boai-epidemic-info",
+      "name": "防疫資訊（博愛國小）",
       "schools": [
         "博愛國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 26,
+      "status": "ok",
+      "itemCount": 26,
       "lastSuccessfulItemCount": 26,
       "warnings": []
     },
     {
-      "name": "榮譽榜（博愛國小）",
-      "status": "ok",
-      "itemCount": 100,
       "id": "boai-honors",
+      "name": "榮譽榜（博愛國小）",
       "schools": [
         "博愛國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
+      "status": "ok",
+      "itemCount": 100,
       "lastSuccessfulItemCount": 100,
       "warnings": []
     },
     {
-      "name": "最新消息（博愛國小）",
-      "status": "ok",
-      "itemCount": 100,
       "id": "boai-latest",
+      "name": "最新消息（博愛國小）",
       "schools": [
         "博愛國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulItemCount": 100,
-      "warnings": []
-    },
-    {
-      "name": "研習資訊（博愛國小）",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
-      "id": "boai-training",
-      "schools": [
-        "博愛國小"
-      ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
       "lastSuccessfulItemCount": 100,
       "warnings": []
     },
     {
-      "name": "競賽活動（敦化國小）",
+      "id": "boai-training",
+      "name": "研習資訊（博愛國小）",
+      "schools": [
+        "博愛國小"
+      ],
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
       "status": "ok",
-      "itemCount": 56,
+      "itemCount": 100,
+      "lastSuccessfulItemCount": 100,
+      "warnings": []
+    },
+    {
       "id": "dunhua-competitions",
+      "name": "競賽活動（敦化國小）",
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 56,
+      "status": "ok",
+      "itemCount": 56,
       "lastSuccessfulItemCount": 56,
       "warnings": []
     },
     {
-      "name": "多元教育（敦化國小）",
-      "status": "ok",
-      "itemCount": 23,
       "id": "dunhua-diverse-education",
+      "name": "多元教育（敦化國小）",
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 23,
+      "status": "ok",
+      "itemCount": 23,
       "lastSuccessfulItemCount": 23,
       "warnings": []
     },
     {
-      "name": "敦小快報（敦化國小）",
-      "status": "ok",
-      "itemCount": 29,
       "id": "dunhua-dunhua-news",
+      "name": "敦小快報（敦化國小）",
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 29,
+      "status": "ok",
+      "itemCount": 29,
       "lastSuccessfulItemCount": 29,
       "warnings": []
     },
     {
-      "name": "普及化運動健身操比賽（敦化國小）",
-      "status": "ok",
-      "itemCount": 4,
       "id": "dunhua-fitness-dance",
+      "name": "普及化運動健身操比賽（敦化國小）",
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 4,
+      "status": "ok",
+      "itemCount": 4,
       "lastSuccessfulItemCount": 4,
       "warnings": []
     },
     {
-      "name": "性別平等（敦化國小）",
-      "status": "ok",
-      "itemCount": 48,
       "id": "dunhua-gender-equality",
+      "name": "性別平等（敦化國小）",
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 48,
+      "status": "ok",
+      "itemCount": 48,
       "lastSuccessfulItemCount": 48,
       "warnings": []
     },
     {
-      "name": "一般智能資賦優異（敦化國小）",
-      "status": "ok",
-      "itemCount": 8,
       "id": "dunhua-gifted-education",
+      "name": "一般智能資賦優異（敦化國小）",
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 8,
+      "status": "ok",
+      "itemCount": 8,
       "lastSuccessfulItemCount": 8,
       "warnings": []
     },
     {
-      "name": "音樂班招生（敦化國小）",
-      "status": "ok",
-      "itemCount": 33,
       "id": "dunhua-music-admissions",
+      "name": "音樂班招生（敦化國小）",
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 33,
+      "status": "warning",
+      "itemCount": 33,
       "lastSuccessfulItemCount": 33,
-      "warnings": []
+      "warnings": [
+        "來源 XML 格式異常，已復原完整公告；請檢查來源格式。"
+      ]
     },
     {
-      "name": "其他公告（敦化國小）",
-      "status": "ok",
-      "itemCount": 78,
       "id": "dunhua-other",
+      "name": "其他公告（敦化國小）",
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 78,
+      "status": "warning",
+      "itemCount": 78,
       "lastSuccessfulItemCount": 78,
-      "warnings": []
+      "warnings": [
+        "來源 XML 格式異常，已復原完整公告；請檢查來源格式。"
+      ]
     },
     {
-      "name": "校務公告（敦化國小）",
-      "status": "ok",
-      "itemCount": 100,
       "id": "dunhua-school-affairs",
+      "name": "校務公告（敦化國小）",
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
+      "status": "warning",
+      "itemCount": 100,
       "lastSuccessfulItemCount": 100,
-      "warnings": []
+      "warnings": [
+        "來源 XML 格式異常，已復原完整公告；請檢查來源格式。"
+      ]
     },
     {
+      "id": "dunhua-table-tennis",
       "name": "教育盃桌球賽（敦化國小）",
+      "schools": [
+        "敦化國小"
+      ],
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 6,
       "status": "ok",
       "itemCount": 6,
-      "id": "dunhua-table-tennis",
-      "schools": [
-        "敦化國小"
-      ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
       "lastSuccessfulItemCount": 6,
       "warnings": []
     },
     {
-      "name": "活動資訊（光復國小）",
-      "status": "ok",
-      "itemCount": 100,
       "id": "guangfu-activities",
+      "name": "活動資訊（光復國小）",
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
+      "status": "ok",
+      "itemCount": 100,
       "lastSuccessfulItemCount": 100,
       "warnings": []
     },
     {
-      "name": "校園事務（光復國小）",
-      "status": "ok",
-      "itemCount": 12,
       "id": "guangfu-campus-affairs",
+      "name": "校園事務（光復國小）",
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 12,
+      "status": "ok",
+      "itemCount": 12,
       "lastSuccessfulItemCount": 12,
       "warnings": []
     },
     {
-      "name": "防疫公告（光復國小）",
-      "status": "ok",
-      "itemCount": 1,
       "id": "guangfu-epidemic-announcements",
+      "name": "防疫公告（光復國小）",
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 1,
+      "status": "ok",
+      "itemCount": 1,
       "lastSuccessfulItemCount": 1,
       "warnings": []
     },
     {
-      "name": "校外競賽（光復國小）",
-      "status": "ok",
-      "itemCount": 100,
       "id": "guangfu-external-contests",
+      "name": "校外競賽（光復國小）",
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
+      "status": "ok",
+      "itemCount": 100,
       "lastSuccessfulItemCount": 100,
       "warnings": []
     },
     {
-      "name": "場地開放（光復國小）",
-      "status": "ok",
-      "itemCount": 21,
       "id": "guangfu-facilities",
+      "name": "場地開放（光復國小）",
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 21,
+      "status": "ok",
+      "itemCount": 21,
       "lastSuccessfulItemCount": 21,
       "warnings": []
     },
     {
-      "name": "光復之光（光復國小）",
-      "status": "ok",
-      "itemCount": 100,
       "id": "guangfu-guangfu-honors",
+      "name": "光復之光（光復國小）",
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
+      "status": "ok",
+      "itemCount": 100,
       "lastSuccessfulItemCount": 100,
       "warnings": []
     },
     {
-      "name": "國中入學（光復國小）",
-      "status": "ok",
-      "itemCount": 6,
       "id": "guangfu-junior-high-admissions",
+      "name": "國中入學（光復國小）",
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 6,
+      "status": "ok",
+      "itemCount": 6,
       "lastSuccessfulItemCount": 6,
       "warnings": []
     },
     {
-      "name": "人事資訊（光復國小）",
-      "status": "ok",
-      "itemCount": 86,
       "id": "guangfu-personnel",
+      "name": "人事資訊（光復國小）",
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 86,
+      "status": "ok",
+      "itemCount": 86,
       "lastSuccessfulItemCount": 86,
       "warnings": []
     },
     {
-      "name": "政策法規（光復國小）",
-      "status": "ok",
-      "itemCount": 100,
       "id": "guangfu-policies",
+      "name": "政策法規（光復國小）",
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulItemCount": 100,
-      "warnings": []
-    },
-    {
-      "name": "學校公告（光復國小）",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
-      "id": "guangfu-school-announcements",
-      "schools": [
-        "光復國小"
-      ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
       "lastSuccessfulItemCount": 100,
       "warnings": []
     },
     {
+      "id": "guangfu-school-announcements",
+      "name": "學校公告（光復國小）",
+      "schools": [
+        "光復國小"
+      ],
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
+      "status": "ok",
+      "itemCount": 100,
+      "lastSuccessfulItemCount": 100,
+      "warnings": []
+    },
+    {
+      "id": "guangfu-school-contests",
       "name": "校內競賽（光復國小）",
+      "schools": [
+        "光復國小"
+      ],
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 44,
       "status": "ok",
       "itemCount": 44,
-      "id": "guangfu-school-contests",
-      "schools": [
-        "光復國小"
-      ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
       "lastSuccessfulItemCount": 44,
       "warnings": []
     },
     {
-      "name": "教師研習及活動（光復國小）",
-      "status": "ok",
-      "itemCount": 100,
       "id": "guangfu-teacher-activities",
+      "name": "教師研習及活動（光復國小）",
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
+      "status": "ok",
+      "itemCount": 100,
       "lastSuccessfulItemCount": 100,
       "warnings": []
     },
     {
-      "name": "活動專欄（建安國小）",
-      "status": "ok",
-      "itemCount": 84,
       "id": "jianan-activity-column",
+      "name": "活動專欄（建安國小）",
       "schools": [
         "建安國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 84,
+      "status": "ok",
+      "itemCount": 84,
       "lastSuccessfulItemCount": 84,
       "warnings": []
     },
     {
-      "name": "行政檔案（建安國小）",
-      "status": "ok",
-      "itemCount": 49,
       "id": "jianan-admin-files",
+      "name": "行政檔案（建安國小）",
       "schools": [
         "建安國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 49,
+      "status": "ok",
+      "itemCount": 49,
       "lastSuccessfulItemCount": 49,
       "warnings": []
     },
     {
-      "name": "行政公告（建安國小）",
-      "status": "ok",
-      "itemCount": 100,
       "id": "jianan-administration",
+      "name": "行政公告（建安國小）",
       "schools": [
         "建安國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
+      "status": "ok",
+      "itemCount": 100,
       "lastSuccessfulItemCount": 100,
       "warnings": []
     },
     {
-      "name": "比賽資訊（建安國小）",
-      "status": "ok",
-      "itemCount": 77,
       "id": "jianan-competition-info",
+      "name": "比賽資訊（建安國小）",
       "schools": [
         "建安國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 77,
+      "status": "ok",
+      "itemCount": 77,
       "lastSuccessfulItemCount": 77,
       "warnings": []
     },
     {
-      "name": "榮譽榜（建安國小）",
-      "status": "ok",
-      "itemCount": 100,
       "id": "jianan-honors",
+      "name": "榮譽榜（建安國小）",
       "schools": [
         "建安國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulItemCount": 100,
-      "warnings": []
-    },
-    {
-      "name": "研習資訊（建安國小）",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
-      "id": "jianan-training",
-      "schools": [
-        "建安國小"
-      ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
       "lastSuccessfulItemCount": 100,
       "warnings": []
     },
     {
-      "name": "新生入學（仁愛國小）",
+      "id": "jianan-training",
+      "name": "研習資訊（建安國小）",
+      "schools": [
+        "建安國小"
+      ],
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
       "status": "ok",
-      "itemCount": 17,
+      "itemCount": 100,
+      "lastSuccessfulItemCount": 100,
+      "warnings": []
+    },
+    {
       "id": "renai-enrollment",
+      "name": "新生入學（仁愛國小）",
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 17,
+      "status": "ok",
+      "itemCount": 17,
       "lastSuccessfulItemCount": 17,
       "warnings": []
     },
     {
-      "name": "校外競賽（仁愛國小）",
-      "status": "ok",
-      "itemCount": 100,
       "id": "renai-external-contests",
+      "name": "校外競賽（仁愛國小）",
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
+      "status": "ok",
+      "itemCount": 100,
       "lastSuccessfulItemCount": 100,
       "warnings": []
     },
     {
-      "name": "一般消息（仁愛國小）",
-      "status": "ok",
-      "itemCount": 100,
       "id": "renai-general-news",
+      "name": "一般消息（仁愛國小）",
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
+      "status": "ok",
+      "itemCount": 100,
       "lastSuccessfulItemCount": 100,
       "warnings": []
     },
     {
-      "name": "榮譽榜（仁愛國小）",
-      "status": "ok",
-      "itemCount": 100,
       "id": "renai-honors",
+      "name": "榮譽榜（仁愛國小）",
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulItemCount": 100,
-      "warnings": []
-    },
-    {
-      "name": "重要公告（仁愛國小）",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
-      "id": "renai-important",
-      "schools": [
-        "仁愛國小"
-      ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
       "lastSuccessfulItemCount": 100,
       "warnings": []
     },
     {
+      "id": "renai-important",
+      "name": "重要公告（仁愛國小）",
+      "schools": [
+        "仁愛國小"
+      ],
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
+      "status": "ok",
+      "itemCount": 100,
+      "lastSuccessfulItemCount": 100,
+      "warnings": []
+    },
+    {
+      "id": "renai-milk-weekly",
       "name": "鮮奶週報（仁愛國小）",
+      "schools": [
+        "仁愛國小"
+      ],
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 16,
       "status": "ok",
       "itemCount": 16,
-      "id": "renai-milk-weekly",
-      "schools": [
-        "仁愛國小"
-      ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
       "lastSuccessfulItemCount": 16,
       "warnings": []
     },
     {
-      "name": "親職資訊（仁愛國小）",
-      "status": "ok",
-      "itemCount": 58,
       "id": "renai-parenting",
+      "name": "親職資訊（仁愛國小）",
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 58,
+      "status": "ok",
+      "itemCount": 58,
       "lastSuccessfulItemCount": 58,
       "warnings": []
     },
     {
-      "name": "獎助學金（仁愛國小）",
-      "status": "ok",
-      "itemCount": 17,
       "id": "renai-scholarships",
+      "name": "獎助學金（仁愛國小）",
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 17,
+      "status": "ok",
+      "itemCount": 17,
       "lastSuccessfulItemCount": 17,
       "warnings": []
     },
     {
-      "name": "校內競賽（仁愛國小）",
-      "status": "ok",
-      "itemCount": 37,
       "id": "renai-school-contests",
+      "name": "校內競賽（仁愛國小）",
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 37,
+      "status": "ok",
+      "itemCount": 37,
       "lastSuccessfulItemCount": 37,
       "warnings": []
     },
     {
-      "name": "校內消息（仁愛國小）",
-      "status": "ok",
-      "itemCount": 53,
       "id": "renai-school-news",
+      "name": "校內消息（仁愛國小）",
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 53,
+      "status": "ok",
+      "itemCount": 53,
       "lastSuccessfulItemCount": 53,
       "warnings": []
     },
     {
-      "name": "研習資訊（仁愛國小）",
-      "status": "ok",
-      "itemCount": 100,
       "id": "renai-training",
+      "name": "研習資訊（仁愛國小）",
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
+      "status": "ok",
+      "itemCount": 100,
       "lastSuccessfulItemCount": 100,
       "warnings": []
     },
     {
-      "name": "教育局消息",
-      "status": "ok",
-      "itemCount": 50,
       "id": "shared-education-department",
+      "name": "教育局消息",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -573,13 +622,32 @@
         "博愛國小",
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 50,
+      "status": "ok",
+      "itemCount": 50,
       "lastSuccessfulItemCount": 50,
       "warnings": []
     }
   ],
   "articles": [
+    {
+      "id": "guangfu-school-announcements:6afba5695043a769bbbfcf28",
+      "sourceId": "guangfu-school-announcements",
+      "guid": "6afba5695043a769bbbfcf28",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "學校公告",
+      "title": "臺北市家庭教育中心親密關係工作坊系列「親在人生～情感智慧與幸福關係」將婚課程相關訊息",
+      "published": "2026-11-17T00:50:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6afba5695043a769bbbfcf28?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=UFKVG9l8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "一、本課程訂於115年12月12日（星期六）上午9時30分至下 午5時30分舉辦。 (一)對象：將婚者、準新人，有規劃進入婚姻之伴侶，兩人 全程共同參加，限額15對。 (二)主題：包含愛的重要性與意義、刻意經營關係的秘方、 衝突處理技巧、原生家庭的影響、情緒探索與表達需求 等內容，透過小組討論與實作練習，充實進入婚姻的能力。 (三)地點：臺北市家庭教育中心。 (四)報名：即日起至115年12月6日止，額滿採候補報名登記制，相關內容可於本中心網站（https://family.gov. taipei/Default.aspx）課程與活動瀏覽、下載。"
+    },
     {
       "id": "boai-training:6afae50865d84b3e26bc84e8",
       "sourceId": "boai-training",
@@ -601,7 +669,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=8E0ADC66625CC75A",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=8E0ADC66625CC75A",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -691,7 +759,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=E2A58ECA6177717A",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=E2A58ECA6177717A",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -1063,7 +1131,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=9B7D1D199ED0AB6C",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=9B7D1D199ED0AB6C",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -1157,7 +1225,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=3C42B00A29730640",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=3C42B00A29730640",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -1209,7 +1277,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=4EC511C7F390A2AD",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=4EC511C7F390A2AD",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -1350,7 +1418,7 @@
         "建安國小"
       ],
       "source": "研習資訊",
-      "title": "轉知~教育部辦理「115年臺灣客語寫作培訓營（南部場）」一案",
+      "title": "轉知~教育部辦理「115年臺灣客語寫作培訓營（南部場）」",
       "published": "2026-11-15T23:53:00+00:00",
       "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6afa464a773acf1624e9ff6b?vector=private&static=false",
       "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=EzoytYK7010&vector=private&static=false",
@@ -1387,7 +1455,7 @@
         "建安國小"
       ],
       "source": "研習資訊",
-      "title": "轉知~臺灣師範大學辦理「115學年度國民小學生涯 發展教育教材手冊（課程模組）推廣研習（場次一）」一 案",
+      "title": "轉知~臺灣師範大學辦理「115學年度國民小學生涯 發展教育教材手冊（課程模組）推廣研習（場次一）」",
       "published": "2026-11-15T23:49:00+00:00",
       "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6afa45917e7ed9172ed9d7a4?vector=private&static=false",
       "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=EzoytYK7010&vector=private&static=false",
@@ -1454,7 +1522,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=C516DBBE38563770",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=C516DBBE38563770",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -1470,6 +1538,26 @@
       "siteUrl": "https://www.doe.gov.taipei",
       "attachments": [],
       "summary": "一、廣達文教基金會辦理「第八屆『廣達游智盃』創意程式競賽」，初賽凡繳交符合規範之Scratch作品即可獲得參賽證明；決賽現場黑客松創意實作，藉此鼓勵學生運用程式語言來解決問 題，提升運算思維及邏輯思考的能力。 二、競賽相關日程如下： (一)初賽報名及繳件時間：115/12/1(二)至116/1/24(日) (二)決賽名單公告：116/2/26(五) (三)決賽時間：116/4/17(六) 三、詳細競賽資訊及報名相關辦法請參閱附件或至廣達文教基 金會官網查詢(http://www.quanta-edu.org)。 四、如有疑問請聯絡承辦人員江小姐、徐先生(聯絡電話：02- 28821612#66695、66638) 第八屆廣達游智盃創意程式競賽簡章.pdf"
+    },
+    {
+      "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=05E5C7B207920D9B",
+      "sourceId": "shared-education-department",
+      "guid": "",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】國立高雄科技大學企劃推出「沈浸直擊！未來的叢林冒險入口」線上遊 戲，鼓勵師生踴躍參與",
+      "published": "2026-11-13T09:15:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=05E5C7B207920D9B",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、國立高雄科技大學執行教育部「技職永續破風者-職業試探與適性發展聯 合推動總辦計畫」，企劃校園適性發展、探索未來職涯與 技職群科認識之線上遊戲，透過線上趣味遊戲答題方式，促進學生認識自我、掌握未來學涯與生涯方向。 二、參與對象與方式：各級學校學生均可參與，學生可自行至 PaGamO平台登入並進行任務書挑戰。 三、遊戲任務時間： (一)第一波任務：未來的叢林冒險入口_ Let's Go!尋找我的寶藏Round1 １、時間：2026年11月9日至22日 ２、迷惘獸魔王挑戰賽：2026年11月18日 (二)第二波任務：未來的叢林冒險入口_ Let's Go!尋找我的寶藏Round2 １、時間：2026年12月7日至20日 ２、迷惘獸魔王挑戰賽:2025年12月16日 (三)第三波任務：未來的叢林冒險入口_ Let'"
     },
     {
       "id": "boai-latest:6af6d41346daaa4982a44e76",
@@ -1492,7 +1580,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=912E049AFF08671C",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=912E049AFF08671C",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -1619,7 +1707,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=A7576A0A8759F81E",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=A7576A0A8759F81E",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -1639,7 +1727,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=4E9DA6E4715151E9",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=4E9DA6E4715151E9",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -1712,7 +1800,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=2ED18F6481011176",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=2ED18F6481011176",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -1864,7 +1952,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=CE1E06ED9CDE2605",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=CE1E06ED9CDE2605",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -2055,7 +2143,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=87FCC34D6A04795E",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=87FCC34D6A04795E",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -2075,7 +2163,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=5D28DD155654D085",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=5D28DD155654D085",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -2634,7 +2722,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=1613376E9EEB6AC5",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=1613376E9EEB6AC5",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -2690,7 +2778,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=90C79F5FB96348F8",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=90C79F5FB96348F8",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -2710,7 +2798,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=CB6AAD3833B63C41",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=CB6AAD3833B63C41",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -2730,7 +2818,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=747289CDCC97A848",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=747289CDCC97A848",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -2787,7 +2875,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=29DA90B98CFC7986",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=29DA90B98CFC7986",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -2933,7 +3021,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=58B704B2E74869C3",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=58B704B2E74869C3",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -2989,7 +3077,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=2DB78245E9CAD2CF",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=2DB78245E9CAD2CF",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -3155,7 +3243,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=126D1BBF61DF0449",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=126D1BBF61DF0449",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -3175,7 +3263,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=042AB3A294515A41",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=042AB3A294515A41",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -3195,7 +3283,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=361E792FC3E7D2F8",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=361E792FC3E7D2F8",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -3268,7 +3356,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=7D5F9A658DCC6727",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=7D5F9A658DCC6727",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -3434,7 +3522,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=C0AED9CAEBE4D0F3",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=C0AED9CAEBE4D0F3",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -3528,7 +3616,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=BE01AC2715F568CB",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=BE01AC2715F568CB",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -4206,7 +4294,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=F4BD25BBAE554530",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=F4BD25BBAE554530",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -4244,7 +4332,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=24509DA3D58FECCA",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=24509DA3D58FECCA",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -4283,7 +4371,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=61303977BC8A1DD9",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=61303977BC8A1DD9",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -4322,7 +4410,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=381EB52C2D133375",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=381EB52C2D133375",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -4378,7 +4466,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=E40D98D19E95918C",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=E40D98D19E95918C",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -4486,7 +4574,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=752A0D1F818B8961",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=752A0D1F818B8961",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -4506,7 +4594,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=A19CE49E1C70CE63",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=A19CE49E1C70CE63",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -4562,7 +4650,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=BA81C019AA35233A",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=BA81C019AA35233A",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -4632,7 +4720,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=181D0832F0DEAEC2",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=181D0832F0DEAEC2",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -4812,7 +4900,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=21CFA16DA20BBA28",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=21CFA16DA20BBA28",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -4952,7 +5040,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=3496A2D0C8082BDA",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=3496A2D0C8082BDA",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -4972,7 +5060,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=A5832DD7A1815DEE",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=A5832DD7A1815DEE",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -4992,7 +5080,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/https://www-ws.gov.taipei",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/https://www-ws.gov.taipei",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -5047,7 +5135,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=6C2E7C3FF78D2463",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=6C2E7C3FF78D2463",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -5438,7 +5526,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=F5D3F298C935471A",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=F5D3F298C935471A",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -5458,7 +5546,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=964B40510D858A51",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=964B40510D858A51",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -5749,7 +5837,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=FD5D50267C23D26E",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=FD5D50267C23D26E",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -6035,7 +6123,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=15D5C8D1709C8ED6",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=15D5C8D1709C8ED6",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -6055,7 +6143,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=87B94232162D8B14",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=87B94232162D8B14",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -6075,7 +6163,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=0062AC58B59E30FA",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=0062AC58B59E30FA",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -6095,7 +6183,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=DE1BAB8629188218",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=DE1BAB8629188218",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -6240,7 +6328,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=4A8D3FB50589B242",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=4A8D3FB50589B242",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -6331,7 +6419,7 @@
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=05A4A47999576817",
       "sourceId": "shared-education-department",
-      "guid": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=05A4A47999576817",
+      "guid": "",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -68122,76 +68210,6 @@
       "siteUrl": "https://www.thps.tp.edu.tw",
       "attachments": [],
       "summary": "一、依據臺北市強化社會安全網計畫114年第3次府級聯繫會議裁示辦理。 二、本中心為彙整本市親職教育資源，提供民眾便捷查詢管道，特整合本府各機關截至114年底所辦理之課程活動， 於本中心官網建置「臺北市親職活動課程」專區（網頁連結： https://family.gov.taipei/Content_List.aspx?n=54172CD536E417CE ）。 三、本中心官網亦有中心自辦課程資訊及親職、婚姻等主題電子書、手冊、影片等資源，可供教師與家長自行運用。"
-    },
-    {
-      "id": "renai-training:691a65941a4ec896d318be34",
-      "sourceId": "renai-training",
-      "guid": "691a65941a4ec896d318be34",
-      "schools": [
-        "仁愛國小"
-      ],
-      "source": "研習資訊",
-      "title": "[轉知]國立臺灣藝術教育館「VR科技在當代劇場的應用與新體驗」研習課程",
-      "published": "2025-11-16T23:58:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/691a65941a4ec896d318be34?vector=private&static=false",
-      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=BLvblfR5996&vector=private&static=false",
-      "siteUrl": "https://www.japs.tp.edu.tw",
-      "attachments": [
-        "場次及流程.pdf"
-      ],
-      "summary": "一、為該館辦理旨揭研習課程，相關資訊摘錄如下（詳如附件） (一)研習訊息如下 １、時間：114年11月20日（星期四）下午1時30分至4時30 分。 ２、地點：國立臺灣藝術教育館第三會議室（臺北市中正 區南海路43號2樓）。 ３、參與名額：為維持上課品質與教學效能，每堂課上限 30名，將依報名順序通知正取及候補遞位。 (二)即日起至114年11月18日（星期二）下午5時前，逕至google表單（https://reurl.cc/QVpRd5）報名，將於11 月19日（星期三），再以電話或電子郵件另行通知，全 程課程核予3小時研習時數，請事先上全國教師在職進修資訊網註冊，以利後續登錄研習時數。 二、倘對前項研習課程有相關問題者，請洽葉先生（02）8663- 1289。"
-    },
-    {
-      "id": "renai-training:https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/691a65941a4ec896d318be34?vector=private&static=false",
-      "sourceId": "renai-training",
-      "guid": "",
-      "schools": [
-        "仁愛國小"
-      ],
-      "source": "研習資訊",
-      "title": "[轉知]國立臺灣藝術教育館「VR科技在當代劇場的應用與新體驗」研習課程",
-      "published": "2025-11-16T23:58:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/691a65941a4ec896d318be34?vector=private&static=false",
-      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=BLvblfR5996&vector=private&static=false",
-      "siteUrl": "https://www.japs.tp.edu.tw",
-      "attachments": [],
-      "summary": "一、為該館辦理旨揭研習課程，相關資訊摘錄如下（詳如附件） (一)研習訊息如下 １、時間：114年11月20日（星期四）下午1時30分至4時30 分。 ２、地點：國立臺灣藝術教育館第三會議室（臺北市中正 區南海路43號2樓）。 ３、參與名額：為維持上課品質與教學效能，每堂課上限 30名，將依報名順序通知正取及候補遞位。 (二)即日起至114年11月18日（星期二）下午5時前，逕至google表單（https://reurl.cc/QVpRd5）報名，將於11 月19日（星期三），再以電話或電子郵件另行通知，全 程課程核予3小時研習時數，請事先上全國教師在職進修資訊網註冊，以利後續登錄研習時數。 二、倘對前項研習課程有相關問題者，請洽葉先生（02）8663- 1289。"
-    },
-    {
-      "id": "renai-training:691a6490a89301a79e2d188e",
-      "sourceId": "renai-training",
-      "guid": "691a6490a89301a79e2d188e",
-      "schools": [
-        "仁愛國小"
-      ],
-      "source": "研習資訊",
-      "title": "[轉知]臺北市114學年度第1學期跨教育階段藝術才能(資優)舞蹈班教師專業社群增能研習實施計畫",
-      "published": "2025-11-16T23:52:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/691a6490a89301a79e2d188e?vector=private&static=false",
-      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=BLvblfR5996&vector=private&static=false",
-      "siteUrl": "https://www.japs.tp.edu.tw",
-      "attachments": [
-        "臺北市114學年度第1學期跨教育階段藝術才能(資優)舞蹈班教師專業社群增能研習實施計畫.pdf"
-      ],
-      "summary": "一、為提升舞蹈教師課程與教學專業知能，提供進技芭蕾 (Progressing Ballet Technique)基本理念及實務操作方法，應用運動科學領域專業於舞蹈教學中。 二、研習對象： （一）臺北市設置藝術才能（資優）舞蹈班學 校之教師及外聘教師。 （二）臺北市藝術才能資優舞蹈校本方案辦理學校之承辦人員及任課教師。 （三）對本研習主題感興趣之教師。 三、研習時間：114年12月09日（星期二）下午1時至4時。 四、研習地點：臺北市立雙園國民中學科學樓二樓舞蹈專科教 室。 五、報名及錄取方式：即日起至114年12月2日(星期二)止，請逕至臺北市教師在職研習網完成報名及查詢錄取狀況(https://reurl.cc/QV9rvZ，研習核准文號：北市研習字 第1141110011號)。 六、如遇自然災害或疫情等不可"
-    },
-    {
-      "id": "renai-training:https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/691a6490a89301a79e2d188e?vector=private&static=false",
-      "sourceId": "renai-training",
-      "guid": "",
-      "schools": [
-        "仁愛國小"
-      ],
-      "source": "研習資訊",
-      "title": "[轉知]臺北市114學年度第1學期跨教育階段藝術才能(資優)舞蹈班教師專業社群增能研習實施計畫",
-      "published": "2025-11-16T23:52:00+00:00",
-      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/691a6490a89301a79e2d188e?vector=private&static=false",
-      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=BLvblfR5996&vector=private&static=false",
-      "siteUrl": "https://www.japs.tp.edu.tw",
-      "attachments": [],
-      "summary": "一、為提升舞蹈教師課程與教學專業知能，提供進技芭蕾 (Progressing Ballet Technique)基本理念及實務操作方法，應用運動科學領域專業於舞蹈教學中。 二、研習對象： （一）臺北市設置藝術才能（資優）舞蹈班學 校之教師及外聘教師。 （二）臺北市藝術才能資優舞蹈校本方案辦理學校之承辦人員及任課教師。 （三）對本研習主題感興趣之教師。 三、研習時間：114年12月09日（星期二）下午1時至4時。 四、研習地點：臺北市立雙園國民中學科學樓二樓舞蹈專科教 室。 五、報名及錄取方式：即日起至114年12月2日(星期二)止，請逕至臺北市教師在職研習網完成報名及查詢錄取狀況(https://reurl.cc/QV9rvZ，研習核准文號：北市研習字 第1141110011號)。 六、如遇自然災害或疫情等不可"
     }
-  ],
-  "schemaVersion": 2,
-  "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00"
+  ]
 }

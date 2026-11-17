@@ -1,574 +1,621 @@
 {
   "schemaVersion": 2,
-  "dataVersion": "495afdbc641e54f0d700d4ed7ffaf9dbc007a7b58ce40703624bdb8fa11931f6",
+  "dataVersion": "af4ecdca3760be80d7645f6a9fd220be74b3d5911a7a8aea49466b0797261cdd",
   "configVersion": "e655b799fc152b4c4258f19554bbd5607c524995e4666810f3ee9d5e63d5b639",
-  "updatedAt": "2026-11-16T18:46:22.207195+00:00",
-  "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+  "updatedAt": "2026-11-17T01:02:30.241363+00:00",
+  "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
   "sourceStatus": [
     {
-      "name": "防疫資訊（博愛國小）",
-      "status": "ok",
-      "itemCount": 26,
       "id": "boai-epidemic-info",
+      "name": "防疫資訊（博愛國小）",
       "schools": [
         "博愛國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 26,
+      "status": "ok",
+      "itemCount": 26,
       "lastSuccessfulItemCount": 26,
       "warnings": []
     },
     {
-      "name": "榮譽榜（博愛國小）",
-      "status": "ok",
-      "itemCount": 100,
       "id": "boai-honors",
+      "name": "榮譽榜（博愛國小）",
       "schools": [
         "博愛國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
+      "status": "ok",
+      "itemCount": 100,
       "lastSuccessfulItemCount": 100,
       "warnings": []
     },
     {
-      "name": "最新消息（博愛國小）",
-      "status": "ok",
-      "itemCount": 100,
       "id": "boai-latest",
+      "name": "最新消息（博愛國小）",
       "schools": [
         "博愛國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulItemCount": 100,
-      "warnings": []
-    },
-    {
-      "name": "研習資訊（博愛國小）",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
-      "id": "boai-training",
-      "schools": [
-        "博愛國小"
-      ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
       "lastSuccessfulItemCount": 100,
       "warnings": []
     },
     {
-      "name": "競賽活動（敦化國小）",
+      "id": "boai-training",
+      "name": "研習資訊（博愛國小）",
+      "schools": [
+        "博愛國小"
+      ],
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
       "status": "ok",
-      "itemCount": 56,
+      "itemCount": 100,
+      "lastSuccessfulItemCount": 100,
+      "warnings": []
+    },
+    {
       "id": "dunhua-competitions",
+      "name": "競賽活動（敦化國小）",
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 56,
+      "status": "ok",
+      "itemCount": 56,
       "lastSuccessfulItemCount": 56,
       "warnings": []
     },
     {
-      "name": "多元教育（敦化國小）",
-      "status": "ok",
-      "itemCount": 23,
       "id": "dunhua-diverse-education",
+      "name": "多元教育（敦化國小）",
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 23,
+      "status": "ok",
+      "itemCount": 23,
       "lastSuccessfulItemCount": 23,
       "warnings": []
     },
     {
-      "name": "敦小快報（敦化國小）",
-      "status": "ok",
-      "itemCount": 29,
       "id": "dunhua-dunhua-news",
+      "name": "敦小快報（敦化國小）",
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 29,
+      "status": "ok",
+      "itemCount": 29,
       "lastSuccessfulItemCount": 29,
       "warnings": []
     },
     {
-      "name": "普及化運動健身操比賽（敦化國小）",
-      "status": "ok",
-      "itemCount": 4,
       "id": "dunhua-fitness-dance",
+      "name": "普及化運動健身操比賽（敦化國小）",
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 4,
+      "status": "ok",
+      "itemCount": 4,
       "lastSuccessfulItemCount": 4,
       "warnings": []
     },
     {
-      "name": "性別平等（敦化國小）",
-      "status": "ok",
-      "itemCount": 48,
       "id": "dunhua-gender-equality",
+      "name": "性別平等（敦化國小）",
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 48,
+      "status": "ok",
+      "itemCount": 48,
       "lastSuccessfulItemCount": 48,
       "warnings": []
     },
     {
-      "name": "一般智能資賦優異（敦化國小）",
-      "status": "ok",
-      "itemCount": 8,
       "id": "dunhua-gifted-education",
+      "name": "一般智能資賦優異（敦化國小）",
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 8,
+      "status": "ok",
+      "itemCount": 8,
       "lastSuccessfulItemCount": 8,
       "warnings": []
     },
     {
-      "name": "音樂班招生（敦化國小）",
-      "status": "ok",
-      "itemCount": 33,
       "id": "dunhua-music-admissions",
+      "name": "音樂班招生（敦化國小）",
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 33,
+      "status": "warning",
+      "itemCount": 33,
       "lastSuccessfulItemCount": 33,
-      "warnings": []
+      "warnings": [
+        "來源 XML 格式異常，已復原完整公告；請檢查來源格式。"
+      ]
     },
     {
-      "name": "其他公告（敦化國小）",
-      "status": "ok",
-      "itemCount": 78,
       "id": "dunhua-other",
+      "name": "其他公告（敦化國小）",
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 78,
+      "status": "warning",
+      "itemCount": 78,
       "lastSuccessfulItemCount": 78,
-      "warnings": []
+      "warnings": [
+        "來源 XML 格式異常，已復原完整公告；請檢查來源格式。"
+      ]
     },
     {
-      "name": "校務公告（敦化國小）",
-      "status": "ok",
-      "itemCount": 100,
       "id": "dunhua-school-affairs",
+      "name": "校務公告（敦化國小）",
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
+      "status": "warning",
+      "itemCount": 100,
       "lastSuccessfulItemCount": 100,
-      "warnings": []
+      "warnings": [
+        "來源 XML 格式異常，已復原完整公告；請檢查來源格式。"
+      ]
     },
     {
+      "id": "dunhua-table-tennis",
       "name": "教育盃桌球賽（敦化國小）",
+      "schools": [
+        "敦化國小"
+      ],
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 6,
       "status": "ok",
       "itemCount": 6,
-      "id": "dunhua-table-tennis",
-      "schools": [
-        "敦化國小"
-      ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
       "lastSuccessfulItemCount": 6,
       "warnings": []
     },
     {
-      "name": "活動資訊（光復國小）",
-      "status": "ok",
-      "itemCount": 100,
       "id": "guangfu-activities",
+      "name": "活動資訊（光復國小）",
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
+      "status": "ok",
+      "itemCount": 100,
       "lastSuccessfulItemCount": 100,
       "warnings": []
     },
     {
-      "name": "校園事務（光復國小）",
-      "status": "ok",
-      "itemCount": 12,
       "id": "guangfu-campus-affairs",
+      "name": "校園事務（光復國小）",
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 12,
+      "status": "ok",
+      "itemCount": 12,
       "lastSuccessfulItemCount": 12,
       "warnings": []
     },
     {
-      "name": "防疫公告（光復國小）",
-      "status": "ok",
-      "itemCount": 1,
       "id": "guangfu-epidemic-announcements",
+      "name": "防疫公告（光復國小）",
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 1,
+      "status": "ok",
+      "itemCount": 1,
       "lastSuccessfulItemCount": 1,
       "warnings": []
     },
     {
-      "name": "校外競賽（光復國小）",
-      "status": "ok",
-      "itemCount": 100,
       "id": "guangfu-external-contests",
+      "name": "校外競賽（光復國小）",
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
+      "status": "ok",
+      "itemCount": 100,
       "lastSuccessfulItemCount": 100,
       "warnings": []
     },
     {
-      "name": "場地開放（光復國小）",
-      "status": "ok",
-      "itemCount": 21,
       "id": "guangfu-facilities",
+      "name": "場地開放（光復國小）",
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 21,
+      "status": "ok",
+      "itemCount": 21,
       "lastSuccessfulItemCount": 21,
       "warnings": []
     },
     {
-      "name": "光復之光（光復國小）",
-      "status": "ok",
-      "itemCount": 100,
       "id": "guangfu-guangfu-honors",
+      "name": "光復之光（光復國小）",
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
+      "status": "ok",
+      "itemCount": 100,
       "lastSuccessfulItemCount": 100,
       "warnings": []
     },
     {
-      "name": "國中入學（光復國小）",
-      "status": "ok",
-      "itemCount": 6,
       "id": "guangfu-junior-high-admissions",
+      "name": "國中入學（光復國小）",
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 6,
+      "status": "ok",
+      "itemCount": 6,
       "lastSuccessfulItemCount": 6,
       "warnings": []
     },
     {
-      "name": "人事資訊（光復國小）",
-      "status": "ok",
-      "itemCount": 86,
       "id": "guangfu-personnel",
+      "name": "人事資訊（光復國小）",
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 86,
+      "status": "ok",
+      "itemCount": 86,
       "lastSuccessfulItemCount": 86,
       "warnings": []
     },
     {
-      "name": "政策法規（光復國小）",
-      "status": "ok",
-      "itemCount": 100,
       "id": "guangfu-policies",
+      "name": "政策法規（光復國小）",
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulItemCount": 100,
-      "warnings": []
-    },
-    {
-      "name": "學校公告（光復國小）",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
-      "id": "guangfu-school-announcements",
-      "schools": [
-        "光復國小"
-      ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
       "lastSuccessfulItemCount": 100,
       "warnings": []
     },
     {
+      "id": "guangfu-school-announcements",
+      "name": "學校公告（光復國小）",
+      "schools": [
+        "光復國小"
+      ],
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
+      "status": "ok",
+      "itemCount": 100,
+      "lastSuccessfulItemCount": 100,
+      "warnings": []
+    },
+    {
+      "id": "guangfu-school-contests",
       "name": "校內競賽（光復國小）",
+      "schools": [
+        "光復國小"
+      ],
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 44,
       "status": "ok",
       "itemCount": 44,
-      "id": "guangfu-school-contests",
-      "schools": [
-        "光復國小"
-      ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
       "lastSuccessfulItemCount": 44,
       "warnings": []
     },
     {
-      "name": "教師研習及活動（光復國小）",
-      "status": "ok",
-      "itemCount": 100,
       "id": "guangfu-teacher-activities",
+      "name": "教師研習及活動（光復國小）",
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
+      "status": "ok",
+      "itemCount": 100,
       "lastSuccessfulItemCount": 100,
       "warnings": []
     },
     {
-      "name": "活動專欄（建安國小）",
-      "status": "ok",
-      "itemCount": 84,
       "id": "jianan-activity-column",
+      "name": "活動專欄（建安國小）",
       "schools": [
         "建安國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 84,
+      "status": "ok",
+      "itemCount": 84,
       "lastSuccessfulItemCount": 84,
       "warnings": []
     },
     {
-      "name": "行政檔案（建安國小）",
-      "status": "ok",
-      "itemCount": 49,
       "id": "jianan-admin-files",
+      "name": "行政檔案（建安國小）",
       "schools": [
         "建安國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 49,
+      "status": "ok",
+      "itemCount": 49,
       "lastSuccessfulItemCount": 49,
       "warnings": []
     },
     {
-      "name": "行政公告（建安國小）",
-      "status": "ok",
-      "itemCount": 100,
       "id": "jianan-administration",
+      "name": "行政公告（建安國小）",
       "schools": [
         "建安國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
+      "status": "ok",
+      "itemCount": 100,
       "lastSuccessfulItemCount": 100,
       "warnings": []
     },
     {
-      "name": "比賽資訊（建安國小）",
-      "status": "ok",
-      "itemCount": 77,
       "id": "jianan-competition-info",
+      "name": "比賽資訊（建安國小）",
       "schools": [
         "建安國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 77,
+      "status": "ok",
+      "itemCount": 77,
       "lastSuccessfulItemCount": 77,
       "warnings": []
     },
     {
-      "name": "榮譽榜（建安國小）",
-      "status": "ok",
-      "itemCount": 100,
       "id": "jianan-honors",
+      "name": "榮譽榜（建安國小）",
       "schools": [
         "建安國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulItemCount": 100,
-      "warnings": []
-    },
-    {
-      "name": "研習資訊（建安國小）",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
-      "id": "jianan-training",
-      "schools": [
-        "建安國小"
-      ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
       "lastSuccessfulItemCount": 100,
       "warnings": []
     },
     {
-      "name": "新生入學（仁愛國小）",
+      "id": "jianan-training",
+      "name": "研習資訊（建安國小）",
+      "schools": [
+        "建安國小"
+      ],
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
       "status": "ok",
-      "itemCount": 17,
+      "itemCount": 100,
+      "lastSuccessfulItemCount": 100,
+      "warnings": []
+    },
+    {
       "id": "renai-enrollment",
+      "name": "新生入學（仁愛國小）",
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 17,
+      "status": "ok",
+      "itemCount": 17,
       "lastSuccessfulItemCount": 17,
       "warnings": []
     },
     {
-      "name": "校外競賽（仁愛國小）",
-      "status": "ok",
-      "itemCount": 100,
       "id": "renai-external-contests",
+      "name": "校外競賽（仁愛國小）",
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
+      "status": "ok",
+      "itemCount": 100,
       "lastSuccessfulItemCount": 100,
       "warnings": []
     },
     {
-      "name": "一般消息（仁愛國小）",
-      "status": "ok",
-      "itemCount": 100,
       "id": "renai-general-news",
+      "name": "一般消息（仁愛國小）",
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
+      "status": "ok",
+      "itemCount": 100,
       "lastSuccessfulItemCount": 100,
       "warnings": []
     },
     {
-      "name": "榮譽榜（仁愛國小）",
-      "status": "ok",
-      "itemCount": 100,
       "id": "renai-honors",
+      "name": "榮譽榜（仁愛國小）",
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulItemCount": 100,
-      "warnings": []
-    },
-    {
-      "name": "重要公告（仁愛國小）",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
-      "id": "renai-important",
-      "schools": [
-        "仁愛國小"
-      ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
       "lastSuccessfulItemCount": 100,
       "warnings": []
     },
     {
+      "id": "renai-important",
+      "name": "重要公告（仁愛國小）",
+      "schools": [
+        "仁愛國小"
+      ],
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
+      "status": "ok",
+      "itemCount": 100,
+      "lastSuccessfulItemCount": 100,
+      "warnings": []
+    },
+    {
+      "id": "renai-milk-weekly",
       "name": "鮮奶週報（仁愛國小）",
+      "schools": [
+        "仁愛國小"
+      ],
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 16,
       "status": "ok",
       "itemCount": 16,
-      "id": "renai-milk-weekly",
-      "schools": [
-        "仁愛國小"
-      ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
       "lastSuccessfulItemCount": 16,
       "warnings": []
     },
     {
-      "name": "親職資訊（仁愛國小）",
-      "status": "ok",
-      "itemCount": 58,
       "id": "renai-parenting",
+      "name": "親職資訊（仁愛國小）",
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 58,
+      "status": "ok",
+      "itemCount": 58,
       "lastSuccessfulItemCount": 58,
       "warnings": []
     },
     {
-      "name": "獎助學金（仁愛國小）",
-      "status": "ok",
-      "itemCount": 17,
       "id": "renai-scholarships",
+      "name": "獎助學金（仁愛國小）",
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 17,
+      "status": "ok",
+      "itemCount": 17,
       "lastSuccessfulItemCount": 17,
       "warnings": []
     },
     {
-      "name": "校內競賽（仁愛國小）",
-      "status": "ok",
-      "itemCount": 37,
       "id": "renai-school-contests",
+      "name": "校內競賽（仁愛國小）",
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 37,
+      "status": "ok",
+      "itemCount": 37,
       "lastSuccessfulItemCount": 37,
       "warnings": []
     },
     {
-      "name": "校內消息（仁愛國小）",
-      "status": "ok",
-      "itemCount": 53,
       "id": "renai-school-news",
+      "name": "校內消息（仁愛國小）",
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 53,
+      "status": "ok",
+      "itemCount": 53,
       "lastSuccessfulItemCount": 53,
       "warnings": []
     },
     {
-      "name": "研習資訊（仁愛國小）",
-      "status": "ok",
-      "itemCount": 100,
       "id": "renai-training",
+      "name": "研習資訊（仁愛國小）",
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 100,
+      "status": "ok",
+      "itemCount": 100,
       "lastSuccessfulItemCount": 100,
       "warnings": []
     },
     {
-      "name": "教育局消息",
-      "status": "ok",
-      "itemCount": 50,
       "id": "shared-education-department",
+      "name": "教育局消息",
       "schools": [
         "仁愛國小",
         "建安國小",
@@ -576,8 +623,11 @@
         "博愛國小",
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-16T18:46:22.207195+00:00",
-      "lastSuccessfulAt": "2026-11-16T18:46:22.207195+00:00",
+      "lastAttemptAt": "2026-11-17T01:02:30.241363+00:00",
+      "lastSuccessfulAt": "2026-11-17T01:02:30.241363+00:00",
+      "previousItemCount": 50,
+      "status": "ok",
+      "itemCount": 50,
       "lastSuccessfulItemCount": 50,
       "warnings": []
     }
@@ -588,32 +638,32 @@
     "renai": {
       "school": "仁愛國小",
       "path": "data/schools/renai.json",
-      "dataVersion": "d1fe5b3b25dc14872d9996ddc10b923e8ac08955f202970abb804dfe5a49911d",
-      "articleCount": 986
+      "dataVersion": "c5e6b3f156b47e11d38ba3757f7275f99f779ccd5f8a51d93df1eedd2789169f",
+      "articleCount": 985
     },
     "jianan": {
       "school": "建安國小",
       "path": "data/schools/jianan.json",
-      "dataVersion": "93195f9fbec5bc195f01c653a991ddc5c835d038aeaf8fa37f71abea0e02d88e",
-      "articleCount": 1029
+      "dataVersion": "cab40323db8d13959061491d38e7030ce3ad30f2223ab34011fd439836382449",
+      "articleCount": 1030
     },
     "dunhua": {
       "school": "敦化國小",
       "path": "data/schools/dunhua.json",
-      "dataVersion": "a2a480f7fb9cd6676e9d9eecff7d3dda2b2b3b0cc4660e9e14694eb4e6b26dd0",
-      "articleCount": 668
+      "dataVersion": "15a839aee78905741a54b8fbd5b521e76c02e5b44c2e5754e3977e3aa5907071",
+      "articleCount": 669
     },
     "boai": {
       "school": "博愛國小",
       "path": "data/schools/boai.json",
-      "dataVersion": "b897d20e56fb796db763e3f515f6eaa5c1485d9b3bbe7f248a0ea93e3a22656d",
-      "articleCount": 927
+      "dataVersion": "ba81d0b5831f21bcef348cdae74acf6f77ef6a5127960ba3ae5685d271cb980e",
+      "articleCount": 928
     },
     "guangfu": {
       "school": "光復國小",
       "path": "data/schools/guangfu.json",
-      "dataVersion": "614abb5dd519368c9fab539b5c97e070df7d6131a246cee52e6dc56a2bbb2c00",
-      "articleCount": 1110
+      "dataVersion": "cdc50a6d5dec03005b6d9e998cb8ab2516a91a868b75fb30c31eab251937e510",
+      "articleCount": 1112
     }
   }
 }
