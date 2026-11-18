@@ -85,15 +85,16 @@ class ScheduleTests(unittest.TestCase):
         self.assertTrue(report['committed']['covered'])
         self.assertEqual(report['primaryRuns'], [])
 
-    def test_grace_period_and_late_native_success_are_reported_without_guessing(self):
+    def test_grace_period_and_late_native_success_do_not_hide_an_overdue_start(self):
         old = snapshot('2026-11-18T11:55:00')
         self.assertEqual(assess(old, old, [], at('2026-11-18T17:59:59'))['errors'], [])
         self.assertIn('sources-overdue', assess(old, old, [], at('2026-11-18T18:00:00'))['errors'])
         current = snapshot('2026-11-18T18:25:00')
         late = run(created='2026-11-18T18:25:00')
         report = assess(current, current, [late], at('2026-11-18T19:00:00'))
-        self.assertEqual(report['errors'], [])
+        self.assertEqual(report['errors'], ['primary-start-delayed'])
         self.assertEqual(report['primaryRuns'][0]['created_at'], late['created_at'])
+        self.assertEqual(report['primaryRuns'][0]['creationDelayMinutes'], 115)
 
     def test_legacy_runs_are_marked_unattributed_instead_of_claiming_a_primary_slot(self):
         current = snapshot('2026-11-18T18:25:00')

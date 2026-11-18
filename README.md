@@ -90,7 +90,7 @@ Hero 的「今日午餐」開啟桌機視窗／手機全螢幕視窗，依供餐
 | `update-lunch.yml`／Update lunch data | 目前只手動觸發，驗證並提交 `data/lunch/` 與必要的公開檔案清單，不修改 RSS。全校失敗不提交，保留診斷 artifact。 |
 | `deploy.yml`／Deploy Pages | main push、手動觸發，或同儲存庫 main 的 RSS／午餐工作流程成功完成時，檢查目前 main 並上傳 `dist/`，再以獨立 job 部署 Pages。此流程不抓取外部資料。 |
 | `maintenance.yml`／Maintenance health | 每日08:15檢查資料新鮮度及逐校查核期限；週一08:45唯讀比對官方CSV。時間均為臺灣時間，也可手動觸發。 |
-| `rss-watchdog.yml`／RSS schedule watchdog | 預定每日12:13、18:13唯讀檢查對應主排程與資料。超過90分鐘仍缺主排程紀錄、資料逾時或發布不一致時，工作流程失敗並保留報告，依GitHub通知設定告警。 |
+| `rss-watchdog.yml`／RSS schedule watchdog | 預定每日12:13、18:13唯讀檢查對應主排程與資料。主排程缺漏／啟動逾時、資料逾時或發布不一致時，工作流程失敗並保留報告，依GitHub通知設定告警。 |
 
 Pages部署後會逐檔核對公開內容是否與實際部署產物一致。維護報告留在Actions摘要／artifact，家長沿用既有更新詳情；基本資訊底部另有逐校、逐類資料查核日期及逾期提醒。檢查命令、報告、效能預算及回復方式見 [維護工程](docs/maintenance.md)。
 

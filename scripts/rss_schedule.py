@@ -119,6 +119,8 @@ def assess(version, public, runs, now, slot=None):
         notes.append('An identified primary run succeeded; actual creation time is recorded separately from the planned slot.')
     else:
         notes.append('Primary schedule was observed but has not completed successfully.')
+    if primary and all(timestamp(run['created_at']) > slot + GRACE for run in primary):
+        errors.append('primary-start-delayed')
     local_time, public_time = timestamp(version['updatedAt']), timestamp(public['updatedAt'])
     same = public == version
     if public_time > local_time:
@@ -132,7 +134,7 @@ def assess(version, public, runs, now, slot=None):
     return {'checkedAt': now.isoformat(), 'slot': slot.isoformat(), 'deadline': (slot + GRACE).isoformat(),
             'committed': committed, 'public': published, 'publicMatchesCheckout': same,
             'primarySchedule': PRIMARY[(slot.hour, slot.minute)],
-            'primaryRuns': [{**{key: run.get(key) for key in ('id', 'created_at', 'status', 'conclusion')},
+            'primaryRuns': [{**{key: run.get(key) for key in ('id', 'created_at', 'run_started_at', 'run_attempt', 'status', 'conclusion')},
                              'creationDelayMinutes': round((timestamp(run['created_at']) - slot).total_seconds() / 60, 2)} for run in primary],
             'unattributedLegacyScheduledRuns': legacy, 'errors': sorted(set(errors)), 'notes': notes}
 
@@ -197,7 +199,8 @@ def main(argv=None, now=None):
             report = assess(version, public, history['workflow_runs'], now, slot=slot)
         save(report, filename)
         if report.get('errors'):
-            raise SystemExit('RSS data or publication is overdue; see rss-watchdog report. No source reads were triggered by the watchdog.')
+            print('::error title=RSS schedule/data alert::' + ', '.join(report['errors']))
+            raise SystemExit('RSS schedule/data alert; see rss-watchdog report. No source reads were triggered by the watchdog.')
     except (OSError, ValueError, KeyError, TypeError, HTTPError) as error:
         # Fail visibly with an artifact even when the API/public site cannot be checked.
         save({'checkedAt': now.isoformat(), 'errors': ['check-unavailable'], 'detail': str(error)}, filename)
