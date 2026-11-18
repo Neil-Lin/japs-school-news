@@ -28,7 +28,7 @@ class WorkflowContractTests(unittest.TestCase):
 
     def test_rss_workflow_only_updates_data_and_keeps_taiwan_schedule(self):
         rss = self.workflows['update-feed.yml']
-        self.assertEqual({item['cron'] for item in rss['on']['schedule']}, {'30 2 * * *', '30 8 * * *'})
+        self.assertEqual({item['cron'] for item in rss['on']['schedule']}, {'30 2 * * *', '30 8 * * *', '40 3 * * *', '40 9 * * *'})
         self.assertNotIn('push', rss['on'])
         self.assertEqual(rss['permissions'], {'contents': 'write'})
         self.assertEqual(rss['jobs']['update']['if'], "github.ref == 'refs/heads/main'")
@@ -40,6 +40,13 @@ class WorkflowContractTests(unittest.TestCase):
         self.assertIn('git push origin HEAD:main', commands)
         self.assertNotIn('--force', commands)
         self.assertFalse(any('pages' in step.get('uses', '') for step in steps))
+        plan = next(step for step in steps if step.get('id') == 'plan')
+        self.assertEqual(plan['env']['RSS_CRON'], '${{ github.event.schedule }}')
+        guarded = [step for step in steps if step.get('name') in ('Fetch RSS and publish a validated snapshot', 'Validate the new snapshot and school artifacts', 'Save only generated data')]
+        self.assertEqual(len(guarded), 3)
+        self.assertTrue(all(step['if'] == "steps.plan.outputs.run_update == 'true'" for step in guarded))
+        self.assertIn('github.event_name', rss['run-name'])
+        self.assertIn('github.event.schedule', rss['run-name'])
 
     def test_deploy_accepts_main_push_or_successful_same_repository_rss_completion(self):
         deploy = self.workflows['deploy.yml']
@@ -62,7 +69,7 @@ class WorkflowContractTests(unittest.TestCase):
         self.assertNotIn('pages', deploy['permissions'])
 
     def test_every_workflow_uses_shared_runtimes_and_explicit_timeouts(self):
-        self.assertEqual(set(self.workflows), {'ci.yml', 'deploy.yml', 'update-feed.yml', 'update-lunch.yml', 'maintenance.yml'})
+        self.assertEqual(set(self.workflows), {'ci.yml', 'deploy.yml', 'update-feed.yml', 'update-lunch.yml', 'maintenance.yml', 'rss-watchdog.yml'})
         for workflow in self.workflows.values():
             for job in workflow['jobs'].values():
                 self.assertLessEqual(job['timeout-minutes'], 20)
@@ -100,6 +107,23 @@ class WorkflowContractTests(unittest.TestCase):
         self.assertEqual(deploy['jobs']['verify']['steps'][0]['with']['ref'], '${{ needs.build.outputs.source_sha }}')
         self.assertTrue(any('verify_deployment.py --expected' in s.get('run', '') for s in deploy['jobs']['verify']['steps']))
         self.assertTrue(any(s.get('run') == 'npm run test:browser' for s in self.workflows['ci.yml']['jobs']['browsers']['steps']))
+
+    def test_watchdog_checks_twice_daily_with_readonly_permissions_and_no_recovery_loop(self):
+        watcher = self.workflows['rss-watchdog.yml']
+        self.assertEqual(set(watcher['on']), {'schedule', 'workflow_dispatch'})
+        self.assertEqual({s['cron'] for s in watcher['on']['schedule']}, {'13 4 * * *', '13 10 * * *'})
+        self.assertEqual(watcher['permissions'], {'contents': 'read'})
+        job = watcher['jobs']['check']
+        self.assertEqual(job['if'], "github.ref == 'refs/heads/main'")
+        self.assertEqual(job['permissions'], {'contents': 'read', 'actions': 'read'})
+        self.assertEqual(job['steps'][0]['with']['ref'], 'main')
+        self.assertFalse(job['steps'][0]['with']['persist-credentials'])
+        commands = '\n'.join(step.get('run', '') for step in job['steps'])
+        self.assertIn('python scripts/rss_schedule.py --watchdog', commands)
+        self.assertNotIn('update_feed.py', commands)
+        self.assertNotIn('git push', commands)
+        self.assertNotIn('continue-on-error', next(step for step in job['steps'] if step.get('run') == 'python scripts/rss_schedule.py --watchdog'))
+        self.assertEqual(job['steps'][-1]['if'], 'always()')
 
 
 if __name__ == '__main__':

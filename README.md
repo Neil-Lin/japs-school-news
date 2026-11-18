@@ -81,15 +81,16 @@ Hero 的「今日午餐」開啟桌機視窗／手機全螢幕視窗，依供餐
 
 ## GitHub Actions
 
-五條工作流程共用 `.github/actions/setup/action.yml` 的 Node.js 22／Python 3.12。網站本身不需要npm套件；瀏覽器回歸測試使用鎖定版本的Playwright開發依賴：
+六條工作流程共用 `.github/actions/setup/action.yml` 的 Node.js 22／Python 3.12。網站本身不需要npm套件；瀏覽器回歸測試使用鎖定版本的Playwright開發依賴：
 
 | 工作流程 | 觸發與責任 |
 | --- | --- |
 | `ci.yml`／Project checks | PR 或手動觸發，以唯讀權限執行完整離線檢查、發布打包、Chromium／手機WebKit、效能預算與舊版讀取相容性演練。 |
-| `update-feed.yml`／Update RSS data | 預定每日臺灣時間 10:30、16:30 或手動觸發，實際排程可能延遲。只抓取、驗證並提交 `data/` 的產生資料。若遠端 main 已前進，正常 push 會失敗並留待重新執行，不強制覆寫。 |
+| `update-feed.yml`／Update RSS data | 預定每日臺灣時間10:30、16:30，11:40、17:40各一次備援。資料已涵蓋對應時段就跳過抓取；手動模式仍可明確重新讀取。只提交經驗證的 `data/`。遠端main前進時不強制覆寫。 |
 | `update-lunch.yml`／Update lunch data | 目前只手動觸發，驗證並提交 `data/lunch/` 與必要的公開檔案清單，不修改 RSS。全校失敗不提交，保留診斷 artifact。 |
 | `deploy.yml`／Deploy Pages | main push、手動觸發，或同儲存庫 main 的 RSS／午餐工作流程成功完成時，檢查目前 main 並上傳 `dist/`，再以獨立 job 部署 Pages。此流程不抓取外部資料。 |
 | `maintenance.yml`／Maintenance health | 每日08:15檢查資料新鮮度及逐校查核期限；週一08:45唯讀比對官方CSV。時間均為臺灣時間，也可手動觸發。 |
+| `rss-watchdog.yml`／RSS schedule watchdog | 預定每日12:13、18:13唯讀檢查對應主排程與資料。主排程缺漏／啟動逾時、資料逾時或發布不一致時，工作流程失敗並保留報告，依GitHub通知設定告警。 |
 
 Pages部署後會逐檔核對公開內容是否與實際部署產物一致。維護報告留在Actions摘要／artifact，家長沿用既有更新詳情；基本資訊底部另有逐校、逐類資料查核日期及逾期提醒。檢查命令、報告、效能預算及回復方式見 [維護工程](docs/maintenance.md)。
 
