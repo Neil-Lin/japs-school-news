@@ -15,6 +15,8 @@ concurrency:
   cancel-in-progress: false
 jobs:
   build:
+    outputs:
+      source_sha: ${{ steps.source.outputs.sha }}
     if: >-
       github.ref == 'refs/heads/main' &&
       (github.event_name != 'workflow_run' ||
@@ -29,10 +31,19 @@ jobs:
           ref: main
           persist-credentials: false
       - uses: ./.github/actions/setup
+      - name: Record the exact source revision
+        id: source
+        run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
       - name: Validate the committed snapshot without fetching RSS
         run: python scripts/check_project.py
       - name: Build an explicit public package
         run: python scripts/build_site.py --output dist
+      - name: Record expected public response hashes
+        run: python scripts/verify_deployment.py --prepare dist --output reports/deploy-expected.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: deploy-expectations
+          path: reports/deploy-expected.json
       - uses: actions/upload-pages-artifact@v4
         with:
           path: dist
@@ -57,3 +68,25 @@ jobs:
         id: retry
         if: steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v4
+  verify:
+    needs: [build, deploy]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ needs.build.outputs.source_sha }}
+          persist-credentials: false
+      - uses: ./.github/actions/setup
+      - uses: actions/download-artifact@v4
+        with:
+          name: deploy-expectations
+          path: reports
+      - name: Verify all published pages, assets and data against this deployment
+        run: python scripts/verify_deployment.py --expected reports/deploy-expected.json --base-url https://neil-lin.github.io/japs-school-news/ --output reports/deploy-verification.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: deploy-verification
+          path: reports/
+          retention-days: 30

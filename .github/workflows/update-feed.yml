@@ -23,7 +23,21 @@ jobs:
       - name: Check code and the current snapshot without fetching sources
         run: python scripts/check_project.py
       - name: Fetch RSS and publish a validated snapshot
+        env:
+          FEED_ATTEMPT_REPORT: reports/feed-attempt.json
         run: python scripts/update_feed.py
+      - name: Report source health without blocking a valid partial snapshot
+        if: always()
+        continue-on-error: true
+        env:
+          FEED_ATTEMPT_REPORT: reports/feed-attempt.json
+        run: node scripts/health_report.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: rss-health
+          path: reports/
+          retention-days: 30
       - name: Validate the new snapshot and school artifacts
         run: python scripts/validate_project.py
       - name: Save only generated data

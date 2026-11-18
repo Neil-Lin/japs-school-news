@@ -3,6 +3,7 @@
 import csv
 import io
 import json
+import os
 from pathlib import Path
 from urllib.request import Request, urlopen
 from school_info import load_info
@@ -23,17 +24,28 @@ def compare_rows(data, directory, campus):
 def main():
     data = load_info(ROOT, json.loads((ROOT / 'config.json').read_text()))
     tables = {}
+    failures = []
     for name in ('directory', 'campus'):
-        request = Request(data['sources'][name]['downloadURL'], headers={'User-Agent': 'school-news-public-data/1.0'})
-        with urlopen(request, timeout=30) as response:
-            raw = response.read(5_000_001)
-        if len(raw) > 5_000_000:
-            raise ValueError('來源檔案過大')
-        tables[name] = list(csv.DictReader(io.StringIO(raw.decode('utf-8-sig'))))
-    changes = compare_rows(data, tables['directory'], tables['campus'])
+        try:
+            request = Request(data['sources'][name]['downloadURL'], headers={'User-Agent': 'school-news-public-data/1.0'})
+            with urlopen(request, timeout=30) as response:
+                raw = response.read(5_000_001)
+            if len(raw) > 5_000_000:
+                raise ValueError('來源檔案過大')
+            tables[name] = list(csv.DictReader(io.StringIO(raw.decode('utf-8-sig'))))
+        except Exception as error:
+            failures.append(f'{name}: 無法比對來源（{error}），未修改已查核資料。')
+    changes = failures or compare_rows(data, tables['directory'], tables['campus'])
+    report = '\n'.join(changes) if changes else '五校名錄與市府開放資料未變更；未改寫本站資料或查核日期。校方公告仍須人工核對。'
+    path = ROOT / 'reports' / 'school-info-sources.txt'
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(report + '\n', encoding='utf-8')
+    if os.environ.get('GITHUB_STEP_SUMMARY'):
+        with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as summary:
+            summary.write('## School source comparison\n\n' + report + '\n')
     if changes:
         raise SystemExit('\n'.join(changes))
-    print('五校名錄與市府開放資料未變更；未改寫本站資料或查核日期。校方公告仍須人工核對。')
+    print(report)
 
 
 if __name__ == '__main__':

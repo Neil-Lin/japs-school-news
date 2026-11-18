@@ -1,0 +1,52 @@
+name: Maintenance health
+"on":
+  schedule:
+    - cron: '15 0 * * *'
+    - cron: '45 0 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  health:
+    if: github.event_name != 'schedule' || github.event.schedule == '15 0 * * *'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: ./.github/actions/setup
+      - name: Validate the published data contracts
+        run: python scripts/check_project.py
+      - name: Build the expected current public package
+        run: python scripts/build_site.py --output dist
+      - name: Record the current expected public files
+        run: python scripts/verify_deployment.py --prepare dist --output reports/deploy-expected.json
+      - name: Detect public deployment lag or missing files
+        run: python scripts/verify_deployment.py --expected reports/deploy-expected.json --base-url https://neil-lin.github.io/japs-school-news/ --output reports/deploy-verification.json
+      - name: Check freshness and independent school review dates
+        if: always()
+        run: node scripts/health_report.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: maintenance-health
+          path: reports/
+          retention-days: 30
+  school-sources:
+    if: github.event_name != 'schedule' || github.event.schedule == '45 0 * * 1'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: ./.github/actions/setup
+      - name: Compare public school source rows without changing reviewed content
+        run: python scripts/check_school_info_sources.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: school-source-comparison
+          path: reports/
+          retention-days: 30

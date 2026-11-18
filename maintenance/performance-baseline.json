@@ -1,0 +1,100 @@
+{
+  "shell": {
+    "bytes": 98810,
+    "gzipBytes": 31870,
+    "requests": 11
+  },
+  "precache": {
+    "bytes": 208330,
+    "requests": 24
+  },
+  "schools": [
+    {
+      "slug": "renai",
+      "articles": 995,
+      "bytes": 1430789,
+      "gzipBytes": 321232
+    },
+    {
+      "slug": "jianan",
+      "articles": 1038,
+      "bytes": 1254290,
+      "gzipBytes": 291125
+    },
+    {
+      "slug": "dunhua",
+      "articles": 673,
+      "bytes": 867361,
+      "gzipBytes": 195070
+    },
+    {
+      "slug": "boai",
+      "articles": 935,
+      "bytes": 1170079,
+      "gzipBytes": 274025
+    },
+    {
+      "slug": "guangfu",
+      "articles": 1121,
+      "bytes": 1496024,
+      "gzipBytes": 353948
+    }
+  ],
+  "assets": [
+    {
+      "name": "app.js",
+      "bytes": 16218,
+      "gzipBytes": 5692
+    },
+    {
+      "name": "data-client.mjs",
+      "bytes": 13958,
+      "gzipBytes": 3927
+    },
+    {
+      "name": "dialog-controller.mjs",
+      "bytes": 4760,
+      "gzipBytes": 1611
+    },
+    {
+      "name": "lunch-client.mjs",
+      "bytes": 9960,
+      "gzipBytes": 3439
+    },
+    {
+      "name": "lunch-live.mjs",
+      "bytes": 9291,
+      "gzipBytes": 3317
+    },
+    {
+      "name": "lunch-ui.mjs",
+      "bytes": 8793,
+      "gzipBytes": 3368
+    },
+    {
+      "name": "news-core.mjs",
+      "bytes": 7424,
+      "gzipBytes": 2461
+    },
+    {
+      "name": "news-health.mjs",
+      "bytes": 1761,
+      "gzipBytes": 878
+    },
+    {
+      "name": "school-data.mjs",
+      "bytes": 4094,
+      "gzipBytes": 1392
+    },
+    {
+      "name": "school-info-ui.mjs",
+      "bytes": 2605,
+      "gzipBytes": 1337
+    },
+    {
+      "name": "styles.css",
+      "bytes": 19946,
+      "gzipBytes": 4448
+    }
+  ]
+}

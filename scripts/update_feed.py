@@ -230,7 +230,7 @@ def build_payload(config, existing, results, now=None):
         status = {"id": source["id"], "name": status_name(source), "schools": source_schools(source), "lastAttemptAt": checked_at, "lastSuccessfulAt": last_success, "previousItemCount": previous_count}
         result = results[source["id"]]
         if "error" in result:
-            status.update(status="error", itemCount=0, lastSuccessfulItemCount=previous_count, error=result["error"], warnings=[])
+            status.update(status="error", itemCount=0, lastSuccessfulItemCount=previous_count, error=result["error"], warnings=[], consecutiveFailures=old.get("consecutiveFailures", 0) + 1)
         else:
             items = result["items"]
             # Parsed results are validated; failed sources never enter this branch.
@@ -242,7 +242,7 @@ def build_payload(config, existing, results, now=None):
                 warnings.append(f"來源筆數由 {previous_count} 降至 {len(items)}，請確認來源內容。")
             for article in items:
                 by_id[article["id"]] = article
-            status.update(status="warning" if warnings else "ok", itemCount=len(items), lastSuccessfulItemCount=len(items), lastSuccessfulAt=checked_at, warnings=warnings)
+            status.update(status="warning" if warnings else "ok", itemCount=len(items), lastSuccessfulItemCount=len(items), lastSuccessfulAt=checked_at, warnings=warnings, consecutiveFailures=0)
             successes += 1
         statuses.append(status)
     if not successes:
@@ -325,6 +325,12 @@ def publish(config, payload, directory):
 
 
 def report_statuses(statuses):
+    # Keep failed attempts available to maintainers even when public data is preserved.
+    report_path = os.environ.get("FEED_ATTEMPT_REPORT")
+    if report_path:
+        path = Path(report_path)
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps({"sourceStatus": statuses}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     issues = [item for item in statuses if item["status"] != "ok"]
     if not issues:
         return

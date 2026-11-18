@@ -6,6 +6,7 @@ import {
 import {loadSnapshot} from './data-client.mjs';
 import {setupLunchDialog} from './lunch-ui.mjs';
 import {setupSchoolInfoDialog, showOpeningAnnouncements} from './school-info-ui.mjs';
+import {snapshotHealth, sourceHealth} from './news-health.mjs';
 
 const esc = value => String(value ?? '').replace(/[&<>"']/g, char => (
   {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[char]
@@ -101,18 +102,19 @@ function start(bundle) {
   document.querySelector('#updated').textContent = data.updatedAt
     ? '最近檢查 ' + fmt(data.updatedAt, shortFormatter) + '・今日新增 ' + todayCount + ' 筆' : '尚未更新';
   const statuses = (data.sourceStatus || []).filter(item => !item.schools || item.schools.includes(activeSchool));
-  const issues = statuses.filter(item => item.status !== 'ok');
+  const health = snapshotHealth({...data, sourceStatus: statuses});
+  const issues = health.issues;
   document.querySelector('#sourceStatus').textContent = issues.length
     ? '部分來源需要注意：' + issues.map(item => item.name).join('、') : '本校所有來源最近更新正常';
   document.querySelector('#sourceDetails').innerHTML = statuses.map(item => (
-    `<li><strong>${esc(item.name)}</strong>・${item.status === 'error' ? '更新失敗' : item.status === 'warning' ? '有警告' : '正常'}<br>
+    `<li><strong>${esc(item.name)}</strong>・${esc(sourceHealth(item).label)}<br>
       最近成功：${item.lastSuccessfulAt ? esc(fmt(item.lastSuccessfulAt)) : '尚無成功紀錄'}
-      ${item.error ? `<p>${esc(item.error)}</p>` : ''}
-      ${(item.warnings || []).map(warning => `<p>${esc(warning)}</p>`).join('')}</li>`
+      ${item.error ? '<p>本次無法取得來源，歷史公告仍保留；可前往學校官網確認。</p>' : ''}
+      ${sourceHealth(item).attention.map(warning => `<p>${esc(warning)}</p>`).join('')}</li>`
   )).join('');
   const {stale} = showDataState(bundle);
   const hint = document.querySelector('#statusHint');
-  hint.textContent = mode === 'cached' ? '使用上次資料' : stale ? '資料待更新' : issues.length ? '部分來源異常' : '更新詳情';
+  hint.textContent = mode === 'cached' ? '使用上次資料' : stale ? '資料待更新' : issues.length ? '部分來源待確認' : '更新詳情';
   hint.classList.toggle('warning', mode === 'cached' || stale || issues.length > 0);
 
   setSchoolHeader(config, activeSchool);

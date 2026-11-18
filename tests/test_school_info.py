@@ -41,6 +41,14 @@ class SchoolInfoTests(unittest.TestCase):
         self.assertEqual(len(compare_rows(self.data, directory + [directory[0]], campus)), 1)
         self.assertEqual(len(compare_rows(self.data, [], campus)), 5)
 
+    def test_each_school_and_information_type_has_its_own_review_date(self):
+        data = copy.deepcopy(self.data)
+        data['schools']['renai']['reviews']['opening']['checkedOn'] = '2026-10-01'
+        rendered = render_info(data, 'renai')
+        self.assertIn('data-review-date="2026-10-01"', rendered)
+        self.assertIn('data-review-date="2026-11-18"', rendered)
+        self.assertNotIn('2026-10-01', render_info(data, 'boai'))
+
     def test_invalid_sources_and_school_identity_fail_before_rendering(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
@@ -48,6 +56,8 @@ class SchoolInfoTests(unittest.TestCase):
                 lambda data: data['schools']['renai'].update(website='javascript:alert(1)'),
                 lambda data: data['schools']['renai']['sourceRecords']['campus'].update(校名='另一所學校'),
                 lambda data: data['schools']['renai'].update(phone='not-a-phone'),
+                lambda data: data['schools']['renai']['reviews']['opening'].update(checkedOn='invalid'),
+                lambda data: data['schools']['renai']['reviews']['contact'].update(intervalDays=0),
             ]:
                 data = copy.deepcopy(self.data)
                 mutate(data)

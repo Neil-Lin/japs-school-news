@@ -1,0 +1,11 @@
+{
+  "name": "japs-school-news",
+  "private": true,
+  "scripts": {
+    "test:browser": "playwright test",
+    "test:performance": "node scripts/performance_budget.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.1"
+  }
+}

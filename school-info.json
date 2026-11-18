@@ -1,6 +1,5 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-11-18",
   "directoryYear": "115",
   "sources": {
     "directory": {
@@ -75,6 +74,16 @@
           "縣市別代碼": "63000",
           "校園場地開放時間": "周一~周五0500-0700，1750-2130。周六0500-0700，1300-2100。周日0500-2000"
         }
+      },
+      "reviews": {
+        "contact": {
+          "checkedOn": "2026-11-18",
+          "intervalDays": 30
+        },
+        "opening": {
+          "checkedOn": "2026-11-18",
+          "intervalDays": 30
+        }
       }
     },
     "jianan": {
@@ -128,6 +137,16 @@
           "縣市別代碼": "63000",
           "校園場地開放時間": "周一~周五06:00~07:00，19:00~21:00 周六日06:00~17:30"
         }
+      },
+      "reviews": {
+        "contact": {
+          "checkedOn": "2026-11-18",
+          "intervalDays": 30
+        },
+        "opening": {
+          "checkedOn": "2026-11-18",
+          "intervalDays": 30
+        }
       }
     },
     "dunhua": {
@@ -171,6 +190,16 @@
           "機關代碼": "379070800Y",
           "縣市別代碼": "63000",
           "校園場地開放時間": "因施工未開放"
+        }
+      },
+      "reviews": {
+        "contact": {
+          "checkedOn": "2026-11-18",
+          "intervalDays": 30
+        },
+        "opening": {
+          "checkedOn": "2026-11-18",
+          "intervalDays": 30
         }
       }
     },
@@ -225,6 +254,16 @@
           "縣市別代碼": "63000",
           "校園場地開放時間": "周一-周五5:00-7:00，17:30-21:30 六日5:00-21:30"
         }
+      },
+      "reviews": {
+        "contact": {
+          "checkedOn": "2026-11-18",
+          "intervalDays": 30
+        },
+        "opening": {
+          "checkedOn": "2026-11-18",
+          "intervalDays": 30
+        }
       }
     },
     "guangfu": {
@@ -277,6 +316,16 @@
           "機關代碼": "379084200Y",
           "縣市別代碼": "63000",
           "校園場地開放時間": "周一-周五18:00-21:30 六日8:00-18:00"
+        }
+      },
+      "reviews": {
+        "contact": {
+          "checkedOn": "2026-11-18",
+          "intervalDays": 30
+        },
+        "opening": {
+          "checkedOn": "2026-11-18",
+          "intervalDays": 30
         }
       }
     }

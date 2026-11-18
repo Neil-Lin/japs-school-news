@@ -1,0 +1,4 @@
+{
+  "revision": "520f4431298146fceff733dde4c92c4c88b68de9",
+  "purpose": "Known compatible reader used to verify code recovery preserves the current data and offline snapshot. Advance only after a deliberate compatibility review."
+}
