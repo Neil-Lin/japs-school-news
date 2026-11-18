@@ -11,7 +11,7 @@
 | 檢查 | 時間／觸發 | 結果 |
 | --- | --- | --- |
 | RSS 每來源狀態 | 原有每日10:30、16:30更新 | Update RSS data 的摘要及 `rss-health` artifact，保留30天 |
-| 快照新鮮度與逐校查核期限 | 每日08:15臺灣時間或手動 | Maintenance health 的摘要及 `maintenance-health` artifact |
+| 快照新鮮度、逐校查核期限及正式站版本 | 每日08:15臺灣時間或手動 | Maintenance health 的摘要及 `maintenance-health` artifact |
 | 教育部名錄／市府開放資料比對 | 每週一08:45臺灣時間或手動 | `school-source-comparison` artifact；不覆寫資料 |
 | 瀏覽器操作 | PR 或手動 Project checks | Chromium、手機 WebKit，HTML報告、失敗截圖及trace保留14天 |
 | 效能預算與回復相容性演練 | PR 或手動 Project checks | `performance` artifact及摘要 |
@@ -42,7 +42,7 @@ node scripts/measure_performance.mjs
 node scripts/recovery_drill.mjs
 ```
 
-一般瀏覽器案例停用worker，攔截官方API並使用固定資料；PWA離線案例才啟用worker，不呼叫官方API。涵蓋預設分類、多選、搜尋／分頁分享及重載、燈箱Escape／返回／前進、焦點、菜色展開、錯校／錯日、320／390px及離線重開。這些是自動瀏覽器驗證，不替代iPhone／iPad Safari實機手勢及輔助使用驗收。
+一般瀏覽器案例停用worker，攔截官方API並使用固定資料；PWA離線案例才啟用worker，不呼叫官方API。涵蓋預設分類、多選、搜尋／分頁分享及重載、燈箱Escape／返回／前進、焦點、背景鎖定與捲動還原、菜色展開、錯校／錯日、320／390px及離線重開。HTML報告另附公告可操作與午餐顯示的等待基線；這是本機伺服器、測試資料及自動化等待的量測，不是實體手機的網路效能。這些是自動瀏覽器驗證，不替代iPhone／iPad Safari實機手勢及輔助使用驗收。
 
 午餐與基本資訊共用 `dialog-controller.mjs` 管理返回、鎖住背景捲動、焦點循環及關閉；資料讀取／取消仍由午餐模組負責。焦點排除收合details內的隱藏連結，避免WebKit落入不可見內容。
 

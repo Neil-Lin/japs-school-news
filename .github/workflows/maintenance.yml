@@ -18,7 +18,14 @@ jobs:
       - uses: ./.github/actions/setup
       - name: Validate the published data contracts
         run: python scripts/check_project.py
+      - name: Build the expected current public package
+        run: python scripts/build_site.py --output dist
+      - name: Record the current expected public files
+        run: python scripts/verify_deployment.py --prepare dist --output reports/deploy-expected.json
+      - name: Detect public deployment lag or missing files
+        run: python scripts/verify_deployment.py --expected reports/deploy-expected.json --base-url https://neil-lin.github.io/japs-school-news/ --output reports/deploy-verification.json
       - name: Check freshness and independent school review dates
+        if: always()
         run: node scripts/health_report.mjs
       - uses: actions/upload-artifact@v4
         if: always()

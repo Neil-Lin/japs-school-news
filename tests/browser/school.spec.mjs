@@ -117,6 +117,30 @@ test('repaired sources stay normal; failed fetches show concise details without 
   await expect(page.locator('#sourceDetails')).not.toContainText('internal-debug-error');
 });
 
+test('modal locks the background and restores its scroll position on close', async ({page}) => {
+  await ready(page);
+  await page.evaluate(() => window.scrollTo(0, 100));
+  const before = await page.evaluate(() => window.scrollY);
+  await page.locator('#schoolInfoOpen').click();
+  await expect(page.locator('body')).toHaveCSS('position', 'fixed');
+  await page.locator('#schoolInfoDialog .lunch-scroll').evaluate(el => {el.scrollTop = el.scrollHeight;});
+  await page.locator('#schoolInfoClose').click();
+  await expect(page.locator('body')).not.toHaveCSS('position', 'fixed');
+  await expect.poll(() => page.evaluate(() => window.scrollY)).toBe(before);
+});
+
+test('record browser announcement and menu waits as a baseline', async ({page}, testInfo) => {
+  const newsStart = performance.now();
+  await ready(page);
+  const newsReadyMs = performance.now() - newsStart;
+  const menuStart = performance.now();
+  await page.locator('#lunchOpen').click();
+  await expect(page.locator('.lunch-dish').first()).toBeVisible();
+  const menuReadyMs = performance.now() - menuStart;
+  await testInfo.attach('browser-wait-baseline', {body: JSON.stringify({project: testInfo.project.name, newsReadyMs, menuReadyMs,
+    note: 'Loopback static server, committed announcement data and stubbed lunch API. Includes automation waits. Mobile emulation is not physical iPhone performance.'}, null, 2), contentType: 'application/json'});
+});
+
 test('320px and 390px layouts fit, review dates show without enlarging homepage', async ({page}) => {
   await ready(page);
   for (const width of [320, 390]) {
