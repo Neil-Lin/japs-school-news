@@ -1,3 +1,4 @@
+import {setupDialog} from './dialog-controller.mjs';
 import {lunchSourceURL, taipeiDay} from './lunch-client.mjs';
 import {loadCurrentLunch} from './lunch-live.mjs';
 
@@ -70,49 +71,7 @@ export function setupLunchDialog() {
   const status = dialog.querySelector('#lunchStatus');
   const source = dialog.querySelector('#lunchSource');
   const close = dialog.querySelector('#lunchClose');
-  let controller, serial = 0, scroll, bodyStyles, restoreFocus, openedURL, pendingPop;
-  let restoration;
-  const historyKey = '__schoolNewsLunch';
-
-  function releaseHistory() {
-    if (restoration !== undefined) setTimeout(() => {
-      if (!dialog.open) {
-        history.scrollRestoration = restoration;
-        restoration = undefined;
-      }
-    }, 0);
-  }
-
-  function restorePosition() {
-    const position = scroll;
-    // Commit the change from a fixed body before restoring page coordinates.
-    document.body.getBoundingClientRect();
-    window.scrollTo(position.x, position.y);
-    // A history traversal may apply its own persisted scroll after popstate.
-    setTimeout(() => {
-      if (!dialog.open) window.scrollTo(position.x, position.y);
-    }, 0);
-  }
-
-  function closeDialog() {
-    if (!dialog.open) return;
-    serial++;
-    controller?.abort();
-    dialog.close();
-    trigger.setAttribute('aria-expanded', 'false');
-    for (const [key, value] of Object.entries(bodyStyles)) document.body.style[key] = value;
-    restorePosition();
-    if (restoreFocus?.isConnected) restoreFocus.focus({preventScroll: true});
-  }
-
-  function requestClose() {
-    if (!dialog.open) return;
-    if (history.state?.[historyKey] === schoolSlug) {
-      pendingPop = openedURL;
-      history.back();
-    } else releaseHistory();
-    closeDialog();
-  }
+  let controller, serial = 0;
 
   async function readLunch() {
     controller?.abort();
@@ -141,72 +100,11 @@ export function setupLunchDialog() {
     }
   }
 
-  function openDialog(fromHistory = false) {
-    if (dialog.open || pendingPop) return;
-    if (typeof dialog.showModal !== 'function') {
-      window.open(lunchSourceURL(schoolId, taipeiDay()), '_blank', 'noopener');
-      return;
-    }
-    // Safari does not always focus a button on pointer activation.
-    restoreFocus = trigger;
-    scroll = {x: window.scrollX, y: window.scrollY};
-    openedURL = location.href;
-    restoration ??= history.scrollRestoration;
-    history.scrollRestoration = 'manual';
-    if (!fromHistory) history.pushState({...history.state, [historyKey]: schoolSlug}, '', openedURL);
-    const keys = ['position', 'top', 'left', 'width', 'overflow', 'paddingRight'];
-    bodyStyles = Object.fromEntries(keys.map(key => [key, document.body.style[key]]));
-    const gap = window.innerWidth - document.documentElement.clientWidth;
-    if (gap > 0) document.body.style.paddingRight = (parseFloat(getComputedStyle(document.body).paddingRight) + gap) + 'px';
-    Object.assign(document.body.style, {position: 'fixed', top: -scroll.y + 'px', left: -scroll.x + 'px', width: '100%', overflow: 'hidden'});
-    dialog.showModal();
-    close.focus({preventScroll: true});
-    trigger.setAttribute('aria-expanded', 'true');
-    readLunch();
-  }
-
-  trigger.addEventListener('click', () => openDialog());
-  close.addEventListener('click', requestClose);
-  dialog.addEventListener('cancel', event => { event.preventDefault(); requestClose(); });
-  dialog.addEventListener('keydown', event => {
-    if (event.key !== 'Tab') return;
-    const targets = [...dialog.querySelectorAll('button:not([disabled]), a[href], summary, [tabindex="0"]')]
-      .filter(node => node.getClientRects().length);
-    const first = targets[0], last = targets.at(-1);
-    if (event.shiftKey && (document.activeElement === first || !dialog.contains(document.activeElement))) {
-      event.preventDefault();
-      last?.focus();
-    } else if (!event.shiftKey && document.activeElement === last) {
-      event.preventDefault();
-      first?.focus({preventScroll: true});
-    }
-  });
   dialog.addEventListener('click', event => {
     if (event.target.closest('[data-lunch-retry]')) readLunch();
-    if (event.target === dialog) {
-      const rect = dialog.getBoundingClientRect();
-      if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) requestClose();
-    }
   });
-  // Registered before the announcement popstate handler: closing this layer
-  // consumes only its own history entry, leaving announcement DOM/state intact.
-  window.addEventListener('popstate', event => {
-    if (pendingPop) {
-      const sameURL = location.href === pendingPop;
-      pendingPop = undefined;
-      if (sameURL) restorePosition();
-      releaseHistory();
-      if (sameURL) event.stopImmediatePropagation();
-    } else if (dialog.open && event.state?.[historyKey] !== schoolSlug) {
-      const sameURL = location.href === openedURL;
-      closeDialog();
-      releaseHistory();
-      if (sameURL) event.stopImmediatePropagation();
-    } else if (!dialog.open && event.state?.[historyKey] === schoolSlug) {
-      openDialog(true);
-      event.stopImmediatePropagation();
-    }
-  });
-  window.addEventListener('pagehide', () => { closeDialog(); releaseHistory(); });
-  if (history.state?.[historyKey] === schoolSlug) openDialog(true);
+  setupDialog({trigger, dialog, close, historyKey: '__schoolNewsLunch', school: schoolSlug,
+    onOpen: readLunch,
+    onClose: () => { serial++; controller?.abort(); },
+    fallback: () => window.open(lunchSourceURL(schoolId, taipeiDay()), '_blank', 'noopener')});
 }

@@ -110,6 +110,8 @@ def validate_snapshot(config, data, version):
         errors.append("來源狀態未完整對應設定來源")
     else:
         for status in statuses:
+            if 'consecutiveFailures' in status and (type(status['consecutiveFailures']) is not int or status['consecutiveFailures'] < 0):
+                errors.append('來源連續失敗次數無效')
             if status.get("status") not in ("ok", "warning", "error"):
                 errors.append("來源狀態值無效")
             if not isinstance(status.get("itemCount"), int) or isinstance(status.get("itemCount"), bool) or status["itemCount"] < 0:

@@ -2,9 +2,10 @@
 import html
 import json
 import re
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 from urllib.parse import urlencode, urlparse
+from zoneinfo import ZoneInfo
 
 
 def require(condition, message):
@@ -29,7 +30,6 @@ def load_info(root, config):
     require(not path.is_symlink(), '不得使用符號連結')
     data = json.loads(path.read_text(encoding='utf-8'))
     require(data['schemaVersion'] == 1, '不支援的版本')
-    date.fromisoformat(data['checkedOn'])
     require(bool(re.fullmatch(r'\d{3}', data['directoryYear'])), '學年度格式錯誤')
     for source in data['sources'].values():
         https(source['url'])
@@ -39,6 +39,11 @@ def load_info(root, config):
     require(set(data['schools']) <= set(known), '出現未設定學校')
     ids = set()
     for slug, item in data['schools'].items():
+        for kind in ('contact', 'opening'):
+            review = item['reviews'][kind]
+            checked = date.fromisoformat(review['checkedOn'])
+            require(checked <= datetime.now(ZoneInfo('Asia/Taipei')).date(), '查核日期不得在未來')
+            require(type(review['intervalDays']) is int and 1 <= review['intervalDays'] <= 365, '查核週期錯誤')
         name, meta = known[slug]
         require(bool(re.fullmatch(r'\d{6}', item['schoolId'])) and item['schoolId'] not in ids, '學校代碼錯誤或重複')
         ids.add(item['schoolId'])
@@ -74,6 +79,8 @@ def render_info(data, slug):
         attributes = f' class="{esc(class_name)}"' if class_name else ''
         return f'<a{attributes} href="{esc(url)}" target="_blank" rel="noopener">{esc(label)}<span class="sr-only">（另開分頁）</span></a>'
     opening = item['opening']
+    reviews = item['reviews']
+    review_rows = ''.join(f'<p class="school-info-source" data-review-date="{esc(review["checkedOn"])}" data-review-days="{review["intervalDays"]}">{label}查核：<time datetime="{esc(review["checkedOn"])}">{esc(review["checkedOn"].replace("-", "/"))}</time><span data-review-status></span></p>' for kind, label in [('contact', '聯絡資訊'), ('opening', '開放資訊')] for review in [reviews[kind]])
     navigation = 'https://www.google.com/maps/search/?' + urlencode({'api': '1', 'query': item['name'] + ' ' + item['address']})
     hours = '<dl class="school-hours">' + ''.join(f'<div><dt>{esc(row["label"])}</dt><dd>{esc(row["hours"])}</dd></div>' for row in opening['rows']) + '</dl>' if opening['rows'] else ''
     return f'''<section class="school-info-section" aria-labelledby="schoolContactTitle">
@@ -91,7 +98,8 @@ def render_info(data, slug):
       <div id="schoolOpeningNotices" class="school-opening-notices" hidden></div>
     </section>
     <details class="school-info-provenance">
-      <summary>資料來源・查核 <time datetime="{esc(data['checkedOn'])}">{esc(data['checkedOn'].replace('-', '/'))}</time></summary>
+      <summary>資料來源與查核<span data-review-summary></span></summary>
+      {review_rows}
       <p class="school-info-source">基本資料：{link(item['basicSource']['url'], item['basicSource']['label'])}，並核對{link(item['contactSource'], '學校官網')}。</p>
       <p class="school-info-source">開放資訊：{'、'.join(link(source['url'], source['label']) for source in opening['sources'])}</p>
       <p class="school-info-source">查核日期與頁面公告的「最近檢查」分開計算。</p>

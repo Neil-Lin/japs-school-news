@@ -62,7 +62,7 @@ class WorkflowContractTests(unittest.TestCase):
         self.assertNotIn('pages', deploy['permissions'])
 
     def test_every_workflow_uses_shared_runtimes_and_explicit_timeouts(self):
-        self.assertEqual(set(self.workflows), {'ci.yml', 'deploy.yml', 'update-feed.yml', 'update-lunch.yml'})
+        self.assertEqual(set(self.workflows), {'ci.yml', 'deploy.yml', 'update-feed.yml', 'update-lunch.yml', 'maintenance.yml'})
         for workflow in self.workflows.values():
             for job in workflow['jobs'].values():
                 self.assertLessEqual(job['timeout-minutes'], 20)
@@ -86,6 +86,20 @@ class WorkflowContractTests(unittest.TestCase):
         self.assertFalse(any('pages' in step.get('uses', '') for step in steps))
         diagnostics = next(step for step in steps if 'upload-artifact' in step.get('uses', ''))
         self.assertEqual(diagnostics['if'], 'always()')
+
+    def test_maintenance_is_readonly_and_deployment_verifies_the_exact_build(self):
+        maintenance = self.workflows['maintenance.yml']
+        self.assertEqual(maintenance['permissions'], {'contents': 'read'})
+        self.assertEqual({s['cron'] for s in maintenance['on']['schedule']}, {'15 0 * * *', '45 0 * * 1'})
+        for job in maintenance['jobs'].values():
+            commands = '\n'.join(s.get('run', '') for s in job['steps'])
+            self.assertNotIn('git push', commands)
+            self.assertNotIn('update_lunch.py', commands)
+        deploy = self.workflows['deploy.yml']
+        self.assertEqual(deploy['jobs']['verify']['needs'], ['build', 'deploy'])
+        self.assertEqual(deploy['jobs']['verify']['steps'][0]['with']['ref'], '${{ needs.build.outputs.source_sha }}')
+        self.assertTrue(any('verify_deployment.py --expected' in s.get('run', '') for s in deploy['jobs']['verify']['steps']))
+        self.assertTrue(any(s.get('run') == 'npm run test:browser' for s in self.workflows['ci.yml']['jobs']['browsers']['steps']))
 
 
 if __name__ == '__main__':

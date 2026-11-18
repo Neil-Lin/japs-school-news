@@ -13,11 +13,11 @@ from lunch_contract import public_files as lunch_public_files, load_settings as 
 from school_info import load_info, render_info
 
 ROOT = Path(__file__).resolve().parents[1]
-MODULES = ("news-core.mjs", "school-data.mjs", "data-client.mjs", "lunch-client.mjs", "lunch-live.mjs", "lunch-ui.mjs", "school-info-ui.mjs", "app.js")
+MODULES = ("news-core.mjs", "news-health.mjs", "dialog-controller.mjs", "school-data.mjs", "data-client.mjs", "lunch-client.mjs", "lunch-live.mjs", "lunch-ui.mjs", "school-info-ui.mjs", "app.js")
 IMAGES = ("icon-192.png", "icon-512.png", "splash-750x1334.png", "splash-1170x2532.png")
 ASSETS = (*IMAGES, "info.svg", "LICENSE-lucide.txt")
 IMPORT = re.compile(r"(?P<lead>\b(?:from|import)\s*['\"])(?P<path>\./[^'\"]+\.(?:mjs|js))(?:\?[^'\"]*)?(?P<quote>['\"])")
-STATIC = re.compile(r"static/(?:app|news-core|data-client|school-data|lunch-client|lunch-live|lunch-ui|school-info-ui|styles)\.[a-f0-9]{12}\.(?:mjs|js|css)")
+STATIC = re.compile(r"static/(?:app|dialog-controller|news-core|news-health|data-client|school-data|lunch-client|lunch-live|lunch-ui|school-info-ui|styles)\.[a-f0-9]{12}\.(?:mjs|js|css)")
 
 
 def public_path(path):

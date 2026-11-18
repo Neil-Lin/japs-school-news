@@ -119,6 +119,19 @@ class ParsingTests(unittest.TestCase):
 
 
 class UpdateTests(unittest.TestCase):
+    def test_consecutive_failures_accumulate_and_reset_after_recovery(self):
+        results = {S1['id']: {'items': [article()]}, S2['id']: {'error': 'timeout'}}
+        first = feed.build_payload(CONFIG, existing(), results, NOW)
+        second = feed.build_payload(CONFIG, first, results, NOW + timedelta(hours=6))
+        status = next(item for item in second['sourceStatus'] if item['id'] == S2['id'])
+        self.assertEqual(status['consecutiveFailures'], 2)
+        self.assertEqual(status['lastSuccessfulAt'], existing()['updatedAt'])
+        results[S2['id']] = {'items': [article(S2)]}
+        recovered = feed.build_payload(CONFIG, second, results, NOW + timedelta(hours=12))
+        status = next(item for item in recovered['sourceStatus'] if item['id'] == S2['id'])
+        self.assertEqual(status['consecutiveFailures'], 0)
+        self.assertEqual(status['status'], 'ok')
+
     def test_partial_failure_retains_articles_and_last_success(self):
         old = existing()
         results = {S1['id']: {'items': [article(guid='new')], 'warnings': []}, S2['id']: {'error': 'timeout'}}
