@@ -4,7 +4,7 @@
 
 各校獨立網址：`/renai/`、`/jianan/`、`/dunhua/`、`/boai/`、`/guangfu/`。
 
-以 GitHub Pages 發布的學校消息彙整頁面，每日臺灣時間 10:30、16:30 由 GitHub Actions 更新 RSS 資料。資料保留最近一年，來源錯誤會寫入 `articles.json` 並在 workflow 中顯示。
+以 GitHub Pages 發布的學校消息彙整頁面，預定每日臺灣時間 10:30、16:30 由 GitHub Actions 檢查 RSS 資料；排程可能延遲，實際成功檢查時間以頁面「最近檢查」為準。資料保留最近一年，來源錯誤會寫入 `articles.json` 並在 workflow 中顯示。
 
 本機需 Python 3.9+ 與 Node.js 20+。執行 `python3 scripts/update_feed.py` 可更新資料並自動產生分校檔；網站會依學校、分類與關鍵字搜尋顯示發布時間、標題、原文連結或內容摘要，並顯示各校今日新增筆數與來源更新狀態。前端設定集中在 `config.json`，資料版本寫在 `data/version.json`，各校精簡公告位於 `data/schools/<slug>.json`；頁面只下載當校的一年份資料，內容未變時重用快取。
 
@@ -86,7 +86,7 @@ Hero 的「今日午餐」開啟桌機視窗／手機全螢幕視窗，依供餐
 | 工作流程 | 觸發與責任 |
 | --- | --- |
 | `ci.yml`／Project checks | PR 或手動觸發，以唯讀權限執行完整離線檢查、發布打包、Chromium／手機WebKit、效能預算與舊版讀取相容性演練。 |
-| `update-feed.yml`／Update RSS data | 每日臺灣時間 10:30、16:30 或手動觸發，只抓取、驗證並提交 `data/` 的產生資料。若遠端 main 已前進，正常 push 會失敗並留待重新執行，不強制覆寫。 |
+| `update-feed.yml`／Update RSS data | 預定每日臺灣時間 10:30、16:30 或手動觸發，實際排程可能延遲。只抓取、驗證並提交 `data/` 的產生資料。若遠端 main 已前進，正常 push 會失敗並留待重新執行，不強制覆寫。 |
 | `update-lunch.yml`／Update lunch data | 目前只手動觸發，驗證並提交 `data/lunch/` 與必要的公開檔案清單，不修改 RSS。全校失敗不提交，保留診斷 artifact。 |
 | `deploy.yml`／Deploy Pages | main push、手動觸發，或同儲存庫 main 的 RSS／午餐工作流程成功完成時，檢查目前 main 並上傳 `dist/`，再以獨立 job 部署 Pages。此流程不抓取外部資料。 |
 | `maintenance.yml`／Maintenance health | 每日08:15檢查資料新鮮度及逐校查核期限；週一08:45唯讀比對官方CSV。時間均為臺灣時間，也可手動觸發。 |

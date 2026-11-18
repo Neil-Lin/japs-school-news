@@ -17,7 +17,7 @@
 | 效能預算與回復相容性演練 | PR 或手動 Project checks | `performance` artifact及摘要 |
 | 正式站發布檔案核對 | 每次Pages部署後 | `deploy-verification` artifact保留30天 |
 
-GitHub排程可能延遲；本表是排程時間，並非準時完成保證。來源比對只比較兩份官方CSV；校方PDF、電話及不同版本時段的採用依據仍須人工核對，不會把「下載成功」當成「人工確認正確」。
+GitHub排程可能延遲；本表是排程時間，並非準時完成保證。頁面使用「預定檢查」並以上方最近檢查時間為準；手動執行成功與排程為active，不等於已驗證自動排程準時。追蹤排程時須看Actions中event為schedule的實際執行紀錄，並與預定時段分開記錄。官方限制見[GitHub排程說明](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)。來源比對只比較兩份官方CSV；校方PDF、電話及不同版本時段的採用依據仍須人工核對，不會把「下載成功」當成「人工確認正確」。
 
 來源分類共用 `news-health.mjs`。首次失敗為warning；已提交的來源連續失敗達3次、或失敗且上次成功超過24小時為error。零筆及大幅減少為warning。修復後完整驗證通過的XML屬正常。`consecutiveFailures` 自新版本開始計算，來源恢復時歸零；全來源失敗不發布快照，因此全失敗嘗試只留在Actions報告，次數不跨這類失敗累計。超過24小時未成功仍會升級。既有版本沒有次數時不虛構歷史。
 
