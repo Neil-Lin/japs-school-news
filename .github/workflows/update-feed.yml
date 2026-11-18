@@ -1,10 +1,20 @@
 name: Update RSS data
+run-name: RSS · ${{ github.event_name }} · ${{ github.event.schedule || inputs.check_mode || 'manual' }}
 "on":
   schedule:
     # UTC 02:30/08:30 = Taiwan 10:30/16:30.
     - cron: '30 2 * * *'
     - cron: '30 8 * * *'
+    # One fallback opportunity per slot: Taiwan 11:40/17:40.
+    - cron: '40 3 * * *'
+    - cron: '40 9 * * *'
   workflow_dispatch:
+    inputs:
+      check_mode:
+        description: Manual read, or exercise the fallback freshness guard
+        type: choice
+        default: manual
+        options: [manual, fallback-check]
 permissions:
   contents: write
 concurrency:
@@ -22,7 +32,15 @@ jobs:
       - uses: ./.github/actions/setup
       - name: Check code and the current snapshot without fetching sources
         run: python scripts/check_project.py
+      - name: Identify the slot and skip already covered source reads
+        id: plan
+        env:
+          RSS_EVENT: ${{ github.event_name }}
+          RSS_CRON: ${{ github.event.schedule }}
+          RSS_MODE: ${{ inputs.check_mode || 'manual' }}
+        run: python scripts/rss_schedule.py --gate
       - name: Fetch RSS and publish a validated snapshot
+        if: steps.plan.outputs.run_update == 'true'
         env:
           FEED_ATTEMPT_REPORT: reports/feed-attempt.json
         run: python scripts/update_feed.py
@@ -39,8 +57,10 @@ jobs:
           path: reports/
           retention-days: 30
       - name: Validate the new snapshot and school artifacts
+        if: steps.plan.outputs.run_update == 'true'
         run: python scripts/validate_project.py
       - name: Save only generated data
+        if: steps.plan.outputs.run_update == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

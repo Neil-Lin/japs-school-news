@@ -10,7 +10,8 @@
 
 | 檢查 | 時間／觸發 | 結果 |
 | --- | --- | --- |
-| RSS 每來源狀態 | 原有每日10:30、16:30更新 | Update RSS data 的摘要及 `rss-health` artifact，保留30天 |
+| RSS 每來源狀態與時段覆蓋 | 主排程10:30、16:30；備援11:40、17:40 | Update RSS data 的摘要及 `rss-health` artifact，保留30天；已取得資料則跳過抓取 |
+| 主排程紀錄與逾時告警 | 預定12:13、18:13 | RSS schedule watchdog 的摘要及 `rss-watchdog` artifact；告警依GitHub既有Actions通知設定 |
 | 快照新鮮度、逐校查核期限及正式站版本 | 每日08:15臺灣時間或手動 | Maintenance health 的摘要及 `maintenance-health` artifact |
 | 教育部名錄／市府開放資料比對 | 每週一08:45臺灣時間或手動 | `school-source-comparison` artifact；不覆寫資料 |
 | 瀏覽器操作 | PR 或手動 Project checks | Chromium、手機 WebKit，HTML報告、失敗截圖及trace保留14天 |
@@ -18,6 +19,22 @@
 | 正式站發布檔案核對 | 每次Pages部署後 | `deploy-verification` artifact保留30天 |
 
 GitHub排程可能延遲；本表是排程時間，並非準時完成保證。頁面使用「預定檢查」並以上方最近檢查時間為準；手動執行成功與排程為active，不等於已驗證自動排程準時。追蹤排程時須看Actions中event為schedule的實際執行紀錄，並與預定時段分開記錄。官方限制見[GitHub排程說明](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)。來源比對只比較兩份官方CSV；校方PDF、電話及不同版本時段的採用依據仍須人工核對，不會把「下載成功」當成「人工確認正確」。
+
+### RSS主排程、備援與告警
+
+2026/11/18 16:50檢查時尚無該下午的自動執行紀錄；後續在18:25觀察到event=schedule的更新，3,803筆原始公告、44來源、0來源錯誤，並接續部署成功。這證明自動觸發與發布可以運作；舊紀錄未保存對應cron，不能斷言這次一定對應16:30或推定GitHub內部延遲的確切原因。
+
+主排程保留每日10:30／16:30；備援每天各一次，預定11:40／17:40，由原本更新工作流程執行。`scripts/rss_schedule.py --gate`以臺灣日期對應原始時段，檢查快照時間及每來源最近成功時間。全部涵蓋該時段便跳過抓取與提交；部分來源失敗仍可由備援再試一次。沒有新公告不當成漏跑。晚到的主排程若已被備援或明確手動讀取覆蓋，也會跳過。跨日延遲採該cron最近一次應執行的日期計算；無法由事件建立時間還原超過一天的原始排隊日期。
+
+四個cron事件共用 `rss-update-main` 排隊；每次排到後才checkout最新main並判斷，避免主排程和備援同時重複抓取。備援只增加每時段一次預定機會，不做無限重試。原有全來源失敗保留歷史、資料契約、正常push及部署權限規則沿用。跳過來源抓取的成功工作流程仍可能接續既有部署核對。
+
+執行名稱保留 `RSS · schedule · <cron>` 或 `RSS · workflow_dispatch · <mode>`。主排程、備援cron與手動執行可以分辨。手動介面的 `manual` 是明確重新讀取；`fallback-check`只演練同一個備援判斷，資料完整時跳過，紀錄仍標為手動，不作為原生排程證據。各次執行的 `rss-update-plan.json`／Markdown會記錄時段、實際判斷及是否抓取，保存在原本的 `rss-health` artifact。
+
+唯讀watchdog預定12:13／18:13執行，分別檢查10:30／16:30時段；即使延遲到另一時段，也按原cron檢查對應時段，手動檢查則看當下最近時段。90分鐘寬限後若未見可識別的主排程紀錄，即使手動或備援已補上資料，也標記 `primary-run-missing`；資料本身未涵蓋時段則另記來源／公開資料逾時。原生紀錄存在但尚未成功時會如實列出，資料仍逾時便告警。舊版未含cron名稱的原生紀錄列為無法歸屬，不虛構時段；若資料仍不完整，照常告警。
+
+正式資料與checkout不同時，給新快照20分鐘發布寬限。等時間但內容不同會告警；正式資料比這次checkout更新則不誤判為落後。API或正式站無法檢查也會失敗並留下 `check-unavailable` 報告。每個預定時段只安排一次watchdog檢查，以免同一漏跑狀態每小時重複通知。
+
+告警使用GitHub工作流程失敗狀態與既有通知偏好，沒有寄送其他服務的訊息，也沒有新增憑證或issue。watchdog只有contents／actions讀取權限，不會抓學校RSS、提交資料、觸發補跑或自建循環。它與備援同屬GitHub：GitHub整體排程延遲或中斷時，兩者都可能晚到，這不是獨立平台備援或準時保證。
 
 來源分類共用 `news-health.mjs`。首次失敗為warning；已提交的來源連續失敗達3次、或失敗且上次成功超過24小時為error。零筆及大幅減少為warning。修復後完整驗證通過的XML屬正常。`consecutiveFailures` 自新版本開始計算，來源恢復時歸零；全來源失敗不發布快照，因此全失敗嘗試只留在Actions報告，次數不跨這類失敗累計。超過24小時未成功仍會升級。既有版本沒有次數時不虛構歷史。
 
