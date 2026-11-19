@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-18T10:25:51.410431+00:00",
-  "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+  "updatedAt": "2026-11-19T10:34:00.736225+00:00",
+  "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -10,8 +10,8 @@
       "schools": [
         "博愛國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 26,
       "status": "ok",
       "itemCount": 26,
@@ -25,8 +25,8 @@
       "schools": [
         "博愛國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -40,8 +40,8 @@
       "schools": [
         "博愛國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -55,8 +55,8 @@
       "schools": [
         "博愛國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -70,12 +70,12 @@
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 57,
       "status": "ok",
-      "itemCount": 57,
-      "lastSuccessfulItemCount": 57,
+      "itemCount": 58,
+      "lastSuccessfulItemCount": 58,
       "warnings": [],
       "consecutiveFailures": 0
     },
@@ -85,8 +85,8 @@
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 22,
       "status": "ok",
       "itemCount": 22,
@@ -100,12 +100,12 @@
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 28,
       "status": "ok",
-      "itemCount": 28,
-      "lastSuccessfulItemCount": 28,
+      "itemCount": 29,
+      "lastSuccessfulItemCount": 29,
       "warnings": [],
       "consecutiveFailures": 0
     },
@@ -115,8 +115,8 @@
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 4,
       "status": "ok",
       "itemCount": 4,
@@ -130,8 +130,8 @@
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 48,
       "status": "ok",
       "itemCount": 48,
@@ -145,8 +145,8 @@
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 8,
       "status": "ok",
       "itemCount": 8,
@@ -160,8 +160,8 @@
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 33,
       "status": "warning",
       "itemCount": 33,
@@ -177,12 +177,12 @@
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 78,
       "status": "warning",
-      "itemCount": 78,
-      "lastSuccessfulItemCount": 78,
+      "itemCount": 79,
+      "lastSuccessfulItemCount": 79,
       "warnings": [
         "來源內文含 4 個 XML 不允許的控制字元（U+000B），已轉為空白並通過完整 XML 驗證。"
       ],
@@ -194,8 +194,8 @@
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 100,
       "status": "warning",
       "itemCount": 100,
@@ -211,8 +211,8 @@
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 6,
       "status": "ok",
       "itemCount": 6,
@@ -226,8 +226,8 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -241,12 +241,12 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 12,
       "status": "ok",
-      "itemCount": 12,
-      "lastSuccessfulItemCount": 12,
+      "itemCount": 13,
+      "lastSuccessfulItemCount": 13,
       "warnings": [],
       "consecutiveFailures": 0
     },
@@ -256,8 +256,8 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 1,
       "status": "ok",
       "itemCount": 1,
@@ -271,8 +271,8 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -286,8 +286,8 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 21,
       "status": "ok",
       "itemCount": 21,
@@ -301,8 +301,8 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -316,8 +316,8 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 7,
       "status": "ok",
       "itemCount": 7,
@@ -331,8 +331,8 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 85,
       "status": "ok",
       "itemCount": 85,
@@ -346,8 +346,8 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -361,8 +361,8 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -376,12 +376,12 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 44,
       "status": "ok",
-      "itemCount": 44,
-      "lastSuccessfulItemCount": 44,
+      "itemCount": 43,
+      "lastSuccessfulItemCount": 43,
       "warnings": [],
       "consecutiveFailures": 0
     },
@@ -391,8 +391,8 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -406,8 +406,8 @@
       "schools": [
         "建安國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 84,
       "status": "ok",
       "itemCount": 84,
@@ -421,8 +421,8 @@
       "schools": [
         "建安國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 49,
       "status": "ok",
       "itemCount": 49,
@@ -436,8 +436,8 @@
       "schools": [
         "建安國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -451,8 +451,8 @@
       "schools": [
         "建安國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 77,
       "status": "ok",
       "itemCount": 77,
@@ -466,8 +466,8 @@
       "schools": [
         "建安國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -481,8 +481,8 @@
       "schools": [
         "建安國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -496,8 +496,8 @@
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 17,
       "status": "ok",
       "itemCount": 17,
@@ -511,8 +511,8 @@
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -526,8 +526,8 @@
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -541,8 +541,8 @@
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -556,8 +556,8 @@
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -571,8 +571,8 @@
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 16,
       "status": "ok",
       "itemCount": 16,
@@ -586,8 +586,8 @@
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 57,
       "status": "ok",
       "itemCount": 57,
@@ -601,8 +601,8 @@
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 17,
       "status": "ok",
       "itemCount": 17,
@@ -616,8 +616,8 @@
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 37,
       "status": "ok",
       "itemCount": 37,
@@ -631,8 +631,8 @@
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 54,
       "status": "ok",
       "itemCount": 54,
@@ -646,8 +646,8 @@
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -665,8 +665,8 @@
         "博愛國小",
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-18T10:25:51.410431+00:00",
-      "lastSuccessfulAt": "2026-11-18T10:25:51.410431+00:00",
+      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
       "previousItemCount": 50,
       "status": "ok",
       "itemCount": 50,
@@ -676,6 +676,678 @@
     }
   ],
   "articles": [
+    {
+      "id": "boai-training:6afece73f184bc4b2a7c88fa",
+      "sourceId": "boai-training",
+      "guid": "6afece73f184bc4b2a7c88fa",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "轉知國立臺灣師範大學辦理情支中心個案支援之專業服務流程與督導機制建立及情緒行為問題預防知能之建立與推廣計畫之正向預防與支持進階研習，鼓勵所屬人員報名參加。",
+      "published": "2026-11-19T10:24:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6afece73f184bc4b2a7c88fa?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=tQHaHM07712&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "轉知國立臺灣師範大學辦理情支中心個案支援之專業服務流程與督導機制建立及情緒行為問題預防知能之建立與推廣計畫之正向預防與支持進階研習，鼓勵所屬人員報名參加。-1151119.pdf"
+      ],
+      "summary": "轉知國立臺灣師範大學辦理情支中心個案支援之專業服務流程與督導機制建立及情緒行為問題預防知能之建立與推廣計畫之正向預防與支持進階研習，鼓勵所屬人員報名參加。"
+    },
+    {
+      "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=7E0B6FF247C00184",
+      "sourceId": "shared-education-department",
+      "guid": "",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【賽事資訊】115年全國中正盃武國術聯賽",
+      "published": "2026-11-19T09:14:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=7E0B6FF247C00184",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、賽事時間： 武術：115年12月25日（週五） 至115年12月26日（週六）。 國術：115年12月27日（週日） 。 二、賽事地點：臺北體育館（臺北市松山區南京東路四段10號）。 三、報名日期：即日起至115年11月24日（週二）下午5時止。 四、報名方式請參閱競賽規程（如附件）。 115年全國中正盃武國術聯賽競賽規程.pdf"
+    },
+    {
+      "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=A2530673E92E702C",
+      "sourceId": "shared-education-department",
+      "guid": "",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【賽事資訊】2027高雄市第十五屆立德盃全國少棒錦標賽",
+      "published": "2026-11-19T08:09:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=A2530673E92E702C",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、賽事時間：116年1月23日（週六） 至116年1月28日（週四）。 二、賽事地點：立德棒球場、岡山(A、B)棒球場、頂庄棒球場、苓雅棒球場、勝利棒球 場。 三、報名日期：自115年12月1日 （週五）至115年12月6日（週六）下午5時30分止。 四、報名方式請參閱競賽規程（如附件）。 2027 高雄市第十五屆「立德盃」全國少棒錦標賽競賽規程.pdf"
+    },
+    {
+      "id": "guangfu-teacher-activities:6afeae081e09da3c60fc1124",
+      "sourceId": "guangfu-teacher-activities",
+      "guid": "6afeae081e09da3c60fc1124",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "教師研習及活動",
+      "title": "115學年度高級中等以下學校臺灣手語教師暨教學支援工作人員培訓及認證實施計畫",
+      "published": "2026-11-19T08:04:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6afeae081e09da3c60fc1124?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=GfVDvAq0432&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "29937734_1153117334_ATTCH1.pdf"
+      ],
+      "summary": "一、依據臺北市立啟聰學校115年11月13日北聰聽字第 1153019893號函辦理。 二、培訓計畫重點摘要如下 (一)報名日期：即日起至115年11月30日（星期一）止。 (二)參訓對象： １、臺灣手語教師培訓班： (１)本市高級中等以下學校（含特殊教育學校）編制內 現職正式教師，並經學校薦派者。 (２)本市立啟聰學校編制內正式教師，及持有教師證之 代理教師，並經學校薦派者。 (３)本市立啟聰學校未持有教師證之代理教師及職員工 （包含職員工、工友、教師及特教學生助理員、特殊教育相關專業人員），並經學校薦派者，可隨班 參加初級手語及中級手語課程。 ２、臺灣手語教學支援工作人員培訓班：年滿20歲者， 具 備下列6種身分之其中之一者。 (１)具備臺灣手語溝通能力，並有手語教學經驗達72 小時以上者。 (２)曾擔任政"
+    },
+    {
+      "id": "dunhua-dunhua-news:6afeac7d0464ac408d3643e0",
+      "sourceId": "dunhua-dunhua-news",
+      "guid": "6afeac7d0464ac408d3643e0",
+      "schools": [
+        "敦化國小"
+      ],
+      "source": "敦小快報",
+      "title": "115_1第13週敦小快報",
+      "published": "2026-11-19T07:58:00+00:00",
+      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/6afeac7d0464ac408d3643e0?vector=private&static=false",
+      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=8nmTbwG1025&vector=private&static=false",
+      "siteUrl": "https://www.thps.tp.edu.tw",
+      "attachments": [
+        "115_1第13週敦小快報.pdf"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=D466317CA95E8C6A",
+      "sourceId": "shared-education-department",
+      "guid": "",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】「2027總統教育獎」請各校踴躍推薦符合資格之學生，並依說明於期限內完成報名及送件作業",
+      "published": "2026-11-19T07:58:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=D466317CA95E8C6A",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、依教育部115年11月12日臺教授國部字第1155805059B號函辦理。 二、請各校踴躍推薦「能以順處逆，發揮人性積極面，力爭上游，出類拔萃，具表率作用」之學生參加「2027總統教育獎」遴選活動。 三、推薦對象：就讀國內公立、已立案私立學校與教育部備案之大陸地區臺商學校及教育部立案之海外臺灣學校（含各教育階段非學校型態實驗教育學生），並具備中華民國國籍之115學年度在學學生。 四、推薦條件：受推薦人於逆境中，仍能奮發向上、樂觀進取，並具下列條件之一： (一)發揮服務奉獻、孝行表現、友愛行為、體恤他人等情懷，對社會風氣有良善影響，足堪楷模者。 (二)語言、藝術、薪傳技藝、技能、科學、科技、資訊、體育、創新研發或其他領域，具有特殊才能，出類拔萃者。 五、推薦單位及受推薦人應檢送下列資料表全部資料各2份，以A4"
+    },
+    {
+      "id": "guangfu-activities:6afeabc58d38d4432b3d14ae",
+      "sourceId": "guangfu-activities",
+      "guid": "6afeabc58d38d4432b3d14ae",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "活動資訊",
+      "title": "「臺北市母語巢線上互動遊 戲–族語獵人cinunan闖關競賽」",
+      "published": "2026-11-19T07:56:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6afeabc58d38d4432b3d14ae?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=QWbvWuz8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "競賽相關資訊如下： (一)競賽期間：115年11月17日起至11月30日止。 (二)參加對象：獲獎資格須具臺北市國小、國中或高中職在 學學生身分，不限戶籍及族別。 (三)活動網址：https://cinunan.kitulutp.com/ (四)活動獎勵：依各語別4種關卡加總之最高分合併排名，前 5名將頒發優渥獎品，以資鼓勵。 得獎名單預計於115年12月15日公布於 本市母語巢官方網站、粉絲專頁及官方LINE。"
+    },
+    {
+      "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=9F7E8BC2B12BB9E9",
+      "sourceId": "shared-education-department",
+      "guid": "",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】東莞台商子弟學校115學年度第2學期教師甄選簡章",
+      "published": "2026-11-19T07:52:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=9F7E8BC2B12BB9E9",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、東莞台商子弟學校115學年度下學期中學部甄選教師：高中國文1名、高中數學1名。 二、東莞台商子弟學校116學年度中學部甄選各學科教師數名。 三、報名日期：自公告日起至招聘到教師止。 四、複試日期：具體時間另行通知應試者。 五、複試方式：採視訊面試方式辦理。 教師甄選簡章.pdf"
+    },
+    {
+      "id": "guangfu-school-announcements:6afea62f2975aa41d28a2821",
+      "sourceId": "guangfu-school-announcements",
+      "guid": "6afea62f2975aa41d28a2821",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "學校公告",
+      "title": "115學年度體表會家長觀賞區說明",
+      "published": "2026-11-19T07:27:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6afea62f2975aa41d28a2821?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=UFKVG9l8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "▲進場路線從 二樓往後方 三樓走到預備區 ▲退場路線從 前方往三樓 移動退場"
+    },
+    {
+      "id": "boai-training:6afe945037ec123a948b795f",
+      "sourceId": "boai-training",
+      "guid": "6afe945037ec123a948b795f",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "轉知日新國小辦理之『「AI智慧校園新思維」專題講座修正實 施計畫』",
+      "published": "2026-11-19T06:15:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6afe945037ec123a948b795f?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=tQHaHM07712&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29928386_1153008606_ATTCH1.pdf"
+      ],
+      "summary": "因修正12月23日專題講座系列二之講題，檢附修正後實施 計劃如附檔。 報名方式：請至臺北市教師在職研習網報名https://insc. tp.edu.tw/，兩場專題講座採分場獨立報名。"
+    },
+    {
+      "id": "boai-training:6afe93e456ff223b54bc1c8c",
+      "sourceId": "boai-training",
+      "guid": "6afe93e456ff223b54bc1c8c",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "轉知臺北市教師研習中心「臺北市115年度『SEL校園推動齊步走』行政 推動工作坊」計畫",
+      "published": "2026-11-19T06:13:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6afe93e456ff223b54bc1c8c?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=tQHaHM07712&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29928369_1156003420_ATTCH1.pdf"
+      ],
+      "summary": "研習對象：本市所屬各級學校校長、主任、組長等教育行 政人員。 研習時間：115年12月22日（星期二）上午9時至下午4時10 分。 研習地點：臺北市教師研習中心（臺北市北投區建國街2號）。 報名日期：即日起至12月11日（星期五）止。 報名方式：本研習採網路報名，參加研習人員請逕行登 入 臺北市教師在職研習網（https://insc.tp.edu.tw）報名 ，經行政程序核准後，由學校研習承辦人於截止日前進 入 系統辦理薦派報名。"
+    },
+    {
+      "id": "dunhua-competitions:6afe949c87ffc83cb1d53790",
+      "sourceId": "dunhua-competitions",
+      "guid": "6afe949c87ffc83cb1d53790",
+      "schools": [
+        "敦化國小"
+      ],
+      "source": "競賽活動",
+      "title": "115學年度教育盃國民小學跆拳道錦標賽",
+      "published": "2026-11-19T06:13:00+00:00",
+      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/6afe949c87ffc83cb1d53790?vector=private&static=false",
+      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=Mu7ppdp0180&vector=private&static=false",
+      "siteUrl": "https://www.thps.tp.edu.tw",
+      "attachments": [
+        "1.pdf"
+      ],
+      "summary": "一、依據臺北市文山區武功國民小學 115年10月29日北市武國 字第1153017696號函辦理。 二、為提升本市國小跆拳道競技實力，本局委請武功國小承辦 旨揭賽事，相關資訊摘要如下： (一)比賽日期：116年2月20日（星期六）至2月22日（星期 一）。 (二)報名日期：即日起至115年12月14日（星期一）下午4時 截止，請參賽學校務必於報名期限內完成報名，報名截 止後一概不得增刪、修改報名資料。 (三)比賽地點：臺北體育館4樓（臺北市松山區南京東路四段 10號）。 三. 檢送旨揭競賽規程1份"
+    },
+    {
+      "id": "jianan-administration:6afe933787ffc83cb1d48fa5",
+      "sourceId": "jianan-administration",
+      "guid": "6afe933787ffc83cb1d48fa5",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "行政公告",
+      "title": "公告~116學年度身心障礙學生入學國民小學鑑定及安置宣傳摺頁",
+      "published": "2026-11-19T06:11:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6afe933787ffc83cb1d48fa5?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=2rEsyLS9623&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [
+        "116學年度身心障礙學生入學國民小學鑑定及安置宣傳摺頁.pdf"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=A50BD93547A1968A",
+      "sourceId": "shared-education-department",
+      "guid": "",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】國教署委託彰化師範大學辦理「探究課程實施研習活動」，鼓勵國中小學科學教師參與",
+      "published": "2026-11-19T06:10:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=A50BD93547A1968A",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": ""
+    },
+    {
+      "id": "boai-training:6afe935e8d1bde144d68f61f",
+      "sourceId": "boai-training",
+      "guid": "6afe935e8d1bde144d68f61f",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "轉知本市115學年度第二學期國民小學教師揪團自主研 習計畫",
+      "published": "2026-11-19T06:09:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6afe935e8d1bde144d68f61f?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=tQHaHM07712&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29913287_1153116647_ATTCH2.pdf",
+        "29913287_1153116647_ATTCH1.odt"
+      ],
+      "summary": "為評估本計畫成效並推展本市「原住民、新住民等多元文 化教育」，旨揭計畫於115學年度賡續辦理： (一)研習後填寫揪團自主研習學員問卷，內含學生學習應用 及效果之評估，請各參與教師於結案時填報，以瞭解辦 理成效。 (二)以「原住民、新住民等多元文化教育」為主題之研習範 疇，可比照「議題融入」部定課程或校訂課程方式，藉 教師揪團共備、專家指導、教學情境規劃等方式，融入 本市課程與教學。 教師參與時間與差假： (一)下班後及假日時間為主，寒暑假（除備課日外）不限。 (二)以教師自主增能為主，准予公假，但不另行排代。 115學年度第2學期計畫申請日期自115年11月1日至115年11 月31日止。 補助經費規定： (一)以講座鐘點費、研習辦公用品費（鐘點費5%）、研習雜 支費（鐘點費5%）為主，不提供誤餐費及場地費。 "
+    },
+    {
+      "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=5837352C0B193A37",
+      "sourceId": "shared-education-department",
+      "guid": "",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】公益信託星雲大師教育基金辦理「2027年第十五屆星雲教育獎」",
+      "published": "2026-11-19T06:08:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=5837352C0B193A37",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "海報.pdf 遴選辦法.pdf"
+    },
+    {
+      "id": "jianan-administration:6afe908dd887a839439366ef",
+      "sourceId": "jianan-administration",
+      "guid": "6afe908dd887a839439366ef",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "行政公告",
+      "title": "轉知~臺北市 115-1 系列資優生家長親職講座實施計畫",
+      "published": "2026-11-19T06:00:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6afe908dd887a839439366ef?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=2rEsyLS9623&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [
+        "臺北市 115 學年度第 1 學期 系列資優生 家長親職講座實施計畫.pdf"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=CD90854161E4123D",
+      "sourceId": "shared-education-department",
+      "guid": "",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】小公視電視辦理《媒體素養─國際論壇暨教師研習工作坊》",
+      "published": "2026-11-19T05:43:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=CD90854161E4123D",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、活動主題： (一)上午場次（09:30-11:40） １、講題：國際論壇「看懂媒體，參與世界：跨世代媒體素養國際論壇」 ２、內容：從國際節目製作、媒體素養研究到課堂實踐，探索如何運用影音開啟跨世代對話，逐步培養多元觀點、獨立思考與參與公共生活的能力。 (二)下午場次(12:30－13:00) １、講題：教師研習工作坊「老師，這樣玩公視！公視兒少資源 × AI應用」 ２、內容：認識媒體素養核心概念，結合小公視影音資源、AI 工具與敏捷設計方法，帶領教師進行教案發想與分組共創，激盪媒體素養教學靈感。 ３、講者： (１)國立政治大學新聞系 劉慧雯教授 (２)敏捷管理顧問 徐柏峰教練 (三)相關影片 １、《媒體放大鏡》中字預告：https://youtu.be/cZYsuce7zLk 二、活動規劃： (一)日期：1"
+    },
+    {
+      "id": "boai-honors:6afe8bdc16a7fd39ca77a7af",
+      "sourceId": "boai-honors",
+      "guid": "6afe8bdc16a7fd39ca77a7af",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "榮譽榜",
+      "title": "博愛國小「小小美術家」115學年度兒童美術創作展作品評選成績公告",
+      "published": "2026-11-19T05:39:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6afe8bdc16a7fd39ca77a7af?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=DdqT8yI3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [],
+      "summary": ""
+    },
+    {
+      "id": "boai-latest:6afe8bdc16a7fd39ca77a7af",
+      "sourceId": "boai-latest",
+      "guid": "6afe8bdc16a7fd39ca77a7af",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "博愛國小「小小美術家」115學年度兒童美術創作展作品評選成績公告",
+      "published": "2026-11-19T05:39:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6afe8bdc16a7fd39ca77a7af?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [],
+      "summary": ""
+    },
+    {
+      "id": "jianan-administration:6afe83f765d577154b5a4389",
+      "sourceId": "jianan-administration",
+      "guid": "6afe83f765d577154b5a4389",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "行政公告",
+      "title": "「看見尊重的瞬間」－臺北市115年性別平等教育宣導月成果展",
+      "published": "2026-11-19T04:57:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6afe83f765d577154b5a4389?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=2rEsyLS9623&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [],
+      "summary": "(一)展覽時間：115年12月1日（星期二）至12月31日（星期 四），每週一至週五開放，例假日不開放。 (二)展覽地點：臺北市市政大樓1樓北區廊道（聯合服務中心 旁，臺北市信義區市府路1號）。"
+    },
+    {
+      "id": "jianan-administration:6afe7dcd2cc15a14ebe558b4",
+      "sourceId": "jianan-administration",
+      "guid": "6afe7dcd2cc15a14ebe558b4",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "行政公告",
+      "title": "數位／網路性別暴力防治宣導影片及教材",
+      "published": "2026-11-19T04:38:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6afe7dcd2cc15a14ebe558b4?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=2rEsyLS9623&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [],
+      "summary": "中、英文版數位性別暴力防治宣導影片「堅持拒絕無所不在的數位性別暴力 （ Stand Against Digital Gender-Based Violence Everywhere ）」， 下載網址： https://www.gender.edu.tw /web/index.php/m7/m7_11_02_01?sid=828 請師長依課程及教學需求推廣運用。"
+    },
+    {
+      "id": "jianan-administration:6afe7683e667ad13b5f434c5",
+      "sourceId": "jianan-administration",
+      "guid": "6afe7683e667ad13b5f434c5",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "行政公告",
+      "title": "轉知~2027年【衛武營藝企學】上半年節目申請訊息",
+      "published": "2026-11-19T04:09:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6afe7683e667ad13b5f434c5?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=2rEsyLS9623&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [
+        "2027年【衛武營藝企學】上半年節目申請訊.pdf"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "guangfu-campus-affairs:6afe737f2be075129cd7ad45",
+      "sourceId": "guangfu-campus-affairs",
+      "guid": "6afe737f2be075129cd7ad45",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "校園事務",
+      "title": "【反針孔攝影偵測】115年10月偵測結果",
+      "published": "2026-11-19T03:55:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6afe737f2be075129cd7ad45?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=pBSho0Y6874&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "11510反針孔攝影檢測結果紀錄表.pdf"
+      ],
+      "summary": "一、依據本府教育局 114年4月18日北市教體字第1143055668號暨115年3月17日北市教體字第11530484591號函辦理。 二、115年10月份檢測結果無異常，檢測紀錄表詳如附件。"
+    },
+    {
+      "id": "renai-general-news:6afe644010bd050e97b137b4",
+      "sourceId": "renai-general-news",
+      "guid": "6afe644010bd050e97b137b4",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "一般消息",
+      "title": "115學年度臺北市仁愛國小67週年校慶暨體育表演會於115年11月21日(六)舉行，歡迎蒞臨參加",
+      "published": "2026-11-19T02:27:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6afe644010bd050e97b137b4?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=ZItAos61369&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [],
+      "summary": "謹訂於中華民國115年11月21日（星期六）上午8時30分假本校操場舉辦67週年校慶暨體育表演會，竭誠歡迎蒞臨指導，一起為仁愛學童喝采與鼓勵，您的蒞臨是孩子最大的鼓舞。 敬祝 闔家平安 臺北市大安區仁愛國民小學 校 長 連世驊 家長會會長 謝英哲 教師會會長 張詠喬 家長會副會長 王宣涵、郭家嘉、林孜俞 敬邀 若當天因天候因素引響，最遲於前一天晚上20:00宣布，所有活動則順延至12/5(六)進行；如已開始進行活動，則游主席宣布是否暫停，賽事是否延後。 基於教育行政中立，候選人請勿穿著競選背心入校從事競選相關活動。 11 月 23 日（一）體育表演會補假一天，請家長為孩子預做安排。"
+    },
+    {
+      "id": "renai-important:6afe6440b7e5a40c8f89d5c4",
+      "sourceId": "renai-important",
+      "guid": "6afe6440b7e5a40c8f89d5c4",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "重要公告",
+      "title": "115學年度臺北市仁愛國小67週年校慶暨體育表演會於115年11月21日(六)舉行，歡迎蒞臨參加",
+      "published": "2026-11-19T02:27:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/CN7rX6Q9429/6afe6440b7e5a40c8f89d5c4?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/CN7rX6Q9429?f=normal&%240=JnMBUsP4627&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [],
+      "summary": "謹訂於中華民國115年11月21日（星期六）上午8時30分假本校操場舉辦67週年校慶暨體育表演會，竭誠歡迎蒞臨指導，一起為仁愛學童喝采與鼓勵，您的蒞臨是孩子最大的鼓舞。 敬祝 闔家平安 臺北市大安區仁愛國民小學 校 長 連世驊 家長會會長 謝英哲 教師會會長 張詠喬 家長會副會長 王宣涵、郭家嘉、林孜俞 敬邀 若當天因天候因素引響，最遲於前一天晚上20:00宣布，所有活動則順延至12/5(六)進行；如已開始進行活動，則游主席宣布是否暫停，賽事是否延後。 基於教育行政中立，候選人請勿穿著競選背心入校從事競選相關活動。 11 月 23 日（一）體育表演會補假一天，請家長為孩子預做安排。"
+    },
+    {
+      "id": "guangfu-teacher-activities:6afe57f72c0d4f0b0f3cb624",
+      "sourceId": "guangfu-teacher-activities",
+      "guid": "6afe57f72c0d4f0b0f3cb624",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "教師研習及活動",
+      "title": "臺北市大同區大橋國民小學辦理「115學年度第1學期特殊教育知能研習」",
+      "published": "2026-11-19T01:58:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6afe57f72c0d4f0b0f3cb624?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=GfVDvAq0432&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "說明： 一、依臺北市高級中等以下學校教師及相關人員特教知能研習 方案辦理。 二、研習主題：《當情緒行為遇上性平》ASD與 ADHD 學童的情 緒調節、人際界線與校園介入 三、研習時間：115年11月25日(星期三) 13:30～16:30 四、研習地點：大橋國小視聽教室 五、研習講座：楊子翎 心理師 六、報名方式：參加研習人員請於115年11月24日(星期二)前至 臺北市教師在職研習網辦理線上報名。 七、參加研習教師請惠予公假出席，全程參與給予3小時研習時 數。 八、注意事項：本校無提供停車位，請多利用大眾運輸工具蒞 校，並配戴識別證；研習以酷課APP簽到，請先下載酷課APP並完成帳號設定以利簽到。"
+    },
+    {
+      "id": "renai-training:6afe562f2c0d4f0b0f3c1ea7",
+      "sourceId": "renai-training",
+      "guid": "6afe562f2c0d4f0b0f3c1ea7",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "[轉知]縣市政府情支團隊交流暨情支教師與專業工作人員回流增能研習",
+      "published": "2026-11-19T01:50:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6afe562f2c0d4f0b0f3c1ea7?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=BLvblfR5996&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "縣市政府情支團隊交流暨情支教師與專業工作人員回流增能研習.pdf",
+        "動線引導.pdf"
+      ],
+      "summary": "詳細研習資訊請參閱附件。"
+    },
+    {
+      "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=F25A4EC42C6FA96D",
+      "sourceId": "shared-education-department",
+      "guid": "",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】社團法人台灣國際學術交流學會「2027海基會青年挑戰營」招生簡章及招生海報各1份",
+      "published": "2026-11-19T01:35:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=F25A4EC42C6FA96D",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "詳如附件。 社團法人台灣國際學術交流學會原函.pdf 招生海報.pdf 招生簡章.pdf"
+    },
+    {
+      "id": "boai-latest:6afe4c1968107d080f79204c",
+      "sourceId": "boai-latest",
+      "guid": "6afe4c1968107d080f79204c",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "轉知:臺北市116年度寒假 STEAM 及新科技教育營隊",
+      "published": "2026-11-19T01:06:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6afe4c1968107d080f79204c?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29929257_11531142862_ATTCH1 (1).pdf"
+      ],
+      "summary": "說明： 一、依據「臺北市116年寒假STEAM及新科技教育營隊實施計 畫」辦理。 二、為培養本市各級學校學生科技教育素養，促進人工智慧新 興科技學習興趣，本局規劃於116年寒假STEAM及新科技教 育營隊，帶領學生認識未來科技發展趨勢。本次營隊訊息 說明如下： (一)招生對象：本局所屬公私立國民高級中學、國民中學及 國民小學（含非學校型態實驗教育機構、國立學校）115 學年度在學學生及其家長，各營隊年齡及名額限制詳見 「計畫附件1課程列表」。 (二)報名方式：１、本營隊活動一律採本市「酷課APP」或「酷課雲」（網 址：https://cooc.tp.edu.tw/）報名，並透過「酷課 APP」線上繳費（繳費方式可用信用卡、ATM及智慧支 付平臺方式）。 ２、活動可由家長代報或學生自行報名（家長代報須完成 親子綁"
+    },
+    {
+      "id": "boai-latest:6afe4b49c610af05ef880375",
+      "sourceId": "boai-latest",
+      "guid": "6afe4b49c610af05ef880375",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "轉知:無人機教育中心辦理「116年度無人機寒假營隊」",
+      "published": "2026-11-19T01:02:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6afe4b49c610af05ef880375?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29933871_11531165432_ATTCH1.pdf"
+      ],
+      "summary": "說明： 一、依據本局無人機教育中心計畫書辦理。 二、為推動無人機教育及培養學生科技創新基礎能力，提升學 生對無人機技術與應用的興趣，促進無人機教育與學科合 作實踐，特辦理旨揭營隊，本次營隊重要訊息摘述如下： (一)營隊時間及地點：116年1月21日（星期四）至2月2日 （星期二）假臺北市無人機教育中心教研教室（木柵高 工活動中心B1）。 (二)參與對象：本局所屬公私立高級中等以下學校（含非學 校型態實驗教育機構、國立學校）115學年度在學學生及 其家長。 (三)旨揭營隊共20梯次（每梯次12人），營隊活動及報名費 用說明如下： １、基礎程控無人機（計4梯次，費用300元）：學習基本 飛行指令（起飛、降落、前進、旋轉），培養運算思 維、邏輯判斷及問題解決能力。 ２、無人機空拍應用與剪輯（計4梯次，費用300元）："
+    },
+    {
+      "id": "dunhua-other:6afe4b3996a78a08893cedb6",
+      "sourceId": "dunhua-other",
+      "guid": "6afe4b3996a78a08893cedb6",
+      "schools": [
+        "敦化國小"
+      ],
+      "source": "其他公告",
+      "title": "116年度第1季羽球場租登錄開放租借時段及收費方法",
+      "published": "2026-11-19T00:59:00+00:00",
+      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/6afe4b3996a78a08893cedb6?vector=private&static=false",
+      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=H0q9lCm0232&vector=private&static=false",
+      "siteUrl": "https://www.thps.tp.edu.tw",
+      "attachments": [
+        "臺北市松山區敦化國民小學公告-開放方法.docx",
+        "臺北市松山區敦化國民小學校園開放使用管理要點1130603.pdf",
+        "臺北市敦化國小羽球場地開放租用日期及時段一覽表123.pdf"
+      ],
+      "summary": "一、 依據臺北市政府教育局112年4月25日函及臺北市立高級中學以下學校校園場地開放使用管理辦法及本校校園開放使用管理要點辦理。 二、 開放時段： 116 年第1季每周計有12時段對外開放，如下說明： (一) 週一至週四為19:30~21:30。 (二) 週六(分2時段)為06:00~08:00、19:30~21:30。 (三) 週日(分6時段)為06：00~08：00、08：00~10：00、13：00~15：00、15：00~17：00、17：30~19：30、19：30~21：30。 *** 週五固定為學校籃球隊集訓，故不開放 三、 收費方式：場地(4面羽球場)使用費每時段(2小時，含照明費)計新臺幣2,160元、保證金5,000元(正常使用下，退租時全額退還)。 四、 本季球場登錄時間： 115年12月"
+    },
+    {
+      "id": "dunhua-school-affairs:6afe4b3996a78a08893cedb6",
+      "sourceId": "dunhua-school-affairs",
+      "guid": "6afe4b3996a78a08893cedb6",
+      "schools": [
+        "敦化國小"
+      ],
+      "source": "校務公告",
+      "title": "116年度第1季羽球場租登錄開放租借時段及收費方法",
+      "published": "2026-11-19T00:59:00+00:00",
+      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/6afe4b3996a78a08893cedb6?vector=private&static=false",
+      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=1hdeMSJ5377&vector=private&static=false",
+      "siteUrl": "https://www.thps.tp.edu.tw",
+      "attachments": [
+        "臺北市松山區敦化國民小學公告-開放方法.docx",
+        "臺北市松山區敦化國民小學校園開放使用管理要點1130603.pdf",
+        "臺北市敦化國小羽球場地開放租用日期及時段一覽表123.pdf"
+      ],
+      "summary": "一、 依據臺北市政府教育局112年4月25日函及臺北市立高級中學以下學校校園場地開放使用管理辦法及本校校園開放使用管理要點辦理。 二、 開放時段： 116 年第1季每周計有12時段對外開放，如下說明： (一) 週一至週四為19:30~21:30。 (二) 週六(分2時段)為06:00~08:00、19:30~21:30。 (三) 週日(分6時段)為06：00~08：00、08：00~10：00、13：00~15：00、15：00~17：00、17：30~19：30、19：30~21：30。 *** 週五固定為學校籃球隊集訓，故不開放 三、 收費方式：場地(4面羽球場)使用費每時段(2小時，含照明費)計新臺幣2,160元、保證金5,000元(正常使用下，退租時全額退還)。 四、 本季球場登錄時間： 115年12月"
+    },
+    {
+      "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=9941847DF3D29BAB",
+      "sourceId": "shared-education-department",
+      "guid": "",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】第七屆臺灣地質公園學會讀景比賽",
+      "published": "2026-11-19T00:26:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=9941847DF3D29BAB",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "一、旨揭比賽由臺灣地質公園學會主辦，透過地景觀察、資料蒐集及文字詮釋等方式，引導學生認識臺灣自然地景特色及人文環境，培養地景保育及環境教育素養。 二、旨揭比賽關資訊如下: (一)參賽對象:國內、外公私立高中職學生及同等級自學學生。 (二)報名方式:採線上報名，免收報名費，報名期間自116年1月4日起至1月22日止。 (三)競賽報名、評選及獎勵等相關事宜， 請逕洽主辦單位臺灣地質公園學會許小姐，電話:03- 8905194，電子郵件:geoparks.tw@gmail.com 第七屆臺灣地質公園學會讀景比賽簡章.pdf"
+    },
+    {
+      "id": "renai-external-contests:6afe3ea64e98d305072751b1",
+      "sourceId": "renai-external-contests",
+      "guid": "6afe3ea64e98d305072751b1",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "校外競賽",
+      "title": "轉知：「臺北市116年青少年民俗運動訪問團團員甄選實施計畫」",
+      "published": "2026-11-19T00:10:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6afe3ea64e98d305072751b1?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=3OcrJ5P5996&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "29917911_11531159372_ATTCH1.pdf"
+      ],
+      "summary": "一、依據本局115年11月9日「臺北市116年青少年民俗運動訪問 團團員甄選實施計畫會議」決議事項辦理。 二、116年度甄選辦理方式如下： (一)參加資格：凡本市各公私立國民小學四年級以上、國民 中學之在籍學生，且未曾入選本市民俗運動訪問團團員 者，得以校為單位報名參加，或跨校、跨學制組成聯隊 報名參加（請自行協議代表報名學校名稱），同一項目 同一報名單位限一隊，每人限報一隊。 (二)項目與人數： １、跳繩組：每隊得報名12人，上場10人、候補2人（請排 定候補順序）。 ２、踢毽組：每隊得報名10人，上場8人、候補2人（請排定候補順序）。 ３、扯鈴組：每隊得報名10人，上場8人、候補2人（請排 定候補順序）。 (三)報名程序： １、自116年2月11日（星期四）起至2月18日（星期四）止 （以限時掛號郵戳為憑）"
+    },
+    {
+      "id": "renai-external-contests:6afe3d9adfaad70338ec75f4",
+      "sourceId": "renai-external-contests",
+      "guid": "6afe3d9adfaad70338ec75f4",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "校外競賽",
+      "title": "轉知：「臺北市115學年度教育盃中小學柔道錦標賽競賽規程」",
+      "published": "2026-11-19T00:05:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6afe3d9adfaad70338ec75f4?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=3OcrJ5P5996&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "29920724_1153117172_ATTCH1.pdf"
+      ],
+      "summary": "一、依據本市立新民國中115年11月12日北市新中學字第 1153008183號函辦理，兼依據本局115年11月5日北市教體 字第1153113833號函續辦。 二、旨揭規程修正重點為：十三、獎勵（三）為國高中各級 「前三名」者，依「116年全中運柔道競賽規程及技術手 冊」相關規定，得代表本市參加116年全國中等學校運動會 柔道賽，但實際參加，仍須由教育局召開選拔委員會決定 之。 三、檢送修正後競賽規程1份，各校倘有疑義，請逕洽新民國中 體育組李組長，聯絡電話（02）2632-0616轉305。"
+    },
+    {
+      "id": "guangfu-teacher-activities:6afe35ee04135b012ad98b04",
+      "sourceId": "guangfu-teacher-activities",
+      "guid": "6afe35ee04135b012ad98b04",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "教師研習及活動",
+      "title": "轉知:臺北市立建國高級中學資源中心辦理115學年度第1學期系列資 優生家長親職講座實施計畫",
+      "published": "2026-11-18T23:32:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6afe35ee04135b012ad98b04?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=GfVDvAq0432&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "計畫-.pdf"
+      ],
+      "summary": "說明： 一、依據臺北市資優教育白皮書－中長程發展計畫（2021－ 2026）及臺北市資優教育資源中心115學年度工作計畫辦 理。 二、本講座旨在增進資優生家長對資優生特質、親職教養策略 與生涯輔導知能之瞭解，辦理資訊如下： (一)主題：從資優班到未來之路～回首我的學習與生涯心路 歷程。 (二)講座：史丹佛大學醫學院兒科系周宏杰教授。 (三)時間：115年12月18日（星期五）下午7時至9時。 (四)地點：Google Meet線上會議室。 三、參加對象：臺北市各級學校資優班、資優方案學生家長， 以及對本講座主題感興趣之家長及教師。四、報名及錄取方式： (一)即日起至115年12月7日（星期一）止，請至線上報名表 （https://forms.gle/GJB6X9PqHjw84Hf89）完成報 名。 (二)正取2"
+    },
     {
       "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=6C120DCDFD617945",
       "sourceId": "shared-education-department",
@@ -837,6 +1509,24 @@
         "29927807_1156003211_ATTCH1.pdf"
       ],
       "summary": "臺北市立天文科學教育館辦理「115年新住民親子活動」，歡迎符合資格之家長與孩子踴躍報名參加！ 一、活動時間：115年12月19日（星期六）上午8時50分至12時。 二、參加對象： 家庭成員中至少一位為設籍臺北市之新住民。 學童須就讀國小一年級以上。 每次報名限4個名額，且至少須有一位家長。 三、報名方式： 採網路報名，115年12月2日（星期三）上午9時起開放報名。 招收60個名額，額滿為止。 符合身分資格者，活動門票免費。 四、活動詳情：請參閱附件活動簡章，或洽臺北市立天文科學教育館（02-2831-4551分機204）。"
+    },
+    {
+      "id": "boai-training:6afe762a1db2700f775ceed6",
+      "sourceId": "boai-training",
+      "guid": "6afe762a1db2700f775ceed6",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "轉知:中山女高辦理攝影棚直播導播實務研習",
+      "published": "2026-11-18T04:06:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6afe762a1db2700f775ceed6?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=tQHaHM07712&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "29911463_1153012583_ATTCH1.pdf"
+      ],
+      "summary": "說明： 一、依臺北市STEAM及新科技發展辦公室115至117學年度實施計 畫辦理。 二、本研習以實作方式進行，學員將於專業攝影棚內實際操作 攝影機、燈光及導播機，適合對攝影棚設備、線上直播或 影音製作有興趣之教師參加。 三、研習資訊如下： (一)時間：115年12月2日（星期三）13時30分至15時30分， 計2小時。 (二)地點：臺北市立中山女高STEAM及新科技發展辦公室攝影 棚（臺北市中山區長安東路二段141號自強樓3樓）。 (三)參加對象及名額：本市各級學校教師，正取15名、備取3 名。 (四)報名方式：請於115年11月18日（星期三）前至臺北市教師在職進修資訊網報名（北市研習字第1151030087 號）。 (五)研習之分組實作需自備儲存裝置（如硬碟或記憶卡）， 請與會人員自行攜帶。 (六)研習時"
     },
     {
       "id": "jianan-administration:6afd2125a15454c2033cf171",
@@ -69011,38 +69701,6 @@
         "榮譽狀得獎公告名單.pdf"
       ],
       "summary": "名單詳見附件"
-    },
-    {
-      "id": "jianan-honors:691d92bce53014fe9d43f698",
-      "sourceId": "jianan-honors",
-      "guid": "691d92bce53014fe9d43f698",
-      "schools": [
-        "建安國小"
-      ],
-      "source": "榮譽榜",
-      "title": "狂賀～建安國小扯鈴隊參加2025TIDT臺灣國際扯鈴暨高雄城市盃扯鈴運動大賽榮獲佳績",
-      "published": "2025-11-19T09:46:00+00:00",
-      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/691d92bce53014fe9d43f698?vector=private&static=false",
-      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=AQoMNBw7626&vector=private&static=false",
-      "siteUrl": "https://www.jnps.tp.edu.tw",
-      "attachments": [],
-      "summary": "恭喜建安國小扯鈴隊參加2025TIDT臺灣國際扯鈴暨高雄城市盃扯鈴運動大賽榮獲: 🎖️競速賽-拋鈴跳繩 🥉少年A女組: 614許晴晴 第三名 🎖️特別類_雙鈴賽 🥉少年A女組: 614許晴晴 第一名 🎖️特別類_單頭鈴賽 🥉少年A男組: 606盧祺升 第一名 👏感謝辛苦指導的駱宗義老師、楊心怡教練、鄭湧蒼教練、高裕凱教練以及各班導師們的支持💖"
-    },
-    {
-      "id": "boai-honors:691d68a52a616ac26e71f303",
-      "sourceId": "boai-honors",
-      "guid": "691d68a52a616ac26e71f303",
-      "schools": [
-        "博愛國小"
-      ],
-      "source": "榮譽榜",
-      "title": "114年新北市韻律體操錦標邀請賽",
-      "published": "2025-11-19T06:48:00+00:00",
-      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/691d68a52a616ac26e71f303?vector=private&static=false",
-      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=DdqT8yI3919&vector=private&static=false",
-      "siteUrl": "https://www.baps.tp.edu.tw",
-      "attachments": [],
-      "summary": "恭喜 406 張O彤 獲得 項目帶 第一名"
     }
   ]
 }
