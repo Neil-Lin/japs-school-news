@@ -11,6 +11,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
+import atomic_files
 import lunch_contract as contract
 import update_lunch as lunch
 
@@ -204,12 +205,12 @@ class LunchDataTests(unittest.TestCase):
             lunch.publish(SCHOOLS, manifest, files, directory)
             self.assertEqual({p.name: p.read_bytes() for p in directory.iterdir()}, before)
             next_manifest, next_files, _ = prepare(now=NOW + timedelta(hours=1))
-            replace = lunch.os.replace
+            replace = atomic_files.os.replace
             def fail_manifest(source, target):
                 if Path(source).name == 'status.json':
                     raise OSError('disk error')
                 return replace(source, target)
-            with patch.object(lunch.os, 'replace', side_effect=fail_manifest), self.assertRaises(OSError):
+            with patch.object(atomic_files.os, 'replace', side_effect=fail_manifest), self.assertRaises(OSError):
                 lunch.publish(SCHOOLS, next_manifest, next_files, directory)
             self.assertEqual({p.name: p.read_bytes() for p in directory.iterdir()}, before)
             with self.assertRaises(contract.LunchError):

@@ -26,6 +26,7 @@ const texts = new Map(await Promise.all(all.map(async path => [path, await readF
 const isJS = path => /\.m?js$/.test(path);
 // Tests assert on escaped output and fixed timestamps, so code-pattern rules apply to shipped and tooling code.
 const codeFiles = all.filter(path => isJS(path) && !path.startsWith('tests/'));
+const pythonFiles = all.filter(path => path.endsWith('.py') && !path.startsWith('tests/'));
 
 function lineRule(name, pattern, allowed, message) {
   test(name, () => {
@@ -40,10 +41,10 @@ function lineRule(name, pattern, allowed, message) {
 }
 
 // Frozen exceptions: the listed files may keep at most this many matches; no other file may add one.
-function frozenRule(name, find, frozen, message) {
+function frozenRule(name, find, frozen, message, files = codeFiles) {
   test(name, () => {
     const found = [];
-    for (const path of codeFiles) {
+    for (const path of files) {
       const hits = find(texts.get(path));
       if (hits.length > (frozen[path] ?? 0)) found.push(...hits.map(line => `${path}:${line}`));
     }
@@ -93,6 +94,13 @@ function handMadeDeadlines(text) {
 
 frozenRule('Request deadlines come from withDeadline in format.mjs', handMadeDeadlines, {'format.mjs': 1, 'templates/sw.js': 1},
   '禁止自行用 AbortController + setTimeout 做請求逾時：容易漏 clearTimeout 或忘記串接外部 signal。請改用 format.mjs 的 withDeadline({timeoutMs, signal}, signal => …)。（templates/sw.js 無法 import 模組，列為凍結例外）');
+
+const linesMatching = pattern => text => text.split('\n').flatMap((line, index) => pattern.test(line) ? [index + 1] : []);
+
+frozenRule('Published files are replaced through atomic_files.py', linesMatching(/\bos\.replace\s*\(/),
+  {'scripts/atomic_files.py': 2, 'scripts/build_site.py': 4},
+  '禁止在 scripts/atomic_files.py 以外自行用 os.replace 逐檔替換與回復：發布資料的關鍵邏輯分散多份，容易一份修了一份沒修。請改用 from atomic_files import replace_files。（build_site.py 是整個目錄替換，列為凍結例外）',
+  pythonFiles);
 
 const IGNORE_MARKER = new RegExp([
   ['eslint', 'disable'].join('-'), '@ts-' + '(?:ignore|nocheck|expect-error)', 'no' + 'qa\\b', 'type:\\s*' + 'ignore',
