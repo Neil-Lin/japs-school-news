@@ -1,8 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
-import {loadLunch, verifyLunch, lunchHash, lunchCacheName, lunchSourceURL, validMealDate} from '../lunch-client.mjs';
-import {taipeiDay} from '../format.mjs';
+import {loadLunch, verifyLunch, lunchCacheName, lunchSourceURL, validMealDate} from '../lunch-client.mjs';
+import {taipeiDay, sha256Hex} from '../format.mjs';
 import {lunchPresentation, renderLunch} from '../lunch-ui.mjs';
 
 const baseURL = 'https://example.test/japs-school-news/';
@@ -31,7 +31,7 @@ const offline = async () => { throw new TypeError('offline'); };
 
 test('all five Python byte hashes and school identities are verified by the browser client', async () => {
   for (const [slug, raw] of Object.entries(bodies)) {
-    assert.equal(await lunchHash(raw), published.schools[slug].snapshot.sha256);
+    assert.equal(await sha256Hex(raw), published.schools[slug].snapshot.sha256);
     const result = await verifyLunch(published, raw, slug, published.schools[slug].schoolId);
     assert.equal(result.snapshot.schoolSlug, slug);
     assert.deepEqual(Object.keys(result.manifest.schools), [slug]);
@@ -101,7 +101,7 @@ test('manifest paths, identities, dates and photo URLs cannot redirect or mix an
     s => { s.sourceUrl = 'javascript:bad()'; }, s => { s.providers[0].dishes[0].photoUrl = 'https://evil.test/photo'; }]) {
     const snapshot = JSON.parse(bodies.renai); change(snapshot);
     const raw = JSON.stringify(snapshot), manifest = clone(published);
-    manifest.schools.renai.snapshot.sha256 = await lunchHash(raw);
+    manifest.schools.renai.snapshot.sha256 = await sha256Hex(raw);
     await assert.rejects(verifyLunch(manifest, raw, schoolSlug, schoolId));
   }
 });
@@ -156,7 +156,7 @@ test('no-snapshot status does not fetch a body, and no-record is distinct from a
   Object.assign(snapshot, {status: 'no-record', providers: []});
   const raw = JSON.stringify(snapshot), empty = clone(published);
   empty.schools.renai.status = 'no-record';
-  Object.assign(empty.schools.renai.snapshot, {status: 'no-record', sha256: await lunchHash(raw)});
+  Object.assign(empty.schools.renai.snapshot, {status: 'no-record', sha256: await sha256Hex(raw)});
   const result = await loadLunch({...options, storage: storage(), fetcher: server(empty, raw).fetcher});
   assert.equal(result.snapshot.status, 'no-record');
   assert.equal(lunchPresentation(result, now).summary, '今日尚無菜單資料');

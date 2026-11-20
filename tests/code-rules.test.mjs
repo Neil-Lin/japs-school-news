@@ -26,6 +26,7 @@ const texts = new Map(await Promise.all(all.map(async path => [path, await readF
 const isJS = path => /\.m?js$/.test(path);
 // Tests assert on escaped output and fixed timestamps, so code-pattern rules apply to shipped and tooling code.
 const codeFiles = all.filter(path => isJS(path) && !path.startsWith('tests/'));
+const pythonFiles = all.filter(path => path.endsWith('.py') && !path.startsWith('tests/'));
 
 function lineRule(name, pattern, allowed, message) {
   test(name, () => {
@@ -40,10 +41,10 @@ function lineRule(name, pattern, allowed, message) {
 }
 
 // Frozen exceptions: the listed files may keep at most this many matches; no other file may add one.
-function frozenRule(name, find, frozen, message) {
+function frozenRule(name, find, frozen, message, files = codeFiles) {
   test(name, () => {
     const found = [];
-    for (const path of codeFiles) {
+    for (const path of files) {
       const hits = find(texts.get(path));
       if (hits.length > (frozen[path] ?? 0)) found.push(...hits.map(line => `${path}:${line}`));
     }
@@ -59,6 +60,9 @@ lineRule('Taipei date formatting lives only in format.mjs', /Intl\.DateTimeForma
 
 lineRule('One-day duration comes from DAY in format.mjs', /86_?400_?000|24\s*\*\s*60\s*\*\s*60/, ['format.mjs'],
   '禁止手寫一天的毫秒數（86400000、24 * 60 * 60 * 1000）：同一個概念多種寫法容易算錯。請改用 import {DAY} from \'./format.mjs\'。');
+
+lineRule('SHA-256 hex comes from sha256Hex in format.mjs', /crypto\.subtle\.digest/, ['format.mjs'],
+  '禁止在 format.mjs 以外直接呼叫 crypto.subtle.digest 轉 hex：同一段雜湊邏輯多份複製，改一份漏一份就會造成版本比對失敗。請改用 import {sha256Hex} from \'./format.mjs\'。');
 
 // Returns the line numbers of setTimeout(..., 0), requestAnimationFrame( and queueMicrotask( calls.
 function timingPatches(text) {
@@ -80,6 +84,23 @@ function timingPatches(text) {
 
 frozenRule('No new zero-delay timers to patch timing', timingPatches, {'dialog-controller.mjs': 2},
   '禁止用 setTimeout(…, 0)、requestAnimationFrame、queueMicrotask 補時序：會掩蓋真正的原因且在不同瀏覽器表現不一。請改為監聽對應事件（如 scrollend、transitionend、popstate）或修正呼叫順序；確實無法避免時列入例外清單由人決定。');
+
+// Returns the line numbers of an AbortController followed within five lines by a setTimeout: a hand-made request deadline.
+function handMadeDeadlines(text) {
+  const lines = text.split('\n');
+  return lines.flatMap((line, index) => /\bnew AbortController\b/.test(line)
+    && lines.slice(index + 1, index + 6).some(next => /\bsetTimeout\s*\(/.test(next)) ? [index + 1] : []);
+}
+
+frozenRule('Request deadlines come from withDeadline in format.mjs', handMadeDeadlines, {'format.mjs': 1, 'templates/sw.js': 1},
+  '禁止自行用 AbortController + setTimeout 做請求逾時：容易漏 clearTimeout 或忘記串接外部 signal。請改用 format.mjs 的 withDeadline({timeoutMs, signal}, signal => …)。（templates/sw.js 無法 import 模組，列為凍結例外）');
+
+const linesMatching = pattern => text => text.split('\n').flatMap((line, index) => pattern.test(line) ? [index + 1] : []);
+
+frozenRule('Published files are replaced through atomic_files.py', linesMatching(/\bos\.replace\s*\(/),
+  {'scripts/atomic_files.py': 2, 'scripts/build_site.py': 4},
+  '禁止在 scripts/atomic_files.py 以外自行用 os.replace 逐檔替換與回復：發布資料的關鍵邏輯分散多份，容易一份修了一份沒修。請改用 from atomic_files import replace_files。（build_site.py 是整個目錄替換，列為凍結例外）',
+  pythonFiles);
 
 const IGNORE_MARKER = new RegExp([
   ['eslint', 'disable'].join('-'), '@ts-' + '(?:ignore|nocheck|expect-error)', 'no' + 'qa\\b', 'type:\\s*' + 'ignore',

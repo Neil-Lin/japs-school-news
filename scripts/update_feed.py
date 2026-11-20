@@ -17,6 +17,7 @@ from urllib.parse import urlsplit
 from urllib.request import Request, urlopen
 import xml.etree.ElementTree as ET
 
+from atomic_files import replace_files
 from feed_contract import SCHEMA_VERSION, content_hash, make_version, parsed_date, valid_url, validate_snapshot, validate_school_artifacts
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -305,22 +306,8 @@ def publish(config, payload, directory):
             raise FeedError("分校輸出驗證失敗：" + "; ".join(errors[:10]))
         names = [f"schools/{config['schoolMeta'][school]['slug']}.json" for school in config['schools']] + list(outputs)
         previous = {name: (directory / name).read_bytes() if (directory / name).exists() else None for name in names}
-        replaced = []
-        try:
-            # All school bodies and the legacy archive precede the commit manifest.
-            for name in names:
-                (directory / name).parent.mkdir(parents=True, exist_ok=True)
-                os.replace(staged / name, directory / name)
-                replaced.append(name)
-        except OSError:
-            for index, name in enumerate(reversed(replaced)):
-                if previous[name] is None:
-                    (directory / name).unlink(missing_ok=True)
-                else:
-                    backup = staged / f"rollback-{index}"
-                    backup.write_bytes(previous[name])
-                    os.replace(backup, directory / name)
-            raise
+        # All school bodies and the legacy archive precede the commit manifest.
+        replace_files(staged, directory, previous)
     return version
 
 

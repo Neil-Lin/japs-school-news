@@ -3,7 +3,6 @@
 import argparse
 import copy
 import json
-import os
 import tempfile
 import time
 import urllib.error
@@ -13,6 +12,7 @@ from pathlib import Path
 from urllib.parse import urlencode
 from zoneinfo import ZoneInfo
 
+from atomic_files import replace_files
 from lunch_contract import (BASE_URL, LunchError, encode, identifier,
                             ingredient_status, load_settings, meal_date, read_bundle,
                             require, snapshot_reference, source_url, text, timestamp,
@@ -247,20 +247,7 @@ def publish(schools, manifest, files, directory):
             if raw != old:
                 changed[name] = old
                 (stage / name).write_bytes(raw)
-        replaced = []
-        try:
-            for name in changed:
-                os.replace(stage / name, directory / name)
-                replaced.append(name)
-        except OSError:
-            for index, name in enumerate(reversed(replaced)):
-                if changed[name] is None:
-                    (directory / name).unlink(missing_ok=True)
-                else:
-                    backup = stage / ('rollback-' + str(index))
-                    backup.write_bytes(changed[name])
-                    os.replace(backup, directory / name)
-            raise
+        replace_files(stage, directory, changed)
 
 
 def taipei_day(now):
