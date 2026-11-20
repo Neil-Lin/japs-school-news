@@ -1,5 +1,5 @@
-import {loadLunch, verifyLunch, lunchHash, lunchSourceURL, lunchCacheName} from './lunch-client.mjs';
-import {taipeiDay, withDeadline} from './format.mjs';
+import {loadLunch, verifyLunch, lunchSourceURL, lunchCacheName} from './lunch-client.mjs';
+import {sha256Hex, taipeiDay, withDeadline} from './format.mjs';
 
 const ROOT = 'https://fatraceschool.k12ea.gov.tw';
 const recent = new Map();
@@ -93,7 +93,7 @@ export async function fetchOfficialLunch({schoolSlug, schoolId, schoolName, fetc
       status, sourceUrl: lunchSourceURL(schoolId, day), providers};
     const raw = JSON.stringify(snapshot);
     const entry = {schoolId, status, errors: [], lastSuccessAt: fetchedAt, snapshot: {
-      path: schoolSlug + '.json', sha256: await lunchHash(raw), mealDate: day, fetchedAt, status}};
+      path: schoolSlug + '.json', sha256: await sha256Hex(raw), mealDate: day, fetchedAt, status}};
     const manifest = {schemaVersion: 1, requestedDate: day, checkedAt: fetchedAt, schools: {[schoolSlug]: entry}};
     await verifyLunch(manifest, raw, schoolSlug, schoolId);
     if (deadline.aborted) throw new DOMException('已取消', 'AbortError');

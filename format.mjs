@@ -20,6 +20,12 @@ export function taipeiDay(now = new Date()) {
   return `${value('year')}-${value('month')}-${value('day')}`;
 }
 
+// The only SHA-256 implementation: hex digest of the UTF-8 text, used to verify published data versions.
+export async function sha256Hex(text) {
+  const hash = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
+  return [...new Uint8Array(hash)].map(value => value.toString(16).padStart(2, '0')).join('');
+}
+
 // The only place browser code builds a request deadline: aborts on timeout or when the caller's signal aborts,
 // and always clears the timer, detaches from the caller's signal and aborts leftover requests.
 export async function withDeadline({timeoutMs, signal}, run) {

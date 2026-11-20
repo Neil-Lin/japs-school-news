@@ -1,4 +1,4 @@
-import {withDeadline} from './format.mjs';
+import {sha256Hex, withDeadline} from './format.mjs';
 import {prepareSchoolData, hydrateSchoolData, validateSchoolData, schoolName} from './school-data.mjs';
 
 // Versioned, coherent snapshots: metadata can change without redownloading article bodies.
@@ -18,11 +18,7 @@ async function requestJSON(fetcher, url, timeoutMs) {
   });
 }
 
-export async function digest(value) {
-  const bytes = new TextEncoder().encode(canonicalJSON(value));
-  const result = await crypto.subtle.digest('SHA-256', bytes);
-  return [...new Uint8Array(result)].map(value => value.toString(16).padStart(2, '0')).join('');
-}
+export const digest = value => sha256Hex(canonicalJSON(value));
 
 export function snapshotCacheName(baseURL, format = 2) {
   return 'school-news:' + new URL('./', baseURL).pathname + ':snapshot-v' + format;

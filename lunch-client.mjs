@@ -1,5 +1,5 @@
 // Lunch data is loaded independently of announcements, only when requested.
-import {withDeadline} from './format.mjs';
+import {sha256Hex, withDeadline} from './format.mjs';
 const OFFICIAL = 'https://fatraceschool.k12ea.gov.tw';
 const complete = new Set(['available', 'no-record']);
 const attempts = new Set([...complete, 'partial', 'error']);
@@ -26,12 +26,6 @@ export function lunchSourceURL(schoolId, day) {
 
 export function lunchCacheName(baseURL) {
   return 'school-news:' + new URL('./', baseURL).pathname + ':lunch-v1';
-}
-
-export async function lunchHash(raw) {
-  const bytes = new TextEncoder().encode(raw);
-  const hash = await crypto.subtle.digest('SHA-256', bytes);
-  return [...new Uint8Array(hash)].map(value => value.toString(16).padStart(2, '0')).join('');
 }
 
 function versionError() {
@@ -70,7 +64,7 @@ export async function verifyLunch(manifest, raw, slug, schoolId) {
     return {manifest: selected, snapshot: null};
   }
   require(typeof raw === 'string' && new TextEncoder().encode(raw).length <= 2_000_000);
-  if (await lunchHash(raw) !== ref.sha256) throw versionError();
+  if (await sha256Hex(raw) !== ref.sha256) throw versionError();
   const snapshot = JSON.parse(raw);
   require(snapshot.schemaVersion === 1 && snapshot.schoolSlug === slug && snapshot.schoolId === schoolId && hasText(snapshot.schoolName)
     && snapshot.mealDate === ref.mealDate && snapshot.fetchedAt === ref.fetchedAt && snapshot.status === ref.status

@@ -60,6 +60,9 @@ lineRule('Taipei date formatting lives only in format.mjs', /Intl\.DateTimeForma
 lineRule('One-day duration comes from DAY in format.mjs', /86_?400_?000|24\s*\*\s*60\s*\*\s*60/, ['format.mjs'],
   '禁止手寫一天的毫秒數（86400000、24 * 60 * 60 * 1000）：同一個概念多種寫法容易算錯。請改用 import {DAY} from \'./format.mjs\'。');
 
+lineRule('SHA-256 hex comes from sha256Hex in format.mjs', /crypto\.subtle\.digest/, ['format.mjs'],
+  '禁止在 format.mjs 以外直接呼叫 crypto.subtle.digest 轉 hex：同一段雜湊邏輯多份複製，改一份漏一份就會造成版本比對失敗。請改用 import {sha256Hex} from \'./format.mjs\'。');
+
 // Returns the line numbers of setTimeout(..., 0), requestAnimationFrame( and queueMicrotask( calls.
 function timingPatches(text) {
   const lines = [];
