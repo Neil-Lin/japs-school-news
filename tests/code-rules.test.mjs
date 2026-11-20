@@ -26,3 +26,6 @@ function rule(name, pattern, allowed, message) {
 
 rule('HTML escaping lives only in format.mjs', /&amp;|&lt;|&gt;|&quot;|&#39;/, ['format.mjs'],
   '禁止在 format.mjs 以外自行實作 HTML 跳脫：多份複製容易漏改而造成 XSS。請改用 import {esc} from \'./format.mjs\'。');
+
+rule('Taipei date formatting lives only in format.mjs', /Intl\.DateTimeFormat|Asia\/Taipei/, ['format.mjs'],
+  '禁止在 format.mjs 以外建立 Intl.DateTimeFormat 或寫死 Asia/Taipei：各自建立容易漏時區、重複建立浪費效能。請改用 format.mjs 的 taipeiFormat() 或 taipeiDay()。');

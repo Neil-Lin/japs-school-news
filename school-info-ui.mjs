@@ -1,6 +1,6 @@
 import {setupDialog} from './dialog-controller.mjs';
 import {safeURL} from './news-core.mjs';
-import {esc} from './format.mjs';
+import {esc, taipeiFormat} from './format.mjs';
 import {reviewState} from './news-health.mjs';
 
 
@@ -20,7 +20,7 @@ export function showOpeningAnnouncements(articles, website) {
   if (!node) return;
   const notices = openingAnnouncements(articles, website);
   node.hidden = !notices.length;
-  const fmt = new Intl.DateTimeFormat('zh-TW', {year: 'numeric', month: 'numeric', day: 'numeric', timeZone: 'Asia/Taipei'});
+  const fmt = taipeiFormat('zh-TW', {year: 'numeric', month: 'numeric', day: 'numeric'});
   node.innerHTML = `<h4>近期場地相關公告</h4><p>依公告日期排列，請點原文確認適用日期與範圍。</p><ul>${notices.map(item => `<li><a href="${esc(safeURL(item.url))}" target="_blank" rel="noopener">${esc(item.title)}<span class="sr-only">（另開分頁）</span></a><time datetime="${esc(item.published)}">${esc(fmt.format(new Date(item.published)))}</time></li>`).join('')}</ul>`;
 }
 

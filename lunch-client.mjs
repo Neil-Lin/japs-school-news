@@ -18,12 +18,6 @@ export function validMealDate(value) {
   return Number.isFinite(day.getTime()) && day.toISOString().slice(0, 10) === value;
 }
 
-export function taipeiDay(now = new Date()) {
-  const parts = new Intl.DateTimeFormat('en', {timeZone: 'Asia/Taipei', year: 'numeric', month: '2-digit', day: '2-digit'}).formatToParts(now);
-  const value = type => parts.find(part => part.type === type).value;
-  return `${value('year')}-${value('month')}-${value('day')}`;
-}
-
 export function lunchSourceURL(schoolId, day) {
   require(id(schoolId) && validMealDate(day));
   return `${OFFICIAL}/frontend/search.html?school=${schoolId}&period=${day}`;
