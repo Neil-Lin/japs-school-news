@@ -3,6 +3,8 @@ const ENTITIES = {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&
 
 export const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ENTITIES[char]);
 
+export const DAY = 86_400_000;
+
 // The only place browser code formats dates; every formatter is fixed to Taipei time and reused.
 const formatters = new Map();
 

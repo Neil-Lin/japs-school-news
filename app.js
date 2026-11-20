@@ -4,7 +4,7 @@ import {
   sourcesOf, stateURL, originalLinks,
 } from './news-core.mjs';
 import {loadSnapshot} from './data-client.mjs';
-import {esc, taipeiDay, taipeiFormat} from './format.mjs';
+import {DAY, esc, taipeiDay, taipeiFormat} from './format.mjs';
 import {setupLunchDialog} from './lunch-ui.mjs';
 import {setupSchoolInfoDialog, showOpeningAnnouncements} from './school-info-ui.mjs';
 import {snapshotHealth, sourceHealth} from './news-health.mjs';
@@ -38,7 +38,7 @@ let uiController;
 
 function showDataState({data, mode, cacheAvailable}) {
   const node = document.querySelector('#cacheStatus');
-  const stale = Date.now() - Date.parse(data.updatedAt) > 24 * 60 * 60 * 1000;
+  const stale = Date.now() - Date.parse(data.updatedAt) > DAY;
   const notes = [];
   if (mode === 'cached') notes.push('無法取得最新資料，目前顯示上次成功的公告。');
   if (stale) notes.push('來源超過 24 小時未檢查，公告可能尚未更新。');

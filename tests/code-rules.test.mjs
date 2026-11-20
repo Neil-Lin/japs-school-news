@@ -29,3 +29,6 @@ rule('HTML escaping lives only in format.mjs', /&amp;|&lt;|&gt;|&quot;|&#39;/, [
 
 rule('Taipei date formatting lives only in format.mjs', /Intl\.DateTimeFormat|Asia\/Taipei/, ['format.mjs'],
   '禁止在 format.mjs 以外建立 Intl.DateTimeFormat 或寫死 Asia/Taipei：各自建立容易漏時區、重複建立浪費效能。請改用 format.mjs 的 taipeiFormat() 或 taipeiDay()。');
+
+rule('One-day duration comes from DAY in format.mjs', /86_?400_?000|24\s*\*\s*60\s*\*\s*60/, ['format.mjs'],
+  '禁止手寫一天的毫秒數（86400000、24 * 60 * 60 * 1000）：同一個概念多種寫法容易算錯。請改用 import {DAY} from \'./format.mjs\'。');

@@ -1,6 +1,6 @@
 import {setupDialog} from './dialog-controller.mjs';
 import {safeURL} from './news-core.mjs';
-import {esc, taipeiFormat} from './format.mjs';
+import {DAY, esc, taipeiFormat} from './format.mjs';
 import {reviewState} from './news-health.mjs';
 
 
@@ -10,7 +10,7 @@ export function openingAnnouncements(articles, website, now = Date.now()) {
     const url = safeURL(article.url);
     const published = Date.parse(article.published);
     return url && new URL(url).hostname === host && Number.isFinite(published)
-      && published <= now && now - published <= 90 * 86400000
+      && published <= now && now - published <= 90 * DAY
       && /校園|操場|球場|遊戲場/.test(article.title) && /開放|封閉|施工/.test(article.title);
   }).sort((a, b) => Date.parse(b.published) - Date.parse(a.published)).slice(0, 3);
 }
