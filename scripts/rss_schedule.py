@@ -12,27 +12,15 @@ from urllib.request import HTTPRedirectHandler, Request, build_opener
 from taipei_time import TAIPEI
 
 ROOT = Path(__file__).resolve().parents[1]
-# Current workflows declare Asia/Taipei explicitly. Retain old UTC expressions
-# for queued runs and historical records during the migration.
-CURRENT_SCHEDULES = {
+# Workflow cron (timezone: Asia/Taipei) -> trigger time, data slot, kind.
+SCHEDULES = {
     '30 10 * * *': ((10, 30), (10, 30), 'primary'),
     '30 16 * * *': ((16, 30), (16, 30), 'primary'),
     '40 11 * * *': ((11, 40), (10, 30), 'fallback'),
     '40 17 * * *': ((17, 40), (16, 30), 'fallback'),
 }
-LEGACY_SCHEDULES = {
-    '30 2 * * *': ((10, 30), (10, 30), 'primary'),
-    '30 8 * * *': ((16, 30), (16, 30), 'primary'),
-    '40 3 * * *': ((11, 40), (10, 30), 'fallback'),
-    '40 9 * * *': ((17, 40), (16, 30), 'fallback'),
-}
-SCHEDULES = {**CURRENT_SCHEDULES, **LEGACY_SCHEDULES}
 PRIMARY = {(10, 30): '30 10 * * *', (16, 30): '30 16 * * *'}
-LEGACY_PRIMARY = {(10, 30): '30 2 * * *', (16, 30): '30 8 * * *'}
-WATCHDOGS = {
-    '13 12 * * *': ((12, 13), (10, 30)), '13 18 * * *': ((18, 13), (16, 30)),
-    '13 4 * * *': ((12, 13), (10, 30)), '13 10 * * *': ((18, 13), (16, 30)),
-}
+WATCHDOGS = {'13 12 * * *': ((12, 13), (10, 30)), '13 18 * * *': ((18, 13), (16, 30))}
 GRACE = timedelta(minutes=90)
 PUBLISH_GRACE = timedelta(minutes=20)
 
@@ -111,10 +99,9 @@ def assess(version, public, runs, now, slot=None):
     slot = slot or latest_slot(now)
     committed = coverage(version, slot, now)
     published = coverage(public, slot, now)
-    primary_expressions = {PRIMARY[(slot.hour, slot.minute)], LEGACY_PRIMARY[(slot.hour, slot.minute)]}
-    expected_titles = {'RSS · schedule · ' + expression for expression in primary_expressions}
+    expected_title = 'RSS · schedule · ' + PRIMARY[(slot.hour, slot.minute)]
     primary = [run for run in runs if run.get('event') == 'schedule' and run.get('head_branch') == 'main'
-               and run.get('display_title') in expected_titles and timestamp(run['created_at']) >= slot]
+               and run.get('display_title') == expected_title and timestamp(run['created_at']) >= slot]
     errors, warnings, notes = [], [], []
     overdue = now >= slot + GRACE
     if overdue and not committed['covered'] and not published['covered']:

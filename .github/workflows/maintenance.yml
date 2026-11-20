@@ -10,7 +10,7 @@ permissions:
   contents: read
 jobs:
   health:
-    if: github.event_name != 'schedule' || github.event.schedule == '15 8 * * *' || github.event.schedule == '15 0 * * *'
+    if: github.event_name != 'schedule' || github.event.schedule == '15 8 * * *'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -36,7 +36,7 @@ jobs:
           path: reports/
           retention-days: 30
   school-sources:
-    if: github.event_name != 'schedule' || github.event.schedule == '45 8 * * 1' || github.event.schedule == '45 0 * * 1'
+    if: github.event_name != 'schedule' || github.event.schedule == '45 8 * * 1'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:

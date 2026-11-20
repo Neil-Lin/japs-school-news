@@ -94,7 +94,7 @@ Hero 的「今日午餐」開啟桌機視窗／手機全螢幕視窗，依供餐
 
 Pages部署後會逐檔核對公開內容是否與實際部署產物一致。維護報告留在Actions摘要／artifact，家長沿用既有更新詳情；基本資訊底部另有逐校、逐類資料查核日期及逾期提醒。檢查命令、報告、效能預算及回復方式見 [維護工程](docs/maintenance.md)。
 
-所有排程明確宣告 `timezone: Asia/Taipei`，cron直接使用臺灣時間。更新器與偵測器保留舊UTC cron識別，支援切換前已排隊的執行及歷史紀錄。
+所有排程明確宣告 `timezone: Asia/Taipei`，cron直接使用臺灣時間。更新器與偵測器只接受工作流程目前宣告的cron，由契約測試核對。
 
 資料 bot 使用的 `GITHUB_TOKEN` 提交不會再觸發 push 工作流程，因此資料更新透過成功的 `workflow_run` 接續部署。部署重新 checkout 可信的目前 main，不使用上游工作流程提供的程式碼或產物。Pages 與 OIDC 寫入權限只授予部署 job，RSS／午餐工作流程沒有 Pages 權限。兩種資料更新各自提交限定路徑；遠端 main 前進造成 push 失敗時需重跑，不強制推送或覆蓋其他更新。
 
