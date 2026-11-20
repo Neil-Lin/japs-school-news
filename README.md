@@ -14,7 +14,7 @@
 
 分類支援 checkbox 多選，預設不勾選「教育局消息」「研習資訊」「教師研習及活動」，其餘分類預設勾選；使用者仍可手動選取或按「全部」全選／取消全選，部分選取時顯示半選。預設排除以穩定分類 ID 定義，分類改名仍維持原設定；不依公告標題猜測受眾。分類之間取聯集，因此同篇若也出現在已選的親職資訊等分類，仍會顯示。搜尋條件再取交集；未選任何分類時不顯示公告。網址以分類 ID 記錄 `categories`、`q`、`page`，可分享並還原明確選擇；`categories=` 代表全不選，沒有該參數才使用預設。分類 ID 集中於 `config.json` 的 `categoryIds`，修改顯示名稱時應保留 ID。
 
-首次取得專案後，先執行 `python3 scripts/build_site.py` 產生本機資產，再執行 `python3 -m http.server 8000`，開啟 `http://localhost:8000/`。前端使用原生 ES modules，需透過 HTTP 預覽。完整回歸檢查統一使用 `python3 scripts/check_project.py`，不連線抓取 RSS、不提交或部署。它會檢查產生檔是否最新、重建資產、檢查 JavaScript 語法、執行 Node／Python 測試及資料驗證。瀏覽器程式的共用寫法由 `tests/code-rules.test.mjs` 自動檢查：HTML 跳脫、台北時區日期格式與一天毫秒數只能使用 `format.mjs` 提供的 `esc`、`taipeiFormat`／`taipeiDay`、`DAY`。工作流程 YAML 契約測試使用系統 Ruby/Psych；未安裝 Ruby 時會明確跳過該組測試，其餘檢查照常執行。
+首次取得專案後，先執行 `python3 scripts/build_site.py` 產生本機資產，再執行 `python3 -m http.server 8000`，開啟 `http://localhost:8000/`。前端使用原生 ES modules，需透過 HTTP 預覽。完整回歸檢查統一使用 `python3 scripts/check_project.py`，不連線抓取 RSS、不提交或部署。它會檢查產生檔是否最新、重建資產、檢查 JavaScript 語法、執行 Node／Python 測試及資料驗證。程式寫法由 `tests/code-rules.test.mjs` 自動檢查，掃描所有原始碼目錄（含日後新增的目錄）：HTML 跳脫、台北時區日期格式與一天毫秒數只能使用 `format.mjs` 提供的 `esc`、`taipeiFormat`／`taipeiDay`、`DAY`；不得新增零延遲計時器補時序，也不得加入忽略檢查的標記。工作流程 YAML 契約測試使用系統 Ruby/Psych；未安裝 Ruby 時會明確跳過該組測試，其餘檢查照常執行。
 
 
 公告合併使用正規化原文網址或來源範圍內的 GUID，不以標題合併；同名不同篇公告會分開保留，同篇跨分類公告保留全部來源原文與附件。每個 RSS 來源在 `config.json` 有穩定的 `id`，修改名稱／網址時應保留 ID。
@@ -85,7 +85,7 @@ Hero 的「今日午餐」開啟桌機視窗／手機全螢幕視窗，依供餐
 
 | 工作流程 | 觸發與責任 |
 | --- | --- |
-| `ci.yml`／Project checks | PR 或手動觸發，以唯讀權限執行完整離線檢查、發布打包、Chromium／手機WebKit、效能預算與舊版讀取相容性演練。 |
+| `ci.yml`／Project checks | PR 或手動觸發，以唯讀權限執行完整離線檢查、發布打包、Chromium／手機WebKit、效能預算與舊版讀取相容性演練。PR 另以同一份資料拍攝 main 與 PR 的頁面截圖並列出差異（只報告、不擋 PR，截圖在 `visual-comparison` artifact）；本機可用 `node tests/visual/capture.mjs <輸出目錄>` 搭配 `node tests/visual/compare.mjs <舊> <新>` 重現。 |
 | `update-feed.yml`／Update RSS data | 預定每日臺灣時間10:30、16:30，11:40、17:40各一次備援。資料已涵蓋對應時段就跳過抓取；手動模式仍可明確重新讀取。只提交經驗證的 `data/`。遠端main前進時不強制覆寫。 |
 | `update-lunch.yml`／Update lunch data | 目前只手動觸發，驗證並提交 `data/lunch/` 與必要的公開檔案清單，不修改 RSS。全校失敗不提交，保留診斷 artifact。 |
 | `deploy.yml`／Deploy Pages | main push、手動觸發，或同儲存庫 main 的 RSS／午餐工作流程成功完成時，檢查目前 main 並上傳 `dist/`，再以獨立 job 部署 Pages。此流程不抓取外部資料。 |
