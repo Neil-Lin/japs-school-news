@@ -113,11 +113,8 @@ def assess(version, public, runs, now, slot=None):
     published = coverage(public, slot, now)
     primary_expressions = {PRIMARY[(slot.hour, slot.minute)], LEGACY_PRIMARY[(slot.hour, slot.minute)]}
     expected_titles = {'RSS · schedule · ' + expression for expression in primary_expressions}
-    relevant = [run for run in runs if run.get('event') == 'schedule' and run.get('head_branch') == 'main'
-                and timestamp(run['created_at']) >= slot]
-    primary = [run for run in relevant if run.get('display_title') in expected_titles]
-    # Historical runs did not identify their cron expression. Never infer a slot for them.
-    legacy = [run['id'] for run in relevant if not run.get('display_title', '').startswith('RSS · schedule · ')]
+    primary = [run for run in runs if run.get('event') == 'schedule' and run.get('head_branch') == 'main'
+               and run.get('display_title') in expected_titles and timestamp(run['created_at']) >= slot]
     errors, warnings, notes = [], [], []
     overdue = now >= slot + GRACE
     if overdue and not committed['covered'] and not published['covered']:
@@ -126,7 +123,7 @@ def assess(version, public, runs, now, slot=None):
         notes.append('Within the 90-minute grace period; source check may still be pending.')
     if not primary:
         notes.append('No identified primary schedule run for this slot. Fresh data alone does not prove native scheduling is on time.')
-        if overdue and not legacy:
+        if overdue:
             warnings.append('primary-run-missing')
     elif any(run.get('conclusion') == 'success' for run in primary):
         notes.append('An identified primary run succeeded; actual creation time is recorded separately from the planned slot.')
@@ -154,7 +151,7 @@ def assess(version, public, runs, now, slot=None):
             'primarySchedule': PRIMARY[(slot.hour, slot.minute)],
             'primaryRuns': [{**{key: run.get(key) for key in ('id', 'created_at', 'run_started_at', 'run_attempt', 'status', 'conclusion')},
                              'creationDelayMinutes': round((timestamp(run['created_at']) - slot).total_seconds() / 60, 2)} for run in primary],
-            'unattributedLegacyScheduledRuns': legacy, 'errors': sorted(set(errors)), 'warnings': sorted(set(warnings)), 'notes': notes}
+            'errors': sorted(set(errors)), 'warnings': sorted(set(warnings)), 'notes': notes}
 
 
 class NoRedirect(HTTPRedirectHandler):

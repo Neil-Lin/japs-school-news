@@ -103,13 +103,13 @@ class ScheduleTests(unittest.TestCase):
         self.assertEqual(report['primaryRuns'][0]['created_at'], late['created_at'])
         self.assertEqual(report['primaryRuns'][0]['creationDelayMinutes'], 115)
 
-    def test_legacy_runs_are_marked_unattributed_instead_of_claiming_a_primary_slot(self):
+    def test_runs_without_a_cron_title_never_claim_a_primary_slot(self):
         current = snapshot('2026-11-18T18:25:00')
-        legacy = {**run(created='2026-11-18T18:25:00'), 'display_title': 'Update RSS data'}
-        report = assess(current, current, [legacy], at('2026-11-18T19:00:00'))
-        self.assertEqual(report['unattributedLegacyScheduledRuns'], [123])
+        untitled = {**run(created='2026-11-18T18:25:00'), 'display_title': 'Update RSS data'}
+        report = assess(current, current, [untitled], at('2026-11-18T19:00:00'))
         self.assertEqual(report['primaryRuns'], [])
         self.assertEqual(report['errors'], [])
+        self.assertEqual(report['warnings'], ['primary-run-missing'])
 
     def test_publishing_gets_twenty_minutes_then_alerts_and_newer_public_data_is_valid(self):
         old, new = snapshot('2026-11-18T11:55:00'), snapshot('2026-11-18T18:01:00')

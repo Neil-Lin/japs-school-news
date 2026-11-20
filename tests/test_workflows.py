@@ -56,6 +56,8 @@ class WorkflowContractTests(unittest.TestCase):
         guarded = [step for step in steps if step.get('name') in ('Fetch RSS and publish a validated snapshot', 'Validate the new snapshot and school artifacts', 'Save only generated data')]
         self.assertEqual(len(guarded), 3)
         self.assertTrue(all(step['if'] == "steps.plan.outputs.run_update == 'true'" for step in guarded))
+        # rss_schedule.py identifies primary runs only by this title prefix.
+        self.assertTrue(rss['run-name'].startswith('RSS · ${{ github.event_name }} · ${{ github.event.schedule'))
         self.assertIn('github.event_name', rss['run-name'])
         self.assertIn('github.event.schedule', rss['run-name'])
 
