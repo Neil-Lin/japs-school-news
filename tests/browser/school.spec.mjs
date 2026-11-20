@@ -1,6 +1,6 @@
 import {test, expect} from '@playwright/test';
 import {readFile} from 'node:fs/promises';
-import {taipeiDay} from '../../lunch-client.mjs';
+import {taipeiDay} from '../../format.mjs';
 
 const fixture = JSON.parse(await readFile(new URL('../fixtures/lunch-official.json', import.meta.url)));
 const versionFixture = JSON.parse(await readFile(new URL('../../data/version.json', import.meta.url)));

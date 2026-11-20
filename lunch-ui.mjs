@@ -1,10 +1,10 @@
 import {setupDialog} from './dialog-controller.mjs';
-import {lunchSourceURL, taipeiDay} from './lunch-client.mjs';
+import {lunchSourceURL} from './lunch-client.mjs';
 import {loadCurrentLunch} from './lunch-live.mjs';
+import {DAY, esc, taipeiDay, taipeiFormat} from './format.mjs';
 
-const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[char]));
-const timeFormat = new Intl.DateTimeFormat('zh-TW', {month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false, timeZone: 'Asia/Taipei'});
-const dateFormat = new Intl.DateTimeFormat('zh-TW', {year: 'numeric', month: 'long', day: 'numeric', weekday: 'short', timeZone: 'Asia/Taipei'});
+const timeFormat = taipeiFormat('zh-TW', {month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false});
+const dateFormat = taipeiFormat('zh-TW', {year: 'numeric', month: 'long', day: 'numeric', weekday: 'short'});
 const fmtTime = value => value ? timeFormat.format(new Date(value)) : '未提供';
 const fmtDay = value => dateFormat.format(new Date(value + 'T12:00:00+08:00'));
 
@@ -15,7 +15,7 @@ export function lunchPresentation(bundle, now = new Date()) {
   if (bundle.officialUnavailable) notices.push('目前無法取得官方最新資料，顯示最近一次完整資料。');
   else if (mode === 'cached') notices.push('目前無法取得最新資料，顯示此裝置上次儲存的菜單。');
   if (snapshot && snapshot.mealDate !== today) notices.push(`目前顯示 ${fmtDay(snapshot.mealDate)} 的資料，請留意供餐日期。`);
-  if (now.getTime() - Date.parse(manifest.checkedAt) > 24 * 60 * 60 * 1000) notices.push('午餐資料已超過 24 小時未檢查，最新內容請至官方確認。');
+  if (now.getTime() - Date.parse(manifest.checkedAt) > DAY) notices.push('午餐資料已超過 24 小時未檢查，最新內容請至官方確認。');
   if (entry.status === 'partial') notices.push(snapshot ? '本次更新不完整，目前保留上次完整菜單。' : '本次午餐資料尚未完整取得。');
   if (entry.status === 'error') notices.push(snapshot ? '最近一次更新未成功，目前保留上次完整菜單。' : '目前暫時無法取得午餐資料。');
   const dishes = snapshot?.providers.reduce((sum, provider) => sum + provider.dishes.length, 0) || 0;

@@ -4,22 +4,13 @@ import {
   sourcesOf, stateURL, originalLinks,
 } from './news-core.mjs';
 import {loadSnapshot} from './data-client.mjs';
+import {DAY, esc, taipeiDay, taipeiFormat} from './format.mjs';
 import {setupLunchDialog} from './lunch-ui.mjs';
 import {setupSchoolInfoDialog, showOpeningAnnouncements} from './school-info-ui.mjs';
 import {snapshotHealth, sourceHealth} from './news-health.mjs';
 
-const esc = value => String(value ?? '').replace(/[&<>"']/g, char => (
-  {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[char]
-));
-const dateFormatter = new Intl.DateTimeFormat('zh-TW', {
-  dateStyle: 'medium', timeStyle: 'short', timeZone: 'Asia/Taipei',
-});
-const shortFormatter = new Intl.DateTimeFormat('zh-TW', {
-  month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false, timeZone: 'Asia/Taipei',
-});
-const dayFormatter = new Intl.DateTimeFormat('en-CA', {
-  timeZone: 'Asia/Taipei', year: 'numeric', month: '2-digit', day: '2-digit',
-});
+const dateFormatter = taipeiFormat('zh-TW', {dateStyle: 'medium', timeStyle: 'short'});
+const shortFormatter = taipeiFormat('zh-TW', {month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false});
 const fmt = (value, formatter = dateFormatter) => {
   const date = new Date(value);
   return value && !Number.isNaN(date.getTime()) ? formatter.format(date) : '時間未提供';
@@ -47,7 +38,7 @@ let uiController;
 
 function showDataState({data, mode, cacheAvailable}) {
   const node = document.querySelector('#cacheStatus');
-  const stale = Date.now() - Date.parse(data.updatedAt) > 24 * 60 * 60 * 1000;
+  const stale = Date.now() - Date.parse(data.updatedAt) > DAY;
   const notes = [];
   if (mode === 'cached') notes.push('無法取得最新資料，目前顯示上次成功的公告。');
   if (stale) notes.push('來源超過 24 小時未檢查，公告可能尚未更新。');
@@ -96,9 +87,9 @@ function start(bundle) {
   const filterSummary = document.querySelector('#filterSummary');
   const clearSearch = document.querySelector('#clearSearch');
   const refresh = document.querySelector('#refreshData');
-  const today = dayFormatter.format(new Date());
+  const today = taipeiDay();
   const todayCount = articles.filter(article => article.published && !Number.isNaN(Date.parse(article.published))
-    && dayFormatter.format(new Date(article.published)) === today).length;
+    && taipeiDay(new Date(article.published)) === today).length;
   document.querySelector('#updated').textContent = data.updatedAt
     ? '最近檢查 ' + fmt(data.updatedAt, shortFormatter) + '・今日新增 ' + todayCount + ' 筆' : '尚未更新';
   const statuses = (data.sourceStatus || []).filter(item => !item.schools || item.schools.includes(activeSchool));

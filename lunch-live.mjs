@@ -1,4 +1,5 @@
-import {loadLunch, verifyLunch, lunchHash, lunchSourceURL, lunchCacheName, taipeiDay} from './lunch-client.mjs';
+import {loadLunch, verifyLunch, lunchHash, lunchSourceURL, lunchCacheName} from './lunch-client.mjs';
+import {taipeiDay} from './format.mjs';
 
 const ROOT = 'https://fatraceschool.k12ea.gov.tw';
 const recent = new Map();

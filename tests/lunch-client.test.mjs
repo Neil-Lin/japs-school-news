@@ -1,7 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
-import {loadLunch, verifyLunch, lunchHash, lunchCacheName, lunchSourceURL, taipeiDay, validMealDate} from '../lunch-client.mjs';
+import {loadLunch, verifyLunch, lunchHash, lunchCacheName, lunchSourceURL, validMealDate} from '../lunch-client.mjs';
+import {taipeiDay} from '../format.mjs';
 import {lunchPresentation, renderLunch} from '../lunch-ui.mjs';
 
 const baseURL = 'https://example.test/japs-school-news/';

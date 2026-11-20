@@ -1,5 +1,6 @@
 // Shared by the parent-facing update details and the maintainer report.
-const DAY = 86400000;
+import {DAY} from './format.mjs';
+
 const repaired = warning => /已復原完整公告|已轉為空白並通過完整 XML 驗證/.test(warning);
 
 export function sourceHealth(source, now = Date.now()) {
