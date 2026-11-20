@@ -12,15 +12,27 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 TAIPEI = ZoneInfo('Asia/Taipei')
-# UTC cron -> trigger time in Taipei, data slot in Taipei, kind.
-SCHEDULES = {
+# Current workflows declare Asia/Taipei explicitly. Retain old UTC expressions
+# for queued runs and historical records during the migration.
+CURRENT_SCHEDULES = {
+    '30 10 * * *': ((10, 30), (10, 30), 'primary'),
+    '30 16 * * *': ((16, 30), (16, 30), 'primary'),
+    '40 11 * * *': ((11, 40), (10, 30), 'fallback'),
+    '40 17 * * *': ((17, 40), (16, 30), 'fallback'),
+}
+LEGACY_SCHEDULES = {
     '30 2 * * *': ((10, 30), (10, 30), 'primary'),
     '30 8 * * *': ((16, 30), (16, 30), 'primary'),
     '40 3 * * *': ((11, 40), (10, 30), 'fallback'),
     '40 9 * * *': ((17, 40), (16, 30), 'fallback'),
 }
-PRIMARY = {(10, 30): '30 2 * * *', (16, 30): '30 8 * * *'}
-WATCHDOGS = {'13 4 * * *': ((12, 13), (10, 30)), '13 10 * * *': ((18, 13), (16, 30))}
+SCHEDULES = {**CURRENT_SCHEDULES, **LEGACY_SCHEDULES}
+PRIMARY = {(10, 30): '30 10 * * *', (16, 30): '30 16 * * *'}
+LEGACY_PRIMARY = {(10, 30): '30 2 * * *', (16, 30): '30 8 * * *'}
+WATCHDOGS = {
+    '13 12 * * *': ((12, 13), (10, 30)), '13 18 * * *': ((18, 13), (16, 30)),
+    '13 4 * * *': ((12, 13), (10, 30)), '13 10 * * *': ((18, 13), (16, 30)),
+}
 GRACE = timedelta(minutes=90)
 PUBLISH_GRACE = timedelta(minutes=20)
 
@@ -99,13 +111,14 @@ def assess(version, public, runs, now, slot=None):
     slot = slot or latest_slot(now)
     committed = coverage(version, slot, now)
     published = coverage(public, slot, now)
-    expected_title = 'RSS · schedule · ' + PRIMARY[(slot.hour, slot.minute)]
+    primary_expressions = {PRIMARY[(slot.hour, slot.minute)], LEGACY_PRIMARY[(slot.hour, slot.minute)]}
+    expected_titles = {'RSS · schedule · ' + expression for expression in primary_expressions}
     relevant = [run for run in runs if run.get('event') == 'schedule' and run.get('head_branch') == 'main'
                 and timestamp(run['created_at']) >= slot]
-    primary = [run for run in relevant if run.get('display_title') == expected_title]
+    primary = [run for run in relevant if run.get('display_title') in expected_titles]
     # Historical runs did not identify their cron expression. Never infer a slot for them.
     legacy = [run['id'] for run in relevant if not run.get('display_title', '').startswith('RSS · schedule · ')]
-    errors, notes = [], []
+    errors, warnings, notes = [], [], []
     overdue = now >= slot + GRACE
     if overdue and not committed['covered'] and not published['covered']:
         errors.append('sources-overdue')
@@ -114,13 +127,15 @@ def assess(version, public, runs, now, slot=None):
     if not primary:
         notes.append('No identified primary schedule run for this slot. Fresh data alone does not prove native scheduling is on time.')
         if overdue and not legacy:
-            errors.append('primary-run-missing')
+            warnings.append('primary-run-missing')
     elif any(run.get('conclusion') == 'success' for run in primary):
         notes.append('An identified primary run succeeded; actual creation time is recorded separately from the planned slot.')
     else:
         notes.append('Primary schedule was observed but has not completed successfully.')
+        if overdue:
+            warnings.append('primary-run-incomplete')
     if primary and all(timestamp(run['created_at']) > slot + GRACE for run in primary):
-        errors.append('primary-start-delayed')
+        warnings.append('primary-start-delayed')
     local_time, public_time = timestamp(version['updatedAt']), timestamp(public['updatedAt'])
     same = public == version
     if public_time > local_time:
@@ -131,12 +146,15 @@ def assess(version, public, runs, now, slot=None):
         notes.append('Publication is within the 20-minute grace period.')
     if overdue and not published['covered'] and (not committed['covered'] or now - local_time >= PUBLISH_GRACE):
         errors.append('public-data-overdue')
-    return {'checkedAt': now.isoformat(), 'slot': slot.isoformat(), 'deadline': (slot + GRACE).isoformat(),
+    status = 'error' if errors else 'warning' if warnings else 'pending' if not published['covered'] else 'ok'
+    if warnings and not errors:
+        notes.append('Schedule timing needs review; no current data or publication outage was detected.')
+    return {'checkedAt': now.isoformat(), 'status': status, 'slot': slot.isoformat(), 'deadline': (slot + GRACE).isoformat(),
             'committed': committed, 'public': published, 'publicMatchesCheckout': same,
             'primarySchedule': PRIMARY[(slot.hour, slot.minute)],
             'primaryRuns': [{**{key: run.get(key) for key in ('id', 'created_at', 'run_started_at', 'run_attempt', 'status', 'conclusion')},
                              'creationDelayMinutes': round((timestamp(run['created_at']) - slot).total_seconds() / 60, 2)} for run in primary],
-            'unattributedLegacyScheduledRuns': legacy, 'errors': sorted(set(errors)), 'notes': notes}
+            'unattributedLegacyScheduledRuns': legacy, 'errors': sorted(set(errors)), 'warnings': sorted(set(warnings)), 'notes': notes}
 
 
 class NoRedirect(HTTPRedirectHandler):
@@ -198,12 +216,14 @@ def main(argv=None, now=None):
             slot = watchdog_slot(os.environ.get('RSS_WATCHDOG_CRON', ''), now)
             report = assess(version, public, history['workflow_runs'], now, slot=slot)
         save(report, filename)
+        for warning in report.get('warnings', []):
+            print('::warning title=RSS schedule timing::' + warning)
         if report.get('errors'):
             print('::error title=RSS schedule/data alert::' + ', '.join(report['errors']))
             raise SystemExit('RSS schedule/data alert; see rss-watchdog report. No source reads were triggered by the watchdog.')
     except (OSError, ValueError, KeyError, TypeError, HTTPError) as error:
         # Fail visibly with an artifact even when the API/public site cannot be checked.
-        save({'checkedAt': now.isoformat(), 'errors': ['check-unavailable'], 'detail': str(error)}, filename)
+        save({'checkedAt': now.isoformat(), 'status': 'error', 'errors': ['check-unavailable'], 'warnings': [], 'detail': str(error)}, filename)
         raise SystemExit('RSS schedule check unavailable; see report.') from error
 
 

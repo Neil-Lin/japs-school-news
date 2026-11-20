@@ -39,7 +39,7 @@ class WorkflowContractTests(unittest.TestCase):
 
     def test_rss_workflow_only_updates_data_and_keeps_taiwan_schedule(self):
         rss = self.workflows['update-feed.yml']
-        self.assertEqual({item['cron'] for item in rss['on']['schedule']}, {'30 2 * * *', '30 8 * * *', '40 3 * * *', '40 9 * * *'})
+        self.assertEqual({item['cron'] for item in rss['on']['schedule']}, {'30 10 * * *', '30 16 * * *', '40 11 * * *', '40 17 * * *'})
         self.assertNotIn('push', rss['on'])
         self.assertEqual(rss['permissions'], {'contents': 'write'})
         self.assertEqual(rss['jobs']['update']['if'], "github.ref == 'refs/heads/main'")
@@ -108,7 +108,7 @@ class WorkflowContractTests(unittest.TestCase):
     def test_maintenance_is_readonly_and_deployment_verifies_the_exact_build(self):
         maintenance = self.workflows['maintenance.yml']
         self.assertEqual(maintenance['permissions'], {'contents': 'read'})
-        self.assertEqual({s['cron'] for s in maintenance['on']['schedule']}, {'15 0 * * *', '45 0 * * 1'})
+        self.assertEqual({s['cron'] for s in maintenance['on']['schedule']}, {'15 8 * * *', '45 8 * * 1'})
         for job in maintenance['jobs'].values():
             commands = '\n'.join(s.get('run', '') for s in job['steps'])
             self.assertNotIn('git push', commands)
@@ -122,7 +122,7 @@ class WorkflowContractTests(unittest.TestCase):
     def test_watchdog_checks_twice_daily_with_readonly_permissions_and_no_recovery_loop(self):
         watcher = self.workflows['rss-watchdog.yml']
         self.assertEqual(set(watcher['on']), {'schedule', 'workflow_dispatch'})
-        self.assertEqual({s['cron'] for s in watcher['on']['schedule']}, {'13 4 * * *', '13 10 * * *'})
+        self.assertEqual({s['cron'] for s in watcher['on']['schedule']}, {'13 12 * * *', '13 18 * * *'})
         self.assertEqual(watcher['permissions'], {'contents': 'read'})
         job = watcher['jobs']['check']
         self.assertEqual(job['if'], "github.ref == 'refs/heads/main'")
@@ -135,6 +135,20 @@ class WorkflowContractTests(unittest.TestCase):
         self.assertNotIn('git push', commands)
         self.assertNotIn('continue-on-error', next(step for step in job['steps'] if step.get('run') == 'python scripts/rss_schedule.py --watchdog'))
         self.assertEqual(job['steps'][-1]['if'], 'always()')
+
+    def test_all_schedules_declare_taipei_timezone_and_match_the_guard_policy(self):
+        import sys
+        sys.path.insert(0, str(ROOT / 'scripts'))
+        from rss_schedule import CURRENT_SCHEDULES, WATCHDOGS
+        for workflow in self.workflows.values():
+            for schedule in workflow['on'].get('schedule', []):
+                self.assertEqual(schedule['timezone'], 'Asia/Taipei')
+        for schedule in self.workflows['update-feed.yml']['on']['schedule']:
+            minute, hour, *_ = schedule['cron'].split()
+            self.assertEqual(CURRENT_SCHEDULES[schedule['cron']][0], (int(hour), int(minute)))
+        for schedule in self.workflows['rss-watchdog.yml']['on']['schedule']:
+            minute, hour, *_ = schedule['cron'].split()
+            self.assertEqual(WATCHDOGS[schedule['cron']][0], (int(hour), int(minute)))
 
 
 if __name__ == '__main__':
