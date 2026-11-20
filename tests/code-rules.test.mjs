@@ -81,6 +81,16 @@ function timingPatches(text) {
 frozenRule('No new zero-delay timers to patch timing', timingPatches, {'dialog-controller.mjs': 2},
   '禁止用 setTimeout(…, 0)、requestAnimationFrame、queueMicrotask 補時序：會掩蓋真正的原因且在不同瀏覽器表現不一。請改為監聽對應事件（如 scrollend、transitionend、popstate）或修正呼叫順序；確實無法避免時列入例外清單由人決定。');
 
+// Returns the line numbers of an AbortController followed within five lines by a setTimeout: a hand-made request deadline.
+function handMadeDeadlines(text) {
+  const lines = text.split('\n');
+  return lines.flatMap((line, index) => /\bnew AbortController\b/.test(line)
+    && lines.slice(index + 1, index + 6).some(next => /\bsetTimeout\s*\(/.test(next)) ? [index + 1] : []);
+}
+
+frozenRule('Request deadlines come from withDeadline in format.mjs', handMadeDeadlines, {'format.mjs': 1, 'templates/sw.js': 1},
+  '禁止自行用 AbortController + setTimeout 做請求逾時：容易漏 clearTimeout 或忘記串接外部 signal。請改用 format.mjs 的 withDeadline({timeoutMs, signal}, signal => …)。（templates/sw.js 無法 import 模組，列為凍結例外）');
+
 const IGNORE_MARKER = new RegExp([
   ['eslint', 'disable'].join('-'), '@ts-' + '(?:ignore|nocheck|expect-error)', 'no' + 'qa\\b', 'type:\\s*' + 'ignore',
   'pragma:\\s*no ' + 'cover', ['biome', 'ignore'].join('-'), ['prettier', 'ignore'].join('-'), 'pylint:\\s*' + 'disable',

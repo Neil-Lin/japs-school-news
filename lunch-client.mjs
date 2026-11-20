@@ -1,4 +1,5 @@
 // Lunch data is loaded independently of announcements, only when requested.
+import {withDeadline} from './format.mjs';
 const OFFICIAL = 'https://fatraceschool.k12ea.gov.tw';
 const complete = new Set(['available', 'no-record']);
 const attempts = new Set([...complete, 'partial', 'error']);
@@ -126,12 +127,8 @@ export async function loadLunch({baseURL, schoolSlug: slug, schoolId, fetcher = 
   }
   async function request(path) {
     checkCancelled();
-    const controller = new AbortController();
-    const cancel = () => controller.abort();
-    signal?.addEventListener('abort', cancel, {once: true});
-    const timer = setTimeout(cancel, timeoutMs);
-    try {
-      const response = await fetcher(new URL(path, root).href, {cache: 'no-cache', signal: controller.signal});
+    return withDeadline({timeoutMs, signal}, async deadline => {
+      const response = await fetcher(new URL(path, root).href, {cache: 'no-cache', signal: deadline});
       if (!response.ok) {
         const error = new Error('午餐資料請求失敗');
         error.status = response.status;
@@ -140,10 +137,7 @@ export async function loadLunch({baseURL, schoolSlug: slug, schoolId, fetcher = 
       const raw = await response.text();
       require(new TextEncoder().encode(raw).length <= 2_000_000, '午餐資料超出大小限制');
       return raw;
-    } finally {
-      clearTimeout(timer);
-      signal?.removeEventListener('abort', cancel);
-    }
+    });
   }
   let failure;
   for (let attempt = 0; attempt < 2; attempt++) {

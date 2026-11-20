@@ -1,5 +1,5 @@
 import {loadLunch, verifyLunch, lunchHash, lunchSourceURL, lunchCacheName} from './lunch-client.mjs';
-import {taipeiDay} from './format.mjs';
+import {taipeiDay, withDeadline} from './format.mjs';
 
 const ROOT = 'https://fatraceschool.k12ea.gov.tw';
 const recent = new Map();
@@ -29,29 +29,24 @@ export async function fetchOfficialLunch({schoolSlug, schoolId, schoolName, fetc
   assert(typeof schoolSlug === 'string' && /^[a-z][a-z0-9-]*$/.test(schoolSlug)
     && typeof schoolId === 'string' && /^[0-9]+$/.test(schoolId) && typeof schoolName === 'string' && schoolName.trim());
   const day = taipeiDay(now());
-  const controller = new AbortController();
-  const cancel = () => controller.abort();
-  if (signal?.aborted) cancel();
-  signal?.addEventListener('abort', cancel, {once: true});
-  const timer = setTimeout(cancel, timeoutMs);
-  let requests = 0;
-  async function get(path, params, limit) {
-    if (controller.signal.aborted) throw new DOMException('已取消', 'AbortError');
-    assert(++requests <= 150);
-    const response = await fetcher(ROOT + path + '?' + new URLSearchParams(params), {
-      cache: 'no-cache', credentials: 'omit', referrerPolicy: 'no-referrer', signal: controller.signal,
-      headers: {Accept: 'application/json'},
-    });
-    if (!response.ok) throw new Error('官方午餐查詢暫時無法取得（' + response.status + '）');
-    if (response.url) assert(new URL(response.url).origin === ROOT && new URL(response.url).pathname === path);
-    const raw = await response.text();
-    assert(new TextEncoder().encode(raw).length <= 2_000_000);
-    const value = JSON.parse(raw);
-    assert(value?.result === 1 && Array.isArray(value.data) && value.data.length <= limit
-      && value.data.every(row => row && typeof row === 'object' && !Array.isArray(row)));
-    return value.data;
-  }
-  try {
+  return withDeadline({timeoutMs, signal}, async deadline => {
+    let requests = 0;
+    async function get(path, params, limit) {
+      if (deadline.aborted) throw new DOMException('已取消', 'AbortError');
+      assert(++requests <= 150);
+      const response = await fetcher(ROOT + path + '?' + new URLSearchParams(params), {
+        cache: 'no-cache', credentials: 'omit', referrerPolicy: 'no-referrer', signal: deadline,
+        headers: {Accept: 'application/json'},
+      });
+      if (!response.ok) throw new Error('官方午餐查詢暫時無法取得（' + response.status + '）');
+      if (response.url) assert(new URL(response.url).origin === ROOT && new URL(response.url).pathname === path);
+      const raw = await response.text();
+      assert(new TextEncoder().encode(raw).length <= 2_000_000);
+      const value = JSON.parse(raw);
+      assert(value?.result === 1 && Array.isArray(value.data) && value.data.length <= limit
+        && value.data.every(row => row && typeof row === 'object' && !Array.isArray(row)));
+      return value.data;
+    }
     const meals = await get('/offered/meal', {KitchenId: 'all', MenuType: '1', period: day, SchoolId: schoolId}, 20);
     for (const meal of meals) assert(id(meal.SchoolId) === schoolId && meal.SchoolName === schoolName
       && meal.MenuDate?.replaceAll('/', '-') === day && meal.MenuType === 1);
@@ -101,13 +96,9 @@ export async function fetchOfficialLunch({schoolSlug, schoolId, schoolName, fetc
       path: schoolSlug + '.json', sha256: await lunchHash(raw), mealDate: day, fetchedAt, status}};
     const manifest = {schemaVersion: 1, requestedDate: day, checkedAt: fetchedAt, schools: {[schoolSlug]: entry}};
     await verifyLunch(manifest, raw, schoolSlug, schoolId);
-    if (controller.signal.aborted) throw new DOMException('已取消', 'AbortError');
+    if (deadline.aborted) throw new DOMException('已取消', 'AbortError');
     return {manifest, raw};
-  } finally {
-    controller.abort();
-    clearTimeout(timer);
-    signal?.removeEventListener('abort', cancel);
-  }
+  });
 }
 
 export async function loadCurrentLunch(options = {}) {

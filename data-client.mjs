@@ -1,3 +1,4 @@
+import {withDeadline} from './format.mjs';
 import {prepareSchoolData, hydrateSchoolData, validateSchoolData, schoolName} from './school-data.mjs';
 
 // Versioned, coherent snapshots: metadata can change without redownloading article bodies.
@@ -7,6 +8,14 @@ export function canonicalJSON(value) {
     return '{' + Object.keys(value).sort().map(key => JSON.stringify(key) + ':' + canonicalJSON(value[key])).join(',') + '}';
   }
   return JSON.stringify(value);
+}
+
+async function requestJSON(fetcher, url, timeoutMs) {
+  return withDeadline({timeoutMs}, async signal => {
+    const response = await fetcher(url, {cache: 'no-cache', signal});
+    if (!response.ok) throw new Error('資料請求失敗（' + response.status + '）');
+    return response.json();
+  });
 }
 
 export async function digest(value) {
@@ -67,17 +76,7 @@ async function loadArchiveSnapshot({
     // Storage may be denied, full, or contain a corrupt entry. Online reads still work.
   }
 
-  async function fetchJSON(path) {
-    const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), timeoutMs);
-    try {
-      const response = await fetcher(new URL(path, root).href, {cache: 'no-cache', signal: controller.signal});
-      if (!response.ok) throw new Error('資料請求失敗（' + response.status + '）');
-      return await response.json();
-    } finally {
-      clearTimeout(timer);
-    }
-  }
+  const fetchJSON = path => requestJSON(fetcher, new URL(path, root).href, timeoutMs);
 
   let failure;
   // Retry once for a manifest/body race during deployment, never retry indefinitely.
@@ -216,17 +215,7 @@ async function loadSchoolSnapshot({baseURL, schoolSlug: slug, fetcher = fetch, s
     return true;
   }
 
-  async function fetchJSON(path) {
-    const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), timeoutMs);
-    try {
-      const response = await fetcher(new URL(path, root).href, {cache: 'no-cache', signal: controller.signal});
-      if (!response.ok) throw new Error('資料請求失敗（' + response.status + '）');
-      return await response.json();
-    } finally {
-      clearTimeout(timer);
-    }
-  }
+  const fetchJSON = path => requestJSON(fetcher, new URL(path, root).href, timeoutMs);
 
   let failure;
   let latestConfig;
