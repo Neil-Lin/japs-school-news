@@ -2,8 +2,10 @@ name: RSS schedule watchdog
 "on":
   schedule:
     # Taiwan 12:13/18:13, after primary + fallback + publication grace.
-    - cron: '13 4 * * *'
-    - cron: '13 10 * * *'
+    - cron: '13 12 * * *'
+      timezone: Asia/Taipei
+    - cron: '13 18 * * *'
+      timezone: Asia/Taipei
   workflow_dispatch:
 permissions:
   contents: read
