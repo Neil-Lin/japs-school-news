@@ -25,7 +25,7 @@ def valid_url(value):
 def parsed_date(value):
     if not isinstance(value, str) or not value:
         raise ValueError("缺少日期")
-    date = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    date = datetime.fromisoformat(value)
     if date.tzinfo is None or date.utcoffset() is None:
         raise ValueError("日期缺少時區")
     return date

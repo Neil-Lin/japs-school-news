@@ -45,7 +45,7 @@ def timestamp(value, label, required=True):
         return None
     value = text(value, label, required=True)
     try:
-        parsed = datetime.fromisoformat(value.replace('Z', '+00:00'))
+        parsed = datetime.fromisoformat(value)
         require(parsed.tzinfo is not None and parsed.utcoffset() is not None,
                 label + ' needs a timezone')
     except ValueError as error:
@@ -220,8 +220,8 @@ def validate_bundle(schools, manifest, files):
         require(ref == snapshot_reference(slug, snapshot, raw), 'snapshot reference mismatch')
         require(last_success == snapshot['fetchedAt'], 'lastSuccessAt mismatch')
         require(snapshot['mealDate'] <= requested, 'snapshot is newer than requested date')
-        require(datetime.fromisoformat(last_success.replace('Z', '+00:00')) <=
-                datetime.fromisoformat(checked_at.replace('Z', '+00:00')), 'update time precedes snapshot')
+        require(datetime.fromisoformat(last_success) <=
+                datetime.fromisoformat(checked_at), 'update time precedes snapshot')
         if entry['status'] in COMPLETE_STATUSES:
             require(snapshot['status'] == entry['status'] and snapshot['mealDate'] == requested
                     and snapshot['fetchedAt'] == checked_at, 'successful attempt/snapshot mismatch')

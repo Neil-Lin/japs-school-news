@@ -202,7 +202,7 @@ def prepare_update(schools, previous, old_files, client, day, now):
     if previous:
         validate_bundle(schools, previous, old_files)
         require(day >= previous['requestedDate'], 'refusing to replace newer lunch data with an older query')
-        require(now >= datetime.fromisoformat(previous['checkedAt'].replace('Z', '+00:00')),
+        require(now >= datetime.fromisoformat(previous['checkedAt']),
                 'update time precedes previous attempt')
     manifest = {'schemaVersion': 1, 'requestedDate': day, 'checkedAt': checked_at, 'schools': {}}
     files = dict(old_files)

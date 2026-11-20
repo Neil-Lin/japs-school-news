@@ -40,7 +40,7 @@ PUBLISH_GRACE = timedelta(minutes=20)
 def timestamp(value):
     if not isinstance(value, str):
         raise ValueError('Missing timestamp')
-    result = datetime.fromisoformat(value.replace('Z', '+00:00'))
+    result = datetime.fromisoformat(value)
     if result.tzinfo is None:
         raise ValueError('Timestamp must contain a timezone')
     return result

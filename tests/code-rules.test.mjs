@@ -102,6 +102,10 @@ frozenRule('Published files are replaced through atomic_files.py', linesMatching
   '禁止在 scripts/atomic_files.py 以外自行用 os.replace 逐檔替換與回復：發布資料的關鍵邏輯分散多份，容易一份修了一份沒修。請改用 from atomic_files import replace_files。（build_site.py 是整個目錄替換，列為凍結例外）',
   pythonFiles);
 
+frozenRule('Python parses ISO "Z" timestamps natively', linesMatching(/\.replace\(\s*['"]Z['"]\s*,\s*['"]\+00:00['"]\s*\)/), {},
+  '禁止在 fromisoformat 前手動把 Z 換成 +00:00：Python 3.11 起已原生支援 Z，這段繞路寫法多餘且會被照抄。請直接寫 datetime.fromisoformat(value)。',
+  pythonFiles);
+
 const IGNORE_MARKER = new RegExp([
   ['eslint', 'disable'].join('-'), '@ts-' + '(?:ignore|nocheck|expect-error)', 'no' + 'qa\\b', 'type:\\s*' + 'ignore',
   'pragma:\\s*no ' + 'cover', ['biome', 'ignore'].join('-'), ['prettier', 'ignore'].join('-'), 'pylint:\\s*' + 'disable',
