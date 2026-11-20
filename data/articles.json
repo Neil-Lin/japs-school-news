@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-19T10:34:00.736225+00:00",
-  "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+  "updatedAt": "2026-11-20T10:14:47.279848+00:00",
+  "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
   "errors": [],
   "sourceStatus": [
     {
@@ -10,8 +10,8 @@
       "schools": [
         "博愛國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 26,
       "status": "ok",
       "itemCount": 26,
@@ -25,8 +25,8 @@
       "schools": [
         "博愛國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -40,8 +40,8 @@
       "schools": [
         "博愛國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -55,8 +55,8 @@
       "schools": [
         "博愛國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -70,12 +70,12 @@
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
-      "previousItemCount": 57,
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
+      "previousItemCount": 58,
       "status": "ok",
-      "itemCount": 58,
-      "lastSuccessfulItemCount": 58,
+      "itemCount": 59,
+      "lastSuccessfulItemCount": 59,
       "warnings": [],
       "consecutiveFailures": 0
     },
@@ -85,12 +85,12 @@
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 22,
       "status": "ok",
-      "itemCount": 22,
-      "lastSuccessfulItemCount": 22,
+      "itemCount": 23,
+      "lastSuccessfulItemCount": 23,
       "warnings": [],
       "consecutiveFailures": 0
     },
@@ -100,9 +100,9 @@
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
-      "previousItemCount": 28,
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
+      "previousItemCount": 29,
       "status": "ok",
       "itemCount": 29,
       "lastSuccessfulItemCount": 29,
@@ -115,8 +115,8 @@
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 4,
       "status": "ok",
       "itemCount": 4,
@@ -130,8 +130,8 @@
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 48,
       "status": "ok",
       "itemCount": 48,
@@ -145,8 +145,8 @@
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 8,
       "status": "ok",
       "itemCount": 8,
@@ -160,8 +160,8 @@
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 33,
       "status": "warning",
       "itemCount": 33,
@@ -177,9 +177,9 @@
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
-      "previousItemCount": 78,
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
+      "previousItemCount": 79,
       "status": "warning",
       "itemCount": 79,
       "lastSuccessfulItemCount": 79,
@@ -194,8 +194,8 @@
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 100,
       "status": "warning",
       "itemCount": 100,
@@ -211,8 +211,8 @@
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 6,
       "status": "ok",
       "itemCount": 6,
@@ -226,8 +226,8 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -241,9 +241,9 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
-      "previousItemCount": 12,
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
+      "previousItemCount": 13,
       "status": "ok",
       "itemCount": 13,
       "lastSuccessfulItemCount": 13,
@@ -256,8 +256,8 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 1,
       "status": "ok",
       "itemCount": 1,
@@ -271,8 +271,8 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -286,8 +286,8 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 21,
       "status": "ok",
       "itemCount": 21,
@@ -301,8 +301,8 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -316,8 +316,8 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 7,
       "status": "ok",
       "itemCount": 7,
@@ -331,12 +331,12 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 85,
       "status": "ok",
-      "itemCount": 85,
-      "lastSuccessfulItemCount": 85,
+      "itemCount": 84,
+      "lastSuccessfulItemCount": 84,
       "warnings": [],
       "consecutiveFailures": 0
     },
@@ -346,8 +346,8 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -361,8 +361,8 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -376,9 +376,9 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
-      "previousItemCount": 44,
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
+      "previousItemCount": 43,
       "status": "ok",
       "itemCount": 43,
       "lastSuccessfulItemCount": 43,
@@ -391,8 +391,8 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -406,8 +406,8 @@
       "schools": [
         "建安國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 84,
       "status": "ok",
       "itemCount": 84,
@@ -421,8 +421,8 @@
       "schools": [
         "建安國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 49,
       "status": "ok",
       "itemCount": 49,
@@ -436,8 +436,8 @@
       "schools": [
         "建安國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -451,12 +451,12 @@
       "schools": [
         "建安國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 77,
       "status": "ok",
-      "itemCount": 77,
-      "lastSuccessfulItemCount": 77,
+      "itemCount": 76,
+      "lastSuccessfulItemCount": 76,
       "warnings": [],
       "consecutiveFailures": 0
     },
@@ -466,8 +466,8 @@
       "schools": [
         "建安國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -481,12 +481,12 @@
       "schools": [
         "建安國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 100,
       "status": "ok",
-      "itemCount": 100,
-      "lastSuccessfulItemCount": 100,
+      "itemCount": 99,
+      "lastSuccessfulItemCount": 99,
       "warnings": [],
       "consecutiveFailures": 0
     },
@@ -496,8 +496,8 @@
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 17,
       "status": "ok",
       "itemCount": 17,
@@ -511,8 +511,8 @@
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -526,8 +526,8 @@
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -541,8 +541,8 @@
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -556,8 +556,8 @@
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -571,8 +571,8 @@
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 16,
       "status": "ok",
       "itemCount": 16,
@@ -586,8 +586,8 @@
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 57,
       "status": "ok",
       "itemCount": 57,
@@ -601,8 +601,8 @@
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 17,
       "status": "ok",
       "itemCount": 17,
@@ -616,8 +616,8 @@
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 37,
       "status": "ok",
       "itemCount": 37,
@@ -631,8 +631,8 @@
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 54,
       "status": "ok",
       "itemCount": 54,
@@ -646,8 +646,8 @@
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -665,8 +665,8 @@
         "博愛國小",
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-19T10:34:00.736225+00:00",
-      "lastSuccessfulAt": "2026-11-19T10:34:00.736225+00:00",
+      "lastAttemptAt": "2026-11-20T10:14:47.279848+00:00",
+      "lastSuccessfulAt": "2026-11-20T10:14:47.279848+00:00",
       "previousItemCount": 50,
       "status": "ok",
       "itemCount": 50,
@@ -676,6 +676,406 @@
     }
   ],
   "articles": [
+    {
+      "id": "jianan-honors:6b0008b89211ae97adf590c3",
+      "sourceId": "jianan-honors",
+      "guid": "6b0008b89211ae97adf590c3",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "榮譽榜",
+      "title": "狂賀~本校參加115學年度全國學生美術比賽榮獲佳績",
+      "published": "2026-11-20T08:42:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6b0008b89211ae97adf590c3?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=AQoMNBw7626&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [
+        "115學年度全國學生美術比賽得獎名單1151120.pdf"
+      ],
+      "summary": "恭喜得獎學生， 感謝辛苦的指導老師!"
+    },
+    {
+      "id": "guangfu-school-announcements:6b0002c5028a34932d646abc",
+      "sourceId": "guangfu-school-announcements",
+      "guid": "6b0002c5028a34932d646abc",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "學校公告",
+      "title": "臺北市115學年度教育盃中小學圍棋錦標賽名單及活動流程",
+      "published": "2026-11-20T08:19:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6b0002c5028a34932d646abc?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=UFKVG9l8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "參賽名單_全部組別.pdf",
+        "臺北市115學年度教育盃圍棋錦標賽活動流程_1126_個人賽.pdf",
+        "臺北市115學年度教育盃圍棋錦標賽活動流程_1124_國小組團體賽.pdf",
+        "臺北市115學年度教育盃圍棋錦標賽活動流程_1125_中學組團體賽.pdf"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "dunhua-other:6b00030a7d0cd393a812fdbb",
+      "sourceId": "dunhua-other",
+      "guid": "6b00030a7d0cd393a812fdbb",
+      "schools": [
+        "敦化國小"
+      ],
+      "source": "其他公告",
+      "title": "轉知濱江實驗國民中學「116學年度新生入學招生簡章」",
+      "published": "2026-11-20T08:18:00+00:00",
+      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/6b00030a7d0cd393a812fdbb?vector=private&static=false",
+      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=H0q9lCm0232&vector=private&static=false",
+      "siteUrl": "https://www.thps.tp.edu.tw",
+      "attachments": [
+        "29949508_1156007957_ATTCH1.pdf",
+        "29949508_1156007957_ATTCH2.png"
+      ],
+      "summary": "一、依濱江實驗國民中學116學年度新生入學招生簡章，為使家長了解濱江實驗國民中學教育理念、課程及教學規劃，濱江實驗國民中學將舉辦特定教育理念說明 會，請有意願選擇就讀濱江實驗國民中學之學生及家長踴躍參加。 二、特定教育理念說明會將於115年12月13日(日)上午 8：30 ~ 11：30在濱江實中舉辦。（說明會需報名，報名網址 https://forms.gle/8iSTtPod4pCMQasn6） 三、相關資料可至濱江實驗國民中學校網「新生專區」或「行政公告」下載參閱附件。(濱江實驗國民中學網址：https://www.bjjh.tp.edu.tw/ ）"
+    },
+    {
+      "id": "shared-education-department:https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=2608640261E7F37E",
+      "sourceId": "shared-education-department",
+      "guid": "",
+      "schools": [
+        "仁愛國小",
+        "建安國小",
+        "敦化國小",
+        "博愛國小",
+        "光復國小"
+      ],
+      "source": "教育局消息",
+      "title": "【轉知】財團法人海峽交流基金會「2027海基會青年挑戰營」相關資訊",
+      "published": "2026-11-20T08:15:00+00:00",
+      "url": "https://www.doe.gov.taipei/News_Content.aspx?n=9AA0CC873BD001A2&s=2608640261E7F37E",
+      "sourceUrl": "https://www.doe.gov.taipei/OpenData.aspx?SN=C9413224249DB760",
+      "siteUrl": "https://www.doe.gov.taipei",
+      "attachments": [],
+      "summary": "轉知財團法人海峽交流基金會辦理「2027海基會青年挑戰營」，招收全國高中（職）在學學生40名，全程免費，採甄選方式錄取；一律採線上報名，報名期限至115年12月4日止，報名網址： https://forms.gle/AwmNor6VMV4tXK9V6；歡迎高中（職）學生踴躍報名參加，相關資訊詳如附件。 基金會原函.pdf 招生簡章.pdf"
+    },
+    {
+      "id": "boai-honors:6affe9110308d98ff5eaa641",
+      "sourceId": "boai-honors",
+      "guid": "6affe9110308d98ff5eaa641",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "榮譽榜",
+      "title": "115年士中盃羽球邀請賽",
+      "published": "2026-11-20T06:29:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6affe9110308d98ff5eaa641?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=DdqT8yI3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [],
+      "summary": "恭喜 610 張o睿 獲得 六年級女子單打 第三名"
+    },
+    {
+      "id": "guangfu-activities:6affe8914a37c18e503cebf0",
+      "sourceId": "guangfu-activities",
+      "guid": "6affe8914a37c18e503cebf0",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "活動資訊",
+      "title": "轉知：2027年度舉辦TOEIC測驗之公開測驗日期公告資訊",
+      "published": "2026-11-20T06:25:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6affe8914a37c18e503cebf0?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=QWbvWuz8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "TOEIC口說與寫作測驗2027年測驗日期.pdf",
+        "TOEIC聽力與閱讀測驗2027年測驗日期.pdf",
+        "1151117中欣股份有限公司函.pdf"
+      ],
+      "summary": "依據忠欣股份有限公司115年11月17日忠教115推字第0000000493號函辦理，並檢附該公司原函（含附件）影本1份。"
+    },
+    {
+      "id": "guangfu-external-contests:6affe47abf9efc8ef3d724df",
+      "sourceId": "guangfu-external-contests",
+      "guid": "6affe47abf9efc8ef3d724df",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "校外競賽",
+      "title": "「第五屆永慶誠實徵文活動」",
+      "published": "2026-11-20T06:04:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6affe47abf9efc8ef3d724df?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=jOHZo998827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "一、依據永慶房屋第五屆品德教育徵文活動計畫辦理。 二、旨案乃為透過徵文活動，培養學生對於生活的觀察力，並 從寫作中探索自我價值與思潮，讓品格教育的觀念向下扎 根，以「埋下誠實的種子」為主題，希望學生從將品格素 養融入文字的過程中，亦將優良德行落實於日常生活、徵 文活動內容摘要如下： (一)參加對象：本市國民小學3至6年級、國中7至9年級學 生。 (二)分組及題目： １、國小中年級組（ 3、4年級）：我要和誠實做朋友。 ２、國小高年級組（ 5、6年級）：誠實教我的一堂課。 ３、國中組（7、8、9年級）：誠實是生活裡的光。 (三)執行期程： １、區賽： (１)收件：116年1月4日（星期一）起至116年4月9日 （星期五）。 (２)評選：116年4月24日（星期六）起至116年5月2 日 （星期日）。 (３)公布："
+    },
+    {
+      "id": "guangfu-activities:6affd719f85f0e8adf75149c",
+      "sourceId": "guangfu-activities",
+      "guid": "6affd719f85f0e8adf75149c",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "活動資訊",
+      "title": "臺北市立天文科學教育館舉辦「115年新住民親子活動」，歡迎設籍臺北市之新住民學生家庭報名參加",
+      "published": "2026-11-20T05:11:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6affd719f85f0e8adf75149c?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=QWbvWuz8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "天文科學教育館-115新住民親子活動.pdf"
+      ],
+      "summary": "一、活動日期、時間為12月19日上午8時50分至12時00分止。 二、活動採網路報名，12月2日上午9時起開放於本館網站報名登錄，一次限報4個名額，其中至少須有一位家長，學童須就讀小一以上，家庭成員中須有一位為設籍臺北市之新住民朋友，活動招收60個名額，額滿為止。 三、身分驗證符合資格者，門票費用全免，全程參加之公教人員，可認證研習時數2小時。 四、詳如活動簡章，或來電02-28314551分機204洽詢。"
+    },
+    {
+      "id": "guangfu-teacher-activities:6affcbdba877a8884cdfed30",
+      "sourceId": "guangfu-teacher-activities",
+      "guid": "6affcbdba877a8884cdfed30",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "教師研習及活動",
+      "title": "116年度「兒童課 後照顧服務人員180小時職前訓練課程」",
+      "published": "2026-11-20T04:25:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6affcbdba877a8884cdfed30?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=GfVDvAq0432&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "一、依據兒童課後照顧服務班與中心設立及管理辦法第23條及 教育部訂定之兒童課後照顧服務人員職前及在職訓練課程 參考方案辦理。 二、旨揭訓練之報名及課程資訊如下： (一)上課期間：自116年3月6日至116年6月27日止。 (二)報名期間：即日起至116年2月15日止。 (三)上課地點：天主教輔仁大學（地址：新北市新莊區中正 路510號）。 (四)參訓資格：具高中職（含）以上學歷，餘詳請參見簡 章。 (五)費用：新臺幣（以下同）1萬3,500元整（116年1月20日 前完成報名繳費，享早鳥優惠1萬1,1000元整）。 三、如有課程及報名相關問題，請逕洽該法人張專員，聯絡電 話：03-422-8229轉221。 四、旨揭訓練計畫報名簡章及報名網址等資訊亦公告於全國兒 童課照顧服務中心資訊網（https://afte"
+    },
+    {
+      "id": "guangfu-teacher-activities:6affc5efb5184d873bc3ba42",
+      "sourceId": "guangfu-teacher-activities",
+      "guid": "6affc5efb5184d873bc3ba42",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "教師研習及活動",
+      "title": "全國代理暨代課教師產業工會線上研習資訊",
+      "published": "2026-11-20T03:58:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6affc5efb5184d873bc3ba42?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=GfVDvAq0432&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "一、第1場： (一)時間：115年11月28日星期六19:30-20:30。 (二)主題：教師也該學會的資產風險管控。 (三)講師：陳民峰老師。 (四)依「全國教師在職進修資訊網研習活動使用管理規 定」，本場次研習活動之設計內容性質未符合教師專業 進修課程範疇，故無法核發研習時數。 二、第2場： (一)時間：115年12月19日星期六19:30-20:30。 (二)主題：離開是為了回來。 (三)講師：梁芳瑜老師。 三、第3場： (一)時間：115年12月26日星期六19:30-20:30。 (二)主題：教師不可不知的法律常識 (三)講師：孫靖婷老師。 四、第4場： (一)時間：116年1月16日星期六19:30-20:30。 (二)主題：我的代理年資有何用？關於年資採計的大小事。 (三)講師：三杯人事主任。 五"
+    },
+    {
+      "id": "guangfu-school-announcements:6affb94002e4ba839bf22090",
+      "sourceId": "guangfu-school-announcements",
+      "guid": "6affb94002e4ba839bf22090",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "學校公告",
+      "title": "轉知：體育局訂於115年12月19日及20日辦理「2026臺北 馬拉松」系列活動",
+      "published": "2026-11-20T03:06:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6affb94002e4ba839bf22090?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=UFKVG9l8827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [],
+      "summary": "活動由本府、中華民國田徑協會及中華民國路跑協會 共同主辦，於115年（以下同）12月20日（星期日）上午6 時30分假本府市民廣場起跑，終點於臺北田徑場，約2萬 8,000名跑者參賽，其中有5,175位國際選手來臺參賽；另 於正式賽前一天（12月19日，星期六）辦理歡樂早餐跑。 臺北馬拉松交管 12/19，4點半至8點10分仁愛 路； 12/20，2點半至9點半仁愛路、中山南北路，0點 至14點堤頂大道、環東高架東往西、麥帥一、二橋、 南京東路，3點50分至12點半塔悠路、河濱公園左岸， 詳情請上活動官網。 (一)活動網站交管宣導： https://www.taipeicitymarathon. com/traffic-ex.php 。 (二)交管宣傳單及宣導短片： https://reurl.cc/OQyRG"
+    },
+    {
+      "id": "renai-training:6affabc0d77091814a0c1bbd",
+      "sourceId": "renai-training",
+      "guid": "6affabc0d77091814a0c1bbd",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "[轉知]臺北市大同區大橋國民小學115學年度第1學期特殊教育知能研習",
+      "published": "2026-11-20T02:07:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6affabc0d77091814a0c1bbd?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=BLvblfR5996&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [],
+      "summary": "一、研習主題：《當情緒行為遇上性平》ASD與 ADHD 學童的情緒調節、人際界線與校園介入 二、研習時間：115年11月25日(星期三) 13:30～16:30 三、研習地點：大橋國小視聽教室 四、研習講座：楊子翎 心理師 五、報名方式：參加研習人員請於115年11月24日(星期二)前至臺北市教師在職研習網辦理線上報名。 六、參加研習教師請惠予公假出席，全程參與給予3小時研習時 數。 七、注意事項：無提供停車位，請多利用大眾運輸工具蒞 校，並配戴識別證；研習以酷課APP簽到，請先下載酷課APP並完成帳號設定以利簽到。"
+    },
+    {
+      "id": "renai-training:6affaabbf1e0b7816dbef273",
+      "sourceId": "renai-training",
+      "guid": "6affaabbf1e0b7816dbef273",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "[轉知]臺北市115 學年度高級中等以下學校臺灣手語教師暨教學支援工作人員培訓及認證實施計畫",
+      "published": "2026-11-20T02:01:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6affaabbf1e0b7816dbef273?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=BLvblfR5996&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "臺北市115 學年度高級中等以下學校臺灣手語教師暨教學支援工作人員培訓及認證實施計畫.pdf"
+      ],
+      "summary": "詳細計畫資訊請參閱附件。"
+    },
+    {
+      "id": "renai-external-contests:6affa91a20cc967b51c2e3d8",
+      "sourceId": "renai-external-contests",
+      "guid": "6affa91a20cc967b51c2e3d8",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "校外競賽",
+      "title": "[轉知]臺北市 115學年度國小階段「氣球排球錦標賽」實施計畫",
+      "published": "2026-11-20T01:56:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6affa91a20cc967b51c2e3d8?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=3OcrJ5P5996&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "臺北市 115學年度國小階段「氣球排球錦標賽」實施計畫.pdf"
+      ],
+      "summary": "一、比賽時間及地點： (一)比賽時間：116年1月19日（星期二）。 (二)比賽地點：臺北體育館（臺北市松山區南京東路四段10 號）。 二、參與學校、對象及資格： (一)參與學校：本市普通班及特殊需求學生。 (二)參賽組別：比賽採共融組方式辦理。 其他詳細資訊請參閱附件。"
+    },
+    {
+      "id": "dunhua-competitions:6affa8dbd324ec7eb6428947",
+      "sourceId": "dunhua-competitions",
+      "guid": "6affa8dbd324ec7eb6428947",
+      "schools": [
+        "敦化國小"
+      ],
+      "source": "競賽活動",
+      "title": "轉知國立政治大學辦理2026秋冬藝術計畫「癮」活動資 訊，請踴躍參與",
+      "published": "2026-11-20T01:52:00+00:00",
+      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/6affa8dbd324ec7eb6428947?vector=private&static=false",
+      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=Mu7ppdp0180&vector=private&static=false",
+      "siteUrl": "https://www.thps.tp.edu.tw",
+      "attachments": [
+        "3.jpg"
+      ],
+      "summary": "說明： 一、依據教育部國民及學前教育署115年9月17日臺教國署高字第1150090099號函辦理。 二、旨揭藝術計畫以「癮」為主題，轉型為主題式策展，結合 展覽、表演、電影及生態永續木雕計畫等多元藝術形式， 帶領觀眾反思當代生活議題。活動展期自115年9月23日 （星期三）至12月23日（星期三）止，舉辦地點位於國立 政治大學山上校區藝文中心。 三、本案活動除木雕創作工作坊需事先繳費報名外，展覽、表 演及電影系列皆為免費參與。 四、本活動各場次時間、地點及報名方式，請逕至該校活動官 網及活動報名網站查詢。 五、檢附活動電子海報1份。"
+    },
+    {
+      "id": "renai-training:6aff9f844f43f77ca903f0ff",
+      "sourceId": "renai-training",
+      "guid": "6aff9f844f43f77ca903f0ff",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "研習資訊",
+      "title": "臺北市115學年度「推動中小學數位學習精進方案」數位學習研習（Adobe Acrobat X創意工具-教學應用實戰）計畫",
+      "published": "2026-11-20T01:15:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6aff9f844f43f77ca903f0ff?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=BLvblfR5996&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [
+        "研習計畫.pdf"
+      ],
+      "summary": "一、依據教育部「推動中小學數位學習精進方案」實施計畫辦理。 二、研習活動摘要如下： (一)研習對象：臺北市立公立國小、國中、高中職教師。 (二)研習時間及内容：請參閱附件。 (三)報名方式：請至臺北市教師研習網報名，即日起至上課前截止。"
+    },
+    {
+      "id": "renai-general-news:6aff9e021d697b7e4806aac5",
+      "sourceId": "renai-general-news",
+      "guid": "6aff9e021d697b7e4806aac5",
+      "schools": [
+        "仁愛國小"
+      ],
+      "source": "一般消息",
+      "title": "國家表演藝術中心衛武營國家藝術文化中心於2026年11月12日至12月9日辦理「武營大圖鑑」PaGamO線上遊戲任務資訊",
+      "published": "2026-11-20T01:07:00+00:00",
+      "url": "https://www.japs.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/2X1SWCi0367/6aff9e021d697b7e4806aac5?vector=private&static=false",
+      "sourceUrl": "https://www.japs.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/2X1SWCi0367?f=normal&%240=ZItAos61369&vector=private&static=false",
+      "siteUrl": "https://www.japs.tp.edu.tw",
+      "attachments": [],
+      "summary": "一、衛武營國家藝術文化中心為南臺灣藝術發展基地，為培養大眾對表演藝術美學之感受力，建置【衛武營藝術學習網】教育網站，聚焦於「藝術、文化與科技跨域創作」，以數位科技製作多元影音資源，致力於發展可親、具啟發性的文化科技學習環境，以擴大藝文教育效益。 二、本場館與 PaGamO 線上遊戲平台合作推出「武營大圖鑑」藝術學習任務，對象涵蓋全國各國小（中、高年級）、國中及高中職師生，遊戲任務期程如下： (一)一起跳舞吧：2026年11月12日至11月25日。 (二)馬戲派對：2026年11月26日至12月9日。 三、相關資訊可至「衛武營藝術學習網」查詢（路徑：衛武營藝術學習網首頁→玩樂學習→玩劇場）（網址：https://npacwwy.tw/t19Tyyey）。"
+    },
+    {
+      "id": "dunhua-diverse-education:6aff9a9632e7777e200f1f50",
+      "sourceId": "dunhua-diverse-education",
+      "guid": "6aff9a9632e7777e200f1f50",
+      "schools": [
+        "敦化國小"
+      ],
+      "source": "多元教育",
+      "title": "轉知：本市116學年度身心障礙學生入學國民小學鑑定及安置工作計畫宣傳摺頁",
+      "published": "2026-11-20T00:45:00+00:00",
+      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/6aff9a9632e7777e200f1f50?vector=private&static=false",
+      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=SrB9eUf6894&vector=private&static=false",
+      "siteUrl": "https://www.thps.tp.edu.tw",
+      "attachments": [],
+      "summary": "★臺北市116學年度身心障礙學生入學國民小學鑑定及安置工作計畫 相關報名表件下載 https://reurl.cc/nxe99l 請依【檢核表】準備相關報名表件 如有任何問題歡迎聯繫輔導室特教組王老師 27414065#153"
+    },
+    {
+      "id": "dunhua-other:6aff9a9632e7777e200f1f50",
+      "sourceId": "dunhua-other",
+      "guid": "6aff9a9632e7777e200f1f50",
+      "schools": [
+        "敦化國小"
+      ],
+      "source": "其他公告",
+      "title": "轉知：本市116學年度身心障礙學生入學國民小學鑑定及安置工作計畫宣傳摺頁",
+      "published": "2026-11-20T00:45:00+00:00",
+      "url": "https://www.thps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/OBVPqIm7874/6aff9a9632e7777e200f1f50?vector=private&static=false",
+      "sourceUrl": "https://www.thps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/OBVPqIm7874?f=normal&%240=H0q9lCm0232&vector=private&static=false",
+      "siteUrl": "https://www.thps.tp.edu.tw",
+      "attachments": [],
+      "summary": "★臺北市116學年度身心障礙學生入學國民小學鑑定及安置工作計畫 相關報名表件下載 https://reurl.cc/nxe99l 請依【檢核表】準備相關報名表件 如有任何問題歡迎聯繫輔導室特教組王老師 27414065#153"
+    },
+    {
+      "id": "boai-latest:6aff96efec0d537cdcd77ab7",
+      "sourceId": "boai-latest",
+      "guid": "6aff96efec0d537cdcd77ab7",
+      "schools": [
+        "博愛國小"
+      ],
+      "source": "最新消息",
+      "title": "116年寒假天文營",
+      "published": "2026-11-20T00:34:00+00:00",
+      "url": "https://www.baps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/gg4ftPp2824/6aff96efec0d537cdcd77ab7?vector=private&static=false",
+      "sourceUrl": "https://www.baps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/gg4ftPp2824?f=normal&%240=zs8Oj4O3919&vector=private&static=false",
+      "siteUrl": "https://www.baps.tp.edu.tw",
+      "attachments": [
+        "活動簡章.pdf"
+      ],
+      "summary": "說明： 本活動內容有助於貴校學生進修天文知識，檢附「116年寒假天文營簡介」如附件。 意者請詳閱附件。"
+    },
+    {
+      "id": "jianan-administration:6aff923e56f2597c1172ae7e",
+      "sourceId": "jianan-administration",
+      "guid": "6aff923e56f2597c1172ae7e",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "行政公告",
+      "title": "115-2社團報名簡章",
+      "published": "2026-11-20T00:08:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6aff923e56f2597c1172ae7e?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=2rEsyLS9623&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [
+        "115-2活動簡章1118.pdf"
+      ],
+      "summary": "眾所期盼的下學期社團名簡章已經出爐囉! 先致上萬分抱歉，因為酷課雲的繳費系統需要有通知銀行收款的3-5個工作天。 因此，本次的社團提前至12/2(三)12:30報名，才能在開學前完成銷帳，造成困擾請見諒。 近期將會發下紙本，**這段期間若有修改請以【酷課雲報名系統】上為主。 另外，有遇到社團相關問題，可以先查看【社團Q&A】https://canva.link/8v1vhvv3utyc2ev 學務處 訓育組 *811 林組長"
+    },
+    {
+      "id": "jianan-administration:6aff8f7db9a4a37895e39c27",
+      "sourceId": "jianan-administration",
+      "guid": "6aff8f7db9a4a37895e39c27",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "行政公告",
+      "title": "116年寒假天文營",
+      "published": "2026-11-20T00:06:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/6aff8f7db9a4a37895e39c27?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=2rEsyLS9623&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [],
+      "summary": ""
+    },
+    {
+      "id": "jianan-activity-column:6aff939883ebbf7bc38734f2",
+      "sourceId": "jianan-activity-column",
+      "guid": "6aff939883ebbf7bc38734f2",
+      "schools": [
+        "建安國小"
+      ],
+      "source": "活動專欄",
+      "title": "115-2社團報名系統及簡章",
+      "published": "2026-11-19T16:00:00+00:00",
+      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5ae19a832dc6744a2d2daa67/hG68Os01764/6aff939883ebbf7bc38734f2?vector=private&static=false",
+      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5ae19a832dc6744a2d2daa67/hG68Os01764?f=normal&vector=private&static=false",
+      "siteUrl": "https://www.jnps.tp.edu.tw",
+      "attachments": [],
+      "summary": "https://cooc.tp.edu.tw/ 眾所期盼的下學期社團名簡章已經出爐囉! 先致上萬分抱歉，因為酷課雲的繳費系統需要有通知銀行收款的3-5個工作天。 因此，本次的社團提前至12/2(三)12:30報名，才能在開學前完成銷帳，造成困擾請見諒。 近期將會發下紙本，**這段期間若有修改請以【酷課雲報名系統】上為主。 另外，有遇到社團相關問題，可以先查看【社團Q&A】 https://canva.link/8v1vhvv3utyc2ev 學務處 訓育組 *811 林組長"
+    },
     {
       "id": "boai-training:6afece73f184bc4b2a7c88fa",
       "sourceId": "boai-training",
@@ -1580,6 +1980,24 @@
       "summary": "本校115學年度第7次代理教師甄選簡章請參附件。"
     },
     {
+      "id": "guangfu-external-contests:6affab6832e7777e20144467",
+      "sourceId": "guangfu-external-contests",
+      "guid": "6affab6832e7777e20144467",
+      "schools": [
+        "光復國小"
+      ],
+      "source": "校外競賽",
+      "title": "轉知：115學年度教育盃中小學法式滾球錦標賽競賽規程",
+      "published": "2026-11-18T02:06:00+00:00",
+      "url": "https://www.kfps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/QOp9Na24754/6affab6832e7777e20144467?vector=private&static=false",
+      "sourceUrl": "https://www.kfps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/QOp9Na24754?f=normal&%240=jOHZo998827&vector=private&static=false",
+      "siteUrl": "https://www.kfps.tp.edu.tw",
+      "attachments": [
+        "臺北市115學年度教育盃中小學法式滾球錦標賽競賽規程.pdf"
+      ],
+      "summary": "(一)比賽日期：116年1月5日（星期二）至1月9日（星期 六）。 (二)報名日期：即日起至115年11月25日（星期三）下午5時 截止，請參賽學校務必於報名期限內完成報名，報名截 止後一概不得增刪、修改報名資料。 (三)比賽地點：臺北市立永春高級中學法式滾球場（臺北市 信義區松山路654號）。"
+    },
+    {
       "id": "jianan-training:6afd0642c5c9f8b9f30761fd",
       "sourceId": "jianan-training",
       "guid": "6afd0642c5c9f8b9f30761fd",
@@ -2094,7 +2512,8 @@
         "5_1臺北市116學年度身心障礙學生入國小鑑定及安置實際居住切結書(資源班).pdf",
         "5_2臺北市116學年度身心障礙學生入國小鑑定及安置實際居住切結書(特教班).pdf",
         "6.臺北市116學年度身心障礙學生入國小鑑定及安置實際照顧者聲明書.pdf",
-        "7.臺北市身心障礙學生入學國民小學安置原則.pdf"
+        "7.臺北市身心障礙學生入學國民小學安置原則.pdf",
+        "116學年度身心障礙學生入學國民小學鑑定及安置工作計畫宣傳摺頁電子版.pdf"
       ],
       "summary": "一、旨揭計畫相關作業期程如下 (一)報名：115年11月30日至12月11日（週一至週五上午8時至下午4時，假日不受理報名）。 (二)教育評估：115年12月1日至116年1月4日。 (三)鑑定及安置會議：116年2月22日至3月26日。 (四)鑑定結果通知：116年4月7日前。 二、報名資格：設籍臺北市（非寄居身分並有居住事實），年滿六足歲之身心障礙學齡學童，民國110年9月1日前出生（含9月1日當天）。 三、相關報名資料可於本局特殊教育科網頁「鑑定與安置」項次下載（網址：https://www.doe.gov.taipei/） 四、詳細期程與相關表格，請見附件。"
     },
@@ -69683,24 +70102,6 @@
       "siteUrl": "https://www.kfps.tp.edu.tw",
       "attachments": [],
       "summary": "自113年起，北臺八縣市共同合作，結合四大超商，推動 「跨縣市幸福保衛站」，提供18歲以下的學子遭遇突發急 難需要幫助時，可至超商求助取餐，後續由超商通報縣市 政府，再視情況跨縣市通報、視個案情形挹注社福或教育 資源。感謝各縣市整合各方資源、凝聚更多善心的力量、 公私協力，用愛守護學子。 https://www.youtube.com/watch?v=iDjIwSONpvMhttps://www.youtube.com/watch?v=iDjIwSONpvM"
-    },
-    {
-      "id": "jianan-honors:691e63cd2a616ac26e8f23af",
-      "sourceId": "jianan-honors",
-      "guid": "691e63cd2a616ac26e8f23af",
-      "schools": [
-        "建安國小"
-      ],
-      "source": "榮譽榜",
-      "title": "建安國小114學年上學期 榮譽獎狀 第3次得獎學生名單",
-      "published": "2025-11-20T00:41:00+00:00",
-      "url": "https://www.jnps.tp.edu.tw/nss/main/freeze/5abf2d62aa93092cee58ceb4/61W1ukq5586/691e63cd2a616ac26e8f23af?vector=private&static=false",
-      "sourceUrl": "https://www.jnps.tp.edu.tw/nss/main/feeder/5abf2d62aa93092cee58ceb4/61W1ukq5586?f=normal&%240=AQoMNBw7626&vector=private&static=false",
-      "siteUrl": "https://www.jnps.tp.edu.tw",
-      "attachments": [
-        "榮譽狀得獎公告名單.pdf"
-      ],
-      "summary": "名單詳見附件"
     }
   ]
 }
