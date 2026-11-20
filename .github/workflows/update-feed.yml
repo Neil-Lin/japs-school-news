@@ -2,12 +2,15 @@ name: Update RSS data
 run-name: RSS · ${{ github.event_name }} · ${{ github.event.schedule || inputs.check_mode || 'manual' }}
 "on":
   schedule:
-    # UTC 02:30/08:30 = Taiwan 10:30/16:30.
-    - cron: '30 2 * * *'
-    - cron: '30 8 * * *'
+    - cron: '30 10 * * *'
+      timezone: Asia/Taipei
+    - cron: '30 16 * * *'
+      timezone: Asia/Taipei
     # One fallback opportunity per slot: Taiwan 11:40/17:40.
-    - cron: '40 3 * * *'
-    - cron: '40 9 * * *'
+    - cron: '40 11 * * *'
+      timezone: Asia/Taipei
+    - cron: '40 17 * * *'
+      timezone: Asia/Taipei
   workflow_dispatch:
     inputs:
       check_mode:
