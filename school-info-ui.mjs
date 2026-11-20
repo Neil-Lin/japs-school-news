@@ -1,8 +1,8 @@
 import {setupDialog} from './dialog-controller.mjs';
 import {safeURL} from './news-core.mjs';
+import {esc} from './format.mjs';
 import {reviewState} from './news-health.mjs';
 
-const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[char]));
 
 export function openingAnnouncements(articles, website, now = Date.now()) {
   const host = new URL(website).hostname;

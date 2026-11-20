@@ -4,13 +4,11 @@ import {
   sourcesOf, stateURL, originalLinks,
 } from './news-core.mjs';
 import {loadSnapshot} from './data-client.mjs';
+import {esc} from './format.mjs';
 import {setupLunchDialog} from './lunch-ui.mjs';
 import {setupSchoolInfoDialog, showOpeningAnnouncements} from './school-info-ui.mjs';
 import {snapshotHealth, sourceHealth} from './news-health.mjs';
 
-const esc = value => String(value ?? '').replace(/[&<>"']/g, char => (
-  {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[char]
-));
 const dateFormatter = new Intl.DateTimeFormat('zh-TW', {
   dateStyle: 'medium', timeStyle: 'short', timeZone: 'Asia/Taipei',
 });

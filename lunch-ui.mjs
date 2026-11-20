@@ -1,8 +1,8 @@
 import {setupDialog} from './dialog-controller.mjs';
 import {lunchSourceURL, taipeiDay} from './lunch-client.mjs';
 import {loadCurrentLunch} from './lunch-live.mjs';
+import {esc} from './format.mjs';
 
-const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[char]));
 const timeFormat = new Intl.DateTimeFormat('zh-TW', {month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false, timeZone: 'Asia/Taipei'});
 const dateFormat = new Intl.DateTimeFormat('zh-TW', {year: 'numeric', month: 'long', day: 'numeric', weekday: 'short', timeZone: 'Asia/Taipei'});
 const fmtTime = value => value ? timeFormat.format(new Date(value)) : '未提供';
