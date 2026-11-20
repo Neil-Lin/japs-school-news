@@ -14,7 +14,7 @@
 
 分類支援 checkbox 多選，預設不勾選「教育局消息」「研習資訊」「教師研習及活動」，其餘分類預設勾選；使用者仍可手動選取或按「全部」全選／取消全選，部分選取時顯示半選。預設排除以穩定分類 ID 定義，分類改名仍維持原設定；不依公告標題猜測受眾。分類之間取聯集，因此同篇若也出現在已選的親職資訊等分類，仍會顯示。搜尋條件再取交集；未選任何分類時不顯示公告。網址以分類 ID 記錄 `categories`、`q`、`page`，可分享並還原明確選擇；`categories=` 代表全不選，沒有該參數才使用預設。分類 ID 集中於 `config.json` 的 `categoryIds`，修改顯示名稱時應保留 ID。
 
-首次取得專案後，先執行 `python3 scripts/build_site.py` 產生本機資產，再執行 `python3 -m http.server 8000`，開啟 `http://localhost:8000/`。前端使用原生 ES modules，需透過 HTTP 預覽。完整回歸檢查統一使用 `python3 scripts/check_project.py`，不連線抓取 RSS、不提交或部署。它會檢查產生檔是否最新、重建資產、檢查 JavaScript 語法、執行 Node／Python 測試及資料驗證。工作流程 YAML 契約測試使用系統 Ruby/Psych；未安裝 Ruby 時會明確跳過該組測試，其餘檢查照常執行。
+首次取得專案後，先執行 `python3 scripts/build_site.py` 產生本機資產，再執行 `python3 -m http.server 8000`，開啟 `http://localhost:8000/`。前端使用原生 ES modules，需透過 HTTP 預覽。完整回歸檢查統一使用 `python3 scripts/check_project.py`，不連線抓取 RSS、不提交或部署。它會檢查產生檔是否最新、重建資產、檢查 JavaScript 語法、執行 Node／Python 測試及資料驗證。瀏覽器程式的共用寫法由 `tests/code-rules.test.mjs` 自動檢查：HTML 跳脫、台北時區日期格式與一天毫秒數只能使用 `format.mjs` 提供的 `esc`、`taipeiFormat`／`taipeiDay`、`DAY`。工作流程 YAML 契約測試使用系統 Ruby/Psych；未安裝 Ruby 時會明確跳過該組測試，其餘檢查照常執行。
 
 
 公告合併使用正規化原文網址或來源範圍內的 GUID，不以標題合併；同名不同篇公告會分開保留，同篇跨分類公告保留全部來源原文與附件。每個 RSS 來源在 `config.json` 有穩定的 `id`，修改名稱／網址時應保留 ID。
@@ -48,7 +48,7 @@ python3 -m http.server 8000 --directory dist
 
 建置器依內容產生帶雜湊的 JS／CSS 檔名，並同步改寫模組 import、HTML、service worker 預快取與 `assets-manifest.json`。底層模組變動會更新相依模組版本，無須手動修改 `?v=`。只有資料快照變動時不會更換頁面資源快取版本。
 
-`--output dist` 只打包明確列出的公開檔案，目前為 48 個（含 6 個午餐資料檔）；不包含 Git、工作流程、腳本、測試或模板。根目錄舊版 JS／CSS 仍保留供部署切換期間的既有客戶端使用。發布資料通過驗證且完整產生後才替換既有產物；輸出含未知檔案、符號連結或指向原始碼目錄時會拒絕覆寫。
+`--output dist` 只打包明確列出的公開檔案，目前為 54 個（含 6 個午餐資料檔）；不包含 Git、工作流程、腳本、測試或模板。根目錄舊版 JS／CSS 仍保留供部署切換期間的既有客戶端使用。發布資料通過驗證且完整產生後才替換既有產物；輸出含未知檔案、符號連結或指向原始碼目錄時會拒絕覆寫。
 
 ## 學校基本資訊
 
