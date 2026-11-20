@@ -56,6 +56,8 @@ class WorkflowContractTests(unittest.TestCase):
         guarded = [step for step in steps if step.get('name') in ('Fetch RSS and publish a validated snapshot', 'Validate the new snapshot and school artifacts', 'Save only generated data')]
         self.assertEqual(len(guarded), 3)
         self.assertTrue(all(step['if'] == "steps.plan.outputs.run_update == 'true'" for step in guarded))
+        # rss_schedule.py identifies primary runs only by this title prefix.
+        self.assertTrue(rss['run-name'].startswith('RSS · ${{ github.event_name }} · ${{ github.event.schedule'))
         self.assertIn('github.event_name', rss['run-name'])
         self.assertIn('github.event.schedule', rss['run-name'])
 
@@ -139,16 +141,30 @@ class WorkflowContractTests(unittest.TestCase):
     def test_all_schedules_declare_taipei_timezone_and_match_the_guard_policy(self):
         import sys
         sys.path.insert(0, str(ROOT / 'scripts'))
-        from rss_schedule import CURRENT_SCHEDULES, WATCHDOGS
+        from rss_schedule import SCHEDULES, WATCHDOGS
         for workflow in self.workflows.values():
             for schedule in workflow['on'].get('schedule', []):
                 self.assertEqual(schedule['timezone'], 'Asia/Taipei')
         for schedule in self.workflows['update-feed.yml']['on']['schedule']:
             minute, hour, *_ = schedule['cron'].split()
-            self.assertEqual(CURRENT_SCHEDULES[schedule['cron']][0], (int(hour), int(minute)))
+            self.assertEqual(SCHEDULES[schedule['cron']][0], (int(hour), int(minute)))
         for schedule in self.workflows['rss-watchdog.yml']['on']['schedule']:
             minute, hour, *_ = schedule['cron'].split()
             self.assertEqual(WATCHDOGS[schedule['cron']][0], (int(hour), int(minute)))
+
+    def test_schedule_guards_accept_only_crons_the_workflows_declare(self):
+        import re
+        import sys
+        sys.path.insert(0, str(ROOT / 'scripts'))
+        from rss_schedule import SCHEDULES, WATCHDOGS
+        declared = lambda name: {s['cron'] for s in self.workflows[name]['on']['schedule']}
+        message = '排程判斷不得保留工作流程未宣告的 cron：舊 cron 相容碼會一直留著被照抄。切換排程後請刪除舊表示法。'
+        self.assertEqual(set(SCHEDULES), declared('update-feed.yml'), message)
+        self.assertEqual(set(WATCHDOGS), declared('rss-watchdog.yml'), message)
+        for name, workflow in self.workflows.items():
+            for job in workflow['jobs'].values():
+                used = set(re.findall(r"github\.event\.schedule == '([^']+)'", job.get('if', '')))
+                self.assertLessEqual(used, declared(name) if used else set(), f'{name}: {message}')
 
 
 if __name__ == '__main__':

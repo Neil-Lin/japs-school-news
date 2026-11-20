@@ -8,31 +8,19 @@ from pathlib import Path
 import re
 from urllib.error import HTTPError
 from urllib.request import HTTPRedirectHandler, Request, build_opener
-from zoneinfo import ZoneInfo
+
+from taipei_time import TAIPEI
 
 ROOT = Path(__file__).resolve().parents[1]
-TAIPEI = ZoneInfo('Asia/Taipei')
-# Current workflows declare Asia/Taipei explicitly. Retain old UTC expressions
-# for queued runs and historical records during the migration.
-CURRENT_SCHEDULES = {
+# Workflow cron (timezone: Asia/Taipei) -> trigger time, data slot, kind.
+SCHEDULES = {
     '30 10 * * *': ((10, 30), (10, 30), 'primary'),
     '30 16 * * *': ((16, 30), (16, 30), 'primary'),
     '40 11 * * *': ((11, 40), (10, 30), 'fallback'),
     '40 17 * * *': ((17, 40), (16, 30), 'fallback'),
 }
-LEGACY_SCHEDULES = {
-    '30 2 * * *': ((10, 30), (10, 30), 'primary'),
-    '30 8 * * *': ((16, 30), (16, 30), 'primary'),
-    '40 3 * * *': ((11, 40), (10, 30), 'fallback'),
-    '40 9 * * *': ((17, 40), (16, 30), 'fallback'),
-}
-SCHEDULES = {**CURRENT_SCHEDULES, **LEGACY_SCHEDULES}
 PRIMARY = {(10, 30): '30 10 * * *', (16, 30): '30 16 * * *'}
-LEGACY_PRIMARY = {(10, 30): '30 2 * * *', (16, 30): '30 8 * * *'}
-WATCHDOGS = {
-    '13 12 * * *': ((12, 13), (10, 30)), '13 18 * * *': ((18, 13), (16, 30)),
-    '13 4 * * *': ((12, 13), (10, 30)), '13 10 * * *': ((18, 13), (16, 30)),
-}
+WATCHDOGS = {'13 12 * * *': ((12, 13), (10, 30)), '13 18 * * *': ((18, 13), (16, 30))}
 GRACE = timedelta(minutes=90)
 PUBLISH_GRACE = timedelta(minutes=20)
 
@@ -40,7 +28,7 @@ PUBLISH_GRACE = timedelta(minutes=20)
 def timestamp(value):
     if not isinstance(value, str):
         raise ValueError('Missing timestamp')
-    result = datetime.fromisoformat(value.replace('Z', '+00:00'))
+    result = datetime.fromisoformat(value)
     if result.tzinfo is None:
         raise ValueError('Timestamp must contain a timezone')
     return result
@@ -111,13 +99,9 @@ def assess(version, public, runs, now, slot=None):
     slot = slot or latest_slot(now)
     committed = coverage(version, slot, now)
     published = coverage(public, slot, now)
-    primary_expressions = {PRIMARY[(slot.hour, slot.minute)], LEGACY_PRIMARY[(slot.hour, slot.minute)]}
-    expected_titles = {'RSS · schedule · ' + expression for expression in primary_expressions}
-    relevant = [run for run in runs if run.get('event') == 'schedule' and run.get('head_branch') == 'main'
-                and timestamp(run['created_at']) >= slot]
-    primary = [run for run in relevant if run.get('display_title') in expected_titles]
-    # Historical runs did not identify their cron expression. Never infer a slot for them.
-    legacy = [run['id'] for run in relevant if not run.get('display_title', '').startswith('RSS · schedule · ')]
+    expected_title = 'RSS · schedule · ' + PRIMARY[(slot.hour, slot.minute)]
+    primary = [run for run in runs if run.get('event') == 'schedule' and run.get('head_branch') == 'main'
+               and run.get('display_title') == expected_title and timestamp(run['created_at']) >= slot]
     errors, warnings, notes = [], [], []
     overdue = now >= slot + GRACE
     if overdue and not committed['covered'] and not published['covered']:
@@ -126,7 +110,7 @@ def assess(version, public, runs, now, slot=None):
         notes.append('Within the 90-minute grace period; source check may still be pending.')
     if not primary:
         notes.append('No identified primary schedule run for this slot. Fresh data alone does not prove native scheduling is on time.')
-        if overdue and not legacy:
+        if overdue:
             warnings.append('primary-run-missing')
     elif any(run.get('conclusion') == 'success' for run in primary):
         notes.append('An identified primary run succeeded; actual creation time is recorded separately from the planned slot.')
@@ -154,7 +138,7 @@ def assess(version, public, runs, now, slot=None):
             'primarySchedule': PRIMARY[(slot.hour, slot.minute)],
             'primaryRuns': [{**{key: run.get(key) for key in ('id', 'created_at', 'run_started_at', 'run_attempt', 'status', 'conclusion')},
                              'creationDelayMinutes': round((timestamp(run['created_at']) - slot).total_seconds() / 60, 2)} for run in primary],
-            'unattributedLegacyScheduledRuns': legacy, 'errors': sorted(set(errors)), 'warnings': sorted(set(warnings)), 'notes': notes}
+            'errors': sorted(set(errors)), 'warnings': sorted(set(warnings)), 'notes': notes}
 
 
 class NoRedirect(HTTPRedirectHandler):

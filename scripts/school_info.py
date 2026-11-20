@@ -5,7 +5,8 @@ import re
 from datetime import date, datetime
 from pathlib import Path
 from urllib.parse import urlencode, urlparse
-from zoneinfo import ZoneInfo
+
+from taipei_time import TAIPEI
 
 
 def require(condition, message):
@@ -42,7 +43,7 @@ def load_info(root, config):
         for kind in ('contact', 'opening'):
             review = item['reviews'][kind]
             checked = date.fromisoformat(review['checkedOn'])
-            require(checked <= datetime.now(ZoneInfo('Asia/Taipei')).date(), '查核日期不得在未來')
+            require(checked <= datetime.now(TAIPEI).date(), '查核日期不得在未來')
             require(type(review['intervalDays']) is int and 1 <= review['intervalDays'] <= 365, '查核週期錯誤')
         name, meta = known[slug]
         require(bool(re.fullmatch(r'\d{6}', item['schoolId'])) and item['schoolId'] not in ids, '學校代碼錯誤或重複')

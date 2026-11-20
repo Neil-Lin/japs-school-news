@@ -10,7 +10,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from rss_schedule import assess, coverage, gate, latest_slot, scheduled_slot, watchdog_slot, SCHEDULES, CURRENT_SCHEDULES
+from rss_schedule import assess, coverage, gate, latest_slot, scheduled_slot, watchdog_slot, SCHEDULES
 import rss_schedule
 
 
@@ -36,21 +36,18 @@ class ScheduleTests(unittest.TestCase):
         self.assertEqual(latest_slot(at('2026-11-18T16:30:00').astimezone(timezone.utc)), at('2026-11-18T16:30:00'))
 
     def test_delayed_primary_and_fallback_map_to_the_same_expected_slot(self):
-        for expression in ('30 16 * * *', '40 17 * * *', '30 8 * * *', '40 9 * * *'):
+        for expression in ('30 16 * * *', '40 17 * * *'):
             self.assertEqual(scheduled_slot(expression, at('2026-11-18T19:00:00'))[0], at('2026-11-18T16:30:00'))
             self.assertEqual(scheduled_slot(expression, at('2026-11-19T01:00:00'))[0], at('2026-11-18T16:30:00'))
-        self.assertEqual(set(CURRENT_SCHEDULES), {'30 10 * * *', '30 16 * * *', '40 11 * * *', '40 17 * * *'})
-        self.assertEqual(len(SCHEDULES), 8)
+        self.assertEqual(set(SCHEDULES), {'30 10 * * *', '30 16 * * *', '40 11 * * *', '40 17 * * *'})
 
     def test_late_watchdog_still_checks_its_intended_slot(self):
         now = at('2026-11-18T19:00:00')
-        morning = watchdog_slot('13 4 * * *', now)
+        morning = watchdog_slot('13 12 * * *', now)
         self.assertEqual(morning, at('2026-11-18T10:30:00'))
-        self.assertEqual(watchdog_slot('13 10 * * *', now), at('2026-11-18T16:30:00'))
-        self.assertEqual(watchdog_slot('', now), at('2026-11-18T16:30:00'))
-        self.assertEqual(watchdog_slot('13 4 * * *', at('2026-11-19T01:00:00')), morning)
-        self.assertEqual(watchdog_slot('13 12 * * *', now), morning)
         self.assertEqual(watchdog_slot('13 18 * * *', now), at('2026-11-18T16:30:00'))
+        self.assertEqual(watchdog_slot('', now), at('2026-11-18T16:30:00'))
+        self.assertEqual(watchdog_slot('13 12 * * *', at('2026-11-19T01:00:00')), morning)
         report = assess(snapshot(), snapshot(), [run()], now, slot=morning)
         self.assertIn('primary-run-missing', report['warnings'])
         self.assertEqual(report['primarySchedule'], '30 10 * * *')
@@ -58,20 +55,20 @@ class ScheduleTests(unittest.TestCase):
     def test_fallback_reads_missing_slot_but_skips_after_primary_or_manual_success(self):
         now = at('2026-11-18T17:40:00')
         old = snapshot('2026-11-18T11:55:00')
-        self.assertTrue(gate(old, 'schedule', '40 9 * * *', 'manual', now)['runUpdate'])
+        self.assertTrue(gate(old, 'schedule', '40 17 * * *', 'manual', now)['runUpdate'])
         fresh = snapshot()
         before = copy.deepcopy(fresh)
-        self.assertFalse(gate(fresh, 'schedule', '40 9 * * *', 'manual', now)['runUpdate'])
+        self.assertFalse(gate(fresh, 'schedule', '40 17 * * *', 'manual', now)['runUpdate'])
         self.assertFalse(gate(fresh, 'workflow_dispatch', '', 'fallback-check', now)['runUpdate'])
         self.assertEqual(fresh, before)
 
     def test_late_primary_skips_after_backup_and_partial_failure_still_gets_backup(self):
         now = at('2026-11-18T19:00:00')
         fresh = snapshot('2026-11-18T17:41:00')
-        self.assertFalse(gate(fresh, 'schedule', '30 8 * * *', 'manual', now)['runUpdate'])
+        self.assertFalse(gate(fresh, 'schedule', '30 16 * * *', 'manual', now)['runUpdate'])
         fresh['sourceStatus'][0]['status'] = 'error'
         fresh['sourceStatus'][0]['lastSuccessfulAt'] = at('2026-11-18T10:31:00').isoformat()
-        self.assertTrue(gate(fresh, 'schedule', '40 9 * * *', 'manual', now)['runUpdate'])
+        self.assertTrue(gate(fresh, 'schedule', '40 17 * * *', 'manual', now)['runUpdate'])
 
     def test_explicit_manual_run_remains_a_manual_read_and_unknown_inputs_fail(self):
         now = at('2026-11-18T19:00:00')
@@ -103,13 +100,13 @@ class ScheduleTests(unittest.TestCase):
         self.assertEqual(report['primaryRuns'][0]['created_at'], late['created_at'])
         self.assertEqual(report['primaryRuns'][0]['creationDelayMinutes'], 115)
 
-    def test_legacy_runs_are_marked_unattributed_instead_of_claiming_a_primary_slot(self):
+    def test_runs_without_a_cron_title_never_claim_a_primary_slot(self):
         current = snapshot('2026-11-18T18:25:00')
-        legacy = {**run(created='2026-11-18T18:25:00'), 'display_title': 'Update RSS data'}
-        report = assess(current, current, [legacy], at('2026-11-18T19:00:00'))
-        self.assertEqual(report['unattributedLegacyScheduledRuns'], [123])
+        untitled = {**run(created='2026-11-18T18:25:00'), 'display_title': 'Update RSS data'}
+        report = assess(current, current, [untitled], at('2026-11-18T19:00:00'))
         self.assertEqual(report['primaryRuns'], [])
         self.assertEqual(report['errors'], [])
+        self.assertEqual(report['warnings'], ['primary-run-missing'])
 
     def test_publishing_gets_twenty_minutes_then_alerts_and_newer_public_data_is_valid(self):
         old, new = snapshot('2026-11-18T11:55:00'), snapshot('2026-11-18T18:01:00')
@@ -173,7 +170,7 @@ class ScheduleTests(unittest.TestCase):
         # Production run 44593488105: all sources and public version were healthy.
         now = datetime.fromisoformat('2026-11-19T18:59:04.078355+00:00')
         current = snapshot('2026-11-19T18:34:00.736225')
-        native = run(expression='30 8 * * *', created='2026-11-20T01:29:34')
+        native = run(expression='30 16 * * *', created='2026-11-20T01:29:34')
         native['id'] = 44577741061
         slot = at('2026-11-19T16:30:00')
         result = assess(current, current, [native], now, slot=slot)
@@ -184,15 +181,15 @@ class ScheduleTests(unittest.TestCase):
         self.assertEqual(result['status'], 'warning')
         self.assertEqual(result['primaryRuns'][0]['creationDelayMinutes'], 539.57)
         # Production run 44528509724 had the same recovered condition in the morning.
-        morning = run(expression='30 2 * * *', created='2026-11-19T18:33:23')
+        morning = run(expression='30 10 * * *', created='2026-11-19T18:33:23')
         result = assess(current, current, [morning], at('2026-11-19T20:56:21'), slot=at('2026-11-19T10:30:00'))
         self.assertEqual(result['errors'], [])
         self.assertEqual(result['warnings'], ['primary-start-delayed'])
         # Production run 44738826988: the 10:30 primary was created 464 minutes late,
         # the watchdog itself ran at 20:48, and data/public were already covered.
         recovered = snapshot('2026-11-20T18:14:47.279848')
-        late = run(expression='30 2 * * *', created='2026-11-20T18:14:20')
-        result = assess(recovered, recovered, [late], at('2026-11-20T20:48:25'), slot=watchdog_slot('13 4 * * *', at('2026-11-20T20:48:25')))
+        late = run(expression='30 10 * * *', created='2026-11-20T18:14:20')
+        result = assess(recovered, recovered, [late], at('2026-11-20T20:48:25'), slot=watchdog_slot('13 12 * * *', at('2026-11-20T20:48:25')))
         self.assertEqual(result['slot'], at('2026-11-20T10:30:00').isoformat())
         self.assertEqual(result['errors'], [])
         self.assertEqual(result['warnings'], ['primary-start-delayed'])
@@ -206,9 +203,9 @@ class ScheduleTests(unittest.TestCase):
             path = root / 'data/version.json'
             path.write_text(json.dumps(current))
             before = path.read_bytes()
-            native = run(expression='30 8 * * *', created='2026-11-20T01:29:34')
+            native = run(expression='30 16 * * *', created='2026-11-20T01:29:34')
             output = io.StringIO()
-            with patch.object(rss_schedule, 'ROOT', root), patch.dict('os.environ', {'GITHUB_REPOSITORY': 'Neil-Lin/japs-school-news', 'RSS_WATCHDOG_CRON': '13 10 * * *'}, clear=True), patch.object(rss_schedule, 'get_json', side_effect=[{'workflow_runs': [native]}, current]), redirect_stdout(output):
+            with patch.object(rss_schedule, 'ROOT', root), patch.dict('os.environ', {'GITHUB_REPOSITORY': 'Neil-Lin/japs-school-news', 'RSS_WATCHDOG_CRON': '13 18 * * *'}, clear=True), patch.object(rss_schedule, 'get_json', side_effect=[{'workflow_runs': [native]}, current]), redirect_stdout(output):
                 rss_schedule.main(['--watchdog'], now=at('2026-11-20T02:59:04'))
             report = json.loads((root / 'reports/rss-watchdog.json').read_text())
             self.assertEqual(report['status'], 'warning')
@@ -216,17 +213,23 @@ class ScheduleTests(unittest.TestCase):
             self.assertNotIn('::error', output.getvalue())
             self.assertEqual(path.read_bytes(), before)
 
-    def test_new_and_old_cron_records_match_without_treating_manual_runs_as_native(self):
+    def test_only_the_declared_primary_cron_counts_as_native(self):
         current = snapshot()
         now = at('2026-11-18T18:13:00')
-        for expression in ('30 16 * * *', '30 8 * * *'):
+        result = assess(current, current, [run(expression='30 16 * * *')], now)
+        self.assertEqual(result['status'], 'ok')
+        self.assertEqual(len(result['primaryRuns']), 1)
+        for expression in ('40 17 * * *', '30 8 * * *'):
             with self.subTest(expression=expression):
-                result = assess(current, current, [run(expression=expression)], now)
-                self.assertEqual(result['status'], 'ok')
-                self.assertEqual(len(result['primaryRuns']), 1)
-        missing = assess(current, current, [run(expression='40 17 * * *')], now)
-        self.assertEqual(missing['primaryRuns'], [])
-        self.assertIn('primary-run-missing', missing['warnings'])
+                missing = assess(current, current, [run(expression=expression)], now)
+                self.assertEqual(missing['primaryRuns'], [])
+                self.assertIn('primary-run-missing', missing['warnings'])
+
+    def test_retired_utc_crons_are_rejected(self):
+        with self.assertRaises(ValueError):
+            gate(snapshot(), 'schedule', '30 8 * * *', 'manual', at('2026-11-18T18:13:00'))
+        with self.assertRaises(ValueError):
+            watchdog_slot('13 10 * * *', at('2026-11-18T19:00:00'))
 
 
 if __name__ == '__main__':

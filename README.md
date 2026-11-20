@@ -14,7 +14,7 @@
 
 分類支援 checkbox 多選，預設不勾選「教育局消息」「研習資訊」「教師研習及活動」，其餘分類預設勾選；使用者仍可手動選取或按「全部」全選／取消全選，部分選取時顯示半選。預設排除以穩定分類 ID 定義，分類改名仍維持原設定；不依公告標題猜測受眾。分類之間取聯集，因此同篇若也出現在已選的親職資訊等分類，仍會顯示。搜尋條件再取交集；未選任何分類時不顯示公告。網址以分類 ID 記錄 `categories`、`q`、`page`，可分享並還原明確選擇；`categories=` 代表全不選，沒有該參數才使用預設。分類 ID 集中於 `config.json` 的 `categoryIds`，修改顯示名稱時應保留 ID。
 
-首次取得專案後，先執行 `python3 scripts/build_site.py` 產生本機資產，再執行 `python3 -m http.server 8000`，開啟 `http://localhost:8000/`。前端使用原生 ES modules，需透過 HTTP 預覽。完整回歸檢查統一使用 `python3 scripts/check_project.py`，不連線抓取 RSS、不提交或部署。它會檢查產生檔是否最新、重建資產、檢查 JavaScript 語法、執行 Node／Python 測試及資料驗證。程式寫法由 `tests/code-rules.test.mjs` 自動檢查，掃描所有原始碼目錄（含日後新增的目錄）：HTML 跳脫、台北時區日期格式、一天毫秒數、SHA-256 雜湊與請求逾時只能使用 `format.mjs` 提供的 `esc`、`taipeiFormat`／`taipeiDay`、`DAY`、`sha256Hex`、`withDeadline`；Python 發布資料時逐檔替換與失敗回復只能使用 `scripts/atomic_files.py` 的 `replace_files`；不得新增零延遲計時器補時序，也不得加入忽略檢查的標記。工作流程 YAML 契約測試使用系統 Ruby/Psych；未安裝 Ruby 時會明確跳過該組測試，其餘檢查照常執行。
+首次取得專案後，先執行 `python3 scripts/build_site.py` 產生本機資產，再執行 `python3 -m http.server 8000`，開啟 `http://localhost:8000/`。前端使用原生 ES modules，需透過 HTTP 預覽。完整回歸檢查統一使用 `python3 scripts/check_project.py`，不連線抓取 RSS、不提交或部署。它會檢查產生檔是否最新、重建資產、檢查 JavaScript 語法、執行 Node／Python 測試及資料驗證。程式寫法由 `tests/code-rules.test.mjs` 自動檢查，掃描所有原始碼目錄（含日後新增的目錄）：HTML 跳脫、台北時區日期格式、一天毫秒數、SHA-256 雜湊與請求逾時只能使用 `format.mjs` 提供的 `esc`、`taipeiFormat`／`taipeiDay`、`DAY`、`sha256Hex`、`withDeadline`；Python 發布資料時逐檔替換與失敗回復只能使用 `scripts/atomic_files.py` 的 `replace_files`，台北時區只能使用 `scripts/taipei_time.py` 的 `TAIPEI`，解析 ISO 時間直接用 `datetime.fromisoformat`、不手動把 `Z` 換成 `+00:00`；不得新增零延遲計時器補時序，也不得加入忽略檢查的標記。工作流程 YAML 契約測試使用系統 Ruby/Psych；未安裝 Ruby 時會明確跳過該組測試，其餘檢查照常執行。
 
 
 公告合併使用正規化原文網址或來源範圍內的 GUID，不以標題合併；同名不同篇公告會分開保留，同篇跨分類公告保留全部來源原文與附件。每個 RSS 來源在 `config.json` 有穩定的 `id`，修改名稱／網址時應保留 ID。
@@ -94,7 +94,7 @@ Hero 的「今日午餐」開啟桌機視窗／手機全螢幕視窗，依供餐
 
 Pages部署後會逐檔核對公開內容是否與實際部署產物一致。維護報告留在Actions摘要／artifact，家長沿用既有更新詳情；基本資訊底部另有逐校、逐類資料查核日期及逾期提醒。檢查命令、報告、效能預算及回復方式見 [維護工程](docs/maintenance.md)。
 
-所有排程明確宣告 `timezone: Asia/Taipei`，cron直接使用臺灣時間。更新器與偵測器保留舊UTC cron識別，支援切換前已排隊的執行及歷史紀錄。
+所有排程明確宣告 `timezone: Asia/Taipei`，cron直接使用臺灣時間。更新器與偵測器只接受工作流程目前宣告的cron，由契約測試核對。
 
 資料 bot 使用的 `GITHUB_TOKEN` 提交不會再觸發 push 工作流程，因此資料更新透過成功的 `workflow_run` 接續部署。部署重新 checkout 可信的目前 main，不使用上游工作流程提供的程式碼或產物。Pages 與 OIDC 寫入權限只授予部署 job，RSS／午餐工作流程沒有 Pages 權限。兩種資料更新各自提交限定路徑；遠端 main 前進造成 push 失敗時需重跑，不強制推送或覆蓋其他更新。
 
