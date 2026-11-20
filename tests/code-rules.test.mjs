@@ -106,6 +106,10 @@ frozenRule('Python parses ISO "Z" timestamps natively', linesMatching(/\.replace
   '禁止在 fromisoformat 前手動把 Z 換成 +00:00：Python 3.11 起已原生支援 Z，這段繞路寫法多餘且會被照抄。請直接寫 datetime.fromisoformat(value)。',
   pythonFiles);
 
+frozenRule('Python Taipei time zone comes from taipei_time.py', linesMatching(/\bZoneInfo\s*\(/), {'scripts/taipei_time.py': 1},
+  '禁止在 scripts/taipei_time.py 以外自行建立 ZoneInfo：時區設定分散多份，容易一份寫錯或漏改。請改用 from taipei_time import TAIPEI。',
+  pythonFiles);
+
 const IGNORE_MARKER = new RegExp([
   ['eslint', 'disable'].join('-'), '@ts-' + '(?:ignore|nocheck|expect-error)', 'no' + 'qa\\b', 'type:\\s*' + 'ignore',
   'pragma:\\s*no ' + 'cover', ['biome', 'ignore'].join('-'), ['prettier', 'ignore'].join('-'), 'pylint:\\s*' + 'disable',

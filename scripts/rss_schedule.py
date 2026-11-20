@@ -8,10 +8,10 @@ from pathlib import Path
 import re
 from urllib.error import HTTPError
 from urllib.request import HTTPRedirectHandler, Request, build_opener
-from zoneinfo import ZoneInfo
+
+from taipei_time import TAIPEI
 
 ROOT = Path(__file__).resolve().parents[1]
-TAIPEI = ZoneInfo('Asia/Taipei')
 # Current workflows declare Asia/Taipei explicitly. Retain old UTC expressions
 # for queued runs and historical records during the migration.
 CURRENT_SCHEDULES = {

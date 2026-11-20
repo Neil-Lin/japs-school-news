@@ -10,13 +10,13 @@ import urllib.request
 from datetime import date, datetime, timezone
 from pathlib import Path
 from urllib.parse import urlencode
-from zoneinfo import ZoneInfo
 
 from atomic_files import replace_files
 from lunch_contract import (BASE_URL, LunchError, encode, identifier,
                             ingredient_status, load_settings, meal_date, read_bundle,
                             require, snapshot_reference, source_url, text, timestamp,
                             validate_bundle, validate_snapshot)
+from taipei_time import TAIPEI
 
 ROOT = Path(__file__).resolve().parents[1]
 MAX_RESPONSE_BYTES = 2_000_000
@@ -251,7 +251,7 @@ def publish(schools, manifest, files, directory):
 
 
 def taipei_day(now):
-    return now.astimezone(ZoneInfo('Asia/Taipei')).date()
+    return now.astimezone(TAIPEI).date()
 
 
 def main(argv=None):
