@@ -52,3 +52,38 @@ jobs:
             playwright-report/
             test-results/
           retention-days: 14
+  visual:
+    # Report-only: lists screenshots that differ from the base branch; never fails the pull request on a difference.
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: ./.github/actions/setup
+      - run: npm ci --ignore-scripts
+      - run: npx playwright install --with-deps chromium webkit
+      - name: Capture this pull request
+        run: |
+          python scripts/build_site.py --output dist
+          node tests/visual/capture.mjs reports/visual/head
+      - name: Capture the base branch with the same data
+        continue-on-error: true
+        env:
+          BASE_REF: ${{ github.base_ref }}
+        run: |
+          git worktree add ../visual-base "origin/$BASE_REF"
+          rm -r ../visual-base/data
+          cp -R data ../visual-base/data
+          (cd ../visual-base && python scripts/build_site.py --output dist)
+          node tests/visual/capture.mjs reports/visual/base --dist ../visual-base/dist
+      - name: Report screenshot differences
+        run: node tests/visual/compare.mjs reports/visual/base reports/visual/head
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: visual-comparison
+          path: reports/visual/
+          retention-days: 14

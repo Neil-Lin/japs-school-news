@@ -26,6 +26,17 @@ class WorkflowContractTests(unittest.TestCase):
         self.assertFalse(any('deploy-pages' in step.get('uses', '') for step in steps))
         self.assertFalse(steps[0]['with']['persist-credentials'])
 
+    def test_pull_requests_compare_screenshots_without_blocking(self):
+        job = self.workflows['ci.yml']['jobs']['visual']
+        self.assertEqual(job['if'], "github.event_name == 'pull_request'")
+        self.assertFalse(job['steps'][0]['with']['persist-credentials'])
+        commands = '\n'.join(step.get('run', '') for step in job['steps'])
+        self.assertIn('node tests/visual/capture.mjs reports/visual/head', commands)
+        self.assertIn('cp -R data ../visual-base/data', commands)
+        report = next(step for step in job['steps'] if 'tests/visual/compare.mjs' in step.get('run', ''))
+        self.assertNotIn('--strict', report['run'])
+        self.assertTrue(any('upload-artifact' in step.get('uses', '') and step.get('if') == 'always()' for step in job['steps']))
+
     def test_rss_workflow_only_updates_data_and_keeps_taiwan_schedule(self):
         rss = self.workflows['update-feed.yml']
         self.assertEqual({item['cron'] for item in rss['on']['schedule']}, {'30 2 * * *', '30 8 * * *', '40 3 * * *', '40 9 * * *'})
