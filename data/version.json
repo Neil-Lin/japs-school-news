@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "dataVersion": "fc0d0a413cc58897e47d68504a97bc8e21272638c5243bf6ac35f8c6ea9a01d8",
+  "dataVersion": "c4efc576475b0fefc5fee85fac14924dd30e9dc90d331349572e8efac6e61730",
   "configVersion": "e655b799fc152b4c4258f19554bbd5607c524995e4666810f3ee9d5e63d5b639",
-  "updatedAt": "2026-11-22T09:59:40.303487+00:00",
-  "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+  "updatedAt": "2026-11-23T10:57:26.105969+00:00",
+  "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
   "sourceStatus": [
     {
       "id": "boai-epidemic-info",
@@ -11,8 +11,8 @@
       "schools": [
         "博愛國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 26,
       "status": "ok",
       "itemCount": 26,
@@ -26,8 +26,8 @@
       "schools": [
         "博愛國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -41,8 +41,8 @@
       "schools": [
         "博愛國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -56,8 +56,8 @@
       "schools": [
         "博愛國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -71,8 +71,8 @@
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 58,
       "status": "ok",
       "itemCount": 58,
@@ -86,8 +86,8 @@
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 22,
       "status": "ok",
       "itemCount": 22,
@@ -101,8 +101,8 @@
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 29,
       "status": "ok",
       "itemCount": 29,
@@ -116,8 +116,8 @@
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 4,
       "status": "ok",
       "itemCount": 4,
@@ -131,8 +131,8 @@
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 48,
       "status": "ok",
       "itemCount": 48,
@@ -146,8 +146,8 @@
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 8,
       "status": "ok",
       "itemCount": 8,
@@ -161,8 +161,8 @@
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 33,
       "status": "warning",
       "itemCount": 33,
@@ -178,8 +178,8 @@
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 79,
       "status": "warning",
       "itemCount": 79,
@@ -195,8 +195,8 @@
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 100,
       "status": "warning",
       "itemCount": 100,
@@ -212,8 +212,8 @@
       "schools": [
         "敦化國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 6,
       "status": "ok",
       "itemCount": 6,
@@ -227,8 +227,8 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -242,8 +242,8 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 13,
       "status": "ok",
       "itemCount": 13,
@@ -257,8 +257,8 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 1,
       "status": "ok",
       "itemCount": 1,
@@ -272,8 +272,8 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -287,8 +287,8 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 21,
       "status": "ok",
       "itemCount": 21,
@@ -302,8 +302,8 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -317,8 +317,8 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 6,
       "status": "ok",
       "itemCount": 6,
@@ -332,8 +332,8 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 84,
       "status": "ok",
       "itemCount": 84,
@@ -347,8 +347,8 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -362,8 +362,8 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -377,8 +377,8 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 43,
       "status": "ok",
       "itemCount": 43,
@@ -392,8 +392,8 @@
       "schools": [
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -407,8 +407,8 @@
       "schools": [
         "建安國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 84,
       "status": "ok",
       "itemCount": 84,
@@ -422,8 +422,8 @@
       "schools": [
         "建安國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 49,
       "status": "ok",
       "itemCount": 49,
@@ -437,8 +437,8 @@
       "schools": [
         "建安國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -452,8 +452,8 @@
       "schools": [
         "建安國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 76,
       "status": "ok",
       "itemCount": 76,
@@ -467,8 +467,8 @@
       "schools": [
         "建安國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -482,8 +482,8 @@
       "schools": [
         "建安國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 90,
       "status": "ok",
       "itemCount": 90,
@@ -497,8 +497,8 @@
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 17,
       "status": "ok",
       "itemCount": 17,
@@ -512,8 +512,8 @@
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -527,8 +527,8 @@
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -542,8 +542,8 @@
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -557,8 +557,8 @@
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -572,8 +572,8 @@
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 16,
       "status": "ok",
       "itemCount": 16,
@@ -587,12 +587,12 @@
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 56,
       "status": "ok",
-      "itemCount": 56,
-      "lastSuccessfulItemCount": 56,
+      "itemCount": 55,
+      "lastSuccessfulItemCount": 55,
       "warnings": [],
       "consecutiveFailures": 0
     },
@@ -602,8 +602,8 @@
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 17,
       "status": "ok",
       "itemCount": 17,
@@ -617,8 +617,8 @@
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 37,
       "status": "ok",
       "itemCount": 37,
@@ -632,8 +632,8 @@
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 53,
       "status": "ok",
       "itemCount": 53,
@@ -647,8 +647,8 @@
       "schools": [
         "仁愛國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 100,
       "status": "ok",
       "itemCount": 100,
@@ -666,8 +666,8 @@
         "博愛國小",
         "光復國小"
       ],
-      "lastAttemptAt": "2026-11-22T09:59:40.303487+00:00",
-      "lastSuccessfulAt": "2026-11-22T09:59:40.303487+00:00",
+      "lastAttemptAt": "2026-11-23T10:57:26.105969+00:00",
+      "lastSuccessfulAt": "2026-11-23T10:57:26.105969+00:00",
       "previousItemCount": 50,
       "status": "ok",
       "itemCount": 50,
@@ -682,32 +682,32 @@
     "renai": {
       "school": "仁愛國小",
       "path": "data/schools/renai.json",
-      "dataVersion": "03005b44296ca06f1fe445b72d8c188125fb8eec29ef83027bde949023c9bcb1",
-      "articleCount": 1025
+      "dataVersion": "f437b6850d3271711256257f50f6063349050f298befdffd9e260e8ce2636d90",
+      "articleCount": 1028
     },
     "jianan": {
       "school": "建安國小",
       "path": "data/schools/jianan.json",
-      "dataVersion": "2ac1e965f3a15516a6d9b5c096f1566b2fd30fbfb6161b1be5455df200b074b6",
-      "articleCount": 1068
+      "dataVersion": "50fb46c71870b8b4e06ae40984011222e06ca8c969800bd0e197e8ccfef306b7",
+      "articleCount": 1072
     },
     "dunhua": {
       "school": "敦化國小",
       "path": "data/schools/dunhua.json",
-      "dataVersion": "b2801c8858b629354fc333b5b74f8e394660dcb40c1f6feda9f6afec2bdd6f21",
-      "articleCount": 692
+      "dataVersion": "630b87db239df70716b4e51d2f09324eec37074e967551ba3d624a6a918a1007",
+      "articleCount": 694
     },
     "boai": {
       "school": "博愛國小",
       "path": "data/schools/boai.json",
-      "dataVersion": "2d02edb540927fd26f8bd3bd088b7576d6018662fb6e4a9f519e5bc03c22c776",
-      "articleCount": 957
+      "dataVersion": "1d89b15440200a93b518fbf075e50504080e28b00b3629ba38278848c0711e7a",
+      "articleCount": 961
     },
     "guangfu": {
       "school": "光復國小",
       "path": "data/schools/guangfu.json",
-      "dataVersion": "ae2eb142dbaeea785c6e8cdc1e3798e1a63a647f7cbaf6586ba44ed7c3e88a78",
-      "articleCount": 1150
+      "dataVersion": "2ee899d8a06441eb015cb9c82ef0b58f72402b178c9942d3aa33e8185c87de00",
+      "articleCount": 1152
     }
   }
 }
